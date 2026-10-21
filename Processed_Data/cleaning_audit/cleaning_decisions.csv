@@ -1,0 +1,15 @@
+rule_id,anomaly,detection,treatment,reason_and_evidence
+R01,Identical copies of one observation,same key and identical arrivals/min/max/modal,"keep one row (lowest source_row; copies are identical so the choice carries no information), record n_identical_copies, list removed source_rows",copies double-count arrivals; nothing is lost
+R02,"Same key, prices agree, arrivals differ",observed 0 times in all three crops,would be treated as R03,kept as an explicit category for completeness
+R03,Conflicting versions of one key,"same key, arrivals identical, prices differ","keep every version, dup_status=conflict_unresolved, exclude from usable_modal_price/usable_arrivals, list in review_records.csv",no field identifies the correct quote (possibly ungraded lots); averaging or choosing would invent a price
+R04,Zero price (min/max/modal),price == 0,"set missing, <field>_status=zero_set_missing","positive arrivals cannot trade at Rs 0; every min>max case disappears once zeros are missing, i.e. zero is a 'not reported' placeholder"
+R05,Negative or non-finite price,price < 0 or +-inf,set missing with status,physically impossible; observed 0 times
+R06,Missing price in source,NaN in Phase 4,kept missing,never imputed in Phase 5
+R07,Min price > max price,both present after R04,"flag min_gt_max, exclude from usable_modal_price",internally inconsistent record
+R08,"Modal outside [min, max]",all present after R04,"flag modal_outside_range, value kept, excluded from usable_modal_price",one of the three numbers is wrong but which one is unknown
+R09,Price far from trailing reference,"max(price/ref, ref/price) >= 10 (review) or >= 50 (scale_error_suspected); ref = trailing 30-day median of the national daily median modal",value kept; scale_error_suspected excluded from usable_modal_price; review rows stay usable,10x / 100x match Rs/tonne and Rs/kg unit mix-ups; reference uses only past and same-day data
+R10,Zero arrivals,arrivals == 0,"kept as 0, arrivals_status=zero_retained","a genuine zero is information, not a missing value"
+R11,Missing / negative / non-finite arrivals,"NaN, < 0, inf",missing / set missing with status,observed 0 times
+R12,Arrivals far above the market's own past peak,arrivals / maximum of the same market's arrivals in the previous 365 days >= 10 (review) or >= 100 (entry_error_suspected); needs >= 10 past observations,value kept; entry_error_suspected excluded from usable_arrivals,"a first trial against the trailing median flagged genuine April wheat procurement peaks; a past-peak reference keeps seasonal peaks, while kg-vs-tonne (1000x) entries still stand far above it"
+R13,Weather / APY gaps,"Phase 4 coverage (no location, outside 2001-2022, no APY row)","untouched, reported separately","coverage limits, not data errors; no imputation (D-17, D-19)"
+R14,Dates,Phase 4 parsed every date,"validated, unchanged",0 unparsed

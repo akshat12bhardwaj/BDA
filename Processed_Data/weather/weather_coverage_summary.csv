@@ -1,0 +1,4 @@
+crop,relevant_states,relevant_districts_in_mandi_data,representative_districts_selected,mapped_weather_locations,successfully_collected_locations,collection_failed_locations,unresolved_locations,weather_start_date,weather_end_date,expected_observations_total,actual_observations_total,missing_dates_total
+Onion,6,512,20,16,16,0,4,2001-01-01,2022-12-31,128560,128560,0
+Potato,5,505,20,17,17,0,3,2001-01-01,2022-12-31,136595,136595,0
+Wheat,4,457,20,14,14,0,6,2001-01-01,2022-12-31,112490,112490,0

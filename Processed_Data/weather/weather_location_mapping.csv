@@ -1,0 +1,47 @@
+state,district,weather_location_name,latitude,longitude,mapping_method,mapping_source,mapping_confidence,mapping_status,crops,mandi_records
+Maharashtra,Nashik,Nashik,19.99727,73.79096,district name + state match (admin1 confirmed),Open-Meteo Geocoding API (https://geocoding-api.open-meteo.com/v1/search),high,mapped,"Onion,Wheat",86761
+Punjab,Ludhiana,Ludhiana,30.91204,75.85379,district name + state match (admin1 confirmed),Open-Meteo Geocoding API (https://geocoding-api.open-meteo.com/v1/search),high,mapped,"Onion,Potato",70869
+Punjab,Sangrur,Sangrur,30.24506,75.84488,district name + state match (admin1 confirmed),Open-Meteo Geocoding API (https://geocoding-api.open-meteo.com/v1/search),high,mapped,"Onion,Potato",63970
+Kerala,Alappuzha,Alappuzha,9.49004,76.3264,district name + state match (admin1 confirmed),Open-Meteo Geocoding API (https://geocoding-api.open-meteo.com/v1/search),high,mapped,Onion,29611
+Kerala,Kottayam,Kottayam,9.58692,76.52132,district name + state match (admin1 confirmed),Open-Meteo Geocoding API (https://geocoding-api.open-meteo.com/v1/search),high,mapped,Onion,28432
+Haryana,Yamuna Nagar,Yamunanagar,30.12796,77.28371,district name + state match (admin1 confirmed),Open-Meteo Geocoding API (https://geocoding-api.open-meteo.com/v1/search),high,mapped,"Onion,Potato",55759
+Punjab,Hoshiarpur,Hoshiārpur,31.53723,75.91269,district name + state match (admin1 confirmed),Open-Meteo Geocoding API (https://geocoding-api.open-meteo.com/v1/search),high,mapped,"Onion,Potato",52965
+Punjab,Bhatinda,,,,district name search — no results returned,Open-Meteo Geocoding API (https://geocoding-api.open-meteo.com/v1/search),,unresolved,"Onion,Potato",53601
+Uttar Pradesh,Bulandshahar,,,,district name search — no results returned,Open-Meteo Geocoding API (https://geocoding-api.open-meteo.com/v1/search),,unresolved,"Onion,Potato",55139
+Punjab,Patiala,Patiāla,30.33625,76.3922,district name + state match (admin1 confirmed),Open-Meteo Geocoding API (https://geocoding-api.open-meteo.com/v1/search),high,mapped,"Onion,Potato",52967
+Punjab,Mohali,Mohali,30.67995,76.72211,district name + state match (admin1 confirmed),Open-Meteo Geocoding API (https://geocoding-api.open-meteo.com/v1/search),high,mapped,"Onion,Potato",50706
+Kerala,Palakad,,,,"district name search returned 2 result(s) but none matched state 'Kerala' (admin1 values seen: ['Northern Province', 'Tamil Nadu'])",Open-Meteo Geocoding API (https://geocoding-api.open-meteo.com/v1/search),,unresolved,Onion,23318
+Maharashtra,Pune,Pune,18.51957,73.85535,district name + state match (admin1 confirmed),Open-Meteo Geocoding API (https://geocoding-api.open-meteo.com/v1/search),high,mapped,Onion,22998
+Kerala,Ernakulam,Ernākulam,9.96714,76.29036,district name + state match (admin1 confirmed),Open-Meteo Geocoding API (https://geocoding-api.open-meteo.com/v1/search),high,mapped,Onion,22980
+Maharashtra,Ahmednagar,,,,"district name search returned 2 result(s) but none matched state 'Maharashtra' (admin1 values seen: ['Gujarat', 'Uttar Pradesh'])",Open-Meteo Geocoding API (https://geocoding-api.open-meteo.com/v1/search),,unresolved,"Onion,Wheat",57530
+Haryana,Ambala,Ambāla,30.36099,76.79782,district name + state match (admin1 confirmed),Open-Meteo Geocoding API (https://geocoding-api.open-meteo.com/v1/search),high,mapped,"Onion,Potato",45278
+West Bengal,Burdwan,Bardhaman,23.25572,87.85691,district name + state match (admin1 confirmed),Open-Meteo Geocoding API (https://geocoding-api.open-meteo.com/v1/search),high,mapped,"Onion,Potato",51825
+Punjab,Ferozpur,Ferozpura,32.30391,75.06932,district name + state match (admin1 confirmed),Open-Meteo Geocoding API (https://geocoding-api.open-meteo.com/v1/search),high,mapped,"Onion,Potato",41867
+Kerala,Malappuram,Malappuram,11.04199,76.08154,district name + state match (admin1 confirmed),Open-Meteo Geocoding API (https://geocoding-api.open-meteo.com/v1/search),high,mapped,Onion,18897
+Uttar Pradesh,Agra,Agra,27.18333,78.01667,district name + state match (admin1 confirmed),Open-Meteo Geocoding API (https://geocoding-api.open-meteo.com/v1/search),high,mapped,"Onion,Potato",39106
+Punjab,Jalandhar,Jalandhar,31.32556,75.57917,district name + state match (admin1 confirmed),Open-Meteo Geocoding API (https://geocoding-api.open-meteo.com/v1/search),high,mapped,Potato,35222
+West Bengal,Jalpaiguri,Jalpāiguri,26.51667,88.73333,district name + state match (admin1 confirmed),Open-Meteo Geocoding API (https://geocoding-api.open-meteo.com/v1/search),high,mapped,Potato,27154
+West Bengal,Coochbehar,,,,district name search — no results returned,Open-Meteo Geocoding API (https://geocoding-api.open-meteo.com/v1/search),,unresolved,Potato,26468
+West Bengal,Hooghly,Hugli,22.90877,88.39674,district name + state match (admin1 confirmed),Open-Meteo Geocoding API (https://geocoding-api.open-meteo.com/v1/search),high,mapped,Potato,24350
+Uttar Pradesh,Muzaffarnagar,Muzaffarnagar,29.47091,77.70332,district name + state match (admin1 confirmed),Open-Meteo Geocoding API (https://geocoding-api.open-meteo.com/v1/search),high,mapped,Potato,21365
+Haryana,Kurukshetra,Kurukshetra,29.9657,76.837,district name + state match (admin1 confirmed),Open-Meteo Geocoding API (https://geocoding-api.open-meteo.com/v1/search),high,mapped,Potato,21228
+Odisha,Kendrapara,Kendrāparha,20.50166,86.42227,district name + state match (admin1 confirmed),Open-Meteo Geocoding API (https://geocoding-api.open-meteo.com/v1/search),high,mapped,Potato,20805
+Uttar Pradesh,Kanpur,Kanpur,26.46523,80.34975,district name + state match (admin1 confirmed),Open-Meteo Geocoding API (https://geocoding-api.open-meteo.com/v1/search),high,mapped,Potato,20745
+Rajasthan,Ganganagar,,,,"district name search returned 5 result(s) but none matched state 'Rajasthan' (admin1 values seen: ['Assam', 'Chittagong', 'Haryana', 'Uttar Pradesh'])",Open-Meteo Geocoding API (https://geocoding-api.open-meteo.com/v1/search),,unresolved,Wheat,43879
+Gujarat,Sabarkantha,,,,district name search — no results returned,Open-Meteo Geocoding API (https://geocoding-api.open-meteo.com/v1/search),,unresolved,Wheat,37854
+Gujarat,Rajkot,Rajkot,22.29161,70.79322,district name + state match (admin1 confirmed),Open-Meteo Geocoding API (https://geocoding-api.open-meteo.com/v1/search),high,mapped,Wheat,35818
+Madhya Pradesh,Shajapur,Shājāpur,23.42637,76.27775,district name + state match (admin1 confirmed),Open-Meteo Geocoding API (https://geocoding-api.open-meteo.com/v1/search),high,mapped,Wheat,34720
+Madhya Pradesh,Sehore,Sehore,23.2,77.08333,district name + state match (admin1 confirmed),Open-Meteo Geocoding API (https://geocoding-api.open-meteo.com/v1/search),high,mapped,Wheat,28643
+Gujarat,Amreli,Amreli,21.59983,71.21169,district name + state match (admin1 confirmed),Open-Meteo Geocoding API (https://geocoding-api.open-meteo.com/v1/search),high,mapped,Wheat,27894
+Madhya Pradesh,Sagar,Saugor,23.83877,78.73874,district name + state match (admin1 confirmed),Open-Meteo Geocoding API (https://geocoding-api.open-meteo.com/v1/search),high,mapped,Wheat,27749
+Madhya Pradesh,Ujjain,Ujjain,23.18239,75.77643,district name + state match (admin1 confirmed),Open-Meteo Geocoding API (https://geocoding-api.open-meteo.com/v1/search),high,mapped,Wheat,27670
+Madhya Pradesh,Vidisha,Vidisha,23.52604,77.81092,district name + state match (admin1 confirmed),Open-Meteo Geocoding API (https://geocoding-api.open-meteo.com/v1/search),high,mapped,Wheat,26480
+Maharashtra,Buldhana,,,,district name search — no results returned,Open-Meteo Geocoding API (https://geocoding-api.open-meteo.com/v1/search),,unresolved,Wheat,25642
+Madhya Pradesh,Dewas,Dewas,22.96585,76.05526,district name + state match (admin1 confirmed),Open-Meteo Geocoding API (https://geocoding-api.open-meteo.com/v1/search),high,mapped,Wheat,24760
+Gujarat,Mehsana,Mahesāna,23.59864,72.38472,district name + state match (admin1 confirmed),Open-Meteo Geocoding API (https://geocoding-api.open-meteo.com/v1/search),high,mapped,Wheat,24139
+Rajasthan,Hanumangarh,Hanumāngarh,29.58182,74.32938,district name + state match (admin1 confirmed),Open-Meteo Geocoding API (https://geocoding-api.open-meteo.com/v1/search),high,mapped,Wheat,23998
+Madhya Pradesh,Dhar,Dhār,22.59373,75.29774,district name + state match (admin1 confirmed),Open-Meteo Geocoding API (https://geocoding-api.open-meteo.com/v1/search),high,mapped,Wheat,23994
+Madhya Pradesh,Ratlam,Ratlām,23.33033,75.04032,district name + state match (admin1 confirmed),Open-Meteo Geocoding API (https://geocoding-api.open-meteo.com/v1/search),high,mapped,Wheat,23950
+Madhya Pradesh,Rajgarh,Rājgarh,24.00826,76.7325,district name + state match (admin1 confirmed),Open-Meteo Geocoding API (https://geocoding-api.open-meteo.com/v1/search),high,mapped,Wheat,23397
+Gujarat,Banaskanth,,,,district name search — no results returned,Open-Meteo Geocoding API (https://geocoding-api.open-meteo.com/v1/search),,unresolved,Wheat,22900
+Gujarat,Junagarh,,,,district name search returned 1 result(s) but none matched state 'Gujarat' (admin1 values seen: ['Chhattisgarh']),Open-Meteo Geocoding API (https://geocoding-api.open-meteo.com/v1/search),,unresolved,Wheat,22596

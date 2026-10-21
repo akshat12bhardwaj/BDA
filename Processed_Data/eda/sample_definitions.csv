@@ -1,0 +1,19 @@
+crop,sample,definition,rows,share_of_all_rows
+Onion,all_rows,every Phase 6 row (incl. conflicts and flagged rows),2623671,1.0
+Onion,price_present,rows with a non-missing modal price (any flag),2596197,0.9895284126706435
+Onion,usable_price,usable_modal_price = True (Phase 5 view),2595611,0.9893050614958964
+Onion,usable_price_excl_review,usable_modal_price and price_extreme_level != review,2573328,0.9808119996752641
+Onion,usable_arrivals,usable_arrivals = True (Phase 5 view),2623528,0.9999454962150361
+Onion,usable_arrivals_excl_review,usable_arrivals and arrivals_extreme_level != review,2623129,0.9997934192206264
+Potato,all_rows,every Phase 6 row (incl. conflicts and flagged rows),2764417,1.0
+Potato,price_present,rows with a non-missing modal price (any flag),2731906,0.9882394732777291
+Potato,usable_price,usable_modal_price = True (Phase 5 view),2731271,0.9880097684249518
+Potato,usable_price_excl_review,usable_modal_price and price_extreme_level != review,2728946,0.9871687230978539
+Potato,usable_arrivals,usable_arrivals = True (Phase 5 view),2764191,0.9999182467768069
+Potato,usable_arrivals_excl_review,usable_arrivals and arrivals_extreme_level != review,2763792,0.9997739125464791
+Wheat,all_rows,every Phase 6 row (incl. conflicts and flagged rows),2593279,1.0
+Wheat,price_present,rows with a non-missing modal price (any flag),2579948,0.9948594038666877
+Wheat,usable_price,usable_modal_price = True (Phase 5 view),2579015,0.9944996276914285
+Wheat,usable_price_excl_review,usable_modal_price and price_extreme_level != review,2578561,0.9943245597562006
+Wheat,usable_arrivals,usable_arrivals = True (Phase 5 view),2593120,0.999938687661451
+Wheat,usable_arrivals_excl_review,usable_arrivals and arrivals_extreme_level != review,2592636,0.9997520513604591

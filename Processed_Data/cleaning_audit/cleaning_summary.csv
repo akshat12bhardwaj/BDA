@@ -1,0 +1,91 @@
+crop,rule_id,rows_before,affected_rows,affected_groups,treatment,rows_removed,values_set_missing,rows_flagged_retained,rows_excluded_from_usable_modal_price,rows_excluded_from_usable_arrivals,rows_after
+Onion,R01,2624379,1416,708.0,collapse identical copies,708,0,0,0,0,2623671
+Onion,R02,2624379,0,0.0,none observed,0,0,0,0,0,2623671
+Onion,R03,2624379,68,34.0,retain + flag + exclude,0,0,68,68,68,2623671
+Onion,R04,2624379,127554,,min price: zero_set_missing,0,127554,0,0,0,2623671
+Onion,R04,2624379,120203,,max price: zero_set_missing,0,120203,0,0,0,2623671
+Onion,R04,2624379,27431,,modal price: zero_set_missing,0,27431,0,0,0,2623671
+Onion,R05,2624379,0,,min price: negative_set_missing,0,0,0,0,0,2623671
+Onion,R05,2624379,0,,max price: negative_set_missing,0,0,0,0,0,2623671
+Onion,R05,2624379,0,,modal price: negative_set_missing,0,0,0,0,0,2623671
+Onion,R05,2624379,0,,min price: nonfinite_set_missing,0,0,0,0,0,2623671
+Onion,R05,2624379,0,,max price: nonfinite_set_missing,0,0,0,0,0,2623671
+Onion,R05,2624379,0,,modal price: nonfinite_set_missing,0,0,0,0,0,2623671
+Onion,R06,2624379,0,,min price: missing_in_source,0,0,0,0,0,2623671
+Onion,R06,2624379,3,,max price: missing_in_source,0,0,0,0,0,2623671
+Onion,R06,2624379,43,,modal price: missing_in_source,0,0,0,0,0,2623671
+Onion,R07,2624379,0,,flag + exclude,0,0,0,0,0,2623671
+Onion,R08,2624379,99,,flag + exclude,0,0,99,99,0,2623671
+Onion,R09,2624379,22330,,price_extreme_level=review,0,0,22330,0,0,2623671
+Onion,R09,2624379,422,,price_extreme_level=scale_error_suspected,0,0,422,422,0,2623671
+Onion,R09,2624379,2,,price_extreme_level=no_reference,0,0,2,0,0,2623671
+Onion,R10,2624379,9,,zero arrivals retained,0,0,0,0,0,2623671
+Onion,R11,2624379,0,,arrivals: missing_in_source,0,0,0,0,0,2623671
+Onion,R11,2624379,0,,arrivals: negative_set_missing,0,0,0,0,0,2623671
+Onion,R11,2624379,0,,arrivals: nonfinite_set_missing,0,0,0,0,0,2623671
+Onion,R12,2624379,399,,arrivals_extreme_level=review,0,0,399,0,0,2623671
+Onion,R12,2624379,75,,arrivals_extreme_level=entry_error_suspected,0,0,75,0,75,2623671
+Onion,R12,2624379,30409,,arrivals_extreme_level=insufficient_history,0,0,30409,0,0,2623671
+Onion,R13,2624379,1961172,,weather missing (coverage) - untouched,0,0,0,0,0,2623671
+Onion,R13,2624379,1392360,,APY annual unavailable (coverage) - untouched,0,0,0,0,0,2623671
+Onion,R14,2624379,0,,unparsed dates,0,0,0,0,0,2623671
+Potato,R01,2764987,1132,562.0,collapse identical copies,570,0,0,0,0,2764417
+Potato,R02,2764987,0,0.0,none observed,0,0,0,0,0,2764417
+Potato,R03,2764987,164,82.0,retain + flag + exclude,0,0,164,164,164,2764417
+Potato,R04,2764987,135376,,min price: zero_set_missing,0,135376,0,0,0,2764417
+Potato,R04,2764987,127106,,max price: zero_set_missing,0,127106,0,0,0,2764417
+Potato,R04,2764987,32501,,modal price: zero_set_missing,0,32501,0,0,0,2764417
+Potato,R05,2764987,0,,min price: negative_set_missing,0,0,0,0,0,2764417
+Potato,R05,2764987,0,,max price: negative_set_missing,0,0,0,0,0,2764417
+Potato,R05,2764987,0,,modal price: negative_set_missing,0,0,0,0,0,2764417
+Potato,R05,2764987,0,,min price: nonfinite_set_missing,0,0,0,0,0,2764417
+Potato,R05,2764987,0,,max price: nonfinite_set_missing,0,0,0,0,0,2764417
+Potato,R05,2764987,0,,modal price: nonfinite_set_missing,0,0,0,0,0,2764417
+Potato,R06,2764987,0,,min price: missing_in_source,0,0,0,0,0,2764417
+Potato,R06,2764987,0,,max price: missing_in_source,0,0,0,0,0,2764417
+Potato,R06,2764987,10,,modal price: missing_in_source,0,0,0,0,0,2764417
+Potato,R07,2764987,0,,flag + exclude,0,0,0,0,0,2764417
+Potato,R08,2764987,63,,flag + exclude,0,0,63,63,0,2764417
+Potato,R09,2764987,2339,,price_extreme_level=review,0,0,2339,0,0,2764417
+Potato,R09,2764987,415,,price_extreme_level=scale_error_suspected,0,0,415,415,0,2764417
+Potato,R09,2764987,2,,price_extreme_level=no_reference,0,0,2,0,0,2764417
+Potato,R10,2764987,3,,zero arrivals retained,0,0,0,0,0,2764417
+Potato,R11,2764987,0,,arrivals: missing_in_source,0,0,0,0,0,2764417
+Potato,R11,2764987,0,,arrivals: negative_set_missing,0,0,0,0,0,2764417
+Potato,R11,2764987,0,,arrivals: nonfinite_set_missing,0,0,0,0,0,2764417
+Potato,R12,2764987,399,,arrivals_extreme_level=review,0,0,399,0,0,2764417
+Potato,R12,2764987,62,,arrivals_extreme_level=entry_error_suspected,0,0,62,0,62,2764417
+Potato,R12,2764987,29208,,arrivals_extreme_level=insufficient_history,0,0,29208,0,0,2764417
+Potato,R13,2764987,2111939,,weather missing (coverage) - untouched,0,0,0,0,0,2764417
+Potato,R13,2764987,1039572,,APY annual unavailable (coverage) - untouched,0,0,0,0,0,2764417
+Potato,R14,2764987,0,,unparsed dates,0,0,0,0,0,2764417
+Wheat,R01,2593767,973,485.0,collapse identical copies,488,0,0,0,0,2593279
+Wheat,R02,2593767,0,0.0,none observed,0,0,0,0,0,2593279
+Wheat,R03,2593767,106,53.0,retain + flag + exclude,0,0,106,106,106,2593279
+Wheat,R04,2593767,128063,,min price: zero_set_missing,0,128063,0,0,0,2593279
+Wheat,R04,2593767,122496,,max price: zero_set_missing,0,122496,0,0,0,2593279
+Wheat,R04,2593767,13326,,modal price: zero_set_missing,0,13326,0,0,0,2593279
+Wheat,R05,2593767,0,,min price: negative_set_missing,0,0,0,0,0,2593279
+Wheat,R05,2593767,0,,max price: negative_set_missing,0,0,0,0,0,2593279
+Wheat,R05,2593767,0,,modal price: negative_set_missing,0,0,0,0,0,2593279
+Wheat,R05,2593767,0,,min price: nonfinite_set_missing,0,0,0,0,0,2593279
+Wheat,R05,2593767,0,,max price: nonfinite_set_missing,0,0,0,0,0,2593279
+Wheat,R05,2593767,0,,modal price: nonfinite_set_missing,0,0,0,0,0,2593279
+Wheat,R06,2593767,0,,min price: missing_in_source,0,0,0,0,0,2593279
+Wheat,R06,2593767,1,,max price: missing_in_source,0,0,0,0,0,2593279
+Wheat,R06,2593767,5,,modal price: missing_in_source,0,0,0,0,0,2593279
+Wheat,R07,2593767,0,,flag + exclude,0,0,0,0,0,2593279
+Wheat,R08,2593767,683,,flag + exclude,0,0,683,683,0,2593279
+Wheat,R09,2593767,471,,price_extreme_level=review,0,0,471,0,0,2593279
+Wheat,R09,2593767,148,,price_extreme_level=scale_error_suspected,0,0,148,148,0,2593279
+Wheat,R09,2593767,5,,price_extreme_level=no_reference,0,0,5,0,0,2593279
+Wheat,R10,2593767,14,,zero arrivals retained,0,0,0,0,0,2593279
+Wheat,R11,2593767,0,,arrivals: missing_in_source,0,0,0,0,0,2593279
+Wheat,R11,2593767,0,,arrivals: negative_set_missing,0,0,0,0,0,2593279
+Wheat,R11,2593767,0,,arrivals: nonfinite_set_missing,0,0,0,0,0,2593279
+Wheat,R12,2593767,484,,arrivals_extreme_level=review,0,0,484,0,0,2593279
+Wheat,R12,2593767,53,,arrivals_extreme_level=entry_error_suspected,0,0,53,0,53,2593279
+Wheat,R12,2593767,43707,,arrivals_extreme_level=insufficient_history,0,0,43707,0,0,2593279
+Wheat,R13,2593767,1939054,,weather missing (coverage) - untouched,0,0,0,0,0,2593279
+Wheat,R13,2593767,167806,,APY annual unavailable (coverage) - untouched,0,0,0,0,0,2593279
+Wheat,R14,2593767,0,,unparsed dates,0,0,0,0,0,2593279

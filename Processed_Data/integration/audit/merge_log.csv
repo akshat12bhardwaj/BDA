@@ -1,0 +1,18 @@
+step,how,validate,keys,left_rows,right_rows,result_rows
+Onion: mandi x district_crosswalk,left,m:1,"state,district",2624379,512,2624379
+Onion: mandi x apy_annual (availability flag),left,m:1,"apy_state,apy_district,apy_year",2624379,9498,2624379
+Onion: mandi x final_data market reference,left,m:1,"state,district,market",2624379,1732,2624379
+Onion: mandi x weather_location (exact state+district),left,m:1,"state,district",2624379,46,2624379
+Onion: mandi x weather_daily_panel (same day),left,m:1,"weather_state,weather_district,reported_date",2624379,369610,2624379
+Potato: mandi x district_crosswalk,left,m:1,"state,district",2764987,505,2764987
+Potato: mandi x apy_annual (availability flag),left,m:1,"apy_state,apy_district,apy_year",2764987,10592,2764987
+Potato: mandi x final_data market reference,left,m:1,"state,district,market",2764987,1624,2764987
+Potato: mandi x weather_location (exact state+district),left,m:1,"state,district",2764987,46,2764987
+Potato: mandi x weather_daily_panel (same day),left,m:1,"weather_state,weather_district,reported_date",2764987,369610,2764987
+Wheat: mandi x district_crosswalk,left,m:1,"state,district",2593767,457,2593767
+Wheat: mandi x apy_annual (availability flag),left,m:1,"apy_state,apy_district,apy_year",2593767,12816,2593767
+Wheat: mandi x final_data market reference,left,m:1,"state,district,market",2593767,1988,2593767
+Wheat: mandi x weather_location (exact state+district),left,m:1,"state,district",2593767,46,2593767
+Wheat: mandi x weather_daily_panel (same day),left,m:1,"weather_state,weather_district,reported_date",2593767,369610,2593767
+mandi_district_year x apy_annual,outer,1:1,"crop,apy_state,apy_district,apy_year",20530,33011,38700
+"Wheat: agri_market x mandi (district, market, variety, date)",left,1:1,"_district,_market,_variety,reported_date",9569,80656,9569

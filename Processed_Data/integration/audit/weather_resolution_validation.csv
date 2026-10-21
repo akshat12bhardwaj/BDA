@@ -1,0 +1,47 @@
+state,district,cache_file,from_cache,rows,missing_dates,duplicate_dates,missing_values,out_of_range_counts,passed
+Maharashtra,Nashik,Processed_Data\weather\raw\Maharashtra_Nashik.csv,True,8035,0,0,0,{},True
+Punjab,Ludhiana,Processed_Data\weather\raw\Punjab_Ludhiana.csv,True,8035,0,0,0,{},True
+Punjab,Sangrur,Processed_Data\weather\raw\Punjab_Sangrur.csv,True,8035,0,0,0,{},True
+Kerala,Alappuzha,Processed_Data\weather\raw\Kerala_Alappuzha.csv,True,8035,0,0,0,{},True
+Kerala,Kottayam,Processed_Data\weather\raw\Kerala_Kottayam.csv,True,8035,0,0,0,{},True
+Haryana,Yamuna Nagar,Processed_Data\weather\raw\Haryana_Yamuna_Nagar.csv,True,8035,0,0,0,{},True
+Punjab,Hoshiarpur,Processed_Data\weather\raw\Punjab_Hoshiarpur.csv,True,8035,0,0,0,{},True
+Punjab,Bhatinda,Processed_Data\weather\raw\Punjab_Bhatinda.csv,True,8035,0,0,0,{},True
+Uttar Pradesh,Bulandshahar,Processed_Data\weather\raw\Uttar_Pradesh_Bulandshahar.csv,True,8035,0,0,0,{},True
+Punjab,Patiala,Processed_Data\weather\raw\Punjab_Patiala.csv,True,8035,0,0,0,{},True
+Punjab,Mohali,Processed_Data\weather\raw\Punjab_Mohali.csv,True,8035,0,0,0,{},True
+Kerala,Palakad,Processed_Data\weather\raw\Kerala_Palakad.csv,True,8035,0,0,0,{},True
+Maharashtra,Pune,Processed_Data\weather\raw\Maharashtra_Pune.csv,True,8035,0,0,0,{},True
+Kerala,Ernakulam,Processed_Data\weather\raw\Kerala_Ernakulam.csv,True,8035,0,0,0,{},True
+Maharashtra,Ahmednagar,Processed_Data\weather\raw\Maharashtra_Ahmednagar.csv,True,8035,0,0,0,{},True
+Haryana,Ambala,Processed_Data\weather\raw\Haryana_Ambala.csv,True,8035,0,0,0,{},True
+West Bengal,Burdwan,Processed_Data\weather\raw\West_Bengal_Burdwan.csv,True,8035,0,0,0,{},True
+Punjab,Ferozpur,Processed_Data\weather\raw\Punjab_Ferozpur_corrected.csv,True,8035,0,0,0,{},True
+Kerala,Malappuram,Processed_Data\weather\raw\Kerala_Malappuram.csv,True,8035,0,0,0,{},True
+Uttar Pradesh,Agra,Processed_Data\weather\raw\Uttar_Pradesh_Agra.csv,True,8035,0,0,0,{},True
+Punjab,Jalandhar,Processed_Data\weather\raw\Punjab_Jalandhar.csv,True,8035,0,0,0,{},True
+West Bengal,Jalpaiguri,Processed_Data\weather\raw\West_Bengal_Jalpaiguri.csv,True,8035,0,0,0,{},True
+West Bengal,Coochbehar,Processed_Data\weather\raw\West_Bengal_Coochbehar.csv,True,8035,0,0,0,{},True
+West Bengal,Hooghly,Processed_Data\weather\raw\West_Bengal_Hooghly.csv,True,8035,0,0,0,{},True
+Uttar Pradesh,Muzaffarnagar,Processed_Data\weather\raw\Uttar_Pradesh_Muzaffarnagar.csv,True,8035,0,0,0,{},True
+Haryana,Kurukshetra,Processed_Data\weather\raw\Haryana_Kurukshetra.csv,True,8035,0,0,0,{},True
+Odisha,Kendrapara,Processed_Data\weather\raw\Odisha_Kendrapara.csv,True,8035,0,0,0,{},True
+Uttar Pradesh,Kanpur,Processed_Data\weather\raw\Uttar_Pradesh_Kanpur.csv,True,8035,0,0,0,{},True
+Rajasthan,Ganganagar,Processed_Data\weather\raw\Rajasthan_Ganganagar.csv,True,8035,0,0,0,{},True
+Gujarat,Sabarkantha,Processed_Data\weather\raw\Gujarat_Sabarkantha.csv,True,8035,0,0,0,{},True
+Gujarat,Rajkot,Processed_Data\weather\raw\Gujarat_Rajkot.csv,True,8035,0,0,0,{},True
+Madhya Pradesh,Shajapur,Processed_Data\weather\raw\Madhya_Pradesh_Shajapur.csv,True,8035,0,0,0,{},True
+Madhya Pradesh,Sehore,Processed_Data\weather\raw\Madhya_Pradesh_Sehore.csv,True,8035,0,0,0,{},True
+Gujarat,Amreli,Processed_Data\weather\raw\Gujarat_Amreli.csv,True,8035,0,0,0,{},True
+Madhya Pradesh,Sagar,Processed_Data\weather\raw\Madhya_Pradesh_Sagar.csv,True,8035,0,0,0,{},True
+Madhya Pradesh,Ujjain,Processed_Data\weather\raw\Madhya_Pradesh_Ujjain.csv,True,8035,0,0,0,{},True
+Madhya Pradesh,Vidisha,Processed_Data\weather\raw\Madhya_Pradesh_Vidisha.csv,True,8035,0,0,0,{},True
+Maharashtra,Buldhana,Processed_Data\weather\raw\Maharashtra_Buldhana.csv,True,8035,0,0,0,{},True
+Madhya Pradesh,Dewas,Processed_Data\weather\raw\Madhya_Pradesh_Dewas.csv,True,8035,0,0,0,{},True
+Gujarat,Mehsana,Processed_Data\weather\raw\Gujarat_Mehsana.csv,True,8035,0,0,0,{},True
+Rajasthan,Hanumangarh,Processed_Data\weather\raw\Rajasthan_Hanumangarh.csv,True,8035,0,0,0,{},True
+Madhya Pradesh,Dhar,Processed_Data\weather\raw\Madhya_Pradesh_Dhar.csv,True,8035,0,0,0,{},True
+Madhya Pradesh,Ratlam,Processed_Data\weather\raw\Madhya_Pradesh_Ratlam.csv,True,8035,0,0,0,{},True
+Madhya Pradesh,Rajgarh,Processed_Data\weather\raw\Madhya_Pradesh_Rajgarh.csv,True,8035,0,0,0,{},True
+Gujarat,Banaskanth,Processed_Data\weather\raw\Gujarat_Banaskanth.csv,True,8035,0,0,0,{},True
+Gujarat,Junagarh,Processed_Data\weather\raw\Gujarat_Junagarh.csv,True,8035,0,0,0,{},True

@@ -1,0 +1,13 @@
+crop,relationship,sample,series,median_spearman,p25,p75,share_negative
+Onion,same-day modal price vs arrivals (within series),usable_price & usable_arrivals,2345,-0.1500627107742914,-0.3276808254324852,0.03823092412583417,0.7074626865671642
+Onion,modal price vs previous observation (within series),usable_price,2342,0.9505148679662272,0.8993174321531453,0.9747398705240735,0.0
+Onion,price / trailing-90d mean vs wx_rain_sum_30d (within series),usable_price with weather features,549,0.3491391526091137,0.2476862600169241,0.46109626925146424,0.061930783242258654
+Onion,price / trailing-90d mean vs wx_temp_mean_mean_30d (within series),usable_price with weather features,549,0.07276413580995317,-0.16013106465196,0.2394424732032229,0.3989071038251366
+Potato,same-day modal price vs arrivals (within series),usable_price & usable_arrivals,2487,-0.14386330247090315,-0.3475645898236809,0.04374333258435445,0.6964213912344189
+Potato,modal price vs previous observation (within series),usable_price,2482,0.9491595652996243,0.883806848214409,0.9759033740103784,0.00040290088638195
+Potato,price / trailing-90d mean vs wx_rain_sum_30d (within series),usable_price with weather features,485,0.168606367198195,0.073439214633049,0.29461591648704255,0.1360824742268041
+Potato,price / trailing-90d mean vs wx_temp_mean_mean_30d (within series),usable_price with weather features,485,0.40523623087029453,0.18119828091023743,0.5004168557607042,0.16907216494845362
+Wheat,same-day modal price vs arrivals (within series),usable_price & usable_arrivals,2732,-0.037537263657854994,-0.24002957554204724,0.16947563979662275,0.5534407027818448
+Wheat,modal price vs previous observation (within series),usable_price,2724,0.9555512368530361,0.879214435884302,0.9841057912859749,0.0
+Wheat,price / trailing-90d mean vs wx_rain_sum_30d (within series),usable_price with weather features,666,0.020040399683305413,-0.10354396311741507,0.13368881714106948,0.44144144144144143
+Wheat,price / trailing-90d mean vs wx_temp_mean_mean_30d (within series),usable_price with weather features,666,-0.09873647324775885,-0.19444963518182956,-0.0015218488350495114,0.7507507507507507

@@ -1,0 +1,1475 @@
+state,district,apy_state,apy_district,apy_district_match,alias_basis,crop,mandi_records
+Maharashtra,Nashik,Maharashtra,Nashik,exact_normalized,,Onion,58464
+Punjab,Ludhiana,Punjab,Ludhiana,exact_normalized,,Onion,35347
+Punjab,Sangrur,Punjab,Sangrur,exact_normalized,,Onion,31246
+Kerala,Alappuzha,Kerala,Alappuzha,exact_normalized,,Onion,29611
+Kerala,Kottayam,Kerala,Kottayam,exact_normalized,,Onion,28432
+Haryana,Yamuna Nagar,Haryana,Yamunanagar,exact_normalized,,Onion,27700
+Punjab,Hoshiarpur,Punjab,Hoshiarpur,exact_normalized,,Onion,26287
+Punjab,Bhatinda,Punjab,Bathinda,reviewed_alias,spelling variant,Onion,26125
+Uttar Pradesh,Bulandshahar,Uttar Pradesh,Bulandshahr,reviewed_alias,spelling variant of the APY (DES) district name,Onion,25504
+Punjab,Patiala,Punjab,Patiala,exact_normalized,,Onion,25465
+Punjab,Mohali,Punjab,S.A.S Nagar,reviewed_alias,Mohali is the common name of Sahibzada Ajit Singh (S.A.S) Nagar district,Onion,24579
+Kerala,Palakad,Kerala,Palakkad,reviewed_alias,spelling variant,Onion,23318
+Maharashtra,Pune,Maharashtra,Pune,exact_normalized,,Onion,22998
+Kerala,Ernakulam,Kerala,Ernakulam,exact_normalized,,Onion,22980
+Maharashtra,Ahmednagar,Maharashtra,Ahilyanagar,reviewed_alias,official district rename; APY uses the current name for all years,Onion,22843
+Haryana,Ambala,Haryana,Ambala,exact_normalized,,Onion,21903
+West Bengal,Burdwan,,,excluded_by_review,EXCLUDED - ambiguous: district split into Purba and Paschim Bardhaman,Onion,20607
+Punjab,Ferozpur,Punjab,Ferozepur,reviewed_alias,spelling variant,Onion,20501
+Kerala,Malappuram,Kerala,Malappuram,exact_normalized,,Onion,18897
+Uttar Pradesh,Agra,Uttar Pradesh,Agra,exact_normalized,,Onion,18750
+NCT of Delhi,Delhi,,,state_not_in_apy,,Onion,18688
+Haryana,Kurukshetra,Haryana,Kurukshetra,exact_normalized,,Onion,18442
+Uttar Pradesh,Kanpur,,,excluded_by_review,EXCLUDED - ambiguous: APY has both Kanpur Nagar and Kanpur Dehat,Onion,17803
+Uttar Pradesh,Muzaffarnagar,Uttar Pradesh,Muzaffarnagar,exact_normalized,,Onion,17490
+Punjab,Jalandhar,Punjab,Jalandhar,exact_normalized,,Onion,17359
+Punjab,Gurdaspur,Punjab,Gurdaspur,exact_normalized,,Onion,17054
+Haryana,Gurgaon,Haryana,Gurugram,reviewed_alias,official district rename,Onion,17035
+Himachal Pradesh,Kangra,Himachal Pradesh,Kangra,exact_normalized,,Onion,16868
+Punjab,Ropar (Rupnagar),Punjab,Rupnagar,parenthetical_part,,Onion,16811
+Haryana,Fatehabad,Haryana,Fatehabad,exact_normalized,,Onion,16391
+Uttar Pradesh,Jhansi,Uttar Pradesh,Jhansi,exact_normalized,,Onion,16310
+West Bengal,Nadia,West Bengal,Nadia,exact_normalized,,Onion,15026
+Telangana,Hyderabad,,,excluded_by_review,EXCLUDED - urban district with no APY district for these crops,Onion,14946
+West Bengal,Jalpaiguri,West Bengal,Jalpaiguri,exact_normalized,,Onion,14806
+Haryana,Sirsa,Haryana,Sirsa,exact_normalized,,Onion,14729
+Odisha,Mayurbhanja,Odisha,Mayurbhanj,reviewed_alias,spelling variant,Onion,14331
+Punjab,Fazilka,Punjab,Fazilka,exact_normalized,,Onion,14185
+Haryana,Hissar,Haryana,Hisar,reviewed_alias,spelling variant,Onion,14038
+Uttar Pradesh,Bijnor,Uttar Pradesh,Bijnor,exact_normalized,,Onion,13307
+Punjab,Muktsar,Punjab,Sri Muktsar Sahib,reviewed_alias,official district rename,Onion,13300
+Uttar Pradesh,Saharanpur,Uttar Pradesh,Saharanpur,exact_normalized,,Onion,13288
+Odisha,Keonjhar,Odisha,Keonjhar,exact_normalized,,Onion,13262
+Kerala,Kozhikode(Calicut),Kerala,Kozhikode,parenthetical_part,,Onion,13213
+Uttar Pradesh,Ghaziabad,Uttar Pradesh,Ghaziabad,exact_normalized,,Onion,13202
+Uttar Pradesh,Muradabad,Uttar Pradesh,Moradabad,reviewed_alias,spelling variant,Onion,13197
+West Bengal,Birbhum,West Bengal,Birbhum,exact_normalized,,Onion,13194
+Uttar Pradesh,Etah,Uttar Pradesh,Etah,exact_normalized,,Onion,13118
+Odisha,Dhenkanal,Odisha,Dhenkanal,exact_normalized,,Onion,13102
+Punjab,Moga,Punjab,Moga,exact_normalized,,Onion,13069
+Uttar Pradesh,Aligarh,Uttar Pradesh,Aligarh,exact_normalized,,Onion,13031
+Punjab,Fatehgarh,Punjab,Fatehgarh Sahib,reviewed_alias,short form of the district name,Onion,13005
+Haryana,Mahendragarh-Narnaul,Haryana,Mahendragarh,reviewed_alias,Narnaul is the headquarters town of Mahendragarh district,Onion,12878
+Uttar Pradesh,Hardoi,Uttar Pradesh,Hardoi,exact_normalized,,Onion,12834
+Odisha,Bargarh,Odisha,Bargarh,exact_normalized,,Onion,12718
+Punjab,Amritsar,Punjab,Amritsar,exact_normalized,,Onion,12583
+Uttar Pradesh,Maharajganj,Uttar Pradesh,Mahrajganj,reviewed_alias,spelling variant,Onion,12471
+Uttar Pradesh,Allahabad,Uttar Pradesh,Prayagraj,reviewed_alias,official district rename; APY uses the current name for all years,Onion,12325
+Karnataka,Bangalore,,,excluded_by_review,EXCLUDED - ambiguous: APY has Bengaluru Urban / Rural / South,Onion,12278
+Kerala,Thirssur,Kerala,Thrissur,reviewed_alias,spelling variant,Onion,12255
+Maharashtra,Nagpur,Maharashtra,Nagpur,exact_normalized,,Onion,12227
+Gujarat,Rajkot,Gujarat,Rajkot,exact_normalized,,Onion,12198
+Haryana,Sonipat,Haryana,Sonipat,exact_normalized,,Onion,12081
+Punjab,Nawanshahr,Punjab,Shahid Bhagat Singh Nagar,reviewed_alias,official district rename,Onion,11944
+Uttrakhand,UdhamSinghNagar,Uttarakhand,Udham Singh Nagar,exact_normalized,,Onion,11875
+Uttar Pradesh,Meerut,Uttar Pradesh,Meerut,exact_normalized,,Onion,11849
+Uttar Pradesh,Firozabad,Uttar Pradesh,Firozabad,exact_normalized,,Onion,11714
+Uttar Pradesh,Shahjahanpur,Uttar Pradesh,Shahjahanpur,exact_normalized,,Onion,11418
+Uttar Pradesh,Badaun,Uttar Pradesh,Budaun,reviewed_alias,spelling variant,Onion,11383
+Uttar Pradesh,Bareilly,Uttar Pradesh,Bareilly,exact_normalized,,Onion,11248
+Uttar Pradesh,Fatehpur,Uttar Pradesh,Fatehpur,exact_normalized,,Onion,11193
+Haryana,Karnal,Haryana,Karnal,exact_normalized,,Onion,11192
+Uttar Pradesh,Unnao,Uttar Pradesh,Unnao,exact_normalized,,Onion,11036
+Odisha,Kendrapara,Odisha,Kendrapara,exact_normalized,,Onion,11033
+Uttar Pradesh,Jalaun (Orai),Uttar Pradesh,Jalaun,parenthetical_part,,Onion,11008
+Kerala,Idukki,Kerala,Idukki,exact_normalized,,Onion,10995
+Haryana,Kaithal,Haryana,Kaithal,exact_normalized,,Onion,10839
+Uttar Pradesh,Raebarelli,Uttar Pradesh,Rae Bareli,reviewed_alias,spelling variant,Onion,10823
+Uttar Pradesh,Gorakhpur,Uttar Pradesh,Gorakhpur,exact_normalized,,Onion,10791
+Kerala,Kollam,Kerala,Kollam,exact_normalized,,Onion,10758
+Maharashtra,Satara,Maharashtra,Satara,exact_normalized,,Onion,10706
+Maharashtra,Sholapur,Maharashtra,Solapur,reviewed_alias,spelling variant,Onion,10700
+Uttrakhand,Dehradoon,Uttarakhand,Dehradun,reviewed_alias,spelling variant,Onion,10682
+Uttar Pradesh,Sitapur,Uttar Pradesh,Sitapur,exact_normalized,,Onion,10671
+Haryana,Panchkula,Haryana,Panchkula,exact_normalized,,Onion,10602
+Uttar Pradesh,Banda,Uttar Pradesh,Banda,exact_normalized,,Onion,10539
+Karnataka,Dharwad,Karnataka,Dharwad,exact_normalized,,Onion,10429
+Uttar Pradesh,Ballia,Uttar Pradesh,Ballia,exact_normalized,,Onion,10419
+Haryana,Jind,Haryana,Jind,exact_normalized,,Onion,10387
+Uttar Pradesh,Jaunpur,Uttar Pradesh,Jaunpur,exact_normalized,,Onion,10378
+West Bengal,Malda,West Bengal,Malda,exact_normalized,,Onion,10370
+Himachal Pradesh,Kullu,Himachal Pradesh,Kullu,exact_normalized,,Onion,10287
+Uttar Pradesh,Etawah,Uttar Pradesh,Etawah,exact_normalized,,Onion,10270
+Punjab,Mansa,Punjab,Mansa,exact_normalized,,Onion,10228
+Rajasthan,Hanumangarh,Rajasthan,Hanumangarh,exact_normalized,,Onion,10168
+Uttar Pradesh,Pillibhit,Uttar Pradesh,Pilibhit,reviewed_alias,spelling variant,Onion,10164
+Himachal Pradesh,Mandi,Himachal Pradesh,Mandi,exact_normalized,,Onion,10100
+West Bengal,Puruliya,West Bengal,Purulia,reviewed_alias,spelling variant,Onion,9985
+Uttar Pradesh,Bahraich,Uttar Pradesh,Bahraich,exact_normalized,,Onion,9985
+Uttrakhand,Haridwar,Uttarakhand,Haridwar,exact_normalized,,Onion,9835
+Uttar Pradesh,Hamirpur,Uttar Pradesh,Hamirpur,exact_normalized,,Onion,9766
+Haryana,Faridabad,Haryana,Faridabad,exact_normalized,,Onion,9588
+Gujarat,Vadodara(Baroda),Gujarat,Vadodara,parenthetical_part,,Onion,9471
+Uttar Pradesh,Jyotiba Phule Nagar,Uttar Pradesh,Amroha,reviewed_alias,official district rename,Onion,9458
+Uttar Pradesh,Farukhabad,Uttar Pradesh,Farrukhabad,reviewed_alias,spelling variant,Onion,9408
+Odisha,Sundergarh,Odisha,Sundargarh,reviewed_alias,spelling variant,Onion,9385
+Gujarat,Bhavnagar,Gujarat,Bhavnagar,exact_normalized,,Onion,9376
+Maharashtra,Aurangabad,Maharashtra,Chhatrapati Sambhajinagar,reviewed_alias,official district rename,Onion,9344
+Uttar Pradesh,Lakhimpur,Uttar Pradesh,Kheri,reviewed_alias,Lakhimpur is the headquarters town of Kheri district (Lakhimpur Kheri),Onion,9336
+Uttar Pradesh,Rampur,Uttar Pradesh,Rampur,exact_normalized,,Onion,9311
+Odisha,Ganjam,Odisha,Ganjam,exact_normalized,,Onion,9293
+Karnataka,Kolar,Karnataka,Kolar,exact_normalized,,Onion,9115
+Gujarat,Ahmedabad,Gujarat,Ahmedabad,exact_normalized,,Onion,9110
+Kerala,Thiruvananthapuram,Kerala,Thiruvananthapuram,exact_normalized,,Onion,9072
+Odisha,Khurda,Odisha,Khordha,reviewed_alias,spelling variant,Onion,9050
+Jammu and Kashmir,Jammu,Jammu And Kashmir,Jammu,exact_normalized,,Onion,8971
+Odisha,Boudh,Odisha,Boudh,exact_normalized,,Onion,8936
+Haryana,Panipat,Haryana,Panipat,exact_normalized,,Onion,8895
+West Bengal,North 24 Parganas,West Bengal,North 24 Parganas,exact_normalized,,Onion,8894
+Haryana,Rohtak,Haryana,Rohtak,exact_normalized,,Onion,8851
+Uttar Pradesh,Ghazipur,Uttar Pradesh,Ghazipur,exact_normalized,,Onion,8728
+Madhya Pradesh,Dhar,Madhya Pradesh,Dhar,exact_normalized,,Onion,8637
+Uttar Pradesh,Auraiya,Uttar Pradesh,Auraiya,exact_normalized,,Onion,8626
+Odisha,Balasore,Odisha,Balasore,exact_normalized,,Onion,8591
+Karnataka,Belgaum,Karnataka,Belagavi,reviewed_alias,official district rename,Onion,8422
+Rajasthan,Chittorgarh,Rajasthan,Chittorgarh,exact_normalized,,Onion,8343
+Uttar Pradesh,Barabanki,Uttar Pradesh,Bara Banki,exact_normalized,,Onion,8339
+Madhya Pradesh,Dewas,Madhya Pradesh,Dewas,exact_normalized,,Onion,8161
+West Bengal,Bankura,West Bengal,Bankura,exact_normalized,,Onion,8110
+West Bengal,Hooghly,West Bengal,Hooghly,exact_normalized,,Onion,8080
+Uttar Pradesh,Sultanpur,Uttar Pradesh,Sultanpur,exact_normalized,,Onion,8064
+Maharashtra,Jalgaon,Maharashtra,Jalgaon,exact_normalized,,Onion,8053
+Punjab,Faridkot,Punjab,Faridkot,exact_normalized,,Onion,8045
+Madhya Pradesh,Indore,Madhya Pradesh,Indore,exact_normalized,,Onion,7811
+Andhra Pradesh,Kurnool,Andhra Pradesh,Kurnool,exact_normalized,,Onion,7767
+Odisha,Angul,Odisha,Angul,exact_normalized,,Onion,7646
+Haryana,Bhiwani,Haryana,Bhiwani,exact_normalized,,Onion,7620
+Himachal Pradesh,Hamirpur,Himachal Pradesh,Hamirpur,exact_normalized,,Onion,7499
+West Bengal,Howrah,West Bengal,Howrah,exact_normalized,,Onion,7434
+Gujarat,Anand,Gujarat,Anand,exact_normalized,,Onion,7422
+Odisha,Bolangir,Odisha,Balangir,reviewed_alias,spelling variant,Onion,7255
+Uttar Pradesh,Gonda,Uttar Pradesh,Gonda,exact_normalized,,Onion,7218
+Uttar Pradesh,Mainpuri,Uttar Pradesh,Mainpuri,exact_normalized,,Onion,7138
+West Bengal,Medinipur(E),West Bengal,Purba Medinipur,reviewed_alias,E = Purba (East),Onion,6895
+Rajasthan,Ajmer,Rajasthan,Ajmer,exact_normalized,,Onion,6889
+Uttar Pradesh,Hathras,Uttar Pradesh,Hathras,exact_normalized,,Onion,6874
+Madhya Pradesh,Shajapur,Madhya Pradesh,Shajapur,exact_normalized,,Onion,6857
+Uttar Pradesh,Siddharth Nagar,Uttar Pradesh,Siddharthnagar,exact_normalized,,Onion,6798
+Maharashtra,Dhule,Maharashtra,Dhule,exact_normalized,,Onion,6551
+Gujarat,Surat,Gujarat,Surat,exact_normalized,,Onion,6521
+Uttar Pradesh,Baghpat,Uttar Pradesh,Baghpat,exact_normalized,,Onion,6497
+Gujarat,Dahod,Gujarat,Dahod,exact_normalized,,Onion,6450
+Uttar Pradesh,Deoria,Uttar Pradesh,Deoria,exact_normalized,,Onion,6413
+Uttar Pradesh,Balrampur,Uttar Pradesh,Balrampur,exact_normalized,,Onion,6412
+Punjab,kapurthala,Punjab,Kapurthala,exact_normalized,,Onion,6375
+Maharashtra,Mumbai,,,excluded_by_review,EXCLUDED - urban district with no APY district for these crops,Onion,6365
+Odisha,Puri,Odisha,Puri,exact_normalized,,Onion,6349
+Uttar Pradesh,Kannuj,Uttar Pradesh,Kannauj,reviewed_alias,spelling variant,Onion,6337
+Punjab,Barnala,Punjab,Barnala,exact_normalized,,Onion,6224
+Himachal Pradesh,Una,Himachal Pradesh,Una,exact_normalized,,Onion,6202
+Uttar Pradesh,Mirzapur,Uttar Pradesh,Mirzapur,exact_normalized,,Onion,6180
+Madhya Pradesh,Sagar,Madhya Pradesh,Sagar,exact_normalized,,Onion,6164
+Uttar Pradesh,Faizabad,Uttar Pradesh,Ayodhya,reviewed_alias,official district rename,Onion,6014
+Odisha,Nuapada,Odisha,Nuapada,exact_normalized,,Onion,5963
+Uttar Pradesh,Basti,Uttar Pradesh,Basti,exact_normalized,,Onion,5959
+Odisha,Bhadrak,Odisha,Bhadrak,exact_normalized,,Onion,5876
+Punjab,Tarntaran,Punjab,Tarn Taran,exact_normalized,,Onion,5829
+Rajasthan,Jaipur,Rajasthan,Jaipur,exact_normalized,,Onion,5767
+Uttrakhand,Nanital,Uttarakhand,Nainital,reviewed_alias,spelling variant,Onion,5764
+Uttar Pradesh,Mathura,Uttar Pradesh,Mathura,exact_normalized,,Onion,5694
+Odisha,Kalahandi,Odisha,Kalahandi,exact_normalized,,Onion,5669
+Uttar Pradesh,Varanasi,Uttar Pradesh,Varanasi,exact_normalized,,Onion,5639
+Himachal Pradesh,Sirmore,,,unmatched,,Onion,5576
+Uttar Pradesh,Lucknow,Uttar Pradesh,Lucknow,exact_normalized,,Onion,5533
+Haryana,Palwal,Haryana,Palwal,exact_normalized,,Onion,5455
+West Bengal,Sounth 24 Parganas,West Bengal,South 24 Parganas,reviewed_alias,typo in mandi source,Onion,5455
+Madhya Pradesh,Ratlam,Madhya Pradesh,Ratlam,exact_normalized,,Onion,5392
+Maharashtra,Kolhapur,Maharashtra,Kolhapur,exact_normalized,,Onion,5365
+Gujarat,Bharuch,Gujarat,Bharuch,exact_normalized,,Onion,5347
+Uttar Pradesh,Sonbhadra,Uttar Pradesh,Sonbhadra,exact_normalized,,Onion,5330
+Haryana,Mewat,Haryana,Nuh,reviewed_alias,official district rename,Onion,5294
+Karnataka,Davangere,Karnataka,Davanagere,reviewed_alias,spelling variant,Onion,5293
+Uttar Pradesh,Mau(Maunathbhanjan),Uttar Pradesh,Mau,parenthetical_part,,Onion,5224
+Rajasthan,Jodhpur,Rajasthan,Jodhpur,exact_normalized,,Onion,5192
+Uttar Pradesh,Azamgarh,Uttar Pradesh,Azamgarh,exact_normalized,,Onion,5122
+Jammu and Kashmir,Udhampur,Jammu And Kashmir,Udhampur,exact_normalized,,Onion,5046
+Kerala,Kasargod,Kerala,Kasaragod,reviewed_alias,spelling variant,Onion,5000
+Himachal Pradesh,Solan,Himachal Pradesh,Solan,exact_normalized,,Onion,4983
+Karnataka,Chikmagalur,Karnataka,Chikkamagaluru,reviewed_alias,official district rename,Onion,4928
+Madhya Pradesh,Gwalior,Madhya Pradesh,Gwalior,exact_normalized,,Onion,4901
+Haryana,Jhajar,Haryana,Jhajjar,reviewed_alias,spelling variant,Onion,4868
+Rajasthan,Sikar,Rajasthan,Sikar,exact_normalized,,Onion,4764
+Karnataka,Mysore,Karnataka,Mysuru,reviewed_alias,official district rename,Onion,4736
+Rajasthan,Alwar,Rajasthan,Alwar,exact_normalized,,Onion,4714
+Madhya Pradesh,Mandsaur,Madhya Pradesh,Mandsaur,exact_normalized,,Onion,4673
+Uttar Pradesh,Chandauli,Uttar Pradesh,Chandauli,exact_normalized,,Onion,4622
+Uttar Pradesh,Ambedkarnagar,Uttar Pradesh,Ambedkar Nagar,exact_normalized,,Onion,4610
+Odisha,Sambalpur,Odisha,Sambalpur,exact_normalized,,Onion,4594
+Gujarat,Kheda,Gujarat,Kheda,exact_normalized,,Onion,4551
+West Bengal,Kolkata,,,excluded_by_review,EXCLUDED - urban district with no APY district for these crops,Onion,4541
+Odisha,Sonepur,Odisha,Sonepur,exact_normalized,,Onion,4456
+Odisha,Koraput,Odisha,Koraput,exact_normalized,,Onion,4446
+Odisha,Cuttack,Odisha,Cuttack,exact_normalized,,Onion,4421
+Goa,North Goa,,,state_not_in_apy,,Onion,4340
+Rajasthan,Ganganagar,Rajasthan,Ganganagar,exact_normalized,,Onion,4272
+Uttar Pradesh,Gautam Budh Nagar,Uttar Pradesh,Gautam Buddha Nagar,reviewed_alias,spelling variant,Onion,4270
+Uttar Pradesh,Lalitpur,Uttar Pradesh,Lalitpur,exact_normalized,,Onion,4209
+Gujarat,Mehsana,Gujarat,Mahesana,reviewed_alias,spelling variant,Onion,4198
+Madhya Pradesh,Harda,Madhya Pradesh,Harda,exact_normalized,,Onion,4193
+Himachal Pradesh,Bilaspur,Himachal Pradesh,Bilaspur,exact_normalized,,Onion,4171
+West Bengal,Darjeeling,West Bengal,Darjeeling,exact_normalized,,Onion,4167
+Karnataka,Raichur,Karnataka,Raichur,exact_normalized,,Onion,4123
+Madhya Pradesh,Khandwa,Madhya Pradesh,Khandwa (East Nimar),reviewed_alias,APY appends the alternative name,Onion,4062
+Kerala,Kannur,Kerala,Kannur,exact_normalized,,Onion,3982
+Uttar Pradesh,Pratapgarh,Uttar Pradesh,Pratapgarh,exact_normalized,,Onion,3948
+Uttar Pradesh,Padrauna(Kusinagar),Uttar Pradesh,Kushinagar,reviewed_alias,Padrauna is the headquarters town of Kushinagar district,Onion,3904
+Uttar Pradesh,Mahoba,Uttar Pradesh,Mahoba,exact_normalized,,Onion,3885
+Rajasthan,Udaipur,Rajasthan,Udaipur,exact_normalized,,Onion,3857
+Assam,Kamrup,Assam,Kamrup,exact_normalized,,Onion,3797
+West Bengal,Coochbehar,West Bengal,Cooch Behar,exact_normalized,,Onion,3762
+Chandigarh,Chandigarh,Chandigarh,Chandigarh,exact_normalized,,Onion,3755
+Odisha,Jajpur,Odisha,Jajpur,exact_normalized,,Onion,3752
+Tripura,North Tripura,Tripura,North Tripura,exact_normalized,,Onion,3751
+West Bengal,Medinipur(W),West Bengal,Paschim Medinipur,reviewed_alias,W = Paschim (West),Onion,3724
+Rajasthan,Kota,Rajasthan,Kota,exact_normalized,,Onion,3688
+Karnataka,Hassan,Karnataka,Hassan,exact_normalized,,Onion,3678
+Uttar Pradesh,Chitrakut,Uttar Pradesh,Chitrakoot,reviewed_alias,spelling variant,Onion,3572
+Madhya Pradesh,Ujjain,Madhya Pradesh,Ujjain,exact_normalized,,Onion,3547
+Gujarat,Navsari,Gujarat,Navsari,exact_normalized,,Onion,3539
+Punjab,Pathankot,Punjab,Pathankot,exact_normalized,,Onion,3521
+Haryana,Rewari,Haryana,Rewari,exact_normalized,,Onion,3497
+Andhra Pradesh,West Godavari,Andhra Pradesh,West Godavari,exact_normalized,,Onion,3484
+Jharkhand,East Singhbhum,Jharkhand,East Singhbum,reviewed_alias,APY spelling of the same district,Onion,3449
+Maharashtra,Thane,Maharashtra,Thane,exact_normalized,,Onion,3401
+Tripura,Sepahijala,Tripura,Sepahijala,exact_normalized,,Onion,3345
+Madhya Pradesh,Chhindwara,Madhya Pradesh,Chhindwara,exact_normalized,,Onion,3321
+Odisha,Rayagada,Odisha,Rayagada,exact_normalized,,Onion,3277
+Odisha,Jharsuguda,Odisha,Jharsuguda,exact_normalized,,Onion,3268
+Odisha,Deogarh,Odisha,Deogarh,exact_normalized,,Onion,3239
+Odisha,Nayagarh,Odisha,Nayagarh,exact_normalized,,Onion,3169
+Maharashtra,Sangli,Maharashtra,Sangli,exact_normalized,,Onion,3141
+Madhya Pradesh,Jhabua,Madhya Pradesh,Jhabua,exact_normalized,,Onion,3139
+Rajasthan,Bharatpur,Rajasthan,Bharatpur,exact_normalized,,Onion,3134
+Jharkhand,Deogarh,Jharkhand,Deoghar,reviewed_alias,spelling variant,Onion,3085
+Madhya Pradesh,Jabalpur,Madhya Pradesh,Jabalpur,exact_normalized,,Onion,3067
+Gujarat,Banaskanth,Gujarat,Banas Kantha,reviewed_alias,spelling variant,Onion,3066
+Gujarat,Surendranagar,Gujarat,Surendranagar,exact_normalized,,Onion,3055
+Telangana,Medak,Telangana,Medak,exact_normalized,,Onion,3034
+West Bengal,Murshidabad,West Bengal,Murshidabad,exact_normalized,,Onion,2998
+Uttar Pradesh,Khiri (Lakhimpur),Uttar Pradesh,Kheri,reviewed_alias,spelling variant of Kheri (Lakhimpur Kheri),Onion,2993
+Maharashtra,Amarawati,Maharashtra,Amravati,reviewed_alias,spelling variant,Onion,2983
+Himachal Pradesh,Chamba,Himachal Pradesh,Chamba,exact_normalized,,Onion,2980
+Odisha,Gajapati,Odisha,Gajapati,exact_normalized,,Onion,2910
+Assam,Barpeta,Assam,Barpeta,exact_normalized,,Onion,2877
+Jharkhand,Ranchi,Jharkhand,Ranchi,exact_normalized,,Onion,2785
+Madhya Pradesh,Neemuch,Madhya Pradesh,Neemuch,exact_normalized,,Onion,2774
+Karnataka,Chamrajnagar,Karnataka,Chamarajanagar,reviewed_alias,spelling variant,Onion,2756
+Madhya Pradesh,Hoshangabad,Madhya Pradesh,Narmadapuram,reviewed_alias,official district rename,Onion,2722
+Karnataka,Bellary,Karnataka,Ballari,reviewed_alias,official district rename,Onion,2705
+Madhya Pradesh,Burhanpur,Madhya Pradesh,Burhanpur,exact_normalized,,Onion,2701
+Madhya Pradesh,Bhopal,Madhya Pradesh,Bhopal,exact_normalized,,Onion,2689
+Manipur,Imphal East,Manipur,Imphal East,exact_normalized,,Onion,2632
+Jharkhand,Giridih,Jharkhand,Giridih,exact_normalized,,Onion,2575
+Jammu and Kashmir,Kathua,Jammu And Kashmir,Kathua,exact_normalized,,Onion,2571
+Manipur,Imphal West,Manipur,Imphal West,exact_normalized,,Onion,2562
+Karnataka,Shimoga,Karnataka,Shivamogga,reviewed_alias,official district rename,Onion,2534
+Chattisgarh,Bilaspur,Chhattisgarh,Bilaspur,exact_normalized,,Onion,2526
+Maharashtra,Chandrapur,Maharashtra,Chandrapur,exact_normalized,,Onion,2511
+Uttrakhand,Garhwal (Pauri),Uttarakhand,Pauri Garhwal,reviewed_alias,word order variant,Onion,2484
+Jharkhand,West Singbhum,Jharkhand,West Singhbhum,reviewed_alias,spelling variant,Onion,2478
+Gujarat,Junagarh,Gujarat,Junagadh,reviewed_alias,spelling variant,Onion,2462
+Odisha,Nowarangpur,Odisha,Nabarangpur,reviewed_alias,spelling variant,Onion,2442
+Telangana,Ranga Reddy,Telangana,Ranga Reddy,exact_normalized,,Onion,2401
+Rajasthan,Churu,Rajasthan,Churu,exact_normalized,,Onion,2329
+Karnataka,Udupi,Karnataka,Udupi,exact_normalized,,Onion,2318
+Jharkhand,Hazaribagh,Jharkhand,Hazaribagh,exact_normalized,,Onion,2302
+Madhya Pradesh,Sehore,Madhya Pradesh,Sehore,exact_normalized,,Onion,2235
+Assam,Nagaon,Assam,Nagaon,exact_normalized,,Onion,2215
+Rajasthan,Bikaner,Rajasthan,Bikaner,exact_normalized,,Onion,2181
+Chattisgarh,Durg,Chhattisgarh,Durg,exact_normalized,,Onion,2179
+Madhya Pradesh,Rajgarh,Madhya Pradesh,Rajgarh,exact_normalized,,Onion,2148
+Karnataka,Tumkur,Karnataka,Tumakuru,reviewed_alias,official district rename,Onion,2092
+Jharkhand,Jamtara,Jharkhand,Jamtara,exact_normalized,,Onion,2074
+Chattisgarh,Raigarh,Chhattisgarh,Raigarh,exact_normalized,,Onion,2063
+Rajasthan,Jalore,Rajasthan,Jalore,exact_normalized,,Onion,2051
+Uttar Pradesh,Sant Kabir Nagar,Uttar Pradesh,Sant Kabir Nagar,exact_normalized,,Onion,2043
+Tripura,Khowai,Tripura,Khowai,exact_normalized,,Onion,2041
+Madhya Pradesh,Khargone,Madhya Pradesh,Khargone (West Nimar),reviewed_alias,APY appends the alternative name,Onion,2018
+Jharkhand,Sahebgang,Jharkhand,Sahebganj,reviewed_alias,spelling variant,Onion,1993
+Andhra Pradesh,East Godavari,Andhra Pradesh,East Godavari,exact_normalized,,Onion,1955
+Andhra Pradesh,Krishna,Andhra Pradesh,Krishna,exact_normalized,,Onion,1943
+Bihar,Patna,Bihar,Patna,exact_normalized,,Onion,1883
+Jharkhand,Pakur,Jharkhand,Pakur,exact_normalized,,Onion,1835
+Bihar,Kishanganj,Bihar,Kishanganj,exact_normalized,,Onion,1820
+Assam,BONGAIGAON,Assam,Bongaigaon,exact_normalized,,Onion,1816
+Uttar Pradesh,Shravasti,Uttar Pradesh,Shrawasti,reviewed_alias,spelling variant,Onion,1808
+Odisha,Malkangiri,Odisha,Malkangiri,exact_normalized,,Onion,1797
+Rajasthan,Jhunjunu,Rajasthan,Jhunjhunu,reviewed_alias,spelling variant,Onion,1773
+Rajasthan,Jaisalmer,Rajasthan,Jaisalmer,exact_normalized,,Onion,1769
+Bihar,Rohtas,Bihar,Rohtas,exact_normalized,,Onion,1765
+Jammu and Kashmir,Anantnag,Jammu And Kashmir,Anantnag,exact_normalized,,Onion,1753
+Jammu and Kashmir,Srinagar,Jammu And Kashmir,Srinagar,exact_normalized,,Onion,1721
+Maharashtra,Osmanabad,Maharashtra,Dharashiv,reviewed_alias,official district rename,Onion,1717
+Tripura,South District,,,excluded_by_review,EXCLUDED - ambiguous: Tripura districts were reorganised in 2012,Onion,1716
+Assam,Jorhat,Assam,Jorhat,exact_normalized,,Onion,1644
+Madhya Pradesh,Damoh,Madhya Pradesh,Damoh,exact_normalized,,Onion,1636
+Jharkhand,Garhwa,Jharkhand,Garhwa,exact_normalized,,Onion,1613
+Chattisgarh,Rajnandgaon,Chhattisgarh,Rajnandgaon,exact_normalized,,Onion,1606
+Karnataka,Bagalkot,Karnataka,Bagalkote,reviewed_alias,spelling variant,Onion,1472
+Rajasthan,Rajasamand,Rajasthan,Rajsamand,reviewed_alias,spelling variant,Onion,1454
+Manipur,Thoubal,Manipur,Thoubal,exact_normalized,,Onion,1451
+Bihar,Madhubani,Bihar,Madhubani,exact_normalized,,Onion,1450
+Odisha,Kandhamal,Odisha,Kandhamal,exact_normalized,,Onion,1444
+Karnataka,Bijapur,Karnataka,Vijayapura,reviewed_alias,official district rename,Onion,1415
+Bihar,East Champaran/ Motihari,Bihar,Purbi Champaran,reviewed_alias,Motihari is the headquarters town of Purbi (East) Champaran,Onion,1347
+Uttar Pradesh,Kaushambi,Uttar Pradesh,Kaushambi,exact_normalized,,Onion,1336
+Manipur,Bishnupur,Manipur,Bishnupur,exact_normalized,,Onion,1334
+Rajasthan,Sirohi,Rajasthan,Sirohi,exact_normalized,,Onion,1297
+Jharkhand,Koderma,Jharkhand,Koderma,exact_normalized,,Onion,1276
+Uttar Pradesh,Bhadohi(Sant Ravi Nagar),Uttar Pradesh,Bhadohi,parenthetical_part,,Onion,1248
+Himachal Pradesh,Shimla,Himachal Pradesh,Shimla,exact_normalized,,Onion,1234
+Jharkhand,Saraikela(Kharsanwa),Jharkhand,Saraikela Kharsawan,reviewed_alias,spelling variant,Onion,1224
+Assam,Cachar,Assam,Cachar,exact_normalized,,Onion,1223
+Odisha,Jagatsinghpur,Odisha,Jagatsinghapur,reviewed_alias,spelling variant,Onion,1211
+Assam,Golaghat,Assam,Golaghat,exact_normalized,,Onion,1134
+Jharkhand,Lohardaga,Jharkhand,Lohardaga,exact_normalized,,Onion,1117
+Maharashtra,Buldhana,Maharashtra,Buldhana,exact_normalized,,Onion,1117
+Assam,Dibrugarh,Assam,Dibrugarh,exact_normalized,,Onion,1100
+Karnataka,Haveri,Karnataka,Haveri,exact_normalized,,Onion,1086
+Maharashtra,Raigad,Maharashtra,Raigad,exact_normalized,,Onion,1064
+Jammu and Kashmir,Rajouri,Jammu And Kashmir,Rajouri,exact_normalized,,Onion,1058
+Bihar,Muzaffarpur,Bihar,Muzaffarpur,exact_normalized,,Onion,1048
+Gujarat,Botad,Gujarat,Botad,exact_normalized,,Onion,1040
+Jharkhand,Simdega,Jharkhand,Simdega,exact_normalized,,Onion,1033
+Madhya Pradesh,Guna,Madhya Pradesh,Guna,exact_normalized,,Onion,1003
+Bihar,Begusarai,Bihar,Begusarai,exact_normalized,,Onion,999
+Gujarat,Jamnagar,Gujarat,Jamnagar,exact_normalized,,Onion,997
+Bihar,Darbhanga,Bihar,Darbhanga,exact_normalized,,Onion,994
+Bihar,Samastipur,Bihar,Samastipur,exact_normalized,,Onion,991
+Jharkhand,Bokaro,Jharkhand,Bokaro,exact_normalized,,Onion,986
+Karnataka,Gadag,Karnataka,Gadag,exact_normalized,,Onion,963
+Bihar,Vaishali,Bihar,Vaishali,exact_normalized,,Onion,916
+West Bengal,Dakshin Dinajpur,West Bengal,Dakshin Dinajpur,exact_normalized,,Onion,907
+Bihar,Purnea,Bihar,Purnia,reviewed_alias,spelling variant,Onion,902
+Madhya Pradesh,Sheopur,Madhya Pradesh,Sheopur,exact_normalized,,Onion,891
+Bihar,Bhagalpur,Bihar,Bhagalpur,exact_normalized,,Onion,887
+Gujarat,Amreli,Gujarat,Amreli,exact_normalized,,Onion,858
+Andhra Pradesh,Nellore,Andhra Pradesh,Sri Potti Sriramulu Nellore,reviewed_alias,official district rename,Onion,836
+Bihar,Khagaria,Bihar,Khagaria,exact_normalized,,Onion,836
+Bihar,Nalanda,Bihar,Nalanda,exact_normalized,,Onion,829
+Assam,Dhubri,Assam,Dhubri,exact_normalized,,Onion,828
+Gujarat,Patan,Gujarat,Patan,exact_normalized,,Onion,824
+Meghalaya,West Garo Hills,Meghalaya,West Garo Hills,exact_normalized,,Onion,813
+Bihar,Gaya,Bihar,Gaya,exact_normalized,,Onion,807
+Gujarat,Porbandar,Gujarat,Porbandar,exact_normalized,,Onion,807
+Bihar,Supaul,Bihar,Supaul,exact_normalized,,Onion,790
+Bihar,Madhepura,Bihar,Madhepura,exact_normalized,,Onion,781
+Madhya Pradesh,Morena,Madhya Pradesh,Morena,exact_normalized,,Onion,781
+Jammu and Kashmir,Pulwama,Jammu And Kashmir,Pulwama,exact_normalized,,Onion,779
+Assam,Sonitpur,Assam,Sonitpur,exact_normalized,,Onion,767
+Rajasthan,Nagaur,Rajasthan,Nagaur,exact_normalized,,Onion,761
+Bihar,Aurangabad,Bihar,Aurangabad,exact_normalized,,Onion,749
+Madhya Pradesh,Alirajpur,Madhya Pradesh,Alirajpur,exact_normalized,,Onion,735
+Bihar,Kaithar,Bihar,Katihar,reviewed_alias,spelling variant (only phonetically close Bihar district),Onion,727
+Tamil Nadu,Vellore,Tamil Nadu,Vellore,exact_normalized,,Onion,697
+Andhra Pradesh,Vijayanagaram,Andhra Pradesh,Vizianagaram,reviewed_alias,spelling variant,Onion,697
+Rajasthan,Pali,Rajasthan,Pali,exact_normalized,,Onion,692
+Madhya Pradesh,Shivpuri,Madhya Pradesh,Shivpuri,exact_normalized,,Onion,672
+Rajasthan,Bhilwara,Rajasthan,Bhilwara,exact_normalized,,Onion,670
+Gujarat,Kachchh,Gujarat,Kachchh,exact_normalized,,Onion,661
+Karnataka,Mandya,Karnataka,Mandya,exact_normalized,,Onion,661
+Bihar,Chhapra,Bihar,Saran,reviewed_alias,Chhapra is the headquarters town of Saran district,Onion,661
+Bihar,Araria,Bihar,Araria,exact_normalized,,Onion,659
+Kerala,Alleppey,Kerala,Alappuzha,reviewed_alias,official district rename (former English name),Onion,642
+Maharashtra,Beed,Maharashtra,Beed,exact_normalized,,Onion,635
+Bihar,Sheikhpura,Bihar,Sheikhpura,exact_normalized,,Onion,634
+Telangana,Nizamabad,Telangana,Nizamabad,exact_normalized,,Onion,633
+Karnataka,Chitradurga,Karnataka,Chitradurga,exact_normalized,,Onion,627
+Karnataka,Mangalore(Dakshin Kannad),Karnataka,Dakshina Kannada,reviewed_alias,Mangalore is the headquarters town of Dakshina Kannada,Onion,615
+Bihar,Munghair,Bihar,Munger,reviewed_alias,spelling variant,Onion,605
+Karnataka,Bidar,Karnataka,Bidar,exact_normalized,,Onion,563
+Assam,Kokrajhar,Assam,Kokrajhar,exact_normalized,,Onion,545
+Bihar,Siwan,Bihar,Siwan,exact_normalized,,Onion,543
+Telangana,Nalgonda,Telangana,Nalgonda,exact_normalized,,Onion,540
+Bihar,Nawada,Bihar,Nawada,exact_normalized,,Onion,524
+Jharkhand,Gumla,Jharkhand,Gumla,exact_normalized,,Onion,522
+Bihar,Bhojpur,Bihar,Bhojpur,exact_normalized,,Onion,520
+Rajasthan,Barmer,Rajasthan,Barmer,exact_normalized,,Onion,517
+Nagaland,Mokokchung,Nagaland,Mokokchung,exact_normalized,,Onion,502
+Maharashtra,Nandurbar,Maharashtra,Nandurbar,exact_normalized,,Onion,499
+Assam,Hailakandi,Assam,Hailakandi,exact_normalized,,Onion,483
+Assam,Tinsukia,Assam,Tinsukia,exact_normalized,,Onion,468
+Maharashtra,Parbhani,Maharashtra,Parbhani,exact_normalized,,Onion,454
+Tripura,Gomati,Tripura,Gomati,exact_normalized,,Onion,453
+Mizoram,Lungli,Mizoram,Lunglei,reviewed_alias,spelling variant,Onion,445
+Bihar,Banka,Bihar,Banka,exact_normalized,,Onion,444
+Bihar,Kaimur/Bhabhua,Bihar,Kaimur (Bhabua),reviewed_alias,spelling variant,Onion,441
+Assam,Darrang,Assam,Darrang,exact_normalized,,Onion,441
+Bihar,Jehanabad,Bihar,Jehanabad,exact_normalized,,Onion,431
+Tripura,Unokoti,Tripura,Unakoti,reviewed_alias,spelling variant,Onion,410
+Bihar,Sheohar,Bihar,Sheohar,exact_normalized,,Onion,409
+Madhya Pradesh,Narsinghpur,Madhya Pradesh,Narsimhapur,reviewed_alias,spelling variant,Onion,407
+Assam,Karimganj,Assam,Sribhumi,reviewed_alias,official district rename,Onion,400
+Andhra Pradesh,Chittor,Andhra Pradesh,Chittoor,reviewed_alias,spelling variant,Onion,400
+Madhya Pradesh,Badwani,Madhya Pradesh,Barwani,reviewed_alias,spelling variant,Onion,388
+Nagaland,Kohima,Nagaland,Kohima,exact_normalized,,Onion,382
+Madhya Pradesh,Betul,Madhya Pradesh,Betul,exact_normalized,,Onion,364
+Assam,Nalbari,Assam,Nalbari,exact_normalized,,Onion,362
+Bihar,West Chambaran,Bihar,Pashchim Champaran,reviewed_alias,spelling variant of West (Pashchim) Champaran,Onion,341
+Bihar,Jamui,Bihar,Jamui,exact_normalized,,Onion,331
+Bihar,Buxar,Bihar,Buxar,exact_normalized,,Onion,330
+Bihar,Sitamarhi,Bihar,Sitamarhi,exact_normalized,,Onion,321
+Tripura,Dhalai,Tripura,Dhalai,exact_normalized,,Onion,300
+Madhya Pradesh,Satna,Madhya Pradesh,Satna,exact_normalized,,Onion,297
+Maharashtra,Akola,Maharashtra,Akola,exact_normalized,,Onion,290
+Bihar,Luckeesarai,Bihar,Lakhisarai,reviewed_alias,spelling variant,Onion,290
+Kerala,Wayanad,Kerala,Wayanad,exact_normalized,,Onion,288
+Telangana,Mahbubnagar,Telangana,Mahabubnagar,reviewed_alias,spelling variant,Onion,286
+Mizoram,Aizawl,Mizoram,Aizawl,exact_normalized,,Onion,284
+Gujarat,Gandhinagar,Gujarat,Gandhinagar,exact_normalized,,Onion,271
+Karnataka,Karwar(Uttar Kannad),Karnataka,Uttara Kannada,reviewed_alias,Karwar is the headquarters town of Uttara Kannada,Onion,270
+Jharkhand,Dhanbad,Jharkhand,Dhanbad,exact_normalized,,Onion,270
+Telangana,Warangal,Telangana,Warangal,exact_normalized,,Onion,262
+Assam,Dhemaji,Assam,Dhemaji,exact_normalized,,Onion,260
+Arunachal Pradesh,Papum Pore,Arunachal Pradesh,Papum Pare,reviewed_alias,spelling variant,Onion,259
+Jammu and Kashmir,Badgam,Jammu And Kashmir,Budgam,reviewed_alias,spelling variant,Onion,248
+Madhya Pradesh,Anupur,Madhya Pradesh,Anuppur,reviewed_alias,spelling variant,Onion,224
+Andhra Pradesh,Prakasam,Andhra Pradesh,Prakasam,exact_normalized,,Onion,222
+Jharkhand,Godda,Jharkhand,Godda,exact_normalized,,Onion,220
+Andhra Pradesh,Cuddapah,Andhra Pradesh,Y.S.R. Kadapa,reviewed_alias,official district rename,Onion,216
+Madhya Pradesh,Katni,Madhya Pradesh,Katni,exact_normalized,,Onion,200
+Bihar,Saharsa,Bihar,Saharsa,exact_normalized,,Onion,197
+Manipur,Chandel,Manipur,Chandel,exact_normalized,,Onion,195
+Assam,Goalpara,Assam,Goalpara,exact_normalized,,Onion,182
+Karnataka,Kalburgi,Karnataka,Kalaburagi,reviewed_alias,official district rename,Onion,159
+Kerala,Pathanamthitta,Kerala,Pathanamthitta,exact_normalized,,Onion,158
+Tripura,West District,,,excluded_by_review,EXCLUDED - ambiguous: Tripura districts were reorganised in 2012,Onion,154
+Uttrakhand,Champawat,Uttarakhand,Champawat,exact_normalized,,Onion,150
+Rajasthan,Tonk,Rajasthan,Tonk,exact_normalized,,Onion,148
+Madhya Pradesh,Seoni,Madhya Pradesh,Seoni,exact_normalized,,Onion,146
+Arunachal Pradesh,Tirap,Arunachal Pradesh,Tirap,exact_normalized,,Onion,146
+Bihar,Arwal,Bihar,Arwal,exact_normalized,,Onion,142
+Telangana,Adilabad,Telangana,Adilabad,exact_normalized,,Onion,141
+Rajasthan,Swai Madhopur,Rajasthan,Sawai Madhopur,reviewed_alias,spelling variant,Onion,140
+West Bengal,Uttar Dinajpur,West Bengal,Uttar Dinajpur,exact_normalized,,Onion,121
+Jammu and Kashmir,Baramulla,Jammu And Kashmir,Baramulla,exact_normalized,,Onion,121
+Bihar,Gopalgang,Bihar,Gopalganj,reviewed_alias,spelling variant,Onion,111
+Jharkhand,Palamu,Jharkhand,Palamu,exact_normalized,,Onion,108
+Madhya Pradesh,Singroli,Madhya Pradesh,Singrauli,reviewed_alias,spelling variant,Onion,105
+Tamil Nadu,Nagercoil (Kannyiakumari),Tamil Nadu,Kanniyakumari,reviewed_alias,Nagercoil is the headquarters town of Kanniyakumari,Onion,104
+Assam,Sibsagar,Assam,Sivasagar,reviewed_alias,spelling variant,Onion,98
+Nagaland,Dimapur,Nagaland,Dimapur,exact_normalized,,Onion,96
+Andhra Pradesh,Srikakulam,Andhra Pradesh,Srikakulam,exact_normalized,,Onion,80
+Bihar,Saran,Bihar,Saran,exact_normalized,,Onion,79
+Andaman and Nicobar,South Andaman,,,state_not_in_apy,,Onion,71
+Maharashtra,Jalana,Maharashtra,Jalna,reviewed_alias,spelling variant,Onion,69
+Maharashtra,Ratnagiri,,,unmatched,,Onion,68
+Andhra Pradesh,Guntur,Andhra Pradesh,Guntur,exact_normalized,,Onion,68
+Karnataka,Yadgiri,Karnataka,Yadgir,reviewed_alias,spelling variant,Onion,67
+Madhya Pradesh,Bhind,Madhya Pradesh,Bhind,exact_normalized,,Onion,64
+Gujarat,Morbi,Gujarat,Morbi,exact_normalized,,Onion,62
+Andaman and Nicobar,North and Middle Andaman,,,state_not_in_apy,,Onion,58
+Tamil Nadu,Chennai,,,excluded_by_review,EXCLUDED - urban district with no APY district for these crops,Onion,51
+Andhra Pradesh,Visakhapatnam,Andhra Pradesh,Visakhapatnam,exact_normalized,,Onion,47
+Telangana,Karimnagar,Telangana,Karimnagar,exact_normalized,,Onion,47
+Goa,South Goa,,,state_not_in_apy,,Onion,46
+Madhya Pradesh,Chhatarpur,Madhya Pradesh,Chhatarpur,exact_normalized,,Onion,38
+Chattisgarh,Jashpur,Chhattisgarh,Jashpur,exact_normalized,,Onion,38
+Andhra Pradesh,Anantapur,Andhra Pradesh,Ananthapuramu,reviewed_alias,official district rename,Onion,37
+Andaman and Nicobar,Nicobar,,,state_not_in_apy,,Onion,36
+Gujarat,Panchmahals,Gujarat,Panch Mahals,exact_normalized,,Onion,35
+Telangana,Khammam,Telangana,Khammam,exact_normalized,,Onion,35
+Karnataka,Koppal,Karnataka,Koppal,exact_normalized,,Onion,33
+Lakshadweep,Kavaratti,,,state_not_in_apy,,Onion,30
+Assam,Lakhimpur,Assam,Lakhimpur,exact_normalized,,Onion,27
+Madhya Pradesh,Raisen,Madhya Pradesh,Raisen,exact_normalized,,Onion,27
+Maharashtra,Wardha,Maharashtra,Wardha,exact_normalized,,Onion,26
+Arunachal Pradesh,Tawang,Arunachal Pradesh,Tawang,exact_normalized,,Onion,25
+Nagaland,Zunheboto,Nagaland,Zunheboto,exact_normalized,,Onion,25
+Madhya Pradesh,Datia,Madhya Pradesh,Datia,exact_normalized,,Onion,24
+Jammu and Kashmir,Kupwara,Jammu And Kashmir,Kupwara,exact_normalized,,Onion,23
+Nagaland,Wokha,Nagaland,Wokha,exact_normalized,,Onion,22
+Nagaland,Peren,Nagaland,Peren,exact_normalized,,Onion,21
+Karnataka,Madikeri(Kodagu),Karnataka,Kodagu,parenthetical_part,,Onion,20
+Tamil Nadu,Namakkal,Tamil Nadu,Namakkal,exact_normalized,,Onion,19
+Meghalaya,South West Garo Hills,Meghalaya,South West Garo Hills,exact_normalized,,Onion,14
+Arunachal Pradesh,East Siang,Arunachal Pradesh,East Siang,exact_normalized,,Onion,13
+Chattisgarh,Raipur,Chhattisgarh,Raipur,exact_normalized,,Onion,12
+Meghalaya,West Jaintia Hills,Meghalaya,West Jaintia Hills,exact_normalized,,Onion,11
+Meghalaya,West Khasi Hills,Meghalaya,West Khasi Hills,exact_normalized,,Onion,11
+Rajasthan,Karauli,Rajasthan,Karauli,exact_normalized,,Onion,8
+Meghalaya,Nongpoh (R-Bhoi),Meghalaya,Ri Bhoi,reviewed_alias,Nongpoh is the headquarters town of Ri Bhoi,Onion,7
+Tamil Nadu,Coimbatore,Tamil Nadu,Coimbatore,exact_normalized,,Onion,7
+Chattisgarh,Narayanpur,Chhattisgarh,Narayanpur,exact_normalized,,Onion,7
+Tamil Nadu,Villupuram,Tamil Nadu,Viluppuram,reviewed_alias,spelling variant,Onion,6
+Maharashtra,Vashim,Maharashtra,Washim,reviewed_alias,spelling variant,Onion,6
+Tamil Nadu,Kancheepuram,Tamil Nadu,Kancheepuram,exact_normalized,,Onion,5
+Jharkhand,Latehar,Jharkhand,Latehar,exact_normalized,,Onion,4
+Tamil Nadu,Madurai,Tamil Nadu,Madurai,exact_normalized,,Onion,4
+Arunachal Pradesh,Lower Subansiri,Arunachal Pradesh,Lower Subansiri,exact_normalized,,Onion,3
+Maharashtra,Yavatmal,Maharashtra,Yavatmal,exact_normalized,,Onion,2
+Assam,MORIGAON,Assam,Marigaon,reviewed_alias,spelling variant,Onion,2
+Gujarat,Valsad,Gujarat,Valsad,exact_normalized,,Onion,2
+Tamil Nadu,Theni,Tamil Nadu,Theni,exact_normalized,,Onion,2
+Tamil Nadu,Salem,Tamil Nadu,Salem,exact_normalized,,Onion,2
+Madhya Pradesh,Tikamgarh,Madhya Pradesh,Tikamgarh,exact_normalized,,Onion,1
+Tamil Nadu,Ramanathapuram,Tamil Nadu,Ramanathapuram,exact_normalized,,Onion,1
+Madhya Pradesh,Vidisha,Madhya Pradesh,Vidisha,exact_normalized,,Onion,1
+Meghalaya,South Garo Hills,Meghalaya,South Garo Hills,exact_normalized,,Onion,1
+Maharashtra,Nanded,Maharashtra,Nanded,exact_normalized,,Onion,1
+Arunachal Pradesh,Upper Subansiri,Arunachal Pradesh,Upper Subansiri,exact_normalized,,Onion,1
+Gujarat,Sabarkantha,Gujarat,Sabar Kantha,exact_normalized,,Onion,1
+Gujarat,Narmada,Gujarat,Narmada,exact_normalized,,Onion,1
+Punjab,Ludhiana,Punjab,Ludhiana,exact_normalized,,Potato,35522
+Punjab,Jalandhar,Punjab,Jalandhar,exact_normalized,,Potato,35222
+Punjab,Sangrur,Punjab,Sangrur,exact_normalized,,Potato,32724
+West Bengal,Burdwan,,,excluded_by_review,EXCLUDED - ambiguous: district split into Purba and Paschim Bardhaman,Potato,31218
+Uttar Pradesh,Bulandshahar,Uttar Pradesh,Bulandshahr,reviewed_alias,spelling variant of the APY (DES) district name,Potato,29635
+Haryana,Yamuna Nagar,Haryana,Yamunanagar,exact_normalized,,Potato,28059
+Punjab,Patiala,Punjab,Patiala,exact_normalized,,Potato,27502
+Punjab,Bhatinda,Punjab,Bathinda,reviewed_alias,spelling variant,Potato,27476
+West Bengal,Jalpaiguri,West Bengal,Jalpaiguri,exact_normalized,,Potato,27154
+Punjab,Hoshiarpur,Punjab,Hoshiarpur,exact_normalized,,Potato,26678
+West Bengal,Coochbehar,West Bengal,Cooch Behar,exact_normalized,,Potato,26468
+Punjab,Mohali,Punjab,S.A.S Nagar,reviewed_alias,Mohali is the common name of Sahibzada Ajit Singh (S.A.S) Nagar district,Potato,26127
+West Bengal,Hooghly,West Bengal,Hooghly,exact_normalized,,Potato,24350
+Haryana,Ambala,Haryana,Ambala,exact_normalized,,Potato,23375
+Punjab,Ferozpur,Punjab,Ferozepur,reviewed_alias,spelling variant,Potato,21366
+Uttar Pradesh,Muzaffarnagar,Uttar Pradesh,Muzaffarnagar,exact_normalized,,Potato,21365
+Haryana,Kurukshetra,Haryana,Kurukshetra,exact_normalized,,Potato,21228
+Odisha,Kendrapara,Odisha,Kendrapara,exact_normalized,,Potato,20805
+Uttar Pradesh,Kanpur,,,excluded_by_review,EXCLUDED - ambiguous: APY has both Kanpur Nagar and Kanpur Dehat,Potato,20745
+Uttar Pradesh,Agra,Uttar Pradesh,Agra,exact_normalized,,Potato,20356
+West Bengal,Nadia,West Bengal,Nadia,exact_normalized,,Potato,20225
+Punjab,Gurdaspur,Punjab,Gurdaspur,exact_normalized,,Potato,19534
+West Bengal,Bankura,West Bengal,Bankura,exact_normalized,,Potato,18942
+Haryana,Fatehabad,Haryana,Fatehabad,exact_normalized,,Potato,18507
+Kerala,Alappuzha,Kerala,Alappuzha,exact_normalized,,Potato,18196
+Haryana,Gurgaon,Haryana,Gurugram,reviewed_alias,official district rename,Potato,18184
+Uttrakhand,UdhamSinghNagar,Uttarakhand,Udham Singh Nagar,exact_normalized,,Potato,17774
+Kerala,Ernakulam,Kerala,Ernakulam,exact_normalized,,Potato,17726
+Kerala,Kottayam,Kerala,Kottayam,exact_normalized,,Potato,17392
+NCT of Delhi,Delhi,,,state_not_in_apy,,Potato,17327
+Kerala,Malappuram,Kerala,Malappuram,exact_normalized,,Potato,17236
+Himachal Pradesh,Kangra,Himachal Pradesh,Kangra,exact_normalized,,Potato,16951
+Punjab,Ropar (Rupnagar),Punjab,Rupnagar,parenthetical_part,,Potato,16753
+Uttar Pradesh,Jhansi,Uttar Pradesh,Jhansi,exact_normalized,,Potato,16652
+Punjab,Moga,Punjab,Moga,exact_normalized,,Potato,16263
+Haryana,Hissar,Haryana,Hisar,reviewed_alias,spelling variant,Potato,16073
+Uttar Pradesh,Muradabad,Uttar Pradesh,Moradabad,reviewed_alias,spelling variant,Potato,15998
+Odisha,Mayurbhanja,Odisha,Mayurbhanj,reviewed_alias,spelling variant,Potato,15458
+Haryana,Sirsa,Haryana,Sirsa,exact_normalized,,Potato,15415
+Haryana,Karnal,Haryana,Karnal,exact_normalized,,Potato,15212
+Odisha,Dhenkanal,Odisha,Dhenkanal,exact_normalized,,Potato,15052
+Uttar Pradesh,Bijnor,Uttar Pradesh,Bijnor,exact_normalized,,Potato,14975
+Punjab,Fatehgarh,Punjab,Fatehgarh Sahib,reviewed_alias,short form of the district name,Potato,14895
+Uttar Pradesh,Aligarh,Uttar Pradesh,Aligarh,exact_normalized,,Potato,14891
+Punjab,Nawanshahr,Punjab,Shahid Bhagat Singh Nagar,reviewed_alias,official district rename,Potato,14877
+Uttar Pradesh,Saharanpur,Uttar Pradesh,Saharanpur,exact_normalized,,Potato,14810
+Punjab,Fazilka,Punjab,Fazilka,exact_normalized,,Potato,14586
+Uttar Pradesh,Etah,Uttar Pradesh,Etah,exact_normalized,,Potato,14493
+Punjab,Amritsar,Punjab,Amritsar,exact_normalized,,Potato,14424
+Maharashtra,Pune,Maharashtra,Pune,exact_normalized,,Potato,14357
+Uttar Pradesh,Ghaziabad,Uttar Pradesh,Ghaziabad,exact_normalized,,Potato,14305
+Odisha,Keonjhar,Odisha,Keonjhar,exact_normalized,,Potato,14216
+Uttar Pradesh,Shahjahanpur,Uttar Pradesh,Shahjahanpur,exact_normalized,,Potato,14104
+Uttar Pradesh,Badaun,Uttar Pradesh,Budaun,reviewed_alias,spelling variant,Potato,13954
+Telangana,Hyderabad,,,excluded_by_review,EXCLUDED - urban district with no APY district for these crops,Potato,13953
+Uttar Pradesh,Raebarelli,Uttar Pradesh,Rae Bareli,reviewed_alias,spelling variant,Potato,13937
+Uttar Pradesh,Hardoi,Uttar Pradesh,Hardoi,exact_normalized,,Potato,13798
+Karnataka,Kolar,Karnataka,Kolar,exact_normalized,,Potato,13520
+Punjab,Muktsar,Punjab,Sri Muktsar Sahib,reviewed_alias,official district rename,Potato,13413
+Haryana,Mahendragarh-Narnaul,Haryana,Mahendragarh,reviewed_alias,Narnaul is the headquarters town of Mahendragarh district,Potato,13132
+Kerala,Kozhikode(Calicut),Kerala,Kozhikode,parenthetical_part,,Potato,13020
+Kerala,Palakad,Kerala,Palakkad,reviewed_alias,spelling variant,Potato,12815
+Uttar Pradesh,Maharajganj,Uttar Pradesh,Mahrajganj,reviewed_alias,spelling variant,Potato,12773
+Uttar Pradesh,Firozabad,Uttar Pradesh,Firozabad,exact_normalized,,Potato,12735
+West Bengal,Murshidabad,West Bengal,Murshidabad,exact_normalized,,Potato,12723
+Odisha,Bargarh,Odisha,Bargarh,exact_normalized,,Potato,12679
+Uttrakhand,Dehradoon,Uttarakhand,Dehradun,reviewed_alias,spelling variant,Potato,12634
+Haryana,Sonipat,Haryana,Sonipat,exact_normalized,,Potato,12625
+Uttar Pradesh,Meerut,Uttar Pradesh,Meerut,exact_normalized,,Potato,12482
+Uttrakhand,Haridwar,Uttarakhand,Haridwar,exact_normalized,,Potato,12373
+Uttar Pradesh,Unnao,Uttar Pradesh,Unnao,exact_normalized,,Potato,12218
+Haryana,Kaithal,Haryana,Kaithal,exact_normalized,,Potato,12170
+West Bengal,Birbhum,West Bengal,Birbhum,exact_normalized,,Potato,12141
+West Bengal,Medinipur(W),West Bengal,Paschim Medinipur,reviewed_alias,W = Paschim (West),Potato,12064
+Uttar Pradesh,Allahabad,Uttar Pradesh,Prayagraj,reviewed_alias,official district rename; APY uses the current name for all years,Potato,11949
+Uttar Pradesh,Bareilly,Uttar Pradesh,Bareilly,exact_normalized,,Potato,11948
+Haryana,Jind,Haryana,Jind,exact_normalized,,Potato,11797
+West Bengal,Malda,West Bengal,Malda,exact_normalized,,Potato,11764
+Uttar Pradesh,Farukhabad,Uttar Pradesh,Farrukhabad,reviewed_alias,spelling variant,Potato,11678
+Uttar Pradesh,Sitapur,Uttar Pradesh,Sitapur,exact_normalized,,Potato,11668
+Uttar Pradesh,Fatehpur,Uttar Pradesh,Fatehpur,exact_normalized,,Potato,11582
+Punjab,Mansa,Punjab,Mansa,exact_normalized,,Potato,11561
+Gujarat,Ahmedabad,Gujarat,Ahmedabad,exact_normalized,,Potato,11508
+West Bengal,Darjeeling,West Bengal,Darjeeling,exact_normalized,,Potato,11435
+Haryana,Rohtak,Haryana,Rohtak,exact_normalized,,Potato,11346
+Kerala,Thirssur,Kerala,Thrissur,reviewed_alias,spelling variant,Potato,11296
+Uttar Pradesh,Jalaun (Orai),Uttar Pradesh,Jalaun,parenthetical_part,,Potato,11266
+Tripura,Sepahijala,Tripura,Sepahijala,exact_normalized,,Potato,11255
+Himachal Pradesh,Mandi,Himachal Pradesh,Mandi,exact_normalized,,Potato,11224
+Haryana,Panchkula,Haryana,Panchkula,exact_normalized,,Potato,11190
+Uttar Pradesh,Gorakhpur,Uttar Pradesh,Gorakhpur,exact_normalized,,Potato,11169
+Himachal Pradesh,Kullu,Himachal Pradesh,Kullu,exact_normalized,,Potato,11114
+Uttar Pradesh,Etawah,Uttar Pradesh,Etawah,exact_normalized,,Potato,11101
+Uttar Pradesh,Ballia,Uttar Pradesh,Ballia,exact_normalized,,Potato,10985
+Uttar Pradesh,Bahraich,Uttar Pradesh,Bahraich,exact_normalized,,Potato,10929
+Uttar Pradesh,Banda,Uttar Pradesh,Banda,exact_normalized,,Potato,10903
+Uttar Pradesh,Pillibhit,Uttar Pradesh,Pilibhit,reviewed_alias,spelling variant,Potato,10639
+Uttar Pradesh,Jaunpur,Uttar Pradesh,Jaunpur,exact_normalized,,Potato,10627
+Haryana,Faridabad,Haryana,Faridabad,exact_normalized,,Potato,10466
+Uttar Pradesh,Hamirpur,Uttar Pradesh,Hamirpur,exact_normalized,,Potato,10253
+Uttar Pradesh,Mathura,Uttar Pradesh,Mathura,exact_normalized,,Potato,10202
+Uttar Pradesh,Jyotiba Phule Nagar,Uttar Pradesh,Amroha,reviewed_alias,official district rename,Potato,10120
+Maharashtra,Ahmednagar,Maharashtra,Ahilyanagar,reviewed_alias,official district rename; APY uses the current name for all years,Potato,10083
+West Bengal,Puruliya,West Bengal,Purulia,reviewed_alias,spelling variant,Potato,10081
+Gujarat,Chhotaudepur,Gujarat,Chhotaudepur,exact_normalized,,Potato,9974
+Karnataka,Bangalore,,,excluded_by_review,EXCLUDED - ambiguous: APY has Bengaluru Urban / Rural / South,Potato,9913
+Uttar Pradesh,Rampur,Uttar Pradesh,Rampur,exact_normalized,,Potato,9871
+Uttar Pradesh,Auraiya,Uttar Pradesh,Auraiya,exact_normalized,,Potato,9860
+Rajasthan,Hanumangarh,Rajasthan,Hanumangarh,exact_normalized,,Potato,9710
+West Bengal,North 24 Parganas,West Bengal,North 24 Parganas,exact_normalized,,Potato,9672
+Uttar Pradesh,Lakhimpur,Uttar Pradesh,Kheri,reviewed_alias,Lakhimpur is the headquarters town of Kheri district (Lakhimpur Kheri),Potato,9630
+Odisha,Balasore,Odisha,Balasore,exact_normalized,,Potato,9518
+Odisha,Ganjam,Odisha,Ganjam,exact_normalized,,Potato,9408
+Odisha,Bhadrak,Odisha,Bhadrak,exact_normalized,,Potato,9382
+Odisha,Boudh,Odisha,Boudh,exact_normalized,,Potato,9331
+Uttar Pradesh,Ghazipur,Uttar Pradesh,Ghazipur,exact_normalized,,Potato,9305
+Madhya Pradesh,Dewas,Madhya Pradesh,Dewas,exact_normalized,,Potato,9260
+Kerala,Kollam,Kerala,Kollam,exact_normalized,,Potato,9250
+Haryana,Panipat,Haryana,Panipat,exact_normalized,,Potato,9076
+West Bengal,Dakshin Dinajpur,West Bengal,Dakshin Dinajpur,exact_normalized,,Potato,9043
+Jammu and Kashmir,Jammu,Jammu And Kashmir,Jammu,exact_normalized,,Potato,8849
+Uttar Pradesh,Barabanki,Uttar Pradesh,Bara Banki,exact_normalized,,Potato,8750
+Haryana,Bhiwani,Haryana,Bhiwani,exact_normalized,,Potato,8600
+Odisha,Khurda,Odisha,Khordha,reviewed_alias,spelling variant,Potato,8565
+Uttar Pradesh,Baghpat,Uttar Pradesh,Baghpat,exact_normalized,,Potato,8456
+Punjab,kapurthala,Punjab,Kapurthala,exact_normalized,,Potato,8414
+Uttar Pradesh,Mainpuri,Uttar Pradesh,Mainpuri,exact_normalized,,Potato,8300
+Himachal Pradesh,Hamirpur,Himachal Pradesh,Hamirpur,exact_normalized,,Potato,8274
+Uttar Pradesh,Sultanpur,Uttar Pradesh,Sultanpur,exact_normalized,,Potato,8238
+Uttar Pradesh,Siddharth Nagar,Uttar Pradesh,Siddharthnagar,exact_normalized,,Potato,8183
+Odisha,Sundergarh,Odisha,Sundargarh,reviewed_alias,spelling variant,Potato,8014
+Maharashtra,Sholapur,Maharashtra,Solapur,reviewed_alias,spelling variant,Potato,7998
+Gujarat,Anand,Gujarat,Anand,exact_normalized,,Potato,7989
+Uttar Pradesh,Hathras,Uttar Pradesh,Hathras,exact_normalized,,Potato,7964
+Odisha,Puri,Odisha,Puri,exact_normalized,,Potato,7936
+Madhya Pradesh,Indore,Madhya Pradesh,Indore,exact_normalized,,Potato,7906
+Punjab,Faridkot,Punjab,Faridkot,exact_normalized,,Potato,7894
+Uttar Pradesh,Faizabad,Uttar Pradesh,Ayodhya,reviewed_alias,official district rename,Potato,7875
+Madhya Pradesh,Dhar,Madhya Pradesh,Dhar,exact_normalized,,Potato,7825
+Karnataka,Dharwad,Karnataka,Dharwad,exact_normalized,,Potato,7758
+Maharashtra,Nagpur,Maharashtra,Nagpur,exact_normalized,,Potato,7721
+West Bengal,Howrah,West Bengal,Howrah,exact_normalized,,Potato,7645
+Odisha,Cuttack,Odisha,Cuttack,exact_normalized,,Potato,7636
+Odisha,Angul,Odisha,Angul,exact_normalized,,Potato,7571
+Uttar Pradesh,Gonda,Uttar Pradesh,Gonda,exact_normalized,,Potato,7426
+Kerala,Kasargod,Kerala,Kasaragod,reviewed_alias,spelling variant,Potato,7349
+Uttrakhand,Nanital,Uttarakhand,Nainital,reviewed_alias,spelling variant,Potato,7334
+Madhya Pradesh,Sagar,Madhya Pradesh,Sagar,exact_normalized,,Potato,7285
+Rajasthan,Ajmer,Rajasthan,Ajmer,exact_normalized,,Potato,7166
+Odisha,Bolangir,Odisha,Balangir,reviewed_alias,spelling variant,Potato,7145
+Kerala,Thiruvananthapuram,Kerala,Thiruvananthapuram,exact_normalized,,Potato,7141
+Punjab,Tarntaran,Punjab,Tarn Taran,exact_normalized,,Potato,7078
+Maharashtra,Satara,Maharashtra,Satara,exact_normalized,,Potato,6952
+Uttar Pradesh,Kannuj,Uttar Pradesh,Kannauj,reviewed_alias,spelling variant,Potato,6931
+Uttar Pradesh,Balrampur,Uttar Pradesh,Balrampur,exact_normalized,,Potato,6909
+Haryana,Palwal,Haryana,Palwal,exact_normalized,,Potato,6805
+Uttar Pradesh,Mirzapur,Uttar Pradesh,Mirzapur,exact_normalized,,Potato,6773
+Odisha,Nayagarh,Odisha,Nayagarh,exact_normalized,,Potato,6703
+Gujarat,Dahod,Gujarat,Dahod,exact_normalized,,Potato,6685
+Himachal Pradesh,Sirmore,,,unmatched,,Potato,6684
+Uttar Pradesh,Deoria,Uttar Pradesh,Deoria,exact_normalized,,Potato,6629
+Haryana,Mewat,Haryana,Nuh,reviewed_alias,official district rename,Potato,6553
+Gujarat,Rajkot,Gujarat,Rajkot,exact_normalized,,Potato,6544
+Maharashtra,Mumbai,,,excluded_by_review,EXCLUDED - urban district with no APY district for these crops,Potato,6446
+Tripura,Khowai,Tripura,Khowai,exact_normalized,,Potato,6446
+Punjab,Barnala,Punjab,Barnala,exact_normalized,,Potato,6401
+West Bengal,Medinipur(E),West Bengal,Purba Medinipur,reviewed_alias,E = Purba (East),Potato,6265
+Odisha,Nuapada,Odisha,Nuapada,exact_normalized,,Potato,6208
+Gujarat,Surendranagar,Gujarat,Surendranagar,exact_normalized,,Potato,6189
+Himachal Pradesh,Una,Himachal Pradesh,Una,exact_normalized,,Potato,6189
+Uttar Pradesh,Lucknow,Uttar Pradesh,Lucknow,exact_normalized,,Potato,6162
+Uttar Pradesh,Basti,Uttar Pradesh,Basti,exact_normalized,,Potato,6006
+Gujarat,Kheda,Gujarat,Kheda,exact_normalized,,Potato,5977
+Haryana,Jhajar,Haryana,Jhajjar,reviewed_alias,spelling variant,Potato,5895
+Maharashtra,Jalgaon,Maharashtra,Jalgaon,exact_normalized,,Potato,5843
+Kerala,Idukki,Kerala,Idukki,exact_normalized,,Potato,5792
+Tripura,North Tripura,Tripura,North Tripura,exact_normalized,,Potato,5778
+Tripura,South District,,,excluded_by_review,EXCLUDED - ambiguous: Tripura districts were reorganised in 2012,Potato,5739
+Rajasthan,Jaipur,Rajasthan,Jaipur,exact_normalized,,Potato,5696
+Uttar Pradesh,Varanasi,Uttar Pradesh,Varanasi,exact_normalized,,Potato,5681
+Uttar Pradesh,Gautam Budh Nagar,Uttar Pradesh,Gautam Buddha Nagar,reviewed_alias,spelling variant,Potato,5620
+Uttar Pradesh,Ambedkarnagar,Uttar Pradesh,Ambedkar Nagar,exact_normalized,,Potato,5463
+Karnataka,Belgaum,Karnataka,Belagavi,reviewed_alias,official district rename,Potato,5453
+Madhya Pradesh,Gwalior,Madhya Pradesh,Gwalior,exact_normalized,,Potato,5396
+Uttar Pradesh,Mau(Maunathbhanjan),Uttar Pradesh,Mau,parenthetical_part,,Potato,5354
+Uttar Pradesh,Sonbhadra,Uttar Pradesh,Sonbhadra,exact_normalized,,Potato,5272
+Odisha,Kalahandi,Odisha,Kalahandi,exact_normalized,,Potato,5268
+Rajasthan,Alwar,Rajasthan,Alwar,exact_normalized,,Potato,5246
+Rajasthan,Jodhpur,Rajasthan,Jodhpur,exact_normalized,,Potato,5217
+West Bengal,Sounth 24 Parganas,West Bengal,South 24 Parganas,reviewed_alias,typo in mandi source,Potato,5213
+Odisha,Koraput,Odisha,Koraput,exact_normalized,,Potato,5208
+Jammu and Kashmir,Udhampur,Jammu And Kashmir,Udhampur,exact_normalized,,Potato,5207
+Himachal Pradesh,Solan,Himachal Pradesh,Solan,exact_normalized,,Potato,5184
+Uttar Pradesh,Azamgarh,Uttar Pradesh,Azamgarh,exact_normalized,,Potato,5172
+Gujarat,Bharuch,Gujarat,Bharuch,exact_normalized,,Potato,5101
+Karnataka,Hassan,Karnataka,Hassan,exact_normalized,,Potato,4952
+Madhya Pradesh,Morena,Madhya Pradesh,Morena,exact_normalized,,Potato,4868
+Gujarat,Surat,Gujarat,Surat,exact_normalized,,Potato,4836
+West Bengal,Kolkata,,,excluded_by_review,EXCLUDED - urban district with no APY district for these crops,Potato,4813
+Karnataka,Mysore,Karnataka,Mysuru,reviewed_alias,official district rename,Potato,4777
+Karnataka,Chikmagalur,Karnataka,Chikkamagaluru,reviewed_alias,official district rename,Potato,4746
+Gujarat,Mehsana,Gujarat,Mahesana,reviewed_alias,spelling variant,Potato,4730
+Uttar Pradesh,Chandauli,Uttar Pradesh,Chandauli,exact_normalized,,Potato,4671
+Maharashtra,Nashik,Maharashtra,Nashik,exact_normalized,,Potato,4632
+Odisha,Sambalpur,Odisha,Sambalpur,exact_normalized,,Potato,4617
+Odisha,Sonepur,Odisha,Sonepur,exact_normalized,,Potato,4484
+Tripura,West District,,,excluded_by_review,EXCLUDED - ambiguous: Tripura districts were reorganised in 2012,Potato,4361
+Meghalaya,East Khasi Hills,Meghalaya,East Khasi Hills,exact_normalized,,Potato,4357
+Rajasthan,Sikar,Rajasthan,Sikar,exact_normalized,,Potato,4349
+Maharashtra,Thane,Maharashtra,Thane,exact_normalized,,Potato,4301
+Uttar Pradesh,Lalitpur,Uttar Pradesh,Lalitpur,exact_normalized,,Potato,4217
+Rajasthan,Ganganagar,Rajasthan,Ganganagar,exact_normalized,,Potato,4196
+Maharashtra,Sangli,Maharashtra,Sangli,exact_normalized,,Potato,4188
+Rajasthan,Udaipur,Rajasthan,Udaipur,exact_normalized,,Potato,4182
+Rajasthan,Bharatpur,Rajasthan,Bharatpur,exact_normalized,,Potato,4141
+West Bengal,Uttar Dinajpur,West Bengal,Uttar Dinajpur,exact_normalized,,Potato,4040
+Uttar Pradesh,Pratapgarh,Uttar Pradesh,Pratapgarh,exact_normalized,,Potato,4034
+Tripura,Dhalai,Tripura,Dhalai,exact_normalized,,Potato,4019
+Andhra Pradesh,Krishna,Andhra Pradesh,Krishna,exact_normalized,,Potato,4008
+Maharashtra,Kolhapur,Maharashtra,Kolhapur,exact_normalized,,Potato,4003
+Uttrakhand,Garhwal (Pauri),Uttarakhand,Pauri Garhwal,reviewed_alias,word order variant,Potato,3991
+Rajasthan,Kota,Rajasthan,Kota,exact_normalized,,Potato,3963
+Uttar Pradesh,Padrauna(Kusinagar),Uttar Pradesh,Kushinagar,reviewed_alias,Padrauna is the headquarters town of Kushinagar district,Potato,3959
+Madhya Pradesh,Chhindwara,Madhya Pradesh,Chhindwara,exact_normalized,,Potato,3957
+Goa,North Goa,,,state_not_in_apy,,Potato,3953
+Uttar Pradesh,Mahoba,Uttar Pradesh,Mahoba,exact_normalized,,Potato,3916
+Punjab,Pathankot,Punjab,Pathankot,exact_normalized,,Potato,3860
+Odisha,Jajpur,Odisha,Jajpur,exact_normalized,,Potato,3812
+Jharkhand,Hazaribagh,Jharkhand,Hazaribagh,exact_normalized,,Potato,3794
+Rajasthan,Chittorgarh,Rajasthan,Chittorgarh,exact_normalized,,Potato,3759
+Uttar Pradesh,Chitrakut,Uttar Pradesh,Chitrakoot,reviewed_alias,spelling variant,Potato,3725
+Assam,Kamrup,Assam,Kamrup,exact_normalized,,Potato,3722
+Chandigarh,Chandigarh,Chandigarh,Chandigarh,exact_normalized,,Potato,3716
+Odisha,Jharsuguda,Odisha,Jharsuguda,exact_normalized,,Potato,3703
+Haryana,Rewari,Haryana,Rewari,exact_normalized,,Potato,3686
+Himachal Pradesh,Bilaspur,Himachal Pradesh,Bilaspur,exact_normalized,,Potato,3662
+Assam,Barpeta,Assam,Barpeta,exact_normalized,,Potato,3652
+Tripura,Gomati,Tripura,Gomati,exact_normalized,,Potato,3645
+Tripura,Unokoti,Tripura,Unakoti,reviewed_alias,spelling variant,Potato,3644
+Madhya Pradesh,Jabalpur,Madhya Pradesh,Jabalpur,exact_normalized,,Potato,3605
+Himachal Pradesh,Shimla,Himachal Pradesh,Shimla,exact_normalized,,Potato,3598
+Jharkhand,East Singhbhum,Jharkhand,East Singhbum,reviewed_alias,APY spelling of the same district,Potato,3558
+Madhya Pradesh,Ujjain,Madhya Pradesh,Ujjain,exact_normalized,,Potato,3551
+Odisha,Jagatsinghpur,Odisha,Jagatsinghapur,reviewed_alias,spelling variant,Potato,3542
+Odisha,Rayagada,Odisha,Rayagada,exact_normalized,,Potato,3478
+Uttar Pradesh,Khiri (Lakhimpur),Uttar Pradesh,Kheri,reviewed_alias,spelling variant of Kheri (Lakhimpur Kheri),Potato,3472
+Odisha,Deogarh,Odisha,Deogarh,exact_normalized,,Potato,3291
+Madhya Pradesh,Harda,Madhya Pradesh,Harda,exact_normalized,,Potato,3270
+Gujarat,Banaskanth,Gujarat,Banas Kantha,reviewed_alias,spelling variant,Potato,3233
+Jharkhand,Deogarh,Jharkhand,Deoghar,reviewed_alias,spelling variant,Potato,3218
+Himachal Pradesh,Chamba,Himachal Pradesh,Chamba,exact_normalized,,Potato,3206
+Maharashtra,Amarawati,Maharashtra,Amravati,reviewed_alias,spelling variant,Potato,3066
+Maharashtra,Aurangabad,Maharashtra,Chhatrapati Sambhajinagar,reviewed_alias,official district rename,Potato,2959
+Madhya Pradesh,Jhabua,Madhya Pradesh,Jhabua,exact_normalized,,Potato,2922
+Madhya Pradesh,Rajgarh,Madhya Pradesh,Rajgarh,exact_normalized,,Potato,2890
+Maharashtra,Chandrapur,Maharashtra,Chandrapur,exact_normalized,,Potato,2861
+Odisha,Gajapati,Odisha,Gajapati,exact_normalized,,Potato,2840
+Madhya Pradesh,Burhanpur,Madhya Pradesh,Burhanpur,exact_normalized,,Potato,2834
+Jharkhand,Ranchi,Jharkhand,Ranchi,exact_normalized,,Potato,2823
+Madhya Pradesh,Bhopal,Madhya Pradesh,Bhopal,exact_normalized,,Potato,2767
+Gujarat,Navsari,Gujarat,Navsari,exact_normalized,,Potato,2715
+Bihar,Patna,Bihar,Patna,exact_normalized,,Potato,2682
+Manipur,Imphal East,Manipur,Imphal East,exact_normalized,,Potato,2622
+Jammu and Kashmir,Kathua,Jammu And Kashmir,Kathua,exact_normalized,,Potato,2591
+Chattisgarh,Bilaspur,Chhattisgarh,Bilaspur,exact_normalized,,Potato,2569
+Manipur,Imphal West,Manipur,Imphal West,exact_normalized,,Potato,2540
+Jharkhand,West Singbhum,Jharkhand,West Singhbhum,reviewed_alias,spelling variant,Potato,2505
+Chattisgarh,Raigarh,Chhattisgarh,Raigarh,exact_normalized,,Potato,2495
+Odisha,Nowarangpur,Odisha,Nabarangpur,reviewed_alias,spelling variant,Potato,2409
+Jharkhand,Giridih,Jharkhand,Giridih,exact_normalized,,Potato,2387
+Rajasthan,Churu,Rajasthan,Churu,exact_normalized,,Potato,2383
+Madhya Pradesh,Hoshangabad,Madhya Pradesh,Narmadapuram,reviewed_alias,official district rename,Potato,2355
+Assam,Nagaon,Assam,Nagaon,exact_normalized,,Potato,2351
+Rajasthan,Jalore,Rajasthan,Jalore,exact_normalized,,Potato,2336
+Madhya Pradesh,Khandwa,Madhya Pradesh,Khandwa (East Nimar),reviewed_alias,APY appends the alternative name,Potato,2319
+Uttar Pradesh,Sant Kabir Nagar,Uttar Pradesh,Sant Kabir Nagar,exact_normalized,,Potato,2312
+Rajasthan,Bikaner,Rajasthan,Bikaner,exact_normalized,,Potato,2280
+Madhya Pradesh,Guna,Madhya Pradesh,Guna,exact_normalized,,Potato,2255
+Chattisgarh,Durg,Chhattisgarh,Durg,exact_normalized,,Potato,2241
+Telangana,Ranga Reddy,Telangana,Ranga Reddy,exact_normalized,,Potato,2199
+Madhya Pradesh,Shajapur,Madhya Pradesh,Shajapur,exact_normalized,,Potato,2187
+Jharkhand,Garhwa,Jharkhand,Garhwa,exact_normalized,,Potato,2154
+Jharkhand,Jamtara,Jharkhand,Jamtara,exact_normalized,,Potato,2129
+Nagaland,Kohima,Nagaland,Kohima,exact_normalized,,Potato,2055
+Karnataka,Shimoga,Karnataka,Shivamogga,reviewed_alias,official district rename,Potato,2023
+Jammu and Kashmir,Srinagar,Jammu And Kashmir,Srinagar,exact_normalized,,Potato,2013
+Madhya Pradesh,Shivpuri,Madhya Pradesh,Shivpuri,exact_normalized,,Potato,2007
+Jharkhand,Sahebgang,Jharkhand,Sahebganj,reviewed_alias,spelling variant,Potato,2007
+Madhya Pradesh,Khargone,Madhya Pradesh,Khargone (West Nimar),reviewed_alias,APY appends the alternative name,Potato,2000
+Karnataka,Bellary,Karnataka,Ballari,reviewed_alias,official district rename,Potato,1968
+Bihar,Rohtas,Bihar,Rohtas,exact_normalized,,Potato,1967
+Bihar,Kishanganj,Bihar,Kishanganj,exact_normalized,,Potato,1891
+Odisha,Malkangiri,Odisha,Malkangiri,exact_normalized,,Potato,1873
+Uttar Pradesh,Shravasti,Uttar Pradesh,Shrawasti,reviewed_alias,spelling variant,Potato,1863
+Odisha,Kandhamal,Odisha,Kandhamal,exact_normalized,,Potato,1852
+Madhya Pradesh,Sheopur,Madhya Pradesh,Sheopur,exact_normalized,,Potato,1847
+Jharkhand,Pakur,Jharkhand,Pakur,exact_normalized,,Potato,1845
+Assam,BONGAIGAON,Assam,Bongaigaon,exact_normalized,,Potato,1841
+Assam,Jorhat,Assam,Jorhat,exact_normalized,,Potato,1821
+Chattisgarh,Rajnandgaon,Chhattisgarh,Rajnandgaon,exact_normalized,,Potato,1805
+Assam,Cachar,Assam,Cachar,exact_normalized,,Potato,1783
+Assam,Darrang,Assam,Darrang,exact_normalized,,Potato,1770
+Karnataka,Udupi,Karnataka,Udupi,exact_normalized,,Potato,1765
+Jharkhand,Dhanbad,Jharkhand,Dhanbad,exact_normalized,,Potato,1700
+Andhra Pradesh,West Godavari,Andhra Pradesh,West Godavari,exact_normalized,,Potato,1699
+Madhya Pradesh,Mandsaur,Madhya Pradesh,Mandsaur,exact_normalized,,Potato,1673
+Uttar Pradesh,Bhadohi(Sant Ravi Nagar),Uttar Pradesh,Bhadohi,parenthetical_part,,Potato,1630
+Karnataka,Davangere,Karnataka,Davanagere,reviewed_alias,spelling variant,Potato,1581
+Rajasthan,Rajasamand,Rajasthan,Rajsamand,reviewed_alias,spelling variant,Potato,1548
+Jharkhand,Koderma,Jharkhand,Koderma,exact_normalized,,Potato,1497
+Manipur,Thoubal,Manipur,Thoubal,exact_normalized,,Potato,1480
+Bihar,East Champaran/ Motihari,Bihar,Purbi Champaran,reviewed_alias,Motihari is the headquarters town of Purbi (East) Champaran,Potato,1454
+Meghalaya,West Garo Hills,Meghalaya,West Garo Hills,exact_normalized,,Potato,1451
+Karnataka,Tumkur,Karnataka,Tumakuru,reviewed_alias,official district rename,Potato,1405
+Jammu and Kashmir,Anantnag,Jammu And Kashmir,Anantnag,exact_normalized,,Potato,1400
+Assam,Golaghat,Assam,Golaghat,exact_normalized,,Potato,1390
+Manipur,Bishnupur,Manipur,Bishnupur,exact_normalized,,Potato,1385
+Jharkhand,Lohardaga,Jharkhand,Lohardaga,exact_normalized,,Potato,1343
+Gujarat,Botad,Gujarat,Botad,exact_normalized,,Potato,1314
+Bihar,Madhubani,Bihar,Madhubani,exact_normalized,,Potato,1294
+Rajasthan,Sirohi,Rajasthan,Sirohi,exact_normalized,,Potato,1241
+Bihar,Vaishali,Bihar,Vaishali,exact_normalized,,Potato,1220
+Jharkhand,Saraikela(Kharsanwa),Jharkhand,Saraikela Kharsawan,reviewed_alias,spelling variant,Potato,1205
+Gujarat,Amreli,Gujarat,Amreli,exact_normalized,,Potato,1168
+Jharkhand,Simdega,Jharkhand,Simdega,exact_normalized,,Potato,1155
+Jharkhand,Bokaro,Jharkhand,Bokaro,exact_normalized,,Potato,1137
+Assam,Dibrugarh,Assam,Dibrugarh,exact_normalized,,Potato,1110
+Gujarat,Patan,Gujarat,Patan,exact_normalized,,Potato,1101
+Uttar Pradesh,Kaushambi,Uttar Pradesh,Kaushambi,exact_normalized,,Potato,1089
+Jammu and Kashmir,Rajouri,Jammu And Kashmir,Rajouri,exact_normalized,,Potato,1059
+Bihar,Muzaffarpur,Bihar,Muzaffarpur,exact_normalized,,Potato,1050
+Madhya Pradesh,Damoh,Madhya Pradesh,Damoh,exact_normalized,,Potato,1041
+Bihar,Begusarai,Bihar,Begusarai,exact_normalized,,Potato,1030
+Rajasthan,Pali,Rajasthan,Pali,exact_normalized,,Potato,1030
+Bihar,Bhagalpur,Bihar,Bhagalpur,exact_normalized,,Potato,1028
+Andhra Pradesh,Chittor,Andhra Pradesh,Chittoor,reviewed_alias,spelling variant,Potato,1027
+Bihar,Darbhanga,Bihar,Darbhanga,exact_normalized,,Potato,957
+Telangana,Nalgonda,Telangana,Nalgonda,exact_normalized,,Potato,956
+Bihar,Purnea,Bihar,Purnia,reviewed_alias,spelling variant,Potato,956
+Bihar,Supaul,Bihar,Supaul,exact_normalized,,Potato,929
+Telangana,Mahbubnagar,Telangana,Mahabubnagar,reviewed_alias,spelling variant,Potato,899
+Assam,Dhubri,Assam,Dhubri,exact_normalized,,Potato,886
+Jharkhand,Godda,Jharkhand,Godda,exact_normalized,,Potato,848
+Bihar,Bhojpur,Bihar,Bhojpur,exact_normalized,,Potato,842
+Andhra Pradesh,Srikakulam,Andhra Pradesh,Srikakulam,exact_normalized,,Potato,830
+Bihar,Gaya,Bihar,Gaya,exact_normalized,,Potato,822
+Jammu and Kashmir,Pulwama,Jammu And Kashmir,Pulwama,exact_normalized,,Potato,820
+Bihar,Nalanda,Bihar,Nalanda,exact_normalized,,Potato,814
+Telangana,Warangal,Telangana,Warangal,exact_normalized,,Potato,801
+Rajasthan,Jhunjunu,Rajasthan,Jhunjhunu,reviewed_alias,spelling variant,Potato,797
+Gujarat,Gandhinagar,Gujarat,Gandhinagar,exact_normalized,,Potato,796
+Assam,Sonitpur,Assam,Sonitpur,exact_normalized,,Potato,793
+Bihar,Araria,Bihar,Araria,exact_normalized,,Potato,792
+Jharkhand,Gumla,Jharkhand,Gumla,exact_normalized,,Potato,789
+Telangana,Medak,Telangana,Medak,exact_normalized,,Potato,765
+Bihar,Madhepura,Bihar,Madhepura,exact_normalized,,Potato,763
+Rajasthan,Nagaur,Rajasthan,Nagaur,exact_normalized,,Potato,751
+Bihar,Kaithar,Bihar,Katihar,reviewed_alias,spelling variant (only phonetically close Bihar district),Potato,747
+Rajasthan,Bhilwara,Rajasthan,Bhilwara,exact_normalized,,Potato,741
+Bihar,Khagaria,Bihar,Khagaria,exact_normalized,,Potato,740
+Bihar,Aurangabad,Bihar,Aurangabad,exact_normalized,,Potato,719
+Bihar,Chhapra,Bihar,Saran,reviewed_alias,Chhapra is the headquarters town of Saran district,Potato,719
+Gujarat,Kachchh,Gujarat,Kachchh,exact_normalized,,Potato,718
+Tamil Nadu,Vellore,Tamil Nadu,Vellore,exact_normalized,,Potato,716
+Assam,Hailakandi,Assam,Hailakandi,exact_normalized,,Potato,704
+Uttrakhand,Champawat,Uttarakhand,Champawat,exact_normalized,,Potato,665
+Bihar,Nawada,Bihar,Nawada,exact_normalized,,Potato,639
+Bihar,Siwan,Bihar,Siwan,exact_normalized,,Potato,625
+Madhya Pradesh,Ratlam,Madhya Pradesh,Ratlam,exact_normalized,,Potato,614
+Bihar,Munghair,Bihar,Munger,reviewed_alias,spelling variant,Potato,605
+Gujarat,Porbandar,Gujarat,Porbandar,exact_normalized,,Potato,583
+Karnataka,Mangalore(Dakshin Kannad),Karnataka,Dakshina Kannada,reviewed_alias,Mangalore is the headquarters town of Dakshina Kannada,Potato,579
+Assam,Kokrajhar,Assam,Kokrajhar,exact_normalized,,Potato,578
+Maharashtra,Osmanabad,Maharashtra,Dharashiv,reviewed_alias,official district rename,Potato,575
+Madhya Pradesh,Betul,Madhya Pradesh,Betul,exact_normalized,,Potato,540
+Bihar,Sheikhpura,Bihar,Sheikhpura,exact_normalized,,Potato,528
+Rajasthan,Barmer,Rajasthan,Barmer,exact_normalized,,Potato,523
+Nagaland,Mokokchung,Nagaland,Mokokchung,exact_normalized,,Potato,486
+Assam,Tinsukia,Assam,Tinsukia,exact_normalized,,Potato,484
+Bihar,Kaimur/Bhabhua,Bihar,Kaimur (Bhabua),reviewed_alias,spelling variant,Potato,475
+Meghalaya,West Jaintia Hills,Meghalaya,West Jaintia Hills,exact_normalized,,Potato,475
+Andhra Pradesh,East Godavari,Andhra Pradesh,East Godavari,exact_normalized,,Potato,473
+Madhya Pradesh,Alirajpur,Madhya Pradesh,Alirajpur,exact_normalized,,Potato,469
+Madhya Pradesh,Sehore,Madhya Pradesh,Sehore,exact_normalized,,Potato,461
+Mizoram,Lungli,Mizoram,Lunglei,reviewed_alias,spelling variant,Potato,451
+Bihar,Buxar,Bihar,Buxar,exact_normalized,,Potato,443
+Madhya Pradesh,Satna,Madhya Pradesh,Satna,exact_normalized,,Potato,423
+Bihar,Jehanabad,Bihar,Jehanabad,exact_normalized,,Potato,417
+Assam,Karimganj,Assam,Sribhumi,reviewed_alias,official district rename,Potato,410
+Bihar,Samastipur,Bihar,Samastipur,exact_normalized,,Potato,410
+Bihar,Sheohar,Bihar,Sheohar,exact_normalized,,Potato,408
+Bihar,Jamui,Bihar,Jamui,exact_normalized,,Potato,401
+Bihar,West Chambaran,Bihar,Pashchim Champaran,reviewed_alias,spelling variant of West (Pashchim) Champaran,Potato,383
+Assam,Nalbari,Assam,Nalbari,exact_normalized,,Potato,380
+Madhya Pradesh,Narsinghpur,Madhya Pradesh,Narsimhapur,reviewed_alias,spelling variant,Potato,370
+Karnataka,Karwar(Uttar Kannad),Karnataka,Uttara Kannada,reviewed_alias,Karwar is the headquarters town of Uttara Kannada,Potato,363
+Telangana,Khammam,Telangana,Khammam,exact_normalized,,Potato,361
+Mizoram,Aizawl,Mizoram,Aizawl,exact_normalized,,Potato,349
+Madhya Pradesh,Anupur,Madhya Pradesh,Anuppur,reviewed_alias,spelling variant,Potato,348
+Madhya Pradesh,Singroli,Madhya Pradesh,Singrauli,reviewed_alias,spelling variant,Potato,341
+Karnataka,Kalburgi,Karnataka,Kalaburagi,reviewed_alias,official district rename,Potato,340
+Maharashtra,Parbhani,Maharashtra,Parbhani,exact_normalized,,Potato,338
+Bihar,Gopalgang,Bihar,Gopalganj,reviewed_alias,spelling variant,Potato,336
+Kerala,Kannur,Kerala,Kannur,exact_normalized,,Potato,336
+Kerala,Alleppey,Kerala,Alappuzha,reviewed_alias,official district rename (former English name),Potato,333
+Assam,Dhemaji,Assam,Dhemaji,exact_normalized,,Potato,328
+Andhra Pradesh,Kurnool,Andhra Pradesh,Kurnool,exact_normalized,,Potato,315
+Bihar,Banka,Bihar,Banka,exact_normalized,,Potato,309
+Bihar,Sitamarhi,Bihar,Sitamarhi,exact_normalized,,Potato,307
+Maharashtra,Raigad,Maharashtra,Raigad,exact_normalized,,Potato,304
+Bihar,Luckeesarai,Bihar,Lakhisarai,reviewed_alias,spelling variant,Potato,293
+Kerala,Wayanad,Kerala,Wayanad,exact_normalized,,Potato,285
+Jammu and Kashmir,Badgam,Jammu And Kashmir,Budgam,reviewed_alias,spelling variant,Potato,263
+Arunachal Pradesh,Papum Pore,Arunachal Pradesh,Papum Pare,reviewed_alias,spelling variant,Potato,250
+Karnataka,Chamrajnagar,Karnataka,Chamarajanagar,reviewed_alias,spelling variant,Potato,244
+Andhra Pradesh,Cuddapah,Andhra Pradesh,Y.S.R. Kadapa,reviewed_alias,official district rename,Potato,232
+Maharashtra,Dhule,Maharashtra,Dhule,exact_normalized,,Potato,216
+Bihar,Saharsa,Bihar,Saharsa,exact_normalized,,Potato,210
+Nagaland,Phek,Nagaland,Phek,exact_normalized,,Potato,204
+Meghalaya,East Jaintia Hills,Meghalaya,East Jaintia Hills,exact_normalized,,Potato,200
+Bihar,Arwal,Bihar,Arwal,exact_normalized,,Potato,200
+Karnataka,Mandya,Karnataka,Mandya,exact_normalized,,Potato,197
+Maharashtra,Akola,Maharashtra,Akola,exact_normalized,,Potato,194
+Manipur,Chandel,Manipur,Chandel,exact_normalized,,Potato,193
+Assam,Goalpara,Assam,Goalpara,exact_normalized,,Potato,188
+Gujarat,Bhavnagar,Gujarat,Bhavnagar,exact_normalized,,Potato,187
+Gujarat,Junagarh,Gujarat,Junagadh,reviewed_alias,spelling variant,Potato,183
+Kerala,Pathanamthitta,Kerala,Pathanamthitta,exact_normalized,,Potato,160
+Arunachal Pradesh,Tirap,Arunachal Pradesh,Tirap,exact_normalized,,Potato,151
+Madhya Pradesh,Bhind,Madhya Pradesh,Bhind,exact_normalized,,Potato,147
+Rajasthan,Tonk,Rajasthan,Tonk,exact_normalized,,Potato,146
+Madhya Pradesh,Seoni,Madhya Pradesh,Seoni,exact_normalized,,Potato,144
+Madhya Pradesh,Katni,Madhya Pradesh,Katni,exact_normalized,,Potato,140
+Karnataka,Madikeri(Kodagu),Karnataka,Kodagu,parenthetical_part,,Potato,136
+Telangana,Karimnagar,Telangana,Karimnagar,exact_normalized,,Potato,123
+Jammu and Kashmir,Baramulla,Jammu And Kashmir,Baramulla,exact_normalized,,Potato,117
+Jharkhand,Palamu,Jharkhand,Palamu,exact_normalized,,Potato,110
+Maharashtra,Jalana,Maharashtra,Jalna,reviewed_alias,spelling variant,Potato,109
+Nagaland,Zunheboto,Nagaland,Zunheboto,exact_normalized,,Potato,109
+Nagaland,Longleng,Nagaland,Longleng,exact_normalized,,Potato,108
+Tamil Nadu,Nagercoil (Kannyiakumari),Tamil Nadu,Kanniyakumari,reviewed_alias,Nagercoil is the headquarters town of Kanniyakumari,Potato,105
+Andhra Pradesh,Prakasam,Andhra Pradesh,Prakasam,exact_normalized,,Potato,104
+Nagaland,Tuensang,Nagaland,Tuensang,exact_normalized,,Potato,103
+Nagaland,Dimapur,Nagaland,Dimapur,exact_normalized,,Potato,98
+Rajasthan,Swai Madhopur,Rajasthan,Sawai Madhopur,reviewed_alias,spelling variant,Potato,91
+Madhya Pradesh,Chhatarpur,Madhya Pradesh,Chhatarpur,exact_normalized,,Potato,88
+Meghalaya,South West Garo Hills,Meghalaya,South West Garo Hills,exact_normalized,,Potato,84
+Assam,Sibsagar,Assam,Sivasagar,reviewed_alias,spelling variant,Potato,83
+Bihar,Saran,Bihar,Saran,exact_normalized,,Potato,78
+Telangana,Adilabad,Telangana,Adilabad,exact_normalized,,Potato,76
+Andhra Pradesh,Vijayanagaram,Andhra Pradesh,Vizianagaram,reviewed_alias,spelling variant,Potato,74
+Assam,Lakhimpur,Assam,Lakhimpur,exact_normalized,,Potato,74
+Meghalaya,South Garo Hills,Meghalaya,South Garo Hills,exact_normalized,,Potato,70
+Nagaland,Peren,Nagaland,Peren,exact_normalized,,Potato,70
+Andaman and Nicobar,South Andaman,,,state_not_in_apy,,Potato,69
+Maharashtra,Ratnagiri,,,unmatched,,Potato,67
+Karnataka,Yadgiri,Karnataka,Yadgir,reviewed_alias,spelling variant,Potato,66
+Karnataka,Gadag,Karnataka,Gadag,exact_normalized,,Potato,61
+Madhya Pradesh,Datia,Madhya Pradesh,Datia,exact_normalized,,Potato,61
+Meghalaya,South West Khasi Hills,Meghalaya,South West Khasi Hills,exact_normalized,,Potato,57
+Nagaland,Kiphire,Nagaland,Kiphire,exact_normalized,,Potato,54
+Karnataka,Bidar,Karnataka,Bidar,exact_normalized,,Potato,52
+Andaman and Nicobar,North and Middle Andaman,,,state_not_in_apy,,Potato,51
+Gujarat,Panchmahals,Gujarat,Panch Mahals,exact_normalized,,Potato,50
+Karnataka,Haveri,Karnataka,Haveri,exact_normalized,,Potato,45
+Goa,South Goa,,,state_not_in_apy,,Potato,42
+Tamil Nadu,Chennai,,,excluded_by_review,EXCLUDED - urban district with no APY district for these crops,Potato,38
+Andaman and Nicobar,Nicobar,,,state_not_in_apy,,Potato,36
+Chattisgarh,Jashpur,Chhattisgarh,Jashpur,exact_normalized,,Potato,35
+Karnataka,Chitradurga,Karnataka,Chitradurga,exact_normalized,,Potato,35
+Karnataka,Koppal,Karnataka,Koppal,exact_normalized,,Potato,33
+Lakshadweep,Kavaratti,,,state_not_in_apy,,Potato,32
+Chattisgarh,Raipur,Chhattisgarh,Raipur,exact_normalized,,Potato,31
+Maharashtra,Nandurbar,Maharashtra,Nandurbar,exact_normalized,,Potato,31
+Arunachal Pradesh,East Siang,Arunachal Pradesh,East Siang,exact_normalized,,Potato,30
+Nagaland,Wokha,Nagaland,Wokha,exact_normalized,,Potato,27
+Sikkim,East,Sikkim,Gangtok,reviewed_alias,East Sikkim district was renamed Gangtok district,Potato,27
+Arunachal Pradesh,Tawang,Arunachal Pradesh,Tawang,exact_normalized,,Potato,25
+Andhra Pradesh,Visakhapatnam,Andhra Pradesh,Visakhapatnam,exact_normalized,,Potato,20
+Jammu and Kashmir,Kupwara,Jammu And Kashmir,Kupwara,exact_normalized,,Potato,20
+Gujarat,Jamnagar,Gujarat,Jamnagar,exact_normalized,,Potato,19
+Andhra Pradesh,Guntur,Andhra Pradesh,Guntur,exact_normalized,,Potato,16
+Madhya Pradesh,Badwani,Madhya Pradesh,Barwani,reviewed_alias,spelling variant,Potato,14
+Meghalaya,West Khasi Hills,Meghalaya,West Khasi Hills,exact_normalized,,Potato,13
+Madhya Pradesh,Balaghat,Madhya Pradesh,Balaghat,exact_normalized,,Potato,12
+Maharashtra,Yavatmal,Maharashtra,Yavatmal,exact_normalized,,Potato,11
+Sikkim,South Sikkim (Namchi),Sikkim,Namchi,parenthetical_part,,Potato,8
+Andhra Pradesh,Anantapur,Andhra Pradesh,Ananthapuramu,reviewed_alias,official district rename,Potato,7
+Meghalaya,Nongpoh (R-Bhoi),Meghalaya,Ri Bhoi,reviewed_alias,Nongpoh is the headquarters town of Ri Bhoi,Potato,7
+Chattisgarh,Narayanpur,Chhattisgarh,Narayanpur,exact_normalized,,Potato,7
+Arunachal Pradesh,Lower Subansiri,Arunachal Pradesh,Lower Subansiri,exact_normalized,,Potato,6
+Rajasthan,Karauli,Rajasthan,Karauli,exact_normalized,,Potato,6
+Jharkhand,Latehar,Jharkhand,Latehar,exact_normalized,,Potato,6
+Maharashtra,Vashim,Maharashtra,Washim,reviewed_alias,spelling variant,Potato,6
+Nagaland,Mon,Nagaland,Mon,exact_normalized,,Potato,6
+Karnataka,Raichur,Karnataka,Raichur,exact_normalized,,Potato,6
+Andhra Pradesh,Nellore,Andhra Pradesh,Sri Potti Sriramulu Nellore,reviewed_alias,official district rename,Potato,5
+Tamil Nadu,Kancheepuram,Tamil Nadu,Kancheepuram,exact_normalized,,Potato,5
+Tamil Nadu,Villupuram,Tamil Nadu,Viluppuram,reviewed_alias,spelling variant,Potato,4
+Karnataka,Bijapur,Karnataka,Vijayapura,reviewed_alias,official district rename,Potato,3
+Madhya Pradesh,Vidisha,Madhya Pradesh,Vidisha,exact_normalized,,Potato,2
+Arunachal Pradesh,Upper Subansiri,Arunachal Pradesh,Upper Subansiri,exact_normalized,,Potato,1
+Tamil Nadu,Ramanathapuram,Tamil Nadu,Ramanathapuram,exact_normalized,,Potato,1
+Telangana,Nizamabad,Telangana,Nizamabad,exact_normalized,,Potato,1
+Gujarat,Narmada,Gujarat,Narmada,exact_normalized,,Potato,1
+Rajasthan,Ganganagar,Rajasthan,Ganganagar,exact_normalized,,Wheat,43879
+Gujarat,Sabarkantha,Gujarat,Sabar Kantha,exact_normalized,,Wheat,37854
+Gujarat,Rajkot,Gujarat,Rajkot,exact_normalized,,Wheat,35818
+Madhya Pradesh,Shajapur,Madhya Pradesh,Shajapur,exact_normalized,,Wheat,34720
+Maharashtra,Ahmednagar,Maharashtra,Ahilyanagar,reviewed_alias,official district rename; APY uses the current name for all years,Wheat,34687
+Madhya Pradesh,Sehore,Madhya Pradesh,Sehore,exact_normalized,,Wheat,28643
+Maharashtra,Nashik,Maharashtra,Nashik,exact_normalized,,Wheat,28297
+Gujarat,Amreli,Gujarat,Amreli,exact_normalized,,Wheat,27894
+Madhya Pradesh,Sagar,Madhya Pradesh,Sagar,exact_normalized,,Wheat,27749
+Madhya Pradesh,Ujjain,Madhya Pradesh,Ujjain,exact_normalized,,Wheat,27670
+Madhya Pradesh,Vidisha,Madhya Pradesh,Vidisha,exact_normalized,,Wheat,26480
+Maharashtra,Buldhana,Maharashtra,Buldhana,exact_normalized,,Wheat,25642
+Madhya Pradesh,Dewas,Madhya Pradesh,Dewas,exact_normalized,,Wheat,24760
+Gujarat,Mehsana,Gujarat,Mahesana,reviewed_alias,spelling variant,Wheat,24139
+Rajasthan,Hanumangarh,Rajasthan,Hanumangarh,exact_normalized,,Wheat,23998
+Madhya Pradesh,Dhar,Madhya Pradesh,Dhar,exact_normalized,,Wheat,23994
+Madhya Pradesh,Ratlam,Madhya Pradesh,Ratlam,exact_normalized,,Wheat,23950
+Madhya Pradesh,Rajgarh,Madhya Pradesh,Rajgarh,exact_normalized,,Wheat,23397
+Gujarat,Banaskanth,Gujarat,Banas Kantha,reviewed_alias,spelling variant,Wheat,22900
+Gujarat,Junagarh,Gujarat,Junagadh,reviewed_alias,spelling variant,Wheat,22596
+Maharashtra,Aurangabad,Maharashtra,Chhatrapati Sambhajinagar,reviewed_alias,official district rename,Wheat,22247
+Madhya Pradesh,Khargone,Madhya Pradesh,Khargone (West Nimar),reviewed_alias,APY appends the alternative name,Wheat,21722
+Uttar Pradesh,Kanpur,,,excluded_by_review,EXCLUDED - ambiguous: APY has both Kanpur Nagar and Kanpur Dehat,Wheat,21447
+Madhya Pradesh,Hoshangabad,Madhya Pradesh,Narmadapuram,reviewed_alias,official district rename,Wheat,21272
+Rajasthan,Jaipur,Rajasthan,Jaipur,exact_normalized,,Wheat,20725
+Maharashtra,Jalgaon,Maharashtra,Jalgaon,exact_normalized,,Wheat,20296
+Uttar Pradesh,Bulandshahar,Uttar Pradesh,Bulandshahr,reviewed_alias,spelling variant of the APY (DES) district name,Wheat,20255
+Rajasthan,Bharatpur,Rajasthan,Bharatpur,exact_normalized,,Wheat,19499
+Madhya Pradesh,Raisen,Madhya Pradesh,Raisen,exact_normalized,,Wheat,19496
+Madhya Pradesh,Guna,Madhya Pradesh,Guna,exact_normalized,,Wheat,19439
+Rajasthan,Alwar,Rajasthan,Alwar,exact_normalized,,Wheat,19252
+Rajasthan,Dausa,Rajasthan,Dausa,exact_normalized,,Wheat,18912
+Madhya Pradesh,Shivpuri,Madhya Pradesh,Shivpuri,exact_normalized,,Wheat,18585
+Madhya Pradesh,Ashoknagar,Madhya Pradesh,Ashoknagar,exact_normalized,,Wheat,18375
+Rajasthan,Baran,Rajasthan,Baran,exact_normalized,,Wheat,18242
+Uttar Pradesh,Agra,Uttar Pradesh,Agra,exact_normalized,,Wheat,18172
+Rajasthan,Ajmer,Rajasthan,Ajmer,exact_normalized,,Wheat,17726
+Madhya Pradesh,Morena,Madhya Pradesh,Morena,exact_normalized,,Wheat,17297
+Rajasthan,Tonk,Rajasthan,Tonk,exact_normalized,,Wheat,17094
+Madhya Pradesh,Harda,Madhya Pradesh,Harda,exact_normalized,,Wheat,16808
+Madhya Pradesh,Mandsaur,Madhya Pradesh,Mandsaur,exact_normalized,,Wheat,16798
+West Bengal,Bankura,West Bengal,Bankura,exact_normalized,,Wheat,16601
+Rajasthan,Kota,Rajasthan,Kota,exact_normalized,,Wheat,16334
+Madhya Pradesh,Indore,Madhya Pradesh,Indore,exact_normalized,,Wheat,16283
+Rajasthan,Chittorgarh,Rajasthan,Chittorgarh,exact_normalized,,Wheat,16179
+Madhya Pradesh,Bhind,Madhya Pradesh,Bhind,exact_normalized,,Wheat,16164
+Madhya Pradesh,Bhopal,Madhya Pradesh,Bhopal,exact_normalized,,Wheat,16019
+Maharashtra,Beed,Maharashtra,Beed,exact_normalized,,Wheat,16012
+NCT of Delhi,Delhi,,,state_not_in_apy,,Wheat,15919
+Maharashtra,Nagpur,Maharashtra,Nagpur,exact_normalized,,Wheat,15802
+Gujarat,Gandhinagar,Gujarat,Gandhinagar,exact_normalized,,Wheat,15712
+Maharashtra,Amarawati,Maharashtra,Amravati,reviewed_alias,spelling variant,Wheat,15177
+Maharashtra,Sholapur,Maharashtra,Solapur,reviewed_alias,spelling variant,Wheat,14984
+Gujarat,Dahod,Gujarat,Dahod,exact_normalized,,Wheat,14837
+Uttar Pradesh,Hardoi,Uttar Pradesh,Hardoi,exact_normalized,,Wheat,14602
+Uttar Pradesh,Raebarelli,Uttar Pradesh,Rae Bareli,reviewed_alias,spelling variant,Wheat,14436
+Uttar Pradesh,Jalaun (Orai),Uttar Pradesh,Jalaun,parenthetical_part,,Wheat,14385
+Gujarat,Vadodara(Baroda),Gujarat,Vadodara,parenthetical_part,,Wheat,14240
+Madhya Pradesh,Jabalpur,Madhya Pradesh,Jabalpur,exact_normalized,,Wheat,13910
+Uttar Pradesh,Fatehpur,Uttar Pradesh,Fatehpur,exact_normalized,,Wheat,13845
+Rajasthan,Jhalawar,Rajasthan,Jhalawar,exact_normalized,,Wheat,13626
+Madhya Pradesh,Narsinghpur,Madhya Pradesh,Narsimhapur,reviewed_alias,spelling variant,Wheat,13560
+Uttar Pradesh,Aligarh,Uttar Pradesh,Aligarh,exact_normalized,,Wheat,13553
+Uttar Pradesh,Etah,Uttar Pradesh,Etah,exact_normalized,,Wheat,13373
+Maharashtra,Jalana,Maharashtra,Jalna,reviewed_alias,spelling variant,Wheat,13313
+West Bengal,Murshidabad,West Bengal,Murshidabad,exact_normalized,,Wheat,13300
+Uttar Pradesh,Badaun,Uttar Pradesh,Budaun,reviewed_alias,spelling variant,Wheat,13166
+Uttar Pradesh,Jhansi,Uttar Pradesh,Jhansi,exact_normalized,,Wheat,13095
+Maharashtra,Dhule,Maharashtra,Dhule,exact_normalized,,Wheat,12734
+Madhya Pradesh,Tikamgarh,Madhya Pradesh,Tikamgarh,exact_normalized,,Wheat,12691
+Uttar Pradesh,Allahabad,Uttar Pradesh,Prayagraj,reviewed_alias,official district rename; APY uses the current name for all years,Wheat,12509
+Uttar Pradesh,Unnao,Uttar Pradesh,Unnao,exact_normalized,,Wheat,12389
+Gujarat,Patan,Gujarat,Patan,exact_normalized,,Wheat,12254
+Maharashtra,Pune,Maharashtra,Pune,exact_normalized,,Wheat,12176
+Madhya Pradesh,Chhindwara,Madhya Pradesh,Chhindwara,exact_normalized,,Wheat,12140
+Madhya Pradesh,Satna,Madhya Pradesh,Satna,exact_normalized,,Wheat,12027
+Madhya Pradesh,Chhatarpur,Madhya Pradesh,Chhatarpur,exact_normalized,,Wheat,11876
+Gujarat,Jamnagar,Gujarat,Jamnagar,exact_normalized,,Wheat,11810
+Uttar Pradesh,Muzaffarnagar,Uttar Pradesh,Muzaffarnagar,exact_normalized,,Wheat,11716
+Rajasthan,Swai Madhopur,Rajasthan,Sawai Madhopur,reviewed_alias,spelling variant,Wheat,11502
+Uttar Pradesh,Sitapur,Uttar Pradesh,Sitapur,exact_normalized,,Wheat,11398
+Uttar Pradesh,Muradabad,Uttar Pradesh,Moradabad,reviewed_alias,spelling variant,Wheat,11371
+Rajasthan,Bundi,Rajasthan,Bundi,exact_normalized,,Wheat,11367
+Madhya Pradesh,Jhabua,Madhya Pradesh,Jhabua,exact_normalized,,Wheat,11348
+Madhya Pradesh,Seoni,Madhya Pradesh,Seoni,exact_normalized,,Wheat,11288
+Madhya Pradesh,Rewa,Madhya Pradesh,Rewa,exact_normalized,,Wheat,11244
+Maharashtra,Akola,Maharashtra,Akola,exact_normalized,,Wheat,11206
+Uttar Pradesh,Hamirpur,Uttar Pradesh,Hamirpur,exact_normalized,,Wheat,11203
+Uttar Pradesh,Maharajganj,Uttar Pradesh,Mahrajganj,reviewed_alias,spelling variant,Wheat,11077
+Uttar Pradesh,Shahjahanpur,Uttar Pradesh,Shahjahanpur,exact_normalized,,Wheat,11014
+Uttar Pradesh,Bahraich,Uttar Pradesh,Bahraich,exact_normalized,,Wheat,10983
+Uttar Pradesh,Gorakhpur,Uttar Pradesh,Gorakhpur,exact_normalized,,Wheat,10967
+Maharashtra,Parbhani,Maharashtra,Parbhani,exact_normalized,,Wheat,10884
+Uttar Pradesh,Ghaziabad,Uttar Pradesh,Ghaziabad,exact_normalized,,Wheat,10832
+Gujarat,Bhavnagar,Gujarat,Bhavnagar,exact_normalized,,Wheat,10715
+Uttar Pradesh,Banda,Uttar Pradesh,Banda,exact_normalized,,Wheat,10551
+Uttar Pradesh,Mathura,Uttar Pradesh,Mathura,exact_normalized,,Wheat,10383
+Uttar Pradesh,Firozabad,Uttar Pradesh,Firozabad,exact_normalized,,Wheat,10308
+Uttar Pradesh,Farukhabad,Uttar Pradesh,Farrukhabad,reviewed_alias,spelling variant,Wheat,10067
+West Bengal,Birbhum,West Bengal,Birbhum,exact_normalized,,Wheat,9978
+Madhya Pradesh,Damoh,Madhya Pradesh,Damoh,exact_normalized,,Wheat,9850
+Maharashtra,Vashim,Maharashtra,Washim,reviewed_alias,spelling variant,Wheat,9768
+Uttar Pradesh,Auraiya,Uttar Pradesh,Auraiya,exact_normalized,,Wheat,9744
+Uttar Pradesh,Meerut,Uttar Pradesh,Meerut,exact_normalized,,Wheat,9696
+Gujarat,Surat,Gujarat,Surat,exact_normalized,,Wheat,9662
+Karnataka,Bidar,Karnataka,Bidar,exact_normalized,,Wheat,9461
+Uttar Pradesh,Balrampur,Uttar Pradesh,Balrampur,exact_normalized,,Wheat,9205
+Uttar Pradesh,Etawah,Uttar Pradesh,Etawah,exact_normalized,,Wheat,9179
+Uttar Pradesh,Ballia,Uttar Pradesh,Ballia,exact_normalized,,Wheat,9101
+Uttar Pradesh,Rampur,Uttar Pradesh,Rampur,exact_normalized,,Wheat,8976
+Uttar Pradesh,Lakhimpur,Uttar Pradesh,Kheri,reviewed_alias,Lakhimpur is the headquarters town of Kheri district (Lakhimpur Kheri),Wheat,8902
+Madhya Pradesh,Gwalior,Madhya Pradesh,Gwalior,exact_normalized,,Wheat,8889
+Uttar Pradesh,Ghazipur,Uttar Pradesh,Ghazipur,exact_normalized,,Wheat,8880
+Madhya Pradesh,Khandwa,Madhya Pradesh,Khandwa (East Nimar),reviewed_alias,APY appends the alternative name,Wheat,8874
+Rajasthan,Bikaner,Rajasthan,Bikaner,exact_normalized,,Wheat,8829
+Uttar Pradesh,Jaunpur,Uttar Pradesh,Jaunpur,exact_normalized,,Wheat,8765
+Madhya Pradesh,Mandla,Madhya Pradesh,Mandla,exact_normalized,,Wheat,8760
+Uttrakhand,UdhamSinghNagar,Uttarakhand,Udham Singh Nagar,exact_normalized,,Wheat,8598
+Uttar Pradesh,Pillibhit,Uttar Pradesh,Pilibhit,reviewed_alias,spelling variant,Wheat,8593
+West Bengal,Uttar Dinajpur,West Bengal,Uttar Dinajpur,exact_normalized,,Wheat,8519
+Uttar Pradesh,Siddharth Nagar,Uttar Pradesh,Siddharthnagar,exact_normalized,,Wheat,8514
+Maharashtra,Nanded,Maharashtra,Nanded,exact_normalized,,Wheat,8425
+Madhya Pradesh,Datia,Madhya Pradesh,Datia,exact_normalized,,Wheat,8412
+Gujarat,Ahmedabad,Gujarat,Ahmedabad,exact_normalized,,Wheat,8234
+Madhya Pradesh,Badwani,Madhya Pradesh,Barwani,reviewed_alias,spelling variant,Wheat,8209
+Karnataka,Bijapur,Karnataka,Vijayapura,reviewed_alias,official district rename,Wheat,8144
+Maharashtra,Latur,Maharashtra,Latur,exact_normalized,,Wheat,8050
+Maharashtra,Thane,Maharashtra,Thane,exact_normalized,,Wheat,7996
+West Bengal,Burdwan,,,excluded_by_review,EXCLUDED - ambiguous: district split into Purba and Paschim Bardhaman,Wheat,7839
+Madhya Pradesh,Katni,Madhya Pradesh,Katni,exact_normalized,,Wheat,7776
+Gujarat,Anand,Gujarat,Anand,exact_normalized,,Wheat,7716
+Madhya Pradesh,Sheopur,Madhya Pradesh,Sheopur,exact_normalized,,Wheat,7594
+Uttar Pradesh,Saharanpur,Uttar Pradesh,Saharanpur,exact_normalized,,Wheat,7579
+Maharashtra,Nandurbar,Maharashtra,Nandurbar,exact_normalized,,Wheat,7545
+Gujarat,Kheda,Gujarat,Kheda,exact_normalized,,Wheat,7522
+Madhya Pradesh,Panna,Madhya Pradesh,Panna,exact_normalized,,Wheat,7488
+Karnataka,Gadag,Karnataka,Gadag,exact_normalized,,Wheat,7412
+Uttar Pradesh,Mainpuri,Uttar Pradesh,Mainpuri,exact_normalized,,Wheat,7396
+Punjab,Ludhiana,Punjab,Ludhiana,exact_normalized,,Wheat,7371
+Maharashtra,Wardha,Maharashtra,Wardha,exact_normalized,,Wheat,7319
+Madhya Pradesh,Neemuch,Madhya Pradesh,Neemuch,exact_normalized,,Wheat,7262
+Uttar Pradesh,Gonda,Uttar Pradesh,Gonda,exact_normalized,,Wheat,7248
+Uttar Pradesh,Jyotiba Phule Nagar,Uttar Pradesh,Amroha,reviewed_alias,official district rename,Wheat,7156
+Madhya Pradesh,Betul,Madhya Pradesh,Betul,exact_normalized,,Wheat,7090
+Uttar Pradesh,Bareilly,Uttar Pradesh,Bareilly,exact_normalized,,Wheat,6815
+Uttar Pradesh,Deoria,Uttar Pradesh,Deoria,exact_normalized,,Wheat,6769
+Rajasthan,Bhilwara,Rajasthan,Bhilwara,exact_normalized,,Wheat,6742
+Uttar Pradesh,Kannuj,Uttar Pradesh,Kannauj,reviewed_alias,spelling variant,Wheat,6716
+Uttar Pradesh,Bijnor,Uttar Pradesh,Bijnor,exact_normalized,,Wheat,6616
+Uttar Pradesh,Hathras,Uttar Pradesh,Hathras,exact_normalized,,Wheat,6548
+Karnataka,Bangalore,,,excluded_by_review,EXCLUDED - ambiguous: APY has Bengaluru Urban / Rural / South,Wheat,6417
+Uttar Pradesh,Mirzapur,Uttar Pradesh,Mirzapur,exact_normalized,,Wheat,6231
+Rajasthan,Udaipur,Rajasthan,Udaipur,exact_normalized,,Wheat,5995
+Uttar Pradesh,Lalitpur,Uttar Pradesh,Lalitpur,exact_normalized,,Wheat,5979
+Gujarat,Panchmahals,Gujarat,Panch Mahals,exact_normalized,,Wheat,5967
+Uttar Pradesh,Lucknow,Uttar Pradesh,Lucknow,exact_normalized,,Wheat,5920
+Uttar Pradesh,Faizabad,Uttar Pradesh,Ayodhya,reviewed_alias,official district rename,Wheat,5887
+Chattisgarh,Rajnandgaon,Chhattisgarh,Rajnandgaon,exact_normalized,,Wheat,5844
+Uttar Pradesh,Varanasi,Uttar Pradesh,Varanasi,exact_normalized,,Wheat,5784
+Maharashtra,Yavatmal,Maharashtra,Yavatmal,exact_normalized,,Wheat,5763
+Maharashtra,Hingoli,Maharashtra,Hingoli,exact_normalized,,Wheat,5756
+Madhya Pradesh,Dindori,Madhya Pradesh,Dindori,exact_normalized,,Wheat,5699
+Maharashtra,Bhandara,Maharashtra,Bhandara,exact_normalized,,Wheat,5685
+Uttar Pradesh,Basti,Uttar Pradesh,Basti,exact_normalized,,Wheat,5588
+Maharashtra,Sangli,Maharashtra,Sangli,exact_normalized,,Wheat,5520
+Uttar Pradesh,Mau(Maunathbhanjan),Uttar Pradesh,Mau,parenthetical_part,,Wheat,5099
+Uttar Pradesh,Azamgarh,Uttar Pradesh,Azamgarh,exact_normalized,,Wheat,5076
+Madhya Pradesh,Alirajpur,Madhya Pradesh,Alirajpur,exact_normalized,,Wheat,5018
+Uttar Pradesh,Sultanpur,Uttar Pradesh,Sultanpur,exact_normalized,,Wheat,5017
+Rajasthan,Sikar,Rajasthan,Sikar,exact_normalized,,Wheat,4986
+Gujarat,Surendranagar,Gujarat,Surendranagar,exact_normalized,,Wheat,4929
+Uttar Pradesh,Gautam Budh Nagar,Uttar Pradesh,Gautam Buddha Nagar,reviewed_alias,spelling variant,Wheat,4890
+Maharashtra,Osmanabad,Maharashtra,Dharashiv,reviewed_alias,official district rename,Wheat,4851
+Gujarat,Morbi,Gujarat,Morbi,exact_normalized,,Wheat,4763
+Madhya Pradesh,Burhanpur,Madhya Pradesh,Burhanpur,exact_normalized,,Wheat,4706
+Chattisgarh,Balodabazar,Chhattisgarh,Balodabazar-Bhatapara,reviewed_alias,full district name,Wheat,4507
+Uttar Pradesh,Chandauli,Uttar Pradesh,Chandauli,exact_normalized,,Wheat,4474
+Madhya Pradesh,Shehdol,Madhya Pradesh,Shahdol,reviewed_alias,spelling variant,Wheat,4426
+Uttar Pradesh,Ambedkarnagar,Uttar Pradesh,Ambedkar Nagar,exact_normalized,,Wheat,4342
+Uttar Pradesh,Sonbhadra,Uttar Pradesh,Sonbhadra,exact_normalized,,Wheat,4176
+Punjab,Sangrur,Punjab,Sangrur,exact_normalized,,Wheat,4149
+Karnataka,Dharwad,Karnataka,Dharwad,exact_normalized,,Wheat,4118
+Uttar Pradesh,Chitrakut,Uttar Pradesh,Chitrakoot,reviewed_alias,spelling variant,Wheat,4110
+Uttar Pradesh,Khiri (Lakhimpur),Uttar Pradesh,Kheri,reviewed_alias,spelling variant of Kheri (Lakhimpur Kheri),Wheat,4071
+Karnataka,Shimoga,Karnataka,Shivamogga,reviewed_alias,official district rename,Wheat,4059
+Uttar Pradesh,Mahoba,Uttar Pradesh,Mahoba,exact_normalized,,Wheat,4040
+Rajasthan,Karauli,Rajasthan,Karauli,exact_normalized,,Wheat,4031
+Rajasthan,Jodhpur,Rajasthan,Jodhpur,exact_normalized,,Wheat,3928
+Uttar Pradesh,Barabanki,Uttar Pradesh,Bara Banki,exact_normalized,,Wheat,3920
+Punjab,Patiala,Punjab,Patiala,exact_normalized,,Wheat,3898
+Chattisgarh,Mungeli,Chhattisgarh,Mungeli,exact_normalized,,Wheat,3801
+Punjab,Jalandhar,Punjab,Jalandhar,exact_normalized,,Wheat,3751
+Punjab,Bhatinda,Punjab,Bathinda,reviewed_alias,spelling variant,Wheat,3711
+Uttar Pradesh,Baghpat,Uttar Pradesh,Baghpat,exact_normalized,,Wheat,3623
+Madhya Pradesh,Sidhi,Madhya Pradesh,Sidhi,exact_normalized,,Wheat,3615
+Karnataka,Mysore,Karnataka,Mysuru,reviewed_alias,official district rename,Wheat,3603
+Punjab,Amritsar,Punjab,Amritsar,exact_normalized,,Wheat,3534
+Gujarat,Botad,Gujarat,Botad,exact_normalized,,Wheat,3404
+Uttar Pradesh,Pratapgarh,Uttar Pradesh,Pratapgarh,exact_normalized,,Wheat,3358
+Uttar Pradesh,Padrauna(Kusinagar),Uttar Pradesh,Kushinagar,reviewed_alias,Padrauna is the headquarters town of Kushinagar district,Wheat,3344
+Chattisgarh,Bilaspur,Chhattisgarh,Bilaspur,exact_normalized,,Wheat,3275
+Madhya Pradesh,Umariya,Madhya Pradesh,Umaria,reviewed_alias,spelling variant,Wheat,3272
+West Bengal,Malda,West Bengal,Malda,exact_normalized,,Wheat,3271
+Gujarat,Bharuch,Gujarat,Bharuch,exact_normalized,,Wheat,3253
+Uttrakhand,Haridwar,Uttarakhand,Haridwar,exact_normalized,,Wheat,3239
+Gujarat,Porbandar,Gujarat,Porbandar,exact_normalized,,Wheat,3221
+Jharkhand,Deogarh,Jharkhand,Deoghar,reviewed_alias,spelling variant,Wheat,3197
+Haryana,Ambala,Haryana,Ambala,exact_normalized,,Wheat,3062
+Haryana,Jind,Haryana,Jind,exact_normalized,,Wheat,3049
+Haryana,Kurukshetra,Haryana,Kurukshetra,exact_normalized,,Wheat,3019
+Maharashtra,Kolhapur,Maharashtra,Kolhapur,exact_normalized,,Wheat,2938
+Punjab,Mansa,Punjab,Mansa,exact_normalized,,Wheat,2910
+Karnataka,Belgaum,Karnataka,Belagavi,reviewed_alias,official district rename,Wheat,2870
+Maharashtra,Satara,Maharashtra,Satara,exact_normalized,,Wheat,2860
+Haryana,Sirsa,Haryana,Sirsa,exact_normalized,,Wheat,2803
+Chattisgarh,Kabirdham,Chhattisgarh,Kabeerdham,reviewed_alias,spelling variant,Wheat,2723
+Haryana,Karnal,Haryana,Karnal,exact_normalized,,Wheat,2695
+Chattisgarh,Bemetara,Chhattisgarh,Bemetara,exact_normalized,,Wheat,2651
+Jharkhand,Pakur,Jharkhand,Pakur,exact_normalized,,Wheat,2640
+Kerala,Alappuzha,Kerala,Alappuzha,exact_normalized,,Wheat,2622
+Maharashtra,Mumbai,,,excluded_by_review,EXCLUDED - urban district with no APY district for these crops,Wheat,2552
+Jharkhand,Giridih,Jharkhand,Giridih,exact_normalized,,Wheat,2526
+Gujarat,Kachchh,Gujarat,Kachchh,exact_normalized,,Wheat,2517
+West Bengal,Nadia,West Bengal,Nadia,exact_normalized,,Wheat,2502
+Jharkhand,West Singbhum,Jharkhand,West Singhbhum,reviewed_alias,spelling variant,Wheat,2483
+Jharkhand,East Singhbhum,Jharkhand,East Singhbum,reviewed_alias,APY spelling of the same district,Wheat,2412
+Rajasthan,Nagaur,Rajasthan,Nagaur,exact_normalized,,Wheat,2361
+Punjab,Muktsar,Punjab,Sri Muktsar Sahib,reviewed_alias,official district rename,Wheat,2344
+Punjab,Faridkot,Punjab,Faridkot,exact_normalized,,Wheat,2306
+Haryana,Kaithal,Haryana,Kaithal,exact_normalized,,Wheat,2262
+Jharkhand,Bokaro,Jharkhand,Bokaro,exact_normalized,,Wheat,2225
+Rajasthan,Pali,Rajasthan,Pali,exact_normalized,,Wheat,2216
+Jharkhand,Hazaribagh,Jharkhand,Hazaribagh,exact_normalized,,Wheat,2188
+Haryana,Fatehabad,Haryana,Fatehabad,exact_normalized,,Wheat,2182
+Haryana,Yamuna Nagar,Haryana,Yamunanagar,exact_normalized,,Wheat,2161
+Madhya Pradesh,Anupur,Madhya Pradesh,Anuppur,reviewed_alias,spelling variant,Wheat,2146
+Punjab,Barnala,Punjab,Barnala,exact_normalized,,Wheat,2141
+Uttar Pradesh,Shravasti,Uttar Pradesh,Shrawasti,reviewed_alias,spelling variant,Wheat,2070
+Madhya Pradesh,Balaghat,Madhya Pradesh,Balaghat,exact_normalized,,Wheat,2035
+Karnataka,Bagalkot,Karnataka,Bagalkote,reviewed_alias,spelling variant,Wheat,2028
+Punjab,Nawanshahr,Punjab,Shahid Bhagat Singh Nagar,reviewed_alias,official district rename,Wheat,2018
+Punjab,Fatehgarh,Punjab,Fatehgarh Sahib,reviewed_alias,short form of the district name,Wheat,2008
+Jharkhand,Dhanbad,Jharkhand,Dhanbad,exact_normalized,,Wheat,2006
+Punjab,Tarntaran,Punjab,Tarn Taran,exact_normalized,,Wheat,1978
+Uttar Pradesh,Kaushambi,Uttar Pradesh,Kaushambi,exact_normalized,,Wheat,1909
+Jharkhand,Dumka,Jharkhand,Dumka,exact_normalized,,Wheat,1899
+Odisha,Sundergarh,Odisha,Sundargarh,reviewed_alias,spelling variant,Wheat,1871
+Haryana,Gurgaon,Haryana,Gurugram,reviewed_alias,official district rename,Wheat,1854
+Punjab,Moga,Punjab,Moga,exact_normalized,,Wheat,1822
+Haryana,Palwal,Haryana,Palwal,exact_normalized,,Wheat,1819
+Chattisgarh,Durg,Chhattisgarh,Durg,exact_normalized,,Wheat,1752
+Punjab,Ferozpur,Punjab,Ferozepur,reviewed_alias,spelling variant,Wheat,1726
+Punjab,Fazilka,Punjab,Fazilka,exact_normalized,,Wheat,1726
+Haryana,Rewari,Haryana,Rewari,exact_normalized,,Wheat,1719
+Jharkhand,Koderma,Jharkhand,Koderma,exact_normalized,,Wheat,1717
+Haryana,Hissar,Haryana,Hisar,reviewed_alias,spelling variant,Wheat,1699
+Bihar,Patna,Bihar,Patna,exact_normalized,,Wheat,1689
+Andhra Pradesh,Visakhapatnam,Andhra Pradesh,Visakhapatnam,exact_normalized,,Wheat,1683
+Punjab,Mohali,Punjab,S.A.S Nagar,reviewed_alias,Mohali is the common name of Sahibzada Ajit Singh (S.A.S) Nagar district,Wheat,1678
+Jharkhand,Ranchi,Jharkhand,Ranchi,exact_normalized,,Wheat,1675
+Rajasthan,Dholpur,Rajasthan,Dholpur,exact_normalized,,Wheat,1670
+Jharkhand,Sahebgang,Jharkhand,Sahebganj,reviewed_alias,spelling variant,Wheat,1564
+Karnataka,Kalburgi,Karnataka,Kalaburagi,reviewed_alias,official district rename,Wheat,1506
+Karnataka,Haveri,Karnataka,Haveri,exact_normalized,,Wheat,1484
+Karnataka,Chikmagalur,Karnataka,Chikkamagaluru,reviewed_alias,official district rename,Wheat,1482
+Punjab,Gurdaspur,Punjab,Gurdaspur,exact_normalized,,Wheat,1473
+Uttar Pradesh,Sant Kabir Nagar,Uttar Pradesh,Sant Kabir Nagar,exact_normalized,,Wheat,1465
+Chattisgarh,Koria,Chhattisgarh,Korea,reviewed_alias,spelling variant,Wheat,1463
+Haryana,Panchkula,Haryana,Panchkula,exact_normalized,,Wheat,1457
+Chattisgarh,Balrampur,Chhattisgarh,Balrampur-Ramanujganj,reviewed_alias,full district name,Wheat,1454
+Punjab,Hoshiarpur,Punjab,Hoshiarpur,exact_normalized,,Wheat,1405
+Uttrakhand,Dehradoon,Uttarakhand,Dehradun,reviewed_alias,spelling variant,Wheat,1334
+Karnataka,Hassan,Karnataka,Hassan,exact_normalized,,Wheat,1295
+Andhra Pradesh,Cuddapah,Andhra Pradesh,Y.S.R. Kadapa,reviewed_alias,official district rename,Wheat,1284
+Maharashtra,Raigad,Maharashtra,Raigad,exact_normalized,,Wheat,1275
+Jharkhand,Saraikela(Kharsanwa),Jharkhand,Saraikela Kharsawan,reviewed_alias,spelling variant,Wheat,1200
+Chattisgarh,Surguja,Chhattisgarh,Surguja,exact_normalized,,Wheat,1189
+Chattisgarh,Raigarh,Chhattisgarh,Raigarh,exact_normalized,,Wheat,1185
+Chattisgarh,Surajpur,Chhattisgarh,Surajpur,exact_normalized,,Wheat,1185
+Jharkhand,Lohardaga,Jharkhand,Lohardaga,exact_normalized,,Wheat,1132
+Bihar,Rohtas,Bihar,Rohtas,exact_normalized,,Wheat,1108
+Punjab,kapurthala,Punjab,Kapurthala,exact_normalized,,Wheat,1095
+Haryana,Bhiwani,Haryana,Bhiwani,exact_normalized,,Wheat,1067
+Assam,Dibrugarh,Assam,Dibrugarh,exact_normalized,,Wheat,1055
+Jharkhand,Jamtara,Jharkhand,Jamtara,exact_normalized,,Wheat,1049
+Uttar Pradesh,Bhadohi(Sant Ravi Nagar),Uttar Pradesh,Bhadohi,parenthetical_part,,Wheat,997
+Madhya Pradesh,Singroli,Madhya Pradesh,Singrauli,reviewed_alias,spelling variant,Wheat,992
+Karnataka,Koppal,Karnataka,Koppal,exact_normalized,,Wheat,947
+Rajasthan,Jhunjunu,Rajasthan,Jhunjhunu,reviewed_alias,spelling variant,Wheat,918
+Rajasthan,Rajasamand,Rajasthan,Rajsamand,reviewed_alias,spelling variant,Wheat,897
+Haryana,Panipat,Haryana,Panipat,exact_normalized,,Wheat,896
+Haryana,Faridabad,Haryana,Faridabad,exact_normalized,,Wheat,896
+Chattisgarh,Jashpur,Chhattisgarh,Jashpur,exact_normalized,,Wheat,895
+Karnataka,Raichur,Karnataka,Raichur,exact_normalized,,Wheat,883
+West Bengal,Medinipur(W),West Bengal,Paschim Medinipur,reviewed_alias,W = Paschim (West),Wheat,844
+Bihar,Muzaffarpur,Bihar,Muzaffarpur,exact_normalized,,Wheat,819
+Bihar,Gaya,Bihar,Gaya,exact_normalized,,Wheat,807
+Bihar,Bhagalpur,Bihar,Bhagalpur,exact_normalized,,Wheat,772
+Odisha,Mayurbhanja,Odisha,Mayurbhanj,reviewed_alias,spelling variant,Wheat,759
+Rajasthan,Churu,Rajasthan,Churu,exact_normalized,,Wheat,741
+Haryana,Rohtak,Haryana,Rohtak,exact_normalized,,Wheat,701
+West Bengal,Dakshin Dinajpur,West Bengal,Dakshin Dinajpur,exact_normalized,,Wheat,693
+Bihar,Araria,Bihar,Araria,exact_normalized,,Wheat,692
+Bihar,Sheikhpura,Bihar,Sheikhpura,exact_normalized,,Wheat,678
+Uttrakhand,Nanital,Uttarakhand,Nainital,reviewed_alias,spelling variant,Wheat,672
+Chattisgarh,Raipur,Chhattisgarh,Raipur,exact_normalized,,Wheat,664
+Assam,Barpeta,Assam,Barpeta,exact_normalized,,Wheat,645
+Karnataka,Kolar,Karnataka,Kolar,exact_normalized,,Wheat,622
+Bihar,Nalanda,Bihar,Nalanda,exact_normalized,,Wheat,617
+Haryana,Sonipat,Haryana,Sonipat,exact_normalized,,Wheat,596
+Karnataka,Bellary,Karnataka,Ballari,reviewed_alias,official district rename,Wheat,594
+Haryana,Mahendragarh-Narnaul,Haryana,Mahendragarh,reviewed_alias,Narnaul is the headquarters town of Mahendragarh district,Wheat,588
+Bihar,Khagaria,Bihar,Khagaria,exact_normalized,,Wheat,578
+Kerala,Kollam,Kerala,Kollam,exact_normalized,,Wheat,572
+Bihar,Kaimur/Bhabhua,Bihar,Kaimur (Bhabua),reviewed_alias,spelling variant,Wheat,562
+Jharkhand,Godda,Jharkhand,Godda,exact_normalized,,Wheat,561
+Uttrakhand,Garhwal (Pauri),Uttarakhand,Pauri Garhwal,reviewed_alias,word order variant,Wheat,544
+Bihar,Purnea,Bihar,Purnia,reviewed_alias,spelling variant,Wheat,541
+Chattisgarh,Janjgir,Chhattisgarh,Janjgir-Champa,reviewed_alias,full district name,Wheat,527
+Haryana,Mewat,Haryana,Nuh,reviewed_alias,official district rename,Wheat,505
+Punjab,Ropar (Rupnagar),Punjab,Rupnagar,parenthetical_part,,Wheat,500
+Kerala,Alleppey,Kerala,Alappuzha,reviewed_alias,official district rename (former English name),Wheat,492
+West Bengal,Howrah,West Bengal,Howrah,exact_normalized,,Wheat,486
+Bihar,Begusarai,Bihar,Begusarai,exact_normalized,,Wheat,480
+Jharkhand,Garhwa,Jharkhand,Garhwa,exact_normalized,,Wheat,465
+Bihar,Bhojpur,Bihar,Bhojpur,exact_normalized,,Wheat,461
+Bihar,Buxar,Bihar,Buxar,exact_normalized,,Wheat,411
+Assam,Nagaon,Assam,Nagaon,exact_normalized,,Wheat,393
+West Bengal,Medinipur(E),West Bengal,Purba Medinipur,reviewed_alias,E = Purba (East),Wheat,391
+Karnataka,Karwar(Uttar Kannad),Karnataka,Uttara Kannada,reviewed_alias,Karwar is the headquarters town of Uttara Kannada,Wheat,384
+Uttrakhand,Champawat,Uttarakhand,Champawat,exact_normalized,,Wheat,383
+Bihar,Aurangabad,Bihar,Aurangabad,exact_normalized,,Wheat,371
+Chattisgarh,Dhamtari,Chhattisgarh,Dhamtari,exact_normalized,,Wheat,345
+Karnataka,Davangere,Karnataka,Davanagere,reviewed_alias,spelling variant,Wheat,339
+Goa,North Goa,,,state_not_in_apy,,Wheat,334
+Bihar,Darbhanga,Bihar,Darbhanga,exact_normalized,,Wheat,330
+Telangana,Medak,Telangana,Medak,exact_normalized,,Wheat,327
+Odisha,Angul,Odisha,Angul,exact_normalized,,Wheat,324
+Odisha,Bargarh,Odisha,Bargarh,exact_normalized,,Wheat,324
+Chattisgarh,Mahasamund,Chhattisgarh,Mahasamund,exact_normalized,,Wheat,317
+Kerala,Thiruvananthapuram,Kerala,Thiruvananthapuram,exact_normalized,,Wheat,304
+Jharkhand,Simdega,Jharkhand,Simdega,exact_normalized,,Wheat,304
+Bihar,Munghair,Bihar,Munger,reviewed_alias,spelling variant,Wheat,297
+Telangana,Adilabad,Telangana,Adilabad,exact_normalized,,Wheat,290
+Bihar,Madhubani,Bihar,Madhubani,exact_normalized,,Wheat,283
+Odisha,Nowarangpur,Odisha,Nabarangpur,reviewed_alias,spelling variant,Wheat,264
+Bihar,Kaithar,Bihar,Katihar,reviewed_alias,spelling variant (only phonetically close Bihar district),Wheat,259
+Bihar,Nawada,Bihar,Nawada,exact_normalized,,Wheat,244
+Punjab,Pathankot,Punjab,Pathankot,exact_normalized,,Wheat,240
+Jharkhand,Gumla,Jharkhand,Gumla,exact_normalized,,Wheat,236
+Haryana,Jhajar,Haryana,Jhajjar,reviewed_alias,spelling variant,Wheat,229
+Odisha,Kalahandi,Odisha,Kalahandi,exact_normalized,,Wheat,223
+Chattisgarh,Korba,Chhattisgarh,Korba,exact_normalized,,Wheat,208
+Bihar,Sitamarhi,Bihar,Sitamarhi,exact_normalized,,Wheat,193
+Assam,Darrang,Assam,Darrang,exact_normalized,,Wheat,188
+Telangana,Mahbubnagar,Telangana,Mahabubnagar,reviewed_alias,spelling variant,Wheat,187
+Assam,Jorhat,Assam,Jorhat,exact_normalized,,Wheat,184
+Chattisgarh,Kondagaon,Chhattisgarh,Kondagaon,exact_normalized,,Wheat,180
+Karnataka,Tumkur,Karnataka,Tumakuru,reviewed_alias,official district rename,Wheat,171
+Karnataka,Mandya,Karnataka,Mandya,exact_normalized,,Wheat,167
+Assam,Goalpara,Assam,Goalpara,exact_normalized,,Wheat,164
+Karnataka,Udupi,Karnataka,Udupi,exact_normalized,,Wheat,163
+Rajasthan,Banswara,Rajasthan,Banswara,exact_normalized,,Wheat,161
+Bihar,Samastipur,Bihar,Samastipur,exact_normalized,,Wheat,154
+Chattisgarh,Bastar,Chhattisgarh,Bastar,exact_normalized,,Wheat,148
+Assam,Sonitpur,Assam,Sonitpur,exact_normalized,,Wheat,139
+Jharkhand,Palamu,Jharkhand,Palamu,exact_normalized,,Wheat,129
+Maharashtra,Chandrapur,Maharashtra,Chandrapur,exact_normalized,,Wheat,123
+Chattisgarh,Kanker,Chhattisgarh,Uttar Bastar Kanker,reviewed_alias,full district name,Wheat,105
+Nagaland,Dimapur,Nagaland,Dimapur,exact_normalized,,Wheat,105
+Bihar,West Chambaran,Bihar,Pashchim Champaran,reviewed_alias,spelling variant of West (Pashchim) Champaran,Wheat,105
+Bihar,Vaishali,Bihar,Vaishali,exact_normalized,,Wheat,99
+Odisha,Jajpur,Odisha,Jajpur,exact_normalized,,Wheat,98
+Assam,Kamrup,Assam,Kamrup,exact_normalized,,Wheat,97
+Rajasthan,Sirohi,Rajasthan,Sirohi,exact_normalized,,Wheat,95
+Assam,Dhubri,Assam,Dhubri,exact_normalized,,Wheat,76
+Odisha,Rayagada,Odisha,Rayagada,exact_normalized,,Wheat,74
+Karnataka,Yadgiri,Karnataka,Yadgir,reviewed_alias,spelling variant,Wheat,70
+Bihar,Madhepura,Bihar,Madhepura,exact_normalized,,Wheat,69
+Telangana,Nizamabad,Telangana,Nizamabad,exact_normalized,,Wheat,67
+Gujarat,Navsari,Gujarat,Navsari,exact_normalized,,Wheat,63
+Assam,BONGAIGAON,Assam,Bongaigaon,exact_normalized,,Wheat,60
+Rajasthan,Jalore,Rajasthan,Jalore,exact_normalized,,Wheat,58
+Chattisgarh,Narayanpur,Chhattisgarh,Narayanpur,exact_normalized,,Wheat,54
+Chandigarh,Chandigarh,Chandigarh,Chandigarh,exact_normalized,,Wheat,53
+Assam,Cachar,Assam,Cachar,exact_normalized,,Wheat,48
+Assam,Tinsukia,Assam,Tinsukia,exact_normalized,,Wheat,46
+Bihar,Chhapra,Bihar,Saran,reviewed_alias,Chhapra is the headquarters town of Saran district,Wheat,46
+Bihar,Jamui,Bihar,Jamui,exact_normalized,,Wheat,41
+Rajasthan,Barmer,Rajasthan,Barmer,exact_normalized,,Wheat,40
+Bihar,Kishanganj,Bihar,Kishanganj,exact_normalized,,Wheat,38
+Chattisgarh,Balod,Chhattisgarh,Balod,exact_normalized,,Wheat,38
+Karnataka,Chitradurga,Karnataka,Chitradurga,exact_normalized,,Wheat,36
+Karnataka,Mangalore(Dakshin Kannad),Karnataka,Dakshina Kannada,reviewed_alias,Mangalore is the headquarters town of Dakshina Kannada,Wheat,34
+Himachal Pradesh,Sirmore,,,unmatched,,Wheat,33
+Maharashtra,Gondiya,Maharashtra,Gondia,reviewed_alias,spelling variant,Wheat,32
+Himachal Pradesh,Hamirpur,Himachal Pradesh,Hamirpur,exact_normalized,,Wheat,31
+Himachal Pradesh,Mandi,Himachal Pradesh,Mandi,exact_normalized,,Wheat,29
+Karnataka,Chamrajnagar,Karnataka,Chamarajanagar,reviewed_alias,spelling variant,Wheat,24
+Odisha,Jharsuguda,Odisha,Jharsuguda,exact_normalized,,Wheat,23
+Andhra Pradesh,Chittor,Andhra Pradesh,Chittoor,reviewed_alias,spelling variant,Wheat,20
+Chattisgarh,Gariyaband,Chhattisgarh,Gariyaband,exact_normalized,,Wheat,20
+Odisha,Bhadrak,Odisha,Bhadrak,exact_normalized,,Wheat,20
+Telangana,Warangal,Telangana,Warangal,exact_normalized,,Wheat,19
+Telangana,Khammam,Telangana,Khammam,exact_normalized,,Wheat,18
+Himachal Pradesh,Solan,Himachal Pradesh,Solan,exact_normalized,,Wheat,18
+Odisha,Koraput,Odisha,Koraput,exact_normalized,,Wheat,16
+Karnataka,Madikeri(Kodagu),Karnataka,Kodagu,parenthetical_part,,Wheat,15
+Andhra Pradesh,Srikakulam,Andhra Pradesh,Srikakulam,exact_normalized,,Wheat,14
+Gujarat,Narmada,Gujarat,Narmada,exact_normalized,,Wheat,13
+Mizoram,Lungli,Mizoram,Lunglei,reviewed_alias,spelling variant,Wheat,11
+Odisha,Deogarh,Odisha,Deogarh,exact_normalized,,Wheat,11
+Tamil Nadu,Nagercoil (Kannyiakumari),Tamil Nadu,Kanniyakumari,reviewed_alias,Nagercoil is the headquarters town of Kanniyakumari,Wheat,11
+Assam,Dhemaji,Assam,Dhemaji,exact_normalized,,Wheat,11
+Odisha,Sonepur,Odisha,Sonepur,exact_normalized,,Wheat,11
+Chattisgarh,Sukma,Chhattisgarh,Sukma,exact_normalized,,Wheat,9
+Kerala,Kannur,Kerala,Kannur,exact_normalized,,Wheat,9
+Maharashtra,Gadchiroli,Maharashtra,Gadchiroli,exact_normalized,,Wheat,8
+Telangana,Ranga Reddy,Telangana,Ranga Reddy,exact_normalized,,Wheat,8
+Telangana,Karimnagar,Telangana,Karimnagar,exact_normalized,,Wheat,7
+Rajasthan,Dungarpur,Rajasthan,Dungarpur,exact_normalized,,Wheat,5
+West Bengal,Coochbehar,West Bengal,Cooch Behar,exact_normalized,,Wheat,5
+Arunachal Pradesh,East Siang,Arunachal Pradesh,East Siang,exact_normalized,,Wheat,5
+Tamil Nadu,Kancheepuram,Tamil Nadu,Kancheepuram,exact_normalized,,Wheat,5
+Manipur,Bishnupur,Manipur,Bishnupur,exact_normalized,,Wheat,5
+Kerala,Idukki,Kerala,Idukki,exact_normalized,,Wheat,4
+Himachal Pradesh,Bilaspur,Himachal Pradesh,Bilaspur,exact_normalized,,Wheat,4
+Odisha,Sambalpur,Odisha,Sambalpur,exact_normalized,,Wheat,3
+Sikkim,East,Sikkim,Gangtok,reviewed_alias,East Sikkim district was renamed Gangtok district,Wheat,3
+Andhra Pradesh,Vijayanagaram,Andhra Pradesh,Vizianagaram,reviewed_alias,spelling variant,Wheat,3
+Odisha,Khurda,Odisha,Khordha,reviewed_alias,spelling variant,Wheat,3
+Bihar,Siwan,Bihar,Siwan,exact_normalized,,Wheat,3
+Kerala,Kozhikode(Calicut),Kerala,Kozhikode,parenthetical_part,,Wheat,2
+West Bengal,Jalpaiguri,West Bengal,Jalpaiguri,exact_normalized,,Wheat,2
+Bihar,Arwal,Bihar,Arwal,exact_normalized,,Wheat,2
+Arunachal Pradesh,Papum Pore,Arunachal Pradesh,Papum Pare,reviewed_alias,spelling variant,Wheat,2
+Mizoram,Aizawl,Mizoram,Aizawl,exact_normalized,,Wheat,2
+Tamil Nadu,Salem,Tamil Nadu,Salem,exact_normalized,,Wheat,1
+West Bengal,Sounth 24 Parganas,West Bengal,South 24 Parganas,reviewed_alias,typo in mandi source,Wheat,1
+Assam,Sibsagar,Assam,Sivasagar,reviewed_alias,spelling variant,Wheat,1
+Tamil Nadu,Villupuram,Tamil Nadu,Viluppuram,reviewed_alias,spelling variant,Wheat,1
+Tamil Nadu,Thiruvannamalai,Tamil Nadu,Tiruvannamalai,reviewed_alias,spelling variant,Wheat,1
+Himachal Pradesh,Una,Himachal Pradesh,Una,exact_normalized,,Wheat,1
+Jharkhand,Latehar,Jharkhand,Latehar,exact_normalized,,Wheat,1
+West Bengal,Kolkata,,,excluded_by_review,EXCLUDED - urban district with no APY district for these crops,Wheat,1
+Assam,Karimganj,Assam,Sribhumi,reviewed_alias,official district rename,Wheat,1
+Tamil Nadu,Ramanathapuram,Tamil Nadu,Ramanathapuram,exact_normalized,,Wheat,1
+Chattisgarh,Dantewada,Chhattisgarh,Dakshin Bastar Dantewada,reviewed_alias,full district name,Wheat,1
+Tamil Nadu,Dindigul,Tamil Nadu,Dindigul,exact_normalized,,Wheat,1
+Odisha,Nuapada,Odisha,Nuapada,exact_normalized,,Wheat,1
+Odisha,Nayagarh,Odisha,Nayagarh,exact_normalized,,Wheat,1
+Odisha,Keonjhar,Odisha,Keonjhar,exact_normalized,,Wheat,1
+Odisha,Ganjam,Odisha,Ganjam,exact_normalized,,Wheat,1
+Kerala,Malappuram,Kerala,Malappuram,exact_normalized,,Wheat,1
+Gujarat,The Dangs,Gujarat,Dangs,reviewed_alias,spelling variant,Wheat,1
+Odisha,Gajapati,Odisha,Gajapati,exact_normalized,,Wheat,1
+Odisha,Balasore,Odisha,Balasore,exact_normalized,,Wheat,1

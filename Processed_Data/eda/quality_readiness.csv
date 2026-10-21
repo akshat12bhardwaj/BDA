@@ -1,0 +1,232 @@
+crop,metric,value,denominator
+Onion,rows,2623671,all rows
+Onion,series (crop x market x variety),3924,-
+Onion,markets,1732,-
+Onion,first_date,2000-10-19,-
+Onion,last_date,2024-02-02,-
+Onion,conflict_unresolved rows,68,all rows
+Onion,price scale_error_suspected rows,422,all rows
+Onion,price review rows,22330,all rows
+Onion,arrivals entry_error_suspected rows,75,all rows
+Onion,arrivals review rows,399,all rows
+Onion,modal target missing (of all rows),27474,all rows
+Onion,rows not usable_modal_price,28060,all rows
+Onion,rows not usable_arrivals,143,all rows
+Onion,series with 0 usable price rows,27,all rows
+Onion,series with < 30 usable price rows,1295,all rows
+Onion,series with >= 365 usable price rows,1473,all rows
+Onion,usable price rows in series with >= 365 usable rows,2420920,all rows
+Onion,missing % (predictor) year,0.0,all 2623671 rows
+Onion,missing % (predictor) month,0.0,all 2623671 rows
+Onion,missing % (predictor) quarter,0.0,all 2623671 rows
+Onion,missing % (predictor) day_of_week,0.0,all 2623671 rows
+Onion,missing % (predictor) month_sin,0.0,all 2623671 rows
+Onion,missing % (predictor) month_cos,0.0,all 2623671 rows
+Onion,missing % (predictor) agri_year_start,0.0,all 2623671 rows
+Onion,missing % (predictor) imd_season,0.0,all 2623671 rows
+Onion,missing % (predictor) modal_prev_obs,0.433,all 2623671 rows
+Onion,missing % (predictor) modal_prev_obs_days_ago,0.433,all 2623671 rows
+Onion,missing % (predictor) min_price_prev_obs,5.135,all 2623671 rows
+Onion,missing % (predictor) max_price_prev_obs,5.031,all 2623671 rows
+Onion,missing % (predictor) modal_pct_change_prev_obs,0.579,all 2623671 rows
+Onion,missing % (predictor) modal_lag_1d,28.828,all 2623671 rows
+Onion,missing % (predictor) modal_lag_7d,24.337,all 2623671 rows
+Onion,missing % (predictor) modal_roll7d_mean,3.695,all 2623671 rows
+Onion,missing % (predictor) modal_roll7d_median,3.695,all 2623671 rows
+Onion,missing % (predictor) modal_roll7d_std,7.978,all 2623671 rows
+Onion,missing % (predictor) modal_roll7d_count,0.0,all 2623671 rows
+Onion,missing % (predictor) modal_roll30d_mean,1.733,all 2623671 rows
+Onion,missing % (predictor) modal_roll30d_median,1.733,all 2623671 rows
+Onion,missing % (predictor) modal_roll30d_std,2.655,all 2623671 rows
+Onion,missing % (predictor) modal_roll30d_count,0.0,all 2623671 rows
+Onion,missing % (predictor) modal_roll90d_mean,1.233,all 2623671 rows
+Onion,missing % (predictor) modal_roll90d_median,1.233,all 2623671 rows
+Onion,missing % (predictor) modal_roll90d_std,1.705,all 2623671 rows
+Onion,missing % (predictor) modal_roll90d_count,0.0,all 2623671 rows
+Onion,missing % (predictor) arrivals_prev_obs,0.15,all 2623671 rows
+Onion,missing % (predictor) arrivals_prev_obs_days_ago,0.15,all 2623671 rows
+Onion,missing % (predictor) arrivals_change_prev_obs,0.286,all 2623671 rows
+Onion,missing % (predictor) arrivals_lag_1d,28.087,all 2623671 rows
+Onion,missing % (predictor) arrivals_lag_7d,23.618,all 2623671 rows
+Onion,missing % (predictor) arrivals_roll7d_mean,2.802,all 2623671 rows
+Onion,missing % (predictor) arrivals_roll7d_median,2.802,all 2623671 rows
+Onion,missing % (predictor) arrivals_roll7d_std,7.09,all 2623671 rows
+Onion,missing % (predictor) arrivals_roll7d_count,0.0,all 2623671 rows
+Onion,missing % (predictor) arrivals_roll30d_mean,0.89,all 2623671 rows
+Onion,missing % (predictor) arrivals_roll30d_median,0.89,all 2623671 rows
+Onion,missing % (predictor) arrivals_roll30d_std,1.788,all 2623671 rows
+Onion,missing % (predictor) arrivals_roll30d_count,0.0,all 2623671 rows
+Onion,missing % (predictor) arrivals_roll90d_mean,0.468,all 2623671 rows
+Onion,missing % (predictor) arrivals_roll90d_median,0.468,all 2623671 rows
+Onion,missing % (predictor) arrivals_roll90d_std,0.91,all 2623671 rows
+Onion,missing % (predictor) arrivals_roll90d_count,0.0,all 2623671 rows
+Onion,missing % (predictor) wx_temp_mean_prev1d,74.749,all 2623671 rows
+Onion,missing % (predictor) wx_temp_mean_mean_7d,74.749,all 2623671 rows
+Onion,missing % (predictor) wx_temp_mean_mean_30d,74.749,all 2623671 rows
+Onion,missing % (predictor) wx_temp_max_prev1d,74.749,all 2623671 rows
+Onion,missing % (predictor) wx_temp_max_mean_7d,74.749,all 2623671 rows
+Onion,missing % (predictor) wx_rain_prev1d,74.749,all 2623671 rows
+Onion,missing % (predictor) wx_rain_sum_7d,74.749,all 2623671 rows
+Onion,missing % (predictor) wx_rain_sum_30d,74.749,all 2623671 rows
+Onion,missing % (predictor) wx_rain_sum_90d,74.749,all 2623671 rows
+Onion,missing % (predictor) wx_rh_mean_prev1d,74.749,all 2623671 rows
+Onion,missing % (predictor) wx_rh_mean_mean_7d,74.749,all 2623671 rows
+Onion,missing % (predictor) wx_et0_prev1d,74.749,all 2623671 rows
+Onion,missing % (predictor) wx_et0_sum_30d,74.749,all 2623671 rows
+Onion,missing % (predictor) apy_production_tonnes_lag2,50.575,all 2623671 rows
+Onion,missing % (predictor) apy_area_ha_lag2,49.488,all 2623671 rows
+Onion,missing % (predictor) apy_yield_t_per_ha_lag2,49.488,all 2623671 rows
+Potato,rows,2764417,all rows
+Potato,series (crop x market x variety),4003,-
+Potato,markets,1624,-
+Potato,first_date,2000-10-19,-
+Potato,last_date,2024-02-02,-
+Potato,conflict_unresolved rows,164,all rows
+Potato,price scale_error_suspected rows,415,all rows
+Potato,price review rows,2339,all rows
+Potato,arrivals entry_error_suspected rows,62,all rows
+Potato,arrivals review rows,399,all rows
+Potato,modal target missing (of all rows),32511,all rows
+Potato,rows not usable_modal_price,33146,all rows
+Potato,rows not usable_arrivals,226,all rows
+Potato,series with 0 usable price rows,32,all rows
+Potato,series with < 30 usable price rows,1215,all rows
+Potato,series with >= 365 usable price rows,1551,all rows
+Potato,usable price rows in series with >= 365 usable rows,2539948,all rows
+Potato,missing % (predictor) year,0.0,all 2764417 rows
+Potato,missing % (predictor) month,0.0,all 2764417 rows
+Potato,missing % (predictor) quarter,0.0,all 2764417 rows
+Potato,missing % (predictor) day_of_week,0.0,all 2764417 rows
+Potato,missing % (predictor) month_sin,0.0,all 2764417 rows
+Potato,missing % (predictor) month_cos,0.0,all 2764417 rows
+Potato,missing % (predictor) agri_year_start,0.0,all 2764417 rows
+Potato,missing % (predictor) imd_season,0.0,all 2764417 rows
+Potato,missing % (predictor) modal_prev_obs,0.454,all 2764417 rows
+Potato,missing % (predictor) modal_prev_obs_days_ago,0.454,all 2764417 rows
+Potato,missing % (predictor) min_price_prev_obs,5.18,all 2764417 rows
+Potato,missing % (predictor) max_price_prev_obs,5.05,all 2764417 rows
+Potato,missing % (predictor) modal_pct_change_prev_obs,0.644,all 2764417 rows
+Potato,missing % (predictor) modal_lag_1d,25.336,all 2764417 rows
+Potato,missing % (predictor) modal_lag_7d,22.417,all 2764417 rows
+Potato,missing % (predictor) modal_roll7d_mean,3.384,all 2764417 rows
+Potato,missing % (predictor) modal_roll7d_median,3.384,all 2764417 rows
+Potato,missing % (predictor) modal_roll7d_std,6.799,all 2764417 rows
+Potato,missing % (predictor) modal_roll7d_count,0.0,all 2764417 rows
+Potato,missing % (predictor) modal_roll30d_mean,1.745,all 2764417 rows
+Potato,missing % (predictor) modal_roll30d_median,1.745,all 2764417 rows
+Potato,missing % (predictor) modal_roll30d_std,2.553,all 2764417 rows
+Potato,missing % (predictor) modal_roll30d_count,0.0,all 2764417 rows
+Potato,missing % (predictor) modal_roll90d_mean,1.29,all 2764417 rows
+Potato,missing % (predictor) modal_roll90d_median,1.29,all 2764417 rows
+Potato,missing % (predictor) modal_roll90d_std,1.744,all 2764417 rows
+Potato,missing % (predictor) modal_roll90d_count,0.0,all 2764417 rows
+Potato,missing % (predictor) arrivals_prev_obs,0.145,all 2764417 rows
+Potato,missing % (predictor) arrivals_prev_obs_days_ago,0.145,all 2764417 rows
+Potato,missing % (predictor) arrivals_change_prev_obs,0.278,all 2764417 rows
+Potato,missing % (predictor) arrivals_lag_1d,24.433,all 2764417 rows
+Potato,missing % (predictor) arrivals_lag_7d,21.547,all 2764417 rows
+Potato,missing % (predictor) arrivals_roll7d_mean,2.359,all 2764417 rows
+Potato,missing % (predictor) arrivals_roll7d_median,2.359,all 2764417 rows
+Potato,missing % (predictor) arrivals_roll7d_std,5.771,all 2764417 rows
+Potato,missing % (predictor) arrivals_roll7d_count,0.0,all 2764417 rows
+Potato,missing % (predictor) arrivals_roll30d_mean,0.79,all 2764417 rows
+Potato,missing % (predictor) arrivals_roll30d_median,0.79,all 2764417 rows
+Potato,missing % (predictor) arrivals_roll30d_std,1.568,all 2764417 rows
+Potato,missing % (predictor) arrivals_roll30d_count,0.0,all 2764417 rows
+Potato,missing % (predictor) arrivals_roll90d_mean,0.435,all 2764417 rows
+Potato,missing % (predictor) arrivals_roll90d_median,0.435,all 2764417 rows
+Potato,missing % (predictor) arrivals_roll90d_std,0.843,all 2764417 rows
+Potato,missing % (predictor) arrivals_roll90d_count,0.0,all 2764417 rows
+Potato,missing % (predictor) wx_temp_mean_prev1d,76.397,all 2764417 rows
+Potato,missing % (predictor) wx_temp_mean_mean_7d,76.397,all 2764417 rows
+Potato,missing % (predictor) wx_temp_mean_mean_30d,76.397,all 2764417 rows
+Potato,missing % (predictor) wx_temp_max_prev1d,76.397,all 2764417 rows
+Potato,missing % (predictor) wx_temp_max_mean_7d,76.397,all 2764417 rows
+Potato,missing % (predictor) wx_rain_prev1d,76.397,all 2764417 rows
+Potato,missing % (predictor) wx_rain_sum_7d,76.397,all 2764417 rows
+Potato,missing % (predictor) wx_rain_sum_30d,76.397,all 2764417 rows
+Potato,missing % (predictor) wx_rain_sum_90d,76.397,all 2764417 rows
+Potato,missing % (predictor) wx_rh_mean_prev1d,76.397,all 2764417 rows
+Potato,missing % (predictor) wx_rh_mean_mean_7d,76.397,all 2764417 rows
+Potato,missing % (predictor) wx_et0_prev1d,76.397,all 2764417 rows
+Potato,missing % (predictor) wx_et0_sum_30d,76.397,all 2764417 rows
+Potato,missing % (predictor) apy_production_tonnes_lag2,34.331,all 2764417 rows
+Potato,missing % (predictor) apy_area_ha_lag2,34.137,all 2764417 rows
+Potato,missing % (predictor) apy_yield_t_per_ha_lag2,34.137,all 2764417 rows
+Wheat,rows,2593279,all rows
+Wheat,series (crop x market x variety),5279,-
+Wheat,markets,1988,-
+Wheat,first_date,2001-03-16,-
+Wheat,last_date,2024-02-01,-
+Wheat,conflict_unresolved rows,106,all rows
+Wheat,price scale_error_suspected rows,148,all rows
+Wheat,price review rows,471,all rows
+Wheat,arrivals entry_error_suspected rows,53,all rows
+Wheat,arrivals review rows,484,all rows
+Wheat,modal target missing (of all rows),13331,all rows
+Wheat,rows not usable_modal_price,14264,all rows
+Wheat,rows not usable_arrivals,159,all rows
+Wheat,series with 0 usable price rows,52,all rows
+Wheat,series with < 30 usable price rows,2119,all rows
+Wheat,series with >= 365 usable price rows,1540,all rows
+Wheat,usable price rows in series with >= 365 usable rows,2335262,all rows
+Wheat,missing % (predictor) year,0.0,all 2593279 rows
+Wheat,missing % (predictor) month,0.0,all 2593279 rows
+Wheat,missing % (predictor) quarter,0.0,all 2593279 rows
+Wheat,missing % (predictor) day_of_week,0.0,all 2593279 rows
+Wheat,missing % (predictor) month_sin,0.0,all 2593279 rows
+Wheat,missing % (predictor) month_cos,0.0,all 2593279 rows
+Wheat,missing % (predictor) agri_year_start,0.0,all 2593279 rows
+Wheat,missing % (predictor) imd_season,0.0,all 2593279 rows
+Wheat,missing % (predictor) modal_prev_obs,0.319,all 2593279 rows
+Wheat,missing % (predictor) modal_prev_obs_days_ago,0.319,all 2593279 rows
+Wheat,missing % (predictor) min_price_prev_obs,5.196,all 2593279 rows
+Wheat,missing % (predictor) max_price_prev_obs,5.075,all 2593279 rows
+Wheat,missing % (predictor) modal_pct_change_prev_obs,0.528,all 2593279 rows
+Wheat,missing % (predictor) modal_lag_1d,34.294,all 2593279 rows
+Wheat,missing % (predictor) modal_lag_7d,28.839,all 2593279 rows
+Wheat,missing % (predictor) modal_roll7d_mean,4.549,all 2593279 rows
+Wheat,missing % (predictor) modal_roll7d_median,4.549,all 2593279 rows
+Wheat,missing % (predictor) modal_roll7d_std,9.851,all 2593279 rows
+Wheat,missing % (predictor) modal_roll7d_count,0.0,all 2593279 rows
+Wheat,missing % (predictor) modal_roll30d_mean,1.724,all 2593279 rows
+Wheat,missing % (predictor) modal_roll30d_median,1.724,all 2593279 rows
+Wheat,missing % (predictor) modal_roll30d_std,3.099,all 2593279 rows
+Wheat,missing % (predictor) modal_roll30d_count,0.0,all 2593279 rows
+Wheat,missing % (predictor) modal_roll90d_mean,1.065,all 2593279 rows
+Wheat,missing % (predictor) modal_roll90d_median,1.065,all 2593279 rows
+Wheat,missing % (predictor) modal_roll90d_std,1.801,all 2593279 rows
+Wheat,missing % (predictor) modal_roll90d_count,0.0,all 2593279 rows
+Wheat,missing % (predictor) arrivals_prev_obs,0.204,all 2593279 rows
+Wheat,missing % (predictor) arrivals_prev_obs_days_ago,0.204,all 2593279 rows
+Wheat,missing % (predictor) arrivals_change_prev_obs,0.384,all 2593279 rows
+Wheat,missing % (predictor) arrivals_lag_1d,33.967,all 2593279 rows
+Wheat,missing % (predictor) arrivals_lag_7d,28.52,all 2593279 rows
+Wheat,missing % (predictor) arrivals_roll7d_mean,4.172,all 2593279 rows
+Wheat,missing % (predictor) arrivals_roll7d_median,4.172,all 2593279 rows
+Wheat,missing % (predictor) arrivals_roll7d_std,9.467,all 2593279 rows
+Wheat,missing % (predictor) arrivals_roll7d_count,0.0,all 2593279 rows
+Wheat,missing % (predictor) arrivals_roll30d_mean,1.398,all 2593279 rows
+Wheat,missing % (predictor) arrivals_roll30d_median,1.398,all 2593279 rows
+Wheat,missing % (predictor) arrivals_roll30d_std,2.75,all 2593279 rows
+Wheat,missing % (predictor) arrivals_roll30d_count,0.0,all 2593279 rows
+Wheat,missing % (predictor) arrivals_roll90d_mean,0.785,all 2593279 rows
+Wheat,missing % (predictor) arrivals_roll90d_median,0.785,all 2593279 rows
+Wheat,missing % (predictor) arrivals_roll90d_std,1.495,all 2593279 rows
+Wheat,missing % (predictor) arrivals_roll90d_count,0.0,all 2593279 rows
+Wheat,missing % (predictor) wx_temp_mean_prev1d,74.772,all 2593279 rows
+Wheat,missing % (predictor) wx_temp_mean_mean_7d,74.772,all 2593279 rows
+Wheat,missing % (predictor) wx_temp_mean_mean_30d,74.772,all 2593279 rows
+Wheat,missing % (predictor) wx_temp_max_prev1d,74.772,all 2593279 rows
+Wheat,missing % (predictor) wx_temp_max_mean_7d,74.772,all 2593279 rows
+Wheat,missing % (predictor) wx_rain_prev1d,74.772,all 2593279 rows
+Wheat,missing % (predictor) wx_rain_sum_7d,74.772,all 2593279 rows
+Wheat,missing % (predictor) wx_rain_sum_30d,74.772,all 2593279 rows
+Wheat,missing % (predictor) wx_rain_sum_90d,74.772,all 2593279 rows
+Wheat,missing % (predictor) wx_rh_mean_prev1d,74.772,all 2593279 rows
+Wheat,missing % (predictor) wx_rh_mean_mean_7d,74.772,all 2593279 rows
+Wheat,missing % (predictor) wx_et0_prev1d,74.772,all 2593279 rows
+Wheat,missing % (predictor) wx_et0_sum_30d,74.772,all 2593279 rows
+Wheat,missing % (predictor) apy_production_tonnes_lag2,3.773,all 2593279 rows
+Wheat,missing % (predictor) apy_area_ha_lag2,3.753,all 2593279 rows
+Wheat,missing % (predictor) apy_yield_t_per_ha_lag2,3.753,all 2593279 rows

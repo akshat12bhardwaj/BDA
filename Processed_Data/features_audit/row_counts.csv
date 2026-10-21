@@ -1,0 +1,4 @@
+crop,input_rows,output_rows,series,input_columns,output_columns,rows_with_usable_modal_target,rows_with_usable_arrivals_target
+Onion,2623671,2623671,3924,47,85,2595611,2623528
+Potato,2764417,2764417,4003,47,85,2731271,2764191
+Wheat,2593279,2593279,5279,47,85,2579015,2593120

@@ -1,0 +1,11 @@
+file,grain,rows,columns,content_sha256
+mandi_integrated_onion.parquet,one row per raw mandi record (source_row),2624379,33,398e6a3b740db0a0d7f9fd5f6f0ec3c0fe7779cd6f9cc6eb2bb8d23b850bd2af
+mandi_integrated_potato.parquet,one row per raw mandi record (source_row),2764987,33,c026eb97afe94800b7772f69c71966a350b60a7de982ced306ad4378228ea8fa
+mandi_integrated_wheat.parquet,one row per raw mandi record (source_row),2593767,33,dcc10935477b3cb068b7d202191c3e5e4907da937e497d01c59c6b30dd6b66fc
+weather_daily_panel.parquet,"weather_state, weather_district, reported_date",369610,10,5661f36ec3777a37b9a01e53ee16ba43b62270715f171791130b32560a3f4410
+weather_location_resolution.csv,"state, district",46,20,44ade83f3515c71802c3f83f078f05b6b8e89ebb86e10c88ec798a396ff94604
+apy_season.csv,"crop, state, district, apy_year, season",41835,12,ef8f13f4a42d120a320aada2dfa6c062aa872e6a3026e5c88a07b86be1e16f9b
+apy_annual.csv,"crop, state, district, apy_year",33011,12,1a48f31da03271db778567e94955ea41f0013c55b12723cf0d05cb0ead4bab8c
+mandi_apy_district_year.csv,"crop, apy_state, apy_district, apy_year",38700,21,82411357e2d9d50b60b8e3ab0fec0bb4a4df75211b125e54dc4b0aaf984b437b
+district_crosswalk.csv,"crop, state, district",1474,8,a6d33dc835cb1661edfb5877d4948efd8c563dffe3c1ca7c36f8c9ab469d5b65
+agrimarket_wheat_crosscheck.csv,"district, market, variety, reported_date",9569,21,a3682d8abcea829a01ec8c400eddb477c616941289f1401f63f4806141d75333

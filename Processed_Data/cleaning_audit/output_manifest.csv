@@ -1,0 +1,4 @@
+file,grain,rows,columns,content_sha256
+mandi_cleaned_onion.parquet,"one row per distinct (key, values) observation; conflicting versions kept as separate rows",2623671,47,9eb924c74130ea1fb085d59847e7a8ff50d9e81a3824f76f65d94bd3a48bc99a
+mandi_cleaned_potato.parquet,"one row per distinct (key, values) observation; conflicting versions kept as separate rows",2764417,47,885cf19f7026979a47e4c88f835821d974fc7eeb9b408738b985d425a2f939fc
+mandi_cleaned_wheat.parquet,"one row per distinct (key, values) observation; conflicting versions kept as separate rows",2593279,47,d77c63efe9aa34fed387e51ee0e1754c6559372c910c201c3fc66b579a56e6c6

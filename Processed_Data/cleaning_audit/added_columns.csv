@@ -1,0 +1,15 @@
+column,meaning
+dup_status,"unique | exact_copies_collapsed | conflict_unresolved (key = state, district, market, variety, group, date)"
+n_identical_copies,number of identical Phase 4 rows this row represents (1 = no copies)
+min_price_status,ok | missing_in_source | zero_set_missing | negative_set_missing | nonfinite_set_missing
+max_price_status,same categories as min_price_status
+modal_price_status,same categories as min_price_status
+arrivals_status,ok | zero_retained | missing_in_source | negative_set_missing | nonfinite_set_missing
+min_gt_max,min and max both present and min > max
+modal_outside_range,"modal, min and max present and modal outside [min, max]"
+price_ratio_to_ref,largest price/reference or reference/price ratio across present price fields (reference = trailing 30-day median of the crop's national daily median modal price)
+price_extreme_level,none | review (>=10x) | scale_error_suspected (>=50x) | no_reference
+arrivals_ratio_to_ref,arrivals / maximum of the same market's arrivals over the previous 365 days
+arrivals_extreme_level,none | review (>=10x past max) | entry_error_suspected (>=100x past max) | insufficient_history
+usable_modal_price,modal present and not conflict / outside-range / min>max / suspected scale error
+usable_arrivals,arrivals present and not conflict / suspected entry error

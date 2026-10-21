@@ -1,0 +1,4 @@
+file,grain,rows,columns,content_sha256
+features_onion.parquet,one row per Phase 5 row (source_row),2623671,85,8a39194ea8632db2beb59c2ec480b6d34309b443747870b51eba8bcf2cb7f0a2
+features_potato.parquet,one row per Phase 5 row (source_row),2764417,85,54011cf529adf5929c0392d5cd3d05ca4a47ed761e2a346d82f9512fb17ea4c8
+features_wheat.parquet,one row per Phase 5 row (source_row),2593279,85,8eb804a6192a625b37d1f3a1aec6618c380e554e13b8d3875d25e2afcb09e19f

@@ -1,0 +1,229 @@
+crop,stage,metric,value
+Onion,before,rows,2624379
+Onion,before,distinct_observation_keys,2623637
+Onion,before,rows_sharing_a_key,1484
+Onion,before,redundant_identical_copies,708
+Onion,before,conflicting_key_groups,34
+Onion,before,rows_in_conflicting_groups,68
+Onion,before,min_gt_max,3282
+Onion,before,modal_lt_min,21755
+Onion,before,modal_gt_max,118732
+Onion,before,unparsed_dates,0
+Onion,before,first_date,2000-10-19
+Onion,before,last_date,2024-02-02
+Onion,before,"weather_missing_rows (coverage, not quality)",1961795
+Onion,before,"apy_annual_unavailable_rows (coverage, not quality)",1392739
+Onion,before,arrivals_tonnes: missing,0
+Onion,before,arrivals_tonnes: zero,9
+Onion,before,arrivals_tonnes: negative,0
+Onion,before,arrivals_tonnes: non_finite,0
+Onion,before,arrivals_tonnes: dtype,float64
+Onion,before,min_price_rs_per_quintal: missing,0
+Onion,before,min_price_rs_per_quintal: zero,127571
+Onion,before,min_price_rs_per_quintal: negative,0
+Onion,before,min_price_rs_per_quintal: non_finite,0
+Onion,before,min_price_rs_per_quintal: dtype,float64
+Onion,before,max_price_rs_per_quintal: missing,3
+Onion,before,max_price_rs_per_quintal: zero,120219
+Onion,before,max_price_rs_per_quintal: negative,0
+Onion,before,max_price_rs_per_quintal: non_finite,0
+Onion,before,max_price_rs_per_quintal: dtype,float64
+Onion,before,modal_price_rs_per_quintal: missing,43
+Onion,before,modal_price_rs_per_quintal: zero,27432
+Onion,before,modal_price_rs_per_quintal: negative,0
+Onion,before,modal_price_rs_per_quintal: non_finite,0
+Onion,before,modal_price_rs_per_quintal: dtype,float64
+Onion,before,arrivals_tonnes: p99.9,5920.659800000396
+Onion,before,arrivals_tonnes: max,244420.0
+Onion,before,modal_price_rs_per_quintal: p99.9,9800.0
+Onion,before,modal_price_rs_per_quintal: max,460000.0
+Onion,after,rows,2623671
+Onion,after,distinct_observation_keys,2623637
+Onion,after,rows_sharing_a_key,68
+Onion,after,redundant_identical_copies,0
+Onion,after,conflicting_key_groups,34
+Onion,after,rows_in_conflicting_groups,68
+Onion,after,min_gt_max,0
+Onion,after,modal_lt_min,93
+Onion,after,modal_gt_max,6
+Onion,after,unparsed_dates,0
+Onion,after,first_date,2000-10-19
+Onion,after,last_date,2024-02-02
+Onion,after,"weather_missing_rows (coverage, not quality)",1961172
+Onion,after,"apy_annual_unavailable_rows (coverage, not quality)",1392360
+Onion,after,arrivals_tonnes: missing,0
+Onion,after,arrivals_tonnes: zero,9
+Onion,after,arrivals_tonnes: negative,0
+Onion,after,arrivals_tonnes: non_finite,0
+Onion,after,arrivals_tonnes: dtype,float64
+Onion,after,min_price_rs_per_quintal: missing,127554
+Onion,after,min_price_rs_per_quintal: zero,0
+Onion,after,min_price_rs_per_quintal: negative,0
+Onion,after,min_price_rs_per_quintal: non_finite,0
+Onion,after,min_price_rs_per_quintal: dtype,float64
+Onion,after,max_price_rs_per_quintal: missing,120206
+Onion,after,max_price_rs_per_quintal: zero,0
+Onion,after,max_price_rs_per_quintal: negative,0
+Onion,after,max_price_rs_per_quintal: non_finite,0
+Onion,after,max_price_rs_per_quintal: dtype,float64
+Onion,after,modal_price_rs_per_quintal: missing,27474
+Onion,after,modal_price_rs_per_quintal: zero,0
+Onion,after,modal_price_rs_per_quintal: negative,0
+Onion,after,modal_price_rs_per_quintal: non_finite,0
+Onion,after,modal_price_rs_per_quintal: dtype,float64
+Onion,after,arrivals_tonnes: p99.9,5916.033000000008
+Onion,after,arrivals_tonnes: max,244420.0
+Onion,after,modal_price_rs_per_quintal: p99.9,9800.0
+Onion,after,modal_price_rs_per_quintal: max,460000.0
+Potato,before,rows,2764987
+Potato,before,distinct_observation_keys,2764335
+Potato,before,rows_sharing_a_key,1296
+Potato,before,redundant_identical_copies,570
+Potato,before,conflicting_key_groups,82
+Potato,before,rows_in_conflicting_groups,165
+Potato,before,min_gt_max,3990
+Potato,before,modal_lt_min,25655
+Potato,before,modal_gt_max,124957
+Potato,before,unparsed_dates,0
+Potato,before,first_date,2000-10-19
+Potato,before,last_date,2024-02-02
+Potato,before,"weather_missing_rows (coverage, not quality)",2112458
+Potato,before,"apy_annual_unavailable_rows (coverage, not quality)",1039849
+Potato,before,arrivals_tonnes: missing,0
+Potato,before,arrivals_tonnes: zero,3
+Potato,before,arrivals_tonnes: negative,0
+Potato,before,arrivals_tonnes: non_finite,0
+Potato,before,arrivals_tonnes: dtype,float64
+Potato,before,min_price_rs_per_quintal: missing,0
+Potato,before,min_price_rs_per_quintal: zero,135398
+Potato,before,min_price_rs_per_quintal: negative,0
+Potato,before,min_price_rs_per_quintal: non_finite,0
+Potato,before,min_price_rs_per_quintal: dtype,float64
+Potato,before,max_price_rs_per_quintal: missing,0
+Potato,before,max_price_rs_per_quintal: zero,127128
+Potato,before,max_price_rs_per_quintal: negative,0
+Potato,before,max_price_rs_per_quintal: non_finite,0
+Potato,before,max_price_rs_per_quintal: dtype,float64
+Potato,before,modal_price_rs_per_quintal: missing,10
+Potato,before,modal_price_rs_per_quintal: zero,32502
+Potato,before,modal_price_rs_per_quintal: negative,0
+Potato,before,modal_price_rs_per_quintal: non_finite,0
+Potato,before,modal_price_rs_per_quintal: dtype,float64
+Potato,before,arrivals_tonnes: p99.9,3743.4924000028523
+Potato,before,arrivals_tonnes: max,212350.0
+Potato,before,modal_price_rs_per_quintal: p99.9,4900.0
+Potato,before,modal_price_rs_per_quintal: max,11200000.0
+Potato,after,rows,2764417
+Potato,after,distinct_observation_keys,2764335
+Potato,after,rows_sharing_a_key,164
+Potato,after,redundant_identical_copies,0
+Potato,after,conflicting_key_groups,82
+Potato,after,rows_in_conflicting_groups,164
+Potato,after,min_gt_max,0
+Potato,after,modal_lt_min,46
+Potato,after,modal_gt_max,17
+Potato,after,unparsed_dates,0
+Potato,after,first_date,2000-10-19
+Potato,after,last_date,2024-02-02
+Potato,after,"weather_missing_rows (coverage, not quality)",2111939
+Potato,after,"apy_annual_unavailable_rows (coverage, not quality)",1039572
+Potato,after,arrivals_tonnes: missing,0
+Potato,after,arrivals_tonnes: zero,3
+Potato,after,arrivals_tonnes: negative,0
+Potato,after,arrivals_tonnes: non_finite,0
+Potato,after,arrivals_tonnes: dtype,float64
+Potato,after,min_price_rs_per_quintal: missing,135376
+Potato,after,min_price_rs_per_quintal: zero,0
+Potato,after,min_price_rs_per_quintal: negative,0
+Potato,after,min_price_rs_per_quintal: non_finite,0
+Potato,after,min_price_rs_per_quintal: dtype,float64
+Potato,after,max_price_rs_per_quintal: missing,127106
+Potato,after,max_price_rs_per_quintal: zero,0
+Potato,after,max_price_rs_per_quintal: negative,0
+Potato,after,max_price_rs_per_quintal: non_finite,0
+Potato,after,max_price_rs_per_quintal: dtype,float64
+Potato,after,modal_price_rs_per_quintal: missing,32511
+Potato,after,modal_price_rs_per_quintal: zero,0
+Potato,after,modal_price_rs_per_quintal: negative,0
+Potato,after,modal_price_rs_per_quintal: non_finite,0
+Potato,after,modal_price_rs_per_quintal: dtype,float64
+Potato,after,arrivals_tonnes: p99.9,3747.2544000017456
+Potato,after,arrivals_tonnes: max,212350.0
+Potato,after,modal_price_rs_per_quintal: p99.9,4900.0
+Potato,after,modal_price_rs_per_quintal: max,11200000.0
+Wheat,before,rows,2593767
+Wheat,before,distinct_observation_keys,2593226
+Wheat,before,rows_sharing_a_key,1079
+Wheat,before,redundant_identical_copies,488
+Wheat,before,conflicting_key_groups,53
+Wheat,before,rows_in_conflicting_groups,106
+Wheat,before,min_gt_max,3436
+Wheat,before,modal_lt_min,9550
+Wheat,before,modal_gt_max,121036
+Wheat,before,unparsed_dates,0
+Wheat,before,first_date,2001-03-16
+Wheat,before,last_date,2024-02-01
+Wheat,before,"weather_missing_rows (coverage, not quality)",1939466
+Wheat,before,"apy_annual_unavailable_rows (coverage, not quality)",167875
+Wheat,before,arrivals_tonnes: missing,0
+Wheat,before,arrivals_tonnes: zero,14
+Wheat,before,arrivals_tonnes: negative,0
+Wheat,before,arrivals_tonnes: non_finite,0
+Wheat,before,arrivals_tonnes: dtype,float64
+Wheat,before,min_price_rs_per_quintal: missing,0
+Wheat,before,min_price_rs_per_quintal: zero,128085
+Wheat,before,min_price_rs_per_quintal: negative,0
+Wheat,before,min_price_rs_per_quintal: non_finite,0
+Wheat,before,min_price_rs_per_quintal: dtype,float64
+Wheat,before,max_price_rs_per_quintal: missing,1
+Wheat,before,max_price_rs_per_quintal: zero,122519
+Wheat,before,max_price_rs_per_quintal: negative,0
+Wheat,before,max_price_rs_per_quintal: non_finite,0
+Wheat,before,max_price_rs_per_quintal: dtype,float64
+Wheat,before,modal_price_rs_per_quintal: missing,5
+Wheat,before,modal_price_rs_per_quintal: zero,13327
+Wheat,before,modal_price_rs_per_quintal: negative,0
+Wheat,before,modal_price_rs_per_quintal: non_finite,0
+Wheat,before,modal_price_rs_per_quintal: dtype,float64
+Wheat,before,arrivals_tonnes: p99.9,17331.287000000942
+Wheat,before,arrivals_tonnes: max,8389090.0
+Wheat,before,modal_price_rs_per_quintal: p99.9,4100.0
+Wheat,before,modal_price_rs_per_quintal: max,148000.0
+Wheat,after,rows,2593279
+Wheat,after,distinct_observation_keys,2593226
+Wheat,after,rows_sharing_a_key,106
+Wheat,after,redundant_identical_copies,0
+Wheat,after,conflicting_key_groups,53
+Wheat,after,rows_in_conflicting_groups,106
+Wheat,after,min_gt_max,0
+Wheat,after,modal_lt_min,540
+Wheat,after,modal_gt_max,143
+Wheat,after,unparsed_dates,0
+Wheat,after,first_date,2001-03-16
+Wheat,after,last_date,2024-02-01
+Wheat,after,"weather_missing_rows (coverage, not quality)",1939054
+Wheat,after,"apy_annual_unavailable_rows (coverage, not quality)",167806
+Wheat,after,arrivals_tonnes: missing,0
+Wheat,after,arrivals_tonnes: zero,14
+Wheat,after,arrivals_tonnes: negative,0
+Wheat,after,arrivals_tonnes: non_finite,0
+Wheat,after,arrivals_tonnes: dtype,float64
+Wheat,after,min_price_rs_per_quintal: missing,128063
+Wheat,after,min_price_rs_per_quintal: zero,0
+Wheat,after,min_price_rs_per_quintal: negative,0
+Wheat,after,min_price_rs_per_quintal: non_finite,0
+Wheat,after,min_price_rs_per_quintal: dtype,float64
+Wheat,after,max_price_rs_per_quintal: missing,122497
+Wheat,after,max_price_rs_per_quintal: zero,0
+Wheat,after,max_price_rs_per_quintal: negative,0
+Wheat,after,max_price_rs_per_quintal: non_finite,0
+Wheat,after,max_price_rs_per_quintal: dtype,float64
+Wheat,after,modal_price_rs_per_quintal: missing,13331
+Wheat,after,modal_price_rs_per_quintal: zero,0
+Wheat,after,modal_price_rs_per_quintal: negative,0
+Wheat,after,modal_price_rs_per_quintal: non_finite,0
+Wheat,after,modal_price_rs_per_quintal: dtype,float64
+Wheat,after,arrivals_tonnes: p99.9,17329.444000000134
+Wheat,after,arrivals_tonnes: max,8389090.0
+Wheat,after,modal_price_rs_per_quintal: p99.9,4100.0
+Wheat,after,modal_price_rs_per_quintal: max,148000.0

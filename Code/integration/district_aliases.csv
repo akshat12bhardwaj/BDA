@@ -1,0 +1,132 @@
+mandi_state,mandi_district,apy_district,basis
+Uttar Pradesh,Bulandshahar,Bulandshahr,spelling variant of the APY (DES) district name
+Uttar Pradesh,Muradabad,Moradabad,spelling variant
+Uttar Pradesh,Raebarelli,Rae Bareli,spelling variant
+Uttar Pradesh,Badaun,Budaun,spelling variant
+Uttar Pradesh,Allahabad,Prayagraj,official district rename; APY uses the current name for all years
+Uttar Pradesh,Maharajganj,Mahrajganj,spelling variant
+Uttar Pradesh,Farukhabad,Farrukhabad,spelling variant
+Uttar Pradesh,Pillibhit,Pilibhit,spelling variant
+Uttar Pradesh,Lakhimpur,Kheri,Lakhimpur is the headquarters town of Kheri district (Lakhimpur Kheri)
+Uttar Pradesh,Khiri (Lakhimpur),Kheri,spelling variant of Kheri (Lakhimpur Kheri)
+Uttar Pradesh,Jyotiba Phule Nagar,Amroha,official district rename
+Uttar Pradesh,Kannuj,Kannauj,spelling variant
+Uttar Pradesh,Faizabad,Ayodhya,official district rename
+Uttar Pradesh,Gautam Budh Nagar,Gautam Buddha Nagar,spelling variant
+Uttar Pradesh,Chitrakut,Chitrakoot,spelling variant
+Uttar Pradesh,Padrauna(Kusinagar),Kushinagar,Padrauna is the headquarters town of Kushinagar district
+Uttar Pradesh,Shravasti,Shrawasti,spelling variant
+Uttar Pradesh,Kanpur,,EXCLUDED - ambiguous: APY has both Kanpur Nagar and Kanpur Dehat
+Maharashtra,Ahmednagar,Ahilyanagar,official district rename; APY uses the current name for all years
+Maharashtra,Aurangabad,Chhatrapati Sambhajinagar,official district rename
+Maharashtra,Sholapur,Solapur,spelling variant
+Maharashtra,Amarawati,Amravati,spelling variant
+Maharashtra,Jalana,Jalna,spelling variant
+Maharashtra,Vashim,Washim,spelling variant
+Maharashtra,Osmanabad,Dharashiv,official district rename
+Maharashtra,Gondiya,Gondia,spelling variant
+Maharashtra,Mumbai,,EXCLUDED - urban district with no APY district for these crops
+Punjab,Bhatinda,Bathinda,spelling variant
+Punjab,Mohali,S.A.S Nagar,Mohali is the common name of Sahibzada Ajit Singh (S.A.S) Nagar district
+Punjab,Ferozpur,Ferozepur,spelling variant
+Punjab,Fatehgarh,Fatehgarh Sahib,short form of the district name
+Punjab,Muktsar,Sri Muktsar Sahib,official district rename
+Punjab,Nawanshahr,Shahid Bhagat Singh Nagar,official district rename
+Haryana,Gurgaon,Gurugram,official district rename
+Haryana,Hissar,Hisar,spelling variant
+Haryana,Mahendragarh-Narnaul,Mahendragarh,Narnaul is the headquarters town of Mahendragarh district
+Haryana,Mewat,Nuh,official district rename
+Haryana,Jhajar,Jhajjar,spelling variant
+Gujarat,Mehsana,Mahesana,spelling variant
+Gujarat,Banaskanth,Banas Kantha,spelling variant
+Gujarat,Junagarh,Junagadh,spelling variant
+Gujarat,The Dangs,Dangs,spelling variant
+Kerala,Palakad,Palakkad,spelling variant
+Kerala,Thirssur,Thrissur,spelling variant
+Kerala,Kasargod,Kasaragod,spelling variant
+Kerala,Alleppey,Alappuzha,official district rename (former English name)
+West Bengal,Burdwan,,EXCLUDED - ambiguous: district split into Purba and Paschim Bardhaman
+West Bengal,Puruliya,Purulia,spelling variant
+West Bengal,Medinipur(W),Paschim Medinipur,W = Paschim (West)
+West Bengal,Medinipur(E),Purba Medinipur,E = Purba (East)
+West Bengal,Sounth 24 Parganas,South 24 Parganas,typo in mandi source
+West Bengal,Kolkata,,EXCLUDED - urban district with no APY district for these crops
+Odisha,Mayurbhanja,Mayurbhanj,spelling variant
+Odisha,Sundergarh,Sundargarh,spelling variant
+Odisha,Khurda,Khordha,spelling variant
+Odisha,Bolangir,Balangir,spelling variant
+Odisha,Nowarangpur,Nabarangpur,spelling variant
+Odisha,Jagatsinghpur,Jagatsinghapur,spelling variant
+Karnataka,Bangalore,,EXCLUDED - ambiguous: APY has Bengaluru Urban / Rural / South
+Karnataka,Belgaum,Belagavi,official district rename
+Karnataka,Mysore,Mysuru,official district rename
+Karnataka,Chikmagalur,Chikkamagaluru,official district rename
+Karnataka,Bijapur,Vijayapura,official district rename
+Karnataka,Shimoga,Shivamogga,official district rename
+Karnataka,Davangere,Davanagere,spelling variant
+Karnataka,Bellary,Ballari,official district rename
+Karnataka,Tumkur,Tumakuru,official district rename
+Karnataka,Bagalkot,Bagalkote,spelling variant
+Karnataka,Chamrajnagar,Chamarajanagar,spelling variant
+Karnataka,Kalburgi,Kalaburagi,official district rename
+Karnataka,Mangalore(Dakshin Kannad),Dakshina Kannada,Mangalore is the headquarters town of Dakshina Kannada
+Karnataka,Karwar(Uttar Kannad),Uttara Kannada,Karwar is the headquarters town of Uttara Kannada
+Karnataka,Yadgiri,Yadgir,spelling variant
+Madhya Pradesh,Hoshangabad,Narmadapuram,official district rename
+Madhya Pradesh,Khargone,Khargone (West Nimar),APY appends the alternative name
+Madhya Pradesh,Khandwa,Khandwa (East Nimar),APY appends the alternative name
+Madhya Pradesh,Narsinghpur,Narsimhapur,spelling variant
+Madhya Pradesh,Badwani,Barwani,spelling variant
+Madhya Pradesh,Shehdol,Shahdol,spelling variant
+Madhya Pradesh,Umariya,Umaria,spelling variant
+Madhya Pradesh,Anupur,Anuppur,spelling variant
+Madhya Pradesh,Singroli,Singrauli,spelling variant
+Uttrakhand,Dehradoon,Dehradun,spelling variant
+Uttrakhand,Nanital,Nainital,spelling variant
+Uttrakhand,Garhwal (Pauri),Pauri Garhwal,word order variant
+Telangana,Hyderabad,,EXCLUDED - urban district with no APY district for these crops
+Telangana,Mahbubnagar,Mahabubnagar,spelling variant
+Jharkhand,Deogarh,Deoghar,spelling variant
+Jharkhand,East Singhbhum,East Singhbum,APY spelling of the same district
+Jharkhand,West Singbhum,West Singhbhum,spelling variant
+Jharkhand,Sahebgang,Sahebganj,spelling variant
+Jharkhand,Saraikela(Kharsanwa),Saraikela Kharsawan,spelling variant
+Tripura,South District,,EXCLUDED - ambiguous: Tripura districts were reorganised in 2012
+Tripura,West District,,EXCLUDED - ambiguous: Tripura districts were reorganised in 2012
+Tripura,Unokoti,Unakoti,spelling variant
+Chattisgarh,Balodabazar,Balodabazar-Bhatapara,full district name
+Chattisgarh,Kabirdham,Kabeerdham,spelling variant
+Chattisgarh,Koria,Korea,spelling variant
+Chattisgarh,Balrampur,Balrampur-Ramanujganj,full district name
+Chattisgarh,Janjgir,Janjgir-Champa,full district name
+Chattisgarh,Kanker,Uttar Bastar Kanker,full district name
+Chattisgarh,Dantewada,Dakshin Bastar Dantewada,full district name
+Rajasthan,Swai Madhopur,Sawai Madhopur,spelling variant
+Rajasthan,Rajasamand,Rajsamand,spelling variant
+Rajasthan,Jhunjunu,Jhunjhunu,spelling variant
+Bihar,East Champaran/ Motihari,Purbi Champaran,Motihari is the headquarters town of Purbi (East) Champaran
+Bihar,West Chambaran,Pashchim Champaran,spelling variant of West (Pashchim) Champaran
+Bihar,Purnea,Purnia,spelling variant
+Bihar,Kaithar,Katihar,spelling variant (only phonetically close Bihar district)
+Bihar,Munghair,Munger,spelling variant
+Bihar,Kaimur/Bhabhua,Kaimur (Bhabua),spelling variant
+Bihar,Chhapra,Saran,Chhapra is the headquarters town of Saran district
+Bihar,Luckeesarai,Lakhisarai,spelling variant
+Bihar,Gopalgang,Gopalganj,spelling variant
+Andhra Pradesh,Cuddapah,Y.S.R. Kadapa,official district rename
+Andhra Pradesh,Chittor,Chittoor,spelling variant
+Andhra Pradesh,Nellore,Sri Potti Sriramulu Nellore,official district rename
+Andhra Pradesh,Vijayanagaram,Vizianagaram,spelling variant
+Andhra Pradesh,Anantapur,Ananthapuramu,official district rename
+Mizoram,Lungli,Lunglei,spelling variant
+Assam,Karimganj,Sribhumi,official district rename
+Assam,Sibsagar,Sivasagar,spelling variant
+Assam,MORIGAON,Marigaon,spelling variant
+Jammu and Kashmir,Badgam,Budgam,spelling variant
+Arunachal Pradesh,Papum Pore,Papum Pare,spelling variant
+Tamil Nadu,Nagercoil (Kannyiakumari),Kanniyakumari,Nagercoil is the headquarters town of Kanniyakumari
+Tamil Nadu,Villupuram,Viluppuram,spelling variant
+Tamil Nadu,Thiruvannamalai,Tiruvannamalai,spelling variant
+Tamil Nadu,Chennai,,EXCLUDED - urban district with no APY district for these crops
+Meghalaya,Nongpoh (R-Bhoi),Ri Bhoi,Nongpoh is the headquarters town of Ri Bhoi
+Sikkim,East,Gangtok,East Sikkim district was renamed Gangtok district

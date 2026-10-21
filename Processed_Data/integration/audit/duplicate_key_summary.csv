@@ -1,0 +1,4 @@
+crop,records,rows_unique,rows_exact_duplicate,rows_conflicting,duplicate_key_groups,unparsed_dates,first_date,last_date
+Onion,2624379,2622895,1416,68,742,0,2000-10-19,2024-02-02
+Potato,2764987,2763691,1131,165,644,0,2000-10-19,2024-02-02
+Wheat,2593767,2592688,973,106,538,0,2001-03-16,2024-02-01

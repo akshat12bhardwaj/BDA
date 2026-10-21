@@ -1,0 +1,100 @@
+crop,column,category,missing_before,missing_after,rows_before,rows_after
+Onion,source_row,key / identifier,0,0,2624379,2623671
+Onion,crop,key / identifier,0,0,2624379,2623671
+Onion,state,key / identifier,0,0,2624379,2623671
+Onion,district,key / identifier,0,0,2624379,2623671
+Onion,market,key / identifier,0,0,2624379,2623671
+Onion,variety,key / identifier,0,0,2624379,2623671
+Onion,commodity_group,key / identifier,0,0,2624379,2623671
+Onion,arrivals_tonnes,measurement,0,0,2624379,2623671
+Onion,min_price_rs_per_quintal,measurement,0,127554,2624379,2623671
+Onion,max_price_rs_per_quintal,measurement,3,120206,2624379,2623671
+Onion,modal_price_rs_per_quintal,measurement,43,27474,2624379,2623671
+Onion,reported_date,key / identifier,0,0,2624379,2623671
+Onion,dup_key_count,key / identifier,0,0,2624379,2623671
+Onion,dup_type,key / identifier,0,0,2624379,2623671
+Onion,apy_year,APY / reference coverage,0,0,2624379,2623671
+Onion,apy_year_lag1,APY / reference coverage,0,0,2624379,2623671
+Onion,apy_state,APY / reference coverage,107374,107202,2624379,2623671
+Onion,apy_district,APY / reference coverage,107374,107202,2624379,2623671
+Onion,apy_district_match,key / identifier,0,0,2624379,2623671
+Onion,apy_annual_available,key / identifier,0,0,2624379,2623671
+Onion,market_code,APY / reference coverage,12908,12907,2624379,2623671
+Onion,market_code_status,key / identifier,0,0,2624379,2623671
+Onion,weather_location_method,key / identifier,1902565,1901942,2624379,2623671
+Onion,weather_state,key / identifier,1902565,1901942,2624379,2623671
+Onion,weather_district,key / identifier,1902565,1901942,2624379,2623671
+Onion,temperature_2m_mean,weather coverage,1961795,1961172,2624379,2623671
+Onion,temperature_2m_max,weather coverage,1961795,1961172,2624379,2623671
+Onion,temperature_2m_min,weather coverage,1961795,1961172,2624379,2623671
+Onion,rain_sum,weather coverage,1961795,1961172,2624379,2623671
+Onion,relative_humidity_2m_mean,weather coverage,1961795,1961172,2624379,2623671
+Onion,wind_speed_10m_mean,weather coverage,1961795,1961172,2624379,2623671
+Onion,et0_fao_evapotranspiration,weather coverage,1961795,1961172,2624379,2623671
+Onion,weather_match,key / identifier,0,0,2624379,2623671
+Potato,source_row,key / identifier,0,0,2764987,2764417
+Potato,crop,key / identifier,0,0,2764987,2764417
+Potato,state,key / identifier,0,0,2764987,2764417
+Potato,district,key / identifier,0,0,2764987,2764417
+Potato,market,key / identifier,0,0,2764987,2764417
+Potato,variety,key / identifier,0,0,2764987,2764417
+Potato,commodity_group,key / identifier,0,0,2764987,2764417
+Potato,arrivals_tonnes,measurement,0,0,2764987,2764417
+Potato,min_price_rs_per_quintal,measurement,0,135376,2764987,2764417
+Potato,max_price_rs_per_quintal,measurement,0,127106,2764987,2764417
+Potato,modal_price_rs_per_quintal,measurement,10,32511,2764987,2764417
+Potato,reported_date,key / identifier,0,0,2764987,2764417
+Potato,dup_key_count,key / identifier,0,0,2764987,2764417
+Potato,dup_type,key / identifier,0,0,2764987,2764417
+Potato,apy_year,APY / reference coverage,0,0,2764987,2764417
+Potato,apy_year_lag1,APY / reference coverage,0,0,2764987,2764417
+Potato,apy_state,APY / reference coverage,125487,125323,2764987,2764417
+Potato,apy_district,APY / reference coverage,125487,125323,2764987,2764417
+Potato,apy_district_match,key / identifier,0,0,2764987,2764417
+Potato,apy_annual_available,key / identifier,0,0,2764987,2764417
+Potato,market_code,APY / reference coverage,26918,26914,2764987,2764417
+Potato,market_code_status,key / identifier,0,0,2764987,2764417
+Potato,weather_location_method,key / identifier,2061336,2060817,2764987,2764417
+Potato,weather_state,key / identifier,2061336,2060817,2764987,2764417
+Potato,weather_district,key / identifier,2061336,2060817,2764987,2764417
+Potato,temperature_2m_mean,weather coverage,2112458,2111939,2764987,2764417
+Potato,temperature_2m_max,weather coverage,2112458,2111939,2764987,2764417
+Potato,temperature_2m_min,weather coverage,2112458,2111939,2764987,2764417
+Potato,rain_sum,weather coverage,2112458,2111939,2764987,2764417
+Potato,relative_humidity_2m_mean,weather coverage,2112458,2111939,2764987,2764417
+Potato,wind_speed_10m_mean,weather coverage,2112458,2111939,2764987,2764417
+Potato,et0_fao_evapotranspiration,weather coverage,2112458,2111939,2764987,2764417
+Potato,weather_match,key / identifier,0,0,2764987,2764417
+Wheat,source_row,key / identifier,0,0,2593767,2593279
+Wheat,crop,key / identifier,0,0,2593767,2593279
+Wheat,state,key / identifier,0,0,2593767,2593279
+Wheat,district,key / identifier,0,0,2593767,2593279
+Wheat,market,key / identifier,0,0,2593767,2593279
+Wheat,variety,key / identifier,0,0,2593767,2593279
+Wheat,commodity_group,key / identifier,0,0,2593767,2593279
+Wheat,arrivals_tonnes,measurement,0,0,2593767,2593279
+Wheat,min_price_rs_per_quintal,measurement,0,128063,2593767,2593279
+Wheat,max_price_rs_per_quintal,measurement,1,122497,2593767,2593279
+Wheat,modal_price_rs_per_quintal,measurement,5,13331,2593767,2593279
+Wheat,reported_date,key / identifier,0,0,2593767,2593279
+Wheat,dup_key_count,key / identifier,0,0,2593767,2593279
+Wheat,dup_type,key / identifier,0,0,2593767,2593279
+Wheat,apy_year,APY / reference coverage,0,0,2593767,2593279
+Wheat,apy_year_lag1,APY / reference coverage,0,0,2593767,2593279
+Wheat,apy_state,APY / reference coverage,54542,54506,2593767,2593279
+Wheat,apy_district,APY / reference coverage,54542,54506,2593767,2593279
+Wheat,apy_district_match,key / identifier,0,0,2593767,2593279
+Wheat,apy_annual_available,key / identifier,0,0,2593767,2593279
+Wheat,market_code,APY / reference coverage,2548,2541,2593767,2593279
+Wheat,market_code_status,key / identifier,0,0,2593767,2593279
+Wheat,weather_location_method,key / identifier,1894534,1894122,2593767,2593279
+Wheat,weather_state,key / identifier,1894534,1894122,2593767,2593279
+Wheat,weather_district,key / identifier,1894534,1894122,2593767,2593279
+Wheat,temperature_2m_mean,weather coverage,1939466,1939054,2593767,2593279
+Wheat,temperature_2m_max,weather coverage,1939466,1939054,2593767,2593279
+Wheat,temperature_2m_min,weather coverage,1939466,1939054,2593767,2593279
+Wheat,rain_sum,weather coverage,1939466,1939054,2593767,2593279
+Wheat,relative_humidity_2m_mean,weather coverage,1939466,1939054,2593767,2593279
+Wheat,wind_speed_10m_mean,weather coverage,1939466,1939054,2593767,2593279
+Wheat,et0_fao_evapotranspiration,weather coverage,1939466,1939054,2593767,2593279
+Wheat,weather_match,key / identifier,0,0,2593767,2593279

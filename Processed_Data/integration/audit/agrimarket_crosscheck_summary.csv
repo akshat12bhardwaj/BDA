@@ -1,0 +1,2 @@
+agri_market_wheat_rows,agri_market_other_commodity_rows_out_of_scope,rows_within_mandi_date_coverage,rows_matched_in_mandi,match_rate_within_coverage,modal_price_exact_equal_share,modal_price_median_abs_diff,arrivals_exact_equal_share,arrivals_unparseable_raw_values,arrivals_parsed_by_removing_thousands_separator
+9569,29491,7898,7626,0.9656,1.0,0.0,1.0,0,1

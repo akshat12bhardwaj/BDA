@@ -1,0 +1,10 @@
+# Raw source data: kept locally and never committed (read-only, Decision Log D-01)
+Dataset/
+
+# Large generated tables; rebuild them with the phase pipelines (Code/*/pipeline.py)
+Processed_Data/**/*.parquet
+
+# Python and pytest caches
+__pycache__/
+*.py[cod]
+.pytest_cache/

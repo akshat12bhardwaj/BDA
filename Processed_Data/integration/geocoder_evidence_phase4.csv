@@ -1,0 +1,249 @@
+state,district,query,id,name,latitude,longitude,feature_code,admin1,admin2,population,retrieved_at_utc
+Maharashtra,Nashik,Nashik,1261731,Nashik,19.99727,73.79096,PPLA2,Maharashtra,Nashik,1486053.0,2026-10-15T18:53:06+00:00
+Maharashtra,Nashik,Nashik,11012846,Nashikubo,35.84448,139.53755,PPL,Saitama,Fujimi-shi,,2026-10-15T18:53:06+00:00
+Maharashtra,Nashik,Nashik,8311059,Nashikihata,38.41359,141.37961,PPL,Miyagi,Ishinomaki Shi,,2026-10-15T18:53:06+00:00
+Punjab,Ludhiana,Ludhiana,1264728,Ludhiana,30.91204,75.85379,PPL,Punjab,Ludhiana district,1618879.0,2026-10-15T18:53:06+00:00
+Punjab,Ludhiana,Ludhiana,10439454,Ludhiāna,28.49596,77.85739,PPL,Uttar Pradesh,Bulandshahr district,,2026-10-15T18:53:06+00:00
+Punjab,Ludhiana,Ludhiana,7668605,Ludhiana Airport,30.8547,75.9526,AIRP,Punjab,Ludhiana district,,2026-10-15T18:53:06+00:00
+Punjab,Sangrur,Sangrur,1257402,Sangrur,30.24506,75.84488,PPL,Punjab,Sangrur District,88615.0,2026-10-15T18:53:06+00:00
+Kerala,Alappuzha,Alappuzha,1278985,Alappuzha,9.49004,76.3264,PPLA2,Kerala,Alleppey District,240991.0,2026-10-15T18:53:06+00:00
+Kerala,Kottayam,Kottayam,1265911,Kottayam,9.58692,76.52132,PPL,Kerala,Kottayam,55374.0,2026-10-15T18:53:06+00:00
+Kerala,Kottayam,Kottayam,1265910,Kōttayam,11.82519,75.54779,PPL,Kerala,Kannur district,19176.0,2026-10-15T18:53:06+00:00
+Kerala,Kottayam,Kottayam,11486749,Kottayam,9.21572,76.8157,PPL,Kerala,Pathanamthitta,,2026-10-15T18:53:06+00:00
+Kerala,Kottayam,Kottayam,11502019,Kottayam,8.90681,76.57945,PPL,Kerala,Kollam,,2026-10-15T18:53:06+00:00
+Kerala,Kottayam,Kottayam,11660967,Kottayam,10.55756,77.62189,PPL,Tamil Nadu,Dindigul,,2026-10-15T18:53:06+00:00
+Kerala,Kottayam,Kottayam,10924933,Kottayambram,11.69995,75.62179,PPL,Kerala,Kozhikode,,2026-10-15T18:53:06+00:00
+Kerala,Kottayam,Kottayam,11678356,Kottayāmpālaiyam,11.79484,79.30986,PPL,Tamil Nadu,Kallakurichi district,,2026-10-15T18:53:06+00:00
+Haryana,Yamuna Nagar,Yamuna Nagar,1252797,Yamunanagar,30.12796,77.28371,PPL,Haryana,Yamunanagar District,217071.0,2026-10-15T18:53:06+00:00
+Punjab,Hoshiarpur,Hoshiarpur,1269937,Hoshiārpur,31.53723,75.91269,PPLA2,Punjab,Hoshiarpur district,168653.0,2026-10-15T18:53:06+00:00
+Punjab,Hoshiarpur,Hoshiarpur,1176829,Hoshiarpur,30.76749,73.48155,PPL,Punjab,Okara District,,2026-10-15T18:53:06+00:00
+Punjab,Hoshiarpur,Hoshiarpur,10204992,Hoshiārpur,29.55622,77.65698,PPL,Uttar Pradesh,Muzaffarnagar district,,2026-10-15T18:53:06+00:00
+Punjab,Hoshiarpur,Hoshiarpur,10265211,Hoshiārpur,28.58185,77.37027,PPL,Uttar Pradesh,Gautam Buddha Nagar,,2026-10-15T18:53:06+00:00
+Punjab,Hoshiarpur,Hoshiarpur,10435871,Hoshiārpur,30.83447,76.71784,PPL,Punjab,S.A.S Nagar,,2026-10-15T18:53:06+00:00
+Punjab,Hoshiarpur,Hoshiarpur,10538516,Hoshiārpur,25.87401,82.20501,PPL,Uttar Pradesh,Partabgarh District,,2026-10-15T18:53:06+00:00
+Punjab,Hoshiarpur,Hoshiarpur,9892023,Hoshiārpura,29.36339,76.56768,PPL,Haryana,Jind,,2026-10-15T18:53:06+00:00
+Punjab,Hoshiarpur,Hoshiarpur,10702162,Hoshiārpur Kalota,31.99538,75.56781,PPL,Punjab,Hoshiarpur district,,2026-10-15T18:53:06+00:00
+Punjab,Bhatinda,Bathinda,1276070,Bathinda,30.20747,74.93893,PPL,Punjab,Bathinda,285788.0,2026-10-15T18:53:06+00:00
+Punjab,Bhatinda,Bathinda,7730886,Bathinda Airport,30.2701,74.7558,AIRP,Punjab,Bathinda,,2026-10-15T18:53:06+00:00
+Uttar Pradesh,Bulandshahar,Bulandshahr,1275120,Bulandshahr,28.40392,77.85773,PPL,Uttar Pradesh,Bulandshahr district,198612.0,2026-10-15T18:53:06+00:00
+Punjab,Patiala,Patiala,1260107,Patiāla,30.33625,76.3922,PPL,Punjab,Patiala district,446246.0,2026-10-15T18:53:06+00:00
+Punjab,Patiala,Patiala,642512,Pätiälä,61.25,25.45,PPL,Paijat-Hame,Lahti,,2026-10-15T18:53:06+00:00
+Punjab,Patiala,Patiala,1331163,Patiala,31.53091,73.89059,PPL,Punjab,Nankana Sahib District,,2026-10-15T18:53:06+00:00
+Punjab,Patiala,Patiala,10732805,Patiāla,31.49495,76.8649,PPL,Himachal Pradesh,Mandi,,2026-10-15T18:53:06+00:00
+Punjab,Patiala,Patiala,1168256,Patiala,32.53333,72.18333,MT,Punjab,Khushab District,,2026-10-15T18:53:06+00:00
+Punjab,Patiala,Patiala,10600266,Patiāla Grant,27.30738,82.28886,PPL,Uttar Pradesh,Balrampur,,2026-10-15T18:53:06+00:00
+Punjab,Patiala,Patiala,8533713,Patiala Airport,30.31369,76.85503,AIRP,Haryana,Ambala,,2026-10-15T18:53:06+00:00
+Punjab,Mohali,Mohali,6992326,Mohali,30.67995,76.72211,PPL,Punjab,S.A.S Nagar,166864.0,2026-10-15T18:53:06+00:00
+Punjab,Mohali,Mohali,1262931,Mohālī,21.28668,80.25566,PPL,Maharashtra,Gondia,,2026-10-15T18:53:06+00:00
+Punjab,Mohali,Mohali,2257013,Mohali,0.26278,15.49139,PPL,Cuvette Department,,,2026-10-15T18:53:06+00:00
+Punjab,Mohali,Mohali,2565791,Mohali,0.26139,15.49361,PPL,Cuvette Department,,,2026-10-15T18:53:06+00:00
+Punjab,Mohali,Mohali,6991086,Mohali,24.06531,78.33818,PPL,Madhya Pradesh,Sagar,,2026-10-15T18:53:06+00:00
+Punjab,Mohali,Mohali,10432970,Mohāli,30.45064,76.04927,PPL,Punjab,Malerkotla,,2026-10-15T18:53:06+00:00
+Punjab,Mohali,Mohali,10455731,Mohali,23.52913,79.22578,PPL,Madhya Pradesh,Sagar,,2026-10-15T18:53:06+00:00
+Punjab,Mohali,Mohali,10469884,Mohali,21.05918,79.21973,PPL,Maharashtra,Nagpur,,2026-10-15T18:53:06+00:00
+Punjab,Mohali,Mohali,10471122,Mohāli,21.13653,79.48868,PPL,Maharashtra,Nagpur,,2026-10-15T18:53:06+00:00
+Punjab,Mohali,Mohali,10549558,Mohāli,29.4076,77.04254,PPL,Haryana,Panipat District,,2026-10-15T18:53:06+00:00
+Kerala,Palakad,Palakad,1232005,Palaikkadu,9.71667,79.85,PPL,Northern Province,,,2026-10-15T18:53:06+00:00
+Kerala,Palakad,Palakad,11449115,Palakādu,12.15979,79.91297,PPL,Tamil Nadu,Villupuram,,2026-10-15T18:53:06+00:00
+Kerala,Palakad,Palakkad,1260728,Palakkad,10.77319,76.65366,PPL,Kerala,Palakkad,132728.0,2026-10-15T18:53:06+00:00
+Kerala,Palakad,Palakkad,11681394,Palākkādu,11.75241,78.235,PPL,Tamil Nadu,Salem district,,2026-10-15T18:53:06+00:00
+Kerala,Palakad,Palakkad,11711972,Palakkādu,11.44548,78.55292,PPL,Tamil Nadu,Salem district,,2026-10-15T18:53:06+00:00
+Kerala,Palakad,Palakkad,11712137,Pālakkādu,11.39788,78.65407,PPL,Tamil Nadu,Salem district,,2026-10-15T18:53:06+00:00
+Maharashtra,Pune,Pune,1259229,Pune,18.51957,73.85535,PPL,Maharashtra,Pune,3124458.0,2026-10-15T18:53:06+00:00
+Maharashtra,Pune,Pune,1944337,Pune,-9.36944,124.31722,PPL,Oecusse,Oesilo,,2026-10-15T18:53:06+00:00
+Maharashtra,Pune,Pune,3391144,Pune,1.96667,-54.91667,PPL,Pará,Almeirim Municipality,,2026-10-15T18:53:06+00:00
+Maharashtra,Pune,Pune,120807,Pūnel,37.53305,49.11652,PPL,Gilan Province,,,2026-10-15T18:53:06+00:00
+Maharashtra,Pune,Pune,504142,Punem,56.69193,52.3785,PPL,Udmurtiya Republic,,,2026-10-15T18:53:06+00:00
+Maharashtra,Pune,Pune,6408696,Punen,-7.54917,111.20167,PPL,East Java,Kabupaten Ngawi,,2026-10-15T18:53:06+00:00
+Maharashtra,Pune,Pune,6695057,Punel,48.4571,-5.08397,PPL,Brittany Region,Finistère,,2026-10-15T18:53:06+00:00
+Maharashtra,Pune,Pune,6744526,Punen,-6.7072,110.8396,PPL,Central Java,Kudus Regency,,2026-10-15T18:53:06+00:00
+Maharashtra,Pune,Pune,8650286,Punen,-12.71384,-74.29244,PPL,Ayacucho,Huanta Province,,2026-10-15T18:53:06+00:00
+Maharashtra,Pune,Pune,2985058,Punerot,48.48084,5.80841,PPL,Grand Est,Vosges,158.0,2026-10-15T18:53:06+00:00
+Kerala,Ernakulam,Ernakulam,1272018,Ernākulam,9.96714,76.29036,PPL,Kerala,Ernakulam District,,2026-10-15T18:53:06+00:00
+Maharashtra,Ahmednagar,Ahmednagar,1270099,Himatnagar,23.59893,72.96602,PPLA2,Gujarat,Sabar Kantha,81137.0,2026-10-15T18:53:06+00:00
+Maharashtra,Ahmednagar,Ahmednagar,10752528,Ahmednagar Kalān,28.86631,78.96884,PPL,Uttar Pradesh,Rampur,,2026-10-15T18:53:06+00:00
+Maharashtra,Ahmednagar,Ahilyanagar,1279228,Ahilyanagar,19.09457,74.73843,PPL,Maharashtra,Ahmednagar,367140.0,2026-10-15T18:53:06+00:00
+Maharashtra,Ahmednagar,Ahmadnagar,1184855,Ahmadnagar,32.31011,73.98743,PPL,Punjab,Gujranwala District,,2026-10-15T18:53:06+00:00
+Maharashtra,Ahmednagar,Ahmadnagar,1184856,Ahmadnagar,31.80155,73.40183,PPL,Punjab,Nankana Sahib District,,2026-10-15T18:53:06+00:00
+Maharashtra,Ahmednagar,Ahmadnagar,1184858,Chak Two Hundred Forty-three,31.4345,72.67533,PPL,Punjab,Chiniot,,2026-10-15T18:53:06+00:00
+Maharashtra,Ahmednagar,Ahmadnagar,1184859,Ahmadnagar,30.4,72.46667,PPL,Punjab,Sahiwal District,,2026-10-15T18:53:06+00:00
+Maharashtra,Ahmednagar,Ahmadnagar,7913755,Ahmadnagar,25.16701,90.0655,PPL,Mymensingh Division,Sherpur District,,2026-10-15T18:53:06+00:00
+Maharashtra,Ahmednagar,Ahmadnagar,8064937,Ahmadnagar,25.33116,89.05609,PPL,Rangpur Division,Dinajpur District,,2026-10-15T18:53:06+00:00
+Maharashtra,Ahmednagar,Ahmadnagar,10213773,Ahmadnagar,21.17303,78.56519,PPL,Maharashtra,Nagpur,,2026-10-15T18:53:06+00:00
+Maharashtra,Ahmednagar,Ahmadnagar,10214440,Ahmadnagar,20.99689,78.23631,PPL,Maharashtra,Wardha district,,2026-10-15T18:53:06+00:00
+Maharashtra,Ahmednagar,Ahmadnagar,10269956,Ahmadnagar,28.77261,77.73925,PPL,Uttar Pradesh,Hapur,,2026-10-15T18:53:06+00:00
+Maharashtra,Ahmednagar,Ahmadnagar,10329669,Ahmadnagar,28.92169,79.1683,PPL,Uttar Pradesh,Rampur,,2026-10-15T18:53:06+00:00
+Haryana,Ambala,Ambala,1278860,Ambāla,30.36099,76.79782,PPL,Haryana,Ambala,195153.0,2026-10-15T18:53:06+00:00
+Haryana,Ambala,Ambala,1267605,Kasauli,30.89856,76.96587,PPL,Himachal Pradesh,Solan,5215.0,2026-10-15T18:53:06+00:00
+Haryana,Ambala,Ambala,1083985,Ambalava,-14.88333,49.36667,PPL,Sofia Region,Befandriana Nord,,2026-10-15T18:53:06+00:00
+Haryana,Ambala,Ambala,1084524,Ambala,-18.85,45.3,PPL,Menabe Region,Miandrivazo District,,2026-10-15T18:53:06+00:00
+Haryana,Ambala,Ambala,1084525,Ambala,-18.7,46.65,PPL,Itasy Region,Miarinarivo,,2026-10-15T18:53:06+00:00
+Haryana,Ambala,Ambala,1084526,Ambala,-12.33333,49.2,PPL,Diana Region,Antsiranana II,,2026-10-15T18:53:06+00:00
+Haryana,Ambala,Ambala,1184555,Ambala,30.07995,71.36878,PPL,Punjab,Multan District,,2026-10-15T18:53:06+00:00
+Haryana,Ambala,Ambala,1212873,Āmbala,22.96169,90.07096,PPL,Barisal Division,Barisal District,,2026-10-15T18:53:06+00:00
+Haryana,Ambala,Ambala,1251593,Ambala,6.01667,80.7,PPL,Southern Province,Hambantota District,,2026-10-15T18:53:06+00:00
+Haryana,Ambala,Ambala,8635642,Ambala,2.4062,98.448,PPL,North Sumatra,Kabupaten Humbang Hasundutan,,2026-10-15T18:53:06+00:00
+West Bengal,Burdwan,Burdwan,1277029,Bardhaman,23.25572,87.85691,PPL,West Bengal,Purba Bardhaman,301725.0,2026-10-15T18:53:06+00:00
+Punjab,Ferozpur,Ferozpur,7483731,Ferozpur,24.27824,88.76108,PPL,Rajshahi Division,Rajshahi District,,2026-10-15T18:53:06+00:00
+Punjab,Ferozpur,Ferozpur,10831493,Ferozpur,25.99006,84.06969,PPL,Uttar Pradesh,Ballia,,2026-10-15T18:53:06+00:00
+Punjab,Ferozpur,Ferozpur,11081412,Ferozpura,32.30391,75.06932,PPL,Punjab,Narowal District,,2026-10-15T18:53:06+00:00
+Punjab,Ferozpur,Ferozpur,1179244,Ferozpur Chiatiah,30.21886,73.30079,PPL,Punjab,Pakpattan District,,2026-10-15T18:53:06+00:00
+Punjab,Ferozpur,Ferozepur,1271883,Firozpur,30.92574,74.61311,PPL,Punjab,Firozpur,110313.0,2026-10-15T18:53:06+00:00
+Punjab,Ferozpur,Ferozepur,1271881,Fīrozpur Jhirka,27.78853,76.94496,PPL,Haryana,Nuh,24750.0,2026-10-15T18:53:06+00:00
+Punjab,Ferozpur,Ferozepur,1179243,Chak Two Hundred Three Gugera Branch,30.93198,72.83818,PPL,Punjab,Faisalabad District,,2026-10-15T18:53:06+00:00
+Punjab,Ferozpur,Ferozepur,1179244,Ferozpur Chiatiah,30.21886,73.30079,PPL,Punjab,Pakpattan District,,2026-10-15T18:53:06+00:00
+Punjab,Ferozpur,Firozpur,1271883,Firozpur,30.92574,74.61311,PPL,Punjab,Firozpur,110313.0,2026-10-15T18:53:06+00:00
+Punjab,Ferozpur,Firozpur,1179230,Firozpur,34.22353,71.91623,PPL,Khyber Pakhtunkhwa,Mardan District,,2026-10-15T18:53:06+00:00
+Punjab,Ferozpur,Firozpur,1179231,Firozpur,32.30535,74.84322,PPL,Punjab,Sialkot District,,2026-10-15T18:53:06+00:00
+Punjab,Ferozpur,Firozpur,6992997,Firozpur,27.81342,79.19686,PPL,Uttar Pradesh,Budaun district,,2026-10-15T18:53:06+00:00
+Punjab,Ferozpur,Firozpur,7003680,Firozpur,26.99271,79.70138,PPL,Uttar Pradesh,Kannauj,,2026-10-15T18:53:06+00:00
+Punjab,Ferozpur,Firozpur,10146748,Fīrozpur,30.68743,77.00682,PPL,Haryana,Panchkula district,,2026-10-15T18:53:06+00:00
+Punjab,Ferozpur,Firozpur,10146880,Fīrozpur,30.55366,77.05403,PPL,Haryana,Panchkula district,,2026-10-15T18:53:06+00:00
+Punjab,Ferozpur,Firozpur,10146918,Fīrozpur,30.5252,77.16124,PPL,Haryana,Ambala,,2026-10-15T18:53:06+00:00
+Punjab,Ferozpur,Firozpur,10166055,Firozpur,27.31381,76.66149,PPL,Rajasthan,Alwar,,2026-10-15T18:53:06+00:00
+Punjab,Ferozpur,Firozpur,10261326,Fīrozpur,29.49404,77.97125,PPL,Uttar Pradesh,Muzaffarnagar district,,2026-10-15T18:53:06+00:00
+Kerala,Malappuram,Malappuram,1264154,Malappuram,11.04199,76.08154,PPL,Kerala,Malappuram,101386.0,2026-10-15T18:53:06+00:00
+Kerala,Malappuram,Malappuram,1264153,Malappuram,11.78333,92.71667,PPL,Andaman and Nicobar,South Andamans,,2026-10-15T18:53:06+00:00
+Uttar Pradesh,Agra,Agra,1279259,Agra,27.18333,78.01667,PPLA2,Uttar Pradesh,Agra,1430055.0,2026-10-15T18:53:06+00:00
+Uttar Pradesh,Agra,Agra,2661835,Agra,45.96792,8.91406,PPL,Canton Ticino,Lugano District,490.0,2026-10-15T18:53:06+00:00
+Uttar Pradesh,Agra,Agra,4529156,Agra,35.89478,-96.87225,PPL,Oklahoma,Lincoln,346.0,2026-10-15T18:53:06+00:00
+Uttar Pradesh,Agra,Agra,6534907,Agra,46.03668,8.76833,PPLA3,Lombardy,Province of Varese,318.0,2026-10-15T18:53:06+00:00
+Uttar Pradesh,Agra,Agra,4267415,Agra,39.76168,-99.11925,PPL,Kansas,Phillips,247.0,2026-10-15T18:53:06+00:00
+Uttar Pradesh,Agra,Agra,265614,Agra,39.15789,26.06099,PPL,North Aegean,Lesbos,955.0,2026-10-15T18:53:06+00:00
+Uttar Pradesh,Agra,Agra,379970,Agra,12.06667,23.2,PPL,Central Darfur,,,2026-10-15T18:53:06+00:00
+Uttar Pradesh,Agra,Agra,1184904,Āgra Kūz,34.11493,71.69837,PPL,Khyber Pakhtunkhwa,Peshawar District,,2026-10-15T18:53:06+00:00
+Uttar Pradesh,Agra,Agra,1184905,Agra,33.80082,70.17558,PPL,Khyber Pakhtunkhwa,Kurram District,,2026-10-15T18:53:06+00:00
+Uttar Pradesh,Agra,Agra,1184906,Chak Forty-two -Twelve Left,30.48469,72.67869,PPL,Punjab,Sahiwal District,,2026-10-15T18:53:06+00:00
+Punjab,Jalandhar,Jalandhar,1268782,Jalandhar,31.32556,75.57917,PPL,Punjab,Jalandhar district,868929.0,2026-10-15T18:53:06+00:00
+Punjab,Jalandhar,Jalandhar,1269432,Jalandhar,23.90201,78.44811,PPL,Madhya Pradesh,Sagar,,2026-10-15T18:53:06+00:00
+Punjab,Jalandhar,Jalandhar,10528566,Jalandhar,24.31367,78.72994,PPL,Uttar Pradesh,Lalitpur,,2026-10-15T18:53:06+00:00
+Punjab,Jalandhar,Jalandhar,8541484,Jalandhar Cantonment,31.29421,75.61974,PPL,Punjab,Jalandhar district,47845.0,2026-10-15T18:53:06+00:00
+Punjab,Jalandhar,Jalandhar,10844690,Jalandharpur,25.63316,80.98132,PPL,Uttar Pradesh,Fatehpur District,,2026-10-15T18:53:06+00:00
+Punjab,Jalandhar,Jalandhar,1333508,Jalandharwala,32.56667,71.66667,PPL,Punjab,Mianwali District,,2026-10-15T18:53:06+00:00
+Punjab,Jalandhar,Jalandhar,10727658,Jalandhar Lāhr,31.91478,76.23953,PPL,Himachal Pradesh,Kāngra District,,2026-10-15T18:53:06+00:00
+Punjab,Jalandhar,Jalandhar,7075826,Jalandhar Banda,33.37179,71.70894,PPL,Khyber Pakhtunkhwa,Kohat District,,2026-10-15T18:53:06+00:00
+Punjab,Jalandhar,Jalandhar,11543736,Jalandharianwala,30.4018,73.32987,PPL,Punjab,Pakpattan District,,2026-10-15T18:53:06+00:00
+West Bengal,Jalpaiguri,Jalpaiguri,1269388,Jalpāiguri,26.51667,88.73333,PPLA2,West Bengal,Jalpaiguri District,107832.0,2026-10-15T18:53:06+00:00
+West Bengal,Coochbehar,Cooch Behar,1266436,Koch Bihār,26.32539,89.44508,PPL,West Bengal,Cooch Behar,78737.0,2026-10-15T18:53:06+00:00
+West Bengal,Coochbehar,Cooch Behar,7730933,Cooch Behar Airport,26.3305,89.4672,AIRP,West Bengal,Cooch Behar,,2026-10-15T18:53:06+00:00
+West Bengal,Coochbehar,Koch Bihar,1266436,Koch Bihār,26.32539,89.44508,PPL,West Bengal,Cooch Behar,78737.0,2026-10-15T18:53:06+00:00
+West Bengal,Hooghly,Hooghly,1269910,Hugli,22.90877,88.39674,PPL,West Bengal,Hooghly,177005.0,2026-10-15T18:53:06+00:00
+Uttar Pradesh,Muzaffarnagar,Muzaffarnagar,1262332,Muzaffarnagar,29.47091,77.70332,PPLA2,Uttar Pradesh,Muzaffarnagar district,349706.0,2026-10-15T18:53:06+00:00
+Uttar Pradesh,Muzaffarnagar,Muzaffarnagar,10459259,Muzaffarnagar,27.86669,78.88358,PPL,Uttar Pradesh,Kasganj District,,2026-10-15T18:53:06+00:00
+Uttar Pradesh,Muzaffarnagar,Muzaffarnagar,10467274,Muzāffarnagar,27.587,79.186,PPL,Uttar Pradesh,Farrukhābād District,,2026-10-15T18:53:06+00:00
+Uttar Pradesh,Muzaffarnagar,Muzaffarnagar,10556674,Muzaffarnagar,29.49944,78.49904,PPL,Uttar Pradesh,Bijnor district,,2026-10-15T18:53:06+00:00
+Uttar Pradesh,Muzaffarnagar,Muzaffarnagar,10588653,Muzaffarnagar,26.51206,81.5174,PPL,Uttar Pradesh,Amethi,,2026-10-15T18:53:06+00:00
+Uttar Pradesh,Muzaffarnagar,Muzaffarnagar,10751852,Muzaffarnagar,28.11929,78.29663,PPL,Uttar Pradesh,Bulandshahr district,,2026-10-15T18:53:06+00:00
+Uttar Pradesh,Muzaffarnagar,Muzaffarnagar,11062251,Muzaffarnagar,27.66069,80.20741,PPL,Uttar Pradesh,Hardoi district,,2026-10-15T18:53:06+00:00
+Uttar Pradesh,Muzaffarnagar,Muzaffarnagar,10745934,Muzaffarnagar Saini,29.03939,77.78944,PPL,Uttar Pradesh,Meerut,,2026-10-15T18:53:06+00:00
+Uttar Pradesh,Muzaffarnagar,Muzaffarnagar,10567176,Muzaffarnagar Ghuswal,26.77851,81.00332,PPL,Uttar Pradesh,Lucknow,,2026-10-15T18:53:06+00:00
+Haryana,Kurukshetra,Kurukshetra,8986322,Kurukshetra,29.9657,76.837,PPL,Haryana,Kurukshetra,,2026-10-15T18:53:06+00:00
+Odisha,Kendrapara,Kendrapara,1267283,Kendrāparha,20.50166,86.42227,PPL,Odisha,Kendrapara,47006.0,2026-10-15T18:53:06+00:00
+Uttar Pradesh,Kanpur,Kanpur,1267995,Kanpur,26.46523,80.34975,PPL,Uttar Pradesh,Kanpur Nagar,2823249.0,2026-10-15T18:53:06+00:00
+Uttar Pradesh,Kanpur,Kanpur,1174927,Kanpur,32.58386,74.61152,PPL,Punjab,Sialkot District,,2026-10-15T18:53:06+00:00
+Uttar Pradesh,Kanpur,Kanpur,1267994,Kānpur,32.4238,75.35573,PPL,Jammu and Kashmir,Kathua District,,2026-10-15T18:53:06+00:00
+Uttar Pradesh,Kanpur,Kanpur,1267996,Kānpur,20.40361,85.17333,PPL,Odisha,Cuttack District,,2026-10-15T18:53:06+00:00
+Uttar Pradesh,Kanpur,Kanpur,1335515,Kanyor,34.28344,71.67896,PPL,Khyber Pakhtunkhwa,Charsadda District,,2026-10-15T18:53:06+00:00
+Uttar Pradesh,Kanpur,Kanpur,1348597,Kānpur,22.94806,88.49833,PPL,West Bengal,Nadia,,2026-10-15T18:53:06+00:00
+Uttar Pradesh,Kanpur,Kanpur,1357704,Kanpur,27.33194,68.15556,PPL,Sindh,Larkana District,,2026-10-15T18:53:06+00:00
+Uttar Pradesh,Kanpur,Kanpur,10002845,Känpur,34.595,74.34163,PPL,Jammu and Kashmir,Kupwara District,,2026-10-15T18:53:06+00:00
+Uttar Pradesh,Kanpur,Kanpur,10250305,Kānpur,24.08531,73.42338,PPL,Rajasthan,Udaipur District,,2026-10-15T18:53:06+00:00
+Uttar Pradesh,Kanpur,Kanpur,10251605,Kānpur,24.32414,73.71682,PPL,Rajasthan,Udaipur District,,2026-10-15T18:53:06+00:00
+Rajasthan,Ganganagar,Ganganagar,1202987,Gangānagar,23.49912,90.96131,PPL,Chittagong,Comilla District,,2026-10-15T18:53:06+00:00
+Rajasthan,Ganganagar,Ganganagar,1202988,Gangānagar,23.0,91.48333,PPL,Chittagong,Feni District,,2026-10-15T18:53:06+00:00
+Rajasthan,Ganganagar,Ganganagar,8431461,Ganganagar,24.60769,92.96395,PPL,Assam,Cachar,,2026-10-15T18:53:06+00:00
+Rajasthan,Ganganagar,Ganganagar,10471990,Gangānagar,27.82758,79.73472,PPL,Uttar Pradesh,Shāhjahānpur District,,2026-10-15T18:53:06+00:00
+Rajasthan,Ganganagar,Ganganagar,10552039,Gangānagar,28.97046,76.33029,PPL,Haryana,Rohtak,,2026-10-15T18:53:06+00:00
+Rajasthan,Ganganagar,Ganganagar,10705372,Gangānagar,22.5371,75.74464,PPL,Madhya Pradesh,Indore district,,2026-10-15T18:53:06+00:00
+Rajasthan,Ganganagar,Ganganagar,7934934,Ganganagar,27.58287,84.38019,PPLL,Bagmati Province,Chitwan,,2026-10-15T18:53:06+00:00
+Rajasthan,Ganganagar,Ganganagar,7934949,Ganganagar,27.57854,84.36952,PPLL,Bagmati Province,Chitwan,,2026-10-15T18:53:06+00:00
+Rajasthan,Ganganagar,Ganganagar,7972946,Ganganagar,27.71586,84.42092,PPLL,Gandaki Pradesh,Nawalparasi,,2026-10-15T18:53:06+00:00
+Rajasthan,Ganganagar,Ganganagar,8008821,Ganganagar,26.91717,85.11649,PPLL,Madhesh,Bara,,2026-10-15T18:53:06+00:00
+Rajasthan,Ganganagar,Sri Ganganagar,1271685,Sri Ganganagar,29.92009,73.87496,PPLA2,Rajasthan,Ganganagar,237780.0,2026-10-15T18:53:06+00:00
+Gujarat,Sabarkantha,Himatnagar,1270099,Himatnagar,23.59893,72.96602,PPLA2,Gujarat,Sabar Kantha,81137.0,2026-10-15T18:53:06+00:00
+Gujarat,Rajkot,Rajkot,1258847,Rajkot,22.29161,70.79322,PPL,Gujarat,Rajkot,1390640.0,2026-10-15T18:53:06+00:00
+Gujarat,Rajkot,Rajkot,1385615,Rajkot,34.43724,73.62019,PPL,,Muzaffarabad District,,2026-10-15T18:53:06+00:00
+Gujarat,Rajkot,Rajkot,1442078,Rajkot,25.73681,75.58779,PPL,Rajasthan,Tonk,,2026-10-15T18:53:06+00:00
+Gujarat,Rajkot,Rajkot,1442079,Rājkot,25.73146,75.59246,PPL,Rajasthan,Tonk,,2026-10-15T18:53:06+00:00
+Gujarat,Rajkot,Rajkot,10488402,Rājkot,27.42203,78.6755,PPL,Uttar Pradesh,Etah district,,2026-10-15T18:53:06+00:00
+Gujarat,Rajkot,Rajkot,1258848,Rājkot,22.16667,70.91667,MTS,Gujarat,,,2026-10-15T18:53:06+00:00
+Gujarat,Rajkot,Rajkot,1390403,Rajkot,34.78542,73.4676,MT,Khyber Pakhtunkhwa,Mansehra District,,2026-10-15T18:53:06+00:00
+Gujarat,Rajkot,Rajkot,7995889,Rajkot,29.44321,81.18573,PPLL,Sudurpashchim Pradesh,Bajhang,,2026-10-15T18:53:06+00:00
+Gujarat,Rajkot,Rajkot,7997205,Rajkot,29.23387,81.34222,PPLL,Sudurpashchim Pradesh,Achham,,2026-10-15T18:53:06+00:00
+Gujarat,Rajkot,Rajkot,11453441,Rajkot,32.18355,74.15261,PPLX,Punjab,Gujranwala District,,2026-10-15T18:53:06+00:00
+Madhya Pradesh,Shajapur,Shajapur,1256693,Shājāpur,23.42637,76.27775,PPL,Madhya Pradesh,Shājāpur District,69263.0,2026-10-15T18:53:06+00:00
+Madhya Pradesh,Sehore,Sehore,1256913,Sehore,23.2,77.08333,PPL,Madhya Pradesh,Sehore,109118.0,2026-10-15T18:53:06+00:00
+Gujarat,Amreli,Amreli,1278715,Amreli,21.59983,71.21169,PPLA2,Gujarat,Amreli district,117967.0,2026-10-15T18:53:06+00:00
+Gujarat,Amreli,Amreli,10716094,Amreli,32.6195,76.21735,PPL,Himachal Pradesh,Chamba,,2026-10-15T18:53:06+00:00
+Gujarat,Amreli,Amreli,8433355,Amreli,21.61852,71.22692,AIRF,Gujarat,Amreli district,,2026-10-15T18:53:06+00:00
+Madhya Pradesh,Sagar,Sagar,1257845,Saugor,23.83877,78.73874,PPL,Madhya Pradesh,Sagar,274556.0,2026-10-15T18:53:06+00:00
+Madhya Pradesh,Sagar,Sagar,1257851,Sāgar,14.16498,75.02901,PPL,Karnataka,Shimoga District,54550.0,2026-10-15T18:53:06+00:00
+Madhya Pradesh,Sagar,Sagar,1166611,Sagar,32.6281,74.53415,PPL,Punjab,Sialkot District,,2026-10-15T18:53:06+00:00
+Madhya Pradesh,Sagar,Sagar,1257846,Sāgar,22.38384,79.46607,PPL,Madhya Pradesh,Seoni,,2026-10-15T18:53:06+00:00
+Madhya Pradesh,Sagar,Sagar,1257847,Sāgar,22.26709,79.42854,PPL,Madhya Pradesh,Seoni,,2026-10-15T18:53:06+00:00
+Madhya Pradesh,Sagar,Sagar,1257848,Sagar,22.06766,81.99354,PPL,Chhattisgarh,Bilāspur District,,2026-10-15T18:53:06+00:00
+Madhya Pradesh,Sagar,Sagar,1257849,Sāgar,20.24926,79.16723,PPL,Maharashtra,Chandrapur,,2026-10-15T18:53:06+00:00
+Madhya Pradesh,Sagar,Sagar,1257850,Sāgar,16.62486,76.80147,PPL,Karnataka,Yadgir,,2026-10-15T18:53:06+00:00
+Madhya Pradesh,Sagar,Sagar,1340033,Sagar,32.37271,70.10718,PPL,Khyber Pakhtunkhwa,South Waziristan,,2026-10-15T18:53:06+00:00
+Madhya Pradesh,Sagar,Sagar,1386491,Sagar,33.01786,73.81327,PPL,,Mirpur District,,2026-10-15T18:53:06+00:00
+Madhya Pradesh,Ujjain,Ujjain,1253914,Ujjain,23.18239,75.77643,PPL,Madhya Pradesh,Ujjain district,515215.0,2026-10-15T18:53:06+00:00
+Madhya Pradesh,Ujjain,Ujjain,10826840,Ujjain,26.22151,84.69598,PPL,Bihar,Siwan,,2026-10-15T18:53:06+00:00
+Madhya Pradesh,Ujjain,Ujjain,10826852,Ujjain,26.20362,84.73675,PPL,Bihar,Siwan,,2026-10-15T18:53:06+00:00
+Madhya Pradesh,Ujjain,Ujjain,10689651,Ujjaini,22.64539,75.99069,PPL,Madhya Pradesh,Indore district,,2026-10-15T18:53:06+00:00
+Madhya Pradesh,Ujjain,Ujjain,10609289,Ujjainpur,26.42651,82.08512,PPL,Uttar Pradesh,Sultānpur District,,2026-10-15T18:53:06+00:00
+Madhya Pradesh,Ujjain,Ujjain,10821817,Ujjain Tola,26.79976,84.51867,PPL,Bihar,Pashchim Champaran,,2026-10-15T18:53:06+00:00
+Madhya Pradesh,Vidisha,Vidisha,1253200,Vidisha,23.52604,77.81092,PPL,Madhya Pradesh,Vidisha,155951.0,2026-10-15T18:53:06+00:00
+Maharashtra,Buldhana,Buldana,1275117,Buldāna,20.52933,76.18457,PPL,Maharashtra,Buldhana,67431.0,2026-10-15T18:53:06+00:00
+Maharashtra,Buldhana,Buldana,1274239,Chikhli,20.02193,75.78544,PPL,Maharashtra,Jalna District,,2026-10-15T18:53:06+00:00
+Madhya Pradesh,Dewas,Dewas,1273066,Dewas,22.96585,76.05526,PPL,Madhya Pradesh,Dewas district,289550.0,2026-10-15T18:53:06+00:00
+Madhya Pradesh,Dewas,Dewas,1332373,Dewās,28.0544,74.93634,PPL,Rajasthan,Sikar,,2026-10-15T18:53:06+00:00
+Madhya Pradesh,Dewas,Dewas,10250970,Dewās,24.51304,73.50348,PPL,Rajasthan,Udaipur District,,2026-10-15T18:53:06+00:00
+Madhya Pradesh,Dewas,Dewas,10531257,Dewās,24.77827,81.47839,PPL,Madhya Pradesh,Rewa,,2026-10-15T18:53:06+00:00
+Madhya Pradesh,Dewas,Dewas,10683539,Dewās,25.80733,81.98854,PPL,Uttar Pradesh,Partabgarh District,,2026-10-15T18:53:06+00:00
+Madhya Pradesh,Dewas,Dewas,10816436,Dewās,25.97457,74.41713,PPL,Rajasthan,Ajmer district,,2026-10-15T18:53:06+00:00
+Madhya Pradesh,Dewas,Dewas,13428018,Dewās,22.41785,77.02633,PPL,Madhya Pradesh,Harda,,2026-10-15T18:53:06+00:00
+Madhya Pradesh,Dewas,Dewas,13520271,Dewass,20.62914,-15.47463,PPL,Inchiri,Akjoujt,,2026-10-15T18:53:06+00:00
+Madhya Pradesh,Dewas,Dewas,8053838,Dewasari,-7.3337,108.386,PPLA4,West Java,Ciamis Regency,,2026-10-15T18:53:06+00:00
+Madhya Pradesh,Dewas,Dewas,1273065,Dewāsar,28.88095,73.47241,PPL,Rajasthan,Bīkāner District,,2026-10-15T18:53:06+00:00
+Gujarat,Mehsana,Mehsana,1264389,Mahesāna,23.59864,72.38472,PPL,Gujarat,Mehsāna District,190753.0,2026-10-15T18:53:06+00:00
+Rajasthan,Hanumangarh,Hanumangarh,1270407,Hanumāngarh,29.58182,74.32938,PPL,Rajasthan,Hanumangarh,155687.0,2026-10-15T18:53:06+00:00
+Rajasthan,Hanumangarh,Hanumangarh,10014902,Hanumāngarh,30.30356,74.24322,PPL,Punjab,Fazilka,,2026-10-15T18:53:06+00:00
+Rajasthan,Hanumangarh,Hanumangarh,10438297,Hanūmāngarh,27.64313,77.66901,PPL,Uttar Pradesh,Mathura district,,2026-10-15T18:53:06+00:00
+Rajasthan,Hanumangarh,Hanumangarh,10511143,Hanumāngarh,25.17513,83.76991,PPL,Bihar,Kaimur (Bhabua),,2026-10-15T18:53:06+00:00
+Rajasthan,Hanumangarh,Hanumangarh,10534292,Hanumāngarh,24.37367,81.62813,PPL,Madhya Pradesh,Sidhi,,2026-10-15T18:53:06+00:00
+Rajasthan,Hanumangarh,Hanumangarh,10882693,Hanumāngarh,24.73333,85.45936,PPL,Bihar,Nawada District,,2026-10-15T18:53:06+00:00
+Rajasthan,Hanumangarh,Hanumangarh,11028523,Hanumāngarh,25.33236,85.40746,PPL,Bihar,Nalanda,,2026-10-15T18:53:06+00:00
+Rajasthan,Hanumangarh,Hanumangarh,10505332,Hanumāngarh,25.12502,83.35104,PPLL,Uttar Pradesh,Chandauli,,2026-10-15T18:53:06+00:00
+Rajasthan,Hanumangarh,Hanumangarh,10479294,Hanumāngarhi,27.41953,78.79365,PPL,Uttar Pradesh,Etah district,,2026-10-15T18:53:06+00:00
+Rajasthan,Hanumangarh,Hanumangarh,10521616,Hanumāngarhi,25.87582,80.69102,PPL,Uttar Pradesh,Fatehpur District,,2026-10-15T18:53:06+00:00
+Madhya Pradesh,Dhar,Dhar,1272892,Dhār,22.59373,75.29774,PPL,Madhya Pradesh,Dhar,93917.0,2026-10-15T18:53:06+00:00
+Madhya Pradesh,Dhar,Dhar,1272859,Dhār Khurd,32.39705,75.81347,PPL,Punjab,Pathankot,,2026-10-15T18:53:06+00:00
+Madhya Pradesh,Dhar,Dhar,1272891,Dhār,31.48074,77.72015,PPL,Himachal Pradesh,Shimla district,,2026-10-15T18:53:06+00:00
+Madhya Pradesh,Dhar,Dhar,1272893,Dhār,20.39776,75.99971,PPL,Maharashtra,Buldhana,,2026-10-15T18:53:06+00:00
+Madhya Pradesh,Dhar,Dhar,1386018,Dhar,33.97572,73.83995,PPL,,Bagh District,,2026-10-15T18:53:06+00:00
+Madhya Pradesh,Dhar,Dhar,1386212,Dhar,33.43656,73.8987,PPL,,Kotli District,,2026-10-15T18:53:06+00:00
+Madhya Pradesh,Dhar,Dhar,1443683,Dhār,31.14955,77.05986,PPL,Himachal Pradesh,Shimla district,,2026-10-15T18:53:06+00:00
+Madhya Pradesh,Dhar,Dhar,1443749,Dhār,31.15056,77.06167,PPL,Himachal Pradesh,Shimla district,,2026-10-15T18:53:06+00:00
+Madhya Pradesh,Dhar,Dhar,1479183,Dhar,35.16309,72.97113,PPL,Khyber Pakhtunkhwa,Lower Kohistan District,,2026-10-15T18:53:06+00:00
+Madhya Pradesh,Dhar,Dhar,2551936,Douar Dhar,34.74955,-5.74043,PPL,Tanger-Tetouan-Al Hoceima,Ouezzane Province,,2026-10-15T18:53:06+00:00
+Madhya Pradesh,Ratlam,Ratlam,1258342,Ratlām,23.33033,75.04032,PPL,Madhya Pradesh,Ratlam,264914.0,2026-10-15T18:53:06+00:00
+Madhya Pradesh,Ratlam,Ratlam,8458490,Ratlam,23.38206,75.02484,AIRP,Madhya Pradesh,Ratlam,,2026-10-15T18:53:06+00:00
+Madhya Pradesh,Ratlam,Ratlam,10686624,Ratlám,23.22921,74.72323,PPLL,Madhya Pradesh,Ratlam,,2026-10-15T18:53:06+00:00
+Madhya Pradesh,Ratlam,Ratlam,10495647,Ratlāmpur,21.85791,76.35845,PPL,Madhya Pradesh,Khandwa,,2026-10-15T18:53:06+00:00
+Madhya Pradesh,Rajgarh,Rajgarh,1258868,Rājgarh,28.64201,75.38612,PPL,Rajasthan,Churu,59193.0,2026-10-15T18:53:06+00:00
+Madhya Pradesh,Rajgarh,Rajgarh,1258875,Rājgarh,24.00826,76.7325,PPL,Madhya Pradesh,Rajgarh,29726.0,2026-10-15T18:53:06+00:00
+Madhya Pradesh,Rajgarh,Rajgarh,1258869,Rājgarh,27.23731,76.62243,PPL,Rajasthan,Alwar,26953.0,2026-10-15T18:53:06+00:00
+Madhya Pradesh,Rajgarh,Rajgarh,1258876,Rājgarh,22.67821,74.94483,PPL,Madhya Pradesh,Dhar,17113.0,2026-10-15T18:53:06+00:00
+Madhya Pradesh,Rajgarh,Rajgarh,1258867,Rājgarh,30.85142,77.30066,PPL,Himachal Pradesh,Sirmaur,3083.0,2026-10-15T18:53:06+00:00
+Madhya Pradesh,Rajgarh,Rajgarh,1167361,Rajgarh,30.78892,73.81469,PPL,Punjab,Okara District,,2026-10-15T18:53:06+00:00
+Madhya Pradesh,Rajgarh,Rajgarh,1258870,Rājgarh,26.30189,74.61981,PPL,Rajasthan,Ajmer district,,2026-10-15T18:53:06+00:00
+Madhya Pradesh,Rajgarh,Rajgarh,1258871,Rājgarh,25.46948,77.9552,PPL,Madhya Pradesh,Shivpuri,,2026-10-15T18:53:06+00:00
+Madhya Pradesh,Rajgarh,Rajgarh,1258872,Rājgarh,25.33321,77.50776,PPL,Madhya Pradesh,Shivpuri,,2026-10-15T18:53:06+00:00
+Madhya Pradesh,Rajgarh,Rajgarh,1258873,Rājgarh,24.85889,82.8597,PPL,Uttar Pradesh,Mirzapur,,2026-10-15T18:53:06+00:00
+Gujarat,Banaskanth,Palanpur,1260777,Pālanpur,24.17128,72.43827,PPL,Gujarat,Banas Kantha,141592.0,2026-10-15T18:53:06+00:00
+Gujarat,Banaskanth,Palanpur,10556204,Pālanpur,29.00174,78.21272,PPL,Uttar Pradesh,Amroha district,,2026-10-15T18:53:06+00:00
+Gujarat,Banaskanth,Palanpur,10572298,Pālanpur,29.19348,78.62976,PPL,Uttar Pradesh,Bijnor district,,2026-10-15T18:53:06+00:00
+Gujarat,Banaskanth,Palanpur,10592741,Pālanpur,28.55477,78.7706,PPL,Uttar Pradesh,Moradabad,,2026-10-15T18:53:06+00:00
+Gujarat,Banaskanth,Palanpur,7898515,Palanpura,25.33793,89.34726,PPL,Rangpur Division,Gaibandha District,,2026-10-15T18:53:06+00:00
+Gujarat,Junagarh,Junagarh,1268772,Jūnāgarh,19.85993,82.93385,PPL,Chhattisgarh,,19656.0,2026-10-15T18:53:06+00:00
+Gujarat,Junagarh,Junagadh,1268773,Jūnāgadh,21.51966,70.45981,PPL,Gujarat,Jūnāgadh District,319462.0,2026-10-15T18:53:06+00:00

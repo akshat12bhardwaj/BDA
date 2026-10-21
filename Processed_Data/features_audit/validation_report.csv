@@ -1,0 +1,20 @@
+crop,check,passed
+Onion,row count preserved (input == output),True
+Onion,same source_row set as Phase 5,True
+Onion,registry covers every output column,True
+Onion,brute-force spot check of history features (1000 comparisons),True
+Onion,no history feature present before the series' first eligible observation,True
+Onion,same-day weather columns not carried as predictors,True
+Potato,row count preserved (input == output),True
+Potato,same source_row set as Phase 5,True
+Potato,registry covers every output column,True
+Potato,brute-force spot check of history features (1000 comparisons),True
+Potato,no history feature present before the series' first eligible observation,True
+Potato,same-day weather columns not carried as predictors,True
+Wheat,row count preserved (input == output),True
+Wheat,same source_row set as Phase 5,True
+Wheat,registry covers every output column,True
+Wheat,brute-force spot check of history features (1000 comparisons),True
+Wheat,no history feature present before the series' first eligible observation,True
+Wheat,same-day weather columns not carried as predictors,True
+all,Phase 4/5 inputs unchanged during run,True

@@ -1,0 +1,21 @@
+2026-10-16 00:36:08,908 INFO Decision: crops in scope = ['Onion', 'Potato', 'Wheat'] (Phase 2 selection)
+2026-10-16 00:36:09,607 INFO APY season rows=41835, annual rows=33011; annual_method counts={'single_season': 28851, 'total_row': 4142, 'ambiguous_multi_season_no_total': 18}
+2026-10-16 00:36:13,284 INFO Weather locations: {'phase3_verified': 35, 'phase4_resolved_alias': 10, 'phase3_rejected_corrected': 1}
+2026-10-16 00:36:18,216 INFO merge Onion: mandi x district_crosswalk             left m:1 left=2624379 right=512 -> 2624379
+2026-10-16 00:36:19,494 INFO merge Onion: mandi x apy_annual (availability flag) left m:1 left=2624379 right=9498 -> 2624379
+2026-10-16 00:36:20,746 INFO merge Onion: mandi x final_data market reference    left m:1 left=2624379 right=1732 -> 2624379
+2026-10-16 00:36:21,675 INFO merge Onion: mandi x weather_location (exact state+district) left m:1 left=2624379 right=46 -> 2624379
+2026-10-16 00:36:22,814 INFO merge Onion: mandi x weather_daily_panel (same day) left m:1 left=2624379 right=369610 -> 2624379
+2026-10-16 00:36:33,375 INFO merge Potato: mandi x district_crosswalk            left m:1 left=2764987 right=505 -> 2764987
+2026-10-16 00:36:34,710 INFO merge Potato: mandi x apy_annual (availability flag) left m:1 left=2764987 right=10592 -> 2764987
+2026-10-16 00:36:36,021 INFO merge Potato: mandi x final_data market reference   left m:1 left=2764987 right=1624 -> 2764987
+2026-10-16 00:36:37,030 INFO merge Potato: mandi x weather_location (exact state+district) left m:1 left=2764987 right=46 -> 2764987
+2026-10-16 00:36:38,223 INFO merge Potato: mandi x weather_daily_panel (same day) left m:1 left=2764987 right=369610 -> 2764987
+2026-10-16 00:36:48,964 INFO merge Wheat: mandi x district_crosswalk             left m:1 left=2593767 right=457 -> 2593767
+2026-10-16 00:36:50,228 INFO merge Wheat: mandi x apy_annual (availability flag) left m:1 left=2593767 right=12816 -> 2593767
+2026-10-16 00:36:51,528 INFO merge Wheat: mandi x final_data market reference    left m:1 left=2593767 right=1988 -> 2593767
+2026-10-16 00:36:52,456 INFO merge Wheat: mandi x weather_location (exact state+district) left m:1 left=2593767 right=46 -> 2593767
+2026-10-16 00:36:53,554 INFO merge Wheat: mandi x weather_daily_panel (same day) left m:1 left=2593767 right=369610 -> 2593767
+2026-10-16 00:36:58,996 INFO merge mandi_district_year x apy_annual              outer 1:1 left=20530 right=33011 -> 38700
+2026-10-16 00:36:59,310 INFO merge Wheat: agri_market x mandi (district, market, variety, date) left 1:1 left=9569 right=80656 -> 9569
+2026-10-16 00:37:03,315 INFO Phase 4 pipeline finished in 55.0s

@@ -1,0 +1,43 @@
+state,year,conflict_rows,crop
+Haryana,2006,10,Onion
+Karnataka,2004,2,Onion
+Karnataka,2008,4,Onion
+Karnataka,2011,2,Onion
+Maharashtra,2002,2,Onion
+Maharashtra,2015,2,Onion
+Odisha,2005,4,Onion
+Odisha,2006,2,Onion
+Punjab,2003,4,Onion
+Punjab,2004,6,Onion
+Punjab,2005,6,Onion
+Punjab,2006,6,Onion
+Telangana,2015,6,Onion
+Telangana,2016,2,Onion
+Telangana,2017,2,Onion
+Telangana,2018,2,Onion
+Uttar Pradesh,2013,4,Onion
+Uttar Pradesh,2014,2,Onion
+Karnataka,2004,2,Potato
+Odisha,2005,4,Potato
+Odisha,2011,8,Potato
+Odisha,2013,2,Potato
+Punjab,2003,6,Potato
+Punjab,2004,8,Potato
+Punjab,2006,8,Potato
+Telangana,2010,70,Potato
+Telangana,2011,44,Potato
+Telangana,2015,2,Potato
+Uttar Pradesh,2006,2,Potato
+West Bengal,2007,2,Potato
+West Bengal,2010,2,Potato
+West Bengal,2013,4,Potato
+Karnataka,2004,6,Wheat
+Madhya Pradesh,2006,66,Wheat
+Madhya Pradesh,2014,2,Wheat
+Maharashtra,2015,4,Wheat
+Punjab,2002,4,Wheat
+Punjab,2003,4,Wheat
+Uttar Pradesh,2013,2,Wheat
+Uttar Pradesh,2014,2,Wheat
+West Bengal,2010,14,Wheat
+West Bengal,2013,2,Wheat
