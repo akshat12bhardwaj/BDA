@@ -117,6 +117,60 @@ def test_future_rows_change_neither_predictors_nor_eligibility():
     assert o_base["eligible_full_history"].all() and not build(early)[1]["eligible_full_history"].any()
 
 
+def _crossing_series():
+    """Market A crosses 365 usable dates on 2018-12-31 (daily from 2018-01-01); market B never does."""
+    a = daily("2018-01-01", 600, market="A")
+    b = daily("2018-01-01", 200, market="B").assign(source_row=lambda x: x["source_row"] + 10_000)
+    return pd.concat([a, b], ignore_index=True)
+
+
+def test_training_population_is_judged_at_the_refit_date():
+    ex = build(_crossing_series())[0][1]
+    a = ex[ex["market"] == "A"]
+    cross = a.loc[a["eligible_at_origin"], "origin_date"].min()
+    assert cross == pd.Timestamp("2019-01-06")                 # first Sunday with >= 365 dates (365th = 2018-12-31)
+    before = m.training_examples(ex, "2018-12-30")             # refit before A qualified: nothing usable
+    assert before.empty and len(m.training_examples(ex, "2018-12-30", "all"))
+    after = m.training_examples(ex, "2019-04-07")              # refit after: A's early weeks recovered
+    assert set(after["market"]) == {"A"}
+    assert (~after["eligible_at_origin"]).sum() > 0             # weeks before A reached 365 dates are included
+    assert len(after) > len(m.training_examples(ex, "2019-04-07", "eligible_at_origin"))
+    assert (after["target_sunday"] <= pd.Timestamp("2019-04-07")).all()
+    with pytest.raises(m.ModellingError, match="training population"):
+        m.training_examples(ex, "2019-04-07", "full_history")
+
+
+def test_future_observations_cannot_grant_earlier_eligibility():
+    base = _crossing_series()
+    a_early = base[(base["market"] == "A") & (base["reported_date"] <= "2018-09-30")]   # 273 dates by 2018-09-30
+    future = daily("2018-10-01", 500, market="A").assign(source_row=lambda x: x["source_row"] + 50_000)
+    short = build(a_early)[0][1]
+    long = build(pd.concat([a_early, future], ignore_index=True))[0][1]
+    for cutoff in ["2018-07-01", "2018-09-30"]:                # refits before the threshold is reached
+        assert m.training_examples(short, cutoff).empty and m.training_examples(long, cutoff).empty
+    early = long[long["origin_date"] <= pd.Timestamp("2018-09-30")]
+    assert not early["eligible_at_origin"].any()                # evaluation eligibility is not back-dated either
+    assert m.training_examples(long, "2018-12-30").empty        # 364 dates by then: still not eligible
+    assert not m.training_examples(long, "2019-01-06").empty    # once data up to the refit reach 365, it qualifies
+    assert m.select(long, REG, "no_weather")["origin_date"].min() >= long.loc[long["eligible_at_origin"], "origin_date"].min()
+
+
+def test_validate_rejects_back_dated_eligibility():
+    ex = build(_crossing_series())[0][1]
+    with pytest.raises(m.ModellingError, match="eligible_from_origin"):
+        m.validate_examples(ex.assign(eligible_from_origin=pd.Timestamp("2018-01-07")),
+                            ex["target_last_date"].max(), m.feature_columns(REG, "weather"))
+
+
+def test_next_observation_target_is_the_first_usable_price_after_the_origin():
+    df = frame([("2010-03-03", 100), ("2010-03-07", 120), ("2010-03-10", 999, False), ("2010-03-24", 300),
+                ("2010-03-25", 400)])
+    o = build(df)[1].set_index("week_start")
+    first = o.loc[pd.Timestamp("2010-03-01")]
+    assert first["target_next_obs_date"] == pd.Timestamp("2010-03-24") and first["target_next_obs_price"] == 300
+    assert pd.isna(o.loc[pd.Timestamp("2010-03-22"), "target_next_obs_price"])
+
+
 # ---------------------------------------------------------------- periods, refits and gaps
 def test_periods_follow_target_sunday():
     s = pd.Series(pd.to_datetime(["2001-12-30", "2002-01-06", "2018-12-30", "2019-01-06", "2019-12-29",
@@ -136,7 +190,7 @@ def test_horizon_gap_training_targets_end_before_each_evaluated_origin():
         refit = m.refit_date_for(ev["origin_date"], sched)
         assert (refit <= ev["origin_date"]).all()
         for r, grp in ev.groupby(refit):
-            tr = m.training_examples(ex, r)
+            tr = m.training_examples(ex, r, "all")          # gap rule only; the 300-date series is never eligible
             assert len(tr) and tr["target_sunday"].max() <= r <= grp["origin_date"].min() < grp["target_first_date"].min()
             assert not tr["period"].isin(["val_2020", "test", "holdout_no_weather"]).any()
 

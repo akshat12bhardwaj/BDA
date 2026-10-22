@@ -61,7 +61,13 @@ Recounted from the feature tables on 2026-10-22 (read-only); this matches Phase 
 | Potato | 1,551 | 1,199 | 1,377 | 1,502 | 1,551 |
 | Wheat | 1,540 | 1,297 | 1,423 | 1,507 | 1,540 |
 
-Consequence: the early weeks of each series, before it reached 365 dates, are outside the primary population. In the training period this removes about a third of examples with an observed target. At h = 1, 113,966 / 107,790 / 123,471 training examples are retrospectively eligible but not origin-eligible (`sample_counts.csv`, column `examples_full_history_but_not_origin_eligible`). Those examples stay in the dataset with `eligible_at_origin = False` and are reported as the non-eligible population.
+**Training uses the refit date (implemented, D-41 clarification 2).** A model refitted at T trains on all examples (target week ended ≤ T) of series that had ≥ 365 usable dates by T, including their earlier weeks. This is decided by `eligible_from_origin <= T`: the first Sunday with ≥ 365 dates, which data dated ≤ T settles. Evaluation stays origin-eligible. Training examples recovered compared with origin-only eligibility (`training_population.csv`):
+
+| Crop | h = 1 (2018-12-30 / 2020-12-27) | h = 2 | h = 4 |
+|---|---|---|---|
+| Onion | 101,290 / 115,151 | 98,375 / 111,912 | 95,268 / 108,534 |
+| Potato | 96,097 / 110,623 | 93,394 / 107,582 | 90,533 / 104,402 |
+| Wheat | 110,701 / 122,043 | 107,207 / 118,131 | 103,648 / 114,189 |
 
 **Possible future sensitivity rule (not implemented):** span ≥ 2 years and reporting density ≥ 0.5 (491 / 592 / 335 series; `Modelling_Readiness_Report.md` §2).
 
@@ -201,7 +207,7 @@ in_primary_population, prediction_status
 
 ## F. Open items and risks
 
-1. **Look-ahead in eligibility — resolved in the builder.** Selection uses `eligible_at_origin`, never the retrospective count (A.4). **Open for approval:** whether training should use only origin-eligible examples (the current default in `select()`) or also the earlier, not-yet-eligible weeks of a series. Those weeks are leakage-safe; they are excluded only by the population rule.
+1. **Look-ahead in eligibility — resolved.** Evaluation uses `eligible_at_origin` and training uses eligibility at the refit date. The retrospective count is never used to select examples (A.4).
 2. **Changing market coverage.** The set of reporting markets changes over time, so period-level metrics mix model quality with coverage (A-22, `EDA_Findings.md`). Per-period example counts are always reported.
 3. **Nominal prices.** Log-ratio targets limit inflation effects at 1–4 week horizons. Level-based metrics in later years are larger partly because of inflation.
 4. **Missing feature catalogue.** `Feature_Catalogue.md` is referenced in older documentation but does not exist. `Processed_Data/features_audit/feature_registry.csv` is the authoritative feature list.
@@ -248,4 +254,33 @@ in_primary_population, prediction_status
 - Run it with `PYTHONDONTWRITEBYTECODE=1 python -m pytest Code/tests/test_phase08_dataset.py -p no:cacheprovider`.
 - These settings stop tracked cache files from being rewritten.
 
-**Not implemented yet:** baselines, models, metrics, the notebook and inference (§C–E).
+**Not implemented yet:** the calendar-only baseline, models, the notebook and inference (§C–E).
+
+## H. Implemented: validation baselines (`Code/modelling/baselines.py`)
+
+**What it does:**
+- `run_baselines()` rebuilds the datasets with the hash-checked builder and scores, on **2019, 2020 and 2019–2020 combined only**:
+  - persistence (origin-week median)
+  - seasonal naive (the series' weekly median 52 weeks before the target week, where it exists)
+  - persistence on the same seasonal subset
+  - next-reported-observation (last known price → next usable price)
+- Populations: origin-eligible (primary), review-sensitivity, and not-origin-eligible.
+- The test and holdout periods are refused, both in code and in tests.
+- Nothing is fitted.
+- Outputs: `baseline_validation_metrics.csv`, `next_obs_validation_metrics.csv`.
+
+**Results** (primary experiment, origin-eligible series), MAPE % for 2019 / 2020 / combined:
+
+| Crop | Persistence h = 1 | h = 2 | h = 4 | Seasonal naive h = 1 |
+|---|---|---|---|---|
+| Onion | 8.8 / 12.1 / 10.4 | 12.9 / 19.7 / 16.1 | 19.0 / 33.3 / 25.6 | 65.5 / 44.2 / 55.6 |
+| Potato | 7.0 / 8.0 / 7.5 | 10.0 / 12.6 / 11.2 | 14.5 / 18.5 / 16.3 | 33.6 / 50.0 / 41.2 |
+| Wheat | 1.8 / 2.3 / 2.0 | 2.3 / 3.2 / 2.7 | 3.1 / 4.5 / 3.7 | 9.3 / 12.5 / 10.7 |
+
+**Findings:**
+- Persistence beats seasonal naive everywhere, by a wide margin. Year-on-year price levels move too much for last year's week to be a useful forecast.
+- Seasonal-naive coverage is 86–91%.
+- 2020 is clearly harder than 2019 for every crop and horizon (Onion h = 4 MAE 441 → 844 Rs/quintal). This is the reason to report the two years separately.
+- The next-reported-observation baseline (median 1 day ahead) has MAPE 9.6 / 7.0 / 2.6% for Onion / Potato / Wheat over the combined validation years.
+
+The test period (2021–2022) has not been scored.

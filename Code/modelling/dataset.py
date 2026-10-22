@@ -14,7 +14,9 @@ Contract (Decision Log D-38..D-41, Documentation/Phase_08_Modelling_Plan.md):
                 dated before the anchor date), week-W aggregates (rows dated <= origin) and
                 calendar fields of the target week; nothing dated after the origin
   period      = decided by the target week's Sunday; a refit at T trains only on targets ending <= T
-  population  = origin-safe D-41: >= 365 distinct usable price dates dated <= origin.
+  population  = time-safe D-41 (>= 365 distinct usable price dates):
+                evaluation - counted on or before the example's origin (eligible_at_origin);
+                training   - counted on or before the refit date (eligible_from_origin <= refit date).
                 The full-history count is kept for reporting only, never for selection.
 """
 
@@ -55,6 +57,7 @@ WEATHER_PERIODS = ["train", "val_2019", "val_2020", "test"]  # weather ends 2022
 CONFIGS = ("weather", "no_weather")
 EXPERIMENTS = ("primary", "review_sensitivity")
 POPULATIONS = ("origin_eligible", "not_origin_eligible", "all")
+TRAIN_POPULATIONS = ("eligible_by_refit", "eligible_at_origin", "all")
 ROLES = {"identifier", "target", "eligibility_flag", "audit_only", "predictor"}
 
 K = SERIES + ["week_start"]
@@ -63,7 +66,8 @@ ORIGIN_WEEK_PREDICTORS = ["origin_week_median", "origin_week_last", "origin_week
 TARGET_CALENDAR = ["tw_month", "tw_week_of_year", "tw_month_sin", "tw_month_cos"]
 META = K + ["origin_date", "anchor_date", "anchor_source_row", "horizon_weeks", "target_week_start",
             "target_sunday", "target_first_date", "target_last_date", "target_n", "target_has_review",
-            "n_usable_dates_to_origin", "eligible_at_origin", "eligible_full_history", "weather_covered", "period"]
+            "n_usable_dates_to_origin", "eligible_at_origin", "eligible_from_origin", "eligible_full_history",
+            "weather_covered", "period"]
 TARGET = "target_median"
 # Columns that must exist in the input and may never be predictors, whatever the registry says.
 RESERVED = SERIES + ["reported_date", "source_row", MODAL, MIN, MAX, ARR, "usable_modal_price",
@@ -145,9 +149,21 @@ def refit_date_for(origin_dates: pd.Series, schedule: pd.DatetimeIndex) -> pd.Se
     return pd.Series(schedule[i], index=origin_dates.index)
 
 
-def training_examples(ex: pd.DataFrame, refit_date) -> pd.DataFrame:
-    """Expanding window: every in-period example whose whole target week ended by the refit date."""
-    return ex[(ex["target_sunday"] <= pd.Timestamp(refit_date)) & (ex["period"] != OUTSIDE)]
+def training_examples(ex: pd.DataFrame, refit_date, population: str = "eligible_by_refit") -> pd.DataFrame:
+    """
+    Expanding window: in-period examples whose whole target week ended by the refit date.
+    Default population (D-41, time-safe): series that had >= 365 usable dates by the refit date, including
+    their earlier weeks. eligible_from_origin <= refit date is decided by data dated <= refit date only.
+    """
+    if population not in TRAIN_POPULATIONS:
+        raise ModellingError(f"unknown training population {population!r}")
+    r = pd.Timestamp(refit_date)
+    keep = (ex["target_sunday"] <= r) & (ex["period"] != OUTSIDE)
+    if population == "eligible_by_refit":
+        keep &= ex["eligible_from_origin"] <= r
+    elif population == "eligible_at_origin":
+        keep &= ex["eligible_at_origin"]
+    return ex[keep]
 
 
 # ---------------------------------------------------------------- dataset construction
@@ -162,11 +178,16 @@ def build_examples(df: pd.DataFrame, reg: pd.DataFrame, horizons=HORIZONS) -> tu
 
     wk = (up.groupby(K, observed=True)
           .agg(week_median=(MODAL, "median"), week_n=(MODAL, "size"), week_dates=("reported_date", "nunique"),
-               week_first=("reported_date", "min"), week_last=("reported_date", "max"), week_review=("_review", "max"))
+               week_first=("reported_date", "min"), week_last=("reported_date", "max"), week_review=("_review", "max"),
+               week_first_price=(MODAL, "first"))
           .reset_index().sort_values(K, ignore_index=True))
+    by_series = wk.groupby(SERIES, observed=True)
     # Distinct usable dates up to each origin; weeks partition dates, so the cumulative sum counts each date once.
-    wk["n_usable_dates_to_origin"] = wk.groupby(SERIES, observed=True)["week_dates"].cumsum()
-    wk["eligible_full_history"] = wk.groupby(SERIES, observed=True)["week_dates"].transform("sum") >= MIN_USABLE_DATES
+    wk["n_usable_dates_to_origin"] = by_series["week_dates"].cumsum()
+    wk["eligible_full_history"] = by_series["week_dates"].transform("sum") >= MIN_USABLE_DATES
+    # Secondary task (D-38): the next usable price after the origin = first price of the series' next reported week.
+    wk["target_next_obs_date"] = by_series["week_first"].shift(-1)
+    wk["target_next_obs_price"] = by_series["week_first_price"].shift(-1)
 
     anchor = (up.groupby(K, observed=True).tail(1)
               .rename(columns={"reported_date": "anchor_date", "source_row": "anchor_source_row",
@@ -174,12 +195,16 @@ def build_examples(df: pd.DataFrame, reg: pd.DataFrame, horizons=HORIZONS) -> tu
     arr = (d[d["usable_arrivals"]].groupby(K, observed=True)
            .agg(origin_week_arrivals_sum=(ARR, "sum"), origin_week_arrivals_n=(ARR, "size")).reset_index())
     origins = (wk.rename(columns={"week_median": "origin_week_median", "week_n": "origin_week_n"})
-               .drop(columns=["week_dates", "week_first", "week_last", "week_review"])
+               .drop(columns=["week_dates", "week_first", "week_last", "week_review", "week_first_price"])
                .merge(anchor, on=K, how="left", validate="1:1")
                .merge(arr, on=K, how="left", validate="1:1"))
     origins["origin_week_arrivals_n"] = origins["origin_week_arrivals_n"].fillna(0).astype(int)  # a count, not imputation
     origins["origin_date"] = origins["week_start"] + pd.Timedelta(days=6)
     origins["eligible_at_origin"] = origins["n_usable_dates_to_origin"] >= MIN_USABLE_DATES
+    # First origin (Sunday) with >= 365 usable dates. Only ever compared with a cutoff, never a predictor:
+    # "eligible_from_origin <= c" is true exactly when the dates on or before c already reach the threshold.
+    first_ok = origins[origins["eligible_at_origin"]].groupby(SERIES, observed=True)["origin_date"].min()
+    origins = origins.merge(first_ok.rename("eligible_from_origin").reset_index(), on=SERIES, how="left", validate="m:1")
     origins["weather_covered"] = origins[wx].notna().all(axis=1) if wx else False
 
     targets = wk[K + ["week_median", "week_n", "week_first", "week_last", "week_review"]].rename(columns={
@@ -219,6 +244,7 @@ def validate_examples(ex: pd.DataFrame, last_date, feature_cols: list[str]) -> N
         "period follows the target Sunday": (ex["period"] == assign_period(ex["target_sunday"], last_date)).all(),
         "eligibility uses only dates up to the origin": (ex["eligible_at_origin"] == (ex["n_usable_dates_to_origin"] >= MIN_USABLE_DATES)).all()
                                                         and (ex.groupby(SERIES + ["horizon_weeks"], observed=True)["n_usable_dates_to_origin"].diff().fillna(0) >= 0).all(),
+        "eligible_from_origin agrees with every origin count": (ex["eligible_at_origin"] == (ex["eligible_from_origin"] <= ex["origin_date"])).all(),
         "one example per series, origin and horizon": not ex.duplicated(K + ["horizon_weeks"]).any(),
         "predictors exist": set(feature_cols) <= set(ex.columns),
         "no target, identifier or audit column among predictors": not (set(feature_cols) & reserved)
@@ -260,6 +286,17 @@ def sample_counts(ex: pd.DataFrame, origins: pd.DataFrame, last_date, crop: str,
                      "examples_origin_eligible_review_sensitivity": int((el & ~e["target_has_review"]).sum()),
                      "examples_origin_eligible_weather_covered": int((el & e["weather_covered"]).sum()),
                      "series_origin_eligible": int(e.loc[el, SERIES].drop_duplicates().shape[0])})
+    return pd.DataFrame(rows)
+
+
+def training_population(ex: pd.DataFrame, crop: str, h: int) -> pd.DataFrame:
+    """Training examples at the two selection/test refit cutoffs under each D-41 training population."""
+    rows = []
+    for cutoff in ["2018-12-30", "2020-12-27"]:
+        n = {p: len(training_examples(ex, cutoff, p)) for p in TRAIN_POPULATIONS}
+        rows.append({"crop": crop, "horizon_weeks": h, "refit_cutoff": cutoff, "training_examples_all": n["all"],
+                     "eligible_at_origin": n["eligible_at_origin"], "eligible_by_refit": n["eligible_by_refit"],
+                     "recovered_by_refit_rule": n["eligible_by_refit"] - n["eligible_at_origin"]})
     return pd.DataFrame(rows)
 
 
@@ -316,7 +353,7 @@ def run_build(feature_dir: Path = FEATURE_DIR, out_dir: Path = MODEL_DATA_DIR, c
     before = check_inputs(inputs, expected)
     reg = registry_columns(pd.read_csv(registry_path))
 
-    manifest, counts, elig = [], [], []
+    manifest, counts, elig, train_pop = [], [], [], []
     for crop, path in zip(crops, inputs):
         df = pd.read_parquet(path)
         validate_schema(df, reg, crop)
@@ -326,6 +363,7 @@ def run_build(feature_dir: Path = FEATURE_DIR, out_dir: Path = MODEL_DATA_DIR, c
         for h, ex in by_h.items():
             validate_examples(ex, last_date, feature_columns(reg, "weather"))
             counts.append(sample_counts(ex, origins, last_date, crop, h))
+            train_pop.append(training_population(ex, crop, h))
             manifest.append({"crop": crop, "horizon_weeks": h, "input_last_date": last_date.date().isoformat(),
                              "rows": len(ex), "columns": ex.shape[1], "content_sha256": frame_fingerprint(ex)})
         log.info("%s done", crop)
@@ -349,12 +387,15 @@ def run_build(feature_dir: Path = FEATURE_DIR, out_dir: Path = MODEL_DATA_DIR, c
     prov = pd.DataFrame([{"key": k, "value": v} for k, v in {
         "git_head": _git_head(), "python": platform.python_version(), "pandas": pd.__version__,
         "numpy": np.__version__, "horizons_weeks": " ".join(map(str, HORIZONS)),
-        "min_usable_dates_at_origin": MIN_USABLE_DATES, "week": "Monday-Sunday; origin = end of Sunday",
+        "min_usable_dates": MIN_USABLE_DATES,
+        "eligibility": "evaluation: dates <= origin; training: dates <= refit date; full-history count reporting only",
+        "week": "Monday-Sunday; origin = end of Sunday",
         "refits": "first Sunday of each quarter; train on targets ending <= refit date",
         "registry_sha256": before[str(Path(registry_path))], "models_fitted": "none"}.items()])
     tables = {"input_fingerprints": fp, "dataset_manifest": pd.DataFrame(manifest),
               "sample_counts": pd.concat(counts, ignore_index=True),
               "eligibility_summary": pd.concat(elig, ignore_index=True),
+              "training_population": pd.concat(train_pop, ignore_index=True),
               "split_definition": periods, "feature_columns": feats, "provenance": prov}
     for name, frame in tables.items():
         frame.to_csv(out_dir / f"{name}.csv", index=False)

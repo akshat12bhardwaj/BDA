@@ -1,10 +1,11 @@
 key,value
-git_head,0716ab6df7ac0b2e0983ae7ea83bf71618751a1c
+git_head,685e8b8d1e8d4b971e5f4c123ea3f294de1fac17
 python,3.13.7
 pandas,2.3.3
 numpy,2.3.3
 horizons_weeks,1 2 4
-min_usable_dates_at_origin,365
+min_usable_dates,365
+eligibility,evaluation: dates <= origin; training: dates <= refit date; full-history count reporting only
 week,Monday-Sunday; origin = end of Sunday
 refits,first Sunday of each quarter; train on targets ending <= refit date
 registry_sha256,ff9f4de46e4e52a7aa445e91f3b387a53a20f949f158a84c5f2f8d433f1d0340

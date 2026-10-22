@@ -301,4 +301,8 @@ Records major technical decisions as they are made. Never retroactively rewritte
 - The full-history count above is retrospective and used for reporting only, never to select examples.
 - The threshold and the counting unit are unchanged; only the information cutoff is made explicit.
 - Series origin-eligible by the end of train (2018-12-30): 1,173 / 1,199 / 1,297. At any origin: 1,473 / 1,551 / 1,540.
-**Phase**: 8 planning; clarified in Phase 8 implementation.
+**Clarification 2 (Phase 8 implementation, 2026-10-22; requested by the project owner)**:
+- **Training** eligibility is judged at the **refit date**. A model refitted at T may train on every example of a series that had ≥ 365 usable dates on or before T, including that series' earlier weeks, provided the example's target week ended by T. In code: `eligible_from_origin <= T` in `training_examples()`.
+- **Evaluation** eligibility stays at the origin.
+- Future observations can never make a series eligible earlier; regression tests cover this.
+- The threshold is unchanged. This recovers 90,533–122,043 training examples per crop × horizon at the 2018-12-30 and 2020-12-27 cutoffs (`Processed_Data/modelling/phase08/training_population.csv`).

@@ -21,7 +21,7 @@ Build a data-driven agricultural trading decision-support system for Indian agri
 | 5 | Data Cleaning | **[COMPLETED]** (29 notebook checks + 31 tests pass; see Section 8f) |
 | 6 | Feature Engineering | **[COMPLETED]** (17 notebook checks + 45 tests pass; see Section 8h) |
 | 7 | EDA | **[COMPLETED]** (17 notebook checks + 57 tests pass; see Section 8j) |
-| 8 | Price Forecasting | **[IN PROGRESS — plan approved (D-38 to D-41); dataset builder + 37 leakage tests implemented; no model trained]** |
+| 8 | Price Forecasting | **[IN PROGRESS — dataset builder, time-safe D-41 eligibility and validation baselines implemented (47 tests); no model trained; test set unscored]** |
 | 9 | Market Activity Modeling | [FUTURE] |
 | 10 | Supply Prediction | [FUTURE] |
 | 11 | Logistics / Dijkstra | [FUTURE] |
@@ -66,7 +66,8 @@ BDA/
 │   │   ├── build_phase06_notebook.py                 (notebook generator, Phase 6)
 │   │   └── build_phase07_notebook.py                 (notebook generator, Phase 7)
 │   ├── modelling/                                    (Phase 8)
-│   │   └── dataset.py                                (leakage-safe weekly dataset builder: run_build(); fits no model)
+│   │   ├── dataset.py                                (leakage-safe weekly dataset builder: run_build(); fits no model)
+│   │   └── baselines.py                              (validation-only naive baselines: run_baselines())
 │   ├── eda/                                          (Phase 7)
 │   │   └── analysis.py                               (EDA summary computations: run_eda())
 │   ├── features/                                     (Phase 6)
@@ -315,6 +316,12 @@ The decisions below were reviewed and **accepted in Phase 8 planning (2026-10-22
 - **Baselines:** persistence, seasonal naive, next reported observation, calendar-only.
 
 **Repository state at Phase 8 planning (verified with git):** branch `main`, HEAD `0716ab6`. The deletion of `Documentation/EDA_Findings.pdf` is intentional and still uncommitted.
+
+**Git history (2026-10-22):**
+- Before the first push to `origin` (github.com/akshat12bhardwaj/BDA), local history was rewritten so that `Dataset/`, `*.parquet` and Python caches are no longer tracked. They remain on disk and are covered by `.gitignore`.
+- Commit mapping: `0716ab6` → `819e0f0`, `b8671ed` → `685e8b8`.
+- The pre-rewrite commits are kept only in the local branch `backup/pre-history-rewrite`, which is not pushed.
+- A fresh clone has no raw data or parquet tables. Copy `Dataset/` in and rerun the phase pipelines (Phase 4 → 6) to regenerate them.
 
 ## 9. Future-Phase Dependency Context
 
