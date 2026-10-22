@@ -58,8 +58,8 @@ assumption tables ► [P] cost and constraint parameters ─► cost_parameters,
 
 | Table | Grain | Key columns | Source / status |
 |---|---|---|---|
-| `price_forecast` | series × origin week × h | crop, state, district, market, variety, origin_date, target_week_start, horizon_weeks, predicted_price (Rs/q), approach, model_version, in_primary_population, prediction_status | Phase 8 §E schema — **inference code not built** |
-| `forecast_error_profile` | crop × h | MAE, quantiles of relative error (e.g. 10/50/90%), estimation period | to derive from **2019–2020 validation residuals**; test residuals for reporting only |
+| `price_forecast` | series × origin week × h | contract `phase8-forecast-v1` (`Forecast_Output_Contract.md`) | **implemented as a batch interface** (`forecast_output.py`). Persistence cells are complete; the Onion h = 1 learned cell needs a saved model (`model_artifact_unavailable` until then). Not a live service. |
+| `forecast_error_profile` | crop × h × validation year | `phase8-error-profile-v1`: MAE, ratio-error and absolute-error quantiles, n_obs, n_series | **implemented** from 2019–2020 validation residuals only (`error_profile.py`); empirical quantiles, not calibrated intervals |
 | `arrivals_forecast` | series or market × week × h | predicted_market_arrivals (tonnes), target_definition | roadmap Phase 9 — **not built** |
 | `supply_context` | crop × APY district × agricultural year | production_lag2 (t), area_lag2, yield_lag2 | Phase 6 `apy_*_lag2` — **available** (missing for 51% / 34% / 4% of Onion / Potato / Wheat rows) |
 | `market_nodes` | market | state, district, market, latitude, longitude, coordinate_source | **only 46 admin2-verified district points exist** (`Processed_Data/integration/weather_location_resolution.csv`); district-level, not market-level |
@@ -104,9 +104,9 @@ assumption tables ► [P] cost and constraint parameters ─► cost_parameters,
 ## 6. Proposed build order and dependencies
 
 1. **Commit the Phase 8 checkpoint.**
-2. **Price forecast service** (Phase 8 §E):
-   - `predict_price()` from the frozen D-42 selection with a model version, plus the `forecast_error_profile` from validation residuals.
-   - It depends only on Phase 8.
+2. **Price forecast output** (Phase 8 §E): **done as a batch interface** (contract `phase8-forecast-v1` and error profile `phase8-error-profile-v1`).
+   - Remaining: a saved, versioned Onion h = 1 model artifact, which needs an approved final training run.
+   - Remaining: a published forecast location.
 3. **Cost and constraint assumptions:**
    - Collect sourced values (transport per tonne-km, mandi fees, storage, spoilage, capacities) into `Assumptions.md`, each with a basis.
    - **Blocker:** none of these exist in the data. This step is research, not code.

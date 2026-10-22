@@ -1,0 +1,9 @@
+key,value
+profile_version,phase8-error-profile-v1
+label,empirical validation-period error quantiles (2019-2020); NOT calibrated prediction intervals
+periods,"val_2019, val_2020, val_combined"
+test_results_used,False
+holdout_used,False
+selection,D-42 approach per crop x horizon
+sha256 validation_predictions.parquet,7daa2f1041b194c82c3bbc071cca287c1e5ce00ff6ea8bbf653e053fa05b42c9
+sha256 hgb_conservative_validation_predictions.parquet,3da2dd427d3ee12b8e52f5b5d4ec431b7f858c526f821107bf5df62f3d2126b0

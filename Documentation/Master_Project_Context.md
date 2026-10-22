@@ -70,7 +70,9 @@ BDA/
 │   │   ├── baselines.py                              (validation-only naive baselines: run_baselines())
 │   │   ├── models.py                                 (calendar benchmarks, Ridge, HGB; validation only: run_models())
 │   │   ├── uncertainty.py                            (paired series-cluster bootstrap vs persistence: run_uncertainty())
-│   │   └── final_evaluation.py                       (frozen D-42 selection, one-time 2021–2022 test: run_test_evaluation())
+│   │   ├── final_evaluation.py                       (frozen D-42 selection, one-time 2021–2022 test: run_test_evaluation())
+│   │   ├── forecast_output.py                        (forecast output contract phase8-forecast-v1; batch, not a live service)
+│   │   └── error_profile.py                          (validation-only empirical error profile phase8-error-profile-v1)
 │   ├── eda/                                          (Phase 7)
 │   │   └── analysis.py                               (EDA summary computations: run_eda())
 │   ├── features/                                     (Phase 6)
@@ -146,7 +148,8 @@ BDA/
     ├── EDA_Findings.md              (Phase 7)
     ├── Modelling_Readiness_Report.md (Phase 7)
     ├── Phase_08_Modelling_Plan.md   (Phase 8 plan, results, close-out §O, holdout protocol §P)
-    ├── Phase_09_Integration_Plan.md (proposal: forecast → decision-support contracts; nothing implemented)
+    ├── Phase_09_Integration_Plan.md (proposal: forecast → decision-support contracts)
+    ├── Forecast_Output_Contract.md  (phase8-forecast-v1 schema/rules + phase8-error-profile-v1)
     └── Future_Work_Roadmap.md
 ```
 

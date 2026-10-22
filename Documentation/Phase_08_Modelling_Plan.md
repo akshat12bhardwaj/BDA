@@ -180,6 +180,8 @@ No package is installed for this plan.
 
 ## E. Future inference and dashboard interface (contract only)
 
+> **Update 2026-10-22:** the output contract is now implemented as `phase8-forecast-v1`, a batch interface over historical data (`Code/modelling/forecast_output.py`, `Documentation/Forecast_Output_Contract.md`). The validation error profile is `phase8-error-profile-v1` (`error_profile.py`). The model store and the `predict_price()` service below remain planned; no fitted model artifact exists. The original plan text follows unchanged.
+
 **Planned function** `Code/modelling/inference.py:predict_price(crop, state, district, market, variety=None, horizon_weeks, as_of=None)`:
 - Loads a frozen model from `Outputs/Models/phase08/<model_version>/` (planned). That folder holds the model file, `model_card.json` (training period, feature configuration, input fingerprints, validation and test metrics) and the feature list.
 - Builds the origin features with the Section B code, using data ≤ `as_of`. The default is the latest complete week.
