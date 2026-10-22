@@ -1,0 +1,11 @@
+district,market,variety,reported_date,arrivals_tonnes,prev_ref,next_ref,aq1_class,modal_price_rs_per_quintal
+Ratlam,A lot,Medium,2019-03-21,0.05,71.205,5288.0,likely_unit_error_low,1720.0
+Alirajpur,Alirajpur,Other,2020-09-07,0.02,29.8,0.015,ok,1800.0
+Morena,Ambaha,Other,2019-07-14,0.1,20.6,57.400000000000006,likely_unit_error_low,1700.0
+Guna,Aron,Other,2019-09-08,0.01,91.5,39.902499999999996,likely_unit_error_low,1840.0
+Shivpuri,Badarwas,Lokwan,2019-01-11,0.1,1.2,112.6,ok,2100.0
+Ujjain,Badnagar,Lokwan,2019-03-22,0.1,35.25,719.25,likely_unit_error_low,1874.0
+Shajapur,Badod,Other,2019-01-05,0.1,13.2,0.975,ok,1995.0
+Balaghat,Balaghat,Local,2019-04-25,0.1,5.935,,ok,1840.0
+Sagar,Bamora,MP Sharbati,2019-01-10,0.1,1.7,0.65,ok,2300.0
+Sagar,Banda,147 Average,2019-03-18,0.1,12.8,37.25,likely_unit_error_low,1755.0

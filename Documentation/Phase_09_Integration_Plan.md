@@ -60,7 +60,7 @@ assumption tables ► [P] cost and constraint parameters ─► cost_parameters,
 |---|---|---|---|
 | `price_forecast` | series × origin week × h | contract `phase8-forecast-v1` (`Forecast_Output_Contract.md`) | **implemented as a batch interface** (`forecast_output.py`). Persistence cells are complete; the Onion h = 1 learned cell needs a saved model (`model_artifact_unavailable` until then). Not a live service. |
 | `forecast_error_profile` | crop × h × validation year | `phase8-error-profile-v1`: MAE, ratio-error and absolute-error quantiles, n_obs, n_series | **implemented** from 2019–2020 validation residuals only (`error_profile.py`); empirical quantiles, not calibrated intervals |
-| `arrivals_forecast` | series or market × week × h | predicted_market_arrivals (tonnes), target_definition | roadmap Phase 9 — **not built** |
+| `arrivals_forecast` | series × origin week × h (same key as `price_forecast`) | contract `phase9-arrivals-forecast-v1` (`Arrivals_Forecast_Contract.md`): median daily arrivals (t per reported day), target_definition | roadmap Phase 9: **baselines and a batch interface implemented** (`arrivals.py`). Approach is provisional persistence; validation only (`Phase_09_Arrivals_Plan.md` §9). |
 | `supply_context` | crop × APY district × agricultural year | production_lag2 (t), area_lag2, yield_lag2 | Phase 6 `apy_*_lag2` — **available** (missing for 51% / 34% / 4% of Onion / Potato / Wheat rows) |
 | `market_nodes` | market | state, district, market, latitude, longitude, coordinate_source | **only 46 admin2-verified district points exist** (`Processed_Data/integration/weather_location_resolution.csv`); district-level, not market-level |
 | `route_costs` | source node × destination node | distance_km, distance_method, transport_cost (Rs/t), route | roadmap Phase 11 — **not built**; no road network in the data |
@@ -118,6 +118,19 @@ assumption tables ► [P] cost and constraint parameters ─► cost_parameters,
    - **Already installed:** SciPy 1.16.2 (`scipy.optimize.linprog` / `milp`, HiGHS solvers) and NetworkX 3.6.1 (Dijkstra). These cover the first LP/MILP and the shortest paths without new packages.
    - PuLP and OR-Tools (named in the roadmap) are not installed; adding either needs approval.
 7. **Backtest** (roadmap Phases 13/14), then the dashboard last, reading only versioned outputs.
+
+## 6b. How a future decision system would consume each input (status 2026-10-22)
+
+| Input | Consumed as | Available now | Dependency / gap |
+|---|---|---|---|
+| Price forecast + `phase8-error-profile-v1` | destination sale price at W + h; a risk margin from validation error quantiles (not intervals) | yes: persistence cells (Onion h = 1 needs a saved model) | interval method not validated |
+| Arrivals forecast (`phase9-arrivals-forecast-v1`) | volume caps: buy ≤ α × source arrivals, sell ≤ β × destination arrivals, times an assumed number of trading days | yes: provisional persistence, validation-evaluated | α, β and trading days are assumptions; magnitudes include unflagged unit errors (use robust caps) |
+| District production context (APY lag 2) | coarse sourcing-region availability, annual | yes: Phase 6 features | missing for 51% / 34% / 4% of rows (Onion / Potato / Wheat); annual, district grain |
+| Market coordinates | graph nodes | 46 admin2-verified district points only | most markets have no verified coordinates; never guess (D-16) |
+| Route costs | transport cost per tonne on each edge | no | no road network or sourced Rs per tonne-km |
+| Transport, storage, mandi-fee, spoilage and capacity parameters | the cost terms and constraints | no | each needs a sourced value or an explicit, approved assumption |
+
+**Optimisation is not ready.** The price and arrivals components exist, but costs, coordinates and capacities do not. No Dijkstra or MILP is implemented.
 
 ## 7. Open decisions for the project owner
 

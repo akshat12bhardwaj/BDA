@@ -347,3 +347,38 @@ All other cells had no candidate passing all four.
 
 RMSE improved in both years. Any change to the selection would need a new decision, and new evidence beyond 2019–2022.
 **Phase**: 8.
+
+### D-43 — [ACCEPTED 2026-10-22 by the project owner; proposed earlier the same day] Phase 9 arrivals target, protocol and baseline
+**Proposal**:
+- **Target:** the weekly median of usable daily arrivals of a series, in **tonnes per reported day**. Series = (crop, state, district, market, variety) as in D-33. Not a weekly sum, and not demand (A-02).
+- **Weeks and horizons:** Monday–Sunday weeks; the origin is the end of Sunday of week W; horizons h = 1, 2 and 4 weeks (as D-38).
+- **Missing reports:** a day without a record is "not reported", **never zero arrivals**. A target week without a usable record yields no example. Genuine reported zeros stay 0.
+- **Periods:** train on targets ending 2002–2018; validate on 2019 and 2020, reported separately and combined. Quarterly expanding refits, with training targets ending ≤ the refit date (as D-40). 2021–2022 is reserved as a test; 2023+ is the holdout. Phase 9 code reads no data after 2020-12-27.
+- **Eligibility:** ≥ 365 distinct usable arrival dates, counted on or before the origin for evaluation and on or before the refit date for training (the D-41 approach applied to arrivals).
+- **Baseline:** **persistence** (the origin-week median) is the primary baseline and the provisional forecast in `phase9-arrivals-forecast-v1`.
+- **Wheat calendar adjustment:** calendar-adjusted persistence for Wheat is **exploratory** until its uncertainty is assessed (`Phase_09_Arrivals_Plan.md` §10).
+**Evidence**: `Phase_09_Arrivals_Plan.md` §1 (data audit) and §9 (validation baselines).
+**Status**: proposed 2026-10-22 for project-owner review; **accepted 2026-10-22 by the project owner without change**. The proposal text above is kept as written.
+**Accepted form and audit notes**:
+- All definitions above stand as written.
+- **Eligibility** counts Phase 5 `usable_arrivals` dates. The AQ-1 quality flags (proposed separately) do **not** change eligibility or any input used at the forecast origin; see `Phase_09_Arrivals_Plan.md` §12.
+- **Reserved periods:** 2021–2022 and 2023+ stay untouched. No Phase 9 code reads data after 2020-12-27.
+- **Not decided here:** the Wheat calendar adjustment stays exploratory, and no learned arrivals model is selected or authorised.
+**Phase**: 9.
+
+### D-44 — [ACCEPTED 2026-10-22 by the project owner; proposed earlier the same day] Phase 9 learned-arrivals experiment protocol
+**Proposal**: `phase9-arrivals-protocol-v1` (`Phase_09_Model_Protocol.md`):
+- **Candidates:** Ridge and the Phase 8 conservative HGB. The baseline is persistence; calendar adjustment is exploratory only.
+- **Features:** 15 origin-time features, computed from weeks ≤ the origin on the Phase 5 view.
+- **Populations:** AQ-1 v1 `aq1_likely` as primary, with the original as sensitivity.
+- **Evaluation:** log MAE on identical rows, 2019 and 2020 judged separately, paired series/market bootstrap.
+- **Selection:** intervals above 0 in both years, Bonferroni z > 3.197, ≥ 2% gain in each year, and agreement on the original population. Otherwise persistence is kept.
+**Status**: proposed 2026-10-22, when `arrivals_models.PROTOCOL_STATUS` was `"PROPOSED"` and no learned arrivals model could be fitted; **accepted 2026-10-22 by the project owner**. The proposal text above is kept as written. Fitting is authorised only under this exact protocol, with no added candidates, no tuning and no change to the selection rule after results are seen.
+**Accepted together with the open protocol questions** (`Phase_09_Model_Protocol.md` §8), recorded exactly as approved:
+- **U2:** AQ-1 v1 likely-error exclusion (`aq1_likely`) is the primary evaluation-target population. The original population remains a sensitivity analysis.
+- **U3:** the primary analysis uses AQ-1 class-based handling. A separate sensitivity run additionally excludes **all** flagged Madhya Pradesh `provider_query_pending` rows from targets. It is reported only and is not part of the selection rule.
+- **U4:** the Wheat calendar adjustment stays exploratory and cannot be selected as a learned model.
+- **U5:** approved runs use the existing Python 3.13 runner (`Code/utils/run_phase09_notebook.py`). The Jupyter configuration is not changed.
+- **U6:** the Madhya Pradesh data-provider query stays **drafted and unsent**.
+**Implementation**: `arrivals_models.PROTOCOL_STATUS = "APPROVED"`. `require_approved()` also checks that this entry's heading reads ACCEPTED.
+**Phase**: 9.

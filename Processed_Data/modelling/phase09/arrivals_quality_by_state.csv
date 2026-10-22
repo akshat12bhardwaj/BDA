@@ -1,0 +1,308 @@
+crop,state,aq1_class,rows
+Onion,Madhya Pradesh,sustained_shift,2728
+Onion,Uttar Pradesh,sustained_shift,2473
+Onion,Haryana,sustained_shift,1930
+Onion,Maharashtra,sustained_shift,1798
+Onion,Punjab,sustained_shift,1591
+Onion,Gujarat,sustained_shift,1519
+Onion,Odisha,sustained_shift,1000
+Onion,Rajasthan,sustained_shift,806
+Onion,Uttar Pradesh,isolated_spike,787
+Onion,Andhra Pradesh,sustained_shift,743
+Onion,Karnataka,sustained_shift,702
+Onion,Punjab,isolated_spike,679
+Onion,Haryana,isolated_spike,612
+Onion,West Bengal,sustained_shift,553
+Onion,Telangana,sustained_shift,482
+Onion,Madhya Pradesh,likely_unit_error_low,375
+Onion,Madhya Pradesh,isolated_spike,374
+Onion,Maharashtra,likely_unit_error_low,358
+Onion,Maharashtra,isolated_spike,246
+Onion,Kerala,sustained_shift,242
+Onion,Uttrakhand,sustained_shift,238
+Onion,Odisha,isolated_spike,225
+Onion,Karnataka,isolated_spike,224
+Onion,Assam,sustained_shift,144
+Onion,Kerala,isolated_spike,134
+Onion,NCT of Delhi,sustained_shift,127
+Onion,Bihar,isolated_spike,115
+Onion,Jharkhand,sustained_shift,112
+Onion,West Bengal,isolated_spike,105
+Onion,Gujarat,isolated_spike,101
+Onion,Andhra Pradesh,likely_unit_error_low,95
+Onion,Madhya Pradesh,likely_unit_error,93
+Onion,Punjab,likely_unit_error_low,88
+Onion,Bihar,sustained_shift,86
+Onion,Jammu and Kashmir,sustained_shift,83
+Onion,Rajasthan,isolated_spike,76
+Onion,Punjab,likely_unit_error,71
+Onion,Andhra Pradesh,isolated_spike,65
+Onion,Uttar Pradesh,likely_unit_error,62
+Onion,Uttrakhand,isolated_spike,60
+Onion,Karnataka,likely_unit_error_low,57
+Onion,Assam,likely_unit_error_low,52
+Onion,Bihar,likely_unit_error,44
+Onion,Himachal Pradesh,isolated_spike,38
+Onion,NCT of Delhi,isolated_spike,38
+Onion,Odisha,likely_unit_error_low,38
+Onion,Gujarat,likely_unit_error_low,37
+Onion,Himachal Pradesh,sustained_shift,36
+Onion,Uttar Pradesh,likely_unit_error_low,35
+Onion,Madhya Pradesh,likely_unit_error_forward_only,35
+Onion,Assam,likely_unit_error,33
+Onion,Assam,isolated_spike,32
+Onion,Telangana,likely_unit_error_low,30
+Onion,Haryana,likely_unit_error,28
+Onion,Telangana,isolated_spike,27
+Onion,Haryana,likely_unit_error_low,27
+Onion,Odisha,likely_unit_error,25
+Onion,Jammu and Kashmir,isolated_spike,24
+Onion,NCT of Delhi,likely_unit_error,21
+Onion,NCT of Delhi,likely_unit_error_low,21
+Onion,Jharkhand,isolated_spike,20
+Onion,Punjab,likely_unit_error_forward_only,19
+Onion,Uttar Pradesh,likely_unit_error_forward_only,18
+Onion,Kerala,likely_unit_error_low,14
+Onion,Andhra Pradesh,likely_unit_error,13
+Onion,Rajasthan,likely_unit_error_forward_only,12
+Onion,Gujarat,likely_unit_error_forward_only,11
+Onion,Chattisgarh,sustained_shift,10
+Onion,Uttrakhand,likely_unit_error_low,10
+Onion,Maharashtra,likely_unit_error,10
+Onion,Kerala,likely_unit_error,9
+Onion,Maharashtra,likely_unit_error_forward_only,9
+Onion,Haryana,likely_unit_error_forward_only,8
+Onion,Andhra Pradesh,likely_unit_error_forward_only,7
+Onion,Karnataka,likely_unit_error,7
+Onion,West Bengal,likely_unit_error_low,7
+Onion,Tripura,sustained_shift,6
+Onion,Goa,likely_unit_error_low,6
+Onion,Jharkhand,likely_unit_error_low,6
+Onion,Tripura,isolated_spike,5
+Onion,Rajasthan,likely_unit_error_low,5
+Onion,Odisha,likely_unit_error_forward_only,5
+Onion,Tripura,likely_unit_error,5
+Onion,Telangana,likely_unit_error_forward_only,5
+Onion,Chandigarh,sustained_shift,4
+Onion,Bihar,likely_unit_error_forward_only,4
+Onion,Kerala,likely_unit_error_forward_only,4
+Onion,Jharkhand,likely_unit_error,3
+Onion,Chattisgarh,isolated_spike,3
+Onion,Goa,isolated_spike,3
+Onion,Chandigarh,isolated_spike,3
+Onion,Himachal Pradesh,likely_unit_error,3
+Onion,West Bengal,likely_unit_error,3
+Onion,Rajasthan,likely_unit_error,2
+Onion,Manipur,isolated_spike,2
+Onion,Nagaland,likely_unit_error_low,2
+Onion,Jammu and Kashmir,likely_unit_error_low,2
+Onion,Himachal Pradesh,likely_unit_error_low,2
+Onion,Assam,likely_unit_error_forward_only,2
+Onion,Jammu and Kashmir,likely_unit_error_forward_only,2
+Onion,Telangana,likely_unit_error,2
+Onion,Karnataka,likely_unit_error_forward_only,2
+Onion,Goa,likely_unit_error_forward_only,1
+Onion,Gujarat,likely_unit_error,1
+Onion,Jharkhand,likely_unit_error_forward_only,1
+Onion,Nagaland,sustained_shift,1
+Onion,Tamil Nadu,likely_unit_error_forward_only,1
+Onion,West Bengal,likely_unit_error_forward_only,1
+Potato,Uttar Pradesh,sustained_shift,4020
+Potato,Punjab,sustained_shift,2401
+Potato,Haryana,sustained_shift,1929
+Potato,West Bengal,sustained_shift,1202
+Potato,Odisha,sustained_shift,954
+Potato,Madhya Pradesh,sustained_shift,894
+Potato,Uttar Pradesh,isolated_spike,856
+Potato,Punjab,isolated_spike,805
+Potato,Karnataka,sustained_shift,623
+Potato,Haryana,isolated_spike,479
+Potato,Maharashtra,sustained_shift,375
+Potato,West Bengal,isolated_spike,361
+Potato,Odisha,isolated_spike,324
+Potato,Gujarat,sustained_shift,298
+Potato,Uttrakhand,sustained_shift,292
+Potato,Karnataka,isolated_spike,253
+Potato,Jharkhand,sustained_shift,240
+Potato,Assam,sustained_shift,215
+Potato,Himachal Pradesh,sustained_shift,194
+Potato,Madhya Pradesh,isolated_spike,192
+Potato,Tripura,sustained_shift,186
+Potato,Kerala,sustained_shift,160
+Potato,Uttar Pradesh,likely_unit_error_low,137
+Potato,Andhra Pradesh,sustained_shift,130
+Potato,Tripura,isolated_spike,129
+Potato,Rajasthan,sustained_shift,118
+Potato,NCT of Delhi,sustained_shift,118
+Potato,Uttrakhand,isolated_spike,109
+Potato,Telangana,sustained_shift,109
+Potato,Maharashtra,isolated_spike,104
+Potato,Punjab,likely_unit_error,100
+Potato,Kerala,isolated_spike,98
+Potato,Assam,likely_unit_error_low,88
+Potato,Gujarat,isolated_spike,80
+Potato,Uttar Pradesh,likely_unit_error,79
+Potato,Himachal Pradesh,isolated_spike,70
+Potato,Bihar,likely_unit_error,70
+Potato,Bihar,isolated_spike,66
+Potato,Bihar,sustained_shift,65
+Potato,Jammu and Kashmir,sustained_shift,62
+Potato,Punjab,likely_unit_error_low,53
+Potato,Jammu and Kashmir,isolated_spike,43
+Potato,NCT of Delhi,likely_unit_error,43
+Potato,Uttar Pradesh,likely_unit_error_forward_only,42
+Potato,Assam,isolated_spike,42
+Potato,Haryana,likely_unit_error_low,37
+Potato,Odisha,likely_unit_error_low,37
+Potato,Rajasthan,isolated_spike,37
+Potato,NCT of Delhi,isolated_spike,33
+Potato,NCT of Delhi,likely_unit_error_low,32
+Potato,Maharashtra,likely_unit_error_low,31
+Potato,Odisha,likely_unit_error,30
+Potato,Madhya Pradesh,likely_unit_error_low,28
+Potato,Haryana,likely_unit_error,26
+Potato,Jharkhand,isolated_spike,25
+Potato,Assam,likely_unit_error,25
+Potato,Meghalaya,sustained_shift,24
+Potato,Telangana,likely_unit_error_low,22
+Potato,Gujarat,likely_unit_error_low,17
+Potato,West Bengal,likely_unit_error,17
+Potato,Maharashtra,likely_unit_error,17
+Potato,Haryana,likely_unit_error_forward_only,16
+Potato,Madhya Pradesh,likely_unit_error_forward_only,12
+Potato,Meghalaya,isolated_spike,12
+Potato,Goa,sustained_shift,11
+Potato,Uttrakhand,likely_unit_error_low,11
+Potato,Karnataka,likely_unit_error_low,10
+Potato,Punjab,likely_unit_error_forward_only,10
+Potato,Rajasthan,likely_unit_error_low,10
+Potato,Jharkhand,likely_unit_error_low,9
+Potato,Gujarat,likely_unit_error,8
+Potato,Chandigarh,sustained_shift,8
+Potato,Bihar,likely_unit_error_forward_only,8
+Potato,Andhra Pradesh,isolated_spike,8
+Potato,Rajasthan,likely_unit_error_forward_only,7
+Potato,Tripura,likely_unit_error,7
+Potato,Telangana,isolated_spike,7
+Potato,Himachal Pradesh,likely_unit_error_low,6
+Potato,West Bengal,likely_unit_error_low,6
+Potato,Kerala,likely_unit_error,6
+Potato,Kerala,likely_unit_error_low,5
+Potato,Gujarat,likely_unit_error_forward_only,5
+Potato,Karnataka,likely_unit_error,5
+Potato,Himachal Pradesh,likely_unit_error,5
+Potato,Chattisgarh,isolated_spike,5
+Potato,Odisha,likely_unit_error_forward_only,4
+Potato,Chattisgarh,sustained_shift,4
+Potato,Goa,likely_unit_error_low,4
+Potato,Jammu and Kashmir,likely_unit_error_low,4
+Potato,Karnataka,likely_unit_error_forward_only,4
+Potato,Nagaland,sustained_shift,4
+Potato,Tripura,likely_unit_error_forward_only,4
+Potato,Assam,likely_unit_error_forward_only,3
+Potato,Chandigarh,isolated_spike,3
+Potato,Rajasthan,likely_unit_error,3
+Potato,Madhya Pradesh,likely_unit_error,3
+Potato,Maharashtra,likely_unit_error_forward_only,3
+Potato,Jharkhand,likely_unit_error,2
+Potato,Goa,isolated_spike,2
+Potato,Arunachal Pradesh,likely_unit_error_low,1
+Potato,Andhra Pradesh,likely_unit_error_forward_only,1
+Potato,Andhra Pradesh,likely_unit_error_low,1
+Potato,Jammu and Kashmir,likely_unit_error,1
+Potato,Nagaland,likely_unit_error_forward_only,1
+Potato,Nagaland,isolated_spike,1
+Potato,Meghalaya,likely_unit_error_low,1
+Potato,Manipur,isolated_spike,1
+Potato,Kerala,likely_unit_error_forward_only,1
+Potato,Meghalaya,likely_unit_error_forward_only,1
+Potato,West Bengal,likely_unit_error_forward_only,1
+Wheat,Madhya Pradesh,sustained_shift,30428
+Wheat,Rajasthan,sustained_shift,17618
+Wheat,Uttar Pradesh,sustained_shift,13342
+Wheat,Gujarat,sustained_shift,12606
+Wheat,Maharashtra,sustained_shift,8302
+Wheat,Haryana,sustained_shift,3674
+Wheat,Punjab,sustained_shift,3529
+Wheat,Madhya Pradesh,isolated_spike,3272
+Wheat,Punjab,isolated_spike,2791
+Wheat,Madhya Pradesh,likely_unit_error_low,2435
+Wheat,Haryana,isolated_spike,1920
+Wheat,Rajasthan,isolated_spike,1866
+Wheat,Uttar Pradesh,isolated_spike,1334
+Wheat,Chattisgarh,sustained_shift,1248
+Wheat,Gujarat,isolated_spike,979
+Wheat,NCT of Delhi,sustained_shift,797
+Wheat,Uttrakhand,sustained_shift,764
+Wheat,Maharashtra,isolated_spike,634
+Wheat,Karnataka,sustained_shift,551
+Wheat,West Bengal,sustained_shift,425
+Wheat,Punjab,likely_unit_error_low,386
+Wheat,Haryana,likely_unit_error_low,341
+Wheat,Haryana,likely_unit_error,321
+Wheat,Karnataka,isolated_spike,260
+Wheat,Madhya Pradesh,likely_unit_error,245
+Wheat,Chattisgarh,isolated_spike,241
+Wheat,Punjab,likely_unit_error_forward_only,234
+Wheat,Jharkhand,sustained_shift,219
+Wheat,Punjab,likely_unit_error,212
+Wheat,Bihar,sustained_shift,206
+Wheat,Uttrakhand,isolated_spike,152
+Wheat,Rajasthan,likely_unit_error,148
+Wheat,Haryana,likely_unit_error_forward_only,138
+Wheat,Uttar Pradesh,likely_unit_error_low,122
+Wheat,West Bengal,isolated_spike,116
+Wheat,Gujarat,likely_unit_error,110
+Wheat,NCT of Delhi,isolated_spike,102
+Wheat,Madhya Pradesh,likely_unit_error_forward_only,90
+Wheat,Gujarat,likely_unit_error_low,89
+Wheat,Rajasthan,likely_unit_error_low,89
+Wheat,Uttar Pradesh,likely_unit_error,78
+Wheat,Bihar,isolated_spike,75
+Wheat,Maharashtra,likely_unit_error_low,66
+Wheat,Andhra Pradesh,sustained_shift,66
+Wheat,Rajasthan,likely_unit_error_forward_only,60
+Wheat,Maharashtra,likely_unit_error,43
+Wheat,Bihar,likely_unit_error,43
+Wheat,Jharkhand,isolated_spike,40
+Wheat,Odisha,sustained_shift,38
+Wheat,Karnataka,likely_unit_error,35
+Wheat,Uttar Pradesh,likely_unit_error_forward_only,31
+Wheat,Chattisgarh,likely_unit_error,28
+Wheat,Gujarat,likely_unit_error_forward_only,27
+Wheat,Assam,sustained_shift,25
+Wheat,Odisha,isolated_spike,21
+Wheat,Chattisgarh,likely_unit_error_forward_only,19
+Wheat,Chattisgarh,likely_unit_error_low,17
+Wheat,Andhra Pradesh,isolated_spike,15
+Wheat,Assam,isolated_spike,13
+Wheat,Andhra Pradesh,likely_unit_error_low,11
+Wheat,Jharkhand,likely_unit_error_low,10
+Wheat,Andhra Pradesh,likely_unit_error_forward_only,9
+Wheat,Maharashtra,likely_unit_error_forward_only,9
+Wheat,Telangana,sustained_shift,8
+Wheat,Kerala,isolated_spike,7
+Wheat,Telangana,isolated_spike,7
+Wheat,Uttrakhand,likely_unit_error_low,5
+Wheat,Odisha,likely_unit_error_forward_only,4
+Wheat,West Bengal,likely_unit_error_forward_only,4
+Wheat,Karnataka,likely_unit_error_low,3
+Wheat,Karnataka,likely_unit_error_forward_only,3
+Wheat,West Bengal,likely_unit_error,3
+Wheat,Uttrakhand,likely_unit_error_forward_only,3
+Wheat,West Bengal,likely_unit_error_low,3
+Wheat,NCT of Delhi,likely_unit_error_low,3
+Wheat,Andhra Pradesh,likely_unit_error,2
+Wheat,Assam,likely_unit_error_forward_only,2
+Wheat,Himachal Pradesh,likely_unit_error_low,2
+Wheat,Goa,sustained_shift,2
+Wheat,Kerala,likely_unit_error_low,2
+Wheat,NCT of Delhi,likely_unit_error,2
+Wheat,Uttrakhand,likely_unit_error,2
+Wheat,Odisha,likely_unit_error,2
+Wheat,Bihar,likely_unit_error_forward_only,1
+Wheat,Kerala,likely_unit_error,1
+Wheat,Kerala,sustained_shift,1
+Wheat,Jharkhand,likely_unit_error,1
+Wheat,Jharkhand,likely_unit_error_forward_only,1
+Wheat,Nagaland,likely_unit_error_low,1

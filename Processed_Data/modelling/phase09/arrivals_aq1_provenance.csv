@@ -1,0 +1,15 @@
+key,value
+aq1_version,AQ-1 v1
+input_cutoff,2020-12-27
+test_period_scored,False
+holdout_accessed,False
+thresholds,"review 10.0x, error 100.0x (unit factors, D-29/D-30)"
+references,prev 13 reported weeks (min 4); next 4 (min 2)
+variants,"original, aq1_likely, aq1_likely_and_spikes, aq1_wheat_marmay_review_except_unitsig, aq1_wheat_marmay_review_all"
+phase5_outputs_modified,False
+models_fitted,calendar month factors only
+input_sha256 features_onion.parquet,c480a5985b388c5afe374eb67a75f60c236c2abcb269a5dd0adb5aa8ce5035f9
+input_sha256 features_potato.parquet,3909e59f9237098b1f49f900cb02d62993a8cda350eaf89fbf3c89cad58fc22f
+input_sha256 features_wheat.parquet,a01beaee619c496ee3ca7156a1bc79a06d863a4483de3b8638bd3b15e55c4beb
+input_sha256 feature_registry.csv,ff9f4de46e4e52a7aa445e91f3b387a53a20f949f158a84c5f2f8d433f1d0340
+seconds,142.8

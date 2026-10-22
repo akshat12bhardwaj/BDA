@@ -1,0 +1,2 @@
+rows_tiny_mp_2019_2020,markets,series,districts,share_of_mp_2019_2020_rows_pct,value_counts,aq1_class_counts,with_usable_price_same_row_pct,series_median_level_of_affected_series_t,first_date,last_date
+2162,96,109,37,2.524,0.01 t: 971; 0.1 t: 932; 0.05 t: 193; 0.02 t: 43; 0.04 t: 7; 0.03 t: 7,likely_unit_error_low: 1475; ok: 685; likely_unit_error_forward_only: 1; unscreenable: 1,100.0,22.68,2019-01-01,2020-12-27

@@ -1,0 +1,31 @@
+crop,state,district,market,variety,reported_date,arrivals_tonnes,prev_ref,next_ref,r_prev,r_next,unit_factor_signature,arrivals_extreme_level
+Onion,Uttar Pradesh,Hardoi,Hardoi,Other,2011-12-13,32566.0,10.0,17.5,3256.6,1860.9142857142858,False,none
+Onion,Punjab,Jalandhar,Jalandhar City,Medium,2006-06-19,30010.0,193.3,145.125,155.2509053285049,206.78725236864773,False,review
+Onion,Madhya Pradesh,Dhar,Rajgarh,Other,2017-06-28,24624.0,8.0,4.5,3078.0,5472.0,False,none
+Onion,Madhya Pradesh,Dhar,Rajgarh,Other,2017-06-20,22235.0,8.0,5.5,2779.375,4042.7272727272725,False,none
+Onion,Madhya Pradesh,Dhar,Rajgarh,Other,2018-06-25,20180.0,15.5,177.0,1301.9354838709678,114.01129943502825,True,none
+Onion,Madhya Pradesh,Dhar,Rajgarh,Other,2017-06-24,19769.0,8.0,5.5,2471.125,3594.3636363636365,False,none
+Onion,Uttar Pradesh,Gorakhpur,Gorakhpur,Red,2016-05-09,18000.0,160.0,180.0,112.5,100.0,True,review
+Onion,Madhya Pradesh,Dhar,Rajgarh,Other,2017-06-22,15730.0,8.0,5.5,1966.25,2860.0,False,none
+Onion,Madhya Pradesh,Dhar,Rajgarh,Other,2017-06-19,14380.0,8.0,5.5,1797.5,2614.5454545454545,False,none
+Onion,Rajasthan,Jodhpur,Jodhpur(F&V)(Bhadwasia),Red,2002-03-14,12994.0,32.15,118.10499999999999,404.16796267496113,110.02074425299523,False,insufficient_history
+Potato,Gujarat,Surat,Surat,Other,2004-03-04,212350.0,125.0,312.5,1698.8,679.52,False,none
+Potato,West Bengal,Burdwan,Katwa,Jyoti,2009-03-06,98564.0,56.0,382.75,1760.0714285714287,257.5153494448073,False,none
+Potato,West Bengal,Burdwan,Katwa,Jyoti,2009-03-05,95842.0,56.0,382.75,1711.4642857142858,250.4036577400392,False,review
+Potato,West Bengal,Burdwan,Katwa,Jyoti,2007-03-21,76248.0,144.0,382.5,529.5,199.34117647058824,False,none
+Potato,Gujarat,Surat,Surat,Other,2004-03-23,65320.0,160.0,322.5,408.25,202.54263565891472,False,none
+Potato,West Bengal,Burdwan,Katwa,Jyoti,2010-03-08,65075.0,58.0,592.5,1121.9827586206898,109.83122362869199,True,none
+Potato,West Bengal,Burdwan,Katwa,Jyoti,2010-03-10,60225.0,58.0,592.5,1038.3620689655172,101.64556962025317,True,none
+Potato,West Bengal,Burdwan,Katwa,Jyoti,2007-03-23,55362.0,144.0,382.5,384.4583333333333,144.7372549019608,False,none
+Potato,West Bengal,Burdwan,Guskara,Jyoti,2010-03-11,55330.0,55.5,78.0,996.936936936937,709.3589743589744,True,none
+Potato,West Bengal,Burdwan,Guskara,Jyoti,2010-03-10,54070.0,55.5,78.0,974.2342342342342,693.2051282051282,True,none
+Wheat,Uttar Pradesh,Siddharth Nagar,Naugarh,Other,2011-06-23,821160.0,77.5,74.625,10595.612903225807,11003.819095477387,True,review
+Wheat,Punjab,Muktsar,Bariwala,Other,2009-01-12,612951.0,3942.8,2350.0,155.4608400121741,260.83021276595747,False,review
+Wheat,Uttar Pradesh,Lakhimpur,Lakhimpur,Dara,2003-04-27,608550.0,72.5,682.5,8393.793103448275,891.6483516483516,True,review
+Wheat,Uttar Pradesh,Varanasi,Varanasi(Grain),Dara,2006-10-04,350430.0,505.0,508.75,693.9207920792079,688.8058968058969,False,review
+Wheat,Uttar Pradesh,Lalitpur,Lalitpur,Dara,2006-05-12,300330.0,157.0,245.0,1912.9299363057326,1225.8367346938776,False,none
+Wheat,Uttar Pradesh,Lalitpur,Lalitpur,Farmi,2006-05-12,300330.0,157.0,245.0,1912.9299363057326,1225.8367346938776,False,none
+Wheat,Haryana,Kaithal,Cheeka,Other,2016-04-11,279545.0,721.5,2700.0,387.44975744975744,103.53518518518518,False,none
+Wheat,Madhya Pradesh,Hoshangabad,Semriharchand,Other,2012-05-14,250064.0,195.0,359.025,1282.3794871794871,696.5085996796881,True,review
+Wheat,Gujarat,Vadodara(Baroda),Vadodara,Lokwan,2015-10-08,249704.67,298.405,459.65000000000003,836.7978753707212,543.2495812030893,True,none
+Wheat,Gujarat,Vadodara(Baroda),Vadodara,Sonalika,2015-10-08,249704.67,298.405,459.65000000000003,836.7978753707212,543.2495812030893,True,none

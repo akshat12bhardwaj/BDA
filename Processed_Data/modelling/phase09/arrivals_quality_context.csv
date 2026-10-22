@@ -1,0 +1,10 @@
+crop,aq1_class,rows,unit_factor_signature,tiny_value
+Onion,likely_unit_error,435,204,0
+Onion,likely_unit_error_forward_only,147,0,35
+Onion,likely_unit_error_low,1267,404,623
+Potato,likely_unit_error,447,216,0
+Potato,likely_unit_error_forward_only,123,0,25
+Potato,likely_unit_error_low,550,221,289
+Wheat,likely_unit_error,1276,420,0
+Wheat,likely_unit_error_forward_only,635,0,61
+Wheat,likely_unit_error_low,3585,1118,2008

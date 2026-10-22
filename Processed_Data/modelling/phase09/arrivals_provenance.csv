@@ -1,0 +1,8 @@
+key,value
+input_cutoff,2020-12-27
+test_period_scored,False
+holdout_accessed,False
+target,"median usable daily mandi arrivals in the target week, tonnes per reported day (supply-side market activity proxy; not consumer demand)"
+min_usable_arrival_dates,365
+models_fitted,calendar month factors only
+seconds,21.4

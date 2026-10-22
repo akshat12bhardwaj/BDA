@@ -1,0 +1,47 @@
+{
+  "protocol_version": "phase9-arrivals-protocol-v1",
+  "status": "PROPOSED",
+  "seed": 20261022,
+  "cutoff": "2020-12-27",
+  "candidates": {
+    "ridge": "[('simpleimputer', SimpleImputer(add_indicator=True, strategy='median')), ('standardscaler', StandardScaler()), ('ridge', Ridge())]",
+    "hgb_conservative": "{'categorical_features': 'from_dtype', 'early_stopping': False, 'interaction_cst': None, 'l2_regularization': 10.0, 'learning_rate': 0.05, 'loss': 'squared_error', 'max_bins': 255, 'max_depth': None, 'max_features': 1.0, 'max_iter': 200, 'max_leaf_nodes': 15, 'min_samples_leaf': 1000, 'monotonic_cst': None, 'n_iter_no_change': 10, 'quantile': None, 'random_state': 0, 'scoring': 'loss', 'tol': 1e-07, 'validation_fraction': 0.1, 'verbose': 0, 'warm_start': False}"
+  },
+  "baseline": "persistence",
+  "exploratory": [
+    "calendar_adjusted_persistence"
+  ],
+  "features": [
+    "f_log_origin",
+    "f_origin_reported_days",
+    "f_log_n_dates",
+    "f_lag1_logratio",
+    "f_lag2_logratio",
+    "f_lag4_logratio",
+    "f_lag52_logratio",
+    "f_med4_logratio",
+    "f_med13_logratio",
+    "f_weeks_reported_13",
+    "f_has_price",
+    "f_price_logchange_4w",
+    "tw_month_sin",
+    "tw_month_cos",
+    "tw_week_of_year"
+  ],
+  "primary_population": "aq1_likely",
+  "sensitivity_population": "original",
+  "metric": "log MAE (log1p)",
+  "min_rel_improvement_pct": 2.0,
+  "bonferroni_family": 36,
+  "z_bonferroni": 3.197,
+  "validation_years": [
+    "val_2019",
+    "val_2020"
+  ],
+  "environment": {
+    "python": "3.13.7",
+    "pandas": "2.3.3",
+    "numpy": "2.3.3",
+    "scikit_learn": "1.8.0"
+  }
+}

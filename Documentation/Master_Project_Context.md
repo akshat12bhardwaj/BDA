@@ -22,7 +22,7 @@ Build a data-driven agricultural trading decision-support system for Indian agri
 | 6 | Feature Engineering | **[COMPLETED]** (17 notebook checks + 45 tests pass; see Section 8h) |
 | 7 | EDA | **[COMPLETED]** (17 notebook checks + 57 tests pass; see Section 8j) |
 | 8 | Price Forecasting | **[IN PROGRESS — dataset builder, baselines, calendar benchmarks, Ridge/HGB validated on 2019–2020, bootstrap intervals vs persistence, one conservative HGB run; selection frozen (D-42); 2021–2022 test run once (§N): Onion h = 1 HGB −1.6% MAE vs persistence, all other cells persistence; 2023+ holdout unscored]** |
-| 9 | Market Activity Modeling | [FUTURE] |
+| 9 | Market Activity Modeling | **[IN PROGRESS — D-43 protocol accepted; baselines (persistence is the benchmark), AQ-1 v1 quality flags and original-vs-AQ-1 comparison on validation only; provisional output contract `phase9-arrivals-forecast-v1`; no learned model; test/holdout untouched]** |
 | 10 | Supply Prediction | [FUTURE] |
 | 11 | Logistics / Dijkstra | [FUTURE] |
 | 12 | MILP Optimization | [FUTURE] |
@@ -72,7 +72,11 @@ BDA/
 │   │   ├── uncertainty.py                            (paired series-cluster bootstrap vs persistence: run_uncertainty())
 │   │   ├── final_evaluation.py                       (frozen D-42 selection, one-time 2021–2022 test: run_test_evaluation())
 │   │   ├── forecast_output.py                        (forecast output contract phase8-forecast-v1; batch, not a live service)
-│   │   └── error_profile.py                          (validation-only empirical error profile phase8-error-profile-v1)
+│   │   ├── error_profile.py                          (validation-only empirical error profile phase8-error-profile-v1)
+│   │   ├── arrivals.py                               (Phase 9: weekly arrivals dataset, validation baselines + bootstrap, phase9-arrivals-forecast-v1)
+│   │   ├── arrivals_quality.py                       (Phase 9: read-only arrivals quality audit, AQ-1 screen)
+│   │   ├── arrivals_aq1.py                           (Phase 9: AQ-1 v1 derived flag table, leakage-safe baseline variants)
+│   │   └── arrivals_models.py                        (Phase 9: learned-arrivals protocol D-44, approved; gate checks status + decision log)
 │   ├── eda/                                          (Phase 7)
 │   │   └── analysis.py                               (EDA summary computations: run_eda())
 │   ├── features/                                     (Phase 6)
@@ -96,7 +100,8 @@ BDA/
 │   ├── Phase_04_Data_Integration.ipynb               (executed, 0 errors, all validation checks + 16 tests passed)
 │   ├── Phase_05_Data_Cleaning.ipynb                  (executed, 0 errors, 29 checks + 31 tests passed)
 │   ├── Phase_06_Feature_Engineering.ipynb            (executed, 0 errors, 17 checks + 45 tests passed)
-│   └── Phase_07_EDA.ipynb                            (executed, 0 errors, 17 checks + 57 tests passed)
+│   ├── Phase_07_EDA.ipynb                            (executed, 0 errors, 17 checks + 57 tests passed)
+│   └── Phase_09_Arrivals_Model_Experiments.ipynb     (Phase 9; run with Python 3.13 via Code/utils/run_phase09_notebook.py; D-44 approved)
 ├── Processed_Data/
 │   ├── phase1_mandi_file_record_counts.csv           (325-row cache: crop → approx record count)
 │   ├── crop_name_mapping.csv                         (320 rows: normalization result per candidate)
@@ -150,6 +155,9 @@ BDA/
     ├── Phase_08_Modelling_Plan.md   (Phase 8 plan, results, close-out §O, holdout protocol §P)
     ├── Phase_09_Integration_Plan.md (proposal: forecast → decision-support contracts)
     ├── Forecast_Output_Contract.md  (phase8-forecast-v1 schema/rules + phase8-error-profile-v1)
+    ├── Phase_09_Arrivals_Plan.md    (Phase 9 data audit, target/protocol, baseline results)
+    ├── Arrivals_Forecast_Contract.md (phase9-arrivals-forecast-v1; provisional persistence)
+    ├── Phase_09_Model_Protocol.md   (learned-arrivals protocol, APPROVED as D-44 with U2–U6; run instructions)
     └── Future_Work_Roadmap.md
 ```
 
