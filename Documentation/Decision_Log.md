@@ -232,7 +232,7 @@ Records major technical decisions as they are made. Never retroactively rewritte
 **Reason**: Harvest timing differs by crop and region, and no verified crop calendar exists in the project. The IMD seasons are a documented meteorological definition and do not claim to describe harvests.
 **Phase**: 6.
 
-### D-38 — [PROPOSED, for review before Phase 8] Forecast target, horizon and information cutoff
+### D-38 — [ACCEPTED in Phase 8 planning; proposed in Phase 7] Forecast target, horizon and information cutoff
 **Proposal**:
 - **Primary Phase 8 task:** the weekly median usable modal price of a series (crop × market × variety), h = 1, 2 and 4 weeks ahead (≈ 7–28 days).
 - **Forecast origin:** the end of week W, using only information dated on or before the origin.
@@ -241,20 +241,34 @@ Records major technical decisions as they are made. Never retroactively rewritte
 - **Phase 6 feature calculations stay unchanged;** any aggregation of features must keep the ≤ origin cutoff.
 **Evidence**: An exact target day is observed only 55–78% of the time (at 30 days: 55% Wheat, 63% Onion, 66% Potato), against 81–92% for a target calendar week. The median gap between observations is 1 day and the p90 is 3–4 days (`Processed_Data/eda/horizon_feasibility.csv`, `weekly_horizon_feasibility.csv`).
 **Alternatives considered**: Exact-day targets — rejected (biases evaluation toward regular reporters); next-observation only — kept as a baseline, but its irregular horizon does not match the 7–30-day planning need.
-**Status**: Proposed in Phase 7; to be confirmed or amended in Phase 8 planning.
-**Phase**: 7.
+**Status**: Proposed in Phase 7; **accepted without change in Phase 8 planning (2026-10-22)**.
+**Accepted form**:
+- Primary target: weekly median usable modal price per series. The series key is D-33's (crop, state, district, market, variety), written "crop × market × variety" above.
+- Horizons h = 1, 2 and 4 weeks. Weeks run Monday–Sunday, as in Phase 7.
+- Forecast origin: the end of week W. Only information dated on or before the origin may be used.
+- No exact future calendar-day price as the primary target. Next-reported-observation forecasting is kept as a secondary baseline.
+- Phase 6 feature calculations are preserved, and any aggregation or selection of predictors respects the origin cutoff.
+- Construction rules: `Phase_08_Modelling_Plan.md` §A.3 and §B.
+**Phase**: 7 (proposed); 8 planning (accepted).
 
-### D-39 — [PROPOSED, for review before Phase 8] Treatment of flagged observations
+### D-39 — [ACCEPTED in Phase 8 planning; proposed in Phase 7] Treatment of flagged observations
 **Proposal**:
 - Use only `usable_modal_price` / `usable_arrivals` rows for targets and history. This excludes suspected scale/entry errors and the 338 unresolved conflicts.
 - Keep Phase 5 `review` rows in the primary experiments.
 - Run a sensitivity analysis without `review` targets.
 - Never delete flagged rows.
 **Evidence**: Review rows are 0.86% / 0.09% / 0.02% of usable prices (Onion / Potato / Wheat). They leave medians and p99 almost unchanged but raise standard deviations by about 7% (Onion) and 13% (Potato) (`review_flag_effect.csv`).
-**Status**: Proposed in Phase 7.
-**Phase**: 7.
+**Status**: Proposed in Phase 7; **accepted without change in Phase 8 planning (2026-10-22)**.
+**Accepted form**:
+- `usable_modal_price` / `usable_arrivals` eligibility applies to targets and history, as appropriate.
+- Eligible `review` observations stay in the primary experiment.
+- A sensitivity experiment excludes `review` targets: examples whose target week contains a `review` price row are dropped.
+- Flagged source records and audit columns stay intact.
+- Suspected errors and unresolved conflicts are never admitted into usable targets to increase sample size.
+- Details: `Phase_08_Modelling_Plan.md` §A.5.
+**Phase**: 7 (proposed); 8 planning (accepted).
 
-### D-40 — [PROPOSED, for review before Phase 8] Chronological out-of-time evaluation
+### D-40 — [ACCEPTED WITH VALIDATION REPORTING REFINEMENT in Phase 8 planning; proposed in Phase 7] Chronological out-of-time evaluation
 **Proposal**: expanding-window training on 2002–2018, validation on 2019–2020, a single-use test on 2021–2022 (weather and APY available), and a holdout of 2023-01-01 – 2024-02-02 for models without weather.
 - Use rolling (e.g. monthly) forecast origins.
 - Leave a gap of at least the forecast horizon between the last training target and the first test origin.
@@ -262,5 +276,29 @@ Records major technical decisions as they are made. Never retroactively rewritte
 - Report metrics by crop, horizon and series-history group.
 - **No random row splits.**
 **Evidence**: Within-series rank correlation with the previous observation is about 0.95, so random splits would leak neighbouring observations. 87–97% of 2021–2022 active series have earlier history. Weather ends on 2022-12-31, and Wheat reporting fell 27% in 2020 (`split_evidence.csv`, `relationship_summary.csv`).
-**Status**: Proposed in Phase 7; exact years to be confirmed in Phase 8 planning.
-**Phase**: 7.
+**Status**: Proposed in Phase 7; **accepted with a refinement in Phase 8 planning (2026-10-22)**.
+**Accepted form**:
+- Train 2002–2018.
+- Validation 2019 and 2020, with metrics reported **for each year separately and for the combined period**.
+- Test 2021–2022, reserved for one final evaluation.
+- Additional no-weather holdout 2023-01-01 – 2024-02-02, subject to actual target and input availability.
+- Expanding-window training with rolling (weekly) forecast origins and quarterly refits.
+- A horizon-appropriate gap: an example belongs to the period of its target week's Sunday, and training uses only targets that end on or before the refit date.
+- Preprocessing is fitted on training data only. Never a random row split.
+- Collected weather ends on 2022-12-31, so the 2023–2024 holdout uses a no-weather feature configuration.
+**Refinement**: 2020 was an unusual market year (Wheat reporting −27%). Model selection reports 2019 and 2020 separately so a selection driven by 2020 is visible rather than hidden in an aggregate score.
+**Protocol**: `Phase_08_Modelling_Plan.md` §C.
+**Phase**: 7 (proposed); 8 planning (accepted).
+
+### D-41 — [ACCEPTED in Phase 8 planning] Series-inclusion rule for the primary modelling population
+**Decision**: A series (crop, state, district, market, variety) qualifies for the primary Phase 8 population if it has **at least 365 rows with `usable_modal_price == True`**, counted over the full feature-table history. Usable rows are unique per series-date, so this equals 365 distinct usable reporting days.
+**Evidence** (recounted from `Processed_Data/features/features_<crop>.parquet` on 2026-10-22; matches Phase 7 `quality_readiness.csv`): 1,473 / 1,551 / 1,540 series keep 93.27% / 93.00% / 90.55% of usable price rows (Onion / Potato / Wheat).
+**Excluded series**: these are not forgotten. Phase 8 reports their coverage, baseline errors and model errors separately where meaningful.
+**Alternatives considered**: span ≥ 2 years with reporting density ≥ 0.5 (491 / 592 / 335 series; 45% / 51% / 32% of usable rows). Not the primary rule because of the coverage cost; it may become a later sensitivity experiment and is not implemented now.
+**Known caveat**: the full-history count uses information from the evaluation years. Counting only rows dated ≤ 2018-12-31 would keep 1,173 / 1,199 / 1,298 series, all inside the D-41 set. Phase 8 reports this subgroup separately (`Phase_08_Modelling_Plan.md` §A.4, §F).
+**Clarification (Phase 8 implementation, 2026-10-22; requested by the project owner)**:
+- For modelling and evaluation, the rule is applied **at each forecast origin**: a series is in the primary population at origin W when it has ≥ 365 distinct usable price dates dated on or before that origin (`eligible_at_origin` in `Code/modelling/dataset.py`).
+- The full-history count above is retrospective and used for reporting only, never to select examples.
+- The threshold and the counting unit are unchanged; only the information cutoff is made explicit.
+- Series origin-eligible by the end of train (2018-12-30): 1,173 / 1,199 / 1,297. At any origin: 1,473 / 1,551 / 1,540.
+**Phase**: 8 planning; clarified in Phase 8 implementation.

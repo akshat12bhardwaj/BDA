@@ -35,4 +35,6 @@ Only assumptions that actually exist as of the current phase are listed. Each wi
 
 **Status updates (Phase 4)**: A-05 is confirmed at full scale for the selected crops (all 7,983,133 Onion/Potato/Wheat dates are `DD Mon YYYY`, 0 unparsed). A-12 is confirmed: all 10 unresolved locations were spelling or naming variants and are now resolved with admin2 evidence (D-16). A-04 is refined: Agri Market Wheat values are identical to national mandi records where both exist, so it is a key-consistency check, not independent validation (D-23).
 
+**Status updates (Phase 8 planning)**: A-20 is refined by D-38. Phase 6 row features keep their t−1 cutoff and are reused unchanged. Phase 8 forecasts are made at the end of a Monday–Sunday week for target weeks 1, 2 and 4 weeks later, using only rows dated on or before that origin (`Phase_08_Modelling_Plan.md` §B).
+
 No assumptions have yet been made about transport cost, storage cost, warehouse capacity, or market capacity — these will be added in the phases that actually require them (Phase 11+), not fabricated here in advance.

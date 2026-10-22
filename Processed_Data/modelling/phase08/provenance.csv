@@ -1,0 +1,11 @@
+key,value
+git_head,0716ab6df7ac0b2e0983ae7ea83bf71618751a1c
+python,3.13.7
+pandas,2.3.3
+numpy,2.3.3
+horizons_weeks,1 2 4
+min_usable_dates_at_origin,365
+week,Monday-Sunday; origin = end of Sunday
+refits,first Sunday of each quarter; train on targets ending <= refit date
+registry_sha256,ff9f4de46e4e52a7aa445e91f3b387a53a20f949f158a84c5f2f8d433f1d0340
+models_fitted,none

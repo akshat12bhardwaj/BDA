@@ -193,4 +193,9 @@ Produced by `Code/eda/analysis.py:run_eda()` (run from `Notebooks/Phase_07_EDA.i
 | `Documentation/EDA_Findings.md`, `Documentation/Modelling_Readiness_Report.md` | written findings and readiness/decision report |
 | `Outputs/Figures/phase07_*.png` (6) | nominal price trend, seasonal price/arrivals, series history, horizon feasibility, APY association, split evidence |
 
-No model or forecast exists yet. Those begin in Phase 8, after D-38 – D-40 are reviewed.
+No model or forecast exists yet. D-38 – D-41 were accepted in Phase 8 planning. The planned Phase 8 inputs and outputs are listed in `Phase_08_Modelling_Plan.md`.
+
+**Phase 8 dataset builder (implemented):**
+- `Code/modelling/dataset.py:run_build()` reads `Processed_Data/features/features_<crop>.parquet` and `features_audit/feature_registry.csv`, read-only and hash-checked against `Processed_Data/eda/input_fingerprints.csv`.
+- It writes only CSV manifests to `Processed_Data/modelling/phase08/`.
+- The weekly datasets are rebuilt in memory; their content hashes are in `dataset_manifest.csv`.

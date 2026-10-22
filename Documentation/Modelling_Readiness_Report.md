@@ -1,6 +1,6 @@
 # Data Quality and Modelling Readiness — Phase 7
 
-**Status: [COMPLETED] assessment; the three decisions below are [PROPOSED] and must be reviewed before Phase 8.** Evidence: `Processed_Data/eda/` (especially `quality_readiness.csv`, `series_summary.csv`, `conflict_distribution.csv`, `horizon_feasibility.csv`, `weekly_horizon_feasibility.csv`, `split_evidence.csv` and `review_flag_effect.csv`) and `Notebooks/Phase_07_EDA.ipynb` Sections 9–12.
+**Status: [COMPLETED] assessment. The three decisions below were proposed in Phase 7 and [ACCEPTED] in Phase 8 planning (D-38, D-39, D-40 with a validation-reporting refinement), and the ≥ 365 series-inclusion rule was approved (D-41). See `Documentation/Phase_08_Modelling_Plan.md`.** The proposal text below is kept as written in Phase 7. Evidence: `Processed_Data/eda/` (especially `quality_readiness.csv`, `series_summary.csv`, `conflict_distribution.csv`, `horizon_feasibility.csv`, `weekly_horizon_feasibility.csv`, `split_evidence.csv` and `review_flag_effect.csv`) and `Notebooks/Phase_07_EDA.ipynb` Sections 9–12.
 
 ## 1. Data quality summary
 
@@ -34,6 +34,8 @@ Percentages use all Phase 6 rows of each crop as the denominator.
 | ≥ 2-year span and reporting density ≥ 0.5 | 491 / 592 / 335 | 45% / 51% / 32% |
 
 The first rule keeps nearly all the data. The second keeps only regularly reporting markets, at a large cost in coverage, especially for Wheat. Phase 8 must choose explicitly, and should report results for the excluded series separately rather than dropping them silently.
+
+**Phase 8 planning outcome:** the ≥ 365 usable-observation rule was approved as the primary rule (D-41). Its counts were rechecked against the feature tables: 93.27% / 93.00% / 90.55% of usable rows. The second rule remains a possible future sensitivity experiment.
 
 ## 3. Decision A — forecast horizon and information cutoff (proposed: D-38)
 
@@ -83,9 +85,9 @@ Within this design:
 - **Fit any scaler, encoder or imputer on training data only.**
 - **Report results by crop and horizon**, and for long-history vs short-history series.
 
-## 6. To finalize before Phase 8
+## 6. To finalize before Phase 8 — resolved in Phase 8 planning
 
-1. Confirm or amend D-38 – D-40: target definition and horizons, flag policy, and split years.
-2. Choose the series-inclusion rule (Section 2) and how excluded series are reported.
-3. Decide whether weather-based models are evaluated only on the weather-covered subset, and compare them with a calendar-only baseline.
-4. Define a naive baseline: last observed weekly median, and a seasonal naive.
+1. ~~Confirm or amend D-38 – D-40.~~ **Done:** D-38 and D-39 were accepted. D-40 was accepted with 2019, 2020 and combined validation metrics reported separately.
+2. ~~Choose the series-inclusion rule.~~ **Done:** ≥ 365 usable observations (D-41). Excluded series are reported separately.
+3. ~~Weather-model evaluation.~~ **Done:** with- and without-weather models are compared on the same weather-covered examples, and against a calendar-only baseline (`Phase_08_Modelling_Plan.md` §C).
+4. ~~Naive baselines.~~ **Done:** persistence (last weekly median), seasonal naive, next reported observation and calendar-only (`Phase_08_Modelling_Plan.md` §D).

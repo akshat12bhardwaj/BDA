@@ -1,0 +1,6 @@
+period,first_target_sunday,last_target_sunday,weather_config,no_weather_config
+train,2002-01-06,2018-12-30,True,True
+val_2019,2019-01-06,2019-12-29,True,True
+val_2020,2020-01-05,2020-12-27,True,True
+test,2021-01-03,2022-12-25,True,True
+holdout_no_weather,2023-01-01,last input date,False,True

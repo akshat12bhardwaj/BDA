@@ -1,0 +1,19 @@
+crop,measure,value
+Onion,series with >= 1 usable price,3897
+Onion,"series with >= 365 usable dates over the full input (retrospective, reporting only)",1473
+Onion,series origin-eligible by 2018-12-30 (end of train),1173
+Onion,series origin-eligible by 2020-12-27 (end of validation),1322
+Onion,series origin-eligible by 2022-12-25 (end of test),1440
+Onion,series origin-eligible at any origin,1473
+Potato,series with >= 1 usable price,3971
+Potato,"series with >= 365 usable dates over the full input (retrospective, reporting only)",1551
+Potato,series origin-eligible by 2018-12-30 (end of train),1199
+Potato,series origin-eligible by 2020-12-27 (end of validation),1377
+Potato,series origin-eligible by 2022-12-25 (end of test),1502
+Potato,series origin-eligible at any origin,1551
+Wheat,series with >= 1 usable price,5227
+Wheat,"series with >= 365 usable dates over the full input (retrospective, reporting only)",1540
+Wheat,series origin-eligible by 2018-12-30 (end of train),1297
+Wheat,series origin-eligible by 2020-12-27 (end of validation),1423
+Wheat,series origin-eligible by 2022-12-25 (end of test),1507
+Wheat,series origin-eligible at any origin,1540

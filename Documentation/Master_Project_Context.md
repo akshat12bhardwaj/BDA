@@ -1,8 +1,8 @@
 # Master Project Context
 
-**This is the single source of truth for project continuation.** Any future session (human or agent) resuming this project should read this file first, then `Future_Work_Roadmap.md`, `Data_Lineage.md`, `Feature_Catalogue.md`, `Decision_Log.md`, `Assumptions.md`, and `EDA_Findings.md`.
+**This is the single source of truth for project continuation.** Any future session (human or agent) resuming this project should read this file first, then `Future_Work_Roadmap.md`, `Data_Lineage.md`, `Processed_Data/features_audit/feature_registry.csv` (the feature catalogue; no `Feature_Catalogue.md` exists), `Decision_Log.md`, `Assumptions.md`, `EDA_Findings.md`, and `Phase_08_Modelling_Plan.md`.
 
-Last updated: End of Phase 7.
+Last updated: Phase 8 planning (2026-10-22). Phase 7 is complete; Phase 8 is planned but not implemented.
 
 ---
 
@@ -21,7 +21,7 @@ Build a data-driven agricultural trading decision-support system for Indian agri
 | 5 | Data Cleaning | **[COMPLETED]** (29 notebook checks + 31 tests pass; see Section 8f) |
 | 6 | Feature Engineering | **[COMPLETED]** (17 notebook checks + 45 tests pass; see Section 8h) |
 | 7 | EDA | **[COMPLETED]** (17 notebook checks + 57 tests pass; see Section 8j) |
-| 8 | Price Forecasting | **[NEXT — planning; D-38 to D-40 to be reviewed first]** |
+| 8 | Price Forecasting | **[IN PROGRESS — plan approved (D-38 to D-41); dataset builder + 37 leakage tests implemented; no model trained]** |
 | 9 | Market Activity Modeling | [FUTURE] |
 | 10 | Supply Prediction | [FUTURE] |
 | 11 | Logistics / Dijkstra | [FUTURE] |
@@ -65,6 +65,8 @@ BDA/
 │   │   ├── build_phase05_notebook.py                 (notebook generator, Phase 5)
 │   │   ├── build_phase06_notebook.py                 (notebook generator, Phase 6)
 │   │   └── build_phase07_notebook.py                 (notebook generator, Phase 7)
+│   ├── modelling/                                    (Phase 8)
+│   │   └── dataset.py                                (leakage-safe weekly dataset builder: run_build(); fits no model)
 │   ├── eda/                                          (Phase 7)
 │   │   └── analysis.py                               (EDA summary computations: run_eda())
 │   ├── features/                                     (Phase 6)
@@ -100,6 +102,7 @@ BDA/
 │   ├── features/features_{onion,potato,wheat}.parquet       (Phase 6 outputs)
 │   ├── features_audit/                               (Phase 6 registry, statistics, validation report, fingerprints, manifest)
 │   ├── eda/                                          (Phase 7: 15 summary tables + input fingerprints)
+│   ├── modelling/phase08/                            (Phase 8 dataset manifests, sample counts, eligibility, provenance)
 │   ├── cleaning_audit/                               (Phase 5 rule summary, decisions, review records, removed copies, manifests)
 │   ├── integration/                                  (Phase 4 outputs — see Data_Lineage.md)
 │   │   ├── mandi_integrated_{onion,potato,wheat}.parquet
@@ -138,6 +141,7 @@ BDA/
     ├── Weather_Data_Collection.md
     ├── EDA_Findings.md              (Phase 7)
     ├── Modelling_Readiness_Report.md (Phase 7)
+    ├── Phase_08_Modelling_Plan.md   (Phase 8 plan; nothing implemented)
     └── Future_Work_Roadmap.md
 ```
 
@@ -277,7 +281,7 @@ Phase 6 (Feature Engineering) starts from `Processed_Data/cleaned/mandi_cleaned_
 
 Built `Code/features/pipeline.py` (`run_features()`, `feature_registry()`) and `Notebooks/Phase_06_Feature_Engineering.ipynb`. Outputs: `Processed_Data/features/features_{onion,potato,wheat}.parquet`, with the same rows as Phase 5 (2,623,671 / 2,764,417 / 2,593,279) and 85 columns, plus `Processed_Data/features_audit/`. Decisions D-32 to D-37; assumptions A-19 to A-21.
 
-- **Series**: crop × market × variety; no feature crosses a series.
+- **Series**: crop × market × variety, keyed as (crop, state, district, market, variety) per D-33; no feature crosses a series.
 - **Information cutoff**: every history feature uses only eligible (`usable_*`) rows dated strictly before t. No imputation.
 - **Predictors (60 columns)**: calendar features (incl. IMD season, July–June agricultural year); price and arrivals previous-observation values, exact 1-/7-day calendar lags, changes, and 7/30/90-day calendar-window mean/median/std/count; trailing weather (prev day + full windows); APY production/area/yield at lag 2.
 - **Validation**: brute-force spot checks, a leakage probe on a real series, row preservation, and Phase 4/5 immutability all pass.
@@ -303,12 +307,14 @@ Built `Code/eda/analysis.py` (`run_eda()`) and `Notebooks/Phase_07_EDA.ipynb`. T
 
 ## 8k. Phase 8 Requirements (handoff)
 
-Before any model is trained, review and confirm or amend:
-- **D-38:** weekly median target, h = 1/2/4 weeks, ≤ origin cutoff.
-- **D-39:** usable views; keep review rows plus a sensitivity run.
-- **D-40:** chronological split 2002–2018 / 2019–2020 / 2021–2022 plus a 2023–24 no-weather holdout; no random splits.
-- **The series-inclusion rule** (`Modelling_Readiness_Report.md` §2).
-- **Naive and calendar-only baselines.**
+The decisions below were reviewed and **accepted in Phase 8 planning (2026-10-22)**. The data contract, leakage rules, evaluation protocol, baselines and inference contract are in `Documentation/Phase_08_Modelling_Plan.md`. No model has been trained.
+- **D-38 (accepted):** weekly median target (Monday–Sunday weeks), h = 1/2/4 weeks, ≤ origin cutoff; next reported observation as a secondary baseline.
+- **D-39 (accepted):** usable views; keep review rows, plus a sensitivity run without review targets.
+- **D-40 (accepted with refinement):** train 2002–2018; validation 2019 and 2020 reported separately and combined; test 2021–2022 used once; 2023-01-01 – 2024-02-02 no-weather holdout; expanding window, rolling origins, horizon gap; no random splits.
+- **D-41 (accepted):** primary population = series with ≥ 365 usable price observations (1,473 / 1,551 / 1,540 series); excluded series reported separately.
+- **Baselines:** persistence, seasonal naive, next reported observation, calendar-only.
+
+**Repository state at Phase 8 planning (verified with git):** branch `main`, HEAD `0716ab6`. The deletion of `Documentation/EDA_Findings.pdf` is intentional and still uncommitted.
 
 ## 9. Future-Phase Dependency Context
 
