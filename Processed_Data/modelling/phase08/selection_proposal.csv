@@ -1,0 +1,10 @@
+crop,horizon_weeks,proposed,candidates_passing_all,best_worst_year_candidate,its_rel_mae_impr_2019,its_rel_mae_impr_2020
+Onion,1,hgb_conservative (weather),1,hgb_conservative (weather),5.464129177725585,13.678701071400155
+Onion,2,persistence,0,calendar_adjusted_persistence (none),-0.6091211448592038,3.6040677191230497
+Onion,4,ridge (weather),1,ridge (weather),2.744435089343533,27.564462570050765
+Potato,1,persistence,0,hgb_conservative (weather),-3.053391542344319,3.4999447218211466
+Potato,2,persistence,0,calendar_adjusted_persistence (none),-8.319633257764991,4.12041778101001
+Potato,4,persistence,0,calendar_adjusted_persistence (none),-9.0432873160047,4.066838099196679
+Wheat,1,persistence,0,hgb (weather),6.350116983297949,0.9538001689525456
+Wheat,2,persistence,0,calendar_adjusted_persistence (none),0.7790836465192408,-0.7716662675070651
+Wheat,4,persistence,0,calendar_adjusted_persistence (none),2.394453481023573,-0.408097227337012

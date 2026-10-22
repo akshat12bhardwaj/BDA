@@ -306,3 +306,44 @@ Records major technical decisions as they are made. Never retroactively rewritte
 - **Evaluation** eligibility stays at the origin.
 - Future observations can never make a series eligible earlier; regression tests cover this.
 - The threshold is unchanged. This recovers 90,533–122,043 training examples per crop × horizon at the 2018-12-30 and 2020-12-27 cutoffs (`Processed_Data/modelling/phase08/training_population.csv`).
+**Phase**: 8 planning; clarified in Phase 8 implementation.
+
+### D-42 — [ACCEPTED in Phase 8, 2026-10-22, by the project owner; frozen before any test evaluation] Final Phase 8 model selection
+**Decision**:
+
+| Crop | 1 week | 2 weeks | 4 weeks |
+|---|---|---|---|
+| Onion | **conservative HistGradientBoosting** (`hgb_conservative`, weather feature config) | persistence | persistence |
+| Potato | persistence | persistence | persistence |
+| Wheat | persistence | persistence | persistence |
+
+- **Persistence** = the last known weekly median (`origin_week_median`).
+- **`hgb_conservative`** settings: `HistGradientBoostingRegressor(max_iter=200, learning_rate=0.05, max_leaf_nodes=15, min_samples_leaf=1000, l2_regularization=10.0, early_stopping=False, random_state=0)`. It is trained on `design_matrix(feature_columns(registry, "weather"))` to predict log(target / origin-week median).
+**Reason**: in validation, Onion h = 1 `hgb_conservative` was the only candidate that passed all four pre-specified criteria (`Phase_08_Modelling_Plan.md` §L.2, §M):
+- intervals above zero in 2019 and 2020 under both series and market clusters
+- Bonferroni z 9.0 / 27.2
+- +5.5% / +13.7% relative MAE improvement
+- holds without review-flagged targets
+
+All other cells had no candidate passing all four.
+**Onion h = 4 Ridge (exploratory, not selected)**: Ridge (weather) also met all four criteria (+2.7% / +27.6%). However, the 2% minimum-gain criterion was introduced **after** its intervals were observed, and its 2019 gain is only just above that floor. The project owner therefore kept persistence. The Ridge result is recorded as exploratory evidence only.
+**Alternatives considered**: control `hgb`, Ridge (both feature configs), calendar climatology, calendar-adjusted persistence, `hgb_conservative` no_weather (no review-sensitivity run, so criterion 4 could not be checked) (§J–§M).
+**Frozen before the test**:
+- Code: the SHA-256 of every modelling source file is recorded in `Processed_Data/modelling/phase08/test_freeze_manifest.csv` before the test runs.
+- Features, preprocessing (row-wise `design_matrix`; no fitted preprocessing in HGB), metrics (example-weighted MAE, RMSE and MAPE) and the protocol below.
+- No setting, model or selection may change as a result of test results.
+**Test protocol (run once)**:
+- **Periods:** test target Sundays 2021-01-03 … 2022-12-25. Results are reported for target years 2021 and 2022 separately, and combined.
+- **Rows:** origin-eligible examples (D-41, eligibility at the origin), primary experiment.
+- **Refits:** each origin uses the latest quarterly refit on or before it (2020-10-04 … 2022-10-02), the same rule as in validation (§I). Each refit trains on `training_examples(ex, refit)`: targets ended ≤ the refit date, with eligibility judged at the refit date. Targets in earlier test weeks therefore enter later refits once they are in the past (rolling origin). No 2023+ target can enter, because the last refit is 2022-10-02.
+- **Comparison:** each selected approach vs persistence on identical rows. For persistence cells the two are identical, so the improvement is 0 by construction.
+- **Uncertainty:** for the one learned cell, the same paired bootstrap as §K (series and market clusters, 10,000 replicates, seed 20261022, 95% percentile intervals).
+- The 2023+ no-weather holdout is **not** evaluated and stays reserved.
+**Impact**: Phase 8 forecasts used downstream are persistence everywhere except Onion h = 1. Test results are reported as they are and do not reopen this selection.
+**Test outcome (reported only; the decision is unchanged)**: the test was run once after the freeze was verified (`Phase_08_Modelling_Plan.md` §N). Onion h = 1 `hgb_conservative` vs persistence, MAE improvement:
+- 2021: −5.2% [−6.3, −4.1] (worse)
+- 2022: +3.3% [+0.0, +5.9] (borderline)
+- combined: −1.6% [−3.2, −0.2]
+
+RMSE improved in both years. Any change to the selection would need a new decision, and new evidence beyond 2019–2022.
+**Phase**: 8.

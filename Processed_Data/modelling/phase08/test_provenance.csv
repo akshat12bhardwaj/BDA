@@ -1,0 +1,8 @@
+key,value
+decision,D-42
+freeze_manifest_sha256,b70c10daa42fc056cd224ca15c44147aae97883a5839d34ab2d3e6eab064ab0a
+freeze_verified,True
+test_target_sundays,2021-01-03 .. 2022-12-25
+holdout_evaluated,False
+bootstrap,"10000 replicates, seed 20261022, series and market clusters, percentile 95%"
+seconds,62.3

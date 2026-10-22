@@ -21,7 +21,7 @@ Build a data-driven agricultural trading decision-support system for Indian agri
 | 5 | Data Cleaning | **[COMPLETED]** (29 notebook checks + 31 tests pass; see Section 8f) |
 | 6 | Feature Engineering | **[COMPLETED]** (17 notebook checks + 45 tests pass; see Section 8h) |
 | 7 | EDA | **[COMPLETED]** (17 notebook checks + 57 tests pass; see Section 8j) |
-| 8 | Price Forecasting | **[IN PROGRESS — dataset builder, time-safe D-41 eligibility and validation baselines implemented (47 tests); no model trained; test set unscored]** |
+| 8 | Price Forecasting | **[IN PROGRESS — dataset builder, baselines, calendar benchmarks, Ridge/HGB validated on 2019–2020, bootstrap intervals vs persistence, one conservative HGB run; selection frozen (D-42); 2021–2022 test run once (§N): Onion h = 1 HGB −1.6% MAE vs persistence, all other cells persistence; 2023+ holdout unscored]** |
 | 9 | Market Activity Modeling | [FUTURE] |
 | 10 | Supply Prediction | [FUTURE] |
 | 11 | Logistics / Dijkstra | [FUTURE] |
@@ -67,7 +67,10 @@ BDA/
 │   │   └── build_phase07_notebook.py                 (notebook generator, Phase 7)
 │   ├── modelling/                                    (Phase 8)
 │   │   ├── dataset.py                                (leakage-safe weekly dataset builder: run_build(); fits no model)
-│   │   └── baselines.py                              (validation-only naive baselines: run_baselines())
+│   │   ├── baselines.py                              (validation-only naive baselines: run_baselines())
+│   │   ├── models.py                                 (calendar benchmarks, Ridge, HGB; validation only: run_models())
+│   │   ├── uncertainty.py                            (paired series-cluster bootstrap vs persistence: run_uncertainty())
+│   │   └── final_evaluation.py                       (frozen D-42 selection, one-time 2021–2022 test: run_test_evaluation())
 │   ├── eda/                                          (Phase 7)
 │   │   └── analysis.py                               (EDA summary computations: run_eda())
 │   ├── features/                                     (Phase 6)
@@ -142,7 +145,8 @@ BDA/
     ├── Weather_Data_Collection.md
     ├── EDA_Findings.md              (Phase 7)
     ├── Modelling_Readiness_Report.md (Phase 7)
-    ├── Phase_08_Modelling_Plan.md   (Phase 8 plan; nothing implemented)
+    ├── Phase_08_Modelling_Plan.md   (Phase 8 plan, results, close-out §O, holdout protocol §P)
+    ├── Phase_09_Integration_Plan.md (proposal: forecast → decision-support contracts; nothing implemented)
     └── Future_Work_Roadmap.md
 ```
 

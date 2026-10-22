@@ -1,0 +1,10 @@
+item,name,value
+file,Code\modelling\dataset.py,19a483a9f1cd09c1c461526fda7f881bffd78f1ae4bac84528d17fed76d9c41d
+file,Code\modelling\models.py,42e7026bc2c0c49d54abaf693bd06f815c37f107d05e5486df33bde032f36670
+file,Code\modelling\baselines.py,c2e37cc9dda3a4cc6f05bfa93caee6fc4f48504b7762530599a69189715d8982
+file,Code\modelling\uncertainty.py,99c1de7871a2d4d7e4e5d5a9ac8a66207c21b49b347e3f9e93d510a654ae53e0
+file,Code\modelling\final_evaluation.py,8fc7f838e6a1734d4a0b6d1ea930d6a6fb9b9a45d644e3001185e7a59a70b863
+file,Processed_Data\features_audit\feature_registry.csv,ff9f4de46e4e52a7aa445e91f3b387a53a20f949f158a84c5f2f8d433f1d0340
+selection,Onion h=1,hgb_conservative (weather)
+selection,all other crop x horizon,persistence
+settings,hgb_conservative,categorical_features=from_dtype; early_stopping=False; interaction_cst=None; l2_regularization=10.0; learning_rate=0.05; loss=squared_error; max_bins=255; max_depth=None; max_features=1.0; max_iter=200; max_leaf_nodes=15; min_samples_leaf=1000; monotonic_cst=None; n_iter_no_change=10; quantile=None; random_state=0; scoring=loss; tol=1e-07; validation_fraction=0.1; verbose=0; warm_start=False

@@ -1,0 +1,10 @@
+crop,horizon_weeks,proposed,skill_2019,skill_2020,skill_combined,candidates_beating_persistence_both_years
+Onion,1,hgb_conservative (weather),0.05464129177725585,0.13678701071400146,0.10408839487244148,2
+Onion,2,persistence,,,,0
+Onion,4,persistence,,,,0
+Potato,1,persistence,,,,0
+Potato,2,persistence,,,,0
+Potato,4,persistence,,,,0
+Wheat,1,persistence,,,,0
+Wheat,2,persistence,,,,0
+Wheat,4,persistence,,,,0

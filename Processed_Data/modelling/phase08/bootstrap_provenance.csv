@@ -1,0 +1,10 @@
+key,value
+predictions_sha256,7daa2f1041b194c82c3bbc071cca287c1e5ce00ff6ea8bbf653e053fa05b42c9
+replicates,10000
+seed,20261022
+interval,percentile 2.5-97.5
+min_clusters,30
+clusters,series=state+district+market+variety; market=state+district+market
+aggregation,example-weighted ratio of sums (as models.score)
+periods,"val_2019, val_2020, val_combined"
+models_fitted,none
