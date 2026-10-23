@@ -1,0 +1,594 @@
+crop,apy_year,apy_state,apy_district,mandi_arrivals_tonnes_sum,mandi_records,arrivals_rank
+Onion,2000-2001,Maharashtra,Pune,59727,24,1
+Onion,2000-2001,Chandigarh,Chandigarh,7708,59,2
+Onion,2000-2001,Maharashtra,Kolhapur,7169,17,3
+Onion,2000-2001,Maharashtra,Nagpur,2578,11,4
+Onion,2000-2001,Karnataka,Dharwad,1290,3,5
+Onion,2000-2001,Haryana,Jhajjar,9.3,1,6
+Onion,2000-2001,Tripura,Sepahijala,0.4,1,7
+Onion,2001-2002,Gujarat,Bhavnagar,127830,132,1
+Onion,2001-2002,Maharashtra,Pune,113608,115,2
+Onion,2001-2002,Maharashtra,Kolhapur,56533.8,131,3
+Onion,2001-2002,Karnataka,Dharwad,44604.7,250,4
+Onion,2001-2002,Maharashtra,Nagpur,29801.8,125,5
+Onion,2001-2002,Rajasthan,Jaipur,28031.9,89,6
+Onion,2001-2002,Karnataka,Belagavi,26916.2,132,7
+Onion,2001-2002,Bihar,Patna,25302,73,8
+Onion,2001-2002,Bihar,Muzaffarpur,24856,25,9
+Onion,2001-2002,Karnataka,Mysuru,22700.1,162,10
+Onion,2002-2003,Maharashtra,Nashik,832942.6,821,1
+Onion,2002-2003,Maharashtra,Nagpur,372113.5,261,2
+Onion,2002-2003,Karnataka,Belagavi,278974,562,3
+Onion,2002-2003,Uttar Pradesh,Varanasi,219630,120,4
+Onion,2002-2003,Gujarat,Bhavnagar,175695.4,130,5
+Onion,2002-2003,Andhra Pradesh,Kurnool,151302.3,144,6
+Onion,2002-2003,Karnataka,Dharwad,109285,550,7
+Onion,2002-2003,Madhya Pradesh,Indore,103810.5,136,8
+Onion,2002-2003,Uttar Pradesh,Shahjahanpur,94074,253,9
+Onion,2002-2003,Maharashtra,Pune,85159.5,249,10
+Onion,2003-2004,Maharashtra,Nashik,851931.2,1320,1
+Onion,2003-2004,Gujarat,Bhavnagar,659821.1,366,2
+Onion,2003-2004,Maharashtra,Pune,270616,429,3
+Onion,2003-2004,Gujarat,Rajkot,159763.5,335,4
+Onion,2003-2004,Gujarat,Vadodara,145438.2,282,5
+Onion,2003-2004,Rajasthan,Jodhpur,119237.36,175,6
+Onion,2003-2004,Gujarat,Ahmedabad,106122.7,251,7
+Onion,2003-2004,Karnataka,Belagavi,64541,433,8
+Onion,2003-2004,Uttar Pradesh,Varanasi,62100,108,9
+Onion,2003-2004,Punjab,Moga,59881.1,419,10
+Onion,2004-2005,Maharashtra,Nashik,855836.2,1422,1
+Onion,2004-2005,Gujarat,Bhavnagar,301954.8,402,2
+Onion,2004-2005,Maharashtra,Pune,292925.1,493,3
+Onion,2004-2005,Uttarakhand,Udham Singh Nagar,240370.2,459,4
+Onion,2004-2005,Uttar Pradesh,Varanasi,127569.3,200,5
+Onion,2004-2005,Maharashtra,Ahilyanagar,116342.1,178,6
+Onion,2004-2005,Karnataka,Belagavi,103848,438,7
+Onion,2004-2005,Andhra Pradesh,East Godavari,103630,234,8
+Onion,2004-2005,Gujarat,Ahmedabad,93013.1,208,9
+Onion,2004-2005,Karnataka,Dharwad,92120,399,10
+Onion,2005-2006,Uttar Pradesh,Varanasi,751115.2,262,1
+Onion,2005-2006,Maharashtra,Nashik,416230,877,2
+Onion,2005-2006,Maharashtra,Pune,137071.6,396,3
+Onion,2005-2006,Uttarakhand,Udham Singh Nagar,98260.19,217,4
+Onion,2005-2006,Punjab,Ludhiana,73502.35,1279,5
+Onion,2005-2006,Gujarat,Ahmedabad,59606.1,290,6
+Onion,2005-2006,Punjab,Jalandhar,56154.1,369,7
+Onion,2005-2006,Odisha,Khordha,55805.2,155,8
+Onion,2005-2006,Uttarakhand,Dehradun,53922.26,503,9
+Onion,2005-2006,Odisha,Ganjam,49308.5,278,10
+Onion,2006-2007,Maharashtra,Nashik,902938.5,1384,1
+Onion,2006-2007,Maharashtra,Pune,323429.9,861,2
+Onion,2006-2007,Punjab,Ludhiana,253870.9,1610,3
+Onion,2006-2007,Gujarat,Bhavnagar,205308.5,246,4
+Onion,2006-2007,Uttar Pradesh,Varanasi,178908.5,297,5
+Onion,2006-2007,Odisha,Ganjam,127292.9,462,6
+Onion,2006-2007,Maharashtra,Ahilyanagar,118482.3,208,7
+Onion,2006-2007,Jharkhand,Ranchi,113004.8,242,8
+Onion,2006-2007,Gujarat,Ahmedabad,90109.5,375,9
+Onion,2006-2007,Odisha,Khordha,54261.5,125,10
+Onion,2007-2008,Maharashtra,Nashik,571285.3,1137,1
+Onion,2007-2008,Odisha,Ganjam,539863.4,555,2
+Onion,2007-2008,Gujarat,Surat,209794.3,311,3
+Onion,2007-2008,Maharashtra,Pune,191102.1,624,4
+Onion,2007-2008,Gujarat,Bhavnagar,172330.15,137,5
+Onion,2007-2008,Punjab,Ludhiana,163697.41,2049,6
+Onion,2007-2008,Uttar Pradesh,Saharanpur,113547.29,787,7
+Onion,2007-2008,Uttar Pradesh,Farrukhabad,105123,238,8
+Onion,2007-2008,Uttar Pradesh,Varanasi,96961,301,9
+Onion,2007-2008,Gujarat,Ahmedabad,95329.2,384,10
+Onion,2008-2009,Maharashtra,Nashik,1332604.1,1581,1
+Onion,2008-2009,Maharashtra,Ahilyanagar,493834.2,507,2
+Onion,2008-2009,Gujarat,Surat,321594.1,542,3
+Onion,2008-2009,Maharashtra,Pune,306258.3,836,4
+Onion,2008-2009,Gujarat,Bhavnagar,140483.3,186,5
+Onion,2008-2009,Rajasthan,Jodhpur,122122.4,272,6
+Onion,2008-2009,Gujarat,Ahmedabad,118933.5,421,7
+Onion,2008-2009,Maharashtra,Nagpur,108087.7,513,8
+Onion,2008-2009,Karnataka,Dharwad,99873,342,9
+Onion,2008-2009,Karnataka,Belagavi,94886,356,10
+Onion,2009-2010,Maharashtra,Nashik,1640824.2,2949,1
+Onion,2009-2010,Gujarat,Surat,782026.5,621,2
+Onion,2009-2010,Maharashtra,Ahilyanagar,773372.2,972,3
+Onion,2009-2010,Maharashtra,Pune,343172.1,985,4
+Onion,2009-2010,Gujarat,Rajkot,334318.05,1030,5
+Onion,2009-2010,Gujarat,Bhavnagar,254052.8,289,6
+Onion,2009-2010,Odisha,Rayagada,248750.21,415,7
+Onion,2009-2010,Karnataka,Dharwad,243761,494,8
+Onion,2009-2010,Madhya Pradesh,Indore,156651.6,229,9
+Onion,2009-2010,Gujarat,Ahmedabad,137115.95,409,10
+Onion,2010-2011,Maharashtra,Nashik,1329138.4,3013,1
+Onion,2010-2011,Gujarat,Surat,879240,572,2
+Onion,2010-2011,Maharashtra,Ahilyanagar,588795.5,977,3
+Onion,2010-2011,Uttar Pradesh,Varanasi,374035,304,4
+Onion,2010-2011,Gujarat,Bhavnagar,370368.3,355,5
+Onion,2010-2011,Maharashtra,Pune,357147.6,943,6
+Onion,2010-2011,Andhra Pradesh,Kurnool,345281.4,525,7
+Onion,2010-2011,Karnataka,Dharwad,179551,446,8
+Onion,2010-2011,Gujarat,Rajkot,156565.45,872,9
+Onion,2010-2011,Madhya Pradesh,Indore,151405.8,248,10
+Onion,2011-2012,Maharashtra,Nashik,1588676.9,2698,1
+Onion,2011-2012,Maharashtra,Ahilyanagar,476105.3,708,2
+Onion,2011-2012,Maharashtra,Pune,423832,816,3
+Onion,2011-2012,Gujarat,Bhavnagar,365528.8,302,4
+Onion,2011-2012,Madhya Pradesh,Indore,246238.36,251,5
+Onion,2011-2012,Odisha,Bargarh,236504.96,1101,6
+Onion,2011-2012,Karnataka,Dharwad,216422,514,7
+Onion,2011-2012,Karnataka,Belagavi,170261,552,8
+Onion,2011-2012,Gujarat,Ahmedabad,147571,476,9
+Onion,2011-2012,Madhya Pradesh,Shajapur,141268.21,149,10
+Onion,2012-2013,Maharashtra,Nashik,1685146.9,2818,1
+Onion,2012-2013,Gujarat,Bhavnagar,712808.2,563,2
+Onion,2012-2013,Maharashtra,Ahilyanagar,693274.7,910,3
+Onion,2012-2013,Maharashtra,Pune,329505.2,629,4
+Onion,2012-2013,Madhya Pradesh,Shajapur,216419.32,278,5
+Onion,2012-2013,Maharashtra,Solapur,213234.5,535,6
+Onion,2012-2013,Karnataka,Dharwad,208261,686,7
+Onion,2012-2013,Madhya Pradesh,Indore,188441.09,231,8
+Onion,2012-2013,Gujarat,Ahmedabad,169709.49,502,9
+Onion,2012-2013,Karnataka,Belagavi,147263,587,10
+Onion,2013-2014,Gujarat,Rajkot,1214144.7,704,1
+Onion,2013-2014,Maharashtra,Nashik,958709.5,1708,2
+Onion,2013-2014,Gujarat,Surat,954503.3,653,3
+Onion,2013-2014,Maharashtra,Ahilyanagar,587455.3,973,4
+Onion,2013-2014,Gujarat,Bhavnagar,319985.4,255,5
+Onion,2013-2014,Maharashtra,Pune,316494.7,584,6
+Onion,2013-2014,Maharashtra,Solapur,241009.2,344,7
+Onion,2013-2014,Odisha,Bargarh,222347.34,846,8
+Onion,2013-2014,Madhya Pradesh,Indore,194153,322,9
+Onion,2013-2014,Gujarat,Ahmedabad,166305.9,454,10
+Onion,2014-2015,Maharashtra,Nashik,1522060.3,2184,1
+Onion,2014-2015,Gujarat,Bhavnagar,1216884.02,637,2
+Onion,2014-2015,Maharashtra,Ahilyanagar,768154.9,1018,3
+Onion,2014-2015,Rajasthan,Alwar,719086.3,309,4
+Onion,2014-2015,Maharashtra,Pune,441535.6,941,5
+Onion,2014-2015,Maharashtra,Solapur,375286.3,712,6
+Onion,2014-2015,Gujarat,Ahmedabad,296937,624,7
+Onion,2014-2015,Madhya Pradesh,Shajapur,236835.35,430,8
+Onion,2014-2015,Karnataka,Belagavi,233058,365,9
+Onion,2014-2015,Gujarat,Rajkot,181020.05,719,10
+Onion,2015-2016,Maharashtra,Nashik,1854887,3619,1
+Onion,2015-2016,Gujarat,Bhavnagar,1673992.8,756,2
+Onion,2015-2016,Maharashtra,Ahilyanagar,957577,1462,3
+Onion,2015-2016,Maharashtra,Pune,487977,1016,4
+Onion,2015-2016,Maharashtra,Solapur,437925,903,5
+Onion,2015-2016,Gujarat,Ahmedabad,374056,744,6
+Onion,2015-2016,Karnataka,Dharwad,306654,582,7
+Onion,2015-2016,Gujarat,Rajkot,290054.1,793,8
+Onion,2015-2016,Madhya Pradesh,Indore,239200.84,535,9
+Onion,2015-2016,Karnataka,Belagavi,172026,534,10
+Onion,2016-2017,Maharashtra,Nashik,2849102,3236,1
+Onion,2016-2017,Gujarat,Bhavnagar,1344015.75,649,2
+Onion,2016-2017,Maharashtra,Ahilyanagar,1208095,1319,3
+Onion,2016-2017,Maharashtra,Pune,630964,1209,4
+Onion,2016-2017,Gujarat,Ahmedabad,410768.6,572,5
+Onion,2016-2017,Maharashtra,Solapur,403923,1019,6
+Onion,2016-2017,Karnataka,Dharwad,361635,498,7
+Onion,2016-2017,Madhya Pradesh,Dhar,258648.77,687,8
+Onion,2016-2017,Karnataka,Belagavi,217648,544,9
+Onion,2016-2017,Madhya Pradesh,Ujjain,216044.66,227,10
+Onion,2017-2018,Maharashtra,Nashik,2863890,4006,1
+Onion,2017-2018,Maharashtra,Ahilyanagar,1379258,1630,2
+Onion,2017-2018,Gujarat,Bhavnagar,1033292.3,602,3
+Onion,2017-2018,Maharashtra,Pune,648456,1239,4
+Onion,2017-2018,Maharashtra,Solapur,480369,850,5
+Onion,2017-2018,Gujarat,Ahmedabad,372989.6,558,6
+Onion,2017-2018,Madhya Pradesh,Indore,327060.95,563,7
+Onion,2017-2018,Gujarat,Rajkot,254124.9,618,8
+Onion,2017-2018,Karnataka,Dharwad,238919,538,9
+Onion,2017-2018,Karnataka,Belagavi,164940,518,10
+Onion,2018-2019,Maharashtra,Nashik,2446955,3883,1
+Onion,2018-2019,Maharashtra,Ahilyanagar,1463447,2170,2
+Onion,2018-2019,Gujarat,Bhavnagar,1349269.7,571,3
+Onion,2018-2019,Maharashtra,Pune,659791,1652,4
+Onion,2018-2019,Madhya Pradesh,Indore,548852.91,625,5
+Onion,2018-2019,Maharashtra,Solapur,525807,856,6
+Onion,2018-2019,Karnataka,Dharwad,428647,606,7
+Onion,2018-2019,Gujarat,Ahmedabad,398894.9,712,8
+Onion,2018-2019,Karnataka,Belagavi,248906,540,9
+Onion,2018-2019,Gujarat,Rajkot,162467.7,554,10
+Onion,2019-2020,Maharashtra,Nashik,2201797,3550,1
+Onion,2019-2020,Maharashtra,Ahilyanagar,940673,1790,2
+Onion,2019-2020,Gujarat,Bhavnagar,533770.2,385,3
+Onion,2019-2020,Maharashtra,Pune,520182,1360,4
+Onion,2019-2020,Maharashtra,Solapur,423058,727,5
+Onion,2019-2020,Karnataka,Dharwad,266550,600,6
+Onion,2019-2020,Gujarat,Rajkot,248587.55,505,7
+Onion,2019-2020,Gujarat,Ahmedabad,149301.6,238,8
+Onion,2019-2020,Madhya Pradesh,Indore,145744.26,384,9
+Onion,2019-2020,Karnataka,Belagavi,138586,314,10
+Potato,2000-2001,Maharashtra,Pune,10176,23,1
+Potato,2000-2001,Chandigarh,Chandigarh,6564,61,2
+Potato,2000-2001,Maharashtra,Nagpur,1157,11,3
+Potato,2000-2001,Maharashtra,Kolhapur,387,8,4
+Potato,2000-2001,Assam,Darrang,200,1,5
+Potato,2000-2001,Karnataka,Dharwad,40,1,6
+Potato,2000-2001,Nagaland,Kohima,35,2,7
+Potato,2000-2001,Haryana,Jhajjar,16,1,8
+Potato,2000-2001,Tripura,Sepahijala,0.5,1,9
+Potato,2001-2002,Rajasthan,Jaipur,64892.4,91,1
+Potato,2001-2002,Gujarat,Ahmedabad,34780.7,69,2
+Potato,2001-2002,Gujarat,Rajkot,31538,168,3
+Potato,2001-2002,Maharashtra,Pune,28828,134,4
+Potato,2001-2002,Rajasthan,Jodhpur,27220.08,91,5
+Potato,2001-2002,Maharashtra,Nagpur,24721.4,124,6
+Potato,2001-2002,Chandigarh,Chandigarh,21601,239,7
+Potato,2001-2002,Gujarat,Chhotaudepur,17291.9,58,8
+Potato,2001-2002,Bihar,Purnia,17089,23,9
+Potato,2001-2002,Bihar,Muzaffarpur,16924,25,10
+Potato,2002-2003,Uttar Pradesh,Mainpuri,723778,179,1
+Potato,2002-2003,Uttar Pradesh,Varanasi,288960,122,2
+Potato,2002-2003,Uttar Pradesh,Shahjahanpur,277368,254,3
+Potato,2002-2003,Maharashtra,Nagpur,203375.4,180,4
+Potato,2002-2003,Gujarat,Ahmedabad,110300,156,5
+Potato,2002-2003,Rajasthan,Jaipur,103977.6,248,6
+Potato,2002-2003,Karnataka,Belagavi,61910,297,7
+Potato,2002-2003,Bihar,Muzaffarpur,57884.7,190,8
+Potato,2002-2003,Punjab,Jalandhar,57025.1,406,9
+Potato,2002-2003,Uttar Pradesh,Firozabad,55412.5,162,10
+Potato,2003-2004,Gujarat,Surat,341183,113,1
+Potato,2003-2004,Rajasthan,Jodhpur,317365.39,174,2
+Potato,2003-2004,Punjab,Moga,309231.3,458,3
+Potato,2003-2004,Gujarat,Chhotaudepur,300773.1,283,4
+Potato,2003-2004,Gujarat,Ahmedabad,176530.8,254,5
+Potato,2003-2004,Uttar Pradesh,Farrukhabad,172577,148,6
+Potato,2003-2004,Uttar Pradesh,Shahjahanpur,156999,262,7
+Potato,2003-2004,Uttar Pradesh,Firozabad,137259,267,8
+Potato,2003-2004,Rajasthan,Jaipur,119036.4,231,9
+Potato,2003-2004,Maharashtra,Pune,89847,421,10
+Potato,2004-2005,Uttarakhand,Udham Singh Nagar,1129992.4,773,1
+Potato,2004-2005,Uttar Pradesh,Sitapur,206600,166,2
+Potato,2004-2005,Rajasthan,Jaipur,143671,249,3
+Potato,2004-2005,Uttar Pradesh,Firozabad,131465,252,4
+Potato,2004-2005,Gujarat,Ahmedabad,130580.6,208,5
+Potato,2004-2005,Uttar Pradesh,Varanasi,113555,198,6
+Potato,2004-2005,Punjab,Jalandhar,108739.6,581,7
+Potato,2004-2005,Uttarakhand,Dehradun,96546.27,523,8
+Potato,2004-2005,Maharashtra,Pune,91800.9,408,9
+Potato,2004-2005,Uttar Pradesh,Shahjahanpur,80580,268,10
+Potato,2005-2006,Uttar Pradesh,Farrukhabad,1527285,208,1
+Potato,2005-2006,Uttar Pradesh,Varanasi,619020,262,2
+Potato,2005-2006,Uttarakhand,Udham Singh Nagar,349924.5,430,3
+Potato,2005-2006,Uttar Pradesh,Firozabad,192475,45,4
+Potato,2005-2006,Uttar Pradesh,Sitapur,184310.5,280,5
+Potato,2005-2006,Maharashtra,Pune,152314.6,638,6
+Potato,2005-2006,Gujarat,Kheda,148099.41,291,7
+Potato,2005-2006,Gujarat,Ahmedabad,140012.7,411,8
+Potato,2005-2006,Rajasthan,Jaipur,132736.1,242,9
+Potato,2005-2006,Uttarakhand,Dehradun,113996,606,10
+Potato,2006-2007,Uttar Pradesh,Farrukhabad,1172705,181,1
+Potato,2006-2007,West Bengal,Birbhum,429424,388,2
+Potato,2006-2007,Jharkhand,Ranchi,304698.16,243,3
+Potato,2006-2007,Uttar Pradesh,Varanasi,216224,298,4
+Potato,2006-2007,Uttar Pradesh,Saharanpur,207444.8,286,5
+Potato,2006-2007,Odisha,Ganjam,177365,466,6
+Potato,2006-2007,Punjab,Ludhiana,161199.17,1579,7
+Potato,2006-2007,Uttar Pradesh,Basti,147818,260,8
+Potato,2006-2007,Maharashtra,Pune,132361.1,694,9
+Potato,2006-2007,West Bengal,Bankura,129390,202,10
+Potato,2007-2008,Uttar Pradesh,Farrukhabad,1748366,195,1
+Potato,2007-2008,Odisha,Ganjam,1007254.6,600,2
+Potato,2007-2008,West Bengal,Birbhum,635947,447,3
+Potato,2007-2008,Uttar Pradesh,Saharanpur,293676.78,798,4
+Potato,2007-2008,Gujarat,Ahmedabad,269369.3,501,5
+Potato,2007-2008,Uttar Pradesh,Agra,265531.25,396,6
+Potato,2007-2008,Uttar Pradesh,Varanasi,139824.6,303,7
+Potato,2007-2008,Maharashtra,Pune,130347,462,8
+Potato,2007-2008,Uttar Pradesh,Firozabad,112771,336,9
+Potato,2007-2008,Punjab,Moga,97716.36,542,10
+Potato,2008-2009,Gujarat,Ahmedabad,242763.6,625,1
+Potato,2008-2009,Uttar Pradesh,Agra,219018,208,2
+Potato,2008-2009,Rajasthan,Jodhpur,202697,204,3
+Potato,2008-2009,Odisha,Ganjam,171949.9,753,4
+Potato,2008-2009,Punjab,Amritsar,148771.63,374,5
+Potato,2008-2009,Uttar Pradesh,Saharanpur,147018.75,427,6
+Potato,2008-2009,Uttar Pradesh,Varanasi,121110,275,7
+Potato,2008-2009,Maharashtra,Nagpur,118909.2,250,8
+Potato,2008-2009,Punjab,Rupnagar,113295.59,960,9
+Potato,2008-2009,Gujarat,Rajkot,110324.51,470,10
+Potato,2009-2010,Gujarat,Rajkot,1565240.1,314,1
+Potato,2009-2010,Haryana,Gurugram,451885.6,1216,2
+Potato,2009-2010,Uttar Pradesh,Agra,344229.47,1011,3
+Potato,2009-2010,Gujarat,Ahmedabad,316592.42,669,4
+Potato,2009-2010,Haryana,Kurukshetra,194145.92,1088,5
+Potato,2009-2010,Uttar Pradesh,Farrukhabad,191042.5,284,6
+Potato,2009-2010,Uttar Pradesh,Jaunpur,172954,302,7
+Potato,2009-2010,Uttar Pradesh,Saharanpur,157023.1,551,8
+Potato,2009-2010,Uttar Pradesh,Varanasi,145230,288,9
+Potato,2009-2010,Maharashtra,Nagpur,136079.2,296,10
+Potato,2010-2011,Uttar Pradesh,Varanasi,864100,287,1
+Potato,2010-2011,Gujarat,Ahmedabad,408778.38,847,2
+Potato,2010-2011,Uttar Pradesh,Jaunpur,279613.1,494,3
+Potato,2010-2011,Uttar Pradesh,Agra,244564.13,1255,4
+Potato,2010-2011,Uttar Pradesh,Etawah,222987.8,478,5
+Potato,2010-2011,Maharashtra,Pune,181920.6,516,6
+Potato,2010-2011,Uttar Pradesh,Mathura,146038.5,522,7
+Potato,2010-2011,Gujarat,Mahesana,116998.95,348,8
+Potato,2010-2011,Uttar Pradesh,Saharanpur,116189.25,752,9
+Potato,2010-2011,Uttar Pradesh,Banda,113075.5,440,10
+Potato,2011-2012,Gujarat,Ahmedabad,374974.3,730,1
+Potato,2011-2012,Uttar Pradesh,Agra,294771.5,939,2
+Potato,2011-2012,Odisha,Bargarh,288008.66,1041,3
+Potato,2011-2012,Maharashtra,Pune,192344.2,452,4
+Potato,2011-2012,Uttar Pradesh,Hardoi,192079.4,877,5
+Potato,2011-2012,Uttar Pradesh,Farrukhabad,175993.7,694,6
+Potato,2011-2012,Punjab,Amritsar,171579.7,931,7
+Potato,2011-2012,Uttar Pradesh,Rampur,169980.6,651,8
+Potato,2011-2012,Uttar Pradesh,Etawah,136824.7,455,9
+Potato,2011-2012,Uttar Pradesh,Mathura,136636,590,10
+Potato,2012-2013,Uttar Pradesh,Agra,822465.1,674,1
+Potato,2012-2013,Uttar Pradesh,Hathras,394768,317,2
+Potato,2012-2013,Gujarat,Ahmedabad,354628.9,779,3
+Potato,2012-2013,Uttar Pradesh,Farrukhabad,267373.5,290,4
+Potato,2012-2013,Uttar Pradesh,Etawah,202683.7,790,5
+Potato,2012-2013,Uttar Pradesh,Gorakhpur,199680.4,566,6
+Potato,2012-2013,Uttar Pradesh,Aligarh,188153,589,7
+Potato,2012-2013,Maharashtra,Pune,168109.1,368,8
+Potato,2012-2013,Odisha,Bargarh,141654.23,903,9
+Potato,2012-2013,Odisha,Dhenkanal,128348.24,952,10
+Potato,2013-2014,Uttar Pradesh,Agra,700923.75,665,1
+Potato,2013-2014,Uttar Pradesh,Firozabad,554089.1,842,2
+Potato,2013-2014,Gujarat,Ahmedabad,322242.9,643,3
+Potato,2013-2014,Uttar Pradesh,Etawah,311441.8,708,4
+Potato,2013-2014,Uttar Pradesh,Farrukhabad,264714.5,417,5
+Potato,2013-2014,Odisha,Dhenkanal,220016.4,1008,6
+Potato,2013-2014,Uttar Pradesh,Hathras,213258.2,289,7
+Potato,2013-2014,Odisha,Bargarh,191276,806,8
+Potato,2013-2014,Uttar Pradesh,Bareilly,159813,346,9
+Potato,2013-2014,Uttar Pradesh,Aligarh,159603,585,10
+Potato,2014-2015,Uttar Pradesh,Firozabad,627670.5,772,1
+Potato,2014-2015,Uttar Pradesh,Agra,520360.9,653,2
+Potato,2014-2015,Uttar Pradesh,Farrukhabad,376219.5,368,3
+Potato,2014-2015,Gujarat,Ahmedabad,354134.3,585,4
+Potato,2014-2015,Uttar Pradesh,Etawah,304886,835,5
+Potato,2014-2015,Uttar Pradesh,Hathras,254013,271,6
+Potato,2014-2015,Uttar Pradesh,Mathura,253928,364,7
+Potato,2014-2015,Rajasthan,Alwar,215918.46,328,8
+Potato,2014-2015,Odisha,Bhadrak,214764.9,803,9
+Potato,2014-2015,Uttar Pradesh,Kannauj,192373.9,478,10
+Potato,2015-2016,Uttar Pradesh,Agra,599023,553,1
+Potato,2015-2016,Gujarat,Ahmedabad,405065.3,726,2
+Potato,2015-2016,Uttar Pradesh,Firozabad,339713,549,3
+Potato,2015-2016,Uttar Pradesh,Farrukhabad,321288,278,4
+Potato,2015-2016,Uttar Pradesh,Etawah,261733,526,5
+Potato,2015-2016,Maharashtra,Pune,216793,414,6
+Potato,2015-2016,Gujarat,Chhotaudepur,176889.4,477,7
+Potato,2015-2016,Uttar Pradesh,Moradabad,168935.5,613,8
+Potato,2015-2016,Uttar Pradesh,Budaun,164315,294,9
+Potato,2015-2016,Maharashtra,Nagpur,161945,661,10
+Potato,2016-2017,Uttar Pradesh,Budaun,957942.6,474,1
+Potato,2016-2017,Uttar Pradesh,Agra,729031.7,986,2
+Potato,2016-2017,Uttar Pradesh,Firozabad,530904.5,626,3
+Potato,2016-2017,Gujarat,Ahmedabad,409221.5,588,4
+Potato,2016-2017,Uttar Pradesh,Farrukhabad,322122,406,5
+Potato,2016-2017,Uttar Pradesh,Etawah,259360,514,6
+Potato,2016-2017,Maharashtra,Pune,227844,446,7
+Potato,2016-2017,Uttar Pradesh,Hathras,223978.9,285,8
+Potato,2016-2017,Gujarat,Rajkot,222948.9,403,9
+Potato,2016-2017,Uttar Pradesh,Aligarh,157923.5,531,10
+Potato,2017-2018,Uttar Pradesh,Agra,901119.2,2260,1
+Potato,2017-2018,Uttar Pradesh,Firozabad,646677.94,1171,2
+Potato,2017-2018,Gujarat,Ahmedabad,540485.2,686,3
+Potato,2017-2018,Uttar Pradesh,Farrukhabad,434192.5,689,4
+Potato,2017-2018,Uttar Pradesh,Budaun,275280.7,1549,5
+Potato,2017-2018,Gujarat,Surat,238550,341,6
+Potato,2017-2018,Maharashtra,Pune,215067,543,7
+Potato,2017-2018,Uttar Pradesh,Etawah,208271,890,8
+Potato,2017-2018,Gujarat,Rajkot,200182.35,280,9
+Potato,2017-2018,West Bengal,Nadia,185693.84,1696,10
+Potato,2018-2019,Uttar Pradesh,Agra,782448.4,2346,1
+Potato,2018-2019,Uttar Pradesh,Hathras,451953.84,789,2
+Potato,2018-2019,Gujarat,Ahmedabad,427781,733,3
+Potato,2018-2019,Uttar Pradesh,Firozabad,353633.82,1169,4
+Potato,2018-2019,Uttar Pradesh,Farrukhabad,345573.5,996,5
+Potato,2018-2019,Uttar Pradesh,Kheri,265291,1180,6
+Potato,2018-2019,Uttar Pradesh,Kannauj,259672.5,601,7
+Potato,2018-2019,Gujarat,Surat,230855,355,8
+Potato,2018-2019,Uttar Pradesh,Budaun,215824.7,1491,9
+Potato,2018-2019,Maharashtra,Pune,209358,702,10
+Potato,2019-2020,Uttar Pradesh,Agra,654914.4,2331,1
+Potato,2019-2020,Uttar Pradesh,Hathras,577171.5,821,2
+Potato,2019-2020,Uttar Pradesh,Farrukhabad,473202.2,1130,3
+Potato,2019-2020,Uttar Pradesh,Firozabad,430918.65,1163,4
+Potato,2019-2020,Gujarat,Ahmedabad,273269.1,400,5
+Potato,2019-2020,Gujarat,Rajkot,223146.65,431,6
+Potato,2019-2020,Gujarat,Surat,173018.2,294,7
+Potato,2019-2020,Maharashtra,Pune,170674,655,8
+Potato,2019-2020,Uttar Pradesh,Kheri,159853.6,1242,9
+Potato,2019-2020,Uttar Pradesh,Kannauj,156131.4,591,10
+Wheat,2000-2001,Maharashtra,Pune,20412,27,1
+Wheat,2000-2001,Chandigarh,Chandigarh,2934,9,2
+Wheat,2000-2001,Maharashtra,Nagpur,1244,30,3
+Wheat,2000-2001,Madhya Pradesh,Bhopal,682.2,16,4
+Wheat,2000-2001,Rajasthan,Alwar,113.6,1,5
+Wheat,2000-2001,Rajasthan,Jaipur,10,1,6
+Wheat,2000-2001,West Bengal,Malda,10,1,6
+Wheat,2001-2002,Punjab,Sri Muktsar Sahib,1735049,56,1
+Wheat,2001-2002,Punjab,Patiala,287976.7,126,2
+Wheat,2001-2002,Punjab,Ludhiana,161164.8,147,3
+Wheat,2001-2002,Punjab,Fazilka,138740,25,4
+Wheat,2001-2002,Punjab,Faridkot,109438,43,5
+Wheat,2001-2002,Gujarat,Rajkot,93030.2,472,6
+Wheat,2001-2002,Haryana,Kurukshetra,83395,21,7
+Wheat,2001-2002,Rajasthan,Kota,78015.4,73,8
+Wheat,2001-2002,Bihar,Purnia,70754,26,9
+Wheat,2001-2002,Haryana,Karnal,67076,24,10
+Wheat,2002-2003,Punjab,Faridkot,9508487.1,122,1
+Wheat,2002-2003,Uttar Pradesh,Varanasi,1818570,144,2
+Wheat,2002-2003,Uttar Pradesh,Shahjahanpur,1600025,249,3
+Wheat,2002-2003,Punjab,Patiala,739022.1,200,4
+Wheat,2002-2003,Uttar Pradesh,Kheri,726940.86,135,5
+Wheat,2002-2003,Rajasthan,Kota,385352.8,220,6
+Wheat,2002-2003,Punjab,Bathinda,332991,115,7
+Wheat,2002-2003,Uttar Pradesh,Mainpuri,314068,179,8
+Wheat,2002-2003,Punjab,Fazilka,264969.5,61,9
+Wheat,2002-2003,Rajasthan,Ganganagar,260458.7,404,10
+Wheat,2003-2004,Punjab,Bathinda,929725.9,117,1
+Wheat,2003-2004,Uttar Pradesh,Shahjahanpur,725658,257,2
+Wheat,2003-2004,Haryana,Fatehabad,681334.8,65,3
+Wheat,2003-2004,Madhya Pradesh,Katni,622047.94,399,4
+Wheat,2003-2004,Uttar Pradesh,Varanasi,466366,130,5
+Wheat,2003-2004,Madhya Pradesh,Dewas,423366.3,305,6
+Wheat,2003-2004,Punjab,Fazilka,395501.5,105,7
+Wheat,2003-2004,Rajasthan,Ganganagar,359122.7,892,8
+Wheat,2003-2004,Gujarat,Rajkot,313527.8,924,9
+Wheat,2003-2004,Madhya Pradesh,Indore,265068.5,316,10
+Wheat,2004-2005,Uttarakhand,Udham Singh Nagar,5848926.82,497,1
+Wheat,2004-2005,Punjab,Sangrur,1435789.3,150,2
+Wheat,2004-2005,Uttar Pradesh,Shahjahanpur,1037804,271,3
+Wheat,2004-2005,Uttar Pradesh,Sitapur,690796,166,4
+Wheat,2004-2005,Haryana,Hisar,652865,30,5
+Wheat,2004-2005,Gujarat,Rajkot,638551.25,1184,6
+Wheat,2004-2005,Punjab,Bathinda,569251,63,7
+Wheat,2004-2005,Madhya Pradesh,Dewas,477013.1,201,8
+Wheat,2004-2005,Punjab,Jalandhar,400028,63,9
+Wheat,2004-2005,Madhya Pradesh,Katni,356892,246,10
+Wheat,2005-2006,Uttarakhand,Udham Singh Nagar,1448261.33,618,1
+Wheat,2005-2006,Punjab,Patiala,1174649.9,181,2
+Wheat,2005-2006,Uttar Pradesh,Lalitpur,1162498,391,3
+Wheat,2005-2006,Punjab,Sangrur,656211,428,4
+Wheat,2005-2006,Uttar Pradesh,Varanasi,648100,286,5
+Wheat,2005-2006,Punjab,Sri Muktsar Sahib,527660.3,171,6
+Wheat,2005-2006,Madhya Pradesh,Katni,506726.66,379,7
+Wheat,2005-2006,Punjab,Ludhiana,457352.25,298,8
+Wheat,2005-2006,Haryana,Kaithal,411466.6,113,9
+Wheat,2005-2006,Madhya Pradesh,Guna,375346,156,10
+Wheat,2006-2007,Gujarat,Rajkot,645765.18,1806,1
+Wheat,2006-2007,Punjab,Sangrur,616641.3,470,2
+Wheat,2006-2007,Punjab,Ludhiana,573822.12,574,3
+Wheat,2006-2007,Madhya Pradesh,Katni,553406.5,627,4
+Wheat,2006-2007,Uttar Pradesh,Varanasi,524526,295,5
+Wheat,2006-2007,Madhya Pradesh,Harda,513070.6,2137,6
+Wheat,2006-2007,Haryana,Kaithal,486563.2,298,7
+Wheat,2006-2007,Madhya Pradesh,Guna,467291.2,475,8
+Wheat,2006-2007,Haryana,Fatehabad,411648.53,331,9
+Wheat,2006-2007,Haryana,Jind,390933.93,367,10
+Wheat,2007-2008,Punjab,Amritsar,2057409,261,1
+Wheat,2007-2008,Punjab,Ludhiana,1622093.55,680,2
+Wheat,2007-2008,Punjab,Sangrur,1052491.9,509,3
+Wheat,2007-2008,Punjab,Gurdaspur,955092.24,89,4
+Wheat,2007-2008,Haryana,Rohtak,880076,59,5
+Wheat,2007-2008,Punjab,Ferozepur,778812.9,105,6
+Wheat,2007-2008,Punjab,Moga,732516.89,102,7
+Wheat,2007-2008,Punjab,Hoshiarpur,654133,86,8
+Wheat,2007-2008,Haryana,Kaithal,641974.72,186,9
+Wheat,2007-2008,Punjab,Sri Muktsar Sahib,597051.1,183,10
+Wheat,2008-2009,Punjab,Amritsar,1833550.65,409,1
+Wheat,2008-2009,Punjab,Ferozepur,1365306.75,156,2
+Wheat,2008-2009,Punjab,Sri Muktsar Sahib,1153579.9,70,3
+Wheat,2008-2009,Punjab,Ludhiana,1087485.15,488,4
+Wheat,2008-2009,Haryana,Kurukshetra,926957.1,221,5
+Wheat,2008-2009,Punjab,Jalandhar,871493.7,273,6
+Wheat,2008-2009,Madhya Pradesh,Katni,753641.3,519,7
+Wheat,2008-2009,Haryana,Rohtak,712583.3,142,8
+Wheat,2008-2009,Rajasthan,Hanumangarh,711209.22,757,9
+Wheat,2008-2009,Haryana,Karnal,640882.55,236,10
+Wheat,2009-2010,Haryana,Sirsa,2050244.4,214,1
+Wheat,2009-2010,Punjab,Ludhiana,1334004.62,493,2
+Wheat,2009-2010,Haryana,Jind,1133872,215,3
+Wheat,2009-2010,Punjab,Sangrur,1078353.1,388,4
+Wheat,2009-2010,Madhya Pradesh,Bhopal,964006.34,557,5
+Wheat,2009-2010,Punjab,Moga,824274.25,85,6
+Wheat,2009-2010,Madhya Pradesh,Rajgarh,758690.54,1292,7
+Wheat,2009-2010,Haryana,Kaithal,737029.55,182,8
+Wheat,2009-2010,Punjab,Ferozepur,727300.4,107,9
+Wheat,2009-2010,Madhya Pradesh,Ratlam,721874.78,1317,10
+Wheat,2010-2011,Punjab,Jalandhar,2204845,293,1
+Wheat,2010-2011,Haryana,Yamunanagar,1178606.7,186,2
+Wheat,2010-2011,Punjab,Ferozepur,1086384,135,3
+Wheat,2010-2011,Haryana,Jind,1038428.7,178,4
+Wheat,2010-2011,Uttar Pradesh,Hardoi,978985.2,1097,5
+Wheat,2010-2011,Madhya Pradesh,Bhopal,939897.82,752,6
+Wheat,2010-2011,Uttar Pradesh,Varanasi,901700,300,7
+Wheat,2010-2011,Uttar Pradesh,Siddharthnagar,861794.4,240,8
+Wheat,2010-2011,Haryana,Jhajjar,745210.1,35,9
+Wheat,2010-2011,Haryana,Kurukshetra,664806.9,193,10
+Wheat,2011-2012,Haryana,Sirsa,1927673.23,176,1
+Wheat,2011-2012,Punjab,Ferozepur,1625126.02,108,2
+Wheat,2011-2012,Haryana,Jind,1494375.8,170,3
+Wheat,2011-2012,Uttar Pradesh,Hardoi,1422162.8,800,4
+Wheat,2011-2012,Haryana,Panipat,1095431.6,82,5
+Wheat,2011-2012,Punjab,Patiala,1000300.4,198,6
+Wheat,2011-2012,Punjab,Ludhiana,968985.51,498,7
+Wheat,2011-2012,Madhya Pradesh,Dewas,862561.37,1516,8
+Wheat,2011-2012,Madhya Pradesh,Ujjain,821131.09,1710,9
+Wheat,2011-2012,Punjab,Amritsar,713969.98,217,10
+Wheat,2012-2013,Madhya Pradesh,Ujjain,3026618.52,1878,1
+Wheat,2012-2013,Madhya Pradesh,Katni,1471683,478,2
+Wheat,2012-2013,Haryana,Panipat,1262405,53,3
+Wheat,2012-2013,Haryana,Jind,1143216.2,150,4
+Wheat,2012-2013,Punjab,Ludhiana,922443.68,500,5
+Wheat,2012-2013,Haryana,Kurukshetra,871889.96,210,6
+Wheat,2012-2013,Rajasthan,Hanumangarh,759257.76,1484,7
+Wheat,2012-2013,Rajasthan,Bundi,743418.8,503,8
+Wheat,2012-2013,Madhya Pradesh,Guna,727023.6,1345,9
+Wheat,2012-2013,Punjab,Fatehgarh Sahib,714552.3,129,10
+Wheat,2013-2014,Madhya Pradesh,Ujjain,3045420.47,1525,1
+Wheat,2013-2014,Madhya Pradesh,Dewas,2165457.32,1258,2
+Wheat,2013-2014,Rajasthan,Bundi,1519154.6,662,3
+Wheat,2013-2014,Madhya Pradesh,Shajapur,1258698.02,2039,4
+Wheat,2013-2014,Punjab,Gurdaspur,1140370,85,5
+Wheat,2013-2014,Gujarat,Rajkot,1110044.01,1515,6
+Wheat,2013-2014,Haryana,Sirsa,1026849.3,63,7
+Wheat,2013-2014,Punjab,Jalandhar,953469.6,204,8
+Wheat,2013-2014,Punjab,Patiala,950844.9,228,9
+Wheat,2013-2014,Gujarat,Sabar Kantha,804880.9,2334,10
+Wheat,2014-2015,Haryana,Sirsa,2884326.74,127,1
+Wheat,2014-2015,Haryana,Jind,1873510.4,128,2
+Wheat,2014-2015,Haryana,Fatehabad,1326047.2,94,3
+Wheat,2014-2015,Punjab,Fazilka,1315052.9,74,4
+Wheat,2014-2015,Madhya Pradesh,Indore,1276018.62,969,5
+Wheat,2014-2015,Haryana,Karnal,1003574.2,199,6
+Wheat,2014-2015,Madhya Pradesh,Shajapur,873070.54,2206,7
+Wheat,2014-2015,Haryana,Kaithal,757230.2,131,8
+Wheat,2014-2015,Madhya Pradesh,Vidisha,679102.5,1574,9
+Wheat,2014-2015,Madhya Pradesh,Ujjain,666965.68,1634,10
+Wheat,2015-2016,Gujarat,Vadodara,2119402.13,876,1
+Wheat,2015-2016,Haryana,Kaithal,1143214.6,104,2
+Wheat,2015-2016,Madhya Pradesh,Ujjain,868007.43,1496,3
+Wheat,2015-2016,Madhya Pradesh,Indore,843941.6,1004,4
+Wheat,2015-2016,Haryana,Jind,801550,107,5
+Wheat,2015-2016,Haryana,Sirsa,777366.7,143,6
+Wheat,2015-2016,Punjab,Sri Muktsar Sahib,676099,73,7
+Wheat,2015-2016,Punjab,Sangrur,635259,123,8
+Wheat,2015-2016,Punjab,Ludhiana,624655.1,317,9
+Wheat,2015-2016,Punjab,Jalandhar,612744.1,193,10
+Wheat,2016-2017,Haryana,Kaithal,1553795.8,95,1
+Wheat,2016-2017,Haryana,Jind,1294774.4,126,2
+Wheat,2016-2017,Punjab,Sri Muktsar Sahib,993367,133,3
+Wheat,2016-2017,Punjab,Fatehgarh Sahib,966304.6,115,4
+Wheat,2016-2017,Punjab,Gurdaspur,715858,67,5
+Wheat,2016-2017,Punjab,Ludhiana,652649.7,401,6
+Wheat,2016-2017,Madhya Pradesh,Ujjain,622369.06,1506,7
+Wheat,2016-2017,Madhya Pradesh,Vidisha,611101.5,1365,8
+Wheat,2016-2017,Madhya Pradesh,Dewas,579639.98,1412,9
+Wheat,2016-2017,Haryana,Sirsa,554522.7,83,10
+Wheat,2017-2018,Haryana,Kaithal,1828454.5,142,1
+Wheat,2017-2018,Haryana,Hisar,1222328,87,2
+Wheat,2017-2018,Haryana,Jind,1220752.4,121,3
+Wheat,2017-2018,Punjab,Gurdaspur,949508,67,4
+Wheat,2017-2018,Punjab,Ludhiana,799569.09,389,5
+Wheat,2017-2018,Haryana,Karnal,775974.3,123,6
+Wheat,2017-2018,Haryana,Yamunanagar,712809,79,7
+Wheat,2017-2018,Madhya Pradesh,Ujjain,617508.08,1717,8
+Wheat,2017-2018,Madhya Pradesh,Vidisha,594243.3,1604,9
+Wheat,2017-2018,Haryana,Sirsa,584065.9,96,10
+Wheat,2018-2019,Madhya Pradesh,Ratlam,815316.73,1500,1
+Wheat,2018-2019,Haryana,Kaithal,780551.2,86,2
+Wheat,2018-2019,Haryana,Jind,713776.1,104,3
+Wheat,2018-2019,Madhya Pradesh,Vidisha,708363.39,1496,4
+Wheat,2018-2019,Punjab,Jalandhar,646368.8,201,5
+Wheat,2018-2019,Punjab,Ludhiana,629906.6,201,6
+Wheat,2018-2019,Madhya Pradesh,Sehore,586834.22,1717,7
+Wheat,2018-2019,Madhya Pradesh,Ujjain,508728.19,1731,8
+Wheat,2018-2019,Madhya Pradesh,Chhatarpur,507743.79,1699,9
+Wheat,2018-2019,Punjab,Mansa,477488,190,10
+Wheat,2019-2020,Madhya Pradesh,Shajapur,736555.14,3107,1
+Wheat,2019-2020,Madhya Pradesh,Vidisha,656153.09,1308,2
+Wheat,2019-2020,Madhya Pradesh,Ratlam,651746.63,1326,3
+Wheat,2019-2020,Madhya Pradesh,Ujjain,650195.9,1678,4
+Wheat,2019-2020,Madhya Pradesh,Dewas,621303.21,1971,5
+Wheat,2019-2020,Madhya Pradesh,Sehore,562134.12,1733,6
+Wheat,2019-2020,Punjab,Fazilka,447457,69,7
+Wheat,2019-2020,Madhya Pradesh,Shivpuri,440314.88,1721,8
+Wheat,2019-2020,Madhya Pradesh,Narmadapuram,426727.54,1118,9
+Wheat,2019-2020,Uttar Pradesh,Kheri,413744,1487,10

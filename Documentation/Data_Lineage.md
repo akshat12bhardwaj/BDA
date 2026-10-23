@@ -273,3 +273,34 @@ The `freeze` stage runs once only and refuses a second run. The build refuses to
 - Implausible areas and yields are not flagged until R5 or R6 get their reference data.
 - Boundary splits are not reconciled until R8b gets LGD or gazette history, so the trailing summary is deferred to v1.1.
 - DES has not confirmed what "Whole Year" covers.
+
+## Big Data component and dashboard lineage (course deliverables, 2026-10-23; not a numbered phase)
+
+Produced by `Code/bigdata/` (PySpark 4.2.0, JDK 21, local mode) and read by `Code/app/` (Streamlit 1.57.0). Spark reads only; pandas writes the outputs, to the new folder `Processed_Data/bigdata/`. No Phase 4–10 artifact is modified.
+
+```
+Dataset/India Commodity Wise Mandi Dataset/{Onion,Potato,Wheat}.csv  (file SHA-256 vs integration/audit/source_fingerprints.csv)
+Processed_Data/integration/district_crosswalk.csv                     (content hash, documented alias_basis canonicalisation; git blob = HEAD)
+    → header check → explicit schema → try_to_date('dd MMM yyyy') → July–June year → window ≤ 2020-06-30
+    → quality counts (no repair) · Spark SQL Q1 / Q2 / Q3 · RDD map/reduceByKey + word count
+    → Processed_Data/bigdata/*.csv
+Processed_Data/integration/mandi_apy_district_year.csv (Phase 4 pandas; shape vs record + git blob = HEAD)
+    → parity vs Q1 → parity_report.csv
+Code/app/data.py reads: Phase 8 validation predictions + test metrics · Phase 9 validation/test predictions + metrics
+                        · Phase 10 product (source ≤ 2018-19 only) + its manifest counts · Processed_Data/bigdata/*
+```
+
+| Artifact (`Processed_Data/bigdata/`) | Contents | Rows |
+|---|---|---|
+| `district_year_spark.csv` | Q1: crop × APY district × agricultural year (records, markets, arrivals sum, exact median modal price, first/last date, duplicate-key rows) | 16,673 |
+| `weekly_state_spark.csv` | Q2: crop × state × Monday week | 60,436 |
+| `top_districts_spark.csv` | Q3: top 10 districts by arrivals per crop × year (`RANK()`) | 593 |
+| `quality_checks.csv` | counts only, per crop (all-years: rows read, malformed rows, bad dates; window: every other check) | 39 |
+| `parity_report.csv` | Q1 vs Phase 4 pandas: 8 checks, all 0 mismatches over 16,673 keys | 8 |
+| `mapreduce_counts.csv`, `word_count.csv` | RDD `map` / `reduceByKey` (equal to SQL) and the variety word count; labelled "not Hadoop" | 93, 122 |
+| `run_manifest.csv` | tool versions, window, input checks, row counts, output hashes (no timestamps; byte-reproducible) | — |
+| `run_log.csv` | observed seconds per stage (append-only; not reproducible by design) | — |
+
+**Dashboard outputs:** none. The app is read-only. Screenshots taken from the running app are in `Documentation/Final/screenshots/`.
+
+**Reproduce:** follow `Documentation/Final/README_Setup.md`. Tests: `Code/tests/test_bigdata_spark.py` (synthetic fixture, compared with Phase 4's own pandas functions; the real-data parity test runs with `BDA_SPARK_REAL=1`) and `Code/tests/test_app.py`.

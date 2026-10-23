@@ -29,6 +29,14 @@ Build a data-driven agricultural trading decision-support system for Indian agri
 | 13 | Dynamic Feedback | [FUTURE] |
 | 14 | Final End-to-End Evaluation | [FUTURE] |
 
+**Course deliverables outside the phase numbering (implemented 2026-10-23).** This is **not** Phase 11: D-49 is not accepted, so the phase names and numbers are unchanged. The deliverables are:
+- a PySpark / Spark SQL ETL over the raw mandi files, with Spark/pandas parity;
+- a Spark RDD MapReduce-style demonstration;
+- a read-only Streamlit dashboard;
+- the final report and slides (§8m).
+
+Hadoop/HDFS is **not implemented**; that is pending instructor guidance.
+
 ## 2b. Final Selected Crops (Phase 2 outcome)
 
 **Onion, Potato, Wheat** — selected from a 320-crop candidate universe using computed mandi + APY + Agri Market feasibility evidence (not row count or popularity alone). Full methodology and evidence: `Documentation/Crop_Feasibility_Audit.md`. Tomato was explicitly considered and excluded (2.34M mandi records, but only 407 APY records across 5 years with 22.85% zero-production — insufficient for Supply Prediction). Result saved at `Processed_Data/selected_crops.csv`.
@@ -89,6 +97,13 @@ BDA/
 │   ├── production/                                   (Phase 10, v1)
 │   │   ├── pipeline.py                               (phase10-production-context-v1 + PQ-1 v1: stages design / freeze / build)
 │   │   └── apy_audit.py                              (hardened APY audit, design window ≤ 2018-19 only)
+│   ├── bigdata/                                      (course deliverable, 2026-10-23; not a numbered phase)
+│   │   ├── mandi_spark.py                            (PySpark ETL: header check, explicit schema, quality counts, Spark SQL Q1–Q3)
+│   │   ├── parity.py                                 (Spark Q1 vs the Phase 4 pandas mandi_apy_district_year.csv)
+│   │   └── mapreduce_demo.py                         (Spark RDD map/reduceByKey pattern + word count; not Hadoop)
+│   ├── app/                                          (course deliverable: read-only Streamlit dashboard)
+│   │   ├── data.py                                   (loaders that enforce the boundaries: no holdout, no reserved production values, no writes)
+│   │   └── streamlit_app.py                          (six tabs)
 │   ├── eda/                                          (Phase 7)
 │   │   └── analysis.py                               (EDA summary computations: run_eda())
 │   ├── features/                                     (Phase 6)
@@ -130,6 +145,7 @@ BDA/
 │   ├── eda/                                          (Phase 7: 15 summary tables + input fingerprints)
 │   ├── modelling/phase08/                            (Phase 8 dataset manifests, sample counts, eligibility, provenance)
 │   ├── production_context/                           (Phase 10: contract CSV, PQ-1 provenance/freeze, output manifest, audit/)
+│   ├── bigdata/                                      (Spark ETL outputs, parity report, run manifest/log; course deliverable)
 │   ├── cleaning_audit/                               (Phase 5 rule summary, decisions, review records, removed copies, manifests)
 │   ├── integration/                                  (Phase 4 outputs — see Data_Lineage.md)
 │   │   ├── mandi_integrated_{onion,potato,wheat}.parquet
@@ -175,6 +191,8 @@ BDA/
     ├── Arrivals_Forecast_Contract.md (phase9-arrivals-forecast-v1; provisional persistence)
     ├── Phase_09_Model_Protocol.md   (learned-arrivals protocol, APPROVED as D-44 with U2–U6; run instructions)
     ├── Phase_10_Production_Context_Plan.md (Phase 10 plan; D-46 – D-48 accepted; implementation record §17)
+    ├── BigData_and_Dashboard_Spec.md (spec for the Spark component and dashboard)
+    ├── Final/                        (report, slides, demo script, contribution matrix, setup, checklist, screenshots/)
     └── Future_Work_Roadmap.md
 ```
 
@@ -379,6 +397,95 @@ Built under D-46 – D-48, accepted 2026-10-23. The phase name stays "Supply Pre
   - Inputs are verified against their Phase 4/6 records; the crosswalk passes through the documented `alias_basis` canonicalisation.
   - PQ-1 was frozen by hash before the reserved build, and outputs are byte-for-byte reproducible.
   - Lineage: `Data_Lineage.md`, Phase 10 section.
+
+## 8m. Big Data component and dashboard (course deliverables, implemented 2026-10-23)
+
+**Status:** not a numbered phase. No Phase 4–10 file, decision, freeze or evaluation boundary is changed. Spec: `Documentation/BigData_and_Dashboard_Spec.md`. Lineage: `Data_Lineage.md`, "Big Data component and dashboard" section.
+
+**Environment:** isolated, outside the repository and outside OneDrive.
+- Eclipse Temurin JDK 21.0.12.1+1 (portable zip, SHA-256 verified).
+- A venv (`--system-site-packages`) with PySpark 4.2.0 and Streamlit 1.57.0.
+- The global Java (24), PATH and `C:\Python313` are unchanged.
+- `JAVA_HOME` is set per process. Setup steps: `Documentation/Final/README_Setup.md`.
+
+**PySpark ETL (`Code/bigdata/mandi_spark.py`)**
+- **Header and schema:** an exact header check runs before the explicit schema is applied. In a probe, Spark's `enforceSchema=false` did not reject a renamed header, so the module checks it itself.
+- **Rows read:** 7,983,133 (Onion 2,624,379 · Potato 2,764,987 · Wheat 2,593,767). Malformed rows: 0. Unparseable dates: 0.
+- **Window:** dates ≤ 2020-06-30, i.e. agricultural years ≤ 2019-20. It ends before the 2021–2022 test and the 2023+ holdout. Rows in the window: 1,965,939 · 2,097,137 · 2,063,216.
+
+**Quality counts in the window** (counted, never repaired)
+
+| Check | Onion | Potato | Wheat |
+|---|---|---|---|
+| Duplicate-key rows | 1,484 | 1,296 | 1,077 |
+| Min price > max price | 2,235 | 3,047 | 2,992 |
+| Missing or zero modal price | 27,475 | 32,512 | 13,307 |
+| Zero arrivals | 9 | 3 | 14 |
+| Rows without an APY district | 80,402 | 92,087 | 42,002 |
+
+**Spark SQL**
+
+| Query | Grouping | Rows |
+|---|---|---|
+| Q1 | district × agricultural year (the parity target) | 16,673 |
+| Q2 | weekly, by crop × state (state rather than market, to keep the output small) | 60,436 |
+| Q3 | top 10 districts by arrivals per crop × year, via `RANK()` | 593 |
+
+**Parity against Phase 4**
+- **Reference:** Phase 4's pandas `mandi_apy_district_year.csv`.
+- **Result:** all **16,673** district-years, **0 mismatches** across **8 checks**.
+  - Exact: the key set, records, markets, first date, last date and duplicate-key rows.
+  - Within a 1e-9 relative tolerance: the arrivals sum and the median modal price.
+- **Reference verification:** the recorded Phase 4 content hash can't be reproduced from the CSV (types change on readback). The reference is therefore checked by its shape against the record and by its git blob against HEAD.
+
+**MapReduce-style demonstration (`mapreduce_demo.py`)**
+- Spark RDD `map` / `reduceByKey` gives records and arrivals per crop × state (93 rows), equal to the Spark SQL `GROUP BY`.
+- A word count over variety names (122 words).
+- This is a Spark pattern in local mode: **not Hadoop MapReduce, not a cluster**.
+
+**Runtime and reproducibility**
+- Observed: 108–116 s end to end on `local[8]`, on one machine (28 logical cores, 32 GB). This is not a cluster benchmark.
+- Two runs produced byte-identical files (8 outputs; `run_log.csv` excluded by design).
+
+**Dashboard (`Code/app/`)**
+- **Six tabs:** Overview, Price forecasting, Arrivals forecasting, Production context, Big Data (Spark), Limitations.
+- **Restrictions enforced in `data.py`:**
+  - price predictions: validation only (origin ≤ 2020-12-27); the 2021–2022 test appears as metrics only;
+  - arrivals: `val_2019`, `val_2020`, `test_2021` and `test_2022` only;
+  - production values: source years ≤ 2018-19 only; reserved years as counts from the Phase 10 manifest;
+  - no 2023+ data; no file writes.
+- **Screenshots:** `Documentation/Final/screenshots/app_1_overview.png` … `app_6_limitations.png`.
+
+**Tests (2026-10-23)**
+- Project Python: 268 passed, 2 skipped (the Spark and Streamlit tests skip without the venv).
+- venv: 36 passed, 1 skipped.
+- Opt-in real-data parity: passed.
+- Integrity checks passed: 62 protected hashes, the D-42 / D-45 freezes, AQ-1 and the Phase 10 freeze.
+
+**Run** (from the project root, `JAVA_HOME` set):
+- `<venv>\Scripts\python.exe -B -m Code.bigdata.mandi_spark`
+- `<venv>\Scripts\streamlit.exe run Code\app\streamlit_app.py --server.headless true --browser.gatherUsageStats false`
+
+**Correction recorded (Onion, one week ahead, D-42 test).** A working-session course-alignment audit, which is not a repository document, said this model had "1.6% lower MAE". That is wrong. As D-42, `Phase_08_Modelling_Plan.md` and `test_results.csv` record:
+- combined test: **1.58% worse** than persistence on MAE;
+- 2021: **5.16% worse**;
+- 2022: **3.31% better**.
+
+The dashboard, report and slides state this correctly. No repository document had the wrong figure.
+
+**Deliverables** (`Documentation/Final/`)
+- `Final_Report.md`
+- `Final_Presentation.pptx`, generated by `Code/utils/build_final_slides.py` with numbers read from the outputs
+- `Demo_Script.md`, including the video plan
+- `Contribution_Matrix.md` (a template)
+- `README_Setup.md`
+- `Requirements_Checklist.md`
+
+**Limitations**
+- **Hadoop/HDFS:** not implemented, pending instructor guidance. No WSL distro or Docker is installed.
+- **Local only:** the run and the dashboard are local.
+- **Untracked inputs:** the dashboard reads local parquet predictions that are not in Git, so a fresh clone must rerun the pipelines.
+- **To be supplied by the team:** names, roles, the contribution matrix, and the report's AI-assistance disclosure (§10).
 
 ## 9. Future-Phase Dependency Context
 

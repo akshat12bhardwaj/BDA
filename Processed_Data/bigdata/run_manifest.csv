@@ -1,0 +1,31 @@
+item,name,value
+meta,spark,4.2.0
+meta,java,21.0.12.1
+meta,python,3.13.7
+meta,pandas,2.3.3
+meta,master,local[8]
+meta,window,reported_date <= 2020-06-30
+meta,note,local single-machine run; not evidence of cluster performance
+meta,mapreduce_label,"Spark RDD map/reduceByKey - MapReduce-style processing pattern, Spark local mode; not Hadoop MapReduce, not a cluster"
+input,mandi_onion:file_sha256,match; recorded=40876b2b2912566105b5a3e52f71fa722490377493d3b373c274e620f83c0603
+input,mandi_potato:file_sha256,match; recorded=ab76901280c17fb25c9aec1b3c39336966bde7c7bd2641a2e32330b205050cc4
+input,mandi_wheat:file_sha256,match; recorded=e093697b402729ce89eac08d8234a88491a23b4a0ea4207de29109bed672cd3c
+input,crosswalk:shape,match; recorded=1474x8
+input,crosswalk:content_sha256,match_after_alias_basis_canonicalisation; recorded=a6d33dc835cb1661edfb5877d4948efd8c563dffe3c1ca7c36f8c9ab469d5b65
+input,crosswalk:git_blob_vs_HEAD,match; recorded=HEAD
+input,reference:shape,match; recorded=38700x21
+input,reference:git_blob_vs_HEAD,match; recorded=HEAD
+rows,district_year_spark.csv,16673
+rows,weekly_state_spark.csv,60436
+rows,top_districts_spark.csv,593
+rows,quality_checks.csv,39
+rows,mapreduce_counts.csv,93
+rows,word_count.csv,122
+rows,parity_report.csv,8
+output,district_year_spark.csv,6750bd70de74594ad0163f978dfe0a23345fb09c2008af3e008f742ca5bbe70c
+output,weekly_state_spark.csv,d151adfecac629bc1ffc8a40483f3a300d4f36539fd794330eaeed87f4f8dcdc
+output,top_districts_spark.csv,aeb8d26fa5f841e318ffa922c2816a1db684243c068e6dec935d8a7435a3d509
+output,quality_checks.csv,75e7938fc5d651b64aa685b4cb4bd98d93cb1f06e7fc486ac20b1c80288a27ab
+output,mapreduce_counts.csv,56079afa1f0d6ff15d93184360cfc5a5cff16bc26c0de1c19a63f794ab65cbb6
+output,word_count.csv,30fdac3b0033d87a7546d98687e5c0a637d575e3cffbbf5e7549ff61beb4a8d6
+output,parity_report.csv,f9c883a7fa6683097aaef1b3ec88573b1cc088e82a055f73570ffa2b535c9afd

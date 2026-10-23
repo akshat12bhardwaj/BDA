@@ -1,0 +1,9 @@
+column,rows_compared,mismatches,max_abs_diff,example_keys
+key_set,16673,0,,
+mandi_records,16673,0,,
+mandi_markets,16673,0,,
+mandi_first_date,16673,0,,
+mandi_last_date,16673,0,,
+mandi_duplicate_key_rows,16673,0,,
+mandi_arrivals_tonnes_sum,16673,0,1.862645149230957e-09,
+mandi_modal_price_median,16673,0,0.0,
