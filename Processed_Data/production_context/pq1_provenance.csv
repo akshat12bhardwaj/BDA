@@ -1,0 +1,16 @@
+code,name,status,effect,condition,evidence,active,pq_version,decision
+R1,missing_value,specified,unusable,"production_tonnes null, or area_ha null, or annual_method == ambiguous_multi_season_no_total","F4, F11, D-20",True,pq1-v1,D-48
+R2,yield_zero_encodes_missing,specified,annotated,production null and published yield == 0; the contract yield is null,F4,True,pq1-v1,D-48
+R3,zero_production,review-only,review,production == 0 and area > 0,F5,True,pq1-v1,D-48
+R8a,first_reported_after_state_start,specified,annotated,"first source year of (crop, state, district) > first source year of (crop, state); earlier years only",F14,True,pq1-v1,D-48
+R9,single_season_annual,specified,annotated,annual_comparability == single_named_season (all crops),F9,True,pq1-v1,D-48
+R10,method_change,specified,annotated,"annual_comparability differs from the most recent earlier source year with a row for the same crop, state and district",F10,True,pq1-v1,D-48
+R11,unit_label,specified,unusable,a raw season row has unit labels other than Hectare / Tonnes / Tonnes/Hectare,F1,True,pq1-v1,D-48
+R12,duplicate_conflict,specified,unusable,"a raw season row key (crop, state, district, year, season) is duplicated",F2,True,pq1-v1,D-48
+R13,provider_query_pending,review-only,review,"crop Potato, source year 1997-98, state West Bengal or Gujarat (D-48 Option 1); no cause asserted","F6, F7",True,pq1-v1,D-48
+R4,yield_inconsistent,diagnostic,none,"manifest only, per crop: rows with area > 0 and production > 0 (non-null), and max |yield - production/area| / (production/area); no row flag, no tolerance",F3,False,pq1-v1,D-48
+R4-flag,yield_inconsistent_flag,blocked,none,inactive: no justified tolerance,F3,False,pq1-v1,D-48
+R5,implausible_area,blocked,none,inactive: needs official district/state geographic areas,F6,False,pq1-v1,D-48
+R6,implausible_yield,blocked,none,inactive: needs reference yields,F6-F8,False,pq1-v1,D-48
+R7,area_jump,blocked,none,inactive: needs a robust reference design,revision 1 candidates,False,pq1-v1,D-48
+R8b,boundary_split,blocked,none,inactive: needs LGD / gazette split history,F15,False,pq1-v1,D-48

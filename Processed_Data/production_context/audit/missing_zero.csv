@@ -1,0 +1,10 @@
+crop,column,missing,zero
+Onion,area_ha,0,0
+Onion,production_tonnes,52,5
+Onion,yield_t_per_ha,0,57
+Potato,area_ha,0,0
+Potato,production_tonnes,24,4
+Potato,yield_t_per_ha,0,28
+Wheat,area_ha,0,0
+Wheat,production_tonnes,26,3
+Wheat,yield_t_per_ha,0,29

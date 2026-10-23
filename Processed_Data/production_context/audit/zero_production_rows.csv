@@ -1,0 +1,13 @@
+id,crop,state,district,apy_year,season,area_ha,production_tonnes,yield_t_per_ha
+57177,Onion,Haryana,Bhiwani,2001-2002,Whole Year,1.0,0.0,0.0
+57372,Potato,Haryana,Mahendragarh,2001-2002,Whole Year,1.0,0.0,0.0
+57429,Potato,Haryana,Rewari,2001-2002,Whole Year,1.0,0.0,0.0
+57470,Onion,Haryana,Sirsa,2001-2002,Whole Year,1.0,0.0,0.0
+72161,Potato,Haryana,Mahendragarh,2002-2003,Whole Year,3.0,0.0,0.0
+72260,Onion,Haryana,Sirsa,2002-2003,Whole Year,2.0,0.0,0.0
+72492,Onion,Himachal Pradesh,Shimla,2002-2003,Whole Year,34.0,0.0,0.0
+79875,Onion,Rajasthan,Jaisalmer,2002-2003,Whole Year,2.0,0.0,0.0
+80343,Potato,Rajasthan,Udaipur,2002-2003,Whole Year,2.0,0.0,0.0
+80463,Wheat,Tamil Nadu,Coimbatore,2002-2003,Rabi,6.0,0.0,0.0
+80642,Wheat,Tamil Nadu,Dindigul,2002-2003,Rabi,1.0,0.0,0.0
+81156,Wheat,Tamil Nadu,Salem,2002-2003,Rabi,10.0,0.0,0.0

@@ -1,0 +1,43 @@
+crop,annual_method,annual_comparability,seasons_reported,rows
+Onion,single_season,single_named_season,Autumn,1
+Onion,single_season,single_named_season,Kharif,170
+Onion,single_season,single_named_season,Rabi,1053
+Onion,single_season,single_named_season,Summer,15
+Onion,single_season,whole_year_row,Whole Year,4882
+Onion,total_row,verified_total,Autumn|Rabi|Summer|Total|Winter,1
+Onion,total_row,verified_total,Autumn|Rabi|Total,2
+Onion,total_row,verified_total,Kharif|Rabi|Summer|Total,273
+Onion,total_row,verified_total,Kharif|Rabi|Total,518
+Onion,total_row,verified_total,Kharif|Summer|Total,18
+Onion,total_row,verified_total,Kharif|Total|Whole Year,18
+Onion,total_row,verified_total,Rabi|Summer|Total,987
+Onion,total_row,verified_total,Rabi|Summer|Total|Whole Year,2
+Onion,total_row,verified_total,Rabi|Total|Winter,1
+Onion,total_row,verified_total,Summer|Total|Whole Year,4
+Potato,ambiguous_multi_season_no_total,ambiguous,Kharif|Whole Year,4
+Potato,ambiguous_multi_season_no_total,ambiguous,Rabi|Whole Year,14
+Potato,single_season,single_named_season,Kharif,308
+Potato,single_season,single_named_season,Rabi,1693
+Potato,single_season,single_named_season,Summer,2
+Potato,single_season,single_named_season,Winter,480
+Potato,single_season,whole_year_row,Whole Year,5205
+Potato,total_row,verified_total,Autumn|Rabi|Total,1
+Potato,total_row,verified_total,Autumn|Rabi|Total|Winter,4
+Potato,total_row,verified_total,Autumn|Total|Winter,1
+Potato,total_row,verified_total,Kharif|Rabi|Summer|Total,88
+Potato,total_row,verified_total,Kharif|Rabi|Summer|Total|Whole Year,2
+Potato,total_row,verified_total,Kharif|Rabi|Total,649
+Potato,total_row,verified_total,Kharif|Rabi|Total|Whole Year,11
+Potato,total_row,verified_total,Kharif|Summer|Total,8
+Potato,total_row,verified_total,Kharif|Summer|Total|Whole Year,1
+Potato,total_row,verified_total,Rabi|Summer|Total,23
+Potato,total_row,verified_total,Rabi|Total|Winter,349
+Potato,total_row,verified_total,Summer|Total|Whole Year,1
+Potato,total_row,verified_total,Summer|Total|Winter,57
+Wheat,single_season,single_named_season,Kharif,6
+Wheat,single_season,single_named_season,Rabi,10265
+Wheat,single_season,single_named_season,Summer,320
+Wheat,single_season,single_named_season,Winter,19
+Wheat,single_season,whole_year_row,Whole Year,56
+Wheat,total_row,verified_total,Kharif|Rabi|Total,5
+Wheat,total_row,verified_total,Rabi|Total|Winter,14

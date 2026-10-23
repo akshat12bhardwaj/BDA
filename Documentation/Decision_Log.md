@@ -415,3 +415,59 @@ RMSE improved in both years. Any change to the selection would need a new decisi
 - The test result cannot revise this selection.
 - The freeze and the test are implemented in `Code/modelling/arrivals_final.py`, with outputs in `Processed_Data/modelling/phase09_models/test_2021_2022/`.
 **Phase**: 9.
+### D-46 — [ACCEPTED 2026-10-23 by the project owner; proposed earlier the same day] Phase 10 scope: descriptive district production context, contract `phase10-production-context-v1`
+**Evidence**: `Phase_10_Production_Context_Plan.md` §2 (F1–F17, design window ≤ 2018-19) and §4.
+- At most 22 annual points per district in the design window (median 17 / 18 / 22 for Onion / Potato / Wheat).
+- A 2–3-year effective forecast horizon under D-47.
+- District re-labelling and splits (F14, F15); reporting-method changes in 184 / 179 / 19 districts (F10).
+
+**Proposal**: as `Phase_10_Production_Context_Plan.md` §14, D-46.
+**Alternatives considered**: Option B (production forecasting): rejected for now. The annual points are too few and non-stationary, the targets contain unresolved anomalies, and no downstream need has been shown.
+**Status**: proposed 2026-10-23; **accepted 2026-10-23 by the project owner** in the form below.
+**Accepted form**:
+1. **Option A:** Phase 10 builds a descriptive district production context from APY. No production-forecasting model is built or authorised.
+2. **Contract `phase10-production-context-v1`** as plan §5, including `available_from`, `information_rule`, `annual_comparability` and `apy_district_code` (APY's own code as published; not an LGD/Census code).
+   - Grain: one row per (crop, APY state, APY district, decision agricultural year) where the source district-year exists. A missing row means "not reported" and is never filled.
+   - Values are kept as published in `apy_annual.csv`. The only change: yield is null where production is null.
+3. **Comparability:** verified annual totals (`verified_total`), Whole Year rows (`whole_year_row`), named-season rows (`single_named_season`) and `ambiguous` records are distinct classes in every output and summary. They are never merged.
+4. The three-year trailing summary is **deferred to v1.1**.
+5. **Not authorised:** production-based procurement caps and marketable-surplus estimates.
+
+**Phase**: 10.
+
+### D-47 — [ACCEPTED 2026-10-23 by the project owner; proposed earlier the same day] APY information availability (`apy_lag2_policy_v1`) and the Phase 10 design / reserved windows
+**Evidence**:
+- A-19: one observed release (2022-23 data in the 14-12-2023 update).
+- National 2022-23 final estimates appeared in October 2023 (field crops) and about March 2024 (horticulture) (plan S6, S7; secondary sources; the primary pages could not be opened).
+- District compilation can lag the national estimates (S5).
+- No district-level release history has been verified. Secondary, unverified metadata (India Data Portal; a February 2023 Kaggle mirror) indicates that district coverage of the most recent years was incomplete long after those years ended.
+
+**Proposal**: as `Phase_10_Production_Context_Plan.md` §14, D-47.
+**Alternatives considered**: lag 1 (rejected: not available for much of each year, D-36); release-date-specific availability (not possible without a release history).
+**Status**: proposed 2026-10-23; **accepted 2026-10-23 by the project owner** in the form below.
+**Accepted form**:
+1. **`apy_lag2_policy_v1`:** APY year Y1–Y2 becomes usable from 1 July of Y2 + 1. Decision agricultural year t therefore uses source year t − 2 only: never t − 1, and never a later year to backfill an earlier decision. This is a documented **policy assumption**, not a verified or universal publication schedule.
+2. **Publication-timing caveat:** the rule is not shown to be conservative for source years 2019-20 onward, and every result that uses those years states this. The file is a single 2023 vintage, so earlier years carry revised, not first-published, values.
+3. **Design window:** no quality rule is designed or tuned using source years later than 2018-19. Disclosure: an earlier exploratory profile computed aggregate statistics up to 2020-21; no PQ-1 v1 rule or threshold is derived from it.
+4. **Reserved:** source years 2019-20, 2020-21 and 2021-22 are reserved until the contract and PQ-1 are frozen by hash. Later processing is mechanical and follows the approved protocol: only counts per `pq_class` are reported, and the values are read only by approved downstream protocols.
+5. **Excluded:** source year 2022-23 is excluded from v1.
+6. **Unchanged:** D-36, D-40, D-42, D-45, A-19 and the Phase 6 `apy_*_lag2` features.
+
+**Phase**: 10.
+
+### D-48 — [ACCEPTED 2026-10-23 by the project owner; proposed earlier the same day] PQ-1 v1 production quality rules (flags only; no numerical thresholds active)
+**Evidence**: plan §2 F1–F15 (design window only) and §6. The revision 1 candidate hit counts (R6 low side: 120 / 172 / 32 rows) are kept as the record of why thresholds were withdrawn.
+**Proposal**: as `Phase_10_Production_Context_Plan.md` §14, D-48.
+**Status**: proposed 2026-10-23; **accepted 2026-10-23 by the project owner** in the form below, with **R13 Option 1**.
+**Accepted form**:
+1. PQ-1 v1 only flags and annotates. It never repairs, clips, imputes or deletes source observations. No unsupported numerical threshold is active.
+2. **Specified rules** as plan §6: R1, R2, R4 (manifest diagnostic only; no row flag), R8a, R9 (all crops; no Wheat exception), R10, R11 and R12, with two clarifications:
+   - (a) R8a is computed per crop and state;
+   - (b) R10 compares against the most recent earlier source year containing a row for the same crop, state and district.
+3. **R3** (zero production with positive area) assigns `review`.
+4. **R13 (Option 1):** all annual rows for (West Bengal, Potato, 1997-98) and (Gujarat, Potato, 1997-98) are `review`, pending a response from DES. The cause is not labelled a unit error, and the rows are not excluded.
+5. **Blocked and inactive** until their evidence exists: the R4 row flag, R5, R6, R7 and R8b. Any activation requires a new decision and a new PQ version.
+6. **`pq_class` precedence:** `unusable` (R1, R11, R12) > `review` (R3, R13) > `annotated` (R2, R8a, R9, R10) > `ok`.
+7. **Withdrawn, kept on record:** the 10× / 0.1× national-median conventions for R6 / R7, the 1% R4 tolerance, and the Wheat Rabi exception to R9.
+
+**Phase**: 10.

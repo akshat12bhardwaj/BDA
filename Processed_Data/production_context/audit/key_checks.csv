@@ -1,0 +1,5 @@
+check,value
+district_code_with_several_names,0
+district_name_with_several_codes,0
+duplicated_season_key_rows,0
+id_unique,True

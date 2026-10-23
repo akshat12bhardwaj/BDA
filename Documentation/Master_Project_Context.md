@@ -23,7 +23,7 @@ Build a data-driven agricultural trading decision-support system for Indian agri
 | 7 | EDA | **[COMPLETED]** (17 notebook checks + 57 tests pass; see Section 8j) |
 | 8 | Price Forecasting | **[IN PROGRESS — dataset builder, baselines, calendar benchmarks, Ridge/HGB validated on 2019–2020, bootstrap intervals vs persistence, one conservative HGB run; selection frozen (D-42); 2021–2022 test run once (§N): Onion h = 1 HGB −1.6% MAE vs persistence, all other cells persistence; 2023+ holdout unscored]** |
 | 9 | Market Activity Modeling | **[MODEL SELECTED AND TESTED ONCE — D-45 accepted 2026-10-23 (conservative HGB, all 9 cells); frozen by hash; one-time 2021–2022 test: better than persistence in all 18 cell-years (`Phase_09_Arrivals_Plan.md` §16); 2023+ holdout unused]** |
-| 10 | Supply Prediction | [FUTURE] |
+| 10 | Supply Prediction | **[v1 IMPLEMENTED 2026-10-23 — descriptive district production context `phase10-production-context-v1` (D-46 – D-48); no forecasting model; PQ-1 v1 frozen by hash; reserved years built mechanically, counts only; phase name unchanged pending D-49; see §8l]** |
 | 11 | Logistics / Dijkstra | [FUTURE] |
 | 12 | MILP Optimization | [FUTURE] |
 | 13 | Dynamic Feedback | [FUTURE] |
@@ -45,7 +45,7 @@ This machine has two Pythons. A plain `jupyter lab` starts Anaconda's JupyterLab
 
 - **Interactive:** `cd <project root>`, then `C:\Python313\python.exe -m jupyterlab`. Its `python3` kernel resolves to `C:\Python313\python.exe`. Open `Notebooks/BDA_Project_Demonstration.ipynb`.
 - **Execute from a clean kernel:** `C:\Python313\python.exe Code\utils\run_notebook.py Notebooks\<name>.ipynb`.
-- **Regenerate a notebook:** `C:\Python313\python.exe Code\utils\build_phase08_notebook.py`, `build_phase09_notebook.py` or `build_demo_notebook.py`.
+- **Regenerate a notebook:** `C:\Python313\python.exe Code\utils\build_phase08_notebook.py`, `build_phase09_notebook.py`, `build_phase10_notebook.py` or `build_demo_notebook.py`.
 
 ## 3. Actual Folder Structure (verified in Phase 1, updated Phase 2)
 
@@ -86,6 +86,9 @@ BDA/
 │   │   ├── arrivals_aq1.py                           (Phase 9: AQ-1 v1 derived flag table, leakage-safe baseline variants)
 │   │   ├── arrivals_models.py                        (Phase 9: learned-arrivals protocol D-44, approved; gate checks status + decision log)
 │   │   └── arrivals_final.py                         (Phase 9: D-45 freeze manifest, run-once guard, one-time 2021–2022 test)
+│   ├── production/                                   (Phase 10, v1)
+│   │   ├── pipeline.py                               (phase10-production-context-v1 + PQ-1 v1: stages design / freeze / build)
+│   │   └── apy_audit.py                              (hardened APY audit, design window ≤ 2018-19 only)
 │   ├── eda/                                          (Phase 7)
 │   │   └── analysis.py                               (EDA summary computations: run_eda())
 │   ├── features/                                     (Phase 6)
@@ -112,6 +115,7 @@ BDA/
 │   ├── Phase_07_EDA.ipynb                            (executed, 0 errors, 17 checks + 57 tests passed)
 │   ├── Phase_08_Price_Forecasting.ipynb              (Phase 8 walkthrough, built 2026-10-23; read-only over frozen artifacts; it was planned but never built before)
 │   ├── Phase_09_Arrivals_Model_Experiments.ipynb     (Phase 9; run with Python 3.13 via Code/utils/run_phase09_notebook.py; D-44 approved)
+│   ├── Phase_10_Production_Context.ipynb             (Phase 10 walkthrough; read-only; reserved years as counts only)
 │   └── BDA_Project_Demonstration.ipynb               (teacher demonstration; read-only; links to the phase notebooks)
 ├── Processed_Data/
 │   ├── phase1_mandi_file_record_counts.csv           (325-row cache: crop → approx record count)
@@ -125,6 +129,7 @@ BDA/
 │   ├── features_audit/                               (Phase 6 registry, statistics, validation report, fingerprints, manifest)
 │   ├── eda/                                          (Phase 7: 15 summary tables + input fingerprints)
 │   ├── modelling/phase08/                            (Phase 8 dataset manifests, sample counts, eligibility, provenance)
+│   ├── production_context/                           (Phase 10: contract CSV, PQ-1 provenance/freeze, output manifest, audit/)
 │   ├── cleaning_audit/                               (Phase 5 rule summary, decisions, review records, removed copies, manifests)
 │   ├── integration/                                  (Phase 4 outputs — see Data_Lineage.md)
 │   │   ├── mandi_integrated_{onion,potato,wheat}.parquet
@@ -169,6 +174,7 @@ BDA/
     ├── Phase_09_Arrivals_Plan.md    (Phase 9 data audit, target/protocol, baseline results)
     ├── Arrivals_Forecast_Contract.md (phase9-arrivals-forecast-v1; provisional persistence)
     ├── Phase_09_Model_Protocol.md   (learned-arrivals protocol, APPROVED as D-44 with U2–U6; run instructions)
+    ├── Phase_10_Production_Context_Plan.md (Phase 10 plan; D-46 – D-48 accepted; implementation record §17)
     └── Future_Work_Roadmap.md
 ```
 
@@ -348,6 +354,31 @@ The decisions below were reviewed and **accepted in Phase 8 planning (2026-10-22
 - Commit mapping: `0716ab6` → `819e0f0`, `b8671ed` → `685e8b8`.
 - The pre-rewrite commits are kept only in the local branch `backup/pre-history-rewrite`, which is not pushed.
 - A fresh clone has no raw data or parquet tables. Copy `Dataset/` in and rerun the phase pipelines (Phase 4 → 6) to regenerate them.
+
+## 8l. Phase 10 v1 Outcome (implemented 2026-10-23)
+
+Built under D-46 – D-48, accepted 2026-10-23. The phase name stays "Supply Prediction" until D-49 is decided.
+
+- **Product:** `Processed_Data/production_context/production_context_v1.csv`, contract `phase10-production-context-v1`.
+  - 31,694 rows (crop × APY district × decision agricultural year): 27,531 in the design window (source ≤ 2018-19) and 4,163 reserved (2019-20 … 2021-22).
+  - 2022-23 is excluded.
+  - Descriptive only: no forecasting model, and no procurement cap or marketable-surplus estimate.
+- **Availability:** `apy_lag2_policy_v1`. Source year = decision year − 2, and `available_from` = 1 July of the decision year. This is a policy assumption (A-23), not a verified publication schedule.
+- **Quality (PQ-1 v1, flags only):** R1, R2, R3, R8a, R9, R10, R11, R12 and R13 are active; R4 is diagnostic only; the R4 row flag, R5, R6, R7 and R8b are blocked.
+- **Design-window classes (ok / annotated / review / unusable):**
+
+  | Crop | ok | annotated | review | unusable |
+  |---|---|---|---|---|
+  | Onion | 4,871 | 3,027 | 5 | 42 |
+  | Potato | 4,991 | 3,834 | 41 | 35 |
+  | Wheat | 5 | 10,654 | 3 | 23 |
+
+  Wheat is a single Rabi row, so R9 annotates almost every row.
+- **R13:** all 37 West Bengal and Gujarat Potato 1997-98 rows are `review`. No cause is asserted, and the DES enquiry (plan §15) is unsent.
+- **Integrity:**
+  - Inputs are verified against their Phase 4/6 records; the crosswalk passes through the documented `alias_basis` canonicalisation.
+  - PQ-1 was frozen by hash before the reserved build, and outputs are byte-for-byte reproducible.
+  - Lineage: `Data_Lineage.md`, Phase 10 section.
 
 ## 9. Future-Phase Dependency Context
 

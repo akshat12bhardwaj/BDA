@@ -1,0 +1,5 @@
+utc,stage,detail
+2026-10-23T13:27:55+00:00,build_full,reserved rows by pq_class (counts only): annotated=3072; ok=1080; review=6; unusable=5; total rows=31694; max source year=2021-2022
+2026-10-23T13:28:10+00:00,build_full,reserved rows by pq_class (counts only): annotated=3072; ok=1080; review=6; unusable=5; total rows=31694; max source year=2021-2022
+2026-10-23T13:39:57+00:00,build_full,reserved rows by pq_class (counts only): annotated=3072; ok=1080; review=6; unusable=5; total rows=31694; max source year=2021-2022
+2026-10-23T13:55:32+00:00,build_full,reserved rows by pq_class (counts only): annotated=3072; ok=1080; review=6; unusable=5; total rows=31694; max source year=2021-2022

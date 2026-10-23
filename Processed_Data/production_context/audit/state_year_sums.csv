@@ -1,0 +1,1504 @@
+crop,state,apy_year,area_ha,production_tonnes
+Onion,Andhra Pradesh,1999-2000,22301.0,316617.0
+Onion,Andhra Pradesh,2000-2001,18522.0,291642.0
+Onion,Andhra Pradesh,2001-2002,19951.0,306453.0
+Onion,Andhra Pradesh,2002-2003,17855.0,230263.0
+Onion,Andhra Pradesh,2003-2004,18589.0,279325.0
+Onion,Andhra Pradesh,2004-2005,22367.0,388512.0
+Onion,Andhra Pradesh,2005-2006,23422.0,460999.0
+Onion,Andhra Pradesh,2006-2007,20425.0,344521.0
+Onion,Andhra Pradesh,2007-2008,24000.0,385000.0
+Onion,Andhra Pradesh,2008-2009,26923.0,455078.0
+Onion,Andhra Pradesh,2009-2010,24494.0,433107.0
+Onion,Andhra Pradesh,2010-2011,28966.0,590933.0
+Onion,Andhra Pradesh,2011-2012,40248.0,623861.0
+Onion,Andhra Pradesh,2012-2013,26000.0,455000.0
+Onion,Andhra Pradesh,2013-2014,26285.0,512585.0
+Onion,Andhra Pradesh,2014-2015,33428.0,625790.0
+Onion,Andhra Pradesh,2015-2016,41242.0,695748.0
+Onion,Andhra Pradesh,2016-2017,35517.0,633153.0
+Onion,Andhra Pradesh,2017-2018,24718.0,912594.0
+Onion,Andhra Pradesh,2018-2019,29771.0,976855.0
+Onion,Assam,1997-1998,7832.0,17943.0
+Onion,Assam,1998-1999,8083.0,18341.0
+Onion,Assam,1999-2000,7365.0,17167.0
+Onion,Assam,2000-2001,7359.0,17156.0
+Onion,Assam,2001-2002,7476.0,17453.0
+Onion,Assam,2002-2003,7500.0,17467.0
+Onion,Assam,2003-2004,7332.0,17142.0
+Onion,Assam,2004-2005,7122.0,16786.0
+Onion,Assam,2005-2006,7726.0,18291.0
+Onion,Assam,2006-2007,6870.0,16775.0
+Onion,Assam,2007-2008,6697.0,16323.0
+Onion,Assam,2008-2009,6963.0,16816.0
+Onion,Assam,2009-2010,6785.0,15801.0
+Onion,Assam,2010-2011,6906.0,15408.0
+Onion,Assam,2011-2012,7372.0,22595.0
+Onion,Assam,2012-2013,7099.0,25893.0
+Onion,Assam,2013-2014,7436.0,28812.0
+Onion,Assam,2014-2015,8283.0,32421.0
+Onion,Assam,2015-2016,8503.0,80339.0
+Onion,Assam,2016-2017,8266.0,81282.0
+Onion,Assam,2017-2018,8338.0,80374.0
+Onion,Assam,2018-2019,8211.0,84835.0
+Onion,Bihar,1997-1998,14566.0,107482.0
+Onion,Bihar,1998-1999,16936.0,164065.0
+Onion,Bihar,1999-2000,17783.0,196037.0
+Onion,Bihar,2000-2001,13788.0,140786.0
+Onion,Bihar,2001-2002,14083.0,134445.0
+Onion,Bihar,2002-2003,13589.0,116759.0
+Onion,Bihar,2003-2004,14545.0,137965.0
+Onion,Bihar,2004-2005,14115.0,106528.0
+Onion,Bihar,2005-2006,18401.0,160656.0
+Onion,Bihar,2007-2008,15216.0,136730.0
+Onion,Bihar,2008-2009,14805.0,137545.0
+Onion,Bihar,2016-2017,13634.0,161682.0
+Onion,Bihar,2017-2018,13130.0,185740.0
+Onion,Bihar,2018-2019,13014.0,170865.0
+Onion,Chandigarh,1998-1999,18.0,450.0
+Onion,Chandigarh,1999-2000,15.0,225.0
+Onion,Chandigarh,2000-2001,12.0,180.0
+Onion,Chandigarh,2001-2002,25.0,375.0
+Onion,Chandigarh,2002-2003,3.0,95.0
+Onion,Chandigarh,2003-2004,6.0,105.0
+Onion,Chandigarh,2004-2005,5.0,85.0
+Onion,Chandigarh,2005-2006,5.0,85.0
+Onion,Chandigarh,2006-2007,4.0,68.0
+Onion,Chandigarh,2007-2008,2.0,35.0
+Onion,Chandigarh,2008-2009,4.0,70.0
+Onion,Chandigarh,2009-2010,3.0,55.0
+Onion,Chandigarh,2010-2011,3.0,56.0
+Onion,Chandigarh,2011-2012,2.0,35.0
+Onion,Chandigarh,2012-2013,3.0,90.0
+Onion,Chandigarh,2013-2014,3.0,85.0
+Onion,Chandigarh,2014-2015,3.0,80.0
+Onion,Chandigarh,2015-2016,3.0,60.0
+Onion,Chhattisgarh,1999-2000,3231.0,42185.0
+Onion,Chhattisgarh,2000-2001,3362.0,26533.0
+Onion,Chhattisgarh,2001-2002,3836.0,33857.0
+Onion,Chhattisgarh,2002-2003,4145.0,34830.0
+Onion,Chhattisgarh,2003-2004,4441.0,32548.0
+Onion,Chhattisgarh,2004-2005,4472.0,27002.0
+Onion,Chhattisgarh,2005-2006,4534.0,25491.0
+Onion,Chhattisgarh,2006-2007,4484.0,23106.0
+Onion,Chhattisgarh,2007-2008,4372.0,20891.0
+Onion,Chhattisgarh,2008-2009,4332.0,22242.0
+Onion,Chhattisgarh,2009-2010,5013.0,22924.0
+Onion,Chhattisgarh,2010-2011,4984.0,26101.0
+Onion,Chhattisgarh,2011-2012,5284.0,27352.0
+Onion,Chhattisgarh,2012-2013,5428.0,18613.0
+Onion,Chhattisgarh,2013-2014,5922.0,43885.0
+Onion,Chhattisgarh,2014-2015,4808.0,42902.0
+Onion,Chhattisgarh,2015-2016,5170.0,31072.0
+Onion,Chhattisgarh,2016-2017,5075.0,16342.0
+Onion,Chhattisgarh,2017-2018,4238.0,28864.0
+Onion,Chhattisgarh,2018-2019,4619.0,25561.0
+Onion,Gujarat,1997-1998,20900.0,615900.0
+Onion,Gujarat,1998-1999,52200.0,1462100.0
+Onion,Gujarat,1999-2000,19900.0,450700.0
+Onion,Gujarat,2000-2001,6400.0,130400.0
+Onion,Gujarat,2001-2002,24200.0,638700.0
+Onion,Gujarat,2002-2003,25000.0,715400.0
+Onion,Gujarat,2003-2004,49100.0,1474600.0
+Onion,Gujarat,2004-2005,44000.0,1221300.0
+Onion,Gujarat,2005-2006,73300.0,2057500.0
+Onion,Gujarat,2006-2007,43300.0,1051800.0
+Onion,Gujarat,2007-2008,65400.0,2059200.0
+Onion,Gujarat,2008-2009,54400.0,1502800.0
+Onion,Gujarat,2009-2010,38500.0,1051400.0
+Onion,Gujarat,2010-2011,67100.0,1847900.0
+Onion,Gujarat,2011-2012,72800.0,2119100.0
+Onion,Gujarat,2012-2013,16700.0,409200.0
+Onion,Gujarat,2013-2014,79699.0,2408514.0
+Onion,Gujarat,2014-2015,46994.0,1315215.0
+Onion,Gujarat,2015-2016,62976.0,1710556.0
+Onion,Gujarat,2016-2017,55897.0,1504800.0
+Onion,Gujarat,2017-2018,54469.0,1541830.0
+Onion,Gujarat,2018-2019,25701.0,724063.0
+Onion,Haryana,1998-1999,4707.0,59700.0
+Onion,Haryana,1999-2000,2669.0,36800.0
+Onion,Haryana,2000-2001,3419.0,44300.0
+Onion,Haryana,2001-2002,3554.0,46600.0
+Onion,Haryana,2002-2003,1609.0,36000.0
+Onion,Haryana,2003-2004,3319.0,80700.0
+Onion,Haryana,2004-2005,2823.0,68400.0
+Onion,Haryana,2005-2006,4044.0,92700.0
+Onion,Haryana,2006-2007,2543.0,49700.0
+Onion,Haryana,2007-2008,3193.0,63700.0
+Onion,Haryana,2008-2009,2492.0,37400.0
+Onion,Haryana,2009-2010,1535.0,31300.0
+Onion,Haryana,2010-2011,2150.0,43800.0
+Onion,Haryana,2011-2012,1860.0,32400.0
+Onion,Haryana,2012-2013,2330.0,65900.0
+Onion,Haryana,2013-2014,30163.0,672164.0
+Onion,Haryana,2014-2015,28688.0,640215.0
+Onion,Haryana,2015-2016,30645.0,705795.0
+Onion,Haryana,2016-2017,28164.0,650394.0
+Onion,Haryana,2017-2018,29931.0,701504.0
+Onion,Haryana,2018-2019,32010.0,780150.0
+Onion,Himachal Pradesh,2001-2002,1112.0,11045.0
+Onion,Himachal Pradesh,2002-2003,807.0,4541.0
+Onion,Himachal Pradesh,2005-2006,829.0,4045.0
+Onion,Himachal Pradesh,2006-2007,893.0,7617.0
+Onion,Himachal Pradesh,2007-2008,823.0,7036.0
+Onion,Himachal Pradesh,2008-2009,776.0,4611.0
+Onion,Himachal Pradesh,2009-2010,918.0,5392.0
+Onion,Himachal Pradesh,2011-2012,724.0,6262.0
+Onion,Himachal Pradesh,2012-2013,748.0,6967.0
+Onion,Himachal Pradesh,2013-2014,764.0,7246.0
+Onion,Himachal Pradesh,2014-2015,806.0,7600.0
+Onion,Himachal Pradesh,2015-2016,854.0,8696.0
+Onion,Himachal Pradesh,2017-2018,594.0,3732.0
+Onion,Himachal Pradesh,2018-2019,640.0,4015.0
+Onion,Jammu And Kashmir,2000-2001,365.0,805.0
+Onion,Jammu And Kashmir,2001-2002,518.0,1159.0
+Onion,Jammu And Kashmir,2002-2003,495.0,1107.0
+Onion,Jammu And Kashmir,2003-2004,631.0,1136.0
+Onion,Jammu And Kashmir,2005-2006,94.0,82.1
+Onion,Jammu And Kashmir,2006-2007,372.0,906.0
+Onion,Jammu And Kashmir,2007-2008,503.0,1020.0
+Onion,Jammu And Kashmir,2008-2009,383.0,931.9
+Onion,Jammu And Kashmir,2009-2010,719.0,1356.5
+Onion,Jammu And Kashmir,2010-2011,649.0,1275.8
+Onion,Jammu And Kashmir,2011-2012,574.0,1161.9
+Onion,Jammu And Kashmir,2012-2013,518.0,1119.8
+Onion,Jammu And Kashmir,2013-2014,432.0,1044.4
+Onion,Jammu And Kashmir,2014-2015,110.0,99.0
+Onion,Jammu And Kashmir,2015-2016,447.0,982.3
+Onion,Jammu And Kashmir,2016-2017,628.0,1463.4
+Onion,Jammu And Kashmir,2017-2018,609.0,1349.1
+Onion,Jammu And Kashmir,2018-2019,566.0,1317.9
+Onion,Jharkhand,1997-1998,3495.0,30387.0
+Onion,Jharkhand,1998-1999,3472.0,28926.0
+Onion,Jharkhand,2003-2004,1137.98,9196.869999999999
+Onion,Jharkhand,2004-2005,1360.19,9805.14
+Onion,Jharkhand,2005-2006,1724.12,18803.89
+Onion,Jharkhand,2006-2007,2914.72,16719.0
+Onion,Jharkhand,2007-2008,2958.96,18582.0
+Onion,Jharkhand,2008-2009,3049.28,15459.0
+Onion,Jharkhand,2009-2010,2948.0,12878.0
+Onion,Jharkhand,2010-2011,3026.0,17427.0
+Onion,Jharkhand,2011-2012,3184.0,20676.0
+Onion,Jharkhand,2012-2013,3087.0,17468.0
+Onion,Jharkhand,2013-2014,3640.0,24604.0
+Onion,Jharkhand,2014-2015,3714.0,21861.0
+Onion,Jharkhand,2015-2016,3129.0,19999.0
+Onion,Jharkhand,2016-2017,3646.0,29203.0
+Onion,Karnataka,1998-1999,93600.0,508449.0
+Onion,Karnataka,1999-2000,124478.0,792305.0
+Onion,Karnataka,2000-2001,120358.0,645357.0
+Onion,Karnataka,2001-2002,125815.0,721033.0
+Onion,Karnataka,2002-2003,114975.0,535821.0
+Onion,Karnataka,2003-2004,101221.0,360469.0
+Onion,Karnataka,2004-2005,136038.0,841333.0
+Onion,Karnataka,2005-2006,151319.0,940156.0
+Onion,Karnataka,2006-2007,151289.0,859132.0
+Onion,Karnataka,2007-2008,182101.0,1126028.0
+Onion,Karnataka,2008-2009,135012.0,721338.0
+Onion,Karnataka,2009-2010,191903.0,726127.0
+Onion,Karnataka,2010-2011,162264.0,1042345.0
+Onion,Karnataka,2011-2012,153807.0,804988.0
+Onion,Karnataka,2012-2013,83369.0,458839.0
+Onion,Karnataka,2013-2014,138577.0,932238.0
+Onion,Karnataka,2014-2015,185114.0,969964.0
+Onion,Karnataka,2015-2016,195450.0,873535.0
+Onion,Karnataka,2016-2017,200971.0,1572529.0
+Onion,Karnataka,2017-2018,145494.0,1680346.0
+Onion,Karnataka,2018-2019,213609.0,1723336.0
+Onion,Kerala,2012-2013,40.0,
+Onion,Kerala,2013-2014,103.0,
+Onion,Kerala,2014-2015,61.0,
+Onion,Kerala,2015-2016,27.0,
+Onion,Kerala,2016-2017,31.0,
+Onion,Kerala,2017-2018,9.0,
+Onion,Kerala,2018-2019,5.21,
+Onion,Ladakh,2000-2001,8.0,5.0
+Onion,Ladakh,2001-2002,8.0,5.0
+Onion,Ladakh,2002-2003,8.0,5.0
+Onion,Ladakh,2003-2004,9.0,6.0
+Onion,Ladakh,2006-2007,5.0,3.3
+Onion,Ladakh,2007-2008,5.0,3.3
+Onion,Ladakh,2008-2009,7.0,4.6
+Onion,Ladakh,2010-2011,1.0,2.9
+Onion,Ladakh,2011-2012,2.0,1.9
+Onion,Ladakh,2012-2013,2.0,1.9
+Onion,Ladakh,2018-2019,1.0,0.9
+Onion,Madhya Pradesh,1999-2000,25491.0,347153.0
+Onion,Madhya Pradesh,2000-2001,19327.0,272665.0
+Onion,Madhya Pradesh,2001-2002,23057.0,324596.0
+Onion,Madhya Pradesh,2002-2003,24620.0,344975.0
+Onion,Madhya Pradesh,2003-2004,30958.0,416137.0
+Onion,Madhya Pradesh,2004-2005,35661.0,560306.0
+Onion,Madhya Pradesh,2005-2006,37656.0,575949.0
+Onion,Madhya Pradesh,2006-2007,37825.0,629635.0
+Onion,Madhya Pradesh,2007-2008,41376.0,601524.0
+Onion,Madhya Pradesh,2008-2009,40146.0,582438.0
+Onion,Madhya Pradesh,2009-2010,51151.0,785475.0
+Onion,Madhya Pradesh,2010-2011,56243.0,902250.0
+Onion,Madhya Pradesh,2011-2012,67857.0,1267840.0
+Onion,Madhya Pradesh,2012-2013,72818.0,1423301.0
+Onion,Madhya Pradesh,2013-2014,79260.0,1476852.0
+Onion,Madhya Pradesh,2015-2016,147866.95,3413488.61
+Onion,Madhya Pradesh,2016-2017,150839.21,3821046.22
+Onion,Madhya Pradesh,2017-2018,150865.6,3701013.71
+Onion,Madhya Pradesh,2018-2019,149843.45,3683097.39
+Onion,Maharashtra,2003-2004,133622.0,1663240.0
+Onion,Manipur,1997-1998,2.0,5.0
+Onion,Manipur,1998-1999,200.0,420.0
+Onion,Manipur,1999-2000,300.0,640.0
+Onion,Manipur,2000-2001,350.0,740.0
+Onion,Manipur,2001-2002,640.0,1360.0
+Onion,Manipur,2002-2003,240.0,510.0
+Onion,Manipur,2003-2004,970.0,2060.0
+Onion,Manipur,2004-2005,500.0,1060.0
+Onion,Manipur,2005-2006,1760.0,3740.0
+Onion,Manipur,2006-2007,1120.0,2380.0
+Onion,Manipur,2007-2008,940.0,2000.0
+Onion,Meghalaya,2014-2015,499.0,4231.0
+Onion,Meghalaya,2015-2016,521.0,4595.0
+Onion,Meghalaya,2016-2017,551.0,4939.0
+Onion,Meghalaya,2017-2018,551.0,4939.0
+Onion,Meghalaya,2018-2019,557.0,4997.0
+Onion,Mizoram,2010-2011,3.0,9.0
+Onion,Mizoram,2011-2012,2.0,8.0
+Onion,Mizoram,2015-2016,5.0,73.0
+Onion,Mizoram,2016-2017,35.0,127.0
+Onion,Mizoram,2017-2018,110.9,430.5
+Onion,Mizoram,2018-2019,19.0,64.0
+Onion,Odisha,1999-2000,46400.0,368350.0
+Onion,Odisha,2000-2001,27400.0,229420.0
+Onion,Odisha,2001-2002,19410.0,173430.0
+Onion,Odisha,2002-2003,26410.0,238790.0
+Onion,Odisha,2003-2004,26550.0,240340.0
+Onion,Odisha,2004-2005,26684.0,241852.0
+Onion,Puducherry,1998-1999,26.0,429.0
+Onion,Puducherry,1999-2000,14.0,183.0
+Onion,Puducherry,2000-2001,13.0,202.0
+Onion,Puducherry,2001-2002,16.0,251.0
+Onion,Puducherry,2002-2003,3.0,45.0
+Onion,Puducherry,2003-2004,7.0,100.0
+Onion,Puducherry,2004-2005,7.0,21.0
+Onion,Puducherry,2005-2006,9.0,29.0
+Onion,Puducherry,2006-2007,3.0,14.0
+Onion,Puducherry,2007-2008,3.0,25.0
+Onion,Puducherry,2010-2011,1.0,7.0
+Onion,Puducherry,2011-2012,1.0,7.0
+Onion,Puducherry,2012-2013,2.0,36.0
+Onion,Puducherry,2013-2014,4.0,72.0
+Onion,Puducherry,2014-2015,4.0,38.0
+Onion,Puducherry,2015-2016,1.0,6.0
+Onion,Puducherry,2016-2017,1.0,5.0
+Onion,Puducherry,2017-2018,3.0,15.0
+Onion,Puducherry,2018-2019,2.0,9.0
+Onion,Rajasthan,1997-1998,19400.0,111300.0
+Onion,Rajasthan,1998-1999,20193.0,120723.0
+Onion,Rajasthan,1999-2000,25409.0,170380.0
+Onion,Rajasthan,2000-2001,24602.0,165135.0
+Onion,Rajasthan,2001-2002,28399.0,206281.0
+Onion,Rajasthan,2002-2003,26501.0,155680.0
+Onion,Rajasthan,2003-2004,33623.0,249128.0
+Onion,Rajasthan,2004-2005,42924.0,320750.0
+Onion,Rajasthan,2005-2006,42562.0,413558.0
+Onion,Rajasthan,2006-2007,41257.0,397373.0
+Onion,Rajasthan,2007-2008,42747.0,391636.0
+Onion,Rajasthan,2008-2009,40118.0,365888.0
+Onion,Rajasthan,2009-2010,44534.0,329050.0
+Onion,Rajasthan,2010-2011,52606.0,541107.0
+Onion,Rajasthan,2011-2012,64171.0,604094.0
+Onion,Rajasthan,2012-2013,46959.0,477313.0
+Onion,Rajasthan,2013-2014,58221.0,698505.0
+Onion,Rajasthan,2014-2015,61378.0,960828.0
+Onion,Rajasthan,2015-2016,86306.0,1435112.0
+Onion,Rajasthan,2016-2017,65674.0,1142468.0
+Onion,Rajasthan,2017-2018,59065.0,949598.0
+Onion,Rajasthan,2018-2019,56874.0,466445.0
+Onion,Tamil Nadu,1997-1998,53229.0,503438.0
+Onion,Tamil Nadu,1998-1999,37185.0,289717.0
+Onion,Tamil Nadu,1999-2000,38384.0,315748.0
+Onion,Tamil Nadu,2000-2001,29822.0,265887.0
+Onion,Tamil Nadu,2002-2003,23492.0,198715.0
+Onion,Tamil Nadu,2003-2004,23452.0,211173.0
+Onion,Tamil Nadu,2004-2005,26491.0,256359.0
+Onion,Tamil Nadu,2005-2006,29169.0,233796.0
+Onion,Tamil Nadu,2006-2007,29587.0,258333.0
+Onion,Tamil Nadu,2007-2008,29809.0,287208.0
+Onion,Tamil Nadu,2008-2009,30255.0,286040.0
+Onion,Tamil Nadu,2009-2010,31024.0,302563.0
+Onion,Tamil Nadu,2011-2012,34913.0,376947.0
+Onion,Tamil Nadu,2013-2014,24987.0,240371.0
+Onion,Tamil Nadu,2014-2015,28105.0,240331.0
+Onion,Tamil Nadu,2015-2016,35809.0,282714.0
+Onion,Tamil Nadu,2016-2017,31199.0,230222.0
+Onion,Tamil Nadu,2017-2018,22811.0,214642.0
+Onion,Tamil Nadu,2018-2019,31687.0,218595.0
+Onion,Telangana,1999-2000,12624.0,204366.0
+Onion,Telangana,2000-2001,11784.0,244848.0
+Onion,Telangana,2001-2002,11874.0,253002.0
+Onion,Telangana,2002-2003,9273.0,182344.0
+Onion,Telangana,2003-2004,10460.0,240156.0
+Onion,Telangana,2004-2005,11788.0,214914.0
+Onion,Telangana,2005-2006,12964.0,235294.0
+Onion,Telangana,2006-2007,10615.0,234924.0
+Onion,Telangana,2007-2008,13000.0,255000.0
+Onion,Telangana,2008-2009,13537.0,273570.0
+Onion,Telangana,2009-2010,12068.0,274985.0
+Onion,Telangana,2010-2011,14433.0,269590.0
+Onion,Telangana,2011-2012,16743.0,375888.0
+Onion,Telangana,2012-2013,13000.0,381000.0
+Onion,Telangana,2013-2014,14778.0,434745.0
+Onion,Telangana,2014-2015,13919.0,314847.0
+Onion,Telangana,2015-2016,15731.0,389828.0
+Onion,Telangana,2016-2017,15576.0,402373.0
+Onion,Telangana,2017-2018,13697.0,420153.0
+Onion,Telangana,2018-2019,12234.0,279297.0
+Onion,Uttar Pradesh,1997-1998,18848.0,195775.0
+Onion,Uttar Pradesh,1998-1999,23580.0,286372.0
+Onion,Uttar Pradesh,1999-2000,26976.0,380243.0
+Onion,Uttar Pradesh,2002-2003,19417.0,209978.0
+Onion,Uttar Pradesh,2003-2004,20171.0,238438.0
+Onion,Uttar Pradesh,2004-2005,18430.0,210477.0
+Onion,Uttar Pradesh,2005-2006,25535.0,328222.0
+Onion,Uttar Pradesh,2006-2007,20698.0,297745.0
+Onion,Uttar Pradesh,2007-2008,21562.0,295759.0
+Onion,Uttar Pradesh,2008-2009,10161.0,119110.0
+Onion,Uttar Pradesh,2009-2010,23180.0,356471.0
+Onion,Uttar Pradesh,2010-2011,9830.0,180951.0
+Onion,Uttar Pradesh,2011-2012,24602.0,404563.0
+Onion,Uttar Pradesh,2012-2013,23321.0,386279.0
+Onion,Uttar Pradesh,2013-2014,24427.0,412877.0
+Onion,Uttar Pradesh,2014-2015,21277.0,323522.0
+Onion,Uttar Pradesh,2015-2016,24186.0,309562.0
+Onion,Uttar Pradesh,2016-2017,23341.0,319978.0
+Onion,Uttar Pradesh,2017-2018,25564.0,370626.0
+Onion,Uttar Pradesh,2018-2019,27478.0,378128.0
+Onion,Uttarakhand,1997-1998,1303.0,13414.0
+Onion,Uttarakhand,1998-1999,1369.0,16624.0
+Onion,Uttarakhand,1999-2000,1690.0,23827.0
+Onion,Uttarakhand,2000-2001,1781.0,11027.0
+Onion,Uttarakhand,2001-2002,1642.0,8089.0
+Onion,Uttarakhand,2002-2003,21633.0,221923.0
+Onion,Uttarakhand,2003-2004,1719.0,19183.0
+Onion,Uttarakhand,2004-2005,2045.0,17694.0
+Onion,Uttarakhand,2005-2006,1996.0,26694.0
+Onion,Uttarakhand,2006-2007,2116.0,11886.0
+Onion,Uttarakhand,2007-2008,1976.0,10098.0
+Onion,Uttarakhand,2008-2009,1869.0,7920.0
+Onion,Uttarakhand,2009-2010,2158.0,9211.0
+Onion,Uttarakhand,2010-2011,2230.0,11814.0
+Onion,Uttarakhand,2011-2012,2149.0,11529.0
+Onion,Uttarakhand,2012-2013,2322.0,12287.0
+Onion,Uttarakhand,2013-2014,2359.0,12452.0
+Onion,Uttarakhand,2014-2015,2825.0,14786.0
+Onion,Uttarakhand,2015-2016,3268.0,17246.0
+Onion,Uttarakhand,2016-2017,3557.0,29892.0
+Onion,Uttarakhand,2017-2018,3499.0,56138.0
+Onion,Uttarakhand,2018-2019,3345.0,53748.0
+Potato,Andhra Pradesh,2000-2001,1104.0,9434.0
+Potato,Andhra Pradesh,2001-2002,1205.0,10616.0
+Potato,Andhra Pradesh,2002-2003,1290.0,11196.0
+Potato,Andhra Pradesh,2003-2004,1492.0,13920.0
+Potato,Andhra Pradesh,2004-2005,2217.0,21944.0
+Potato,Andhra Pradesh,2005-2006,1450.0,14192.0
+Potato,Andhra Pradesh,2006-2007,1563.0,13220.0
+Potato,Andhra Pradesh,2008-2009,1484.0,13384.0
+Potato,Andhra Pradesh,2009-2010,1446.0,12479.0
+Potato,Andhra Pradesh,2010-2011,1272.0,12319.0
+Potato,Andhra Pradesh,2011-2012,1247.0,16170.0
+Potato,Andhra Pradesh,2012-2013,1201.0,18399.0
+Potato,Andhra Pradesh,2013-2014,1458.0,25240.0
+Potato,Andhra Pradesh,2014-2015,1385.0,23936.0
+Potato,Andhra Pradesh,2015-2016,2046.0,24956.0
+Potato,Andhra Pradesh,2016-2017,1691.0,15426.0
+Potato,Andhra Pradesh,2017-2018,1451.0,15670.0
+Potato,Andhra Pradesh,2018-2019,1456.0,9018.0
+Potato,Arunachal Pradesh,1998-1999,4846.0,31567.0
+Potato,Arunachal Pradesh,1999-2000,11514.0,39068.0
+Potato,Arunachal Pradesh,2000-2001,11823.0,43523.0
+Potato,Arunachal Pradesh,2001-2002,11412.0,39761.0
+Potato,Arunachal Pradesh,2002-2003,11136.0,37422.0
+Potato,Arunachal Pradesh,2003-2004,11151.0,37288.0
+Potato,Arunachal Pradesh,2004-2005,4217.0,27518.0
+Potato,Arunachal Pradesh,2005-2006,3963.0,29838.0
+Potato,Arunachal Pradesh,2006-2007,3985.0,31689.0
+Potato,Arunachal Pradesh,2007-2008,3843.0,29173.0
+Potato,Arunachal Pradesh,2008-2009,4063.0,33405.0
+Potato,Arunachal Pradesh,2009-2010,4235.0,36449.0
+Potato,Arunachal Pradesh,2010-2011,4334.0,35832.0
+Potato,Arunachal Pradesh,2011-2012,4600.0,40000.0
+Potato,Arunachal Pradesh,2012-2013,4817.0,38872.0
+Potato,Arunachal Pradesh,2013-2014,4933.0,40664.0
+Potato,Arunachal Pradesh,2014-2015,5090.0,42000.0
+Potato,Arunachal Pradesh,2015-2016,5970.0,44775.0
+Potato,Arunachal Pradesh,2016-2017,5985.0,43092.0
+Potato,Arunachal Pradesh,2017-2018,6075.0,44044.0
+Potato,Arunachal Pradesh,2018-2019,6175.0,44118.0
+Potato,Assam,1997-1998,75259.0,671871.0
+Potato,Assam,1998-1999,76958.0,611077.0
+Potato,Assam,1999-2000,76748.0,699744.0
+Potato,Assam,2000-2001,80504.0,668457.0
+Potato,Assam,2001-2002,80056.0,620571.0
+Potato,Assam,2002-2003,75486.0,589916.0
+Potato,Assam,2003-2004,77894.0,543070.0
+Potato,Assam,2004-2005,73104.0,589070.0
+Potato,Assam,2005-2006,69638.0,353696.0
+Potato,Assam,2006-2007,77712.0,504557.0
+Potato,Assam,2007-2008,75197.0,520831.0
+Potato,Assam,2008-2009,78317.0,515740.0
+Potato,Assam,2009-2010,82629.0,600153.0
+Potato,Assam,2010-2011,85023.0,657627.0
+Potato,Assam,2011-2012,97816.0,682597.0
+Potato,Assam,2012-2013,95436.0,708632.0
+Potato,Assam,2013-2014,97956.0,700144.0
+Potato,Assam,2014-2015,104521.0,783768.0
+Potato,Assam,2015-2016,103812.0,694002.0
+Potato,Assam,2016-2017,106437.0,777829.0
+Potato,Assam,2017-2018,102868.0,720968.0
+Potato,Assam,2018-2019,103205.0,773481.0
+Potato,Bihar,1997-1998,131044.0,1160500.0
+Potato,Bihar,1998-1999,141049.0,1359761.0
+Potato,Bihar,1999-2000,144461.0,1381179.0
+Potato,Bihar,2000-2001,144563.0,1400358.0
+Potato,Bihar,2001-2002,140783.0,1432119.0
+Potato,Bihar,2002-2003,147819.0,1476602.0
+Potato,Bihar,2003-2004,142013.0,1351846.0
+Potato,Bihar,2004-2005,138730.0,1062822.0
+Potato,Bihar,2005-2006,140539.0,1225728.0
+Potato,Bihar,2007-2008,153909.0,1244108.0
+Potato,Bihar,2008-2009,151925.0,940496.0
+Potato,Bihar,2016-2017,164701.0,2145943.0
+Potato,Bihar,2017-2018,155574.0,2165722.0
+Potato,Bihar,2018-2019,157235.0,2186652.0
+Potato,Chandigarh,1998-1999,130.0,3250.0
+Potato,Chandigarh,1999-2000,110.0,2750.0
+Potato,Chandigarh,2000-2001,80.0,2000.0
+Potato,Chandigarh,2001-2002,80.0,2000.0
+Potato,Chandigarh,2002-2003,50.0,1300.0
+Potato,Chandigarh,2003-2004,40.0,800.0
+Potato,Chandigarh,2004-2005,25.0,450.0
+Potato,Chandigarh,2005-2006,20.0,360.0
+Potato,Chandigarh,2006-2007,10.0,160.0
+Potato,Chandigarh,2007-2008,10.0,170.0
+Potato,Chandigarh,2008-2009,10.0,200.0
+Potato,Chandigarh,2009-2010,9.0,175.0
+Potato,Chandigarh,2010-2011,9.0,180.0
+Potato,Chandigarh,2011-2012,10.0,165.0
+Potato,Chandigarh,2012-2013,10.0,166.0
+Potato,Chandigarh,2013-2014,10.0,166.0
+Potato,Chandigarh,2014-2015,10.0,150.0
+Potato,Chandigarh,2015-2016,10.0,155.0
+Potato,Chhattisgarh,1999-2000,7827.0,99875.0
+Potato,Chhattisgarh,2000-2001,9092.0,66090.0
+Potato,Chhattisgarh,2001-2002,9315.0,64152.0
+Potato,Chhattisgarh,2002-2003,9564.0,61104.0
+Potato,Chhattisgarh,2003-2004,10228.0,49238.0
+Potato,Chhattisgarh,2004-2005,10638.0,59892.0
+Potato,Chhattisgarh,2005-2006,10614.0,48548.0
+Potato,Chhattisgarh,2006-2007,11294.0,45004.0
+Potato,Chhattisgarh,2007-2008,11563.0,48737.0
+Potato,Chhattisgarh,2008-2009,10783.0,45250.0
+Potato,Chhattisgarh,2009-2010,12076.0,45830.0
+Potato,Chhattisgarh,2010-2011,11893.0,53440.0
+Potato,Chhattisgarh,2011-2012,12218.0,65574.0
+Potato,Chhattisgarh,2012-2013,12164.0,83761.0
+Potato,Chhattisgarh,2013-2014,12740.0,62820.0
+Potato,Chhattisgarh,2014-2015,12517.0,74626.0
+Potato,Chhattisgarh,2015-2016,12734.0,85498.0
+Potato,Chhattisgarh,2016-2017,12310.0,55876.0
+Potato,Chhattisgarh,2017-2018,11375.0,49913.0
+Potato,Chhattisgarh,2018-2019,10432.0,55163.0
+Potato,Gujarat,1997-1998,797400.0,629027.0
+Potato,Gujarat,1998-1999,869368.0,1318379.0
+Potato,Gujarat,1999-2000,31300.0,687900.0
+Potato,Gujarat,2000-2001,32800.0,716100.0
+Potato,Gujarat,2001-2002,32300.0,802000.0
+Potato,Gujarat,2002-2003,35800.0,779700.0
+Potato,Gujarat,2003-2004,31000.0,738300.0
+Potato,Gujarat,2004-2005,39300.0,1086400.0
+Potato,Gujarat,2005-2006,44600.0,1238300.0
+Potato,Gujarat,2006-2007,51700.0,1078400.0
+Potato,Gujarat,2007-2008,72300.0,1795600.0
+Potato,Gujarat,2008-2009,55800.0,1171400.0
+Potato,Gujarat,2009-2010,47300.0,987900.0
+Potato,Gujarat,2010-2011,55100.0,1282700.0
+Potato,Gujarat,2011-2012,77800.0,1792300.0
+Potato,Gujarat,2012-2013,71500.0,1789200.0
+Potato,Gujarat,2013-2014,79304.0,2106238.0
+Potato,Gujarat,2014-2015,101663.0,2609426.0
+Potato,Gujarat,2015-2016,109188.0,2773080.0
+Potato,Gujarat,2016-2017,134306.0,3445898.0
+Potato,Gujarat,2017-2018,130397.0,3752816.0
+Potato,Gujarat,2018-2019,121449.0,3655606.0
+Potato,Haryana,1998-1999,13467.0,212700.0
+Potato,Haryana,1999-2000,12659.0,199800.0
+Potato,Haryana,2000-2001,9273.0,141200.0
+Potato,Haryana,2001-2002,9616.0,203100.0
+Potato,Haryana,2002-2003,10328.0,291900.0
+Potato,Haryana,2003-2004,10521.0,256900.0
+Potato,Haryana,2004-2005,10832.0,269100.0
+Potato,Haryana,2005-2006,12597.0,312500.0
+Potato,Haryana,2006-2007,12826.0,319900.0
+Potato,Haryana,2007-2008,9917.0,177600.0
+Potato,Haryana,2008-2009,11938.0,258600.0
+Potato,Haryana,2009-2010,12269.0,136400.0
+Potato,Haryana,2010-2011,12412.0,280900.0
+Potato,Haryana,2011-2012,12074.0,263000.0
+Potato,Haryana,2012-2013,12780.0,297900.0
+Potato,Haryana,2013-2014,29973.0,696514.0
+Potato,Haryana,2014-2015,30134.0,722584.0
+Potato,Haryana,2015-2016,34273.0,853806.0
+Potato,Haryana,2016-2017,32832.0,811499.0
+Potato,Haryana,2017-2018,34718.0,897576.0
+Potato,Haryana,2018-2019,34738.0,897846.0
+Potato,Himachal Pradesh,1998-1999,13831.0,153303.0
+Potato,Himachal Pradesh,1999-2000,627.0,5395.0
+Potato,Himachal Pradesh,2001-2002,8480.0,75614.0
+Potato,Himachal Pradesh,2002-2003,13941.0,136033.0
+Potato,Himachal Pradesh,2003-2004,15036.0,173169.0
+Potato,Himachal Pradesh,2004-2005,14808.0,147874.0
+Potato,Himachal Pradesh,2005-2006,14012.0,95900.0
+Potato,Himachal Pradesh,2006-2007,12687.0,126701.0
+Potato,Himachal Pradesh,2007-2008,13583.0,123839.0
+Potato,Himachal Pradesh,2008-2009,11843.0,103630.0
+Potato,Himachal Pradesh,2009-2010,9842.0,88369.0
+Potato,Himachal Pradesh,2010-2011,9834.0,87328.0
+Potato,Himachal Pradesh,2011-2012,9854.0,87392.0
+Potato,Himachal Pradesh,2012-2013,9819.0,89307.0
+Potato,Himachal Pradesh,2013-2014,9636.0,87994.0
+Potato,Himachal Pradesh,2014-2015,10099.0,88409.0
+Potato,Himachal Pradesh,2015-2016,9887.0,81509.0
+Potato,Himachal Pradesh,2016-2017,9855.0,88151.0
+Potato,Himachal Pradesh,2017-2018,9871.0,87679.0
+Potato,Himachal Pradesh,2018-2019,9929.0,94089.0
+Potato,Jammu And Kashmir,2001-2002,1835.0,19616.0
+Potato,Jammu And Kashmir,2002-2003,1737.0,18011.0
+Potato,Jammu And Kashmir,2003-2004,1614.0,17886.0
+Potato,Jammu And Kashmir,2005-2006,786.0,5762.0
+Potato,Jammu And Kashmir,2006-2007,1746.0,18398.3
+Potato,Jammu And Kashmir,2007-2008,2237.0,20163.2
+Potato,Jammu And Kashmir,2008-2009,934.0,9336.7
+Potato,Jammu And Kashmir,2009-2010,2282.0,23349.100000000002
+Potato,Jammu And Kashmir,2010-2011,2413.0,23197.3
+Potato,Jammu And Kashmir,2011-2012,2060.0,18154.7
+Potato,Jammu And Kashmir,2012-2013,2386.0,24273.7
+Potato,Jammu And Kashmir,2013-2014,1161.0,13927.4
+Potato,Jammu And Kashmir,2014-2015,1734.0,16868.2
+Potato,Jammu And Kashmir,2015-2016,3070.0,25037.7
+Potato,Jammu And Kashmir,2016-2017,2903.0,27996.9
+Potato,Jammu And Kashmir,2017-2018,2872.0,33000.1
+Potato,Jammu And Kashmir,2018-2019,3051.0,35283.1
+Potato,Jharkhand,1997-1998,37030.0,305159.0
+Potato,Jharkhand,1998-1999,37379.0,362226.0
+Potato,Jharkhand,2002-2003,22795.15,165789.76
+Potato,Jharkhand,2003-2004,22524.41,195303.86
+Potato,Jharkhand,2004-2005,18677.379999999997,139329.448
+Potato,Jharkhand,2005-2006,29849.54,222158.6
+Potato,Jharkhand,2006-2007,34034.98,265653.0
+Potato,Jharkhand,2007-2008,36450.21,272309.0
+Potato,Jharkhand,2008-2009,37321.65,245662.0
+Potato,Jharkhand,2009-2010,38426.0,262741.0
+Potato,Jharkhand,2010-2011,18078.0,104669.0
+Potato,Jharkhand,2011-2012,37916.0,306761.0
+Potato,Jharkhand,2012-2013,39966.0,284751.0
+Potato,Jharkhand,2013-2014,39973.0,257623.0
+Potato,Jharkhand,2014-2015,38547.0,279680.0
+Potato,Jharkhand,2015-2016,38712.0,255364.0
+Potato,Jharkhand,2016-2017,45662.0,392723.0
+Potato,Karnataka,1998-1999,34333.0,422473.0
+Potato,Karnataka,1999-2000,27990.0,412775.0
+Potato,Karnataka,2000-2001,38298.0,452462.0
+Potato,Karnataka,2001-2002,39156.0,473407.0
+Potato,Karnataka,2002-2003,50645.0,149282.0
+Potato,Karnataka,2003-2004,53076.0,342752.0
+Potato,Karnataka,2004-2005,51937.0,360759.0
+Potato,Karnataka,2005-2006,73356.0,329401.0
+Potato,Karnataka,2006-2007,63374.0,561001.0
+Potato,Karnataka,2007-2008,60094.0,252196.0
+Potato,Karnataka,2008-2009,75695.0,246200.0
+Potato,Karnataka,2009-2010,37108.0,308875.0
+Potato,Karnataka,2010-2011,40224.0,340759.0
+Potato,Karnataka,2011-2012,38368.0,347883.0
+Potato,Karnataka,2012-2013,34886.0,306533.0
+Potato,Karnataka,2013-2014,37749.0,316201.0
+Potato,Karnataka,2014-2015,41468.0,327333.0
+Potato,Karnataka,2015-2016,38126.0,225285.0
+Potato,Karnataka,2016-2017,26136.0,281936.0
+Potato,Karnataka,2017-2018,30481.0,351335.0
+Potato,Karnataka,2018-2019,28264.0,274092.0
+Potato,Kerala,2011-2012,386.0,4827.0
+Potato,Kerala,2012-2013,975.0,19050.0
+Potato,Kerala,2013-2014,759.0,14846.0
+Potato,Kerala,2014-2015,852.0,15811.0
+Potato,Kerala,2015-2016,491.0,6581.0
+Potato,Kerala,2016-2017,556.0,8823.0
+Potato,Kerala,2017-2018,516.0,7303.0
+Potato,Kerala,2018-2019,536.9,7381.3
+Potato,Ladakh,2001-2002,57.0,532.0
+Potato,Ladakh,2002-2003,57.0,532.0
+Potato,Ladakh,2003-2004,56.0,523.0
+Potato,Ladakh,2006-2007,57.0,532.1
+Potato,Ladakh,2007-2008,57.0,532.1
+Potato,Ladakh,2008-2009,135.0,1260.0
+Potato,Ladakh,2009-2010,185.0,1726.6000000000001
+Potato,Ladakh,2010-2011,163.0,1520.8000000000002
+Potato,Ladakh,2011-2012,200.0,1866.7
+Potato,Ladakh,2012-2013,196.0,1829.6999999999998
+Potato,Ladakh,2013-2014,151.0,1408.8999999999999
+Potato,Ladakh,2014-2015,58.0,542.4
+Potato,Ladakh,2015-2016,172.0,1529.8999999999999
+Potato,Ladakh,2016-2017,176.0,1641.8
+Potato,Ladakh,2017-2018,190.0,1772.5
+Potato,Ladakh,2018-2019,245.0,2285.1000000000004
+Potato,Madhya Pradesh,1999-2000,59532.0,756979.0
+Potato,Madhya Pradesh,2001-2002,38387.0,507092.0
+Potato,Madhya Pradesh,2002-2003,40871.0,487836.0
+Potato,Madhya Pradesh,2003-2004,46546.0,667656.0
+Potato,Madhya Pradesh,2004-2005,47570.0,713265.0
+Potato,Madhya Pradesh,2005-2006,45967.0,614671.0
+Potato,Madhya Pradesh,2006-2007,48540.0,648203.0
+Potato,Madhya Pradesh,2007-2008,56663.0,713614.0
+Potato,Madhya Pradesh,2008-2009,56301.0,649826.0
+Potato,Madhya Pradesh,2009-2010,60052.0,737859.0
+Potato,Madhya Pradesh,2010-2011,76482.0,655527.0
+Potato,Madhya Pradesh,2011-2012,83912.0,1028929.0
+Potato,Madhya Pradesh,2012-2013,81092.0,1157669.0
+Potato,Madhya Pradesh,2013-2014,80955.0,1047072.0
+Potato,Madhya Pradesh,2015-2016,135292.29,2828020.47
+Potato,Madhya Pradesh,2016-2017,159997.16,3460980.46
+Potato,Madhya Pradesh,2017-2018,136290.21,3144642.92
+Potato,Madhya Pradesh,2018-2019,145736.5,3309667.31
+Potato,Manipur,1998-1999,2170.0,11350.0
+Potato,Manipur,1999-2000,2470.0,12920.0
+Potato,Manipur,2000-2001,2590.0,13550.0
+Potato,Manipur,2002-2003,4470.0,23380.0
+Potato,Manipur,2004-2005,2960.0,15480.0
+Potato,Manipur,2005-2006,4870.0,25470.0
+Potato,Manipur,2006-2007,3720.0,19450.0
+Potato,Manipur,2007-2008,1950.0,10200.0
+Potato,Manipur,2008-2009,13000.0,108000.0
+Potato,Manipur,2009-2010,13650.0,113860.0
+Potato,Manipur,2010-2011,13650.0,114000.0
+Potato,Manipur,2011-2012,14400.0,122000.0
+Potato,Manipur,2012-2013,15000.0,127000.0
+Potato,Manipur,2013-2014,14800.0,125420.0
+Potato,Manipur,2014-2015,14800.0,125420.0
+Potato,Manipur,2015-2016,15250.0,129170.0
+Potato,Manipur,2016-2017,15250.0,126860.0
+Potato,Manipur,2017-2018,15250.0,129170.0
+Potato,Manipur,2018-2019,15550.0,128070.0
+Potato,Meghalaya,1997-1998,23981.0,202973.0
+Potato,Meghalaya,1998-1999,24015.0,203547.0
+Potato,Meghalaya,1999-2000,18339.0,143287.0
+Potato,Meghalaya,2000-2001,18318.0,144292.0
+Potato,Meghalaya,2001-2002,18151.0,159032.0
+Potato,Meghalaya,2002-2003,18071.0,167884.0
+Potato,Meghalaya,2003-2004,18035.0,149428.0
+Potato,Meghalaya,2004-2005,17287.0,141622.0
+Potato,Meghalaya,2005-2006,17986.0,167030.0
+Potato,Meghalaya,2006-2007,18173.0,188202.0
+Potato,Meghalaya,2008-2009,17690.0,161138.0
+Potato,Meghalaya,2009-2010,17712.0,162445.0
+Potato,Meghalaya,2010-2011,17685.0,164647.0
+Potato,Meghalaya,2011-2012,17717.0,165670.0
+Potato,Meghalaya,2012-2013,18139.0,172955.0
+Potato,Meghalaya,2013-2014,18449.0,181813.0
+Potato,Meghalaya,2014-2015,18473.0,182285.0
+Potato,Meghalaya,2015-2016,18561.0,183816.0
+Potato,Meghalaya,2016-2017,18895.0,186885.0
+Potato,Meghalaya,2017-2018,18913.0,187047.0
+Potato,Meghalaya,2018-2019,18929.0,187206.0
+Potato,Mizoram,1998-1999,260.0,1215.0
+Potato,Mizoram,1999-2000,530.0,3924.0
+Potato,Mizoram,2000-2001,310.0,2429.0
+Potato,Mizoram,2001-2002,376.0,1471.0
+Potato,Mizoram,2002-2003,369.0,726.0
+Potato,Mizoram,2003-2004,363.0,893.0
+Potato,Mizoram,2005-2006,953.0,3891.0
+Potato,Mizoram,2006-2007,639.0,1652.0
+Potato,Mizoram,2007-2008,330.0,1158.0
+Potato,Mizoram,2008-2009,269.0,1569.0
+Potato,Mizoram,2009-2010,284.0,2235.0
+Potato,Mizoram,2010-2011,431.0,3699.0
+Potato,Mizoram,2011-2012,409.0,2869.0
+Potato,Mizoram,2012-2013,286.0,1440.0
+Potato,Mizoram,2013-2014,352.0,2961.5
+Potato,Mizoram,2014-2015,204.0,1282.0
+Potato,Mizoram,2015-2016,356.0,2900.0
+Potato,Mizoram,2016-2017,149.0,687.0
+Potato,Mizoram,2017-2018,215.0,1111.1
+Potato,Mizoram,2018-2019,134.0,509.0
+Potato,Nagaland,1999-2000,4130.0,44800.0
+Potato,Nagaland,2000-2001,4540.0,47890.0
+Potato,Nagaland,2001-2002,3550.0,42420.0
+Potato,Nagaland,2002-2003,5450.0,61000.0
+Potato,Nagaland,2003-2004,5110.0,43540.0
+Potato,Nagaland,2004-2005,13750.0,95000.0
+Potato,Nagaland,2006-2007,3500.0,31420.0
+Potato,Nagaland,2007-2008,2500.0,35850.0
+Potato,Nagaland,2008-2009,5610.0,69140.0
+Potato,Nagaland,2009-2010,5980.0,65160.0
+Potato,Nagaland,2010-2011,6250.0,78400.0
+Potato,Nagaland,2011-2012,6510.0,58780.0
+Potato,Nagaland,2012-2013,6900.0,69000.0
+Potato,Nagaland,2013-2014,7040.0,70540.0
+Potato,Nagaland,2014-2015,7200.0,73370.0
+Potato,Nagaland,2015-2016,7310.0,73140.0
+Potato,Nagaland,2016-2017,7480.0,74840.0
+Potato,Nagaland,2017-2018,7500.0,75020.0
+Potato,Nagaland,2018-2019,7520.0,75240.0
+Potato,Odisha,1997-1998,8887.0,87413.0
+Potato,Odisha,1998-1999,7955.0,92624.0
+Potato,Odisha,1999-2000,8740.0,91050.0
+Potato,Odisha,2000-2001,8251.0,85870.9
+Potato,Odisha,2001-2002,7580.0,78048.3
+Potato,Odisha,2002-2003,7076.0,70317.3
+Potato,Odisha,2003-2004,7303.0,75822.3
+Potato,Odisha,2004-2005,8506.0,80769.5
+Potato,Odisha,2005-2006,8305.0,75077.5
+Potato,Odisha,2006-2007,8176.0,79317.7
+Potato,Odisha,2007-2008,8514.0,94253.8
+Potato,Odisha,2008-2009,7315.0,75575.8
+Potato,Odisha,2009-2010,7877.0,96996.8
+Potato,Odisha,2010-2011,6528.0,76205.6
+Potato,Odisha,2011-2012,5779.0,63006.1
+Potato,Odisha,2012-2013,5324.0,65015.299999999996
+Potato,Odisha,2013-2014,6151.0,71340.7
+Potato,Odisha,2014-2015,8445.0,104080.1
+Potato,Odisha,2015-2016,5626.0,57233.6
+Potato,Odisha,2016-2017,6524.0,82158.0
+Potato,Odisha,2017-2018,3966.0,41811.7
+Potato,Odisha,2018-2019,4900.0,54454.7
+Potato,Rajasthan,1997-1998,2200.0,26000.0
+Potato,Rajasthan,1998-1999,3611.0,45299.0
+Potato,Rajasthan,1999-2000,4053.0,47205.0
+Potato,Rajasthan,2000-2001,2738.0,28064.0
+Potato,Rajasthan,2001-2002,2448.0,27866.0
+Potato,Rajasthan,2002-2003,3537.0,27296.0
+Potato,Rajasthan,2003-2004,3846.0,26997.0
+Potato,Rajasthan,2004-2005,3174.0,48337.0
+Potato,Rajasthan,2005-2006,4153.0,54822.0
+Potato,Rajasthan,2006-2007,6043.0,80042.0
+Potato,Rajasthan,2007-2008,11254.0,114335.0
+Potato,Rajasthan,2008-2009,9134.0,92800.0
+Potato,Rajasthan,2009-2010,8533.0,96404.0
+Potato,Rajasthan,2010-2011,10521.0,76019.0
+Potato,Rajasthan,2011-2012,11911.0,182883.0
+Potato,Rajasthan,2012-2013,9165.0,107198.0
+Potato,Rajasthan,2013-2014,7180.0,90627.0
+Potato,Rajasthan,2014-2015,12521.0,150021.0
+Potato,Rajasthan,2015-2016,14322.0,229829.0
+Potato,Rajasthan,2016-2017,15985.0,337991.0
+Potato,Rajasthan,2017-2018,13904.0,279725.0
+Potato,Rajasthan,2018-2019,12874.0,229912.0
+Potato,Sikkim,2002-2003,5760.0,27020.0
+Potato,Sikkim,2003-2004,7470.0,33440.0
+Potato,Tamil Nadu,1997-1998,597052.0,334350.0
+Potato,Tamil Nadu,1998-1999,1020556.0,553838.0
+Potato,Tamil Nadu,1999-2000,3803.0,72239.0
+Potato,Tamil Nadu,2000-2001,2723.0,49126.0
+Potato,Tamil Nadu,2002-2003,4537.0,73362.0
+Potato,Tamil Nadu,2003-2004,4341.0,70103.0
+Potato,Tamil Nadu,2004-2005,5034.0,79060.0
+Potato,Tamil Nadu,2005-2006,5005.0,74593.0
+Potato,Tamil Nadu,2006-2007,5190.0,77443.0
+Potato,Tamil Nadu,2007-2008,4066.0,68169.0
+Potato,Tamil Nadu,2008-2009,4367.0,80538.0
+Potato,Tamil Nadu,2009-2010,4611.0,84683.0
+Potato,Tamil Nadu,2011-2012,4673.0,92207.0
+Potato,Tamil Nadu,2013-2014,5919.0,122737.0
+Potato,Tamil Nadu,2014-2015,4737.0,111931.0
+Potato,Tamil Nadu,2015-2016,4306.0,89963.0
+Potato,Tamil Nadu,2016-2017,4847.0,108969.0
+Potato,Tamil Nadu,2017-2018,3582.0,68515.0
+Potato,Tamil Nadu,2018-2019,3532.0,49372.0
+Potato,Telangana,2000-2001,1385.0,5184.0
+Potato,Telangana,2001-2002,1143.0,4037.0
+Potato,Telangana,2002-2003,1382.0,7481.0
+Potato,Telangana,2003-2004,1156.0,10129.0
+Potato,Telangana,2004-2005,1820.0,5583.0
+Potato,Telangana,2005-2006,1825.0,15372.0
+Potato,Telangana,2006-2007,2082.0,31508.0
+Potato,Telangana,2008-2009,3743.0,36734.0
+Potato,Telangana,2009-2010,3594.0,44680.0
+Potato,Telangana,2010-2011,4681.0,53997.0
+Potato,Telangana,2011-2012,4810.0,44632.0
+Potato,Telangana,2013-2014,3512.0,47411.0
+Potato,Telangana,2014-2015,3046.0,41242.0
+Potato,Telangana,2015-2016,2220.0,28466.0
+Potato,Telangana,2016-2017,3229.0,32782.0
+Potato,Telangana,2017-2018,2179.0,26088.0
+Potato,Telangana,2018-2019,1947.0,36040.0
+Potato,Tripura,1999-2000,5550.0,100000.0
+Potato,Tripura,2000-2001,5590.0,105870.0
+Potato,Tripura,2001-2002,5370.0,106280.0
+Potato,Tripura,2002-2003,5735.0,112070.0
+Potato,Tripura,2003-2004,5665.0,89565.0
+Potato,Uttar Pradesh,1997-1998,385382.0,5653193.0
+Potato,Uttar Pradesh,1998-1999,414014.0,9447249.0
+Potato,Uttar Pradesh,1999-2000,426101.0,9600881.0
+Potato,Uttar Pradesh,2000-2001,394083.0,8398200.0
+Potato,Uttar Pradesh,2001-2002,388552.0,9582545.0
+Potato,Uttar Pradesh,2002-2003,442030.0,10244139.0
+Potato,Uttar Pradesh,2003-2004,441796.0,9540059.0
+Potato,Uttar Pradesh,2004-2005,435135.0,9739656.0
+Potato,Uttar Pradesh,2005-2006,445197.0,9986781.0
+Potato,Uttar Pradesh,2006-2007,469301.0,10247912.0
+Potato,Uttar Pradesh,2007-2008,504858.0,11094868.0
+Potato,Uttar Pradesh,2008-2009,527347.0,10809926.0
+Potato,Uttar Pradesh,2009-2010,540797.0,13447272.0
+Potato,Uttar Pradesh,2010-2011,556533.0,13576573.0
+Potato,Uttar Pradesh,2011-2012,557779.0,12316103.0
+Potato,Uttar Pradesh,2012-2013,547660.0,13336619.0
+Potato,Uttar Pradesh,2013-2014,569806.0,12060013.0
+Potato,Uttar Pradesh,2014-2015,575668.0,12986412.0
+Potato,Uttar Pradesh,2015-2016,612600.0,14112748.0
+Potato,Uttar Pradesh,2016-2017,575641.0,13956310.0
+Potato,Uttar Pradesh,2017-2018,572826.0,15008697.0
+Potato,Uttar Pradesh,2018-2019,571399.0,17056711.0
+Potato,Uttarakhand,1997-1998,14852.0,216782.0
+Potato,Uttarakhand,1998-1999,15217.0,346496.0
+Potato,Uttarakhand,1999-2000,15555.0,352095.0
+Potato,Uttarakhand,2000-2001,12759.0,286434.0
+Potato,Uttarakhand,2001-2002,13500.0,277225.0
+Potato,Uttarakhand,2002-2003,14544.0,297900.0
+Potato,Uttarakhand,2003-2004,16054.0,261765.0
+Potato,Uttarakhand,2004-2005,14104.0,180857.0
+Potato,Uttarakhand,2005-2006,15736.0,243492.0
+Potato,Uttarakhand,2006-2007,15373.0,161722.0
+Potato,Uttarakhand,2007-2008,14232.0,126090.0
+Potato,Uttarakhand,2008-2009,13989.0,140062.0
+Potato,Uttarakhand,2009-2010,16060.0,175056.0
+Potato,Uttarakhand,2010-2011,12371.0,133109.0
+Potato,Uttarakhand,2011-2012,12265.0,134488.0
+Potato,Uttarakhand,2012-2013,13656.0,133218.0
+Potato,Uttarakhand,2013-2014,14304.0,139630.0
+Potato,Uttarakhand,2014-2015,144685.0,229763.0
+Potato,Uttarakhand,2015-2016,12227.0,110253.0
+Potato,Uttarakhand,2016-2017,12271.0,123724.0
+Potato,Uttarakhand,2017-2018,14002.0,159962.0
+Potato,Uttarakhand,2018-2019,11925.0,129198.0
+Potato,West Bengal,1997-1998,19616403.0,19732232.0
+Potato,West Bengal,1998-1999,318199.0,6689636.0
+Potato,West Bengal,1999-2000,315851.0,7482317.0
+Potato,West Bengal,2000-2001,299664.0,7673130.0
+Potato,West Bengal,2001-2002,299821.0,7822363.0
+Potato,West Bengal,2002-2003,349301.0,6902466.0
+Potato,West Bengal,2003-2004,308425.0,7621635.0
+Potato,West Bengal,2004-2005,320552.0,7106581.0
+Potato,West Bengal,2005-2006,354455.0,7462464.0
+Potato,West Bengal,2006-2007,407941.0,5051962.0
+Potato,West Bengal,2007-2008,400786.0,9900846.0
+Potato,West Bengal,2008-2009,385981.0,4121189.0
+Potato,West Bengal,2009-2010,386881.0,13838129.0
+Potato,West Bengal,2010-2011,408789.0,13421003.0
+Potato,West Bengal,2011-2012,379206.0,9723036.0
+Potato,West Bengal,2012-2013,389053.0,11620652.0
+Potato,West Bengal,2013-2014,412195.0,9049899.0
+Potato,West Bengal,2014-2015,412250.0,13908049.0
+Potato,West Bengal,2015-2016,492404.0,9726292.0
+Potato,West Bengal,2016-2017,417080.0,14489453.0
+Potato,West Bengal,2017-2018,431745.0,14932638.0
+Potato,West Bengal,2018-2019,437677.0,11071693.0
+Wheat,Andhra Pradesh,1997-1998,900.0,500.0
+Wheat,Andhra Pradesh,1998-1999,1200.0,600.0
+Wheat,Andhra Pradesh,1999-2000,1396.0,935.0
+Wheat,Andhra Pradesh,2000-2001,1492.0,851.0
+Wheat,Andhra Pradesh,2001-2002,1629.0,1126.0
+Wheat,Andhra Pradesh,2002-2003,1411.0,1302.0
+Wheat,Andhra Pradesh,2003-2004,1154.0,343.0
+Wheat,Andhra Pradesh,2004-2005,789.0,176.0
+Wheat,Andhra Pradesh,2005-2006,1089.0,641.0
+Wheat,Andhra Pradesh,2006-2007,896.0,235.0
+Wheat,Andhra Pradesh,2008-2009,1033.0,705.0
+Wheat,Andhra Pradesh,2009-2010,790.0,427.0
+Wheat,Andhra Pradesh,2010-2011,757.0,1061.0
+Wheat,Andhra Pradesh,2011-2012,313.0,365.0
+Wheat,Andhra Pradesh,2013-2014,348.0,249.0
+Wheat,Andhra Pradesh,2014-2015,320.0,256.0
+Wheat,Andhra Pradesh,2015-2016,164.0,115.0
+Wheat,Andhra Pradesh,2016-2017,33.0,76.0
+Wheat,Andhra Pradesh,2017-2018,49.0,35.0
+Wheat,Andhra Pradesh,2018-2019,102.0,19.0
+Wheat,Arunachal Pradesh,1997-1998,3785.0,5475.0
+Wheat,Arunachal Pradesh,1998-1999,3660.0,4395.0
+Wheat,Arunachal Pradesh,1999-2000,3896.0,5069.0
+Wheat,Arunachal Pradesh,2000-2001,4397.0,6226.0
+Wheat,Arunachal Pradesh,2001-2002,3805.0,5341.0
+Wheat,Arunachal Pradesh,2002-2003,4114.0,6250.0
+Wheat,Arunachal Pradesh,2003-2004,4150.0,6320.0
+Wheat,Arunachal Pradesh,2004-2005,4278.0,6652.0
+Wheat,Arunachal Pradesh,2005-2006,3976.0,6140.0
+Wheat,Arunachal Pradesh,2006-2007,3979.0,6301.0
+Wheat,Arunachal Pradesh,2007-2008,3558.0,5294.0
+Wheat,Arunachal Pradesh,2008-2009,3278.0,5169.0
+Wheat,Arunachal Pradesh,2009-2010,3170.0,4770.0
+Wheat,Arunachal Pradesh,2010-2011,3699.0,5872.0
+Wheat,Arunachal Pradesh,2011-2012,3700.0,6500.0
+Wheat,Arunachal Pradesh,2012-2013,2937.0,4401.0
+Wheat,Arunachal Pradesh,2013-2014,2960.0,4470.0
+Wheat,Arunachal Pradesh,2014-2015,3800.0,7500.0
+Wheat,Arunachal Pradesh,2015-2016,3910.0,7700.0
+Wheat,Arunachal Pradesh,2016-2017,3910.0,7700.0
+Wheat,Arunachal Pradesh,2017-2018,3930.0,7742.0
+Wheat,Arunachal Pradesh,2018-2019,3930.0,7742.0
+Wheat,Assam,1997-1998,84698.0,110054.0
+Wheat,Assam,1998-1999,89591.0,90509.0
+Wheat,Assam,1999-2000,76310.0,97583.0
+Wheat,Assam,2000-2001,70301.0,85695.0
+Wheat,Assam,2001-2002,72245.0,85300.0
+Wheat,Assam,2002-2003,69061.0,77952.0
+Wheat,Assam,2003-2004,69954.0,73186.0
+Wheat,Assam,2004-2005,63854.0,68083.0
+Wheat,Assam,2005-2006,49961.0,53735.0
+Wheat,Assam,2006-2007,59573.0,67413.0
+Wheat,Assam,2007-2008,56069.0,70797.0
+Wheat,Assam,2008-2009,50053.0,54551.0
+Wheat,Assam,2009-2010,60067.0,65301.0
+Wheat,Assam,2010-2011,44772.0,56216.0
+Wheat,Assam,2011-2012,40194.0,48592.0
+Wheat,Assam,2012-2013,33984.0,44190.0
+Wheat,Assam,2013-2014,31294.0,40444.0
+Wheat,Assam,2014-2015,23646.0,28769.0
+Wheat,Assam,2015-2016,20975.0,24489.0
+Wheat,Assam,2016-2017,17452.0,23459.0
+Wheat,Assam,2017-2018,17786.0,24658.0
+Wheat,Assam,2018-2019,16945.0,23693.0
+Wheat,Bihar,1997-1998,1998664.0,3939416.0
+Wheat,Bihar,1998-1999,2052731.0,4292134.0
+Wheat,Bihar,1999-2000,2080847.0,4583515.0
+Wheat,Bihar,2000-2001,2067333.0,4437958.0
+Wheat,Bihar,2001-2002,2181543.0,4499130.0
+Wheat,Bihar,2002-2003,2130933.0,4040610.0
+Wheat,Bihar,2003-2004,2076839.0,3688941.0
+Wheat,Bihar,2004-2005,2027643.0,3263385.0
+Wheat,Bihar,2005-2006,2001771.0,2821120.0
+Wheat,Bihar,2006-2007,2076727.0,4155541.0
+Wheat,Bihar,2007-2008,2131232.0,4977463.0
+Wheat,Bihar,2008-2009,2158345.0,4413017.0
+Wheat,Bihar,2009-2010,2116098.0,4403841.0
+Wheat,Bihar,2010-2011,2100181.0,5094030.0
+Wheat,Bihar,2011-2012,2141892.0,6530955.0
+Wheat,Bihar,2012-2013,2207704.0,6174260.0
+Wheat,Bihar,2013-2014,2148818.0,6134679.0
+Wheat,Bihar,2014-2015,2154423.0,3570211.0
+Wheat,Bihar,2015-2016,2110750.0,4736448.0
+Wheat,Bihar,2016-2017,2105811.0,5985841.0
+Wheat,Bihar,2017-2018,2101311.0,6104303.0
+Wheat,Bihar,2018-2019,2156652.0,6465905.0
+Wheat,Chandigarh,1998-1999,880.0,3960.0
+Wheat,Chandigarh,1999-2000,800.0,3600.0
+Wheat,Chandigarh,2000-2001,750.0,3375.0
+Wheat,Chandigarh,2001-2002,750.0,3350.0
+Wheat,Chandigarh,2002-2003,700.0,3315.0
+Wheat,Chandigarh,2003-2004,650.0,3000.0
+Wheat,Chandigarh,2004-2005,600.0,2400.0
+Wheat,Chandigarh,2005-2006,600.0,2750.0
+Wheat,Chandigarh,2006-2007,600.0,2800.0
+Wheat,Chandigarh,2007-2008,600.0,2800.0
+Wheat,Chandigarh,2008-2009,600.0,2700.0
+Wheat,Chandigarh,2009-2010,600.0,2700.0
+Wheat,Chandigarh,2010-2011,600.0,2715.0
+Wheat,Chandigarh,2011-2012,600.0,2725.0
+Wheat,Chandigarh,2012-2013,575.0,2590.0
+Wheat,Chandigarh,2013-2014,575.0,2600.0
+Wheat,Chandigarh,2014-2015,550.0,2500.0
+Wheat,Chandigarh,2015-2016,550.0,2530.0
+Wheat,Chandigarh,2016-2017,550.0,2585.0
+Wheat,Chandigarh,2017-2018,546.0,2566.0
+Wheat,Chandigarh,2018-2019,546.0,2730.0
+Wheat,Chhattisgarh,1997-1998,85200.0,63000.0
+Wheat,Chhattisgarh,1998-1999,85700.0,75600.0
+Wheat,Chhattisgarh,2000-2001,77844.0,79488.0
+Wheat,Chhattisgarh,2001-2002,97861.0,103480.0
+Wheat,Chhattisgarh,2002-2003,93846.0,98592.0
+Wheat,Chhattisgarh,2003-2004,106109.0,113138.0
+Wheat,Chhattisgarh,2004-2005,99245.0,85215.0
+Wheat,Chhattisgarh,2005-2006,97074.0,85191.0
+Wheat,Chhattisgarh,2006-2007,93213.0,93952.0
+Wheat,Chhattisgarh,2007-2008,95020.0,104548.0
+Wheat,Chhattisgarh,2008-2009,94834.0,97424.0
+Wheat,Chhattisgarh,2009-2010,109163.0,118923.0
+Wheat,Chhattisgarh,2010-2011,103701.0,121745.0
+Wheat,Chhattisgarh,2011-2012,104825.0,135121.0
+Wheat,Chhattisgarh,2012-2013,102230.0,143226.0
+Wheat,Chhattisgarh,2013-2014,105033.0,140756.0
+Wheat,Chhattisgarh,2014-2015,103195.0,153321.0
+Wheat,Chhattisgarh,2015-2016,105785.0,142329.0
+Wheat,Chhattisgarh,2016-2017,102114.0,151078.0
+Wheat,Chhattisgarh,2017-2018,102195.0,141642.0
+Wheat,Chhattisgarh,2018-2019,99925.0,166979.0
+Wheat,Gujarat,1997-1998,694000.0,1647100.0
+Wheat,Gujarat,1998-1999,705400.0,1702600.0
+Wheat,Gujarat,1999-2000,482100.0,1020000.0
+Wheat,Gujarat,2000-2001,286100.0,649000.0
+Wheat,Gujarat,2001-2002,470100.0,1144700.0
+Wheat,Gujarat,2002-2003,435600.0,856600.0
+Wheat,Gujarat,2003-2004,759500.0,2036500.0
+Wheat,Gujarat,2004-2005,727400.0,1805500.0
+Wheat,Gujarat,2005-2006,858800.0,2319200.0
+Wheat,Gujarat,2006-2007,1072300.0,2791500.0
+Wheat,Gujarat,2007-2008,1273900.0,3837700.0
+Wheat,Gujarat,2008-2009,1091400.0,2592600.0
+Wheat,Gujarat,2009-2010,878000.0,2351300.0
+Wheat,Gujarat,2010-2011,1588600.0,5013400.0
+Wheat,Gujarat,2011-2012,1350600.0,4072100.0
+Wheat,Gujarat,2012-2013,1023500.0,2944000.0
+Wheat,Gujarat,2013-2014,1442288.0,4607993.0
+Wheat,Gujarat,2014-2015,1171449.0,3293487.0
+Wheat,Gujarat,2015-2016,857696.0,2315849.0
+Wheat,Gujarat,2016-2017,999370.0,2757755.0
+Wheat,Gujarat,2017-2018,1058778.0,3101037.0
+Wheat,Gujarat,2018-2019,797156.0,2407132.0
+Wheat,Haryana,1997-1998,2057000.0,7528000.0
+Wheat,Haryana,1998-1999,2185662.0,8563000.0
+Wheat,Haryana,1999-2000,2316531.0,9650000.0
+Wheat,Haryana,2000-2001,2354779.0,9669000.0
+Wheat,Haryana,2001-2002,2299876.0,9437000.0
+Wheat,Haryana,2002-2003,2267140.0,9188000.0
+Wheat,Haryana,2003-2004,2315496.0,9114000.0
+Wheat,Haryana,2004-2005,2316674.0,9043000.0
+Wheat,Haryana,2005-2006,2302682.0,8502000.0
+Wheat,Haryana,2006-2007,2377067.0,10059000.0
+Wheat,Haryana,2007-2008,2460680.0,10232000.0
+Wheat,Haryana,2008-2009,2461420.0,11360000.0
+Wheat,Haryana,2009-2010,2487756.0,10488000.0
+Wheat,Haryana,2010-2011,2503963.0,11578000.0
+Wheat,Haryana,2011-2012,2531302.0,13119000.0
+Wheat,Haryana,2012-2013,2496905.0,11117000.0
+Wheat,Haryana,2013-2014,2499000.0,11800000.0
+Wheat,Haryana,2014-2015,2628000.0,10457000.0
+Wheat,Haryana,2015-2016,2576000.0,11350000.0
+Wheat,Haryana,2016-2017,2542100.0,12310000.0
+Wheat,Haryana,2017-2018,2530500.0,12265100.0
+Wheat,Haryana,2018-2019,2553100.0,12573000.0
+Wheat,Himachal Pradesh,1998-1999,379718.0,481267.0
+Wheat,Himachal Pradesh,1999-2000,370587.0,583300.0
+Wheat,Himachal Pradesh,2000-2001,362660.0,261319.0
+Wheat,Himachal Pradesh,2001-2002,366518.0,637068.0
+Wheat,Himachal Pradesh,2002-2003,359439.0,495558.0
+Wheat,Himachal Pradesh,2003-2004,365359.0,496930.0
+Wheat,Himachal Pradesh,2004-2005,367770.0,687452.0
+Wheat,Himachal Pradesh,2005-2006,358453.0,365885.0
+Wheat,Himachal Pradesh,2006-2007,362245.0,596493.0
+Wheat,Himachal Pradesh,2007-2008,366592.0,504360.0
+Wheat,Himachal Pradesh,2008-2009,359961.0,381180.0
+Wheat,Himachal Pradesh,2009-2010,350440.0,324174.0
+Wheat,Himachal Pradesh,2010-2011,346936.0,534707.0
+Wheat,Himachal Pradesh,2011-2012,345182.0,506782.0
+Wheat,Himachal Pradesh,2012-2013,350121.0,656543.0
+Wheat,Himachal Pradesh,2013-2014,415665.0,324283.0
+Wheat,Himachal Pradesh,2014-2015,345548.0,639209.0
+Wheat,Himachal Pradesh,2015-2016,342675.0,602287.0
+Wheat,Himachal Pradesh,2016-2017,325910.0,331303.0
+Wheat,Himachal Pradesh,2017-2018,342675.0,603587.0
+Wheat,Himachal Pradesh,2018-2019,319002.0,564634.0
+Wheat,Jammu And Kashmir,1997-1998,239344.0,392160.0
+Wheat,Jammu And Kashmir,1998-1999,238438.0,36495.0
+Wheat,Jammu And Kashmir,2000-2001,276815.0,145060.0
+Wheat,Jammu And Kashmir,2001-2002,255514.0,339390.0
+Wheat,Jammu And Kashmir,2002-2003,244157.0,401900.0
+Wheat,Jammu And Kashmir,2003-2004,250282.0,455540.0
+Wheat,Jammu And Kashmir,2004-2005,248613.0,474415.0
+Wheat,Jammu And Kashmir,2005-2006,872.0,119.4
+Wheat,Jammu And Kashmir,2006-2007,261584.0,494300.0
+Wheat,Jammu And Kashmir,2007-2008,261604.0,494302.4
+Wheat,Jammu And Kashmir,2008-2009,274022.0,492140.0
+Wheat,Jammu And Kashmir,2009-2010,284644.0,286143.0
+Wheat,Jammu And Kashmir,2010-2011,286777.0,442706.0
+Wheat,Jammu And Kashmir,2011-2012,291994.0,496542.0
+Wheat,Jammu And Kashmir,2012-2013,289964.0,462422.0
+Wheat,Jammu And Kashmir,2013-2014,289964.0,462422.0
+Wheat,Jammu And Kashmir,2015-2016,278082.0,541471.0
+Wheat,Jammu And Kashmir,2016-2017,286023.0,544677.5
+Wheat,Jammu And Kashmir,2017-2018,295574.0,636806.0
+Wheat,Jammu And Kashmir,2018-2019,284255.0,668074.4
+Wheat,Jharkhand,1997-1998,68946.0,109283.0
+Wheat,Jharkhand,1998-1999,68604.0,111521.0
+Wheat,Jharkhand,2002-2003,57203.69,78366.24
+Wheat,Jharkhand,2003-2004,60269.700000000004,80181.21
+Wheat,Jharkhand,2004-2005,57905.58,72740.85
+Wheat,Jharkhand,2005-2006,50326.23,51264.0
+Wheat,Jharkhand,2006-2007,124418.04,163905.0
+Wheat,Jharkhand,2007-2008,54845.72,68534.0
+Wheat,Jharkhand,2008-2009,58602.340000000004,79871.0
+Wheat,Jharkhand,2009-2010,52510.0,61618.0
+Wheat,Jharkhand,2010-2011,49596.0,54110.0
+Wheat,Jharkhand,2011-2012,47933.0,73657.0
+Wheat,Jharkhand,2012-2013,69336.0,128571.0
+Wheat,Jharkhand,2013-2014,73527.0,106208.0
+Wheat,Jharkhand,2014-2015,87256.0,138951.0
+Wheat,Jharkhand,2015-2016,71027.0,113701.0
+Wheat,Jharkhand,2016-2017,112109.0,226854.0
+Wheat,Jharkhand,2017-2018,220963.0,468754.0
+Wheat,Jharkhand,2018-2019,163847.0,302559.0
+Wheat,Karnataka,1997-1998,250698.0,118512.0
+Wheat,Karnataka,1998-1999,268981.0,219433.0
+Wheat,Karnataka,1999-2000,261275.0,217613.0
+Wheat,Karnataka,2000-2001,266310.0,249880.0
+Wheat,Karnataka,2001-2002,260486.0,198822.0
+Wheat,Karnataka,2002-2003,246855.0,147748.0
+Wheat,Karnataka,2003-2004,231994.0,96150.0
+Wheat,Karnataka,2004-2005,241991.0,206296.0
+Wheat,Karnataka,2005-2006,252588.0,226369.0
+Wheat,Karnataka,2006-2007,269494.0,223806.0
+Wheat,Karnataka,2007-2008,275583.0,280384.0
+Wheat,Karnataka,2008-2009,268600.0,257181.0
+Wheat,Karnataka,2009-2010,283427.0,263877.0
+Wheat,Karnataka,2010-2011,254755.0,300237.0
+Wheat,Karnataka,2011-2012,225472.0,200932.0
+Wheat,Karnataka,2012-2013,225274.0,178871.0
+Wheat,Karnataka,2013-2014,209079.0,210041.0
+Wheat,Karnataka,2014-2015,197615.0,260093.0
+Wheat,Karnataka,2015-2016,173856.0,128988.0
+Wheat,Karnataka,2016-2017,168242.0,171429.0
+Wheat,Karnataka,2017-2018,193338.0,219087.0
+Wheat,Karnataka,2018-2019,157525.0,163113.0
+Wheat,Kerala,2012-2013,1.0,
+Wheat,Kerala,2014-2015,1.0,3.0
+Wheat,Kerala,2015-2016,2.0,3.0
+Wheat,Kerala,2016-2017,1.0,1.0
+Wheat,Kerala,2017-2018,1.0,1.0
+Wheat,Kerala,2018-2019,1.4,2.03
+Wheat,Ladakh,1997-1998,5328.0,4310.0
+Wheat,Ladakh,1998-1999,4187.0,342.0
+Wheat,Ladakh,2000-2001,4153.0,3650.0
+Wheat,Ladakh,2001-2002,4091.0,3590.0
+Wheat,Ladakh,2002-2003,4011.0,3590.0
+Wheat,Ladakh,2003-2004,4375.0,3840.0
+Wheat,Ladakh,2004-2005,4374.0,3840.0
+Wheat,Ladakh,2006-2007,4522.0,3970.0
+Wheat,Ladakh,2007-2008,4522.0,3970.0
+Wheat,Ladakh,2008-2009,4279.0,3750.0
+Wheat,Ladakh,2009-2010,4291.0,3760.0
+Wheat,Ladakh,2010-2011,3945.0,3560.0
+Wheat,Ladakh,2011-2012,4174.0,3763.0
+Wheat,Ladakh,2012-2013,2416.0,2155.0
+Wheat,Ladakh,2013-2014,2416.0,2155.0
+Wheat,Ladakh,2015-2016,3788.0,3417.8999999999996
+Wheat,Ladakh,2016-2017,4278.0,3862.6
+Wheat,Ladakh,2017-2018,3762.0,3390.0
+Wheat,Ladakh,2018-2019,4132.0,3724.3
+Wheat,Madhya Pradesh,1997-1998,4422400.0,7025900.0
+Wheat,Madhya Pradesh,1998-1999,4492200.0,8104000.0
+Wheat,Madhya Pradesh,1999-2000,4661524.0,8685197.0
+Wheat,Madhya Pradesh,2000-2001,3299120.0,4861992.0
+Wheat,Madhya Pradesh,2001-2002,3691707.0,5993596.0
+Wheat,Madhya Pradesh,2002-2003,3369481.0,4916044.0
+Wheat,Madhya Pradesh,2003-2004,4078974.0,7357255.0
+Wheat,Madhya Pradesh,2004-2005,4188248.0,7320042.0
+Wheat,Madhya Pradesh,2005-2006,3772615.0,6192368.0
+Wheat,Madhya Pradesh,2006-2007,4262382.0,7840446.0
+Wheat,Madhya Pradesh,2007-2008,4089343.0,6729363.0
+Wheat,Madhya Pradesh,2008-2009,3997666.0,7272210.0
+Wheat,Madhya Pradesh,2009-2010,4458995.0,8865378.0
+Wheat,Madhya Pradesh,2010-2011,4633125.0,9219781.0
+Wheat,Madhya Pradesh,2011-2012,5248479.0,14537038.0
+Wheat,Madhya Pradesh,2012-2013,5601025.0,16510524.0
+Wheat,Madhya Pradesh,2013-2014,6123044.0,15722722.0
+Wheat,Madhya Pradesh,2014-2015,5999000.0,18463000.0
+Wheat,Madhya Pradesh,2015-2016,5914000.0,18408000.0
+Wheat,Madhya Pradesh,2016-2017,6423000.0,21916000.0
+Wheat,Madhya Pradesh,2017-2018,5802980.0,20019950.0
+Wheat,Madhya Pradesh,2018-2019,7721549.0,25276038.0
+Wheat,Maharashtra,1997-1998,747300.0,670600.0
+Wheat,Maharashtra,1998-1999,1015500.0,1308500.0
+Wheat,Maharashtra,1999-2000,1041800.0,1425900.0
+Wheat,Maharashtra,2000-2001,754200.0,947600.0
+Wheat,Maharashtra,2001-2002,776000.0,1077400.0
+Wheat,Maharashtra,2002-2003,759800.0,983900.0
+Wheat,Maharashtra,2003-2004,664700.0,778200.0
+Wheat,Maharashtra,2004-2005,755700.0,1016300.0
+Wheat,Maharashtra,2005-2006,932800.0,1300700.0
+Wheat,Maharashtra,2006-2007,1230800.0,1871000.0
+Wheat,Maharashtra,2007-2008,1252800.0,2371100.0
+Wheat,Maharashtra,2008-2009,1021800.0,1516400.0
+Wheat,Maharashtra,2009-2010,1080900.0,1740200.0
+Wheat,Maharashtra,2010-2011,1306600.0,2300800.0
+Wheat,Maharashtra,2011-2012,878100.0,1498800.0
+Wheat,Maharashtra,2012-2013,785000.0,1198700.0
+Wheat,Maharashtra,2013-2014,1028200.0,1480000.0
+Wheat,Maharashtra,2014-2015,1067300.0,1307700.0
+Wheat,Maharashtra,2015-2016,910854.0,981351.0
+Wheat,Maharashtra,2016-2017,1272006.0,2214012.0
+Wheat,Maharashtra,2017-2018,1137731.5,1884842.0
+Wheat,Maharashtra,2018-2019,834423.25,1249407.0
+Wheat,Manipur,2008-2009,2050.0,5120.0
+Wheat,Manipur,2009-2010,12000.0,25050.0
+Wheat,Manipur,2010-2011,2100.0,5250.0
+Wheat,Manipur,2011-2012,2150.0,5370.0
+Wheat,Manipur,2012-2013,2400.0,6000.0
+Wheat,Manipur,2013-2014,2160.0,5400.0
+Wheat,Manipur,2014-2015,2160.0,5620.0
+Wheat,Manipur,2015-2016,2250.0,5620.0
+Wheat,Manipur,2016-2017,2250.0,5620.0
+Wheat,Manipur,2017-2018,2250.0,5620.0
+Wheat,Manipur,2018-2019,2290.0,5730.0
+Wheat,Meghalaya,1997-1998,4287.0,6894.0
+Wheat,Meghalaya,1998-1999,4287.0,6998.0
+Wheat,Meghalaya,2000-2001,4215.0,6892.0
+Wheat,Meghalaya,2001-2002,2753.0,4812.0
+Wheat,Meghalaya,2002-2003,2714.0,4745.0
+Wheat,Meghalaya,2003-2004,862.0,1540.0
+Wheat,Meghalaya,2004-2005,863.0,1564.0
+Wheat,Meghalaya,2005-2006,670.0,1198.0
+Wheat,Meghalaya,2006-2007,656.0,1183.0
+Wheat,Meghalaya,2007-2008,622.0,1120.0
+Wheat,Meghalaya,2008-2009,416.0,739.0
+Wheat,Meghalaya,2009-2010,405.0,718.0
+Wheat,Meghalaya,2010-2011,393.0,704.0
+Wheat,Meghalaya,2011-2012,395.0,710.0
+Wheat,Meghalaya,2012-2013,406.0,742.0
+Wheat,Meghalaya,2013-2014,422.0,789.0
+Wheat,Meghalaya,2014-2015,442.0,844.0
+Wheat,Meghalaya,2015-2016,448.0,875.0
+Wheat,Meghalaya,2016-2017,456.0,878.0
+Wheat,Meghalaya,2017-2018,460.0,887.0
+Wheat,Meghalaya,2018-2019,462.0,892.0
+Wheat,Mizoram,1997-1998,22.0,11.0
+Wheat,Mizoram,1998-1999,55.0,48.0
+Wheat,Mizoram,1999-2000,43.0,38.0
+Wheat,Mizoram,2004-2005,3.0,4.0
+Wheat,Nagaland,1998-1999,1000.0,3000.0
+Wheat,Nagaland,2000-2001,5000.0,10000.0
+Wheat,Nagaland,2001-2002,6000.0,12350.0
+Wheat,Nagaland,2002-2003,7650.0,15820.0
+Wheat,Nagaland,2003-2004,10000.0,19500.0
+Wheat,Nagaland,2004-2005,8200.0,13000.0
+Wheat,Nagaland,2005-2006,1200.0,1920.0
+Wheat,Nagaland,2006-2007,1500.0,1250.0
+Wheat,Nagaland,2007-2008,1150.0,1800.0
+Wheat,Nagaland,2008-2009,1380.0,2070.0
+Wheat,Nagaland,2009-2010,2010.0,2410.0
+Wheat,Nagaland,2010-2011,3120.0,5340.0
+Wheat,Nagaland,2011-2012,3150.0,5390.0
+Wheat,Nagaland,2012-2013,3270.0,5890.0
+Wheat,Nagaland,2013-2014,3000.0,5470.0
+Wheat,Nagaland,2014-2015,3070.0,5600.0
+Wheat,Nagaland,2015-2016,3250.0,5950.0
+Wheat,Nagaland,2016-2017,3380.0,6220.0
+Wheat,Nagaland,2017-2018,3410.0,6260.0
+Wheat,Nagaland,2018-2019,3420.0,6260.0
+Wheat,Odisha,1997-1998,5162.0,6360.0
+Wheat,Odisha,1998-1999,3868.0,4441.0
+Wheat,Odisha,1999-2000,18540.0,24850.0
+Wheat,Odisha,2000-2001,8819.0,12902.9
+Wheat,Odisha,2001-2002,6976.0,10566.9
+Wheat,Odisha,2002-2003,4627.0,5768.1
+Wheat,Odisha,2003-2004,5129.0,7515.6
+Wheat,Odisha,2004-2005,4054.0,5312.5
+Wheat,Odisha,2005-2006,3276.0,4484.3
+Wheat,Odisha,2006-2007,3913.0,5802.3
+Wheat,Odisha,2007-2008,5548.0,8722.5
+Wheat,Odisha,2008-2009,5267.0,7385.0
+Wheat,Odisha,2009-2010,3994.0,5782.4
+Wheat,Odisha,2010-2011,2857.0,4174.0
+Wheat,Odisha,2011-2012,1461.0,2396.7
+Wheat,Odisha,2012-2013,1039.0,1974.4
+Wheat,Odisha,2013-2014,678.0,1067.6
+Wheat,Odisha,2014-2015,403.0,656.0999999999999
+Wheat,Odisha,2015-2016,367.0,494.4
+Wheat,Odisha,2016-2017,57.0,81.0
+Wheat,Odisha,2017-2018,73.0,157.89999999999998
+Wheat,Odisha,2018-2019,147.0,266.8
+Wheat,Punjab,1997-1998,3300000.0,12715000.0
+Wheat,Punjab,1998-1999,3338000.0,14460000.0
+Wheat,Punjab,1999-2000,3388000.0,15910000.0
+Wheat,Punjab,2000-2001,3408000.0,15551000.0
+Wheat,Punjab,2001-2002,3420000.0,15499000.0
+Wheat,Punjab,2002-2003,3375000.0,14175000.0
+Wheat,Punjab,2003-2004,3444000.0,14489000.0
+Wheat,Punjab,2004-2005,3482000.0,14698000.0
+Wheat,Punjab,2005-2006,3468000.0,14493000.0
+Wheat,Punjab,2006-2007,3467000.0,14596000.0
+Wheat,Punjab,2007-2008,3488000.0,15720000.0
+Wheat,Punjab,2008-2009,3466000.0,15733000.0
+Wheat,Punjab,2009-2010,3522000.0,15169000.0
+Wheat,Punjab,2010-2011,3510000.0,16472000.0
+Wheat,Punjab,2011-2012,3528000.0,17982000.0
+Wheat,Punjab,2012-2013,3517000.0,16614000.0
+Wheat,Punjab,2013-2014,3512000.0,17620000.0
+Wheat,Punjab,2014-2015,3505000.0,15050000.0
+Wheat,Punjab,2015-2016,3508000.0,16077000.0
+Wheat,Punjab,2016-2017,3495000.0,17636000.0
+Wheat,Punjab,2017-2018,3512000.0,17830000.0
+Wheat,Punjab,2018-2019,3520000.0,18262000.0
+Wheat,Rajasthan,1997-1998,2679800.0,6701000.0
+Wheat,Rajasthan,1998-1999,2766290.0,6879818.0
+Wheat,Rajasthan,1999-2000,2650187.0,6731932.0
+Wheat,Rajasthan,2000-2001,2309637.0,5547100.0
+Wheat,Rajasthan,2001-2002,2287498.0,6389030.0
+Wheat,Rajasthan,2002-2003,1800659.0,4878020.0
+Wheat,Rajasthan,2003-2004,2103059.0,5875862.0
+Wheat,Rajasthan,2004-2005,2010241.0,5706871.0
+Wheat,Rajasthan,2005-2006,2123910.0,5865293.0
+Wheat,Rajasthan,2006-2007,2564840.0,7755883.0
+Wheat,Rajasthan,2007-2008,2592188.0,7126040.0
+Wheat,Rajasthan,2008-2009,2294858.0,7287074.0
+Wheat,Rajasthan,2009-2010,2394213.0,7500851.0
+Wheat,Rajasthan,2010-2011,3036141.0,10424350.0
+Wheat,Rajasthan,2011-2012,2935341.0,10160897.0
+Wheat,Rajasthan,2012-2013,3063202.0,10766607.0
+Wheat,Rajasthan,2013-2014,3205604.0,11020139.0
+Wheat,Rajasthan,2014-2015,3318248.0,9823876.0
+Wheat,Rajasthan,2015-2016,3108973.0,10468161.0
+Wheat,Rajasthan,2016-2017,3349149.0,12430923.0
+Wheat,Rajasthan,2017-2018,3050258.0,11280500.0
+Wheat,Rajasthan,2018-2019,2997532.0,11962767.0
+Wheat,Sikkim,1997-1998,8090.0,14200.0
+Wheat,Sikkim,1998-1999,7941.0,6416.0
+Wheat,Sikkim,1999-2000,8100.0,12849.0
+Wheat,Sikkim,2000-2001,7215.0,10103.0
+Wheat,Sikkim,2001-2002,8710.0,10485.0
+Wheat,Sikkim,2002-2003,8330.0,10400.0
+Wheat,Sikkim,2003-2004,6805.0,8686.0
+Wheat,Sikkim,2004-2005,5740.0,8250.0
+Wheat,Sikkim,2005-2006,5740.0,9250.0
+Wheat,Sikkim,2006-2007,6380.0,10360.0
+Wheat,Sikkim,2007-2008,4460.0,4460.0
+Wheat,Sikkim,2008-2009,3900.0,3500.0
+Wheat,Sikkim,2009-2010,5200.0,4720.0
+Wheat,Sikkim,2010-2011,2650.0,2710.0
+Wheat,Sikkim,2011-2012,2500.0,2650.0
+Wheat,Sikkim,2012-2013,520.0,550.0
+Wheat,Sikkim,2013-2014,360.0,385.0
+Wheat,Sikkim,2014-2015,390.0,420.0
+Wheat,Sikkim,2015-2016,323.0,346.0
+Wheat,Sikkim,2016-2017,265.0,286.0
+Wheat,Sikkim,2017-2018,172.0,185.0
+Wheat,Sikkim,2018-2019,163.0,176.0
+Wheat,Tamil Nadu,1998-1999,700.0,34.0
+Wheat,Tamil Nadu,1999-2000,34.0,16.0
+Wheat,Tamil Nadu,2000-2001,124.0,60.0
+Wheat,Tamil Nadu,2002-2003,17.0,0.0
+Wheat,Tamil Nadu,2004-2005,17.0,
+Wheat,Tamil Nadu,2006-2007,140.0,
+Wheat,Tamil Nadu,2011-2012,30.0,
+Wheat,Tamil Nadu,2016-2017,7.0,
+Wheat,Telangana,1997-1998,10100.0,5500.0
+Wheat,Telangana,1998-1999,10300.0,5800.0
+Wheat,Telangana,1999-2000,12119.0,8121.0
+Wheat,Telangana,2000-2001,12769.0,7270.0
+Wheat,Telangana,2001-2002,12164.0,8360.0
+Wheat,Telangana,2002-2003,9633.0,13596.0
+Wheat,Telangana,2003-2004,10774.0,6398.0
+Wheat,Telangana,2004-2005,8385.0,4429.0
+Wheat,Telangana,2005-2006,10020.0,8250.0
+Wheat,Telangana,2006-2007,9120.0,8561.0
+Wheat,Telangana,2007-2008,8000.0,8000.0
+Wheat,Telangana,2008-2009,12654.0,14716.0
+Wheat,Telangana,2009-2010,9082.0,9892.0
+Wheat,Telangana,2010-2011,9328.0,12082.0
+Wheat,Telangana,2011-2012,7942.0,10549.0
+Wheat,Telangana,2012-2013,8000.0,9000.0
+Wheat,Telangana,2013-2014,7039.0,4366.0
+Wheat,Telangana,2014-2015,5828.0,6929.0
+Wheat,Telangana,2015-2016,4952.0,16902.0
+Wheat,Telangana,2016-2017,5409.0,7413.0
+Wheat,Telangana,2017-2018,4158.0,5773.0
+Wheat,Telangana,2018-2019,4844.0,9093.0
+Wheat,The Dadra And Nagar Haveli And Daman And Diu,1998-1999,537.0,920.0
+Wheat,The Dadra And Nagar Haveli And Daman And Diu,1999-2000,715.0,1236.0
+Wheat,The Dadra And Nagar Haveli And Daman And Diu,2000-2001,710.0,1500.0
+Wheat,The Dadra And Nagar Haveli And Daman And Diu,2001-2002,735.0,1441.0
+Wheat,The Dadra And Nagar Haveli And Daman And Diu,2002-2003,750.0,1470.0
+Wheat,The Dadra And Nagar Haveli And Daman And Diu,2003-2004,750.0,1470.0
+Wheat,The Dadra And Nagar Haveli And Daman And Diu,2004-2005,750.0,1470.0
+Wheat,The Dadra And Nagar Haveli And Daman And Diu,2005-2006,750.0,1500.0
+Wheat,The Dadra And Nagar Haveli And Daman And Diu,2006-2007,750.0,1550.0
+Wheat,The Dadra And Nagar Haveli And Daman And Diu,2007-2008,600.0,1100.0
+Wheat,The Dadra And Nagar Haveli And Daman And Diu,2008-2009,600.0,1100.0
+Wheat,The Dadra And Nagar Haveli And Daman And Diu,2009-2010,700.0,1000.0
+Wheat,The Dadra And Nagar Haveli And Daman And Diu,2010-2011,130.0,290.0
+Wheat,The Dadra And Nagar Haveli And Daman And Diu,2011-2012,137.0,274.0
+Wheat,The Dadra And Nagar Haveli And Daman And Diu,2012-2013,131.0,262.0
+Wheat,The Dadra And Nagar Haveli And Daman And Diu,2013-2014,131.0,262.0
+Wheat,The Dadra And Nagar Haveli And Daman And Diu,2014-2015,139.0,289.0
+Wheat,The Dadra And Nagar Haveli And Daman And Diu,2015-2016,141.0,302.0
+Wheat,The Dadra And Nagar Haveli And Daman And Diu,2016-2017,40.0,92.0
+Wheat,The Dadra And Nagar Haveli And Daman And Diu,2017-2018,139.0,309.0
+Wheat,Tripura,1998-1999,1110.0,2100.0
+Wheat,Tripura,1999-2000,1250.0,2400.0
+Wheat,Tripura,2000-2001,1065.0,2230.0
+Wheat,Tripura,2001-2002,1220.0,2455.0
+Wheat,Tripura,2002-2003,919.0,1827.0
+Wheat,Tripura,2003-2004,895.0,1810.0
+Wheat,Tripura,2004-2005,944.0,1942.0
+Wheat,Tripura,2005-2006,1750.0,3184.0
+Wheat,Tripura,2006-2007,970.0,1845.0
+Wheat,Tripura,2007-2008,1023.0,1889.0
+Wheat,Tripura,2008-2009,635.0,1195.0
+Wheat,Tripura,2009-2010,667.0,1323.0
+Wheat,Tripura,2010-2011,316.0,637.0
+Wheat,Tripura,2011-2012,274.0,536.0
+Wheat,Tripura,2012-2013,334.0,827.0
+Wheat,Tripura,2013-2014,150.0,300.0
+Wheat,Tripura,2014-2015,135.0,304.0
+Wheat,Tripura,2015-2016,182.0,407.0
+Wheat,Tripura,2016-2017,200.0,460.0
+Wheat,Tripura,2017-2018,195.0,396.0
+Wheat,Tripura,2018-2019,157.0,331.93
+Wheat,Uttar Pradesh,1997-1998,8769964.0,22144361.0
+Wheat,Uttar Pradesh,1998-1999,8931207.0,22781016.0
+Wheat,Uttar Pradesh,1999-2000,8994071.0,25253437.0
+Wheat,Uttar Pradesh,2000-2001,9239311.0,25168332.0
+Wheat,Uttar Pradesh,2001-2002,9255937.0,25498002.0
+Wheat,Uttar Pradesh,2002-2003,9162749.0,23745162.0
+Wheat,Uttar Pradesh,2003-2004,9443104.0,26349910.0
+Wheat,Uttar Pradesh,2004-2005,9373402.0,23430044.0
+Wheat,Uttar Pradesh,2005-2006,9163949.0,23573776.0
+Wheat,Uttar Pradesh,2006-2007,9197642.0,25443428.0
+Wheat,Uttar Pradesh,2007-2008,9114880.0,25679089.0
+Wheat,Uttar Pradesh,2008-2009,9513039.0,28554178.0
+Wheat,Uttar Pradesh,2009-2010,9668152.0,27518022.0
+Wheat,Uttar Pradesh,2010-2011,9636540.0,30000632.0
+Wheat,Uttar Pradesh,2011-2012,9731150.0,31892480.0
+Wheat,Uttar Pradesh,2012-2013,9733617.0,31332434.0
+Wheat,Uttar Pradesh,2013-2014,9839197.0,31492656.0
+Wheat,Uttar Pradesh,2014-2015,9846466.0,20054791.0
+Wheat,Uttar Pradesh,2015-2016,9644838.0,26874361.0
+Wheat,Uttar Pradesh,2016-2017,9884913.0,34971381.0
+Wheat,Uttar Pradesh,2017-2018,9752941.0,35645666.0
+Wheat,Uttar Pradesh,2018-2019,9855900.0,38039724.0
+Wheat,Uttarakhand,1997-1998,382964.0,686525.0
+Wheat,Uttarakhand,1998-1999,386697.0,684175.0
+Wheat,Uttarakhand,1999-2000,387807.0,797331.0
+Wheat,Uttarakhand,2000-2001,377340.0,711036.0
+Wheat,Uttarakhand,2001-2002,375967.0,721618.0
+Wheat,Uttarakhand,2002-2003,374802.0,721653.0
+Wheat,Uttarakhand,2003-2004,383387.0,729653.0
+Wheat,Uttarakhand,2004-2005,387103.0,799221.0
+Wheat,Uttarakhand,2005-2006,379237.0,642216.0
+Wheat,Uttarakhand,2006-2007,377870.0,796548.0
+Wheat,Uttarakhand,2007-2008,372919.0,798233.0
+Wheat,Uttarakhand,2008-2009,379081.0,770934.0
+Wheat,Uttarakhand,2009-2010,372846.0,829319.0
+Wheat,Uttarakhand,2010-2011,371225.0,882920.0
+Wheat,Uttarakhand,2011-2012,355549.0,864836.0
+Wheat,Uttarakhand,2012-2013,349669.0,853769.0
+Wheat,Uttarakhand,2013-2014,343637.0,848134.0
+Wheat,Uttarakhand,2014-2015,343879.0,662026.0
+Wheat,Uttarakhand,2015-2016,342650.0,790370.0
+Wheat,Uttarakhand,2016-2017,339572.0,891700.0
+Wheat,Uttarakhand,2017-2018,330401.0,929884.0
+Wheat,Uttarakhand,2018-2019,307452.0,927657.0
+Wheat,West Bengal,1997-1998,367374.0,810480.0
+Wheat,West Bengal,1998-1999,367472.0,778090.0
+Wheat,West Bengal,1999-2000,364155.0,850778.0
+Wheat,West Bengal,2000-2001,426000.0,1057610.0
+Wheat,West Bengal,2001-2002,434004.0,961533.0
+Wheat,West Bengal,2002-2003,405350.0,887437.0
+Wheat,West Bengal,2003-2004,425721.0,985686.0
+Wheat,West Bengal,2004-2005,400093.0,841471.0
+Wheat,West Bengal,2005-2006,366729.0,773514.0
+Wheat,West Bengal,2006-2007,350621.0,799876.0
+Wheat,West Bengal,2007-2008,352579.0,917284.0
+Wheat,West Bengal,2008-2009,306985.0,764528.0
+Wheat,West Bengal,2009-2010,315888.0,846657.0
+Wheat,West Bengal,2010-2011,316808.0,874415.0
+Wheat,West Bengal,2011-2012,315659.0,872895.0
+Wheat,West Bengal,2012-2013,321572.0,895927.0
+Wheat,West Bengal,2013-2014,331481.0,927837.0
+Wheat,West Bengal,2014-2015,334640.0,939254.0
+Wheat,West Bengal,2015-2016,339851.0,788503.0
+Wheat,West Bengal,2016-2017,321621.0,862712.0
+Wheat,West Bengal,2017-2018,117360.0,362744.0
+Wheat,West Bengal,2018-2019,112147.0,337751.0
