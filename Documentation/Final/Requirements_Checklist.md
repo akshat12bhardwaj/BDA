@@ -7,7 +7,7 @@ Status as of 2026-10-23: **Done**, **Partial**, **Open** (needs the team or the 
 | Handout item (page) | Evidence | Status |
 |---|---|---|
 | A3 focus: Big Data tools, Hadoop and PySpark (p5) | PySpark 4.2 + Spark SQL ETL, parity and MapReduce-style pattern (`Code/bigdata/`, `Processed_Data/bigdata/`) | PySpark: **Done**. Hadoop/HDFS: **Open**, pending instructor guidance |
-| C9 Final project (p5) | Phases 1–10 + Spark + dashboard; 268 + 36 tests | **Done** |
+| C9 Final project (p5) | Phases 1–10 + Spark + dashboard; 279 tests passing (full suite, venv) | **Done** |
 | C10 Technical depth (p5) | leakage-safe chronological evaluation, hash freezes, run-once tests, Spark/pandas parity | **Done** |
 | C11 Innovation / application (p5) | decision-support dashboard on real mandi data; honest baseline comparison | **Done** (routing and optimisation not built) |
 | C12 Presentation and communication (p5) | `Final_Presentation.pptx`, `Demo_Script.md` | **Done**; rehearsal: Open |

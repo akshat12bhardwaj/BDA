@@ -35,6 +35,16 @@ def series_label(r) -> str:
     return f"{r.market} ({r.district}, {r.state}) — {r.variety}"
 
 
+def prediction_notice(kind: str) -> bool:
+    """True when the git-ignored prediction files are present; otherwise explain why the chart is absent."""
+    missing = d.missing_prediction_files(kind)
+    if missing:
+        st.warning("Prediction file(s) not present in this checkout: " + ", ".join(f"`{m}`" for m in missing)
+                   + ". They are not stored in Git (see Documentation/Final/README_Setup.md §5); the metrics below "
+                   "come from tracked files.")
+    return not missing
+
+
 def pick_series(table: pd.DataFrame, key: str):
     labels = [series_label(r) for r in table.itertuples()]
     i = st.selectbox("Series (market — variety)", range(len(labels)), format_func=lambda j: labels[j], key=key)
@@ -81,9 +91,10 @@ with tabs[1]:
     crop = c1.selectbox("Crop", d.CROPS, key="p_crop")
     h = c2.selectbox("Horizon (weeks ahead)", d.HORIZONS, key="p_h")
     config = c3.selectbox("Model inputs", ["no_weather", "weather"], key="p_cfg")
-    ser = pick_series(price_series(crop, h), "p_series")
-    pr = price_predictions(crop, h, ser, config)
-    st.line_chart(pr.set_index("origin_date")[["observed", "persistence", "hgb_conservative"]])
+    if prediction_notice("price"):
+        ser = pick_series(price_series(crop, h), "p_series")
+        pr = price_predictions(crop, h, ser, config)
+        st.line_chart(pr.set_index("origin_date")[["observed", "persistence", "hgb_conservative"]])
     m = price_metrics()
     test = m["test"]
     sel = test[(test["crop"] == crop) & (test["horizon_weeks"] == h)]
@@ -107,12 +118,13 @@ with tabs[2]:
     c1, c2 = st.columns(2)
     crop = c1.selectbox("Crop", d.CROPS, key="a_crop")
     h = c2.selectbox("Horizon (weeks ahead)", d.HORIZONS, key="a_h")
-    ser = pick_series(arrivals_series(crop, h), "a_series")
-    ap = arrivals_predictions(crop, h, ser)
-    period = st.radio("Period", ["test_2021", "test_2022", "val_2019", "val_2020"], horizontal=True, key="a_period")
-    part = ap[ap["period"] == period].reset_index(drop=True)
-    st.line_chart(part[["observed", "persistence", "hgb_conservative"]])
-    st.caption("x-axis: forecast examples in stored order within the period (the stored predictions carry no date).")
+    if prediction_notice("arrivals"):
+        ser = pick_series(arrivals_series(crop, h), "a_series")
+        ap = arrivals_predictions(crop, h, ser)
+        period = st.radio("Period", ["test_2021", "test_2022", "val_2019", "val_2020"], horizontal=True, key="a_period")
+        part = ap[ap["period"] == period].reset_index(drop=True)
+        st.line_chart(part[["observed", "persistence", "hgb_conservative"]])
+        st.caption("x-axis: forecast examples in stored order within the period (the stored predictions carry no date).")
     am = arrivals_metrics()
     t = am["test"]
     tt = t[(t["population"] == "primary") & (t["crop"] == crop)][["horizon_weeks", "period", "n", "log_mae",

@@ -13,7 +13,17 @@ This runs locally on Windows with no paid service. Everything below is run from 
 | PySpark | 4.2.0 | Big Data component | Apache-2.0 |
 | Streamlit | 1.57.0 | dashboard | Apache-2.0 |
 
-The raw data (`Dataset/`, about 4.5 GB) and the `*.parquet` tables are not stored in Git. Copy `Dataset/` in, then rebuild with the phase pipelines (Phase 4 → 6) if needed.
+The raw data (`Dataset/`, about 4.5 GB) and every `*.parquet` table are **not stored in Git**. A fresh clone therefore needs:
+
+| Missing on a fresh clone | How to get it back | Notes |
+|---|---|---|
+| `Dataset/` | copy the source files in | read-only (D-01) |
+| Phase 4–6 parquet tables (`Processed_Data/integration`, `cleaned`, `features`) | rerun the Phase 4 → 6 pipelines (`Code/<phase>/pipeline.py`) | needed by the models and notebooks; the Spark ETL reads only `Dataset/` and tracked CSVs |
+| `Processed_Data/modelling/phase08/hgb_conservative_validation_predictions.parquet` (dashboard Prices chart) | rerun the Phase 8 validation runs (`Code/modelling/models.py`) | validation only; heavy |
+| `Processed_Data/modelling/phase09_models/candidate_predictions.parquet` (dashboard Arrivals chart) | rerun the D-44 validation experiments (`Notebooks/Phase_09_Arrivals_Model_Experiments.ipynb`) | validation only; heavy |
+| `Processed_Data/modelling/phase09_models/test_2021_2022/test_predictions.parquet` (dashboard Arrivals chart) | **cannot be regenerated**: written only by the one-time 2021–2022 test, whose run-once guard (tracked `run_log.csv`) refuses a second run | copy it from the original machine, or accept metrics only |
+
+**Without these three prediction files** the dashboard still starts. The Prices and Arrivals tabs then show a notice instead of the series chart, and the test metrics, production context, Big Data and Limitations tabs work fully, because they read tracked CSV files.
 
 ## 2. One-time environment (no global PATH or Java change)
 
@@ -61,8 +71,8 @@ $env:BDA_SPARK_REAL = "1"; <ENV>\venv\Scripts\python.exe -B -m pytest -q -p no:c
 ```
 
 Results on 2026-10-23:
-- Project Python: **268 passed, 2 skipped**.
-- venv: **36 passed, 1 skipped** (the opt-in real-data test).
+- Full suite in the venv (`<ENV>\venv\Scripts\python.exe -B -m pytest -q -p no:cacheprovider Code/tests`, `JAVA_HOME` set): **279 passed, 1 skipped** (the opt-in real-data test).
+- Project Python: **268 passed, 3 skipped** (the Spark module and 2 Streamlit AppTests need the venv).
 - Real-data parity: **1 passed**.
 
 ## 5. Where things are

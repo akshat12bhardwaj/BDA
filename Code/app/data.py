@@ -42,6 +42,15 @@ def _check(cond: bool, msg: str) -> None:
 
 # ---------------------------------------------------------------- prices (Phase 8, D-42)
 PRICE_FILE = M8 / "hgb_conservative_validation_predictions.parquet"
+ARRIVALS_VAL_FILE = M9 / "candidate_predictions.parquet"
+ARRIVALS_TEST_FILE = M9 / "test_2021_2022" / "test_predictions.parquet"
+# These three are git-ignored (*.parquet). The test file is written only by the one-time 2021-2022 arrivals test
+# (run-once guard), so a fresh clone cannot regenerate it; the app then shows metrics only.
+PREDICTION_FILES = {"price": [PRICE_FILE], "arrivals": [ARRIVALS_VAL_FILE, ARRIVALS_TEST_FILE]}
+
+
+def missing_prediction_files(kind: str) -> list[str]:
+    return [p.as_posix() for p in PREDICTION_FILES[kind] if not p.exists()]
 
 
 def price_series(crop: str, horizon: int, top: int = 200) -> pd.DataFrame:
@@ -85,7 +94,7 @@ def arrivals_metrics() -> dict[str, pd.DataFrame]:
 
 
 def arrivals_series(crop: str, horizon: int, top: int = 200) -> pd.DataFrame:
-    df = pq.read_table(M9 / "test_2021_2022" / "test_predictions.parquet", columns=SERIES,
+    df = pq.read_table(ARRIVALS_TEST_FILE, columns=SERIES,
                        filters=[("crop", "=", crop), ("horizon_weeks", "=", horizon),
                                 ("population", "=", "primary")]).to_pandas()
     return df.groupby(SERIES).size().rename("test_weeks").reset_index().sort_values(
@@ -98,9 +107,9 @@ def arrivals_predictions(crop: str, horizon: int, series: tuple) -> pd.DataFrame
     f = [("crop", "=", crop), ("horizon_weeks", "=", horizon), ("population", "=", "primary")] + \
         [(c, "=", v) for c, v in zip(SERIES, series)]
     cols = ["period", "row", "y", "persistence", "hgb_conservative"]
-    val = pq.read_table(M9 / "candidate_predictions.parquet", columns=cols,
+    val = pq.read_table(ARRIVALS_VAL_FILE, columns=cols,
                         filters=f + [("candidate", "=", "hgb_conservative")]).to_pandas()
-    test = pq.read_table(M9 / "test_2021_2022" / "test_predictions.parquet", columns=cols, filters=f).to_pandas()
+    test = pq.read_table(ARRIVALS_TEST_FILE, columns=cols, filters=f).to_pandas()
     df = pd.concat([val, test], ignore_index=True).sort_values(["period", "row"]).reset_index(drop=True)
     _check(set(df["period"]) <= ARRIVAL_PERIODS, f"arrivals rows outside validation/test: {set(df['period'])}")
     return df.rename(columns={"y": "observed"})

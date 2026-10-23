@@ -123,7 +123,7 @@ The data layer enforces the data boundaries, and tests check them: no holdout, n
 
 ## 7. Verification and integrity
 
-**Tests:** 268 pass on the project interpreter and 36 more in the Spark/Streamlit environment, including:
+**Tests:** the full suite passes in the Spark/Streamlit environment: 279 passed, with 1 opt-in real-data test run separately. On the project interpreter, where Spark and Streamlit are absent, 268 pass and 3 skip. The suite includes:
 - synthetic-fixture parity against Phase 4's own pandas code;
 - real-data parity;
 - an Streamlit `AppTest` smoke test of every tab.

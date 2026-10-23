@@ -75,6 +75,21 @@ def test_loaders_are_read_only():
         assert not re.search(r"\.to_csv\(|\.to_parquet\(|open\([^)]*['\"][wa]", s), f
 
 
+def test_app_degrades_gracefully_without_ignored_prediction_files(monkeypatch, tmp_path):
+    """A fresh clone has no git-ignored parquet predictions: every tab must still render, with a notice."""
+    pytest.importorskip("streamlit")
+    from streamlit.testing.v1 import AppTest
+    for name in ["PRICE_FILE", "ARRIVALS_VAL_FILE", "ARRIVALS_TEST_FILE"]:
+        monkeypatch.setattr(d, name, tmp_path / f"absent_{name}.parquet")
+    monkeypatch.setattr(d, "PREDICTION_FILES", {"price": [d.PRICE_FILE], "arrivals": [d.ARRIVALS_VAL_FILE, d.ARRIVALS_TEST_FILE]})
+    assert len(d.missing_prediction_files("price")) == 1 and len(d.missing_prediction_files("arrivals")) == 2
+    at = AppTest.from_file(str(APP), default_timeout=180).run()
+    assert not at.exception, [e.value for e in at.exception]
+    assert len(at.tabs) == 6
+    assert sum("not present in this checkout" in w.value for w in at.warning) == 2
+    assert any("counts only" in m.value for m in at.markdown)                     # later tabs still rendered
+
+
 def test_app_runs_every_tab_without_exceptions():
     pytest.importorskip("streamlit")
     from streamlit.testing.v1 import AppTest

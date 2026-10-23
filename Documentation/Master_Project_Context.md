@@ -192,6 +192,7 @@ BDA/
     ├── Phase_09_Model_Protocol.md   (learned-arrivals protocol, APPROVED as D-44 with U2–U6; run instructions)
     ├── Phase_10_Production_Context_Plan.md (Phase 10 plan; D-46 – D-48 accepted; implementation record §17)
     ├── BigData_and_Dashboard_Spec.md (spec for the Spark component and dashboard)
+    ├── Phase_11_Routing_Plan.md      (PLAN ONLY: routing / weather / road-condition audit and roadmap; nothing implemented)
     ├── Final/                        (report, slides, demo script, contribution matrix, setup, checklist, screenshots/)
     └── Future_Work_Roadmap.md
 ```
@@ -457,8 +458,8 @@ Built under D-46 – D-48, accepted 2026-10-23. The phase name stays "Supply Pre
 - **Screenshots:** `Documentation/Final/screenshots/app_1_overview.png` … `app_6_limitations.png`.
 
 **Tests (2026-10-23)**
-- Project Python: 268 passed, 2 skipped (the Spark and Streamlit tests skip without the venv).
-- venv: 36 passed, 1 skipped.
+- Full suite in the venv: 279 passed, 1 skipped (opt-in real-data parity). Project Python: 268 passed, 3 skipped (the Spark and Streamlit tests skip without the venv).
+- The dashboard starts without the three git-ignored prediction parquet files: the Prices and Arrivals charts show a notice and every other tab still renders (tested). The 2021–2022 arrivals `test_predictions.parquet` cannot be regenerated on a fresh clone (run-once guard); see `Documentation/Final/README_Setup.md` §1.
 - Opt-in real-data parity: passed.
 - Integrity checks passed: 62 protected hashes, the D-42 / D-45 freezes, AQ-1 and the Phase 10 freeze.
 
