@@ -309,7 +309,7 @@ text(s, 5.2, 1.65, 7.3, 5.1, [("Six tabs", {"bold": True, "color": FOREST, "size
 s = content_slide("Verification: tests, hashes and frozen evaluations",
                   "Explain run-once guards and hash freezes: test periods were scored exactly once, and nothing in the "
                   "dashboard or Spark job can rerun them.")
-stat(s, 0.6, 1.7, "268 + 36", "tests passing (project + Spark/app env)")
+stat(s, 0.6, 1.7, "279", "passed, 1 skipped: full suite in the Spark/app venv")
 stat(s, 3.65, 1.7, "62", "protected input hashes verified")
 stat(s, 6.7, 1.7, "3", "frozen selections verified (D-42, D-45, Phase 10)")
 stat(s, 9.75, 1.7, "1×", "each test period scored, once")
