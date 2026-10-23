@@ -449,3 +449,63 @@ Outputs: `arrivals_mp_placeholder_*.csv`.
    - closures that cannot be told apart from non-reporting;
    - two validation years;
    - nationwide shocks not captured by the intervals.
+
+## 16. D-45 selection, freeze and the one-time 2021–2022 arrivals test (2026-10-23)
+
+**Selection.** D-44 validation produced the D-45 proposal. The project owner **accepted D-45 as written on 2026-10-23**: conservative HGB for Onion, Potato and Wheat × h = 1, 2 and 4.
+
+**Freeze.** The manifest is `Processed_Data/modelling/phase09_models/test_2021_2022/arrivals_freeze_manifest.csv` (`phase9-arrivals-test-v1`, 46 entries). It records SHA-256 values for:
+- 10 code files: `arrivals*.py`, `dataset.py`, `baselines.py`, `uncertainty.py`, and the Phase 6 and Phase 4 pipelines;
+- the protocol document and the feature registry;
+- the AQ-1 manifest and flag files;
+- the experiment config and every validation output (selection table, metrics, bootstraps, predictions);
+- the D-44 and D-45 decision sections, as text with normalised line endings;
+- the three feature inputs, which equal the Phase 7 record;
+- the nine selected settings, the feature list, the populations and the refit rule.
+
+It was verified by a separate process before the test, and again after it. The manifest's own file hash (`d9d71db7…`) is recorded in the run log, not inside the manifest, so there is no circularity.
+
+**Validation behaviour unchanged by the test-period parameters.** Re-fitting Potato h = 1 reproduced all 55,638 saved validation predictions exactly.
+
+**Run-once guard** (`arrivals_final.preflight` / `run_test`). The test is allowed only if:
+- D-45 is ACCEPTED and the D-44 gate holds;
+- the freeze verifies;
+- the window equals the D-40 test period and stays out of the holdout;
+- no attempt is recorded in the persistent `run_log.csv` and no results exist.
+
+A failure is logged as `failed` and blocks retries until reviewed. This is tested on synthetic data, including an unaccepted decision, a bad hash, a wrong window, a repeat run and a failed run.
+
+**The run:**
+- **Log:** `started` 2026-10-22T20:39:23Z, then `completed` at 20:48:08Z (2026-10-23 IST); 524 s; 1,648,535 prediction rows across the three populations. A second attempt is refused.
+- **Access audit** (`test_access_audit.csv`):
+  - rows were read through a parquet filter `reported_date ≤ 2022-12-25`;
+  - **0 rows after 2022-12-25 were loaded**;
+  - scored target weeks ran from 2021-01-03 to 2022-12-25;
+  - **the 2023+ holdout was not accessed.**
+- **Protocol:** quarterly expanding refits as in validation. AQ-1 v1 rules were applied unchanged to rows ≤ 2022-12-25 to clean test targets, and training targets were cleaned only once a flag was knowable.
+
+**Results** (primary population AQ-1; % lower log MAE than persistence on identical rows; 95% series-cluster CI). Market clusters give the same verdicts.
+
+| Crop | h | 2021 | 2022 |
+|---|---|---|---|
+| Onion | 1 | +3.38 [+2.23, +4.52] | +6.34 [+5.23, +7.39] |
+| Onion | 2 | +3.85 [+2.77, +4.91] | +5.81 [+4.75, +6.87] |
+| Onion | 4 | +4.11 [+2.94, +5.23] | +4.57 [+3.32, +5.75] |
+| Potato | 1 | +3.19 [+1.96, +4.40] | +4.12 [+2.99, +5.24] |
+| Potato | 2 | +2.96 [+1.79, +4.07] | +4.23 [+3.03, +5.40] |
+| Potato | 4 | +4.49 [+3.27, +5.67] | +2.34 [+0.99, +3.63] |
+| Wheat | 1 | +5.83 [+4.79, +6.87] | +9.00 [+7.97, +10.00] |
+| Wheat | 2 | +6.10 [+4.85, +7.31] | +10.84 [+9.78, +11.89] |
+| Wheat | 4 | +8.10 [+6.57, +9.56] | +13.49 [+12.18, +14.73] |
+
+**What the results show:**
+- All 18 cell-years have intervals above zero, and all reach the 2% practical minimum. The smallest is Potato h = 4 in 2022, at +2.34%.
+- **Original population and all-flagged-MP exclusion (U3):** the same verdicts in all 18 cell-years, and the populations differ by at most 0.62 percentage points.
+- **Tonnes per day:** in a few cells the absolute error barely changes. For example, Onion h = 2 in 2021 has MAE 32.38 against 32.38 t/day, even though log MAE improves.
+
+**How to read this:**
+- Unlike the Phase 8 price model, the arrivals gains held on two unseen years.
+- The intervals are within-year and do not capture nationwide shocks.
+- The `provider_query_pending` marker covers 2019–2020 only, so it affects training targets, not test targets.
+- The 2023+ holdout stays reserved.
+- **The selection is unchanged by these results** (D-45).

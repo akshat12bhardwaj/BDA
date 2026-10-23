@@ -177,7 +177,7 @@ def reproduce_persistence(preds: pd.DataFrame, saved_metrics: pd.DataFrame) -> p
 
 # ---------------------------------------------------------------- gated fitting
 def fit_predict(ex: pd.DataFrame, origins: pd.DataFrame, feats: pd.DataFrame, weeks: pd.DataFrame | None,
-                candidate: str, crop: str, h: int) -> pd.DataFrame:
+                candidate: str, crop: str, h: int, periods=tuple(VALIDATION)) -> pd.DataFrame:
     """
     Quarterly-refit predictions of one candidate on origin-eligible validation rows. `weeks` (from
     arrivals_aq1.clean_weeks) defines the population: evaluation targets are cleaned, and a training target is
@@ -192,7 +192,7 @@ def fit_predict(ex: pd.DataFrame, origins: pd.DataFrame, feats: pd.DataFrame, we
     else:
         ex = ex.assign(clean_median=ex[ar.TARGET], flag_available=pd.NaT)
     X = design(ex, feats)
-    ev = ex[ex["period"].isin(VALIDATION) & ex["eligible_at_origin"] & ex["clean_median"].notna()]
+    ev = ex[ex["period"].isin(periods) & ex["eligible_at_origin"] & ex["clean_median"].notna()]   # default: validation
     refit = d.refit_date_for(ev["origin_date"], d.refit_schedule())
     yhat = pd.Series(np.nan, index=ev.index)
     for r in sorted(refit.unique()):

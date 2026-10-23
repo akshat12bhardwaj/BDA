@@ -43,7 +43,9 @@ Learned forecasting of weekly mandi **arrivals** (supply-side market activity, *
 8. Evaluation, paired uncertainty and the selection rule (gated)
 9. Results by year, horizon and crop
 10. Saved outputs
-11. Summary""")
+11. Summary
+12. From proposal to selection (D-45)
+13. The one-time reserved test (read-only here)""")
 
 md("## 1. Setup and configuration")
 code("""import os, sys, json, random
@@ -226,6 +228,17 @@ if RESULTS:
     print("U3 sensitivity (all flagged MP rows excluded; reported only): relative log-MAE improvement %")
     display(mp_view.pivot_table(index=["crop", "horizon_weeks", "candidate"], columns="period",
                                 values="rel_log_mae_improvement_pct").round(2))
+    # the same improvement of conservative boosting under the three populations: the conclusion should not depend on them
+    sens = pd.concat([b.assign(population=p) for p, b in [("primary (AQ-1)", BOOT_PRIMARY), ("original", BOOT_ORIGINAL),
+                                                           ("AQ-1 + all MP flags excluded", BOOT_MP)]])
+    sens = sens[(sens["cluster"] == "series") & (sens["period"] != "val_combined") & (sens["candidate"] == "hgb_conservative")]
+    fig, axes = plt.subplots(1, 3, figsize=(15, 4), sharey=True)
+    for ax, crop in zip(axes, CROPS):
+        t = sens[sens["crop"] == crop].pivot_table(index=["horizon_weeks", "period"], columns="population", values="rel_log_mae_improvement_pct")
+        t.plot(kind="bar", ax=ax, rot=45, legend=(crop == CROPS[0]), title=f"{crop}: boosting vs persistence, % improvement")
+        ax.axhline(am.MIN_REL, color="red", ls="--", lw=1); ax.set_xlabel("horizon (weeks), year"); ax.set_ylabel("% lower log MAE")
+    fig.tight_layout(); fig.savefig(FIG / "phase09_population_sensitivity.png", dpi=110); plt.show()
+    print("Red dashed line: the pre-specified 2% practical minimum.")
 else:
     print("No candidate results: the selection rule is defined (am.select) and tested, but not applied.")
     print("Bonferroni family:", am.FAMILY, "tests, z cut-off", round(am.Z_BONFERRONI, 3), "| practical minimum", am.MIN_REL, "%")""")
@@ -252,7 +265,15 @@ if RESULTS:
                              **ar.metrics(part["y"], part[name])})
     METRICS = pd.DataFrame(rows)
     display(METRICS[METRICS["population"] == "primary"].pivot_table(
-        index=["crop", "h", "candidate", "model"], columns="period", values="log_mae").round(4))""")
+        index=["crop", "h", "candidate", "model"], columns="period", values="log_mae").round(4))
+    # log MAE of persistence, Ridge and conservative boosting per crop, horizon and validation year (primary population)
+    prim = METRICS[METRICS["population"] == "primary"].drop_duplicates(["crop", "h", "period", "model"])
+    fig, axes = plt.subplots(1, 3, figsize=(15, 4))
+    for ax, crop in zip(axes, CROPS):
+        t = prim[prim["crop"] == crop].pivot_table(index=["h", "period"], columns="model", values="log_mae")
+        t[["persistence", "ridge", "hgb_conservative"]].plot(kind="bar", ax=ax, rot=45, title=f"{crop}: validation log MAE (lower is better)")
+        ax.set_xlabel("horizon (weeks), year"); ax.set_ylabel("log MAE")
+    fig.tight_layout(); fig.savefig(FIG / "phase09_candidates_log_mae.png", dpi=110); plt.show()""")
 
 md("""## 10. Saved outputs
 
@@ -292,6 +313,78 @@ else:
               f" ({r.rel_2019_pct:+.2f}% / {r.rel_2020_pct:+.2f}%)")
     print("Candidates passing every criterion:", int(SELECTION["passes"].sum()), "| proposed:",
           SELECTION.loc[SELECTION["proposed"], ["crop", "horizon_weeks", "candidate"]].values.tolist() or "none (persistence kept)")""")
+
+md("""## 12. From proposal to selection (D-45)
+
+**Sections 7–11 are validation results:** 2019–2020, used to select. A candidate that passed every criterion was first only a **proposed** selection (protocol §5).
+
+**The decision record:**
+- **D-45** (`Documentation/Decision_Log.md`) proposed conservative boosting for all nine cells.
+- The project owner **accepted D-45 as written on 2026-10-23**, before any arrivals test data was read.
+- The selection was then **frozen by hash**, and the reserved 2021–2022 test was run **once** (section 13).
+- The test result cannot change the selection.""")
+
+md("""## 13. The one-time reserved 2021–2022 test (read-only here)
+
+**How it was run:** by `Code/modelling/arrivals_final.py:run_test()`, exactly once, after these steps:
+1. D-45 acceptance;
+2. a freeze manifest covering code, protocol, inputs, AQ-1 files, validation outputs and both decision texts;
+3. a persistent run-once guard.
+
+**Limits it kept to:**
+- Only rows dated up to the last test week were read; the 2023+ holdout was never loaded.
+- The models are the frozen D-45 selection; nothing was tuned.
+
+**This notebook only reads the saved results.** It verifies the freeze and the run log, and never re-runs the test.""")
+code("""from Code.modelling import arrivals_final as af
+af.verify_freeze()                                          # code, decisions, inputs and validation outputs unchanged
+run_log = pd.read_csv(af.TEST_DIR / "run_log.csv")
+assert run_log["status"].tolist() == ["started", "completed"], "the one-time test did not complete exactly once"
+TM = pd.read_csv(af.TEST_DIR / af.RESULTS)
+TB = pd.read_csv(af.TEST_DIR / "test_bootstrap.csv")
+AUD = pd.read_csv(af.TEST_DIR / "test_access_audit.csv")
+print("Run log:", run_log[["utc", "status"]].values.tolist())
+print("Rows read after the last test week:", int(AUD["rows_after_2022_12_25_read"].sum()),
+      "| latest date read:", AUD["max_reported_date_read"].max(),
+      "| scored target weeks:", AUD["first_scored_target_sunday"].min(), "to", AUD["last_scored_target_sunday"].max())""")
+code("""# Primary population (AQ-1): boosting vs persistence on identical rows, per crop, horizon and test year
+ci = TB[TB["cluster"] == "series"].set_index(["crop", "horizon_weeks", "population", "period"])
+mk = TB[TB["cluster"] == "market"].set_index(["crop", "horizon_weeks", "population", "period"])["verdict"].rename("verdict_market")
+T = TM.set_index(["crop", "horizon_weeks", "population", "period"]).join(ci[["rel_ci_low", "rel_ci_high", "verdict"]]).join(mk).reset_index()
+prim_t = T[(T["population"] == "primary") & (T["period"] != "test_combined")]
+prim_t[["crop", "horizon_weeks", "period", "n", "n_series", "persistence_log_mae", "log_mae", "rel_log_mae_improvement_pct",
+        "rel_ci_low", "rel_ci_high", "verdict", "verdict_market", "persistence_mae_t_per_day", "mae_t_per_day"]].round(3)""")
+code("""# Validation (selection) vs the one-time test, side by side: % lower log MAE than persistence
+val = pd.read_csv(am.OUT_DIR / "candidate_selection.csv")
+val = val[val["proposed"]].melt(id_vars=["crop", "horizon_weeks"], value_vars=["rel_2019_pct", "rel_2020_pct"],
+                                var_name="year", value_name="improvement_pct")
+val["year"] = val["year"].str.slice(4, 8) + " (validation)"
+tst = prim_t.assign(year=prim_t["period"].str.slice(5, 9) + " (test)")[["crop", "horizon_weeks", "year", "rel_log_mae_improvement_pct"]]
+both = pd.concat([val, tst.rename(columns={"rel_log_mae_improvement_pct": "improvement_pct"})])
+fig, axes = plt.subplots(1, 3, figsize=(15, 4), sharey=True)
+for ax, crop in zip(axes, CROPS):
+    t = both[both["crop"] == crop].pivot_table(index="horizon_weeks", columns="year", values="improvement_pct")
+    t.plot(kind="bar", ax=ax, rot=0, legend=(crop == CROPS[0]), title=f"{crop}: boosting vs persistence")
+    ax.axhline(am.MIN_REL, color="red", ls="--", lw=1); ax.set_xlabel("horizon (weeks)"); ax.set_ylabel("% lower log MAE")
+fig.tight_layout(); fig.savefig(FIG / "phase09_validation_vs_test.png", dpi=110); plt.show()
+print("Test: cells with 95% interval above 0 (series / market):", int((prim_t["verdict"] == "better").sum()), "/",
+      int((prim_t["verdict_market"] == "better").sum()), "of", len(prim_t),
+      "| cells >= 2% practical minimum:", int((prim_t["rel_log_mae_improvement_pct"] >= am.MIN_REL).sum()), "of", len(prim_t))""")
+code("""# Sensitivity on the test years: original population and all flagged Madhya Pradesh rows excluded (U3)
+sens_t = T[T["period"] != "test_combined"].pivot_table(index=["crop", "horizon_weeks", "period"], columns="population",
+                                                       values="rel_log_mae_improvement_pct").round(2)
+print("Largest difference between populations (percentage points):", round(float((sens_t.max(axis=1) - sens_t.min(axis=1)).max()), 2))
+print("Cells with interval above 0, by population:", T[T["period"] != "test_combined"].groupby("population")["verdict"]
+      .apply(lambda v: int((v == "better").sum())).to_dict())
+sens_t""")
+md("""**Reading the test.**
+- **The evidence:** the gains seen in validation **held on two unseen years**. Statistically, every interval excludes zero. Practically, the gains are modest: a few percent lower log error for Onion and Potato, and more for Wheat.
+- **Tonnes per day:** a smaller log error does not always mean a smaller absolute error. In a few cells the MAE in tonnes is almost unchanged.
+- **Unchanged from before:**
+  - The intervals cover variation across series, not nationwide shocks.
+  - The `provider_query_pending` marker covers 2019–2020 only, so it changes training targets, not test targets.
+  - Arrivals are a supply-side measure, not demand.
+  - The 2023+ holdout remains unscored and reserved.""")
 
 nb = nbf.v4.new_notebook()
 nb["cells"] = cells

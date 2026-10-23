@@ -86,7 +86,9 @@ def validate_arrivals_examples(ex: pd.DataFrame, cutoff=CUTOFF) -> None:
         "target data inside the target week": (ex["target_first_date"] >= ex["target_week_start"]).all()
                                               and (ex["target_last_date"] <= ex["target_sunday"]).all(),
         "no target after the cutoff (test/holdout never built)": (ex["target_sunday"] <= cutoff).all(),
-        "period follows the target Sunday": ex["period"].isin(["train", "val_2019", "val_2020", d.OUTSIDE]).all(),
+        # 'test' is allowed only when the cutoff reaches the test window (D-45 one-time test); the holdout never is
+        "period follows the target Sunday": ex["period"].isin(["train", "val_2019", "val_2020", d.OUTSIDE]
+                                                              + (["test"] if cutoff >= pd.Timestamp("2021-01-03") else [])).all(),
         "eligibility from dates up to the origin": (ex["eligible_at_origin"] == (ex["n_usable_arrival_dates_to_origin"] >= MIN_DATES)).all()
                                                    and (ex["eligible_at_origin"] == (ex["eligible_from_origin"] <= ex["origin_date"])).all(),
         "arrivals non-negative": (ex[TARGET] >= 0).all() and (ex["origin_week_median_arrivals"] >= 0).all(),
@@ -173,7 +175,7 @@ def score(p: pd.DataFrame) -> pd.DataFrame:
 
 
 def bootstrap_log_mae(p: pd.DataFrame, candidate: str = "calendar_adjusted_persistence", b: int | None = None,
-                      levels=("series", "market")) -> pd.DataFrame:
+                      levels=("series", "market"), periods=tuple(VALIDATION), combined: str = "val_combined") -> pd.DataFrame:
     """
     Paired cluster bootstrap of the log-MAE improvement of `candidate` over persistence on identical validation
     rows. Whole series (or markets) are resampled, so repeated weekly rows of one series stay together; the
@@ -187,7 +189,7 @@ def bootstrap_log_mae(p: pd.DataFrame, candidate: str = "calendar_adjusted_persi
                      e_pers=(np.log1p(g["persistence"]) - np.log1p(g["y"])).abs())
         if e[candidate].isna().any():
             raise d.ModellingError("candidate predictions missing: comparison must be on identical rows")
-        for period, part in [(x, e[e["period"] == x]) for x in VALIDATION] + [("val_combined", e)]:
+        for period, part in [(x, e[e["period"] == x]) for x in periods] + [(combined, e)]:
             for level in levels:
                 sums = part.groupby(u.CLUSTERS[level], sort=True)[["n", "e_cand", "e_pers"]].sum()
                 arr = sums.to_numpy()

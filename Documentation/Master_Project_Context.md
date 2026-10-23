@@ -22,7 +22,7 @@ Build a data-driven agricultural trading decision-support system for Indian agri
 | 6 | Feature Engineering | **[COMPLETED]** (17 notebook checks + 45 tests pass; see Section 8h) |
 | 7 | EDA | **[COMPLETED]** (17 notebook checks + 57 tests pass; see Section 8j) |
 | 8 | Price Forecasting | **[IN PROGRESS — dataset builder, baselines, calendar benchmarks, Ridge/HGB validated on 2019–2020, bootstrap intervals vs persistence, one conservative HGB run; selection frozen (D-42); 2021–2022 test run once (§N): Onion h = 1 HGB −1.6% MAE vs persistence, all other cells persistence; 2023+ holdout unscored]** |
-| 9 | Market Activity Modeling | **[IN PROGRESS — D-43 protocol accepted; baselines (persistence is the benchmark), AQ-1 v1 quality flags and original-vs-AQ-1 comparison on validation only; provisional output contract `phase9-arrivals-forecast-v1`; no learned model; test/holdout untouched]** |
+| 9 | Market Activity Modeling | **[MODEL SELECTED AND TESTED ONCE — D-45 accepted 2026-10-23 (conservative HGB, all 9 cells); frozen by hash; one-time 2021–2022 test: better than persistence in all 18 cell-years (`Phase_09_Arrivals_Plan.md` §16); 2023+ holdout unused]** |
 | 10 | Supply Prediction | [FUTURE] |
 | 11 | Logistics / Dijkstra | [FUTURE] |
 | 12 | MILP Optimization | [FUTURE] |
@@ -38,6 +38,14 @@ Build a data-driven agricultural trading decision-support system for Indian agri
 | Onion | `Onion.csv` | `Onion` | Not available |
 | Potato | `Potato.csv` | `Potato` | Not available |
 | Wheat | `Wheat.csv` | `Wheat` | Available (Maharashtra/Amravati region only) |
+
+## 2c. Opening and running the notebooks (Python 3.13)
+
+This machine has two Pythons. A plain `jupyter lab` starts Anaconda's JupyterLab 4.2.5 with a Python 3.12 kernel (scikit-learn 1.5). The project uses `C:\Python313\python.exe` (scikit-learn 1.8).
+
+- **Interactive:** `cd <project root>`, then `C:\Python313\python.exe -m jupyterlab`. Its `python3` kernel resolves to `C:\Python313\python.exe`. Open `Notebooks/BDA_Project_Demonstration.ipynb`.
+- **Execute from a clean kernel:** `C:\Python313\python.exe Code\utils\run_notebook.py Notebooks\<name>.ipynb`.
+- **Regenerate a notebook:** `C:\Python313\python.exe Code\utils\build_phase08_notebook.py`, `build_phase09_notebook.py` or `build_demo_notebook.py`.
 
 ## 3. Actual Folder Structure (verified in Phase 1, updated Phase 2)
 
@@ -76,7 +84,8 @@ BDA/
 │   │   ├── arrivals.py                               (Phase 9: weekly arrivals dataset, validation baselines + bootstrap, phase9-arrivals-forecast-v1)
 │   │   ├── arrivals_quality.py                       (Phase 9: read-only arrivals quality audit, AQ-1 screen)
 │   │   ├── arrivals_aq1.py                           (Phase 9: AQ-1 v1 derived flag table, leakage-safe baseline variants)
-│   │   └── arrivals_models.py                        (Phase 9: learned-arrivals protocol D-44, approved; gate checks status + decision log)
+│   │   ├── arrivals_models.py                        (Phase 9: learned-arrivals protocol D-44, approved; gate checks status + decision log)
+│   │   └── arrivals_final.py                         (Phase 9: D-45 freeze manifest, run-once guard, one-time 2021–2022 test)
 │   ├── eda/                                          (Phase 7)
 │   │   └── analysis.py                               (EDA summary computations: run_eda())
 │   ├── features/                                     (Phase 6)
@@ -101,7 +110,9 @@ BDA/
 │   ├── Phase_05_Data_Cleaning.ipynb                  (executed, 0 errors, 29 checks + 31 tests passed)
 │   ├── Phase_06_Feature_Engineering.ipynb            (executed, 0 errors, 17 checks + 45 tests passed)
 │   ├── Phase_07_EDA.ipynb                            (executed, 0 errors, 17 checks + 57 tests passed)
-│   └── Phase_09_Arrivals_Model_Experiments.ipynb     (Phase 9; run with Python 3.13 via Code/utils/run_phase09_notebook.py; D-44 approved)
+│   ├── Phase_08_Price_Forecasting.ipynb              (Phase 8 walkthrough, built 2026-10-23; read-only over frozen artifacts; it was planned but never built before)
+│   ├── Phase_09_Arrivals_Model_Experiments.ipynb     (Phase 9; run with Python 3.13 via Code/utils/run_phase09_notebook.py; D-44 approved)
+│   └── BDA_Project_Demonstration.ipynb               (teacher demonstration; read-only; links to the phase notebooks)
 ├── Processed_Data/
 │   ├── phase1_mandi_file_record_counts.csv           (325-row cache: crop → approx record count)
 │   ├── crop_name_mapping.csv                         (320 rows: normalization result per candidate)

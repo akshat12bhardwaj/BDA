@@ -1,0 +1,3 @@
+utc,status,detail
+2026-10-22T20:39:23+00:00,started,freeze_manifest_sha256=d9d71db78f361fe0b0f1682158f4cf09b7304646a9b526ccd767e2951ef8ed9c
+2026-10-22T20:48:08+00:00,completed,seconds=524.4; rows_scored=1648535

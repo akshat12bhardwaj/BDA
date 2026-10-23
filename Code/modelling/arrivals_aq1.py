@@ -41,9 +41,9 @@ FLAG_COLS = ["source_row"] + SERIES + ["reported_date", "week_start", ARR, "arri
                                         "week_reported_days", "usable_modal_price", MODAL]
 
 
-def flag_table(df: pd.DataFrame) -> pd.DataFrame:
+def flag_table(df: pd.DataFrame, cutoff=ar.CUTOFF) -> pd.DataFrame:
     """AQ-1 v1 flags for every usable arrivals row dated <= cutoff; the input frame is never modified."""
-    s = aq.screen(df)
+    s = aq.screen(df, cutoff=cutoff)
     ctx = df.loc[:, ["source_row", "usable_modal_price", MODAL]]
     out = s.merge(ctx, on="source_row", how="left", validate="1:1")[FLAG_COLS]
     # Madhya Pradesh 2019-2020 values <= 0.1 t stay marked until the data provider answers (no exclusion implied)

@@ -180,6 +180,7 @@ def test_notebook_contract():
     assert "C:\\\\" not in src and "C:/" not in src                                  # no absolute paths
     assert "2021" not in src and "holdout" not in src.lower().replace("holdout_accessed", "")  # no reserved periods
     assert "reproduce_persistence" in src and "leakage_probe" in src and "select(" in src
+    assert "run_test(" not in src and "af.verify_freeze()" in src      # reads the one-time test outputs, never re-runs it
     for cell in nb["cells"]:
         if cell["cell_type"] == "code":
             assert not any(o.get("output_type") == "error" for o in cell.get("outputs", []))

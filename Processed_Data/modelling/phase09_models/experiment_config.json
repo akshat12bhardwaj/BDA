@@ -1,6 +1,6 @@
 {
   "protocol_version": "phase9-arrivals-protocol-v1",
-  "status": "PROPOSED",
+  "status": "APPROVED",
   "seed": 20261022,
   "cutoff": "2020-12-27",
   "candidates": {
@@ -30,6 +30,8 @@
   ],
   "primary_population": "aq1_likely",
   "sensitivity_population": "original",
+  "mp_sensitivity_population": "aq1_likely_excl_mp_pending",
+  "decision": "D-44 accepted 2026-10-22; U2-U6 per Decision_Log.md",
   "metric": "log MAE (log1p)",
   "min_rel_improvement_pct": 2.0,
   "bonferroni_family": 36,

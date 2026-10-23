@@ -382,3 +382,36 @@ RMSE improved in both years. Any change to the selection would need a new decisi
 - **U6:** the Madhya Pradesh data-provider query stays **drafted and unsent**.
 **Implementation**: `arrivals_models.PROTOCOL_STATUS = "APPROVED"`. `require_approved()` also checks that this entry's heading reads ACCEPTED.
 **Phase**: 9.
+
+### D-45 — [ACCEPTED 2026-10-23 by the project owner, as written; proposed earlier the same day] Phase 9 arrivals model selection
+**Evidence** (D-44 experiment, run 2026-10-22 with Python 3.13.7 and scikit-learn 1.8.0; validation 2019–2020 only):
+- Files: `Processed_Data/modelling/phase09_models/candidate_selection.csv`, `candidate_bootstrap_{primary,original,mp_excluded}.csv` and `candidate_metrics.csv`.
+- The selection rule was applied unchanged: intervals above 0 in both years under both clusterings, Bonferroni z > 3.197, ≥ 2% gain in each year, and agreement on the original population.
+
+| Crop | h = 1: % lower log MAE vs persistence, 2019 / 2020 | h = 2 | h = 4 |
+|---|---|---|---|
+| Onion | **hgb_conservative** +5.90 / +4.43 (Ridge +2.50 / +1.82, fails) | **hgb_conservative** +6.24 / +5.04 (Ridge fails) | **hgb_conservative** +5.86 / +7.12 (Ridge +2.41 / +3.73 also passes) |
+| Potato | **hgb_conservative** +4.45 / +3.10 (Ridge fails) | **hgb_conservative** +3.86 / +4.37 (Ridge fails) | **hgb_conservative** +2.57 / +4.71 (Ridge fails) |
+| Wheat | **hgb_conservative** +8.75 / +5.94 (Ridge fails) | **hgb_conservative** +11.14 / +6.83 (Ridge fails) | **hgb_conservative** +14.89 / +9.14 (Ridge +2.66 / +4.16 also passes) |
+
+- **Sensitivities:** on the original population and with all flagged Madhya Pradesh rows excluded (U3), conservative boosting's improvements change by at most 0.73 percentage points (series clusters, per year), and every verdict is unchanged.
+- **Wheat calendar adjustment:** not eligible (U4).
+
+**Proposal**:
+- Select **conservative HistGradientBoosting** (`arrivals_models.CANDIDATES["hgb_conservative"]`, settings unchanged) for **all nine** crop × horizon arrivals cells.
+  - It is the candidate with the higher worst-year improvement in every cell.
+  - Ridge, which also passes for Onion and Wheat at h = 4, is recorded but not proposed.
+- After approval, freeze the code and selection by hash, as in D-42, and run the reserved **2021–2022 arrivals test once**, under D-43 / D-44 and a run-once guard.
+- Nothing in this proposal changes D-43, D-44 or any Phase 8 decision.
+
+**Cautions**:
+- The results cover two validation years only, and the intervals do not capture nationwide shocks.
+- In Phase 8, a model that passed validation failed its test (D-42 test outcome).
+
+**Status**: proposed 2026-10-23, when it was not accepted, the models were proposed and not selected, and the arrivals test (2021–2022) and holdout (2023+) could not be accessed. **Accepted 2026-10-23 by the project owner, as written.**
+**Accepted form**:
+- Conservative HistGradientBoosting is **selected** for all nine cells (Onion, Potato and Wheat × h = 1, 2 and 4), with settings unchanged.
+- The project owner authorised a freeze manifest, run-once safeguards, and **one** evaluation on the reserved 2021–2022 arrivals test period. The 2023+ holdout stays reserved.
+- The test result cannot revise this selection.
+- The freeze and the test are implemented in `Code/modelling/arrivals_final.py`, with outputs in `Processed_Data/modelling/phase09_models/test_2021_2022/`.
+**Phase**: 9.
