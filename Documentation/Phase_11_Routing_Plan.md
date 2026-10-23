@@ -1,6 +1,7 @@
 # Phase 11 Plan — Logistics, Routing and Weather-Aware Route Assessment (proposal)
 
 **Status: [PLAN ONLY, 2026-10-23; nothing implemented; no decision accepted].**
+- **Re-audited 2026-10-23** after the repository cleanup and history path fix: every finding in §1 is unchanged. There is still no routing, storage or cost code, data or test.
 - **Numbering:** roadmap Phase 11 ("Logistics / Dijkstra"). The number and name are unchanged, because D-49 (renaming) is not accepted.
 - **Not changed:** nothing in this plan alters D-01 – D-48, any frozen output, or the evaluation boundaries.
 - **Crops:** the project's selected crops are **Onion, Potato and Wheat** (D-10). Tomato was considered and excluded at selection (insufficient APY coverage). The design below takes any crop as a parameter, so Tomato or another crop can be added later through the normal selection evidence.
@@ -43,6 +44,7 @@ Code/routing/
   costs.py        edge weights: distance, time, cost, risk; parameters loaded from a sourced, versioned table
   weather.py      route-level weather: historical (archive) vs forecast (live), labelled, cached with timestamps
   router.py       shortest / fastest / cheapest path (Dijkstra; A* on large graphs); feasibility checks
+  storage.py      warehouse / cold-store table and storage costs: sourced entries only, each with provenance
   pipeline.py     run_routing(): build nodes -> network -> OD matrix -> manifest (hashes, sources, dates)
 Processed_Data/routing/   nodes.csv, od_matrix.csv, edge_attributes.csv, provenance.csv, manifest.csv
 Code/app/                 (later) a read-only "Routes" tab over Processed_Data/routing/ only
@@ -187,18 +189,78 @@ A read-only "Routes" tab, reading only `Processed_Data/routing/`. It should show
 - **RQ-5:** whether any paid traffic or closure provider is acceptable.
 - **RQ-6:** whether Tomato is to be added (needs Phase 2-style evidence).
 
-## 14. Phased order with acceptance criteria
+## 14. Implementation milestones (separate, in order; each needs its own approval)
 
-| Step | Scope | Accepted when |
+### Step 11a — Verified geographic node table
+- **Scope:** stable identifiers (§5) for district points and markets; destinations and storage facilities only from reliable sources.
+- **Validation:** keep the 46 points that passed the D-16 admin1 + admin2 rule. Geocode markets with the same rule. A candidate with a mismatched admin2, several plausible matches, or no match stays **unresolved**; it is never placed at a district centroid or a guessed point.
+- **Storage facilities:** included only from a named, dated source (§15). No location is inferred from a market or district name.
+- **Accepted when:** every node has `verification = passed` or is listed as unresolved with a reason; there are tests for the identifier scheme and the verification rule; no coordinate exists without a source.
+
+### Step 11b — Road-network foundation
+- **Scope:** choose the network source (RQ-2) from §4:
+  - a pinned Geofabrik OSM extract with a major-road graph;
+  - a self-hosted OSRM / GraphHopper / openrouteservice (needs Docker or WSL, not installed);
+  - or the hosted openrouteservice matrix (500 matrix and 2,000 directions requests per day).
+- **Representation:** an OD matrix between verified nodes, plus edge attributes when the graph is self-built. Initial search: Dijkstra; A* or contraction hierarchies when the graph is large (§6).
+- **Distances:** road distance is always computed on the network. Straight-line distance is used only for sanity checks (road ≥ straight line) and as an A* heuristic, and never shown as road distance.
+- **Accepted when:** the source, licence (ODbL / provider terms), attribution, quota and snapshot date are recorded in the manifest, and an offline rerun from the pinned snapshot reproduces the matrix byte for byte.
+
+### Step 11c — Baseline route estimates
+- **Scope:** road distance and estimated travel time where the network supports them. **Shortest-distance**, **fastest** and **cheapest** are separate objectives with separate outputs. "Cheapest" stays empty until 11e supplies sourced costs.
+- **Feasibility:** an edge or pair without data is `unknown`; a route is `feasible` only if every edge has data and no hard constraint is broken (§6).
+- **Accepted when:** unit tests on a synthetic graph cover known shortest paths, Dijkstra / A* agreement, a removed edge changing the route, missing-edge → `not assessable`, and road ≥ straight line.
+
+### Step 11d — Weather integration
+- **Scope:** Open-Meteo, or another approved source (§4), sampled along routes.
+  - **Historical:** the archive, for climatology and backtests (already collected for the 46 points, 2001–2022).
+  - **Forecast:** for current warnings only.
+- **Labelling:** every value carries its kind (historical / forecast), provider, retrieval time (UTC) and licence attribution (CC BY 4.0).
+- **Never** treated as proof of road condition: rain and heat become **warnings or penalties** with approved thresholds (RQ-4), not closures.
+- **Accepted when:** tests show historical and forecast data are never mixed, every value has a timestamp and source, and no live call happens in tests or the dashboard.
+
+### Step 11e — Warehousing and transport cost
+- **Scope:** the data in §15. Every value is classed as **measured / published** (with a source), **user-supplied assumption** (entered and labelled as such), or **estimate** (with its method).
+- **Model connection:** costs feed the cheapest-route objective and, later, the Phase 12 decision model. The frozen price (D-42) and arrivals (D-45) outputs are only **read**, never retrained or altered. Production context stays a slow prior (D-46), with no cap or marketable surplus.
+- **Accepted when:** every cost parameter has a provenance row, no default value is invented, and the cheapest route shows which inputs are assumptions.
+
+### Step 11f — Route visualisation and decision support
+- **Scope:** the read-only Routes tab in §12:
+  - an interactive map;
+  - origin and destination selection (verified nodes only);
+  - route alternatives with distance, estimated time and (when available) cost;
+  - weather context;
+  - only the warnings that are supported by data;
+  - a provenance panel.
+- **Labelling:** every figure is marked as live observation, estimate, historical condition, or **unavailable**.
+- **Accepted when:**
+  - an AppTest covers every view, including missing-data states;
+  - no live call is made from the app;
+  - an end-to-end test runs a pinned small-region fixture through nodes → matrix → route → tab.
+
+### Then Phase 12
+The OD cost/time matrix goes to the decision model only after the costs (11e) and storage (§15) are sourced, and Phase 12 itself is approved.
+
+## 15. Warehousing and storage: data needed
+
+| Item | Needed for | Status in this project |
 |---|---|---|
-| 11a | Node table from the 46 verified points; market geocoding with the D-16 rule (unverified ones stay unresolved) | every node verified or explicitly unresolved; tests pass; no guessed coordinate |
-| 11b | Road distance / time OD matrix for those nodes from the chosen source (RQ-2), cached and pinned | road distance ≥ haversine for all pairs; manifest hashes reproduce; provider and snapshot recorded |
-| 11c | Shortest and fastest routes (Dijkstra; A* where large) with feasibility status | synthetic-graph tests pass; unknown edges never feasible |
-| 11d | Cost weights, once RQ-3 is sourced or approved | every parameter has a source or an approved assumption id; the cheapest route is reported separately |
-| 11e | Weather overlay: historical climatology first, forecast warnings second (labelled) | historical and forecast never mixed; thresholds approved (RQ-4) |
-| 11f | Read-only "Routes" dashboard tab (§12) | AppTest passes; no live calls; provenance shown on every view |
-| 12 | Hand the OD cost/time matrix to the decision model | only after Phase 12 inputs (costs, storage) are sourced |
+| Warehouse / cold-store locations (verified coordinates) | storage nodes | **not available**; candidates are public registries (e.g. WDRA-registered warehouses, state cold-storage lists), each to be checked for licence and accuracy |
+| Capacity (tonnes), suitability per crop (onion: ventilated; potato: cold store) | feasibility | not available |
+| Storage tariff (Rs/t-month), handling and loading charges | storage cost | not available; would come from published tariffs or user-supplied assumptions |
+| Perishability: losses per week by crop and storage type | holding decisions | not available; needs a literature or agronomic source, never a made-up rate |
+| Transport cost (Rs/t-km), vehicle classes and payloads, tolls | transport cost | not available (the proposed research track P, D-49, is not accepted) |
+| Market fees and commission | sell-side cost | not available |
 
+## 16. Dependencies the existing datasets cannot satisfy
+
+- **No road data:** the project has no road network, distance or travel time; it needs OSM or a routing provider (11b).
+- **No market coordinates:** the 2,657 markets need verified geocoding; only 46 district points exist (11a).
+- **No storage, cost or perishability data at all** (11e, §15).
+- **No live weather and no road condition:**
+  - the collected weather is historical only, ending 2022-12-31;
+  - no free, India-wide closure, traffic or road-quality feed has been identified (§4, §7).
+- **No Phase 12 decision model yet:** routing alone cannot produce buy–store–sell recommendations.
 ---
 
 **Sources (checked 2026-10-23; recheck before implementation):**

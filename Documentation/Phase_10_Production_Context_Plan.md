@@ -20,7 +20,7 @@ Revision 2 was **PROPOSED — NOT APPROVED**.
 - D-47 adds the publication-timing caveat: the lag-2 rule is not shown to be conservative for source years ≥ 2019-20.
 - D-49 is not accepted.
 
-**State this plan was written against:** branch `main`, HEAD `b726575` (2 commits ahead of `origin/main`, unpushed); the only uncommitted change is the pending deletion of `Documentation/EDA_Findings.pdf`.
+**State this plan was written against:** branch `main`, HEAD `b726575` (rewritten 2026-10-23 as `abef58d` to remove a local path; content otherwise identical) (2 commits ahead of `origin/main`, unpushed); the only uncommitted change is the pending deletion of `Documentation/EDA_Findings.pdf`.
 
 **Audit scripts** (read-only; kept outside the repository, re-runnable from the project root with `C:\Python313\python.exe -B`): an APY audit, and a hit-count of candidate quality rules. Every number in §2 comes from them or from files named beside it.
 
