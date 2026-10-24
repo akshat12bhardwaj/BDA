@@ -1,0 +1,8 @@
+item,status
+v1.1 validation,see validation_status in audit_and_design.json
+split and refit schedule,proposed in PROTOCOL; pending approval
+baselines and metrics,proposed in PROTOCOL; pending approval
+learned model scope,plan prepared (learned_model_plan); feature set + selection rule pending approval
+R09u independent review,review pack prepared; 0 reviewed; R09u stays disabled
+Wheat median-of-versions sensitivity,deferred (not activated)
+test freeze + one-time test run,approver: project owner (to be named); not authorised

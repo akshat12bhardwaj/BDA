@@ -1,0 +1,2192 @@
+Commodity,State,month,records,modal_outside_range,min_gt_max,key_conflict,usable,modal_outside_range_pct,excluded_pct
+Onion,Andaman and Nicobar,2024-02,1,0,0,0,1,0.0,0.0
+Onion,Andaman and Nicobar,2024-03,2,0,0,0,2,0.0,0.0
+Onion,Andaman and Nicobar,2024-04,1,0,0,0,1,0.0,0.0
+Onion,Andaman and Nicobar,2026-08,1,0,0,0,1,0.0,0.0
+Onion,Andaman and Nicobar,2026-09,1,0,0,0,1,0.0,0.0
+Onion,Andhra Pradesh,2024-02,49,0,0,0,49,0.0,0.0
+Onion,Andhra Pradesh,2024-03,44,0,0,0,44,0.0,0.0
+Onion,Andhra Pradesh,2024-04,37,0,0,0,37,0.0,0.0
+Onion,Andhra Pradesh,2024-05,41,0,0,0,41,0.0,0.0
+Onion,Andhra Pradesh,2024-06,19,0,0,0,19,0.0,0.0
+Onion,Andhra Pradesh,2024-07,30,0,0,0,30,0.0,0.0
+Onion,Andhra Pradesh,2024-08,22,0,0,0,22,0.0,0.0
+Onion,Andhra Pradesh,2024-09,24,0,0,0,24,0.0,0.0
+Onion,Andhra Pradesh,2024-10,23,0,0,0,23,0.0,0.0
+Onion,Andhra Pradesh,2024-11,27,0,0,0,27,0.0,0.0
+Onion,Andhra Pradesh,2024-12,47,0,0,0,47,0.0,0.0
+Onion,Andhra Pradesh,2025-01,31,0,0,0,31,0.0,0.0
+Onion,Andhra Pradesh,2025-02,37,0,0,0,37,0.0,0.0
+Onion,Andhra Pradesh,2025-03,21,0,0,0,21,0.0,0.0
+Onion,Andhra Pradesh,2025-04,21,0,0,0,21,0.0,0.0
+Onion,Andhra Pradesh,2025-05,14,0,0,0,14,0.0,0.0
+Onion,Andhra Pradesh,2025-06,4,0,0,0,4,0.0,0.0
+Onion,Andhra Pradesh,2025-07,18,0,0,0,18,0.0,0.0
+Onion,Andhra Pradesh,2025-08,20,0,0,0,20,0.0,0.0
+Onion,Andhra Pradesh,2025-09,12,0,0,0,12,0.0,0.0
+Onion,Andhra Pradesh,2025-10,22,0,0,0,22,0.0,0.0
+Onion,Andhra Pradesh,2025-11,23,0,0,0,23,0.0,0.0
+Onion,Andhra Pradesh,2025-12,24,0,0,0,24,0.0,0.0
+Onion,Andhra Pradesh,2026-01,19,0,0,0,19,0.0,0.0
+Onion,Andhra Pradesh,2026-02,18,0,0,0,18,0.0,0.0
+Onion,Andhra Pradesh,2026-03,17,0,0,0,17,0.0,0.0
+Onion,Andhra Pradesh,2026-04,19,0,0,0,19,0.0,0.0
+Onion,Andhra Pradesh,2026-05,9,0,0,0,9,0.0,0.0
+Onion,Andhra Pradesh,2026-07,13,0,0,0,13,0.0,0.0
+Onion,Andhra Pradesh,2026-08,49,0,0,0,49,0.0,0.0
+Onion,Andhra Pradesh,2026-09,50,0,0,0,50,0.0,0.0
+Onion,Andhra Pradesh,2026-10,33,0,0,0,33,0.0,0.0
+Onion,Assam,2025-12,162,0,0,6,156,0.0,3.7
+Onion,Assam,2026-01,287,0,0,0,287,0.0,0.0
+Onion,Assam,2026-02,233,0,0,0,233,0.0,0.0
+Onion,Assam,2026-03,125,0,0,0,125,0.0,0.0
+Onion,Assam,2026-04,93,0,0,0,93,0.0,0.0
+Onion,Assam,2026-05,107,0,0,0,107,0.0,0.0
+Onion,Assam,2026-06,150,0,0,0,150,0.0,0.0
+Onion,Assam,2026-07,183,0,0,0,183,0.0,0.0
+Onion,Assam,2026-08,170,0,0,0,170,0.0,0.0
+Onion,Assam,2026-09,128,0,0,0,128,0.0,0.0
+Onion,Assam,2026-10,89,0,0,0,89,0.0,0.0
+Onion,Bihar,2024-02,342,0,0,0,342,0.0,0.0
+Onion,Bihar,2024-03,235,0,0,0,235,0.0,0.0
+Onion,Bihar,2024-04,227,0,0,0,227,0.0,0.0
+Onion,Bihar,2024-05,417,0,0,0,417,0.0,0.0
+Onion,Bihar,2024-06,392,0,0,0,392,0.0,0.0
+Onion,Bihar,2024-07,414,0,0,0,414,0.0,0.0
+Onion,Bihar,2024-08,165,0,0,0,165,0.0,0.0
+Onion,Bihar,2024-09,381,0,0,0,381,0.0,0.0
+Onion,Bihar,2024-10,379,0,0,0,379,0.0,0.0
+Onion,Bihar,2024-11,288,0,0,0,288,0.0,0.0
+Onion,Bihar,2024-12,294,0,0,0,294,0.0,0.0
+Onion,Bihar,2025-01,250,0,0,0,250,0.0,0.0
+Onion,Bihar,2025-02,295,0,0,0,295,0.0,0.0
+Onion,Bihar,2025-03,270,0,0,0,270,0.0,0.0
+Onion,Bihar,2025-04,206,0,0,0,206,0.0,0.0
+Onion,Bihar,2025-05,207,0,0,0,207,0.0,0.0
+Onion,Bihar,2025-06,207,0,0,0,207,0.0,0.0
+Onion,Bihar,2025-07,129,0,0,0,129,0.0,0.0
+Onion,Bihar,2025-08,92,0,0,0,92,0.0,0.0
+Onion,Bihar,2025-09,70,0,0,0,70,0.0,0.0
+Onion,Bihar,2025-10,79,0,0,0,79,0.0,0.0
+Onion,Bihar,2025-11,97,0,0,0,97,0.0,0.0
+Onion,Bihar,2025-12,126,0,0,0,126,0.0,0.0
+Onion,Bihar,2026-01,77,0,0,0,77,0.0,0.0
+Onion,Bihar,2026-02,65,0,0,0,65,0.0,0.0
+Onion,Bihar,2026-03,67,0,0,0,67,0.0,0.0
+Onion,Bihar,2026-04,2,0,0,0,2,0.0,0.0
+Onion,Bihar,2026-06,411,0,0,0,411,0.0,0.0
+Onion,Bihar,2026-07,431,0,0,0,431,0.0,0.0
+Onion,Bihar,2026-08,424,0,0,6,418,0.0,1.42
+Onion,Bihar,2026-09,349,0,0,0,349,0.0,0.0
+Onion,Bihar,2026-10,296,0,0,0,296,0.0,0.0
+Onion,Chandigarh,2024-02,7,0,0,0,7,0.0,0.0
+Onion,Chandigarh,2024-03,24,0,0,0,24,0.0,0.0
+Onion,Chandigarh,2024-04,17,0,0,0,17,0.0,0.0
+Onion,Chandigarh,2024-05,25,0,0,0,25,0.0,0.0
+Onion,Chandigarh,2024-06,17,0,0,0,17,0.0,0.0
+Onion,Chandigarh,2024-07,21,0,0,0,21,0.0,0.0
+Onion,Chandigarh,2024-08,26,0,0,0,26,0.0,0.0
+Onion,Chandigarh,2024-09,20,0,0,0,20,0.0,0.0
+Onion,Chandigarh,2024-10,24,0,0,0,24,0.0,0.0
+Onion,Chandigarh,2024-11,17,0,0,0,17,0.0,0.0
+Onion,Chandigarh,2024-12,14,0,0,0,14,0.0,0.0
+Onion,Chandigarh,2025-01,20,0,0,0,20,0.0,0.0
+Onion,Chandigarh,2025-02,17,0,0,0,17,0.0,0.0
+Onion,Chandigarh,2025-03,20,0,0,0,20,0.0,0.0
+Onion,Chandigarh,2025-04,24,0,0,0,24,0.0,0.0
+Onion,Chandigarh,2025-05,17,0,0,0,17,0.0,0.0
+Onion,Chandigarh,2025-06,21,0,0,0,21,0.0,0.0
+Onion,Chandigarh,2025-07,22,0,0,0,22,0.0,0.0
+Onion,Chandigarh,2025-08,23,0,0,0,23,0.0,0.0
+Onion,Chandigarh,2025-09,23,0,0,0,23,0.0,0.0
+Onion,Chandigarh,2025-10,24,0,0,0,24,0.0,0.0
+Onion,Chandigarh,2025-11,29,0,0,0,29,0.0,0.0
+Onion,Chandigarh,2025-12,25,0,0,0,25,0.0,0.0
+Onion,Chandigarh,2026-01,27,0,0,0,27,0.0,0.0
+Onion,Chandigarh,2026-02,23,0,0,0,23,0.0,0.0
+Onion,Chandigarh,2026-03,21,0,0,0,21,0.0,0.0
+Onion,Chandigarh,2026-04,22,0,0,0,22,0.0,0.0
+Onion,Chandigarh,2026-05,48,0,0,0,48,0.0,0.0
+Onion,Chandigarh,2026-06,29,0,0,0,29,0.0,0.0
+Onion,Chandigarh,2026-07,24,0,0,0,24,0.0,0.0
+Onion,Chandigarh,2026-08,24,0,0,0,24,0.0,0.0
+Onion,Chandigarh,2026-09,23,0,0,0,23,0.0,0.0
+Onion,Chandigarh,2026-10,16,0,0,0,16,0.0,0.0
+Onion,Chattisgarh,2024-02,89,0,0,0,89,0.0,0.0
+Onion,Chattisgarh,2024-03,91,0,0,0,91,0.0,0.0
+Onion,Chattisgarh,2024-04,91,0,0,0,91,0.0,0.0
+Onion,Chattisgarh,2024-05,103,0,0,0,103,0.0,0.0
+Onion,Chattisgarh,2024-06,104,0,0,0,104,0.0,0.0
+Onion,Chattisgarh,2024-07,101,0,0,0,101,0.0,0.0
+Onion,Chattisgarh,2024-08,95,0,0,0,95,0.0,0.0
+Onion,Chattisgarh,2024-09,86,0,0,0,86,0.0,0.0
+Onion,Chattisgarh,2024-10,95,0,0,0,95,0.0,0.0
+Onion,Chattisgarh,2024-11,86,0,0,0,86,0.0,0.0
+Onion,Chattisgarh,2024-12,100,0,0,0,100,0.0,0.0
+Onion,Chattisgarh,2025-01,94,0,0,0,94,0.0,0.0
+Onion,Chattisgarh,2025-02,74,0,0,2,72,0.0,2.7
+Onion,Chattisgarh,2025-03,83,0,0,0,83,0.0,0.0
+Onion,Chattisgarh,2025-04,83,0,0,0,83,0.0,0.0
+Onion,Chattisgarh,2025-05,91,0,0,0,91,0.0,0.0
+Onion,Chattisgarh,2025-06,80,0,0,0,80,0.0,0.0
+Onion,Chattisgarh,2025-07,90,0,0,0,90,0.0,0.0
+Onion,Chattisgarh,2025-08,64,0,0,0,64,0.0,0.0
+Onion,Chattisgarh,2025-09,86,0,0,0,86,0.0,0.0
+Onion,Chattisgarh,2025-10,65,0,0,0,65,0.0,0.0
+Onion,Chattisgarh,2025-11,58,0,0,0,58,0.0,0.0
+Onion,Chattisgarh,2025-12,62,0,0,0,62,0.0,0.0
+Onion,Chattisgarh,2026-01,82,0,0,0,82,0.0,0.0
+Onion,Chattisgarh,2026-02,70,0,0,0,70,0.0,0.0
+Onion,Chattisgarh,2026-03,93,0,0,0,93,0.0,0.0
+Onion,Chattisgarh,2026-04,94,0,0,0,94,0.0,0.0
+Onion,Chattisgarh,2026-05,95,0,0,0,95,0.0,0.0
+Onion,Chattisgarh,2026-06,82,0,0,0,82,0.0,0.0
+Onion,Chattisgarh,2026-07,82,0,0,0,82,0.0,0.0
+Onion,Chattisgarh,2026-08,83,0,0,0,83,0.0,0.0
+Onion,Chattisgarh,2026-09,81,0,0,0,81,0.0,0.0
+Onion,Chattisgarh,2026-10,48,0,0,0,48,0.0,0.0
+Onion,Goa,2024-02,22,0,0,0,22,0.0,0.0
+Onion,Goa,2024-03,20,0,0,0,20,0.0,0.0
+Onion,Goa,2024-04,19,0,0,0,19,0.0,0.0
+Onion,Goa,2024-05,18,0,0,0,18,0.0,0.0
+Onion,Goa,2024-06,25,0,0,0,25,0.0,0.0
+Onion,Goa,2024-07,31,0,0,0,31,0.0,0.0
+Onion,Goa,2024-08,30,0,0,2,28,0.0,6.67
+Onion,Goa,2024-09,30,0,0,0,30,0.0,0.0
+Onion,Goa,2024-10,28,0,0,0,28,0.0,0.0
+Onion,Goa,2024-11,29,0,0,2,27,0.0,6.9
+Onion,Goa,2024-12,28,0,0,0,28,0.0,0.0
+Onion,Goa,2025-01,29,0,0,0,29,0.0,0.0
+Onion,Goa,2025-02,27,0,0,0,27,0.0,0.0
+Onion,Goa,2025-03,26,0,0,0,26,0.0,0.0
+Onion,Goa,2025-04,28,0,0,0,28,0.0,0.0
+Onion,Goa,2025-05,28,0,0,0,28,0.0,0.0
+Onion,Goa,2025-06,27,0,0,0,27,0.0,0.0
+Onion,Goa,2025-07,30,0,0,2,28,0.0,6.67
+Onion,Goa,2025-08,26,0,0,0,26,0.0,0.0
+Onion,Goa,2025-09,28,0,0,0,28,0.0,0.0
+Onion,Goa,2025-10,25,0,0,0,25,0.0,0.0
+Onion,Goa,2025-11,50,0,0,38,12,0.0,76.0
+Onion,Goa,2025-12,42,0,0,34,8,0.0,80.95
+Onion,Goa,2026-01,24,0,0,0,24,0.0,0.0
+Onion,Goa,2026-02,24,0,0,0,24,0.0,0.0
+Onion,Goa,2026-03,25,0,0,0,25,0.0,0.0
+Onion,Goa,2026-04,27,0,0,0,27,0.0,0.0
+Onion,Goa,2026-05,26,0,0,0,26,0.0,0.0
+Onion,Goa,2026-06,27,0,0,0,27,0.0,0.0
+Onion,Goa,2026-07,30,0,0,0,30,0.0,0.0
+Onion,Goa,2026-08,32,0,0,2,30,0.0,6.25
+Onion,Goa,2026-09,31,0,0,0,31,0.0,0.0
+Onion,Goa,2026-10,18,0,0,0,18,0.0,0.0
+Onion,Gujarat,2024-02,564,0,0,0,564,0.0,0.0
+Onion,Gujarat,2024-03,509,0,0,0,509,0.0,0.0
+Onion,Gujarat,2024-04,477,0,0,0,477,0.0,0.0
+Onion,Gujarat,2024-05,588,0,0,0,588,0.0,0.0
+Onion,Gujarat,2024-06,524,0,0,0,524,0.0,0.0
+Onion,Gujarat,2024-07,601,0,0,0,601,0.0,0.0
+Onion,Gujarat,2024-08,516,0,0,0,516,0.0,0.0
+Onion,Gujarat,2024-09,513,0,0,0,513,0.0,0.0
+Onion,Gujarat,2024-10,546,0,0,0,546,0.0,0.0
+Onion,Gujarat,2024-11,517,0,0,0,517,0.0,0.0
+Onion,Gujarat,2024-12,660,0,0,6,654,0.0,0.91
+Onion,Gujarat,2025-01,675,0,0,0,675,0.0,0.0
+Onion,Gujarat,2025-02,700,0,0,0,700,0.0,0.0
+Onion,Gujarat,2025-03,658,0,0,0,658,0.0,0.0
+Onion,Gujarat,2025-04,646,0,0,0,646,0.0,0.0
+Onion,Gujarat,2025-05,647,0,0,8,639,0.0,1.24
+Onion,Gujarat,2025-06,576,0,0,0,576,0.0,0.0
+Onion,Gujarat,2025-07,616,0,0,0,616,0.0,0.0
+Onion,Gujarat,2025-08,514,0,0,0,514,0.0,0.0
+Onion,Gujarat,2025-09,573,0,0,0,573,0.0,0.0
+Onion,Gujarat,2025-10,462,0,0,0,462,0.0,0.0
+Onion,Gujarat,2025-11,626,0,0,4,622,0.0,0.64
+Onion,Gujarat,2025-12,680,0,0,0,680,0.0,0.0
+Onion,Gujarat,2026-01,614,0,0,0,614,0.0,0.0
+Onion,Gujarat,2026-02,591,0,0,0,591,0.0,0.0
+Onion,Gujarat,2026-03,530,0,0,0,530,0.0,0.0
+Onion,Gujarat,2026-04,619,0,0,0,619,0.0,0.0
+Onion,Gujarat,2026-05,600,0,0,0,600,0.0,0.0
+Onion,Gujarat,2026-06,571,0,0,0,571,0.0,0.0
+Onion,Gujarat,2026-07,610,0,0,0,610,0.0,0.0
+Onion,Gujarat,2026-08,597,0,0,0,597,0.0,0.0
+Onion,Gujarat,2026-09,580,0,0,0,580,0.0,0.0
+Onion,Gujarat,2026-10,408,0,0,0,408,0.0,0.0
+Onion,Haryana,2024-02,1215,0,0,0,1215,0.0,0.0
+Onion,Haryana,2024-03,1369,0,0,0,1369,0.0,0.0
+Onion,Haryana,2024-04,1206,0,0,0,1206,0.0,0.0
+Onion,Haryana,2024-05,1476,0,0,0,1476,0.0,0.0
+Onion,Haryana,2024-06,1320,0,0,0,1320,0.0,0.0
+Onion,Haryana,2024-07,1518,0,0,0,1518,0.0,0.0
+Onion,Haryana,2024-08,1354,0,0,4,1350,0.0,0.3
+Onion,Haryana,2024-09,1373,0,0,2,1371,0.0,0.15
+Onion,Haryana,2024-10,1320,0,0,2,1318,0.0,0.15
+Onion,Haryana,2024-11,1255,0,0,4,1251,0.0,0.32
+Onion,Haryana,2024-12,1384,0,0,4,1380,0.0,0.29
+Onion,Haryana,2025-01,1475,0,0,2,1473,0.0,0.14
+Onion,Haryana,2025-02,1470,0,0,0,1470,0.0,0.0
+Onion,Haryana,2025-03,1667,0,0,6,1661,0.0,0.36
+Onion,Haryana,2025-04,1546,0,0,4,1542,0.0,0.26
+Onion,Haryana,2025-05,1676,0,0,0,1676,0.0,0.0
+Onion,Haryana,2025-06,1583,0,0,2,1581,0.0,0.13
+Onion,Haryana,2025-07,1552,0,0,0,1552,0.0,0.0
+Onion,Haryana,2025-08,1609,0,0,2,1607,0.0,0.12
+Onion,Haryana,2025-09,1639,0,0,0,1639,0.0,0.0
+Onion,Haryana,2025-10,1532,0,0,4,1528,0.0,0.26
+Onion,Haryana,2025-11,1760,0,0,4,1756,0.0,0.23
+Onion,Haryana,2025-12,1607,0,0,4,1603,0.0,0.25
+Onion,Haryana,2026-01,1487,0,0,0,1487,0.0,0.0
+Onion,Haryana,2026-02,1364,0,0,4,1360,0.0,0.29
+Onion,Haryana,2026-03,1442,0,0,2,1440,0.0,0.14
+Onion,Haryana,2026-04,1405,0,0,0,1405,0.0,0.0
+Onion,Haryana,2026-05,1478,0,0,10,1468,0.0,0.68
+Onion,Haryana,2026-06,1370,0,0,6,1364,0.0,0.44
+Onion,Haryana,2026-07,1589,0,0,2,1587,0.0,0.13
+Onion,Haryana,2026-08,1475,0,0,2,1473,0.0,0.14
+Onion,Haryana,2026-09,1392,0,0,6,1386,0.0,0.43
+Onion,Haryana,2026-10,864,0,0,0,864,0.0,0.0
+Onion,Himachal Pradesh,2024-02,368,0,0,0,368,0.0,0.0
+Onion,Himachal Pradesh,2024-03,402,0,0,0,402,0.0,0.0
+Onion,Himachal Pradesh,2024-04,367,0,0,0,367,0.0,0.0
+Onion,Himachal Pradesh,2024-05,471,0,0,0,471,0.0,0.0
+Onion,Himachal Pradesh,2024-06,398,0,0,0,398,0.0,0.0
+Onion,Himachal Pradesh,2024-07,447,0,0,0,447,0.0,0.0
+Onion,Himachal Pradesh,2024-08,391,0,0,0,391,0.0,0.0
+Onion,Himachal Pradesh,2024-09,413,0,0,0,413,0.0,0.0
+Onion,Himachal Pradesh,2024-10,418,0,0,0,418,0.0,0.0
+Onion,Himachal Pradesh,2024-11,385,0,0,0,385,0.0,0.0
+Onion,Himachal Pradesh,2024-12,393,0,0,0,393,0.0,0.0
+Onion,Himachal Pradesh,2025-01,499,0,0,2,497,0.0,0.4
+Onion,Himachal Pradesh,2025-02,476,0,0,0,476,0.0,0.0
+Onion,Himachal Pradesh,2025-03,462,0,0,0,462,0.0,0.0
+Onion,Himachal Pradesh,2025-04,446,0,0,0,446,0.0,0.0
+Onion,Himachal Pradesh,2025-05,518,0,0,0,518,0.0,0.0
+Onion,Himachal Pradesh,2025-06,516,0,0,0,516,0.0,0.0
+Onion,Himachal Pradesh,2025-07,535,0,0,0,535,0.0,0.0
+Onion,Himachal Pradesh,2025-08,500,0,0,0,500,0.0,0.0
+Onion,Himachal Pradesh,2025-09,522,0,0,0,522,0.0,0.0
+Onion,Himachal Pradesh,2025-10,481,0,0,0,481,0.0,0.0
+Onion,Himachal Pradesh,2025-11,582,0,0,0,582,0.0,0.0
+Onion,Himachal Pradesh,2025-12,605,0,0,0,605,0.0,0.0
+Onion,Himachal Pradesh,2026-01,583,0,0,0,583,0.0,0.0
+Onion,Himachal Pradesh,2026-02,517,0,0,0,517,0.0,0.0
+Onion,Himachal Pradesh,2026-03,547,0,0,0,547,0.0,0.0
+Onion,Himachal Pradesh,2026-04,521,0,0,0,521,0.0,0.0
+Onion,Himachal Pradesh,2026-05,554,0,0,2,552,0.0,0.36
+Onion,Himachal Pradesh,2026-06,545,0,0,0,545,0.0,0.0
+Onion,Himachal Pradesh,2026-07,592,0,0,0,592,0.0,0.0
+Onion,Himachal Pradesh,2026-08,540,0,0,0,540,0.0,0.0
+Onion,Himachal Pradesh,2026-09,541,0,0,0,541,0.0,0.0
+Onion,Himachal Pradesh,2026-10,328,0,0,0,328,0.0,0.0
+Onion,Jammu and Kashmir,2024-02,124,0,0,0,124,0.0,0.0
+Onion,Jammu and Kashmir,2024-03,143,0,0,0,143,0.0,0.0
+Onion,Jammu and Kashmir,2024-04,125,0,0,0,125,0.0,0.0
+Onion,Jammu and Kashmir,2024-05,189,0,0,0,189,0.0,0.0
+Onion,Jammu and Kashmir,2024-06,147,0,0,0,147,0.0,0.0
+Onion,Jammu and Kashmir,2024-07,165,0,0,0,165,0.0,0.0
+Onion,Jammu and Kashmir,2024-08,158,0,0,0,158,0.0,0.0
+Onion,Jammu and Kashmir,2024-09,138,0,0,0,138,0.0,0.0
+Onion,Jammu and Kashmir,2024-10,149,0,0,0,149,0.0,0.0
+Onion,Jammu and Kashmir,2024-11,158,0,0,4,154,0.0,2.53
+Onion,Jammu and Kashmir,2024-12,189,0,0,0,189,0.0,0.0
+Onion,Jammu and Kashmir,2025-01,154,0,0,0,154,0.0,0.0
+Onion,Jammu and Kashmir,2025-02,138,0,0,2,136,0.0,1.45
+Onion,Jammu and Kashmir,2025-03,135,0,0,4,131,0.0,2.96
+Onion,Jammu and Kashmir,2025-04,146,0,0,2,144,0.0,1.37
+Onion,Jammu and Kashmir,2025-05,158,0,0,0,158,0.0,0.0
+Onion,Jammu and Kashmir,2025-06,122,0,0,4,118,0.0,3.28
+Onion,Jammu and Kashmir,2025-07,171,0,0,0,171,0.0,0.0
+Onion,Jammu and Kashmir,2025-08,145,0,0,0,145,0.0,0.0
+Onion,Jammu and Kashmir,2025-09,129,0,0,0,129,0.0,0.0
+Onion,Jammu and Kashmir,2025-10,134,0,0,0,134,0.0,0.0
+Onion,Jammu and Kashmir,2025-11,109,0,0,2,107,0.0,1.83
+Onion,Jammu and Kashmir,2025-12,90,0,0,0,90,0.0,0.0
+Onion,Jammu and Kashmir,2026-01,89,0,0,0,89,0.0,0.0
+Onion,Jammu and Kashmir,2026-02,62,0,0,0,62,0.0,0.0
+Onion,Jammu and Kashmir,2026-03,67,0,0,0,67,0.0,0.0
+Onion,Jammu and Kashmir,2026-04,192,0,0,0,192,0.0,0.0
+Onion,Jammu and Kashmir,2026-05,175,0,0,0,175,0.0,0.0
+Onion,Jammu and Kashmir,2026-06,90,0,0,0,90,0.0,0.0
+Onion,Jammu and Kashmir,2026-07,121,0,0,0,121,0.0,0.0
+Onion,Jammu and Kashmir,2026-08,92,0,0,0,92,0.0,0.0
+Onion,Jammu and Kashmir,2026-09,94,0,0,0,94,0.0,0.0
+Onion,Jammu and Kashmir,2026-10,62,0,0,0,62,0.0,0.0
+Onion,Karnataka,2024-02,364,0,0,0,364,0.0,0.0
+Onion,Karnataka,2024-03,403,0,0,0,403,0.0,0.0
+Onion,Karnataka,2024-04,331,0,0,0,331,0.0,0.0
+Onion,Karnataka,2024-05,415,0,0,0,415,0.0,0.0
+Onion,Karnataka,2024-06,382,0,0,0,382,0.0,0.0
+Onion,Karnataka,2024-07,397,0,0,0,397,0.0,0.0
+Onion,Karnataka,2024-08,369,0,0,2,367,0.0,0.54
+Onion,Karnataka,2024-09,353,0,0,0,353,0.0,0.0
+Onion,Karnataka,2024-10,391,0,0,0,391,0.0,0.0
+Onion,Karnataka,2024-11,249,0,0,0,249,0.0,0.0
+Onion,Karnataka,2024-12,332,0,0,0,332,0.0,0.0
+Onion,Karnataka,2025-01,358,0,0,0,358,0.0,0.0
+Onion,Karnataka,2025-02,281,0,0,0,281,0.0,0.0
+Onion,Karnataka,2025-03,105,0,0,0,105,0.0,0.0
+Onion,Karnataka,2025-04,153,0,0,0,153,0.0,0.0
+Onion,Karnataka,2025-05,168,0,0,0,168,0.0,0.0
+Onion,Karnataka,2025-06,177,0,0,0,177,0.0,0.0
+Onion,Karnataka,2025-07,195,0,0,0,195,0.0,0.0
+Onion,Karnataka,2025-08,140,0,0,0,140,0.0,0.0
+Onion,Karnataka,2025-09,230,0,0,0,230,0.0,0.0
+Onion,Karnataka,2025-10,168,0,0,0,168,0.0,0.0
+Onion,Karnataka,2025-11,261,3,0,0,258,1.15,1.15
+Onion,Karnataka,2025-12,317,1,0,2,314,0.32,0.95
+Onion,Karnataka,2026-01,339,0,0,0,339,0.0,0.0
+Onion,Karnataka,2026-02,406,0,0,0,406,0.0,0.0
+Onion,Karnataka,2026-03,487,0,0,0,487,0.0,0.0
+Onion,Karnataka,2026-04,819,0,0,0,819,0.0,0.0
+Onion,Karnataka,2026-05,767,0,0,0,767,0.0,0.0
+Onion,Karnataka,2026-06,509,0,0,0,509,0.0,0.0
+Onion,Karnataka,2026-07,536,0,0,0,536,0.0,0.0
+Onion,Karnataka,2026-08,494,1,0,0,493,0.2,0.2
+Onion,Karnataka,2026-09,530,0,0,0,530,0.0,0.0
+Onion,Karnataka,2026-10,317,0,0,2,315,0.0,0.63
+Onion,Kerala,2024-02,1490,0,0,0,1490,0.0,0.0
+Onion,Kerala,2024-03,1483,0,0,0,1483,0.0,0.0
+Onion,Kerala,2024-04,1444,0,0,0,1444,0.0,0.0
+Onion,Kerala,2024-05,1559,0,0,0,1559,0.0,0.0
+Onion,Kerala,2024-06,1494,0,0,0,1494,0.0,0.0
+Onion,Kerala,2024-07,1775,0,0,0,1775,0.0,0.0
+Onion,Kerala,2024-08,1715,0,0,0,1715,0.0,0.0
+Onion,Kerala,2024-09,1694,0,0,0,1694,0.0,0.0
+Onion,Kerala,2024-10,1740,0,0,0,1740,0.0,0.0
+Onion,Kerala,2024-11,1709,0,0,6,1703,0.0,0.35
+Onion,Kerala,2024-12,1748,0,0,6,1742,0.0,0.34
+Onion,Kerala,2025-01,1817,0,0,2,1815,0.0,0.11
+Onion,Kerala,2025-02,1840,0,0,0,1840,0.0,0.0
+Onion,Kerala,2025-03,1935,0,0,0,1935,0.0,0.0
+Onion,Kerala,2025-04,1782,0,0,0,1782,0.0,0.0
+Onion,Kerala,2025-05,1943,0,0,0,1943,0.0,0.0
+Onion,Kerala,2025-06,1837,0,0,0,1837,0.0,0.0
+Onion,Kerala,2025-07,1851,0,0,0,1851,0.0,0.0
+Onion,Kerala,2025-08,1858,0,0,0,1858,0.0,0.0
+Onion,Kerala,2025-09,1736,0,0,0,1736,0.0,0.0
+Onion,Kerala,2025-10,1791,0,0,0,1791,0.0,0.0
+Onion,Kerala,2025-11,1776,0,0,0,1776,0.0,0.0
+Onion,Kerala,2025-12,1683,0,0,0,1683,0.0,0.0
+Onion,Kerala,2026-01,1684,0,0,0,1684,0.0,0.0
+Onion,Kerala,2026-02,1540,0,0,0,1540,0.0,0.0
+Onion,Kerala,2026-03,1658,0,0,0,1658,0.0,0.0
+Onion,Kerala,2026-04,1541,0,0,0,1541,0.0,0.0
+Onion,Kerala,2026-05,1155,0,0,0,1155,0.0,0.0
+Onion,Keralam,2026-04,1541,0,0,0,1541,0.0,0.0
+Onion,Keralam,2026-05,1664,0,0,0,1664,0.0,0.0
+Onion,Keralam,2026-06,1691,0,0,0,1691,0.0,0.0
+Onion,Keralam,2026-07,1714,0,0,4,1710,0.0,0.23
+Onion,Keralam,2026-08,1645,0,0,0,1645,0.0,0.0
+Onion,Keralam,2026-09,1743,0,0,0,1743,0.0,0.0
+Onion,Keralam,2026-10,1101,0,0,0,1101,0.0,0.0
+Onion,Madhya Pradesh,2024-02,352,62,0,0,290,17.61,17.61
+Onion,Madhya Pradesh,2024-03,413,64,0,0,349,15.5,15.5
+Onion,Madhya Pradesh,2024-04,547,90,0,0,457,16.45,16.45
+Onion,Madhya Pradesh,2024-05,755,145,0,0,610,19.21,19.21
+Onion,Madhya Pradesh,2024-06,917,168,0,118,647,18.32,29.44
+Onion,Madhya Pradesh,2024-07,887,53,0,20,814,5.98,8.23
+Onion,Madhya Pradesh,2024-08,834,0,0,296,538,0.0,35.49
+Onion,Madhya Pradesh,2024-09,922,0,0,302,620,0.0,32.75
+Onion,Madhya Pradesh,2024-10,1091,0,0,267,824,0.0,24.47
+Onion,Madhya Pradesh,2024-11,1098,0,0,280,818,0.0,25.5
+Onion,Madhya Pradesh,2024-12,1000,0,0,194,806,0.0,19.4
+Onion,Madhya Pradesh,2025-01,1061,0,0,246,815,0.0,23.19
+Onion,Madhya Pradesh,2025-02,947,0,0,160,787,0.0,16.9
+Onion,Madhya Pradesh,2025-03,973,0,0,184,789,0.0,18.91
+Onion,Madhya Pradesh,2025-04,1459,0,0,234,1225,0.0,16.04
+Onion,Madhya Pradesh,2025-05,1621,0,0,216,1405,0.0,13.33
+Onion,Madhya Pradesh,2025-06,1482,0,0,78,1404,0.0,5.26
+Onion,Madhya Pradesh,2025-07,1675,0,0,135,1540,0.0,8.06
+Onion,Madhya Pradesh,2025-08,1620,0,0,217,1403,0.0,13.4
+Onion,Madhya Pradesh,2025-09,2102,0,0,323,1779,0.0,15.37
+Onion,Madhya Pradesh,2025-10,1587,0,0,154,1433,0.0,9.7
+Onion,Madhya Pradesh,2025-11,1519,0,0,18,1501,0.0,1.18
+Onion,Madhya Pradesh,2025-12,1534,0,0,514,1020,0.0,33.51
+Onion,Madhya Pradesh,2026-01,1037,0,0,342,695,0.0,32.98
+Onion,Madhya Pradesh,2026-02,1245,0,0,210,1035,0.0,16.87
+Onion,Madhya Pradesh,2026-03,970,0,0,64,906,0.0,6.6
+Onion,Madhya Pradesh,2026-04,1248,0,0,173,1075,0.0,13.86
+Onion,Madhya Pradesh,2026-05,1475,0,0,269,1206,0.0,18.24
+Onion,Madhya Pradesh,2026-06,1667,0,0,285,1382,0.0,17.1
+Onion,Madhya Pradesh,2026-07,1970,0,0,362,1608,0.0,18.38
+Onion,Madhya Pradesh,2026-08,2096,0,0,283,1813,0.0,13.5
+Onion,Madhya Pradesh,2026-09,2106,0,0,347,1759,0.0,16.48
+Onion,Madhya Pradesh,2026-10,1233,0,0,169,1064,0.0,13.71
+Onion,Maharashtra,2024-02,1176,0,0,0,1176,0.0,0.0
+Onion,Maharashtra,2024-03,1537,0,0,0,1537,0.0,0.0
+Onion,Maharashtra,2024-04,850,0,0,0,850,0.0,0.0
+Onion,Maharashtra,2024-05,1426,0,0,0,1426,0.0,0.0
+Onion,Maharashtra,2024-06,1361,0,0,14,1347,0.0,1.03
+Onion,Maharashtra,2024-07,1521,0,0,4,1517,0.0,0.26
+Onion,Maharashtra,2024-08,1497,0,0,60,1437,0.0,4.01
+Onion,Maharashtra,2024-09,1470,0,0,78,1392,0.0,5.31
+Onion,Maharashtra,2024-10,1556,0,0,76,1480,0.0,4.88
+Onion,Maharashtra,2024-11,1485,0,0,110,1375,0.0,7.41
+Onion,Maharashtra,2024-12,1628,0,0,106,1522,0.0,6.51
+Onion,Maharashtra,2025-01,1583,0,0,88,1495,0.0,5.56
+Onion,Maharashtra,2025-02,1248,0,0,70,1178,0.0,5.61
+Onion,Maharashtra,2025-03,1631,0,0,122,1509,0.0,7.48
+Onion,Maharashtra,2025-04,1492,0,0,76,1416,0.0,5.09
+Onion,Maharashtra,2025-05,1563,0,0,94,1469,0.0,6.01
+Onion,Maharashtra,2025-06,1620,0,0,80,1540,0.0,4.94
+Onion,Maharashtra,2025-07,1641,0,0,86,1555,0.0,5.24
+Onion,Maharashtra,2025-08,1419,0,0,86,1333,0.0,6.06
+Onion,Maharashtra,2025-09,1532,0,0,72,1460,0.0,4.7
+Onion,Maharashtra,2025-10,1240,0,0,70,1170,0.0,5.65
+Onion,Maharashtra,2025-11,1246,0,0,4,1242,0.0,0.32
+Onion,Maharashtra,2025-12,1639,0,0,0,1639,0.0,0.0
+Onion,Maharashtra,2026-01,1386,0,0,30,1356,0.0,2.16
+Onion,Maharashtra,2026-02,1318,0,0,70,1248,0.0,5.31
+Onion,Maharashtra,2026-03,1387,0,0,42,1345,0.0,3.03
+Onion,Maharashtra,2026-04,2025,0,0,88,1937,0.0,4.35
+Onion,Maharashtra,2026-05,1916,0,0,118,1798,0.0,6.16
+Onion,Maharashtra,2026-06,1781,0,0,96,1685,0.0,5.39
+Onion,Maharashtra,2026-07,1891,0,0,110,1781,0.0,5.82
+Onion,Maharashtra,2026-08,3428,0,0,110,3318,0.0,3.21
+Onion,Maharashtra,2026-09,1795,0,0,78,1717,0.0,4.35
+Onion,Maharashtra,2026-10,1113,0,0,44,1069,0.0,3.95
+Onion,Manipur,2024-02,68,0,0,0,68,0.0,0.0
+Onion,Manipur,2024-03,53,0,0,0,53,0.0,0.0
+Onion,Manipur,2024-04,64,0,0,0,64,0.0,0.0
+Onion,Manipur,2024-05,58,0,0,0,58,0.0,0.0
+Onion,Manipur,2024-06,51,0,0,0,51,0.0,0.0
+Onion,Manipur,2024-07,64,0,0,0,64,0.0,0.0
+Onion,Manipur,2024-08,88,0,0,0,88,0.0,0.0
+Onion,Manipur,2024-09,67,0,0,0,67,0.0,0.0
+Onion,Manipur,2024-10,86,0,0,0,86,0.0,0.0
+Onion,Manipur,2024-11,38,0,0,0,38,0.0,0.0
+Onion,Manipur,2024-12,85,0,0,0,85,0.0,0.0
+Onion,Manipur,2025-01,91,0,0,0,91,0.0,0.0
+Onion,Manipur,2025-02,85,0,0,0,85,0.0,0.0
+Onion,Manipur,2025-03,85,0,0,0,85,0.0,0.0
+Onion,Manipur,2025-04,82,0,0,0,82,0.0,0.0
+Onion,Manipur,2025-05,85,0,0,0,85,0.0,0.0
+Onion,Manipur,2025-06,41,0,0,0,41,0.0,0.0
+Onion,Manipur,2025-07,93,0,0,0,93,0.0,0.0
+Onion,Manipur,2025-08,90,0,0,0,90,0.0,0.0
+Onion,Manipur,2025-09,82,0,0,0,82,0.0,0.0
+Onion,Manipur,2025-10,81,0,0,0,81,0.0,0.0
+Onion,Manipur,2025-11,60,0,0,0,60,0.0,0.0
+Onion,Manipur,2025-12,69,0,0,0,69,0.0,0.0
+Onion,Manipur,2026-01,57,0,0,0,57,0.0,0.0
+Onion,Manipur,2026-02,27,0,0,0,27,0.0,0.0
+Onion,Manipur,2026-03,29,0,0,0,29,0.0,0.0
+Onion,Manipur,2026-04,39,0,0,0,39,0.0,0.0
+Onion,Manipur,2026-05,109,0,0,0,109,0.0,0.0
+Onion,Manipur,2026-06,114,0,0,0,114,0.0,0.0
+Onion,Manipur,2026-07,106,0,0,0,106,0.0,0.0
+Onion,Manipur,2026-08,84,0,0,0,84,0.0,0.0
+Onion,Manipur,2026-09,83,0,0,0,83,0.0,0.0
+Onion,Manipur,2026-10,44,0,0,0,44,0.0,0.0
+Onion,Meghalaya,2024-02,2,0,0,0,2,0.0,0.0
+Onion,Meghalaya,2024-03,6,0,0,0,6,0.0,0.0
+Onion,Meghalaya,2024-04,7,0,0,0,7,0.0,0.0
+Onion,Meghalaya,2024-05,4,0,0,0,4,0.0,0.0
+Onion,Meghalaya,2024-06,3,0,0,0,3,0.0,0.0
+Onion,Meghalaya,2024-07,10,0,0,0,10,0.0,0.0
+Onion,Meghalaya,2024-08,2,0,0,0,2,0.0,0.0
+Onion,Meghalaya,2024-11,5,0,0,0,5,0.0,0.0
+Onion,Meghalaya,2024-12,4,0,0,0,4,0.0,0.0
+Onion,Meghalaya,2025-01,3,0,0,0,3,0.0,0.0
+Onion,Meghalaya,2025-04,1,0,0,0,1,0.0,0.0
+Onion,Meghalaya,2025-08,4,0,0,0,4,0.0,0.0
+Onion,Meghalaya,2025-09,5,0,0,0,5,0.0,0.0
+Onion,Meghalaya,2025-11,17,0,0,0,17,0.0,0.0
+Onion,Meghalaya,2025-12,3,0,0,0,3,0.0,0.0
+Onion,Meghalaya,2026-01,1,0,0,0,1,0.0,0.0
+Onion,Meghalaya,2026-05,1,0,0,0,1,0.0,0.0
+Onion,Meghalaya,2026-06,4,0,0,0,4,0.0,0.0
+Onion,Meghalaya,2026-07,20,0,0,0,20,0.0,0.0
+Onion,Meghalaya,2026-08,25,0,0,0,25,0.0,0.0
+Onion,Meghalaya,2026-09,20,0,0,0,20,0.0,0.0
+Onion,Meghalaya,2026-10,9,0,0,0,9,0.0,0.0
+Onion,NCT of Delhi,2024-02,73,0,0,0,73,0.0,0.0
+Onion,NCT of Delhi,2024-03,61,0,0,0,61,0.0,0.0
+Onion,NCT of Delhi,2024-04,83,0,0,0,83,0.0,0.0
+Onion,NCT of Delhi,2024-05,75,0,0,0,75,0.0,0.0
+Onion,NCT of Delhi,2024-06,67,0,0,0,67,0.0,0.0
+Onion,NCT of Delhi,2024-07,71,0,0,0,71,0.0,0.0
+Onion,NCT of Delhi,2024-08,59,0,0,0,59,0.0,0.0
+Onion,NCT of Delhi,2024-09,69,0,0,0,69,0.0,0.0
+Onion,NCT of Delhi,2024-10,77,0,0,0,77,0.0,0.0
+Onion,NCT of Delhi,2024-11,72,0,0,0,72,0.0,0.0
+Onion,NCT of Delhi,2024-12,76,0,0,0,76,0.0,0.0
+Onion,NCT of Delhi,2025-01,61,0,0,0,61,0.0,0.0
+Onion,NCT of Delhi,2025-02,57,0,0,0,57,0.0,0.0
+Onion,NCT of Delhi,2025-03,67,0,0,0,67,0.0,0.0
+Onion,NCT of Delhi,2025-04,67,0,0,0,67,0.0,0.0
+Onion,NCT of Delhi,2025-05,75,0,0,0,75,0.0,0.0
+Onion,NCT of Delhi,2025-06,76,0,0,0,76,0.0,0.0
+Onion,NCT of Delhi,2025-07,72,0,0,0,72,0.0,0.0
+Onion,NCT of Delhi,2025-08,77,0,0,0,77,0.0,0.0
+Onion,NCT of Delhi,2025-09,71,0,0,0,71,0.0,0.0
+Onion,NCT of Delhi,2025-10,59,0,0,0,59,0.0,0.0
+Onion,NCT of Delhi,2025-11,45,0,0,0,45,0.0,0.0
+Onion,NCT of Delhi,2025-12,65,0,0,0,65,0.0,0.0
+Onion,NCT of Delhi,2026-01,64,0,0,0,64,0.0,0.0
+Onion,NCT of Delhi,2026-02,59,0,0,0,59,0.0,0.0
+Onion,NCT of Delhi,2026-03,55,0,0,0,55,0.0,0.0
+Onion,NCT of Delhi,2026-04,65,0,0,0,65,0.0,0.0
+Onion,NCT of Delhi,2026-05,127,0,0,0,127,0.0,0.0
+Onion,NCT of Delhi,2026-06,92,0,0,0,92,0.0,0.0
+Onion,NCT of Delhi,2026-07,77,0,0,0,77,0.0,0.0
+Onion,NCT of Delhi,2026-08,102,0,0,0,102,0.0,0.0
+Onion,NCT of Delhi,2026-09,87,0,0,0,87,0.0,0.0
+Onion,NCT of Delhi,2026-10,48,0,0,0,48,0.0,0.0
+Onion,Nagaland,2024-02,48,0,0,0,48,0.0,0.0
+Onion,Nagaland,2024-03,50,0,0,0,50,0.0,0.0
+Onion,Nagaland,2024-04,50,0,0,0,50,0.0,0.0
+Onion,Nagaland,2024-05,33,0,0,0,33,0.0,0.0
+Onion,Nagaland,2024-06,24,0,0,0,24,0.0,0.0
+Onion,Nagaland,2024-07,29,0,0,0,29,0.0,0.0
+Onion,Nagaland,2024-08,38,0,0,0,38,0.0,0.0
+Onion,Nagaland,2024-09,16,0,0,0,16,0.0,0.0
+Onion,Nagaland,2024-10,17,0,0,0,17,0.0,0.0
+Onion,Nagaland,2024-11,6,0,0,0,6,0.0,0.0
+Onion,Nagaland,2024-12,8,0,0,0,8,0.0,0.0
+Onion,Nagaland,2025-04,3,0,0,0,3,0.0,0.0
+Onion,Nagaland,2025-05,3,0,0,0,3,0.0,0.0
+Onion,Nagaland,2025-06,3,0,0,0,3,0.0,0.0
+Onion,Nagaland,2025-07,1,0,0,0,1,0.0,0.0
+Onion,Nagaland,2025-09,3,0,0,0,3,0.0,0.0
+Onion,Nagaland,2025-10,1,0,0,0,1,0.0,0.0
+Onion,Nagaland,2026-01,2,0,0,0,2,0.0,0.0
+Onion,Nagaland,2026-04,1,0,0,0,1,0.0,0.0
+Onion,Nagaland,2026-07,1,0,0,0,1,0.0,0.0
+Onion,Nagaland,2026-08,5,0,0,0,5,0.0,0.0
+Onion,Nagaland,2026-09,3,0,0,0,3,0.0,0.0
+Onion,Nagaland,2026-10,2,0,0,0,2,0.0,0.0
+Onion,Odisha,2024-02,510,0,0,0,510,0.0,0.0
+Onion,Odisha,2024-03,591,0,0,0,591,0.0,0.0
+Onion,Odisha,2024-04,518,0,0,0,518,0.0,0.0
+Onion,Odisha,2024-05,635,0,0,0,635,0.0,0.0
+Onion,Odisha,2024-06,548,0,0,0,548,0.0,0.0
+Onion,Odisha,2024-07,607,0,0,0,607,0.0,0.0
+Onion,Odisha,2024-08,586,0,0,0,586,0.0,0.0
+Onion,Odisha,2024-09,576,0,0,0,576,0.0,0.0
+Onion,Odisha,2024-10,550,0,0,0,550,0.0,0.0
+Onion,Odisha,2024-11,559,0,0,0,559,0.0,0.0
+Onion,Odisha,2024-12,544,0,0,0,544,0.0,0.0
+Onion,Odisha,2025-01,482,0,0,0,482,0.0,0.0
+Onion,Odisha,2025-02,447,0,0,0,447,0.0,0.0
+Onion,Odisha,2025-03,537,0,0,0,537,0.0,0.0
+Onion,Odisha,2025-04,543,0,0,0,543,0.0,0.0
+Onion,Odisha,2025-05,530,0,0,0,530,0.0,0.0
+Onion,Odisha,2025-06,512,0,0,0,512,0.0,0.0
+Onion,Odisha,2025-07,580,0,0,0,580,0.0,0.0
+Onion,Odisha,2025-08,596,0,0,0,596,0.0,0.0
+Onion,Odisha,2025-09,556,0,0,0,556,0.0,0.0
+Onion,Odisha,2025-10,452,0,0,0,452,0.0,0.0
+Onion,Odisha,2025-11,369,0,0,0,369,0.0,0.0
+Onion,Odisha,2025-12,343,0,0,0,343,0.0,0.0
+Onion,Odisha,2026-01,337,0,0,0,337,0.0,0.0
+Onion,Odisha,2026-02,318,0,0,0,318,0.0,0.0
+Onion,Odisha,2026-03,317,0,0,0,317,0.0,0.0
+Onion,Odisha,2026-04,394,0,0,0,394,0.0,0.0
+Onion,Odisha,2026-05,526,0,0,2,524,0.0,0.38
+Onion,Odisha,2026-06,540,0,0,0,540,0.0,0.0
+Onion,Odisha,2026-07,507,0,0,0,507,0.0,0.0
+Onion,Odisha,2026-08,514,0,0,0,514,0.0,0.0
+Onion,Odisha,2026-09,483,0,0,0,483,0.0,0.0
+Onion,Odisha,2026-10,278,0,0,2,276,0.0,0.72
+Onion,Punjab,2024-02,1134,0,0,0,1134,0.0,0.0
+Onion,Punjab,2024-03,1289,0,0,0,1289,0.0,0.0
+Onion,Punjab,2024-04,1383,0,0,0,1383,0.0,0.0
+Onion,Punjab,2024-05,1442,0,0,0,1442,0.0,0.0
+Onion,Punjab,2024-06,1341,0,0,0,1341,0.0,0.0
+Onion,Punjab,2024-07,1555,0,0,2,1553,0.0,0.13
+Onion,Punjab,2024-08,1558,0,0,10,1548,0.0,0.64
+Onion,Punjab,2024-09,1593,0,0,6,1587,0.0,0.38
+Onion,Punjab,2024-10,1464,0,0,0,1464,0.0,0.0
+Onion,Punjab,2024-11,1363,0,0,0,1363,0.0,0.0
+Onion,Punjab,2024-12,1467,0,0,0,1467,0.0,0.0
+Onion,Punjab,2025-01,1526,0,0,2,1524,0.0,0.13
+Onion,Punjab,2025-02,1393,0,0,0,1393,0.0,0.0
+Onion,Punjab,2025-03,1505,0,0,2,1503,0.0,0.13
+Onion,Punjab,2025-04,1460,0,0,2,1458,0.0,0.14
+Onion,Punjab,2025-05,1489,0,0,4,1485,0.0,0.27
+Onion,Punjab,2025-06,1408,0,0,0,1408,0.0,0.0
+Onion,Punjab,2025-07,1490,0,0,0,1490,0.0,0.0
+Onion,Punjab,2025-08,1395,0,0,0,1395,0.0,0.0
+Onion,Punjab,2025-09,1438,0,0,0,1438,0.0,0.0
+Onion,Punjab,2025-10,1448,0,0,4,1444,0.0,0.28
+Onion,Punjab,2025-11,1103,0,0,0,1103,0.0,0.0
+Onion,Punjab,2025-12,1251,0,0,17,1234,0.0,1.36
+Onion,Punjab,2026-01,1249,0,0,10,1239,0.0,0.8
+Onion,Punjab,2026-02,1153,0,0,0,1153,0.0,0.0
+Onion,Punjab,2026-03,1170,0,0,4,1166,0.0,0.34
+Onion,Punjab,2026-04,1293,0,0,8,1285,0.0,0.62
+Onion,Punjab,2026-05,1222,0,0,6,1216,0.0,0.49
+Onion,Punjab,2026-06,1316,0,0,4,1312,0.0,0.3
+Onion,Punjab,2026-07,1463,0,0,4,1459,0.0,0.27
+Onion,Punjab,2026-08,1777,0,0,6,1771,0.0,0.34
+Onion,Punjab,2026-09,1738,0,0,6,1732,0.0,0.35
+Onion,Punjab,2026-10,1078,0,0,4,1074,0.0,0.37
+Onion,Rajasthan,2024-02,606,0,0,0,606,0.0,0.0
+Onion,Rajasthan,2024-03,731,0,0,0,731,0.0,0.0
+Onion,Rajasthan,2024-04,617,0,0,0,617,0.0,0.0
+Onion,Rajasthan,2024-05,737,0,0,0,737,0.0,0.0
+Onion,Rajasthan,2024-06,693,0,0,0,693,0.0,0.0
+Onion,Rajasthan,2024-07,752,0,0,0,752,0.0,0.0
+Onion,Rajasthan,2024-08,627,0,0,2,625,0.0,0.32
+Onion,Rajasthan,2024-09,588,0,0,6,582,0.0,1.02
+Onion,Rajasthan,2024-10,583,0,0,0,583,0.0,0.0
+Onion,Rajasthan,2024-11,631,0,0,4,627,0.0,0.63
+Onion,Rajasthan,2024-12,659,0,0,0,659,0.0,0.0
+Onion,Rajasthan,2025-01,629,0,0,6,623,0.0,0.95
+Onion,Rajasthan,2025-02,612,0,0,4,608,0.0,0.65
+Onion,Rajasthan,2025-03,603,0,0,0,603,0.0,0.0
+Onion,Rajasthan,2025-04,635,0,0,10,625,0.0,1.57
+Onion,Rajasthan,2025-05,720,0,0,6,714,0.0,0.83
+Onion,Rajasthan,2025-06,655,0,0,2,653,0.0,0.31
+Onion,Rajasthan,2025-07,695,0,0,2,693,0.0,0.29
+Onion,Rajasthan,2025-08,663,0,0,2,661,0.0,0.3
+Onion,Rajasthan,2025-09,610,0,0,0,610,0.0,0.0
+Onion,Rajasthan,2025-10,547,0,0,2,545,0.0,0.37
+Onion,Rajasthan,2025-11,526,0,0,0,526,0.0,0.0
+Onion,Rajasthan,2025-12,554,0,0,4,550,0.0,0.72
+Onion,Rajasthan,2026-01,555,0,0,2,553,0.0,0.36
+Onion,Rajasthan,2026-02,611,0,0,0,611,0.0,0.0
+Onion,Rajasthan,2026-03,539,0,0,0,539,0.0,0.0
+Onion,Rajasthan,2026-04,568,0,0,0,568,0.0,0.0
+Onion,Rajasthan,2026-05,604,0,0,4,600,0.0,0.66
+Onion,Rajasthan,2026-06,600,0,0,2,598,0.0,0.33
+Onion,Rajasthan,2026-07,618,0,0,0,618,0.0,0.0
+Onion,Rajasthan,2026-08,595,0,0,0,595,0.0,0.0
+Onion,Rajasthan,2026-09,554,0,0,0,554,0.0,0.0
+Onion,Rajasthan,2026-10,353,0,0,0,353,0.0,0.0
+Onion,Tamil Nadu,2024-02,7,0,0,0,7,0.0,0.0
+Onion,Tamil Nadu,2024-03,2,0,0,0,2,0.0,0.0
+Onion,Tamil Nadu,2024-06,1130,0,0,0,1130,0.0,0.0
+Onion,Tamil Nadu,2024-07,3993,4,4,0,3989,0.1,0.1
+Onion,Tamil Nadu,2024-08,5045,0,0,12,5033,0.0,0.24
+Onion,Tamil Nadu,2024-09,4883,0,0,8,4875,0.0,0.16
+Onion,Tamil Nadu,2024-10,5037,0,0,14,5023,0.0,0.28
+Onion,Tamil Nadu,2024-11,4651,0,0,10,4641,0.0,0.22
+Onion,Tamil Nadu,2024-12,4844,0,0,0,4844,0.0,0.0
+Onion,Tamil Nadu,2025-01,4944,0,0,2,4942,0.0,0.04
+Onion,Tamil Nadu,2025-02,4500,0,0,0,4500,0.0,0.0
+Onion,Tamil Nadu,2025-03,4813,0,0,0,4813,0.0,0.0
+Onion,Tamil Nadu,2025-04,4879,0,0,2,4877,0.0,0.04
+Onion,Tamil Nadu,2025-05,4874,0,0,0,4874,0.0,0.0
+Onion,Tamil Nadu,2025-06,4555,0,0,2,4553,0.0,0.04
+Onion,Tamil Nadu,2025-07,4312,0,0,0,4312,0.0,0.0
+Onion,Tamil Nadu,2025-08,4350,0,0,0,4350,0.0,0.0
+Onion,Tamil Nadu,2025-09,4657,0,0,6,4651,0.0,0.13
+Onion,Tamil Nadu,2025-10,4304,0,0,2,4302,0.0,0.05
+Onion,Tamil Nadu,2025-11,5449,0,0,0,5449,0.0,0.0
+Onion,Tamil Nadu,2025-12,4957,0,0,2,4955,0.0,0.04
+Onion,Tamil Nadu,2026-01,4843,0,0,2,4841,0.0,0.04
+Onion,Tamil Nadu,2026-02,4825,0,0,10,4815,0.0,0.21
+Onion,Tamil Nadu,2026-03,10341,0,0,0,10341,0.0,0.0
+Onion,Tamil Nadu,2026-04,6541,0,0,10,6531,0.0,0.15
+Onion,Tamil Nadu,2026-05,5396,0,0,6,5390,0.0,0.11
+Onion,Tamil Nadu,2026-06,5222,0,0,4,5218,0.0,0.08
+Onion,Tamil Nadu,2026-07,5287,0,0,4,5283,0.0,0.08
+Onion,Tamil Nadu,2026-08,5298,0,0,0,5298,0.0,0.0
+Onion,Tamil Nadu,2026-09,6508,0,0,0,6508,0.0,0.0
+Onion,Tamil Nadu,2026-10,3994,0,0,0,3994,0.0,0.0
+Onion,Telangana,2024-02,161,0,0,0,161,0.0,0.0
+Onion,Telangana,2024-03,181,0,0,0,181,0.0,0.0
+Onion,Telangana,2024-04,197,0,0,0,197,0.0,0.0
+Onion,Telangana,2024-05,222,0,0,0,222,0.0,0.0
+Onion,Telangana,2024-06,228,0,0,0,228,0.0,0.0
+Onion,Telangana,2024-07,218,0,0,0,218,0.0,0.0
+Onion,Telangana,2024-08,180,0,0,2,178,0.0,1.11
+Onion,Telangana,2024-09,188,0,0,0,188,0.0,0.0
+Onion,Telangana,2024-10,193,0,0,0,193,0.0,0.0
+Onion,Telangana,2024-11,171,0,0,0,171,0.0,0.0
+Onion,Telangana,2024-12,151,0,0,0,151,0.0,0.0
+Onion,Telangana,2025-01,182,0,0,0,182,0.0,0.0
+Onion,Telangana,2025-02,218,0,0,0,218,0.0,0.0
+Onion,Telangana,2025-03,248,0,0,2,246,0.0,0.81
+Onion,Telangana,2025-04,250,0,0,0,250,0.0,0.0
+Onion,Telangana,2025-05,231,0,0,0,231,0.0,0.0
+Onion,Telangana,2025-06,186,0,0,0,186,0.0,0.0
+Onion,Telangana,2025-07,204,0,0,0,204,0.0,0.0
+Onion,Telangana,2025-08,215,0,0,0,215,0.0,0.0
+Onion,Telangana,2025-09,195,0,0,0,195,0.0,0.0
+Onion,Telangana,2025-10,207,0,0,0,207,0.0,0.0
+Onion,Telangana,2025-11,157,0,0,0,157,0.0,0.0
+Onion,Telangana,2025-12,119,0,0,2,117,0.0,1.68
+Onion,Telangana,2026-01,141,0,0,0,141,0.0,0.0
+Onion,Telangana,2026-02,132,0,0,0,132,0.0,0.0
+Onion,Telangana,2026-03,127,0,0,0,127,0.0,0.0
+Onion,Telangana,2026-04,211,0,0,0,211,0.0,0.0
+Onion,Telangana,2026-05,243,0,0,0,243,0.0,0.0
+Onion,Telangana,2026-06,531,0,0,0,531,0.0,0.0
+Onion,Telangana,2026-07,369,0,0,0,369,0.0,0.0
+Onion,Telangana,2026-08,426,0,0,2,424,0.0,0.47
+Onion,Telangana,2026-09,413,0,0,2,411,0.0,0.48
+Onion,Telangana,2026-10,240,0,0,0,240,0.0,0.0
+Onion,Tripura,2024-02,218,0,0,0,218,0.0,0.0
+Onion,Tripura,2024-03,272,0,0,0,272,0.0,0.0
+Onion,Tripura,2024-04,238,0,0,0,238,0.0,0.0
+Onion,Tripura,2024-05,338,0,0,0,338,0.0,0.0
+Onion,Tripura,2024-06,267,0,0,0,267,0.0,0.0
+Onion,Tripura,2024-07,330,0,0,0,330,0.0,0.0
+Onion,Tripura,2024-08,292,0,0,0,292,0.0,0.0
+Onion,Tripura,2024-09,278,0,0,0,278,0.0,0.0
+Onion,Tripura,2024-10,248,0,0,0,248,0.0,0.0
+Onion,Tripura,2024-11,277,0,0,0,277,0.0,0.0
+Onion,Tripura,2024-12,310,0,0,0,310,0.0,0.0
+Onion,Tripura,2025-01,206,0,0,0,206,0.0,0.0
+Onion,Tripura,2025-02,204,0,0,0,204,0.0,0.0
+Onion,Tripura,2025-03,251,0,0,0,251,0.0,0.0
+Onion,Tripura,2025-04,232,0,0,0,232,0.0,0.0
+Onion,Tripura,2025-05,243,0,0,0,243,0.0,0.0
+Onion,Tripura,2025-06,247,0,0,0,247,0.0,0.0
+Onion,Tripura,2025-07,231,0,0,2,229,0.0,0.87
+Onion,Tripura,2025-08,248,0,0,0,248,0.0,0.0
+Onion,Tripura,2025-09,205,0,0,0,205,0.0,0.0
+Onion,Tripura,2025-10,203,0,0,0,203,0.0,0.0
+Onion,Tripura,2025-11,155,0,0,2,153,0.0,1.29
+Onion,Tripura,2025-12,168,0,0,0,168,0.0,0.0
+Onion,Tripura,2026-01,183,0,0,0,183,0.0,0.0
+Onion,Tripura,2026-02,181,0,0,0,181,0.0,0.0
+Onion,Tripura,2026-03,213,0,0,0,213,0.0,0.0
+Onion,Tripura,2026-04,254,0,0,0,254,0.0,0.0
+Onion,Tripura,2026-05,264,0,0,0,264,0.0,0.0
+Onion,Tripura,2026-06,242,0,0,0,242,0.0,0.0
+Onion,Tripura,2026-07,261,0,0,0,261,0.0,0.0
+Onion,Tripura,2026-08,300,0,0,2,298,0.0,0.67
+Onion,Tripura,2026-09,275,0,0,0,275,0.0,0.0
+Onion,Tripura,2026-10,138,0,0,0,138,0.0,0.0
+Onion,Uttar Pradesh,2024-02,3837,0,0,0,3837,0.0,0.0
+Onion,Uttar Pradesh,2024-03,4192,0,0,0,4192,0.0,0.0
+Onion,Uttar Pradesh,2024-04,4219,0,0,0,4219,0.0,0.0
+Onion,Uttar Pradesh,2024-05,4660,0,0,0,4660,0.0,0.0
+Onion,Uttar Pradesh,2024-06,4429,0,0,0,4429,0.0,0.0
+Onion,Uttar Pradesh,2024-07,4623,0,0,0,4623,0.0,0.0
+Onion,Uttar Pradesh,2024-08,4504,0,0,24,4480,0.0,0.53
+Onion,Uttar Pradesh,2024-09,4334,0,0,18,4316,0.0,0.42
+Onion,Uttar Pradesh,2024-10,4200,0,0,8,4192,0.0,0.19
+Onion,Uttar Pradesh,2024-11,3926,0,0,10,3916,0.0,0.25
+Onion,Uttar Pradesh,2024-12,4210,0,0,14,4196,0.0,0.33
+Onion,Uttar Pradesh,2025-01,4454,0,0,18,4436,0.0,0.4
+Onion,Uttar Pradesh,2025-02,4853,0,0,24,4829,0.0,0.49
+Onion,Uttar Pradesh,2025-03,4910,0,0,24,4886,0.0,0.49
+Onion,Uttar Pradesh,2025-04,4901,0,0,14,4887,0.0,0.29
+Onion,Uttar Pradesh,2025-05,5275,0,0,44,5231,0.0,0.83
+Onion,Uttar Pradesh,2025-06,4996,0,0,28,4968,0.0,0.56
+Onion,Uttar Pradesh,2025-07,5165,0,0,34,5131,0.0,0.66
+Onion,Uttar Pradesh,2025-08,4905,0,0,20,4885,0.0,0.41
+Onion,Uttar Pradesh,2025-09,4786,0,0,32,4754,0.0,0.67
+Onion,Uttar Pradesh,2025-10,4590,0,0,8,4582,0.0,0.17
+Onion,Uttar Pradesh,2025-11,3014,0,0,0,3014,0.0,0.0
+Onion,Uttar Pradesh,2025-12,2163,0,0,8,2155,0.0,0.37
+Onion,Uttar Pradesh,2026-01,1494,0,0,2,1492,0.0,0.13
+Onion,Uttar Pradesh,2026-02,1041,0,0,2,1039,0.0,0.19
+Onion,Uttar Pradesh,2026-03,1977,0,0,10,1967,0.0,0.51
+Onion,Uttar Pradesh,2026-04,2163,0,0,70,2093,0.0,3.24
+Onion,Uttar Pradesh,2026-05,2382,0,0,40,2342,0.0,1.68
+Onion,Uttar Pradesh,2026-06,2167,0,0,36,2131,0.0,1.66
+Onion,Uttar Pradesh,2026-07,1431,0,0,16,1415,0.0,1.12
+Onion,Uttar Pradesh,2026-08,1438,0,0,38,1400,0.0,2.64
+Onion,Uttar Pradesh,2026-09,1339,0,0,22,1317,0.0,1.64
+Onion,Uttar Pradesh,2026-10,712,0,0,12,700,0.0,1.69
+Onion,Uttarakhand,2025-11,252,0,0,0,252,0.0,0.0
+Onion,Uttarakhand,2025-12,242,0,0,0,242,0.0,0.0
+Onion,Uttarakhand,2026-01,258,0,0,0,258,0.0,0.0
+Onion,Uttarakhand,2026-02,250,0,0,0,250,0.0,0.0
+Onion,Uttarakhand,2026-03,228,0,0,0,228,0.0,0.0
+Onion,Uttarakhand,2026-04,260,0,0,0,260,0.0,0.0
+Onion,Uttarakhand,2026-05,280,0,0,0,280,0.0,0.0
+Onion,Uttarakhand,2026-06,253,0,0,0,253,0.0,0.0
+Onion,Uttarakhand,2026-07,252,0,0,0,252,0.0,0.0
+Onion,Uttarakhand,2026-08,259,0,0,0,259,0.0,0.0
+Onion,Uttarakhand,2026-09,251,0,0,0,251,0.0,0.0
+Onion,Uttarakhand,2026-10,171,0,0,0,171,0.0,0.0
+Onion,Uttrakhand,2024-02,266,0,0,0,266,0.0,0.0
+Onion,Uttrakhand,2024-03,251,0,0,0,251,0.0,0.0
+Onion,Uttrakhand,2024-04,240,0,0,0,240,0.0,0.0
+Onion,Uttrakhand,2024-05,305,0,0,0,305,0.0,0.0
+Onion,Uttrakhand,2024-06,282,0,0,0,282,0.0,0.0
+Onion,Uttrakhand,2024-07,267,0,0,0,267,0.0,0.0
+Onion,Uttrakhand,2024-08,276,0,0,0,276,0.0,0.0
+Onion,Uttrakhand,2024-09,233,0,0,0,233,0.0,0.0
+Onion,Uttrakhand,2024-10,267,0,0,0,267,0.0,0.0
+Onion,Uttrakhand,2024-11,274,0,0,0,274,0.0,0.0
+Onion,Uttrakhand,2024-12,289,0,0,0,289,0.0,0.0
+Onion,Uttrakhand,2025-01,299,0,0,2,297,0.0,0.67
+Onion,Uttrakhand,2025-02,281,0,0,0,281,0.0,0.0
+Onion,Uttrakhand,2025-03,281,0,0,0,281,0.0,0.0
+Onion,Uttrakhand,2025-04,239,0,0,0,239,0.0,0.0
+Onion,Uttrakhand,2025-05,284,0,0,2,282,0.0,0.7
+Onion,Uttrakhand,2025-06,256,0,0,0,256,0.0,0.0
+Onion,Uttrakhand,2025-07,253,0,0,0,253,0.0,0.0
+Onion,Uttrakhand,2025-08,274,0,0,0,274,0.0,0.0
+Onion,Uttrakhand,2025-09,242,0,0,0,242,0.0,0.0
+Onion,Uttrakhand,2025-10,253,0,0,0,253,0.0,0.0
+Onion,Uttrakhand,2025-11,38,0,0,0,38,0.0,0.0
+Onion,West Bengal,2024-02,1227,0,0,0,1227,0.0,0.0
+Onion,West Bengal,2024-03,1421,0,0,0,1421,0.0,0.0
+Onion,West Bengal,2024-04,1371,0,0,0,1371,0.0,0.0
+Onion,West Bengal,2024-05,1571,0,0,0,1571,0.0,0.0
+Onion,West Bengal,2024-06,1460,0,0,4,1456,0.0,0.27
+Onion,West Bengal,2024-07,1511,0,0,0,1511,0.0,0.0
+Onion,West Bengal,2024-08,1445,0,0,22,1423,0.0,1.52
+Onion,West Bengal,2024-09,1434,0,0,30,1404,0.0,2.09
+Onion,West Bengal,2024-10,1361,0,0,0,1361,0.0,0.0
+Onion,West Bengal,2024-11,1363,0,0,14,1349,0.0,1.03
+Onion,West Bengal,2024-12,1455,0,0,2,1453,0.0,0.14
+Onion,West Bengal,2025-01,1463,0,0,4,1459,0.0,0.27
+Onion,West Bengal,2025-02,1450,0,0,16,1434,0.0,1.1
+Onion,West Bengal,2025-03,1670,0,0,2,1668,0.0,0.12
+Onion,West Bengal,2025-04,1677,0,0,6,1671,0.0,0.36
+Onion,West Bengal,2025-05,1717,0,0,2,1715,0.0,0.12
+Onion,West Bengal,2025-06,1534,0,0,2,1532,0.0,0.13
+Onion,West Bengal,2025-07,1547,0,0,6,1541,0.0,0.39
+Onion,West Bengal,2025-08,1514,0,0,9,1505,0.0,0.59
+Onion,West Bengal,2025-09,1447,0,0,2,1445,0.0,0.14
+Onion,West Bengal,2025-10,1326,0,0,0,1326,0.0,0.0
+Onion,West Bengal,2025-11,1379,0,0,0,1379,0.0,0.0
+Onion,West Bengal,2025-12,1253,0,0,2,1251,0.0,0.16
+Onion,West Bengal,2026-01,1222,0,0,0,1222,0.0,0.0
+Onion,West Bengal,2026-02,1173,0,0,2,1171,0.0,0.17
+Onion,West Bengal,2026-03,1151,0,0,0,1151,0.0,0.0
+Onion,West Bengal,2026-04,1108,0,0,2,1106,0.0,0.18
+Onion,West Bengal,2026-05,1194,0,0,2,1192,0.0,0.17
+Onion,West Bengal,2026-06,1213,0,0,0,1213,0.0,0.0
+Onion,West Bengal,2026-07,1278,0,0,0,1278,0.0,0.0
+Onion,West Bengal,2026-08,1350,0,0,2,1348,0.0,0.15
+Onion,West Bengal,2026-09,1357,0,0,2,1355,0.0,0.15
+Onion,West Bengal,2026-10,751,0,0,2,749,0.0,0.27
+Potato,Andaman and Nicobar,2024-02,1,0,0,0,1,0.0,0.0
+Potato,Andaman and Nicobar,2024-03,2,0,0,0,2,0.0,0.0
+Potato,Andaman and Nicobar,2024-04,1,0,0,0,1,0.0,0.0
+Potato,Andhra Pradesh,2024-02,16,0,0,0,16,0.0,0.0
+Potato,Andhra Pradesh,2024-03,22,0,0,0,22,0.0,0.0
+Potato,Andhra Pradesh,2024-05,25,0,0,0,25,0.0,0.0
+Potato,Andhra Pradesh,2024-06,19,0,0,0,19,0.0,0.0
+Potato,Andhra Pradesh,2024-07,19,0,0,0,19,0.0,0.0
+Potato,Andhra Pradesh,2024-08,21,0,0,0,21,0.0,0.0
+Potato,Andhra Pradesh,2024-09,17,0,0,0,17,0.0,0.0
+Potato,Andhra Pradesh,2024-10,23,0,0,0,23,0.0,0.0
+Potato,Andhra Pradesh,2024-11,23,0,0,0,23,0.0,0.0
+Potato,Andhra Pradesh,2024-12,17,0,0,0,17,0.0,0.0
+Potato,Andhra Pradesh,2025-01,10,0,0,0,10,0.0,0.0
+Potato,Andhra Pradesh,2025-02,28,0,0,0,28,0.0,0.0
+Potato,Andhra Pradesh,2025-03,31,0,0,0,31,0.0,0.0
+Potato,Andhra Pradesh,2025-04,30,0,0,0,30,0.0,0.0
+Potato,Andhra Pradesh,2025-05,27,0,0,0,27,0.0,0.0
+Potato,Andhra Pradesh,2025-06,26,0,0,0,26,0.0,0.0
+Potato,Andhra Pradesh,2025-07,27,0,0,0,27,0.0,0.0
+Potato,Andhra Pradesh,2025-08,27,0,0,0,27,0.0,0.0
+Potato,Andhra Pradesh,2025-09,27,0,0,0,27,0.0,0.0
+Potato,Andhra Pradesh,2025-10,26,0,0,0,26,0.0,0.0
+Potato,Andhra Pradesh,2025-11,30,0,0,0,30,0.0,0.0
+Potato,Andhra Pradesh,2025-12,26,0,0,0,26,0.0,0.0
+Potato,Andhra Pradesh,2026-01,26,0,0,0,26,0.0,0.0
+Potato,Andhra Pradesh,2026-02,16,0,0,0,16,0.0,0.0
+Potato,Andhra Pradesh,2026-03,8,0,0,0,8,0.0,0.0
+Potato,Andhra Pradesh,2026-04,25,0,0,0,25,0.0,0.0
+Potato,Andhra Pradesh,2026-05,26,0,0,0,26,0.0,0.0
+Potato,Andhra Pradesh,2026-06,29,0,0,0,29,0.0,0.0
+Potato,Andhra Pradesh,2026-07,28,0,0,0,28,0.0,0.0
+Potato,Andhra Pradesh,2026-08,24,0,0,0,24,0.0,0.0
+Potato,Andhra Pradesh,2026-09,23,0,0,0,23,0.0,0.0
+Potato,Andhra Pradesh,2026-10,11,0,0,0,11,0.0,0.0
+Potato,Arunachal Pradesh,2026-05,6,0,0,0,6,0.0,0.0
+Potato,Arunachal Pradesh,2026-06,15,0,0,0,15,0.0,0.0
+Potato,Assam,2024-09,26,0,0,0,26,0.0,0.0
+Potato,Assam,2024-10,2,0,0,0,2,0.0,0.0
+Potato,Assam,2024-12,10,0,0,0,10,0.0,0.0
+Potato,Assam,2025-01,38,0,0,0,38,0.0,0.0
+Potato,Assam,2025-02,39,0,0,0,39,0.0,0.0
+Potato,Assam,2025-03,44,0,0,0,44,0.0,0.0
+Potato,Assam,2025-04,40,0,0,0,40,0.0,0.0
+Potato,Assam,2025-05,7,0,0,0,7,0.0,0.0
+Potato,Assam,2025-12,203,0,0,6,197,0.0,2.96
+Potato,Assam,2026-01,403,0,0,0,403,0.0,0.0
+Potato,Assam,2026-02,347,0,0,0,347,0.0,0.0
+Potato,Assam,2026-03,189,0,0,0,189,0.0,0.0
+Potato,Assam,2026-04,131,0,0,0,131,0.0,0.0
+Potato,Assam,2026-05,121,0,0,0,121,0.0,0.0
+Potato,Assam,2026-06,188,0,0,0,188,0.0,0.0
+Potato,Assam,2026-07,239,0,0,0,239,0.0,0.0
+Potato,Assam,2026-08,207,0,0,0,207,0.0,0.0
+Potato,Assam,2026-09,166,0,0,0,166,0.0,0.0
+Potato,Assam,2026-10,93,0,0,0,93,0.0,0.0
+Potato,Bihar,2024-02,374,0,0,0,374,0.0,0.0
+Potato,Bihar,2024-03,269,0,0,0,269,0.0,0.0
+Potato,Bihar,2024-04,254,0,0,0,254,0.0,0.0
+Potato,Bihar,2024-05,423,0,0,0,423,0.0,0.0
+Potato,Bihar,2024-06,385,0,0,0,385,0.0,0.0
+Potato,Bihar,2024-07,371,0,0,0,371,0.0,0.0
+Potato,Bihar,2024-08,166,0,0,0,166,0.0,0.0
+Potato,Bihar,2024-09,362,0,0,0,362,0.0,0.0
+Potato,Bihar,2024-10,321,0,0,0,321,0.0,0.0
+Potato,Bihar,2024-11,255,0,0,0,255,0.0,0.0
+Potato,Bihar,2024-12,264,0,0,0,264,0.0,0.0
+Potato,Bihar,2025-01,242,0,0,0,242,0.0,0.0
+Potato,Bihar,2025-02,229,0,0,0,229,0.0,0.0
+Potato,Bihar,2025-03,216,0,0,0,216,0.0,0.0
+Potato,Bihar,2025-04,191,0,0,0,191,0.0,0.0
+Potato,Bihar,2025-05,189,0,0,0,189,0.0,0.0
+Potato,Bihar,2025-06,192,0,0,0,192,0.0,0.0
+Potato,Bihar,2025-07,117,0,0,0,117,0.0,0.0
+Potato,Bihar,2025-08,108,0,0,0,108,0.0,0.0
+Potato,Bihar,2025-09,92,0,0,0,92,0.0,0.0
+Potato,Bihar,2025-10,100,0,0,0,100,0.0,0.0
+Potato,Bihar,2025-11,111,0,0,0,111,0.0,0.0
+Potato,Bihar,2025-12,145,0,0,0,145,0.0,0.0
+Potato,Bihar,2026-01,110,0,0,0,110,0.0,0.0
+Potato,Bihar,2026-02,104,0,0,0,104,0.0,0.0
+Potato,Bihar,2026-03,100,0,0,2,98,0.0,2.0
+Potato,Bihar,2026-04,4,0,0,0,4,0.0,0.0
+Potato,Bihar,2026-06,434,0,0,4,430,0.0,0.92
+Potato,Bihar,2026-07,477,0,0,0,477,0.0,0.0
+Potato,Bihar,2026-08,463,0,0,0,463,0.0,0.0
+Potato,Bihar,2026-09,388,0,0,0,388,0.0,0.0
+Potato,Bihar,2026-10,324,0,0,0,324,0.0,0.0
+Potato,Chandigarh,2024-02,7,0,0,0,7,0.0,0.0
+Potato,Chandigarh,2024-03,21,0,0,0,21,0.0,0.0
+Potato,Chandigarh,2024-04,17,0,0,0,17,0.0,0.0
+Potato,Chandigarh,2024-05,25,0,0,0,25,0.0,0.0
+Potato,Chandigarh,2024-06,17,0,0,0,17,0.0,0.0
+Potato,Chandigarh,2024-07,20,0,0,0,20,0.0,0.0
+Potato,Chandigarh,2024-08,26,0,0,0,26,0.0,0.0
+Potato,Chandigarh,2024-09,20,0,0,0,20,0.0,0.0
+Potato,Chandigarh,2024-10,24,0,0,0,24,0.0,0.0
+Potato,Chandigarh,2024-11,17,0,0,0,17,0.0,0.0
+Potato,Chandigarh,2024-12,14,0,0,0,14,0.0,0.0
+Potato,Chandigarh,2025-01,21,0,0,0,21,0.0,0.0
+Potato,Chandigarh,2025-02,17,0,0,0,17,0.0,0.0
+Potato,Chandigarh,2025-03,20,0,0,0,20,0.0,0.0
+Potato,Chandigarh,2025-04,24,0,0,0,24,0.0,0.0
+Potato,Chandigarh,2025-05,17,0,0,0,17,0.0,0.0
+Potato,Chandigarh,2025-06,21,0,0,0,21,0.0,0.0
+Potato,Chandigarh,2025-07,23,0,0,0,23,0.0,0.0
+Potato,Chandigarh,2025-08,23,0,0,0,23,0.0,0.0
+Potato,Chandigarh,2025-09,23,0,0,0,23,0.0,0.0
+Potato,Chandigarh,2025-10,24,0,0,0,24,0.0,0.0
+Potato,Chandigarh,2025-11,29,0,0,0,29,0.0,0.0
+Potato,Chandigarh,2025-12,25,0,0,0,25,0.0,0.0
+Potato,Chandigarh,2026-01,27,0,0,0,27,0.0,0.0
+Potato,Chandigarh,2026-02,24,0,0,0,24,0.0,0.0
+Potato,Chandigarh,2026-03,21,0,0,0,21,0.0,0.0
+Potato,Chandigarh,2026-04,22,0,0,0,22,0.0,0.0
+Potato,Chandigarh,2026-05,48,0,0,0,48,0.0,0.0
+Potato,Chandigarh,2026-06,29,0,0,0,29,0.0,0.0
+Potato,Chandigarh,2026-07,24,0,0,0,24,0.0,0.0
+Potato,Chandigarh,2026-08,23,0,0,0,23,0.0,0.0
+Potato,Chandigarh,2026-09,23,0,0,0,23,0.0,0.0
+Potato,Chandigarh,2026-10,16,0,0,0,16,0.0,0.0
+Potato,Chattisgarh,2024-02,95,0,0,0,95,0.0,0.0
+Potato,Chattisgarh,2024-03,90,0,0,0,90,0.0,0.0
+Potato,Chattisgarh,2024-04,92,0,0,0,92,0.0,0.0
+Potato,Chattisgarh,2024-05,110,0,0,0,110,0.0,0.0
+Potato,Chattisgarh,2024-06,105,0,0,0,105,0.0,0.0
+Potato,Chattisgarh,2024-07,104,0,0,0,104,0.0,0.0
+Potato,Chattisgarh,2024-08,103,0,0,0,103,0.0,0.0
+Potato,Chattisgarh,2024-09,95,0,0,0,95,0.0,0.0
+Potato,Chattisgarh,2024-10,108,0,0,0,108,0.0,0.0
+Potato,Chattisgarh,2024-11,92,0,0,0,92,0.0,0.0
+Potato,Chattisgarh,2024-12,113,0,0,0,113,0.0,0.0
+Potato,Chattisgarh,2025-01,106,0,0,0,106,0.0,0.0
+Potato,Chattisgarh,2025-02,88,0,0,0,88,0.0,0.0
+Potato,Chattisgarh,2025-03,101,0,0,0,101,0.0,0.0
+Potato,Chattisgarh,2025-04,91,0,0,0,91,0.0,0.0
+Potato,Chattisgarh,2025-05,105,0,0,0,105,0.0,0.0
+Potato,Chattisgarh,2025-06,87,0,0,0,87,0.0,0.0
+Potato,Chattisgarh,2025-07,102,0,0,0,102,0.0,0.0
+Potato,Chattisgarh,2025-08,76,0,0,0,76,0.0,0.0
+Potato,Chattisgarh,2025-09,98,0,0,0,98,0.0,0.0
+Potato,Chattisgarh,2025-10,74,0,0,0,74,0.0,0.0
+Potato,Chattisgarh,2025-11,67,0,0,0,67,0.0,0.0
+Potato,Chattisgarh,2025-12,71,0,0,0,71,0.0,0.0
+Potato,Chattisgarh,2026-01,96,0,0,0,96,0.0,0.0
+Potato,Chattisgarh,2026-02,78,0,0,0,78,0.0,0.0
+Potato,Chattisgarh,2026-03,102,0,0,0,102,0.0,0.0
+Potato,Chattisgarh,2026-04,109,0,0,0,109,0.0,0.0
+Potato,Chattisgarh,2026-05,108,0,0,0,108,0.0,0.0
+Potato,Chattisgarh,2026-06,105,0,0,0,105,0.0,0.0
+Potato,Chattisgarh,2026-07,97,0,0,0,97,0.0,0.0
+Potato,Chattisgarh,2026-08,94,0,0,0,94,0.0,0.0
+Potato,Chattisgarh,2026-09,91,0,0,0,91,0.0,0.0
+Potato,Chattisgarh,2026-10,57,0,0,0,57,0.0,0.0
+Potato,Goa,2024-02,20,0,0,0,20,0.0,0.0
+Potato,Goa,2024-03,19,0,0,0,19,0.0,0.0
+Potato,Goa,2024-04,19,0,0,0,19,0.0,0.0
+Potato,Goa,2024-05,18,0,0,0,18,0.0,0.0
+Potato,Goa,2024-06,26,0,0,0,26,0.0,0.0
+Potato,Goa,2024-07,31,0,0,0,31,0.0,0.0
+Potato,Goa,2024-08,32,0,0,2,30,0.0,6.25
+Potato,Goa,2024-09,30,0,0,0,30,0.0,0.0
+Potato,Goa,2024-10,28,0,0,0,28,0.0,0.0
+Potato,Goa,2024-11,29,0,0,2,27,0.0,6.9
+Potato,Goa,2024-12,28,0,0,0,28,0.0,0.0
+Potato,Goa,2025-01,29,0,0,0,29,0.0,0.0
+Potato,Goa,2025-02,27,0,0,0,27,0.0,0.0
+Potato,Goa,2025-03,26,0,0,0,26,0.0,0.0
+Potato,Goa,2025-04,27,0,0,0,27,0.0,0.0
+Potato,Goa,2025-05,28,0,0,0,28,0.0,0.0
+Potato,Goa,2025-06,28,0,0,0,28,0.0,0.0
+Potato,Goa,2025-07,30,0,0,2,28,0.0,6.67
+Potato,Goa,2025-08,26,0,0,0,26,0.0,0.0
+Potato,Goa,2025-09,28,0,0,0,28,0.0,0.0
+Potato,Goa,2025-10,25,0,0,0,25,0.0,0.0
+Potato,Goa,2025-11,50,0,0,38,12,0.0,76.0
+Potato,Goa,2025-12,42,0,0,34,8,0.0,80.95
+Potato,Goa,2026-01,24,0,0,0,24,0.0,0.0
+Potato,Goa,2026-02,24,0,0,0,24,0.0,0.0
+Potato,Goa,2026-03,25,0,0,0,25,0.0,0.0
+Potato,Goa,2026-04,27,0,0,0,27,0.0,0.0
+Potato,Goa,2026-05,27,0,0,2,25,0.0,7.41
+Potato,Goa,2026-06,28,0,0,0,28,0.0,0.0
+Potato,Goa,2026-07,30,0,0,0,30,0.0,0.0
+Potato,Goa,2026-08,31,0,0,0,31,0.0,0.0
+Potato,Goa,2026-09,30,0,0,0,30,0.0,0.0
+Potato,Goa,2026-10,19,0,0,0,19,0.0,0.0
+Potato,Gujarat,2024-02,438,0,0,0,438,0.0,0.0
+Potato,Gujarat,2024-03,428,0,0,0,428,0.0,0.0
+Potato,Gujarat,2024-04,460,0,0,0,460,0.0,0.0
+Potato,Gujarat,2024-05,568,0,0,0,568,0.0,0.0
+Potato,Gujarat,2024-06,548,0,0,0,548,0.0,0.0
+Potato,Gujarat,2024-07,625,0,0,0,625,0.0,0.0
+Potato,Gujarat,2024-08,579,0,0,0,579,0.0,0.0
+Potato,Gujarat,2024-09,558,0,0,0,558,0.0,0.0
+Potato,Gujarat,2024-10,603,0,0,0,603,0.0,0.0
+Potato,Gujarat,2024-11,546,0,0,0,546,0.0,0.0
+Potato,Gujarat,2024-12,646,0,0,6,640,0.0,0.93
+Potato,Gujarat,2025-01,630,0,0,0,630,0.0,0.0
+Potato,Gujarat,2025-02,606,0,0,0,606,0.0,0.0
+Potato,Gujarat,2025-03,664,0,0,0,664,0.0,0.0
+Potato,Gujarat,2025-04,661,0,0,0,661,0.0,0.0
+Potato,Gujarat,2025-05,724,0,0,6,718,0.0,0.83
+Potato,Gujarat,2025-06,643,0,0,0,643,0.0,0.0
+Potato,Gujarat,2025-07,712,0,0,0,712,0.0,0.0
+Potato,Gujarat,2025-08,649,0,0,2,647,0.0,0.31
+Potato,Gujarat,2025-09,692,0,0,0,692,0.0,0.0
+Potato,Gujarat,2025-10,599,0,0,0,599,0.0,0.0
+Potato,Gujarat,2025-11,685,0,0,8,677,0.0,1.17
+Potato,Gujarat,2025-12,631,0,0,0,631,0.0,0.0
+Potato,Gujarat,2026-01,573,0,0,0,573,0.0,0.0
+Potato,Gujarat,2026-02,576,0,0,0,576,0.0,0.0
+Potato,Gujarat,2026-03,550,0,0,0,550,0.0,0.0
+Potato,Gujarat,2026-04,594,0,0,0,594,0.0,0.0
+Potato,Gujarat,2026-05,602,0,0,0,602,0.0,0.0
+Potato,Gujarat,2026-06,574,0,0,0,574,0.0,0.0
+Potato,Gujarat,2026-07,617,0,0,0,617,0.0,0.0
+Potato,Gujarat,2026-08,606,0,0,0,606,0.0,0.0
+Potato,Gujarat,2026-09,577,0,0,0,577,0.0,0.0
+Potato,Gujarat,2026-10,386,0,0,0,386,0.0,0.0
+Potato,Haryana,2024-02,1380,0,0,0,1380,0.0,0.0
+Potato,Haryana,2024-03,1462,0,0,0,1462,0.0,0.0
+Potato,Haryana,2024-04,1222,0,0,0,1222,0.0,0.0
+Potato,Haryana,2024-05,1518,0,0,0,1518,0.0,0.0
+Potato,Haryana,2024-06,1411,0,0,0,1411,0.0,0.0
+Potato,Haryana,2024-07,1686,0,0,0,1686,0.0,0.0
+Potato,Haryana,2024-08,1545,0,0,2,1543,0.0,0.13
+Potato,Haryana,2024-09,1524,0,0,0,1524,0.0,0.0
+Potato,Haryana,2024-10,1462,0,0,6,1456,0.0,0.41
+Potato,Haryana,2024-11,1400,0,0,2,1398,0.0,0.14
+Potato,Haryana,2024-12,1607,0,0,16,1591,0.0,1.0
+Potato,Haryana,2025-01,1723,0,0,10,1713,0.0,0.58
+Potato,Haryana,2025-02,1789,0,0,8,1781,0.0,0.45
+Potato,Haryana,2025-03,1878,0,0,2,1876,0.0,0.11
+Potato,Haryana,2025-04,1657,0,0,0,1657,0.0,0.0
+Potato,Haryana,2025-05,1687,0,0,0,1687,0.0,0.0
+Potato,Haryana,2025-06,1649,0,0,2,1647,0.0,0.12
+Potato,Haryana,2025-07,1683,0,0,2,1681,0.0,0.12
+Potato,Haryana,2025-08,1778,0,0,0,1778,0.0,0.0
+Potato,Haryana,2025-09,1839,0,0,2,1837,0.0,0.11
+Potato,Haryana,2025-10,1647,0,0,0,1647,0.0,0.0
+Potato,Haryana,2025-11,1890,0,0,0,1890,0.0,0.0
+Potato,Haryana,2025-12,1831,0,0,10,1821,0.0,0.55
+Potato,Haryana,2026-01,1747,0,0,30,1717,0.0,1.72
+Potato,Haryana,2026-02,1556,0,0,6,1550,0.0,0.39
+Potato,Haryana,2026-03,1619,0,0,4,1615,0.0,0.25
+Potato,Haryana,2026-04,1451,0,0,2,1449,0.0,0.14
+Potato,Haryana,2026-05,1476,0,0,0,1476,0.0,0.0
+Potato,Haryana,2026-06,1442,0,0,6,1436,0.0,0.42
+Potato,Haryana,2026-07,1631,0,0,4,1627,0.0,0.25
+Potato,Haryana,2026-08,1574,0,0,2,1572,0.0,0.13
+Potato,Haryana,2026-09,1427,0,0,8,1419,0.0,0.56
+Potato,Haryana,2026-10,907,0,0,0,907,0.0,0.0
+Potato,Himachal Pradesh,2024-02,376,0,0,0,376,0.0,0.0
+Potato,Himachal Pradesh,2024-03,404,0,0,0,404,0.0,0.0
+Potato,Himachal Pradesh,2024-04,373,0,0,0,373,0.0,0.0
+Potato,Himachal Pradesh,2024-05,488,0,0,0,488,0.0,0.0
+Potato,Himachal Pradesh,2024-06,398,0,0,0,398,0.0,0.0
+Potato,Himachal Pradesh,2024-07,466,0,0,0,466,0.0,0.0
+Potato,Himachal Pradesh,2024-08,392,0,0,0,392,0.0,0.0
+Potato,Himachal Pradesh,2024-09,416,0,0,0,416,0.0,0.0
+Potato,Himachal Pradesh,2024-10,442,0,0,0,442,0.0,0.0
+Potato,Himachal Pradesh,2024-11,406,0,0,0,406,0.0,0.0
+Potato,Himachal Pradesh,2024-12,400,0,0,0,400,0.0,0.0
+Potato,Himachal Pradesh,2025-01,492,0,0,0,492,0.0,0.0
+Potato,Himachal Pradesh,2025-02,470,0,0,0,470,0.0,0.0
+Potato,Himachal Pradesh,2025-03,457,0,0,0,457,0.0,0.0
+Potato,Himachal Pradesh,2025-04,473,0,0,0,473,0.0,0.0
+Potato,Himachal Pradesh,2025-05,570,0,0,0,570,0.0,0.0
+Potato,Himachal Pradesh,2025-06,563,0,0,0,563,0.0,0.0
+Potato,Himachal Pradesh,2025-07,581,0,0,0,581,0.0,0.0
+Potato,Himachal Pradesh,2025-08,540,0,0,0,540,0.0,0.0
+Potato,Himachal Pradesh,2025-09,548,0,0,0,548,0.0,0.0
+Potato,Himachal Pradesh,2025-10,511,0,0,0,511,0.0,0.0
+Potato,Himachal Pradesh,2025-11,593,0,0,0,593,0.0,0.0
+Potato,Himachal Pradesh,2025-12,590,0,0,0,590,0.0,0.0
+Potato,Himachal Pradesh,2026-01,563,0,0,0,563,0.0,0.0
+Potato,Himachal Pradesh,2026-02,524,0,0,0,524,0.0,0.0
+Potato,Himachal Pradesh,2026-03,533,0,0,0,533,0.0,0.0
+Potato,Himachal Pradesh,2026-04,522,0,0,0,522,0.0,0.0
+Potato,Himachal Pradesh,2026-05,558,0,0,0,558,0.0,0.0
+Potato,Himachal Pradesh,2026-06,565,0,0,0,565,0.0,0.0
+Potato,Himachal Pradesh,2026-07,637,0,0,0,637,0.0,0.0
+Potato,Himachal Pradesh,2026-08,550,0,0,0,550,0.0,0.0
+Potato,Himachal Pradesh,2026-09,548,0,0,0,548,0.0,0.0
+Potato,Himachal Pradesh,2026-10,334,0,0,0,334,0.0,0.0
+Potato,Jammu and Kashmir,2024-02,126,0,0,0,126,0.0,0.0
+Potato,Jammu and Kashmir,2024-03,149,0,0,0,149,0.0,0.0
+Potato,Jammu and Kashmir,2024-04,131,0,0,0,131,0.0,0.0
+Potato,Jammu and Kashmir,2024-05,185,0,0,0,185,0.0,0.0
+Potato,Jammu and Kashmir,2024-06,150,0,0,0,150,0.0,0.0
+Potato,Jammu and Kashmir,2024-07,149,0,0,0,149,0.0,0.0
+Potato,Jammu and Kashmir,2024-08,155,0,0,0,155,0.0,0.0
+Potato,Jammu and Kashmir,2024-09,143,0,0,0,143,0.0,0.0
+Potato,Jammu and Kashmir,2024-10,159,0,0,0,159,0.0,0.0
+Potato,Jammu and Kashmir,2024-11,168,0,0,4,164,0.0,2.38
+Potato,Jammu and Kashmir,2024-12,178,0,0,0,178,0.0,0.0
+Potato,Jammu and Kashmir,2025-01,164,0,0,2,162,0.0,1.22
+Potato,Jammu and Kashmir,2025-02,139,0,0,0,139,0.0,0.0
+Potato,Jammu and Kashmir,2025-03,168,0,0,0,168,0.0,0.0
+Potato,Jammu and Kashmir,2025-04,162,0,0,0,162,0.0,0.0
+Potato,Jammu and Kashmir,2025-05,193,0,0,0,193,0.0,0.0
+Potato,Jammu and Kashmir,2025-06,124,0,0,2,122,0.0,1.61
+Potato,Jammu and Kashmir,2025-07,181,0,0,0,181,0.0,0.0
+Potato,Jammu and Kashmir,2025-08,159,0,0,0,159,0.0,0.0
+Potato,Jammu and Kashmir,2025-09,139,0,0,0,139,0.0,0.0
+Potato,Jammu and Kashmir,2025-10,176,0,0,0,176,0.0,0.0
+Potato,Jammu and Kashmir,2025-11,120,0,0,0,120,0.0,0.0
+Potato,Jammu and Kashmir,2025-12,103,0,0,0,103,0.0,0.0
+Potato,Jammu and Kashmir,2026-01,106,0,0,0,106,0.0,0.0
+Potato,Jammu and Kashmir,2026-02,76,0,0,0,76,0.0,0.0
+Potato,Jammu and Kashmir,2026-03,80,0,0,0,80,0.0,0.0
+Potato,Jammu and Kashmir,2026-04,222,0,0,0,222,0.0,0.0
+Potato,Jammu and Kashmir,2026-05,194,0,0,2,192,0.0,1.03
+Potato,Jammu and Kashmir,2026-06,112,0,0,0,112,0.0,0.0
+Potato,Jammu and Kashmir,2026-07,142,0,0,0,142,0.0,0.0
+Potato,Jammu and Kashmir,2026-08,108,0,0,0,108,0.0,0.0
+Potato,Jammu and Kashmir,2026-09,102,0,0,0,102,0.0,0.0
+Potato,Jammu and Kashmir,2026-10,67,0,0,0,67,0.0,0.0
+Potato,Karnataka,2024-02,254,0,0,0,254,0.0,0.0
+Potato,Karnataka,2024-03,277,0,0,0,277,0.0,0.0
+Potato,Karnataka,2024-04,234,0,0,0,234,0.0,0.0
+Potato,Karnataka,2024-05,292,0,0,0,292,0.0,0.0
+Potato,Karnataka,2024-06,286,0,0,0,286,0.0,0.0
+Potato,Karnataka,2024-07,294,0,0,0,294,0.0,0.0
+Potato,Karnataka,2024-08,270,0,0,0,270,0.0,0.0
+Potato,Karnataka,2024-09,251,0,0,0,251,0.0,0.0
+Potato,Karnataka,2024-10,247,0,0,0,247,0.0,0.0
+Potato,Karnataka,2024-11,180,0,0,0,180,0.0,0.0
+Potato,Karnataka,2024-12,260,0,0,0,260,0.0,0.0
+Potato,Karnataka,2025-01,294,0,0,0,294,0.0,0.0
+Potato,Karnataka,2025-02,254,0,0,0,254,0.0,0.0
+Potato,Karnataka,2025-03,106,0,0,0,106,0.0,0.0
+Potato,Karnataka,2025-04,157,0,0,0,157,0.0,0.0
+Potato,Karnataka,2025-05,163,0,0,0,163,0.0,0.0
+Potato,Karnataka,2025-06,188,0,0,0,188,0.0,0.0
+Potato,Karnataka,2025-07,200,0,0,0,200,0.0,0.0
+Potato,Karnataka,2025-08,137,0,0,0,137,0.0,0.0
+Potato,Karnataka,2025-09,211,0,0,0,211,0.0,0.0
+Potato,Karnataka,2025-10,159,0,0,0,159,0.0,0.0
+Potato,Karnataka,2025-11,190,0,0,0,190,0.0,0.0
+Potato,Karnataka,2025-12,216,0,0,0,216,0.0,0.0
+Potato,Karnataka,2026-01,240,0,0,0,240,0.0,0.0
+Potato,Karnataka,2026-02,320,1,0,0,319,0.31,0.31
+Potato,Karnataka,2026-03,386,0,0,0,386,0.0,0.0
+Potato,Karnataka,2026-04,693,2,0,0,691,0.29,0.29
+Potato,Karnataka,2026-05,625,1,0,0,624,0.16,0.16
+Potato,Karnataka,2026-06,423,0,0,0,423,0.0,0.0
+Potato,Karnataka,2026-07,476,0,0,4,472,0.0,0.84
+Potato,Karnataka,2026-08,418,0,0,0,418,0.0,0.0
+Potato,Karnataka,2026-09,428,0,0,0,428,0.0,0.0
+Potato,Karnataka,2026-10,267,0,0,0,267,0.0,0.0
+Potato,Kerala,2024-02,1002,0,0,0,1002,0.0,0.0
+Potato,Kerala,2024-03,1050,0,0,0,1050,0.0,0.0
+Potato,Kerala,2024-04,1022,0,0,0,1022,0.0,0.0
+Potato,Kerala,2024-05,1125,0,0,0,1125,0.0,0.0
+Potato,Kerala,2024-06,1071,0,0,0,1071,0.0,0.0
+Potato,Kerala,2024-07,1298,0,0,0,1298,0.0,0.0
+Potato,Kerala,2024-08,1252,0,0,0,1252,0.0,0.0
+Potato,Kerala,2024-09,1221,0,0,0,1221,0.0,0.0
+Potato,Kerala,2024-10,1294,0,0,0,1294,0.0,0.0
+Potato,Kerala,2024-11,1266,0,0,0,1266,0.0,0.0
+Potato,Kerala,2024-12,1270,0,0,0,1270,0.0,0.0
+Potato,Kerala,2025-01,1324,0,0,0,1324,0.0,0.0
+Potato,Kerala,2025-02,1324,0,0,2,1322,0.0,0.15
+Potato,Kerala,2025-03,1425,0,0,0,1425,0.0,0.0
+Potato,Kerala,2025-04,1325,0,0,0,1325,0.0,0.0
+Potato,Kerala,2025-05,1370,0,0,0,1370,0.0,0.0
+Potato,Kerala,2025-06,1267,0,0,0,1267,0.0,0.0
+Potato,Kerala,2025-07,1282,0,0,0,1282,0.0,0.0
+Potato,Kerala,2025-08,1280,0,0,0,1280,0.0,0.0
+Potato,Kerala,2025-09,1217,0,0,0,1217,0.0,0.0
+Potato,Kerala,2025-10,1247,0,0,0,1247,0.0,0.0
+Potato,Kerala,2025-11,1253,0,0,4,1249,0.0,0.32
+Potato,Kerala,2025-12,1171,0,0,0,1171,0.0,0.0
+Potato,Kerala,2026-01,1182,0,0,0,1182,0.0,0.0
+Potato,Kerala,2026-02,1065,0,0,2,1063,0.0,0.19
+Potato,Kerala,2026-03,1163,0,0,2,1161,0.0,0.17
+Potato,Kerala,2026-04,1085,0,0,0,1085,0.0,0.0
+Potato,Kerala,2026-05,787,0,0,0,787,0.0,0.0
+Potato,Keralam,2026-04,1085,0,0,0,1085,0.0,0.0
+Potato,Keralam,2026-05,1150,0,0,0,1150,0.0,0.0
+Potato,Keralam,2026-06,1207,0,0,0,1207,0.0,0.0
+Potato,Keralam,2026-07,1230,0,0,2,1228,0.0,0.16
+Potato,Keralam,2026-08,1152,0,0,0,1152,0.0,0.0
+Potato,Keralam,2026-09,1152,0,0,0,1152,0.0,0.0
+Potato,Keralam,2026-10,739,0,0,0,739,0.0,0.0
+Potato,Madhya Pradesh,2024-02,158,23,0,0,135,14.56,14.56
+Potato,Madhya Pradesh,2024-03,178,15,0,0,163,8.43,8.43
+Potato,Madhya Pradesh,2024-04,142,26,0,0,116,18.31,18.31
+Potato,Madhya Pradesh,2024-05,85,2,0,0,83,2.35,2.35
+Potato,Madhya Pradesh,2024-06,94,7,0,2,85,7.45,9.57
+Potato,Madhya Pradesh,2024-07,112,1,0,0,111,0.89,0.89
+Potato,Madhya Pradesh,2024-08,132,0,0,6,126,0.0,4.55
+Potato,Madhya Pradesh,2024-09,127,0,0,4,123,0.0,3.15
+Potato,Madhya Pradesh,2024-10,310,0,0,4,306,0.0,1.29
+Potato,Madhya Pradesh,2024-11,305,0,0,12,293,0.0,3.93
+Potato,Madhya Pradesh,2024-12,429,0,0,36,393,0.0,8.39
+Potato,Madhya Pradesh,2025-01,598,0,0,64,534,0.0,10.7
+Potato,Madhya Pradesh,2025-02,482,0,0,26,456,0.0,5.39
+Potato,Madhya Pradesh,2025-03,459,0,0,22,437,0.0,4.79
+Potato,Madhya Pradesh,2025-04,493,0,0,16,477,0.0,3.25
+Potato,Madhya Pradesh,2025-05,507,0,0,8,499,0.0,1.58
+Potato,Madhya Pradesh,2025-06,477,0,0,0,477,0.0,0.0
+Potato,Madhya Pradesh,2025-07,540,0,0,2,538,0.0,0.37
+Potato,Madhya Pradesh,2025-08,565,0,0,4,561,0.0,0.71
+Potato,Madhya Pradesh,2025-09,821,0,0,8,813,0.0,0.97
+Potato,Madhya Pradesh,2025-10,776,0,0,6,770,0.0,0.77
+Potato,Madhya Pradesh,2025-11,354,0,0,0,354,0.0,0.0
+Potato,Madhya Pradesh,2025-12,216,0,0,28,188,0.0,12.96
+Potato,Madhya Pradesh,2026-01,281,0,0,37,244,0.0,13.17
+Potato,Madhya Pradesh,2026-02,746,0,0,60,686,0.0,8.04
+Potato,Madhya Pradesh,2026-03,657,0,0,24,633,0.0,3.65
+Potato,Madhya Pradesh,2026-04,677,0,0,40,637,0.0,5.91
+Potato,Madhya Pradesh,2026-05,745,0,0,34,711,0.0,4.56
+Potato,Madhya Pradesh,2026-06,749,0,0,4,745,0.0,0.53
+Potato,Madhya Pradesh,2026-07,819,0,0,16,803,0.0,1.95
+Potato,Madhya Pradesh,2026-08,1290,0,0,18,1272,0.0,1.4
+Potato,Madhya Pradesh,2026-09,1248,0,0,18,1230,0.0,1.44
+Potato,Madhya Pradesh,2026-10,736,0,0,4,732,0.0,0.54
+Potato,Maharashtra,2024-02,586,0,0,0,586,0.0,0.0
+Potato,Maharashtra,2024-03,649,0,0,0,649,0.0,0.0
+Potato,Maharashtra,2024-04,428,0,0,0,428,0.0,0.0
+Potato,Maharashtra,2024-05,603,0,0,0,603,0.0,0.0
+Potato,Maharashtra,2024-06,586,0,0,0,586,0.0,0.0
+Potato,Maharashtra,2024-07,621,0,0,0,621,0.0,0.0
+Potato,Maharashtra,2024-08,609,0,0,0,609,0.0,0.0
+Potato,Maharashtra,2024-09,610,0,0,10,600,0.0,1.64
+Potato,Maharashtra,2024-10,609,0,0,22,587,0.0,3.61
+Potato,Maharashtra,2024-11,559,0,0,32,527,0.0,5.72
+Potato,Maharashtra,2024-12,710,0,0,28,682,0.0,3.94
+Potato,Maharashtra,2025-01,746,0,0,24,722,0.0,3.22
+Potato,Maharashtra,2025-02,576,0,0,26,550,0.0,4.51
+Potato,Maharashtra,2025-03,693,0,0,18,675,0.0,2.6
+Potato,Maharashtra,2025-04,661,0,0,10,651,0.0,1.51
+Potato,Maharashtra,2025-05,630,0,0,8,622,0.0,1.27
+Potato,Maharashtra,2025-06,656,0,0,12,644,0.0,1.83
+Potato,Maharashtra,2025-07,660,0,0,12,648,0.0,1.82
+Potato,Maharashtra,2025-08,588,0,0,6,582,0.0,1.02
+Potato,Maharashtra,2025-09,623,0,0,6,617,0.0,0.96
+Potato,Maharashtra,2025-10,521,0,0,2,519,0.0,0.38
+Potato,Maharashtra,2025-11,590,0,0,2,588,0.0,0.34
+Potato,Maharashtra,2025-12,634,0,0,2,632,0.0,0.32
+Potato,Maharashtra,2026-01,649,0,0,6,643,0.0,0.92
+Potato,Maharashtra,2026-02,641,0,0,6,635,0.0,0.94
+Potato,Maharashtra,2026-03,655,0,0,2,653,0.0,0.31
+Potato,Maharashtra,2026-04,898,0,0,2,896,0.0,0.22
+Potato,Maharashtra,2026-05,807,0,0,6,801,0.0,0.74
+Potato,Maharashtra,2026-06,697,0,0,2,695,0.0,0.29
+Potato,Maharashtra,2026-07,753,0,0,0,753,0.0,0.0
+Potato,Maharashtra,2026-08,1432,0,0,0,1432,0.0,0.0
+Potato,Maharashtra,2026-09,736,0,0,2,734,0.0,0.27
+Potato,Maharashtra,2026-10,455,0,0,0,455,0.0,0.0
+Potato,Manipur,2024-02,72,0,0,0,72,0.0,0.0
+Potato,Manipur,2024-03,60,0,0,0,60,0.0,0.0
+Potato,Manipur,2024-04,62,0,0,0,62,0.0,0.0
+Potato,Manipur,2024-05,59,0,0,0,59,0.0,0.0
+Potato,Manipur,2024-06,45,0,0,0,45,0.0,0.0
+Potato,Manipur,2024-07,57,0,0,0,57,0.0,0.0
+Potato,Manipur,2024-08,88,0,0,0,88,0.0,0.0
+Potato,Manipur,2024-09,67,0,0,0,67,0.0,0.0
+Potato,Manipur,2024-10,86,0,0,0,86,0.0,0.0
+Potato,Manipur,2024-11,38,0,0,0,38,0.0,0.0
+Potato,Manipur,2024-12,84,0,0,0,84,0.0,0.0
+Potato,Manipur,2025-01,91,0,0,0,91,0.0,0.0
+Potato,Manipur,2025-02,86,0,0,0,86,0.0,0.0
+Potato,Manipur,2025-03,85,0,0,0,85,0.0,0.0
+Potato,Manipur,2025-04,82,0,0,0,82,0.0,0.0
+Potato,Manipur,2025-05,84,0,0,0,84,0.0,0.0
+Potato,Manipur,2025-06,40,0,0,0,40,0.0,0.0
+Potato,Manipur,2025-07,93,0,0,0,93,0.0,0.0
+Potato,Manipur,2025-08,91,0,0,0,91,0.0,0.0
+Potato,Manipur,2025-09,82,0,0,0,82,0.0,0.0
+Potato,Manipur,2025-10,80,0,0,0,80,0.0,0.0
+Potato,Manipur,2025-11,85,0,0,0,85,0.0,0.0
+Potato,Manipur,2025-12,69,0,0,0,69,0.0,0.0
+Potato,Manipur,2026-01,63,0,0,0,63,0.0,0.0
+Potato,Manipur,2026-02,38,0,0,0,38,0.0,0.0
+Potato,Manipur,2026-03,61,0,0,0,61,0.0,0.0
+Potato,Manipur,2026-04,50,0,0,0,50,0.0,0.0
+Potato,Manipur,2026-05,117,0,0,0,117,0.0,0.0
+Potato,Manipur,2026-06,114,0,0,0,114,0.0,0.0
+Potato,Manipur,2026-07,105,0,0,0,105,0.0,0.0
+Potato,Manipur,2026-08,85,0,0,0,85,0.0,0.0
+Potato,Manipur,2026-09,83,0,0,0,83,0.0,0.0
+Potato,Manipur,2026-10,44,0,0,0,44,0.0,0.0
+Potato,Meghalaya,2024-02,27,0,0,0,27,0.0,0.0
+Potato,Meghalaya,2024-03,24,0,0,0,24,0.0,0.0
+Potato,Meghalaya,2024-04,42,0,0,0,42,0.0,0.0
+Potato,Meghalaya,2024-05,40,0,0,0,40,0.0,0.0
+Potato,Meghalaya,2024-06,48,0,0,0,48,0.0,0.0
+Potato,Meghalaya,2024-07,61,0,0,0,61,0.0,0.0
+Potato,Meghalaya,2024-08,25,0,0,0,25,0.0,0.0
+Potato,Meghalaya,2024-09,13,0,0,0,13,0.0,0.0
+Potato,Meghalaya,2024-10,27,0,0,0,27,0.0,0.0
+Potato,Meghalaya,2024-11,23,0,0,0,23,0.0,0.0
+Potato,Meghalaya,2024-12,32,0,0,0,32,0.0,0.0
+Potato,Meghalaya,2025-01,24,0,0,0,24,0.0,0.0
+Potato,Meghalaya,2025-02,11,0,0,0,11,0.0,0.0
+Potato,Meghalaya,2025-03,8,0,0,0,8,0.0,0.0
+Potato,Meghalaya,2025-04,5,0,0,0,5,0.0,0.0
+Potato,Meghalaya,2025-05,19,0,0,0,19,0.0,0.0
+Potato,Meghalaya,2025-06,27,0,0,0,27,0.0,0.0
+Potato,Meghalaya,2025-07,32,0,0,0,32,0.0,0.0
+Potato,Meghalaya,2025-08,39,0,0,0,39,0.0,0.0
+Potato,Meghalaya,2025-09,36,0,0,0,36,0.0,0.0
+Potato,Meghalaya,2025-10,31,0,0,0,31,0.0,0.0
+Potato,Meghalaya,2025-11,45,0,0,0,45,0.0,0.0
+Potato,Meghalaya,2025-12,32,0,0,0,32,0.0,0.0
+Potato,Meghalaya,2026-01,41,0,0,0,41,0.0,0.0
+Potato,Meghalaya,2026-02,29,0,0,0,29,0.0,0.0
+Potato,Meghalaya,2026-03,20,0,0,0,20,0.0,0.0
+Potato,Meghalaya,2026-04,28,0,0,0,28,0.0,0.0
+Potato,Meghalaya,2026-05,54,1,0,0,53,1.85,1.85
+Potato,Meghalaya,2026-06,70,1,0,0,69,1.43,1.43
+Potato,Meghalaya,2026-07,72,0,0,0,72,0.0,0.0
+Potato,Meghalaya,2026-08,67,0,0,0,67,0.0,0.0
+Potato,Meghalaya,2026-09,61,0,0,0,61,0.0,0.0
+Potato,Meghalaya,2026-10,31,0,0,0,31,0.0,0.0
+Potato,NCT of Delhi,2024-02,58,0,0,0,58,0.0,0.0
+Potato,NCT of Delhi,2024-03,49,0,0,0,49,0.0,0.0
+Potato,NCT of Delhi,2024-04,63,0,0,0,63,0.0,0.0
+Potato,NCT of Delhi,2024-05,73,0,0,0,73,0.0,0.0
+Potato,NCT of Delhi,2024-06,65,0,0,0,65,0.0,0.0
+Potato,NCT of Delhi,2024-07,61,0,0,0,61,0.0,0.0
+Potato,NCT of Delhi,2024-08,56,0,0,0,56,0.0,0.0
+Potato,NCT of Delhi,2024-09,64,0,0,0,64,0.0,0.0
+Potato,NCT of Delhi,2024-10,73,0,0,0,73,0.0,0.0
+Potato,NCT of Delhi,2024-11,72,0,0,0,72,0.0,0.0
+Potato,NCT of Delhi,2024-12,76,0,0,0,76,0.0,0.0
+Potato,NCT of Delhi,2025-01,69,0,0,0,69,0.0,0.0
+Potato,NCT of Delhi,2025-02,59,0,0,0,59,0.0,0.0
+Potato,NCT of Delhi,2025-03,70,0,0,0,70,0.0,0.0
+Potato,NCT of Delhi,2025-04,67,0,0,0,67,0.0,0.0
+Potato,NCT of Delhi,2025-05,78,0,0,0,78,0.0,0.0
+Potato,NCT of Delhi,2025-06,77,0,0,4,73,0.0,5.19
+Potato,NCT of Delhi,2025-07,71,0,0,0,71,0.0,0.0
+Potato,NCT of Delhi,2025-08,77,0,0,0,77,0.0,0.0
+Potato,NCT of Delhi,2025-09,73,0,0,0,73,0.0,0.0
+Potato,NCT of Delhi,2025-10,59,0,0,0,59,0.0,0.0
+Potato,NCT of Delhi,2025-11,42,0,0,0,42,0.0,0.0
+Potato,NCT of Delhi,2025-12,65,0,0,0,65,0.0,0.0
+Potato,NCT of Delhi,2026-01,65,0,0,0,65,0.0,0.0
+Potato,NCT of Delhi,2026-02,51,0,0,0,51,0.0,0.0
+Potato,NCT of Delhi,2026-03,47,0,0,0,47,0.0,0.0
+Potato,NCT of Delhi,2026-04,66,0,0,0,66,0.0,0.0
+Potato,NCT of Delhi,2026-05,126,0,0,0,126,0.0,0.0
+Potato,NCT of Delhi,2026-06,93,0,0,0,93,0.0,0.0
+Potato,NCT of Delhi,2026-07,76,0,0,0,76,0.0,0.0
+Potato,NCT of Delhi,2026-08,102,0,0,0,102,0.0,0.0
+Potato,NCT of Delhi,2026-09,88,0,0,0,88,0.0,0.0
+Potato,NCT of Delhi,2026-10,47,0,0,0,47,0.0,0.0
+Potato,Nagaland,2024-02,97,0,0,0,97,0.0,0.0
+Potato,Nagaland,2024-03,120,0,0,0,120,0.0,0.0
+Potato,Nagaland,2024-04,125,0,0,0,125,0.0,0.0
+Potato,Nagaland,2024-05,126,0,0,0,126,0.0,0.0
+Potato,Nagaland,2024-06,134,0,0,0,134,0.0,0.0
+Potato,Nagaland,2024-07,137,0,0,0,137,0.0,0.0
+Potato,Nagaland,2024-08,95,0,0,0,95,0.0,0.0
+Potato,Nagaland,2024-09,66,0,0,0,66,0.0,0.0
+Potato,Nagaland,2024-10,65,0,0,0,65,0.0,0.0
+Potato,Nagaland,2024-11,44,0,0,0,44,0.0,0.0
+Potato,Nagaland,2024-12,27,0,0,0,27,0.0,0.0
+Potato,Nagaland,2025-01,26,0,0,0,26,0.0,0.0
+Potato,Nagaland,2025-02,21,0,0,0,21,0.0,0.0
+Potato,Nagaland,2025-03,31,0,0,0,31,0.0,0.0
+Potato,Nagaland,2025-04,35,0,0,0,35,0.0,0.0
+Potato,Nagaland,2025-05,32,0,0,0,32,0.0,0.0
+Potato,Nagaland,2025-06,39,0,0,0,39,0.0,0.0
+Potato,Nagaland,2025-07,61,0,0,0,61,0.0,0.0
+Potato,Nagaland,2025-08,46,0,0,0,46,0.0,0.0
+Potato,Nagaland,2025-09,31,0,0,0,31,0.0,0.0
+Potato,Nagaland,2025-10,40,0,0,0,40,0.0,0.0
+Potato,Nagaland,2025-11,21,0,0,2,19,0.0,9.52
+Potato,Nagaland,2025-12,5,0,0,0,5,0.0,0.0
+Potato,Nagaland,2026-01,11,0,0,0,11,0.0,0.0
+Potato,Nagaland,2026-02,22,0,0,0,22,0.0,0.0
+Potato,Nagaland,2026-03,51,0,0,0,51,0.0,0.0
+Potato,Nagaland,2026-04,37,0,0,0,37,0.0,0.0
+Potato,Nagaland,2026-05,32,0,0,0,32,0.0,0.0
+Potato,Nagaland,2026-06,34,0,0,0,34,0.0,0.0
+Potato,Nagaland,2026-07,41,0,0,0,41,0.0,0.0
+Potato,Nagaland,2026-08,29,0,0,0,29,0.0,0.0
+Potato,Nagaland,2026-09,32,0,0,0,32,0.0,0.0
+Potato,Nagaland,2026-10,16,0,0,0,16,0.0,0.0
+Potato,Odisha,2024-02,635,0,0,0,635,0.0,0.0
+Potato,Odisha,2024-03,705,0,0,0,705,0.0,0.0
+Potato,Odisha,2024-04,675,0,0,0,675,0.0,0.0
+Potato,Odisha,2024-05,773,0,0,0,773,0.0,0.0
+Potato,Odisha,2024-06,655,0,0,0,655,0.0,0.0
+Potato,Odisha,2024-07,708,0,0,0,708,0.0,0.0
+Potato,Odisha,2024-08,661,0,0,0,661,0.0,0.0
+Potato,Odisha,2024-09,679,0,0,0,679,0.0,0.0
+Potato,Odisha,2024-10,690,0,0,0,690,0.0,0.0
+Potato,Odisha,2024-11,648,0,0,0,648,0.0,0.0
+Potato,Odisha,2024-12,585,0,0,0,585,0.0,0.0
+Potato,Odisha,2025-01,525,0,0,0,525,0.0,0.0
+Potato,Odisha,2025-02,517,0,0,0,517,0.0,0.0
+Potato,Odisha,2025-03,628,0,0,0,628,0.0,0.0
+Potato,Odisha,2025-04,645,0,0,0,645,0.0,0.0
+Potato,Odisha,2025-05,580,0,0,0,580,0.0,0.0
+Potato,Odisha,2025-06,533,0,0,2,531,0.0,0.38
+Potato,Odisha,2025-07,619,0,0,0,619,0.0,0.0
+Potato,Odisha,2025-08,684,0,0,0,684,0.0,0.0
+Potato,Odisha,2025-09,600,0,0,0,600,0.0,0.0
+Potato,Odisha,2025-10,552,0,0,0,552,0.0,0.0
+Potato,Odisha,2025-11,405,0,0,0,405,0.0,0.0
+Potato,Odisha,2025-12,356,0,0,2,354,0.0,0.56
+Potato,Odisha,2026-01,342,0,0,0,342,0.0,0.0
+Potato,Odisha,2026-02,370,0,0,0,370,0.0,0.0
+Potato,Odisha,2026-03,366,0,0,0,366,0.0,0.0
+Potato,Odisha,2026-04,431,0,0,2,429,0.0,0.46
+Potato,Odisha,2026-05,547,0,0,2,545,0.0,0.37
+Potato,Odisha,2026-06,480,0,0,0,480,0.0,0.0
+Potato,Odisha,2026-07,490,0,0,0,490,0.0,0.0
+Potato,Odisha,2026-08,498,0,0,0,498,0.0,0.0
+Potato,Odisha,2026-09,487,0,0,0,487,0.0,0.0
+Potato,Odisha,2026-10,299,0,0,2,297,0.0,0.67
+Potato,Punjab,2024-02,1228,0,0,0,1228,0.0,0.0
+Potato,Punjab,2024-03,1408,0,0,0,1408,0.0,0.0
+Potato,Punjab,2024-04,1473,0,0,0,1473,0.0,0.0
+Potato,Punjab,2024-05,1532,0,0,0,1532,0.0,0.0
+Potato,Punjab,2024-06,1414,0,0,0,1414,0.0,0.0
+Potato,Punjab,2024-07,1631,0,0,2,1629,0.0,0.12
+Potato,Punjab,2024-08,1630,0,0,4,1626,0.0,0.25
+Potato,Punjab,2024-09,1713,0,0,4,1709,0.0,0.23
+Potato,Punjab,2024-10,1593,0,0,0,1593,0.0,0.0
+Potato,Punjab,2024-11,1436,0,0,0,1436,0.0,0.0
+Potato,Punjab,2024-12,1581,0,0,4,1577,0.0,0.25
+Potato,Punjab,2025-01,1698,0,0,4,1694,0.0,0.24
+Potato,Punjab,2025-02,1620,0,0,0,1620,0.0,0.0
+Potato,Punjab,2025-03,1726,0,0,0,1726,0.0,0.0
+Potato,Punjab,2025-04,1680,0,0,2,1678,0.0,0.12
+Potato,Punjab,2025-05,1604,0,0,2,1602,0.0,0.12
+Potato,Punjab,2025-06,1567,0,0,2,1565,0.0,0.13
+Potato,Punjab,2025-07,1613,0,0,0,1613,0.0,0.0
+Potato,Punjab,2025-08,1572,0,0,2,1570,0.0,0.13
+Potato,Punjab,2025-09,1583,0,0,0,1583,0.0,0.0
+Potato,Punjab,2025-10,1634,0,0,4,1630,0.0,0.24
+Potato,Punjab,2025-11,1214,0,0,4,1210,0.0,0.33
+Potato,Punjab,2025-12,1336,0,0,12,1324,0.0,0.9
+Potato,Punjab,2026-01,1328,0,0,12,1316,0.0,0.9
+Potato,Punjab,2026-02,1227,0,0,2,1225,0.0,0.16
+Potato,Punjab,2026-03,1263,0,0,4,1259,0.0,0.32
+Potato,Punjab,2026-04,1342,0,0,4,1338,0.0,0.3
+Potato,Punjab,2026-05,1263,0,0,2,1261,0.0,0.16
+Potato,Punjab,2026-06,1333,0,0,4,1329,0.0,0.3
+Potato,Punjab,2026-07,1466,0,0,6,1460,0.0,0.41
+Potato,Punjab,2026-08,1806,0,0,4,1802,0.0,0.22
+Potato,Punjab,2026-09,1798,0,0,2,1796,0.0,0.11
+Potato,Punjab,2026-10,1144,0,0,2,1142,0.0,0.17
+Potato,Rajasthan,2024-02,572,0,0,0,572,0.0,0.0
+Potato,Rajasthan,2024-03,711,0,0,0,711,0.0,0.0
+Potato,Rajasthan,2024-04,604,0,0,0,604,0.0,0.0
+Potato,Rajasthan,2024-05,720,0,0,0,720,0.0,0.0
+Potato,Rajasthan,2024-06,669,0,0,0,669,0.0,0.0
+Potato,Rajasthan,2024-07,735,0,0,0,735,0.0,0.0
+Potato,Rajasthan,2024-08,631,0,0,8,623,0.0,1.27
+Potato,Rajasthan,2024-09,598,0,0,6,592,0.0,1.0
+Potato,Rajasthan,2024-10,605,0,0,0,605,0.0,0.0
+Potato,Rajasthan,2024-11,634,0,0,2,632,0.0,0.32
+Potato,Rajasthan,2024-12,658,0,0,6,652,0.0,0.91
+Potato,Rajasthan,2025-01,630,0,0,12,618,0.0,1.9
+Potato,Rajasthan,2025-02,610,0,0,6,604,0.0,0.98
+Potato,Rajasthan,2025-03,614,0,0,2,612,0.0,0.33
+Potato,Rajasthan,2025-04,617,0,0,8,609,0.0,1.3
+Potato,Rajasthan,2025-05,686,0,0,2,684,0.0,0.29
+Potato,Rajasthan,2025-06,635,0,0,0,635,0.0,0.0
+Potato,Rajasthan,2025-07,672,0,0,2,670,0.0,0.3
+Potato,Rajasthan,2025-08,644,0,0,2,642,0.0,0.31
+Potato,Rajasthan,2025-09,610,0,0,2,608,0.0,0.33
+Potato,Rajasthan,2025-10,548,0,0,2,546,0.0,0.36
+Potato,Rajasthan,2025-11,528,0,0,0,528,0.0,0.0
+Potato,Rajasthan,2025-12,540,0,0,0,540,0.0,0.0
+Potato,Rajasthan,2026-01,535,0,0,4,531,0.0,0.75
+Potato,Rajasthan,2026-02,608,0,0,0,608,0.0,0.0
+Potato,Rajasthan,2026-03,543,0,0,2,541,0.0,0.37
+Potato,Rajasthan,2026-04,570,0,0,0,570,0.0,0.0
+Potato,Rajasthan,2026-05,580,0,0,2,578,0.0,0.34
+Potato,Rajasthan,2026-06,593,0,0,2,591,0.0,0.34
+Potato,Rajasthan,2026-07,617,0,0,0,617,0.0,0.0
+Potato,Rajasthan,2026-08,596,0,0,0,596,0.0,0.0
+Potato,Rajasthan,2026-09,548,0,0,0,548,0.0,0.0
+Potato,Rajasthan,2026-10,372,0,0,0,372,0.0,0.0
+Potato,Tamil Nadu,2024-06,1013,0,0,0,1013,0.0,0.0
+Potato,Tamil Nadu,2024-07,3569,1,1,0,3568,0.03,0.03
+Potato,Tamil Nadu,2024-08,4512,0,0,4,4508,0.0,0.09
+Potato,Tamil Nadu,2024-09,4356,0,0,10,4346,0.0,0.23
+Potato,Tamil Nadu,2024-10,4465,0,0,8,4457,0.0,0.18
+Potato,Tamil Nadu,2024-11,4106,0,0,4,4102,0.0,0.1
+Potato,Tamil Nadu,2024-12,4298,0,0,4,4294,0.0,0.09
+Potato,Tamil Nadu,2025-01,4393,0,0,4,4389,0.0,0.09
+Potato,Tamil Nadu,2025-02,4034,0,0,0,4034,0.0,0.0
+Potato,Tamil Nadu,2025-03,4339,0,0,0,4339,0.0,0.0
+Potato,Tamil Nadu,2025-04,4355,0,0,0,4355,0.0,0.0
+Potato,Tamil Nadu,2025-05,4360,0,0,0,4360,0.0,0.0
+Potato,Tamil Nadu,2025-06,4081,0,0,4,4077,0.0,0.1
+Potato,Tamil Nadu,2025-07,3322,0,0,2,3320,0.0,0.06
+Potato,Tamil Nadu,2025-08,1790,0,0,0,1790,0.0,0.0
+Potato,Tamil Nadu,2025-09,1958,0,0,2,1956,0.0,0.1
+Potato,Tamil Nadu,2025-10,1955,0,0,0,1955,0.0,0.0
+Potato,Tamil Nadu,2025-11,2530,0,0,2,2528,0.0,0.08
+Potato,Tamil Nadu,2025-12,2328,0,0,0,2328,0.0,0.0
+Potato,Tamil Nadu,2026-01,2237,0,0,0,2237,0.0,0.0
+Potato,Tamil Nadu,2026-02,2538,0,0,0,2538,0.0,0.0
+Potato,Tamil Nadu,2026-03,9253,0,0,2,9251,0.0,0.02
+Potato,Tamil Nadu,2026-04,5824,0,0,0,5824,0.0,0.0
+Potato,Tamil Nadu,2026-05,4858,0,0,4,4854,0.0,0.08
+Potato,Tamil Nadu,2026-06,4738,0,0,2,4736,0.0,0.04
+Potato,Tamil Nadu,2026-07,4819,0,0,26,4793,0.0,0.54
+Potato,Tamil Nadu,2026-08,4791,0,0,0,4791,0.0,0.0
+Potato,Tamil Nadu,2026-09,5939,0,0,2,5937,0.0,0.03
+Potato,Tamil Nadu,2026-10,3626,0,0,2,3624,0.0,0.06
+Potato,Telangana,2024-02,278,0,0,0,278,0.0,0.0
+Potato,Telangana,2024-03,286,0,0,0,286,0.0,0.0
+Potato,Telangana,2024-04,263,0,0,0,263,0.0,0.0
+Potato,Telangana,2024-05,303,0,0,0,303,0.0,0.0
+Potato,Telangana,2024-06,308,0,0,0,308,0.0,0.0
+Potato,Telangana,2024-07,280,0,0,0,280,0.0,0.0
+Potato,Telangana,2024-08,255,0,0,0,255,0.0,0.0
+Potato,Telangana,2024-09,257,0,0,0,257,0.0,0.0
+Potato,Telangana,2024-10,258,0,0,0,258,0.0,0.0
+Potato,Telangana,2024-11,210,0,0,0,210,0.0,0.0
+Potato,Telangana,2024-12,242,0,0,2,240,0.0,0.83
+Potato,Telangana,2025-01,217,0,0,0,217,0.0,0.0
+Potato,Telangana,2025-02,218,0,0,4,214,0.0,1.83
+Potato,Telangana,2025-03,217,0,0,0,217,0.0,0.0
+Potato,Telangana,2025-04,201,0,0,0,201,0.0,0.0
+Potato,Telangana,2025-05,214,0,0,0,214,0.0,0.0
+Potato,Telangana,2025-06,172,0,0,0,172,0.0,0.0
+Potato,Telangana,2025-07,163,0,0,0,163,0.0,0.0
+Potato,Telangana,2025-08,224,0,0,0,224,0.0,0.0
+Potato,Telangana,2025-09,169,0,0,0,169,0.0,0.0
+Potato,Telangana,2025-10,190,0,0,0,190,0.0,0.0
+Potato,Telangana,2025-11,128,0,0,0,128,0.0,0.0
+Potato,Telangana,2025-12,122,0,0,2,120,0.0,1.64
+Potato,Telangana,2026-01,150,0,0,0,150,0.0,0.0
+Potato,Telangana,2026-02,168,0,0,0,168,0.0,0.0
+Potato,Telangana,2026-03,184,0,0,0,184,0.0,0.0
+Potato,Telangana,2026-04,272,0,0,0,272,0.0,0.0
+Potato,Telangana,2026-05,313,0,0,0,313,0.0,0.0
+Potato,Telangana,2026-06,603,0,0,0,603,0.0,0.0
+Potato,Telangana,2026-07,442,0,0,2,440,0.0,0.45
+Potato,Telangana,2026-08,502,0,0,2,500,0.0,0.4
+Potato,Telangana,2026-09,511,0,0,4,507,0.0,0.78
+Potato,Telangana,2026-10,314,0,0,0,314,0.0,0.0
+Potato,Tripura,2024-02,594,0,0,0,594,0.0,0.0
+Potato,Tripura,2024-03,669,0,0,0,669,0.0,0.0
+Potato,Tripura,2024-04,587,0,0,0,587,0.0,0.0
+Potato,Tripura,2024-05,738,0,0,0,738,0.0,0.0
+Potato,Tripura,2024-06,681,0,0,2,679,0.0,0.29
+Potato,Tripura,2024-07,687,0,0,0,687,0.0,0.0
+Potato,Tripura,2024-08,611,0,0,0,611,0.0,0.0
+Potato,Tripura,2024-09,604,0,0,4,600,0.0,0.66
+Potato,Tripura,2024-10,533,0,0,0,533,0.0,0.0
+Potato,Tripura,2024-11,558,0,0,0,558,0.0,0.0
+Potato,Tripura,2024-12,613,0,0,0,613,0.0,0.0
+Potato,Tripura,2025-01,595,0,0,2,593,0.0,0.34
+Potato,Tripura,2025-02,575,0,0,0,575,0.0,0.0
+Potato,Tripura,2025-03,594,0,0,0,594,0.0,0.0
+Potato,Tripura,2025-04,551,0,0,0,551,0.0,0.0
+Potato,Tripura,2025-05,575,0,0,0,575,0.0,0.0
+Potato,Tripura,2025-06,570,0,0,0,570,0.0,0.0
+Potato,Tripura,2025-07,543,0,0,0,543,0.0,0.0
+Potato,Tripura,2025-08,547,0,0,0,547,0.0,0.0
+Potato,Tripura,2025-09,495,0,0,0,495,0.0,0.0
+Potato,Tripura,2025-10,518,0,0,0,518,0.0,0.0
+Potato,Tripura,2025-11,417,0,0,40,377,0.0,9.59
+Potato,Tripura,2025-12,408,0,0,0,408,0.0,0.0
+Potato,Tripura,2026-01,494,0,0,0,494,0.0,0.0
+Potato,Tripura,2026-02,537,0,0,0,537,0.0,0.0
+Potato,Tripura,2026-03,586,0,0,0,586,0.0,0.0
+Potato,Tripura,2026-04,598,0,0,0,598,0.0,0.0
+Potato,Tripura,2026-05,620,0,0,0,620,0.0,0.0
+Potato,Tripura,2026-06,595,0,0,0,595,0.0,0.0
+Potato,Tripura,2026-07,624,0,0,0,624,0.0,0.0
+Potato,Tripura,2026-08,613,0,0,4,609,0.0,0.65
+Potato,Tripura,2026-09,571,0,0,0,571,0.0,0.0
+Potato,Tripura,2026-10,319,0,0,0,319,0.0,0.0
+Potato,Uttar Pradesh,2024-02,4198,0,0,0,4198,0.0,0.0
+Potato,Uttar Pradesh,2024-03,4594,0,0,0,4594,0.0,0.0
+Potato,Uttar Pradesh,2024-04,4547,0,0,0,4547,0.0,0.0
+Potato,Uttar Pradesh,2024-05,4910,0,0,2,4908,0.0,0.04
+Potato,Uttar Pradesh,2024-06,4664,0,0,2,4662,0.0,0.04
+Potato,Uttar Pradesh,2024-07,4936,0,0,0,4936,0.0,0.0
+Potato,Uttar Pradesh,2024-08,4777,0,0,16,4761,0.0,0.33
+Potato,Uttar Pradesh,2024-09,4626,0,0,8,4618,0.0,0.17
+Potato,Uttar Pradesh,2024-10,4466,0,0,14,4452,0.0,0.31
+Potato,Uttar Pradesh,2024-11,4171,0,0,12,4159,0.0,0.29
+Potato,Uttar Pradesh,2024-12,4597,0,0,24,4573,0.0,0.52
+Potato,Uttar Pradesh,2025-01,4801,0,0,20,4781,0.0,0.42
+Potato,Uttar Pradesh,2025-02,5106,0,0,30,5076,0.0,0.59
+Potato,Uttar Pradesh,2025-03,5220,0,0,24,5196,0.0,0.46
+Potato,Uttar Pradesh,2025-04,5229,0,0,18,5211,0.0,0.34
+Potato,Uttar Pradesh,2025-05,5555,0,0,22,5533,0.0,0.4
+Potato,Uttar Pradesh,2025-06,5295,0,0,20,5275,0.0,0.38
+Potato,Uttar Pradesh,2025-07,5530,0,0,16,5514,0.0,0.29
+Potato,Uttar Pradesh,2025-08,5222,0,0,14,5208,0.0,0.27
+Potato,Uttar Pradesh,2025-09,5144,0,0,30,5114,0.0,0.58
+Potato,Uttar Pradesh,2025-10,4986,0,0,16,4970,0.0,0.32
+Potato,Uttar Pradesh,2025-11,3773,0,0,0,3773,0.0,0.0
+Potato,Uttar Pradesh,2025-12,3506,0,0,8,3498,0.0,0.23
+Potato,Uttar Pradesh,2026-01,2325,0,0,6,2319,0.0,0.26
+Potato,Uttar Pradesh,2026-02,1321,0,0,2,1319,0.0,0.15
+Potato,Uttar Pradesh,2026-03,3734,0,0,36,3698,0.0,0.96
+Potato,Uttar Pradesh,2026-04,3631,0,0,240,3391,0.0,6.61
+Potato,Uttar Pradesh,2026-05,3633,0,0,139,3494,0.0,3.83
+Potato,Uttar Pradesh,2026-06,3427,0,0,84,3343,0.0,2.45
+Potato,Uttar Pradesh,2026-07,3099,0,0,136,2963,0.0,4.39
+Potato,Uttar Pradesh,2026-08,3124,0,0,150,2974,0.0,4.8
+Potato,Uttar Pradesh,2026-09,3261,0,0,150,3111,0.0,4.6
+Potato,Uttar Pradesh,2026-10,2192,0,0,186,2006,0.0,8.49
+Potato,Uttarakhand,2025-11,324,0,0,0,324,0.0,0.0
+Potato,Uttarakhand,2025-12,339,0,0,2,337,0.0,0.59
+Potato,Uttarakhand,2026-01,338,0,0,0,338,0.0,0.0
+Potato,Uttarakhand,2026-02,331,0,0,0,331,0.0,0.0
+Potato,Uttarakhand,2026-03,302,0,0,0,302,0.0,0.0
+Potato,Uttarakhand,2026-04,299,0,0,0,299,0.0,0.0
+Potato,Uttarakhand,2026-05,299,0,0,0,299,0.0,0.0
+Potato,Uttarakhand,2026-06,298,0,0,2,296,0.0,0.67
+Potato,Uttarakhand,2026-07,347,0,0,0,347,0.0,0.0
+Potato,Uttarakhand,2026-08,343,0,0,0,343,0.0,0.0
+Potato,Uttarakhand,2026-09,315,0,0,0,315,0.0,0.0
+Potato,Uttarakhand,2026-10,210,0,0,0,210,0.0,0.0
+Potato,Uttrakhand,2024-02,330,0,0,0,330,0.0,0.0
+Potato,Uttrakhand,2024-03,314,0,0,0,314,0.0,0.0
+Potato,Uttrakhand,2024-04,280,0,0,0,280,0.0,0.0
+Potato,Uttrakhand,2024-05,361,0,0,0,361,0.0,0.0
+Potato,Uttrakhand,2024-06,347,0,0,0,347,0.0,0.0
+Potato,Uttrakhand,2024-07,351,0,0,0,351,0.0,0.0
+Potato,Uttrakhand,2024-08,347,0,0,0,347,0.0,0.0
+Potato,Uttrakhand,2024-09,279,0,0,0,279,0.0,0.0
+Potato,Uttrakhand,2024-10,342,0,0,0,342,0.0,0.0
+Potato,Uttrakhand,2024-11,336,0,0,0,336,0.0,0.0
+Potato,Uttrakhand,2024-12,374,0,0,2,372,0.0,0.53
+Potato,Uttrakhand,2025-01,355,0,0,4,351,0.0,1.13
+Potato,Uttrakhand,2025-02,340,0,0,0,340,0.0,0.0
+Potato,Uttrakhand,2025-03,338,0,0,0,338,0.0,0.0
+Potato,Uttrakhand,2025-04,271,0,0,0,271,0.0,0.0
+Potato,Uttrakhand,2025-05,317,0,0,2,315,0.0,0.63
+Potato,Uttrakhand,2025-06,336,0,0,2,334,0.0,0.6
+Potato,Uttrakhand,2025-07,338,0,0,2,336,0.0,0.59
+Potato,Uttrakhand,2025-08,360,0,0,0,360,0.0,0.0
+Potato,Uttrakhand,2025-09,331,0,0,0,331,0.0,0.0
+Potato,Uttrakhand,2025-10,318,0,0,0,318,0.0,0.0
+Potato,Uttrakhand,2025-11,47,0,0,0,47,0.0,0.0
+Potato,West Bengal,2024-02,1751,0,0,0,1751,0.0,0.0
+Potato,West Bengal,2024-03,1970,0,0,0,1970,0.0,0.0
+Potato,West Bengal,2024-04,1938,0,0,0,1938,0.0,0.0
+Potato,West Bengal,2024-05,2202,0,0,0,2202,0.0,0.0
+Potato,West Bengal,2024-06,2039,0,0,10,2029,0.0,0.49
+Potato,West Bengal,2024-07,2115,0,0,0,2115,0.0,0.0
+Potato,West Bengal,2024-08,2033,0,0,6,2027,0.0,0.3
+Potato,West Bengal,2024-09,2034,0,0,22,2012,0.0,1.08
+Potato,West Bengal,2024-10,1844,0,0,8,1836,0.0,0.43
+Potato,West Bengal,2024-11,1923,0,0,8,1915,0.0,0.42
+Potato,West Bengal,2024-12,2124,0,0,20,2104,0.0,0.94
+Potato,West Bengal,2025-01,2266,0,0,8,2258,0.0,0.35
+Potato,West Bengal,2025-02,2067,0,0,14,2053,0.0,0.68
+Potato,West Bengal,2025-03,2195,0,0,6,2189,0.0,0.27
+Potato,West Bengal,2025-04,2018,0,0,2,2016,0.0,0.1
+Potato,West Bengal,2025-05,2037,0,0,10,2027,0.0,0.49
+Potato,West Bengal,2025-06,1955,0,0,12,1943,0.0,0.61
+Potato,West Bengal,2025-07,2050,0,0,10,2040,0.0,0.49
+Potato,West Bengal,2025-08,2012,0,0,6,2006,0.0,0.3
+Potato,West Bengal,2025-09,1784,0,0,0,1784,0.0,0.0
+Potato,West Bengal,2025-10,1656,0,0,0,1656,0.0,0.0
+Potato,West Bengal,2025-11,1770,0,0,8,1762,0.0,0.45
+Potato,West Bengal,2025-12,1680,0,0,26,1654,0.0,1.55
+Potato,West Bengal,2026-01,1727,0,0,5,1722,0.0,0.29
+Potato,West Bengal,2026-02,1677,0,0,4,1673,0.0,0.24
+Potato,West Bengal,2026-03,1669,0,0,6,1663,0.0,0.36
+Potato,West Bengal,2026-04,1644,0,0,2,1642,0.0,0.12
+Potato,West Bengal,2026-05,1728,0,0,12,1716,0.0,0.69
+Potato,West Bengal,2026-06,1801,0,0,10,1791,0.0,0.56
+Potato,West Bengal,2026-07,1850,0,0,0,1850,0.0,0.0
+Potato,West Bengal,2026-08,1838,0,0,2,1836,0.0,0.11
+Potato,West Bengal,2026-09,1829,0,0,10,1819,0.0,0.55
+Potato,West Bengal,2026-10,1017,0,0,2,1015,0.0,0.2
+Wheat,Bihar,2024-02,27,0,0,0,27,0.0,0.0
+Wheat,Bihar,2024-03,22,0,0,0,22,0.0,0.0
+Wheat,Bihar,2024-04,75,0,0,0,75,0.0,0.0
+Wheat,Bihar,2024-05,99,0,0,0,99,0.0,0.0
+Wheat,Bihar,2024-06,80,0,0,0,80,0.0,0.0
+Wheat,Bihar,2024-07,71,0,0,0,71,0.0,0.0
+Wheat,Bihar,2024-08,39,0,0,0,39,0.0,0.0
+Wheat,Bihar,2024-09,82,0,0,0,82,0.0,0.0
+Wheat,Bihar,2024-10,86,0,0,0,86,0.0,0.0
+Wheat,Bihar,2024-11,75,0,0,0,75,0.0,0.0
+Wheat,Bihar,2024-12,69,0,0,0,69,0.0,0.0
+Wheat,Bihar,2025-01,28,0,0,0,28,0.0,0.0
+Wheat,Bihar,2025-02,27,0,0,0,27,0.0,0.0
+Wheat,Bihar,2025-03,23,0,0,0,23,0.0,0.0
+Wheat,Bihar,2025-04,32,0,0,0,32,0.0,0.0
+Wheat,Bihar,2025-05,33,0,0,0,33,0.0,0.0
+Wheat,Bihar,2025-06,34,0,0,0,34,0.0,0.0
+Wheat,Bihar,2025-07,26,0,0,0,26,0.0,0.0
+Wheat,Bihar,2025-08,18,0,0,0,18,0.0,0.0
+Wheat,Bihar,2025-09,16,0,0,0,16,0.0,0.0
+Wheat,Bihar,2025-10,8,0,0,0,8,0.0,0.0
+Wheat,Bihar,2025-11,2,0,0,0,2,0.0,0.0
+Wheat,Bihar,2025-12,12,0,0,0,12,0.0,0.0
+Wheat,Bihar,2026-01,8,0,0,0,8,0.0,0.0
+Wheat,Bihar,2026-02,9,0,0,0,9,0.0,0.0
+Wheat,Bihar,2026-03,3,0,0,0,3,0.0,0.0
+Wheat,Bihar,2026-06,76,0,0,0,76,0.0,0.0
+Wheat,Bihar,2026-07,56,0,0,0,56,0.0,0.0
+Wheat,Bihar,2026-08,72,0,0,0,72,0.0,0.0
+Wheat,Bihar,2026-09,63,0,0,0,63,0.0,0.0
+Wheat,Bihar,2026-10,43,0,0,0,43,0.0,0.0
+Wheat,Chattisgarh,2024-02,174,0,0,0,174,0.0,0.0
+Wheat,Chattisgarh,2024-03,271,0,0,0,271,0.0,0.0
+Wheat,Chattisgarh,2024-04,344,0,0,0,344,0.0,0.0
+Wheat,Chattisgarh,2024-05,310,0,0,0,310,0.0,0.0
+Wheat,Chattisgarh,2024-06,235,0,0,0,235,0.0,0.0
+Wheat,Chattisgarh,2024-07,262,0,0,2,260,0.0,0.76
+Wheat,Chattisgarh,2024-08,172,0,0,0,172,0.0,0.0
+Wheat,Chattisgarh,2024-09,136,0,0,0,136,0.0,0.0
+Wheat,Chattisgarh,2024-10,129,0,0,0,129,0.0,0.0
+Wheat,Chattisgarh,2024-11,85,0,0,2,83,0.0,2.35
+Wheat,Chattisgarh,2024-12,88,0,0,0,88,0.0,0.0
+Wheat,Chattisgarh,2025-01,79,0,0,0,79,0.0,0.0
+Wheat,Chattisgarh,2025-02,81,0,0,2,79,0.0,2.47
+Wheat,Chattisgarh,2025-03,202,0,0,0,202,0.0,0.0
+Wheat,Chattisgarh,2025-04,259,0,0,2,257,0.0,0.77
+Wheat,Chattisgarh,2025-05,213,0,0,4,209,0.0,1.88
+Wheat,Chattisgarh,2025-06,146,0,0,0,146,0.0,0.0
+Wheat,Chattisgarh,2025-07,131,0,0,2,129,0.0,1.53
+Wheat,Chattisgarh,2025-08,92,0,0,0,92,0.0,0.0
+Wheat,Chattisgarh,2025-09,132,0,0,0,132,0.0,0.0
+Wheat,Chattisgarh,2025-10,75,0,0,2,73,0.0,2.67
+Wheat,Chattisgarh,2025-11,53,0,0,0,53,0.0,0.0
+Wheat,Chattisgarh,2025-12,59,0,0,0,59,0.0,0.0
+Wheat,Chattisgarh,2026-01,58,0,0,0,58,0.0,0.0
+Wheat,Chattisgarh,2026-02,66,0,0,0,66,0.0,0.0
+Wheat,Chattisgarh,2026-03,134,0,0,0,134,0.0,0.0
+Wheat,Chattisgarh,2026-04,283,0,0,2,281,0.0,0.71
+Wheat,Chattisgarh,2026-05,255,0,0,2,253,0.0,0.78
+Wheat,Chattisgarh,2026-06,246,0,0,0,246,0.0,0.0
+Wheat,Chattisgarh,2026-07,184,0,0,0,184,0.0,0.0
+Wheat,Chattisgarh,2026-08,142,0,0,0,142,0.0,0.0
+Wheat,Chattisgarh,2026-09,116,0,0,0,116,0.0,0.0
+Wheat,Chattisgarh,2026-10,60,0,0,0,60,0.0,0.0
+Wheat,Gujarat,2024-02,1306,0,0,0,1306,0.0,0.0
+Wheat,Gujarat,2024-03,1186,0,0,0,1186,0.0,0.0
+Wheat,Gujarat,2024-04,1397,0,0,0,1397,0.0,0.0
+Wheat,Gujarat,2024-05,1971,0,0,0,1971,0.0,0.0
+Wheat,Gujarat,2024-06,1687,0,0,0,1687,0.0,0.0
+Wheat,Gujarat,2024-07,1966,0,0,0,1966,0.0,0.0
+Wheat,Gujarat,2024-08,1563,0,0,0,1563,0.0,0.0
+Wheat,Gujarat,2024-09,1819,0,0,0,1819,0.0,0.0
+Wheat,Gujarat,2024-10,1724,0,0,0,1724,0.0,0.0
+Wheat,Gujarat,2024-11,1458,0,0,2,1456,0.0,0.14
+Wheat,Gujarat,2024-12,1726,0,0,0,1726,0.0,0.0
+Wheat,Gujarat,2025-01,1686,0,0,0,1686,0.0,0.0
+Wheat,Gujarat,2025-02,1577,0,0,0,1577,0.0,0.0
+Wheat,Gujarat,2025-03,1702,0,0,0,1702,0.0,0.0
+Wheat,Gujarat,2025-04,2105,0,0,2,2103,0.0,0.1
+Wheat,Gujarat,2025-05,2094,0,0,0,2094,0.0,0.0
+Wheat,Gujarat,2025-06,1864,0,0,0,1864,0.0,0.0
+Wheat,Gujarat,2025-07,2025,0,0,0,2025,0.0,0.0
+Wheat,Gujarat,2025-08,1540,0,0,0,1540,0.0,0.0
+Wheat,Gujarat,2025-09,1835,0,0,0,1835,0.0,0.0
+Wheat,Gujarat,2025-10,1166,0,0,2,1164,0.0,0.17
+Wheat,Gujarat,2025-11,1691,0,0,2,1689,0.0,0.12
+Wheat,Gujarat,2025-12,1692,0,0,2,1690,0.0,0.12
+Wheat,Gujarat,2026-01,1546,0,0,0,1546,0.0,0.0
+Wheat,Gujarat,2026-02,1582,0,0,0,1582,0.0,0.0
+Wheat,Gujarat,2026-03,1405,0,0,2,1403,0.0,0.14
+Wheat,Gujarat,2026-04,1936,0,0,4,1932,0.0,0.21
+Wheat,Gujarat,2026-05,1867,0,0,2,1865,0.0,0.11
+Wheat,Gujarat,2026-06,1900,0,0,6,1894,0.0,0.32
+Wheat,Gujarat,2026-07,1705,0,0,0,1705,0.0,0.0
+Wheat,Gujarat,2026-08,1550,0,0,0,1550,0.0,0.0
+Wheat,Gujarat,2026-09,1389,0,0,0,1389,0.0,0.0
+Wheat,Gujarat,2026-10,1040,0,0,0,1040,0.0,0.0
+Wheat,Haryana,2024-02,2,0,0,0,2,0.0,0.0
+Wheat,Haryana,2024-04,629,0,0,0,629,0.0,0.0
+Wheat,Haryana,2024-05,482,0,0,0,482,0.0,0.0
+Wheat,Haryana,2024-06,24,0,0,0,24,0.0,0.0
+Wheat,Haryana,2024-07,24,0,0,0,24,0.0,0.0
+Wheat,Haryana,2024-08,25,0,0,0,25,0.0,0.0
+Wheat,Haryana,2024-09,10,0,0,0,10,0.0,0.0
+Wheat,Haryana,2024-10,9,0,0,0,9,0.0,0.0
+Wheat,Haryana,2024-11,2,0,0,0,2,0.0,0.0
+Wheat,Haryana,2024-12,1,0,0,0,1,0.0,0.0
+Wheat,Haryana,2025-01,3,0,0,0,3,0.0,0.0
+Wheat,Haryana,2025-02,2,0,0,0,2,0.0,0.0
+Wheat,Haryana,2025-03,8,0,0,0,8,0.0,0.0
+Wheat,Haryana,2025-04,1203,0,0,2,1201,0.0,0.17
+Wheat,Haryana,2025-05,440,0,0,0,440,0.0,0.0
+Wheat,Haryana,2025-06,8,0,0,0,8,0.0,0.0
+Wheat,Haryana,2025-07,3,0,0,0,3,0.0,0.0
+Wheat,Haryana,2025-08,9,0,0,0,9,0.0,0.0
+Wheat,Haryana,2025-09,10,0,0,0,10,0.0,0.0
+Wheat,Haryana,2025-12,2,0,0,0,2,0.0,0.0
+Wheat,Haryana,2026-01,2,0,0,0,2,0.0,0.0
+Wheat,Haryana,2026-02,2,0,0,0,2,0.0,0.0
+Wheat,Haryana,2026-03,3,0,0,0,3,0.0,0.0
+Wheat,Haryana,2026-04,1280,0,0,0,1280,0.0,0.0
+Wheat,Haryana,2026-05,439,0,0,2,437,0.0,0.46
+Wheat,Haryana,2026-06,1,0,0,0,1,0.0,0.0
+Wheat,Haryana,2026-07,6,0,0,0,6,0.0,0.0
+Wheat,Haryana,2026-08,4,0,0,0,4,0.0,0.0
+Wheat,Haryana,2026-09,3,0,0,0,3,0.0,0.0
+Wheat,Haryana,2026-10,1,0,0,0,1,0.0,0.0
+Wheat,Himachal Pradesh,2026-04,11,0,0,0,11,0.0,0.0
+Wheat,Himachal Pradesh,2026-05,10,0,0,0,10,0.0,0.0
+Wheat,Himachal Pradesh,2026-06,2,0,0,0,2,0.0,0.0
+Wheat,Karnataka,2024-02,116,0,0,0,116,0.0,0.0
+Wheat,Karnataka,2024-03,187,0,0,0,187,0.0,0.0
+Wheat,Karnataka,2024-04,118,0,0,0,118,0.0,0.0
+Wheat,Karnataka,2024-05,158,0,0,0,158,0.0,0.0
+Wheat,Karnataka,2024-06,165,0,0,0,165,0.0,0.0
+Wheat,Karnataka,2024-07,171,0,0,0,171,0.0,0.0
+Wheat,Karnataka,2024-08,139,0,0,0,139,0.0,0.0
+Wheat,Karnataka,2024-09,139,0,0,0,139,0.0,0.0
+Wheat,Karnataka,2024-10,163,0,0,0,163,0.0,0.0
+Wheat,Karnataka,2024-11,105,0,0,0,105,0.0,0.0
+Wheat,Karnataka,2024-12,100,0,0,0,100,0.0,0.0
+Wheat,Karnataka,2025-01,138,0,0,0,138,0.0,0.0
+Wheat,Karnataka,2025-02,115,0,0,0,115,0.0,0.0
+Wheat,Karnataka,2025-03,46,0,0,0,46,0.0,0.0
+Wheat,Karnataka,2025-04,45,0,0,0,45,0.0,0.0
+Wheat,Karnataka,2025-05,45,0,0,0,45,0.0,0.0
+Wheat,Karnataka,2025-06,40,0,0,0,40,0.0,0.0
+Wheat,Karnataka,2025-07,63,0,0,0,63,0.0,0.0
+Wheat,Karnataka,2025-08,34,0,0,0,34,0.0,0.0
+Wheat,Karnataka,2025-09,49,0,0,0,49,0.0,0.0
+Wheat,Karnataka,2025-10,45,0,0,0,45,0.0,0.0
+Wheat,Karnataka,2025-11,46,0,0,0,46,0.0,0.0
+Wheat,Karnataka,2025-12,47,0,0,0,47,0.0,0.0
+Wheat,Karnataka,2026-01,64,0,0,0,64,0.0,0.0
+Wheat,Karnataka,2026-02,88,0,0,2,86,0.0,2.27
+Wheat,Karnataka,2026-03,299,1,0,0,298,0.33,0.33
+Wheat,Karnataka,2026-04,535,0,0,0,535,0.0,0.0
+Wheat,Karnataka,2026-05,450,0,0,2,448,0.0,0.44
+Wheat,Karnataka,2026-06,331,2,0,0,329,0.6,0.6
+Wheat,Karnataka,2026-07,353,0,0,0,353,0.0,0.0
+Wheat,Karnataka,2026-08,311,0,0,2,309,0.0,0.64
+Wheat,Karnataka,2026-09,289,0,0,0,289,0.0,0.0
+Wheat,Karnataka,2026-10,168,0,0,0,168,0.0,0.0
+Wheat,Madhya Pradesh,2024-02,3187,616,0,0,2571,19.33,19.33
+Wheat,Madhya Pradesh,2024-03,6682,1214,0,0,5468,18.17,18.17
+Wheat,Madhya Pradesh,2024-04,7685,1483,0,0,6202,19.3,19.3
+Wheat,Madhya Pradesh,2024-05,8563,1652,0,592,6430,19.29,24.91
+Wheat,Madhya Pradesh,2024-06,7393,1438,0,884,5262,19.45,28.82
+Wheat,Madhya Pradesh,2024-07,3889,278,0,196,3433,7.15,11.73
+Wheat,Madhya Pradesh,2024-08,7342,0,0,2332,5010,0.0,31.76
+Wheat,Madhya Pradesh,2024-09,7455,0,0,2129,5326,0.0,28.56
+Wheat,Madhya Pradesh,2024-10,7351,0,0,2259,5092,0.0,30.73
+Wheat,Madhya Pradesh,2024-11,6897,0,0,2019,4878,0.0,29.27
+Wheat,Madhya Pradesh,2024-12,6278,0,0,1202,5076,0.0,19.15
+Wheat,Madhya Pradesh,2025-01,6623,0,0,1564,5059,0.0,23.61
+Wheat,Madhya Pradesh,2025-02,6063,0,0,944,5119,0.0,15.57
+Wheat,Madhya Pradesh,2025-03,11922,0,0,3146,8776,0.0,26.39
+Wheat,Madhya Pradesh,2025-04,14326,0,0,2690,11636,0.0,18.78
+Wheat,Madhya Pradesh,2025-05,12065,0,0,1658,10407,0.0,13.74
+Wheat,Madhya Pradesh,2025-06,9008,0,0,290,8718,0.0,3.22
+Wheat,Madhya Pradesh,2025-07,8367,0,0,560,7807,0.0,6.69
+Wheat,Madhya Pradesh,2025-08,7548,0,0,762,6786,0.0,10.1
+Wheat,Madhya Pradesh,2025-09,8334,0,0,1122,7212,0.0,13.46
+Wheat,Madhya Pradesh,2025-10,6505,0,0,458,6047,0.0,7.04
+Wheat,Madhya Pradesh,2025-11,9066,0,0,60,9006,0.0,0.66
+Wheat,Madhya Pradesh,2025-12,9027,0,0,1874,7153,0.0,20.76
+Wheat,Madhya Pradesh,2026-01,8322,0,0,1651,6671,0.0,19.84
+Wheat,Madhya Pradesh,2026-02,7364,0,0,1477,5887,0.0,20.06
+Wheat,Madhya Pradesh,2026-03,10216,0,0,1647,8569,0.0,16.12
+Wheat,Madhya Pradesh,2026-04,14542,0,0,4140,10402,0.0,28.47
+Wheat,Madhya Pradesh,2026-05,14775,0,0,4364,10411,0.0,29.54
+Wheat,Madhya Pradesh,2026-06,11871,0,0,2895,8976,0.0,24.39
+Wheat,Madhya Pradesh,2026-07,10592,0,0,2121,8471,0.0,20.02
+Wheat,Madhya Pradesh,2026-08,7921,0,0,1051,6870,0.0,13.27
+Wheat,Madhya Pradesh,2026-09,7453,0,0,1161,6292,0.0,15.58
+Wheat,Madhya Pradesh,2026-10,4935,0,0,902,4033,0.0,18.28
+Wheat,Maharashtra,2024-02,1427,0,0,0,1427,0.0,0.0
+Wheat,Maharashtra,2024-03,1836,0,0,0,1836,0.0,0.0
+Wheat,Maharashtra,2024-04,1124,0,0,0,1124,0.0,0.0
+Wheat,Maharashtra,2024-05,1813,0,0,0,1813,0.0,0.0
+Wheat,Maharashtra,2024-06,1535,0,0,0,1535,0.0,0.0
+Wheat,Maharashtra,2024-07,1688,0,0,0,1688,0.0,0.0
+Wheat,Maharashtra,2024-08,1642,0,0,2,1640,0.0,0.12
+Wheat,Maharashtra,2024-09,1582,0,0,14,1568,0.0,0.88
+Wheat,Maharashtra,2024-10,1554,0,0,6,1548,0.0,0.39
+Wheat,Maharashtra,2024-11,1424,0,0,4,1420,0.0,0.28
+Wheat,Maharashtra,2024-12,1717,0,0,6,1711,0.0,0.35
+Wheat,Maharashtra,2025-01,1649,0,0,6,1643,0.0,0.36
+Wheat,Maharashtra,2025-02,1491,0,0,4,1487,0.0,0.27
+Wheat,Maharashtra,2025-03,2032,0,0,8,2024,0.0,0.39
+Wheat,Maharashtra,2025-04,1986,0,0,10,1976,0.0,0.5
+Wheat,Maharashtra,2025-05,2105,0,0,18,2087,0.0,0.86
+Wheat,Maharashtra,2025-06,2221,0,0,16,2205,0.0,0.72
+Wheat,Maharashtra,2025-07,2104,0,0,2,2102,0.0,0.1
+Wheat,Maharashtra,2025-08,1684,0,0,8,1676,0.0,0.48
+Wheat,Maharashtra,2025-09,1980,0,0,10,1970,0.0,0.51
+Wheat,Maharashtra,2025-10,1570,0,0,4,1566,0.0,0.25
+Wheat,Maharashtra,2025-11,1382,0,0,0,1382,0.0,0.0
+Wheat,Maharashtra,2025-12,1610,0,0,0,1610,0.0,0.0
+Wheat,Maharashtra,2026-01,1636,0,0,2,1634,0.0,0.12
+Wheat,Maharashtra,2026-02,1722,0,0,8,1714,0.0,0.46
+Wheat,Maharashtra,2026-03,1779,0,0,0,1779,0.0,0.0
+Wheat,Maharashtra,2026-04,2820,0,0,8,2812,0.0,0.28
+Wheat,Maharashtra,2026-05,2632,0,0,20,2612,0.0,0.76
+Wheat,Maharashtra,2026-06,2624,0,0,6,2618,0.0,0.23
+Wheat,Maharashtra,2026-07,2938,0,0,8,2930,0.0,0.27
+Wheat,Maharashtra,2026-08,5307,0,0,18,5289,0.0,0.34
+Wheat,Maharashtra,2026-09,2937,0,0,10,2927,0.0,0.34
+Wheat,Maharashtra,2026-10,1565,0,0,0,1565,0.0,0.0
+Wheat,NCT of Delhi,2024-02,20,0,0,0,20,0.0,0.0
+Wheat,NCT of Delhi,2024-03,50,0,0,0,50,0.0,0.0
+Wheat,NCT of Delhi,2024-04,48,0,0,0,48,0.0,0.0
+Wheat,NCT of Delhi,2024-05,30,0,0,0,30,0.0,0.0
+Wheat,NCT of Delhi,2024-06,58,0,0,0,58,0.0,0.0
+Wheat,NCT of Delhi,2024-07,60,0,0,0,60,0.0,0.0
+Wheat,NCT of Delhi,2024-08,57,0,0,0,57,0.0,0.0
+Wheat,NCT of Delhi,2024-09,63,0,0,0,63,0.0,0.0
+Wheat,NCT of Delhi,2024-10,55,0,0,0,55,0.0,0.0
+Wheat,NCT of Delhi,2024-11,53,0,0,0,53,0.0,0.0
+Wheat,NCT of Delhi,2024-12,54,0,0,0,54,0.0,0.0
+Wheat,NCT of Delhi,2025-01,34,0,0,0,34,0.0,0.0
+Wheat,NCT of Delhi,2025-02,36,0,0,0,36,0.0,0.0
+Wheat,NCT of Delhi,2025-03,44,0,0,0,44,0.0,0.0
+Wheat,NCT of Delhi,2025-04,54,0,0,0,54,0.0,0.0
+Wheat,NCT of Delhi,2025-05,56,0,0,0,56,0.0,0.0
+Wheat,NCT of Delhi,2025-06,40,0,0,0,40,0.0,0.0
+Wheat,NCT of Delhi,2025-07,40,0,0,0,40,0.0,0.0
+Wheat,NCT of Delhi,2025-08,34,0,0,0,34,0.0,0.0
+Wheat,NCT of Delhi,2025-09,36,0,0,0,36,0.0,0.0
+Wheat,NCT of Delhi,2025-10,38,0,0,0,38,0.0,0.0
+Wheat,NCT of Delhi,2025-11,57,0,0,0,57,0.0,0.0
+Wheat,NCT of Delhi,2025-12,65,0,0,2,63,0.0,3.08
+Wheat,NCT of Delhi,2026-01,55,0,0,0,55,0.0,0.0
+Wheat,NCT of Delhi,2026-02,47,0,0,0,47,0.0,0.0
+Wheat,NCT of Delhi,2026-03,59,0,0,0,59,0.0,0.0
+Wheat,NCT of Delhi,2026-04,69,0,0,0,69,0.0,0.0
+Wheat,NCT of Delhi,2026-05,180,0,0,0,180,0.0,0.0
+Wheat,NCT of Delhi,2026-06,100,0,0,2,98,0.0,2.0
+Wheat,NCT of Delhi,2026-07,87,0,0,0,87,0.0,0.0
+Wheat,NCT of Delhi,2026-08,80,0,0,0,80,0.0,0.0
+Wheat,NCT of Delhi,2026-09,73,0,0,0,73,0.0,0.0
+Wheat,NCT of Delhi,2026-10,49,0,0,0,49,0.0,0.0
+Wheat,Nagaland,2026-09,1,0,0,0,1,0.0,0.0
+Wheat,Nagaland,2026-10,2,0,0,0,2,0.0,0.0
+Wheat,Odisha,2024-11,2,0,0,0,2,0.0,0.0
+Wheat,Odisha,2024-12,1,0,0,0,1,0.0,0.0
+Wheat,Punjab,2024-04,1081,0,0,0,1081,0.0,0.0
+Wheat,Punjab,2024-05,1283,0,0,0,1283,0.0,0.0
+Wheat,Punjab,2024-06,5,0,0,0,5,0.0,0.0
+Wheat,Punjab,2024-07,8,0,0,0,8,0.0,0.0
+Wheat,Punjab,2024-08,4,0,0,0,4,0.0,0.0
+Wheat,Punjab,2024-09,14,0,0,0,14,0.0,0.0
+Wheat,Punjab,2024-10,6,0,0,0,6,0.0,0.0
+Wheat,Punjab,2024-11,2,0,0,0,2,0.0,0.0
+Wheat,Punjab,2024-12,13,0,0,0,13,0.0,0.0
+Wheat,Punjab,2025-01,1,0,0,0,1,0.0,0.0
+Wheat,Punjab,2025-02,8,0,0,0,8,0.0,0.0
+Wheat,Punjab,2025-03,3,0,0,0,3,0.0,0.0
+Wheat,Punjab,2025-04,1103,0,0,2,1101,0.0,0.18
+Wheat,Punjab,2025-05,767,0,0,0,767,0.0,0.0
+Wheat,Punjab,2025-06,2,0,0,0,2,0.0,0.0
+Wheat,Punjab,2025-07,5,0,0,0,5,0.0,0.0
+Wheat,Punjab,2025-08,17,0,0,0,17,0.0,0.0
+Wheat,Punjab,2025-09,19,0,0,0,19,0.0,0.0
+Wheat,Punjab,2025-10,10,0,0,0,10,0.0,0.0
+Wheat,Punjab,2025-11,6,0,0,0,6,0.0,0.0
+Wheat,Punjab,2025-12,9,0,0,0,9,0.0,0.0
+Wheat,Punjab,2026-01,5,0,0,0,5,0.0,0.0
+Wheat,Punjab,2026-02,9,0,0,0,9,0.0,0.0
+Wheat,Punjab,2026-03,17,0,0,0,17,0.0,0.0
+Wheat,Punjab,2026-04,1578,0,0,2,1576,0.0,0.13
+Wheat,Punjab,2026-05,614,0,0,0,614,0.0,0.0
+Wheat,Punjab,2026-06,18,0,0,0,18,0.0,0.0
+Wheat,Punjab,2026-07,10,0,0,0,10,0.0,0.0
+Wheat,Punjab,2026-08,17,0,0,0,17,0.0,0.0
+Wheat,Punjab,2026-09,13,0,0,0,13,0.0,0.0
+Wheat,Punjab,2026-10,5,0,0,0,5,0.0,0.0
+Wheat,Rajasthan,2024-02,1068,0,0,0,1068,0.0,0.0
+Wheat,Rajasthan,2024-03,1145,0,0,0,1145,0.0,0.0
+Wheat,Rajasthan,2024-04,1641,0,0,0,1641,0.0,0.0
+Wheat,Rajasthan,2024-05,2117,0,0,6,2111,0.0,0.28
+Wheat,Rajasthan,2024-06,1857,0,0,2,1855,0.0,0.11
+Wheat,Rajasthan,2024-07,2315,0,0,0,2315,0.0,0.0
+Wheat,Rajasthan,2024-08,1510,0,0,14,1496,0.0,0.93
+Wheat,Rajasthan,2024-09,1689,0,0,14,1675,0.0,0.83
+Wheat,Rajasthan,2024-10,1430,0,0,12,1418,0.0,0.84
+Wheat,Rajasthan,2024-11,1352,0,0,8,1344,0.0,0.59
+Wheat,Rajasthan,2024-12,1485,0,0,12,1473,0.0,0.81
+Wheat,Rajasthan,2025-01,1388,0,0,8,1380,0.0,0.58
+Wheat,Rajasthan,2025-02,1175,0,0,2,1173,0.0,0.17
+Wheat,Rajasthan,2025-03,1348,0,0,20,1328,0.0,1.48
+Wheat,Rajasthan,2025-04,2119,0,0,22,2097,0.0,1.04
+Wheat,Rajasthan,2025-05,2434,0,0,28,2406,0.0,1.15
+Wheat,Rajasthan,2025-06,2029,0,0,4,2025,0.0,0.2
+Wheat,Rajasthan,2025-07,1861,0,0,30,1831,0.0,1.61
+Wheat,Rajasthan,2025-08,1688,0,0,8,1680,0.0,0.47
+Wheat,Rajasthan,2025-09,1698,0,0,10,1688,0.0,0.59
+Wheat,Rajasthan,2025-10,1287,0,0,8,1279,0.0,0.62
+Wheat,Rajasthan,2025-11,1298,0,0,0,1298,0.0,0.0
+Wheat,Rajasthan,2025-12,1289,0,0,2,1287,0.0,0.16
+Wheat,Rajasthan,2026-01,1138,0,0,6,1132,0.0,0.53
+Wheat,Rajasthan,2026-02,1375,0,0,8,1367,0.0,0.58
+Wheat,Rajasthan,2026-03,1154,0,0,2,1152,0.0,0.17
+Wheat,Rajasthan,2026-04,1866,0,0,8,1858,0.0,0.43
+Wheat,Rajasthan,2026-05,2100,0,0,14,2086,0.0,0.67
+Wheat,Rajasthan,2026-06,1962,0,0,4,1958,0.0,0.2
+Wheat,Rajasthan,2026-07,1934,0,0,4,1930,0.0,0.21
+Wheat,Rajasthan,2026-08,1572,0,0,2,1570,0.0,0.13
+Wheat,Rajasthan,2026-09,1470,0,0,2,1468,0.0,0.14
+Wheat,Rajasthan,2026-10,860,0,0,2,858,0.0,0.23
+Wheat,Telangana,2024-02,1,0,0,0,1,0.0,0.0
+Wheat,Telangana,2024-03,15,0,0,0,15,0.0,0.0
+Wheat,Telangana,2024-04,26,0,0,0,26,0.0,0.0
+Wheat,Telangana,2024-05,32,0,0,0,32,0.0,0.0
+Wheat,Telangana,2024-06,21,0,0,0,21,0.0,0.0
+Wheat,Telangana,2024-07,15,0,0,0,15,0.0,0.0
+Wheat,Telangana,2024-08,8,0,0,0,8,0.0,0.0
+Wheat,Telangana,2024-09,11,0,0,0,11,0.0,0.0
+Wheat,Telangana,2024-10,1,0,0,0,1,0.0,0.0
+Wheat,Telangana,2024-11,2,0,0,0,2,0.0,0.0
+Wheat,Telangana,2025-02,1,0,0,0,1,0.0,0.0
+Wheat,Telangana,2025-03,10,0,0,0,10,0.0,0.0
+Wheat,Telangana,2025-04,21,0,0,0,21,0.0,0.0
+Wheat,Telangana,2025-05,15,0,0,0,15,0.0,0.0
+Wheat,Telangana,2025-06,6,0,0,0,6,0.0,0.0
+Wheat,Telangana,2025-07,9,0,0,0,9,0.0,0.0
+Wheat,Telangana,2025-08,7,0,0,0,7,0.0,0.0
+Wheat,Telangana,2025-09,9,0,0,0,9,0.0,0.0
+Wheat,Telangana,2025-10,2,0,0,0,2,0.0,0.0
+Wheat,Telangana,2025-11,2,0,0,0,2,0.0,0.0
+Wheat,Telangana,2025-12,2,0,0,0,2,0.0,0.0
+Wheat,Telangana,2026-01,2,0,0,0,2,0.0,0.0
+Wheat,Telangana,2026-03,9,0,0,0,9,0.0,0.0
+Wheat,Telangana,2026-04,14,0,0,0,14,0.0,0.0
+Wheat,Telangana,2026-05,14,0,0,0,14,0.0,0.0
+Wheat,Telangana,2026-06,54,0,0,0,54,0.0,0.0
+Wheat,Telangana,2026-07,21,0,0,0,21,0.0,0.0
+Wheat,Telangana,2026-08,18,0,0,0,18,0.0,0.0
+Wheat,Telangana,2026-09,17,0,0,0,17,0.0,0.0
+Wheat,Telangana,2026-10,4,0,0,0,4,0.0,0.0
+Wheat,Uttar Pradesh,2024-02,2864,0,0,0,2864,0.0,0.0
+Wheat,Uttar Pradesh,2024-03,3040,0,0,0,3040,0.0,0.0
+Wheat,Uttar Pradesh,2024-04,3693,0,0,0,3693,0.0,0.0
+Wheat,Uttar Pradesh,2024-05,4224,0,0,0,4224,0.0,0.0
+Wheat,Uttar Pradesh,2024-06,3807,0,0,8,3799,0.0,0.21
+Wheat,Uttar Pradesh,2024-07,3935,0,0,2,3933,0.0,0.05
+Wheat,Uttar Pradesh,2024-08,3852,0,0,24,3828,0.0,0.62
+Wheat,Uttar Pradesh,2024-09,3661,0,0,10,3651,0.0,0.27
+Wheat,Uttar Pradesh,2024-10,3540,0,0,22,3518,0.0,0.62
+Wheat,Uttar Pradesh,2024-11,3157,0,0,10,3147,0.0,0.32
+Wheat,Uttar Pradesh,2024-12,3371,0,0,10,3361,0.0,0.3
+Wheat,Uttar Pradesh,2025-01,3544,0,0,14,3530,0.0,0.4
+Wheat,Uttar Pradesh,2025-02,3745,0,0,12,3733,0.0,0.32
+Wheat,Uttar Pradesh,2025-03,3625,0,0,42,3583,0.0,1.16
+Wheat,Uttar Pradesh,2025-04,4122,0,0,38,4084,0.0,0.92
+Wheat,Uttar Pradesh,2025-05,4606,0,0,42,4564,0.0,0.91
+Wheat,Uttar Pradesh,2025-06,4143,0,0,20,4123,0.0,0.48
+Wheat,Uttar Pradesh,2025-07,4218,0,0,14,4204,0.0,0.33
+Wheat,Uttar Pradesh,2025-08,4092,0,0,26,4066,0.0,0.64
+Wheat,Uttar Pradesh,2025-09,4035,0,0,16,4019,0.0,0.4
+Wheat,Uttar Pradesh,2025-10,3585,0,0,8,3577,0.0,0.22
+Wheat,Uttar Pradesh,2025-11,2954,0,0,4,2950,0.0,0.14
+Wheat,Uttar Pradesh,2025-12,2676,0,0,6,2670,0.0,0.22
+Wheat,Uttar Pradesh,2026-01,1754,0,0,8,1746,0.0,0.46
+Wheat,Uttar Pradesh,2026-02,1543,0,0,16,1527,0.0,1.04
+Wheat,Uttar Pradesh,2026-03,7542,0,0,538,7004,0.0,7.13
+Wheat,Uttar Pradesh,2026-04,15583,0,0,1102,14481,0.0,7.07
+Wheat,Uttar Pradesh,2026-05,15207,0,0,474,14733,0.0,3.12
+Wheat,Uttar Pradesh,2026-06,10966,0,0,382,10584,0.0,3.48
+Wheat,Uttar Pradesh,2026-07,10030,0,0,222,9808,0.0,2.21
+Wheat,Uttar Pradesh,2026-08,9120,0,0,240,8880,0.0,2.63
+Wheat,Uttar Pradesh,2026-09,8817,0,0,262,8555,0.0,2.97
+Wheat,Uttar Pradesh,2026-10,5236,0,0,208,5028,0.0,3.97
+Wheat,Uttarakhand,2025-11,8,0,0,0,8,0.0,0.0
+Wheat,Uttarakhand,2025-12,20,0,0,0,20,0.0,0.0
+Wheat,Uttarakhand,2026-01,27,0,0,0,27,0.0,0.0
+Wheat,Uttarakhand,2026-02,26,0,0,0,26,0.0,0.0
+Wheat,Uttarakhand,2026-03,29,0,0,0,29,0.0,0.0
+Wheat,Uttarakhand,2026-04,111,0,0,0,111,0.0,0.0
+Wheat,Uttarakhand,2026-05,119,0,0,0,119,0.0,0.0
+Wheat,Uttarakhand,2026-06,78,0,0,0,78,0.0,0.0
+Wheat,Uttarakhand,2026-07,43,0,0,0,43,0.0,0.0
+Wheat,Uttarakhand,2026-08,33,0,0,0,33,0.0,0.0
+Wheat,Uttarakhand,2026-09,31,0,0,0,31,0.0,0.0
+Wheat,Uttarakhand,2026-10,15,0,0,0,15,0.0,0.0
+Wheat,Uttrakhand,2024-02,22,0,0,0,22,0.0,0.0
+Wheat,Uttrakhand,2024-03,22,0,0,0,22,0.0,0.0
+Wheat,Uttrakhand,2024-04,36,0,0,0,36,0.0,0.0
+Wheat,Uttrakhand,2024-05,80,0,0,0,80,0.0,0.0
+Wheat,Uttrakhand,2024-06,42,0,0,0,42,0.0,0.0
+Wheat,Uttrakhand,2024-07,28,0,0,0,28,0.0,0.0
+Wheat,Uttrakhand,2024-08,22,0,0,0,22,0.0,0.0
+Wheat,Uttrakhand,2024-09,24,0,0,0,24,0.0,0.0
+Wheat,Uttrakhand,2024-10,14,0,0,0,14,0.0,0.0
+Wheat,Uttrakhand,2024-11,11,0,0,0,11,0.0,0.0
+Wheat,Uttrakhand,2024-12,12,0,0,0,12,0.0,0.0
+Wheat,Uttrakhand,2025-01,23,0,0,0,23,0.0,0.0
+Wheat,Uttrakhand,2025-02,16,0,0,0,16,0.0,0.0
+Wheat,Uttrakhand,2025-03,25,0,0,0,25,0.0,0.0
+Wheat,Uttrakhand,2025-04,102,0,0,0,102,0.0,0.0
+Wheat,Uttrakhand,2025-05,102,0,0,0,102,0.0,0.0
+Wheat,Uttrakhand,2025-06,72,0,0,0,72,0.0,0.0
+Wheat,Uttrakhand,2025-07,32,0,0,0,32,0.0,0.0
+Wheat,Uttrakhand,2025-08,29,0,0,0,29,0.0,0.0
+Wheat,Uttrakhand,2025-09,23,0,0,0,23,0.0,0.0
+Wheat,Uttrakhand,2025-10,8,0,0,0,8,0.0,0.0
+Wheat,Uttrakhand,2025-11,1,0,0,0,1,0.0,0.0
+Wheat,West Bengal,2024-02,279,0,0,0,279,0.0,0.0
+Wheat,West Bengal,2024-03,320,0,0,0,320,0.0,0.0
+Wheat,West Bengal,2024-04,307,0,0,0,307,0.0,0.0
+Wheat,West Bengal,2024-05,361,0,0,2,359,0.0,0.55
+Wheat,West Bengal,2024-06,348,0,0,2,346,0.0,0.57
+Wheat,West Bengal,2024-07,363,0,0,0,363,0.0,0.0
+Wheat,West Bengal,2024-08,373,0,0,0,373,0.0,0.0
+Wheat,West Bengal,2024-09,338,0,0,0,338,0.0,0.0
+Wheat,West Bengal,2024-10,325,0,0,0,325,0.0,0.0
+Wheat,West Bengal,2024-11,321,0,0,0,321,0.0,0.0
+Wheat,West Bengal,2024-12,342,0,0,2,340,0.0,0.58
+Wheat,West Bengal,2025-01,318,0,0,0,318,0.0,0.0
+Wheat,West Bengal,2025-02,338,0,0,12,326,0.0,3.55
+Wheat,West Bengal,2025-03,361,0,0,2,359,0.0,0.55
+Wheat,West Bengal,2025-04,363,0,0,8,355,0.0,2.2
+Wheat,West Bengal,2025-05,363,0,0,4,359,0.0,1.1
+Wheat,West Bengal,2025-06,330,0,0,0,330,0.0,0.0
+Wheat,West Bengal,2025-07,383,0,0,0,383,0.0,0.0
+Wheat,West Bengal,2025-08,375,0,0,0,375,0.0,0.0
+Wheat,West Bengal,2025-09,351,0,0,0,351,0.0,0.0
+Wheat,West Bengal,2025-10,350,0,0,0,350,0.0,0.0
+Wheat,West Bengal,2025-11,341,0,0,0,341,0.0,0.0
+Wheat,West Bengal,2025-12,293,0,0,0,293,0.0,0.0
+Wheat,West Bengal,2026-01,274,0,0,0,274,0.0,0.0
+Wheat,West Bengal,2026-02,266,0,0,0,266,0.0,0.0
+Wheat,West Bengal,2026-03,287,0,0,0,287,0.0,0.0
+Wheat,West Bengal,2026-04,234,0,0,0,234,0.0,0.0
+Wheat,West Bengal,2026-05,280,0,0,0,280,0.0,0.0
+Wheat,West Bengal,2026-06,295,0,0,0,295,0.0,0.0
+Wheat,West Bengal,2026-07,294,0,0,0,294,0.0,0.0
+Wheat,West Bengal,2026-08,296,0,0,4,292,0.0,1.35
+Wheat,West Bengal,2026-09,273,0,0,0,273,0.0,0.0
+Wheat,West Bengal,2026-10,171,0,0,0,171,0.0,0.0

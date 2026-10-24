@@ -1,0 +1,173 @@
+{
+ "audit": {
+  "output_hashes_match_manifest": true,
+  "manifest_decision": "D-50",
+  "manifest_r09u_approved": false,
+  "candidate_start": "2024-02-03",
+  "provenance_crop_days": 2973,
+  "provenance_hash_matches_manifest": true,
+  "record_ref_unique": false,
+  "record_ref_unique_among_usable": true,
+  "type_variant_duplicates": {
+   "records": 42,
+   "usable": 0,
+   "labelled": {
+    "key_conflict": 42
+   },
+   "dates": [
+    "01/11/2025",
+    "02/11/2025",
+    "03/11/2025",
+    "04/11/2025",
+    "05/11/2025"
+   ]
+  },
+  "records_date_range": [
+   "2024-02-03",
+   "2026-10-20"
+  ],
+  "no_input_before_2024_02_03": true,
+  "records_excluded_only_by_r09u": 0,
+  "unusable_without_documented_reason": 0,
+  "usable_despite_a_reason": 0,
+  "dedup_groups": 3889,
+  "dedup_groups_spanning_grades": 0,
+  "dedup_removed_records_vs_log": [
+   3873,
+   3873
+  ],
+  "grades_in_faq_only": [
+   "FAQ"
+  ],
+  "grades_in_faq_local": [
+   "FAQ",
+   "Local"
+  ],
+  "build_code_path_literals_to_protected_data": [],
+  "per_design": {
+   "faq_only": {
+    "weekly_rows": 312994,
+    "weekly_key_unique": true,
+    "weekly_weeks": [
+     "2024-02-05",
+     "2026-10-12"
+    ],
+    "model_table_equals_rebuild_from_weekly": true,
+    "targets_exactly_h_weeks_after_origin": true,
+    "lags_strictly_before_origin": true,
+    "eligible_d41_matches_record_dates": {
+     "sampled_origins": 40,
+     "complete_week_count_equals_d41_count": 18,
+     "eligibility_agrees": 40,
+     "max_partial_week_dates": 2
+    }
+   },
+   "faq_local": {
+    "weekly_rows": 384949,
+    "weekly_key_unique": true,
+    "weekly_weeks": [
+     "2024-02-05",
+     "2026-10-12"
+    ],
+    "model_table_equals_rebuild_from_weekly": true,
+    "targets_exactly_h_weeks_after_origin": true,
+    "lags_strictly_before_origin": true,
+    "eligible_d41_matches_record_dates": {
+     "sampled_origins": 40,
+     "complete_week_count_equals_d41_count": 33,
+     "eligibility_agrees": 40,
+     "max_partial_week_dates": 2
+    }
+   },
+   "pooled": {
+    "weekly_rows": 427793,
+    "weekly_key_unique": true,
+    "weekly_weeks": [
+     "2024-02-05",
+     "2026-10-12"
+    ],
+    "model_table_equals_rebuild_from_weekly": true,
+    "targets_exactly_h_weeks_after_origin": true,
+    "lags_strictly_before_origin": true,
+    "eligible_d41_matches_record_dates": {
+     "sampled_origins": 40,
+     "complete_week_count_equals_d41_count": 24,
+     "eligibility_agrees": 40,
+     "max_partial_week_dates": 2
+    }
+   }
+  }
+ },
+ "proposed_split": {
+  "train": [
+   null,
+   "2025-12-28"
+  ],
+  "validation": [
+   "2026-01-04",
+   "2026-06-28"
+  ],
+  "test": [
+   "2026-07-05",
+   "2026-10-18"
+  ]
+ },
+ "refits": [
+  "2026-01-04",
+  "2026-04-05",
+  "2026-07-05",
+  "2026-10-04"
+ ],
+ "sensitivity": {
+  "r09u": {
+   "cells_lost": {
+    "Onion": 4,
+    "Potato": 2
+   },
+   "cells_changed": {
+    "Onion": 7,
+    "Potato": 1
+   },
+   "median_abs_rel_change_of_changed_cells": 0.241,
+   "flagged_records_in_design": {
+    "Onion": 13,
+    "Potato": 7
+   },
+   "top_markets": {
+    "Onion|Punjab|Patiala|Samana APMC": 23,
+    "Potato|Tamil Nadu|Thiruvarur|Thiruvarur": 20,
+    "Potato|Tamil Nadu|Salem|Thammampati": 20,
+    "Potato|Tamil Nadu|Thiruvarur|Mannarkudi": 20,
+    "Potato|Tamil Nadu|Thiruchirappalli|Thuraiyur": 20,
+    "Potato|Tamil Nadu|Thiruchirappalli|Lalgudi": 20,
+    "Potato|Tamil Nadu|Cuddalore|Cuddalore": 20,
+    "Potato|Tamil Nadu|Cuddalore|Chidambaram": 20
+   }
+  },
+  "wheat_conflicts": {
+   "conflict_records": 52488,
+   "mp_share_pct": 91.7,
+   "faq_only": {
+    "cells_touched_by_conflicts": 13139,
+    "of_which_still_have_usable_records": 12593,
+    "cells_lost_entirely": 546,
+    "usable_cells": 137582,
+    "lost_pct_of_usable": 0.4
+   },
+   "faq_local": {
+    "cells_touched_by_conflicts": 13170,
+    "of_which_still_have_usable_records": 12624,
+    "cells_lost_entirely": 546,
+    "usable_cells": 143740,
+    "lost_pct_of_usable": 0.38
+   },
+   "pooled": {
+    "cells_touched_by_conflicts": 14951,
+    "of_which_still_have_usable_records": 14478,
+    "cells_lost_entirely": 473,
+    "usable_cells": 159012,
+    "lost_pct_of_usable": 0.3
+   }
+  }
+ }
+}

@@ -1,0 +1,63 @@
+{
+ "decisions": {
+  "separate_pending_review": 1053,
+  "separate_not_mapped": 605,
+  "approved_candidate_experiment": 440,
+  "separate_unresolved": 81,
+  "separate_rejected": 14
+ },
+ "approved_pairs": 440,
+ "medium_sample_reproducible": true,
+ "worksheet_rows": 160,
+ "worksheet_decisions_filled": 0,
+ "scale_rule": {
+  "Onion": {
+   "S1_review": 477,
+   "S1_scale_error": 54,
+   "S1_unit_scale": 53,
+   "all_scale_error": 1777,
+   "all_unit_scale": 2039
+  },
+  "Potato": {
+   "S1_review": 79,
+   "S1_scale_error": 9,
+   "S1_unit_scale": 9,
+   "all_scale_error": 693,
+   "all_unit_scale": 1579
+  },
+  "Wheat": {
+   "S1_review": 23,
+   "S1_scale_error": 14,
+   "S1_unit_scale": 0,
+   "all_scale_error": 335,
+   "all_unit_scale": 4
+  }
+ },
+ "faq_local_evidence": {
+  "dominant_grade_transitions_pre_to_post": {
+   "FAQ->FAQ": 729,
+   "Local->Local": 295,
+   "FAQ->Medium": 88,
+   "FAQ->Local": 83,
+   "FAQ->Non-FAQ": 48,
+   "FAQ->Grade A": 28,
+   "FAQ->Grade B": 18,
+   "Non-FAQ->Local": 8
+  },
+  "faq_local_same_day_pairs": 473,
+  "exactly_equal_share": 0.321,
+  "median_abs_rel_diff": 0.0038,
+  "pairs_by_state_top": {
+   "Uttar Pradesh": 359,
+   "Rajasthan": 63,
+   "Maharashtra": 28,
+   "Karnataka": 9,
+   "Gujarat": 3
+  }
+ },
+ "usable_for_target_by_crop": {
+  "Onion": 670140,
+  "Potato": 642124,
+  "Wheat": 599349
+ }
+}

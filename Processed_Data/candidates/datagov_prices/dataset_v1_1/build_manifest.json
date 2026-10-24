@@ -1,0 +1,59 @@
+{
+ "version": "candidate-prices-v1.1",
+ "decision": "D-50",
+ "crop_days": 2973,
+ "stages": [
+  "S1",
+  "S2",
+  "S3"
+ ],
+ "inputs": {
+  "crop_day_manifest": "e9b96b5c7e99fcf3d7d95d71b222787cb483c494d4edd7ce15b5be9a773e0f8c",
+  "mapping_decisions": "74fa253aef05a6f5f137a577b7302a1e34a21d41da4ff381d439015f0d5f0929",
+  "contract_sha256": "da5907072dbd7fff6f781b785128e7fa55c9ca668689952fa179e64d649ecc4d"
+ },
+ "outputs": {
+  "model_table_faq_local.parquet": {
+   "rows": 971087,
+   "sha256": "c2e0ee44b09d0f07e6d537dafd0a2385bd5dc1a9bd3ac768d56513acfa107d9f"
+  },
+  "model_table_faq_only.parquet": {
+   "rows": 783244,
+   "sha256": "a2e3aad65a7917ed666ded2468b173365663b5320b799d92589f40870d3f7f2d"
+  },
+  "model_table_pooled.parquet": {
+   "rows": 1084856,
+   "sha256": "cfdd4ae602d3953618752dfe4f433e7b23504f905ab33d312c15aba9c69744e0"
+  },
+  "records_onion.parquet": {
+   "rows": 683604,
+   "sha256": "3dde1ff41d9aa6acf220ac695ed2200275381f4b5f76fa369101172688a7bb36"
+  },
+  "records_potato.parquet": {
+   "rows": 647268,
+   "sha256": "fe3fe97b8260bc630ed15a077d1a2e248e5d43be3bc892417325ba20259effc7"
+  },
+  "records_wheat.parquet": {
+   "rows": 659439,
+   "sha256": "4c3302a55809ee0f78a2c650c6f4e6c7cd8ea50b767fea21b3f0e243d8db9b45"
+  },
+  "weekly_faq_local.parquet": {
+   "rows": 384953,
+   "sha256": "fe51a75f11e96a83ee486e994cf52701fcaa8e37cfa6fb58639db3052e8e4401"
+  },
+  "weekly_faq_only.parquet": {
+   "rows": 312998,
+   "sha256": "07ee3a21c2eda8126a24f4254e9b0a4b108f3646ce299c5e07898b22a961b4ef"
+  },
+  "weekly_pooled.parquet": {
+   "rows": 427798,
+   "sha256": "0e8191aae9f6375bb98d6de7f74e3438223c0f83726c8df08fd2998746f8e362"
+  }
+ },
+ "r09u_approved": false,
+ "candidate_start": "2024-02-03",
+ "changes_from_v1": [
+  "A1: n_usable_dates_to_origin counts every usable date <= origin (D-41), including the partial first week 2024-02-03/04 that v1 skipped; weekly cells still use complete weeks only",
+  "A2: records identical in all 11 source fields as text (string- vs number-typed JSON copies from the feed) are type_variant_duplicate: the string-typed copy is kept, the other excluded, before R03; they were mislabelled key_conflict in v1"
+ ]
+}

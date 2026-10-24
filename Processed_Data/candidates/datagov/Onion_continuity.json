@@ -1,0 +1,181 @@
+[
+ {
+  "date": "17/01/2024",
+  "api_total": 556,
+  "retrieved": 556,
+  "dup_rows": 87,
+  "market_name_in_existing_pct": 98.6,
+  "variety_in_existing_pct": 100.0,
+  "grades": {
+   "FAQ": 556
+  },
+  "top_varieties": {
+   "Other": 181,
+   "Red": 153,
+   "Onion": 75,
+   "Big": 30,
+   "Local": 24
+  },
+  "example_unmatched_markets": [
+   [
+    "Rajasthan",
+    "Chomu (F&V)"
+   ],
+   [
+    "Rajasthan",
+    "Jodhpur (F&V)"
+   ],
+   [
+    "Maharashtra",
+    "Chattrapati Sambhajinagar"
+   ],
+   [
+    "Maharashtra",
+    "Dharashiv"
+   ],
+   [
+    "Haryana",
+    "Tauru"
+   ],
+   [
+    "Rajasthan",
+    "Bassi"
+   ],
+   [
+    "Rajasthan",
+    "Kota (F&V)"
+   ],
+   [
+    "Uttar Pradesh",
+    "Pukharayan"
+   ]
+  ],
+  "modal_min_max": [
+   100.0,
+   20840.0
+  ]
+ },
+ {
+  "date": "18/06/2025",
+  "api_total": 829,
+  "retrieved": 829,
+  "dup_rows": 139,
+  "market_name_in_existing_pct": 76.7,
+  "variety_in_existing_pct": 99.4,
+  "grades": {
+   "FAQ": 502,
+   "Local": 221,
+   "Non-FAQ": 106
+  },
+  "top_varieties": {
+   "Other": 239,
+   "Red": 165,
+   "Bellary": 158,
+   "Onion": 123,
+   "Local": 30
+  },
+  "example_unmatched_markets": [
+   [
+    "Tamil Nadu",
+    "Andipatti(Uzhavar Sandhai )"
+   ],
+   [
+    "Tamil Nadu",
+    "Bodinayakanur(Uzhavar Sandhai )"
+   ],
+   [
+    "Tamil Nadu",
+    "Devaram(Uzhavar Sandhai )"
+   ],
+   [
+    "Tamil Nadu",
+    "Lalgudi(Uzhavar Sandhai )"
+   ],
+   [
+    "Tamil Nadu",
+    "Manapparai(Uzhavar Sandhai )"
+   ],
+   [
+    "Tamil Nadu",
+    "Musiri(Uzhavar Sandhai )"
+   ],
+   [
+    "Tamil Nadu",
+    "Mannargudi II(Uzhavar Sandhai )"
+   ],
+   [
+    "Tamil Nadu",
+    "Muthupettai(Uzhavar Sandhai )"
+   ]
+  ],
+  "modal_min_max": [
+   100.0,
+   8100.0
+  ]
+ },
+ {
+  "date": "20/10/2026",
+  "api_total": 530,
+  "retrieved": 530,
+  "dup_rows": 95,
+  "market_name_in_existing_pct": 3.4,
+  "variety_in_existing_pct": 95.8,
+  "grades": {
+   "Local": 274,
+   "FAQ": 131,
+   "Medium": 42,
+   "Grade A": 41,
+   "Grade B": 18,
+   "Non-FAQ": 14,
+   "Large": 4,
+   "Grade C": 3,
+   "Grade Range-2": 2,
+   "Small": 1
+  },
+  "top_varieties": {
+   "Bellary": 180,
+   "Other": 109,
+   "Onion": 104,
+   "Nasik": 32,
+   "Local": 25
+  },
+  "example_unmatched_markets": [
+   [
+    "Tripura",
+    "Dasda APMC"
+   ],
+   [
+    "Haryana",
+    "Sonepat APMC"
+   ],
+   [
+    "Telangana",
+    "RYTHU BAZAR FALAKNUMA"
+   ],
+   [
+    "Madhya Pradesh",
+    "Indore APMC"
+   ],
+   [
+    "Punjab",
+    "Garh Shankar APMC"
+   ],
+   [
+    "Haryana",
+    "Madlauda APMC"
+   ],
+   [
+    "Haryana",
+    "Thanesar APMC"
+   ],
+   [
+    "Himachal Pradesh",
+    "SMY Nagrota Bagwan"
+   ]
+  ],
+  "modal_min_max": [
+   190.0,
+   13000.0
+  ]
+ }
+]

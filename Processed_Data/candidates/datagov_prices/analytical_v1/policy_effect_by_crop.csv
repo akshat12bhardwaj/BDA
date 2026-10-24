@@ -1,0 +1,4 @@
+Commodity,records,usable_before,usable_after,excluded_by_policy,markets_before,markets_after,weekly_cells_before,weekly_cells_after,weekly_cells_lost_pct
+Onion,683604,683604,673263,10341,2875,2875,140662,140349,0.22
+Potato,647268,647268,644180,3088,2682,2682,131777,131714,0.05
+Wheat,659439,659439,600587,58852,3067,3067,161969,160044,1.19

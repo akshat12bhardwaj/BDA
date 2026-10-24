@@ -1,0 +1,155 @@
+{
+ "acceptance_rule": "per crop: eligible for further consideration only if MAE(price+weather) < MAE(persistence) in 2026Q1 AND in 2026Q2, AND the market-clustered 95% CI of skill vs persistence is entirely above 0 in each quarter; identical eligible rows; 10000 replicates, seed 20261022; fixed before any training, never relaxed",
+ "disclosures": [
+  "restricted geography: 46 district points cover about 18-23% of eligible validation rows (coverage CSV)",
+  "selection bias: the evaluable markets are reconciled, continuing, weather-district markets only",
+  "weather validation is 46 points against IMD gridded analyses, not national validation; Tmax/Tmin location biases up to about 3-4 C are reported, not corrected"
+ ],
+ "excluded": [
+  "daily rain (fails IMD daily validation, \u00a78.3)",
+  "same-day weather",
+  "observed future weather used as a forecast",
+  "any IMD gridded value"
+ ],
+ "experiment": "exp-candidate-weather-v1",
+ "guards": [
+  "protocol and dataset hashes (baselines_candidate.preflight)",
+  "test window never loaded (parquet filter)",
+  "no 2023 holdout or pre-2024-02-03 data",
+  "weather manifest hash must match",
+  "IMD refused as feature input",
+  "R09u disabled",
+  "no tuning, no alternative feature sets after results"
+ ],
+ "hashes": {
+  "Code/candidates/baselines_candidate.py": "7a68433c04e460dedc8a59d71cbdc7ee1d75ac3f0db223b55399f2738e23184f",
+  "Code/candidates/learned_candidate.py": "f469de111a49d8c22c51f901ce26c472ad26491abd81a75ec1c53aa5fb809b89",
+  "Code/candidates/weather_experiment_design.py": "9f4170fba29a144e41040f41edfb446a44ad308c306ab8be36aeba20e7c17040",
+  "Code/candidates/weather_extension.py": "4ccb4c1bca3ac1b7b4869fe51afd8038b59583e95befb761903514152e44807f",
+  "Code/modelling/models.py": "42e7026bc2c0c49d54abaf693bd06f815c37f107d05e5486df33bde032f36670",
+  "dataset_manifest_sha256": "4a04140dc4abd00e8db7beb74f91b56c0102545feab6f9e4c5659f9e226127d6",
+  "learned_preregistration_sha256": "03df2c4d1b20193fc80e8c18fdffef46aa9b5b5e221f32d0f4fabd9325f0cf43",
+  "protocol_lf_sha256": "a6b1240c4c4f80da15a02fea946ca5f79f07617d9ccbabb7479ebb65193ae9ee"
+ },
+ "missing_values": "a row is excluded from BOTH methods if any weather feature is NaN (identical rows); no imputation",
+ "models": {
+  "baseline": "persistence (y_origin)",
+  "diagnostic": "the same estimator on the 9 price features only, trained and scored on the same restricted rows (isolates the weather contribution; not part of the acceptance rule)",
+  "primary": "hgb_conservative unchanged (estimator_params as \u00a77.5) on the 9 registered price features + 5 weather features",
+  "training": "per crop and refit: Phase 8 eligible_by_refit examples ended by the refit, restricted to weather-district series with all weather features non-null"
+ },
+ "multiple_comparisons": "reported, not used to relax: Bonferroni-adjusted (6 crop x quarter tests) 99.17% market-cluster intervals beside the 95% ones; any pass requires confirmation on data after 2026-10-20 before any test-window request",
+ "nature": "EXPLORATORY. The 2026 validation window already scored the failed price-only learned model (\u00a77.5); this is a second model on the same window, so a pass is an exploratory signal, not confirmation",
+ "population": "FAQ-only, h = 1, eligible_d41 at the origin, canonical market in one of the 46 weather districts (exact state + district, as Phase 4); every weather feature non-null on the row",
+ "question": "Does price plus appropriately lagged weather improve on persistence for the same eligible markets and forecast dates?",
+ "restricted_coverage": [
+  {
+   "crop": "Onion",
+   "eligible_rows": 1038,
+   "quarter": "2026Q1",
+   "top_state": "West Bengal",
+   "top_state_share": 0.382,
+   "weather_markets": 20,
+   "weather_row_pct": 19.7,
+   "weather_rows": 204,
+   "weather_states": 6
+  },
+  {
+   "crop": "Onion",
+   "eligible_rows": 938,
+   "quarter": "2026Q2",
+   "top_state": "West Bengal",
+   "top_state_share": 0.308,
+   "weather_markets": 22,
+   "weather_row_pct": 26.3,
+   "weather_rows": 247,
+   "weather_states": 7
+  },
+  {
+   "crop": "Potato",
+   "eligible_rows": 1069,
+   "quarter": "2026Q1",
+   "top_state": "West Bengal",
+   "top_state_share": 0.417,
+   "weather_markets": 19,
+   "weather_row_pct": 14.6,
+   "weather_rows": 156,
+   "weather_states": 3
+  },
+  {
+   "crop": "Potato",
+   "eligible_rows": 1010,
+   "quarter": "2026Q2",
+   "top_state": "West Bengal",
+   "top_state_share": 0.529,
+   "weather_markets": 17,
+   "weather_row_pct": 20.8,
+   "weather_rows": 210,
+   "weather_states": 3
+  },
+  {
+   "crop": "Wheat",
+   "eligible_rows": 1292,
+   "quarter": "2026Q1",
+   "top_state": "Madhya Pradesh",
+   "top_state_share": 0.545,
+   "weather_markets": 23,
+   "weather_row_pct": 19.7,
+   "weather_rows": 255,
+   "weather_states": 3
+  },
+  {
+   "crop": "Wheat",
+   "eligible_rows": 2039,
+   "quarter": "2026Q2",
+   "top_state": "Madhya Pradesh",
+   "top_state_share": 0.552,
+   "weather_markets": 29,
+   "weather_row_pct": 20.3,
+   "weather_rows": 413,
+   "weather_states": 4
+  }
+ ],
+ "sensitivity_analyses_reported_not_selected": [
+  "realtime lag: windows ending origin Sunday minus 6 days (about the ERA5 delay)",
+  "7-day features only (drop the two 28-day features)",
+  "excluding locations with |Tmax bias| > 2 C or |Tmin bias| > 2 C vs IMD in imd_validation.csv (extension, all seasons)",
+  "state-cluster bootstrap; leave-one-state-out"
+ ],
+ "split_refits_seed": {
+  "refit_rule": "phase8_quarterly",
+  "reps": 10000,
+  "seed": 20261022,
+  "split": {
+   "test": [
+    "2026-07-05",
+    "2026-10-18"
+   ],
+   "train": [
+    null,
+    "2025-12-28"
+   ],
+   "validation": [
+    "2026-01-04",
+    "2026-06-28"
+   ]
+  }
+ },
+ "status": "PRE-REGISTERED PROPOSAL; NOT EXECUTED; requires owner authorisation",
+ "weather_features": {
+  "wx_rain_anom_28d": "wx_rain_sum_28d minus the climatological mean 28-day sum for the same end day-of-year, fitted only on weather dated <= the applicable refit date (NaN if no earlier year has that window)",
+  "wx_rain_sum_28d": "sum of rain_sum over the 28 days ending L days before the origin Sunday",
+  "wx_rain_sum_7d": "sum of rain_sum over the 7 days ending L days before the origin Sunday",
+  "wx_tmax_mean_7d": "mean of temperature_2m_max over the same 7 days",
+  "wx_tmin_mean_7d": "mean of temperature_2m_min over the same 7 days"
+ },
+ "weather_source": {
+  "forbidden_feature_sources": [
+   "Dataset_Candidates\\imd_gridded\\2026-10-24"
+  ],
+  "manifest_sha256": "bf17bf6bf5106b894d7726d54da702b890163ba3618bd982511905568ca44ed7",
+  "path": "Dataset_Candidates\\openmeteo_ext\\2026-10-24\\ext",
+  "vintage": "Open-Meteo archive as retrieved 2026-10-24 (no API version field exists)"
+ },
+ "window_end": "origin Sunday minus 1 day (primary)"
+}

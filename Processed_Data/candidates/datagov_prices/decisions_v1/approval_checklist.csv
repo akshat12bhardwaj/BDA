@@ -1,0 +1,7 @@
+item,status
+mapping_440_pairs,"recorded D-50: 440 one-to-one pairs, candidate experiment only"
+medium_review,"recorded D-50: build proceeds with 0 of 160 worksheet decisions; all 1,053 medium pairs stay separate"
+primary_grade_design,recorded D-50: faq_only primary; faq_local and pooled as sensitivity experiments
+r09u_unit_scale,"recorded D-50: NOT approved, disabled (R09U_APPROVED = False); evidence kept for a future review"
+u3_holdout_as_history,recorded D-50: no data before 2024-02-03; section P holdout not run; 2023 not ordinary history
+mar_apr_2026_dual_reporting,recorded D-50: kept separate (identity not established)

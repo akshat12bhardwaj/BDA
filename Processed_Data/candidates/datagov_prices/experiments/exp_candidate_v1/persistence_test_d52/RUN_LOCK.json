@@ -1,0 +1,6 @@
+{
+ "decision": "D-52",
+ "status": "started; the test window is read after this file exists",
+ "utc": "2026-10-24T14:37:24+00:00",
+ "freeze_manifest_sha256": "3298a555e5fad649f10c4d68f1fb8b015960fb466d0f87209b72616e461f1fe7"
+}

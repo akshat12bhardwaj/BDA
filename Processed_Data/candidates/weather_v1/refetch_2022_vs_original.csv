@@ -1,0 +1,8 @@
+variable,rows,identical_share,max_abs_diff,mean_abs_diff
+temperature_2m_mean,16790,1.0,0.0,0.0
+temperature_2m_max,16790,0.8743,0.9,0.017
+temperature_2m_min,16790,0.5117,2.5,0.0719
+rain_sum,16790,0.9616,25.6,0.0595
+relative_humidity_2m_mean,16790,1.0,0.0,0.0
+wind_speed_10m_mean,16790,1.0,0.0,0.0
+et0_fao_evapotranspiration,16790,0.8418,0.22,0.004

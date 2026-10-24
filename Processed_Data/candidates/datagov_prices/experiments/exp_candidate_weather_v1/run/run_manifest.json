@@ -1,0 +1,31 @@
+{
+ "protocol_sha256": "ac013ab7a3f7d6baeadbbfa9d6f7a8bf861c69b467d99ee228504380fae56c97",
+ "coverage": {
+  "eligible_weather_district_rows_before_missing_feature_drop": {
+   "Onion": 451,
+   "Potato": 366,
+   "Wheat": 668
+  },
+  "scored_rows": {
+   "Onion": 451,
+   "Potato": 366,
+   "Wheat": 668
+  },
+  "max_target_week_loaded": "2026-06-22",
+  "min_origin_week_loaded": "2024-02-05"
+ },
+ "runner_sha256": "4de57311d4a1c77536784b5cb1e99b7df3add2b4548386947f9b36fbba81137a",
+ "outputs_sha256": {
+  "acceptance.csv": "918bbc87b374beaf93726115fbb85e832fbc52898b44485a986ffe841b46edc3",
+  "bootstrap.csv": "fab860af69b09b21a908a8739476d5bcf5f0388669b23e1176e5d9a513519a7f",
+  "by_crop.csv": "b0c99dca266995604f945d71bcd96260fdb6a0929bbcbbc322c93756fd5975ac",
+  "by_crop_quarter.csv": "3d3fa746956cfc008df198e3876388493fd0b778acd9441af57e93c15099f21d",
+  "by_crop_state.csv": "72c649a469b611992f74d36b3533a60309d48ffbfcd04bef024fd4ef5817aa8f",
+  "composition.csv": "0e534369019fc3da41447fa59a8ba108864c0dfec166d9592646e0daed9bb7db",
+  "leave_one_state_out.csv": "76a8216999c6d91b1dc9282d9e3cb77de205250fa6786d5e56aa29f74f6c8c91",
+  "refit_log.csv": "71ee1656d9b165ae5140a3e021565f20ef278bb4ec20af5c81d0b94619a4bdb7",
+  "sensitivity.csv": "4cbf787e00b09625204051b396b47b78b0e18f13ff1f853e62ee5e9dc9720b80",
+  "state_cluster_bootstrap.csv": "d8bf0b8612ddfccbd1a63a7a0b6df27ac5d788858811951327eab5853496c902",
+  "validation_predictions.parquet": "f67d0d2be8702698baf33637966f43706a90a31965b2fe558d272b2fad882f85"
+ }
+}

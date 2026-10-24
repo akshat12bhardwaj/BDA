@@ -1,0 +1,4 @@
+crop,markets_span_ge_1y,median_daily_density,p25_daily_density,markets_density_lt_25pct,markets_reporting_in_2023,markets_reporting_after_2024_01_01
+Onion,1479,0.326,0.11,622,1073,788
+Potato,1424,0.381,0.137,510,1036,778
+Wheat,1810,0.141,0.04,1091,1162,660

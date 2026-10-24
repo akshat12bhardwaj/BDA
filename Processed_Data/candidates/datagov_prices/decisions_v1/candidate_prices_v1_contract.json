@@ -1,0 +1,81 @@
+{
+ "version": "candidate-prices-v1",
+ "status": "authorised for the candidate build by D-50 (2026-10-24)",
+ "decision": "D-50 (Documentation/Decision_Log.md)",
+ "approvals": {
+  "mapping_440_pairs": "recorded D-50: 440 one-to-one pairs, candidate experiment only",
+  "medium_review": "recorded D-50: build proceeds with 0 of 160 worksheet decisions; all 1,053 medium pairs stay separate",
+  "primary_grade_design": "recorded D-50: faq_only primary; faq_local and pooled as sensitivity experiments",
+  "r09u_unit_scale": "recorded D-50: NOT approved, disabled (R09U_APPROVED = False); evidence kept for a future review",
+  "u3_holdout_as_history": "recorded D-50: no data before 2024-02-03; section P holdout not run; 2023 not ordinary history",
+  "mar_apr_2026_dual_reporting": "recorded D-50: kept separate (identity not established)"
+ },
+ "inputs": {
+  "raw": "Dataset_Candidates/datagov_prices/raw/<crop>/<date>_f1.json (manifest status pass)",
+  "date_range": [
+   "2024-02-03",
+   "2026-10-20"
+  ],
+  "history_before_start": "never read (D-50)"
+ },
+ "market_mapping": {
+  "version": "candidate-market-map-v1",
+  "approved_pairs": "decisions_v1/mapping_decisions.csv decision=approved_candidate_experiment",
+  "others": "own source identity (State|District|Market)"
+ },
+ "anomaly_rules": [
+  "R03 key_conflict",
+  "R04 zero->missing",
+  "R07 min_gt_max",
+  "R08 modal_outside_range",
+  "R09 review>=10.0x kept, scale_error>=50.0x excluded (Phase 5 unchanged)",
+  "R09u unit_scale (NOT approved, D-50; flag computed for evidence, never excludes): modal<=ref/10.0 and 100*modal in [0.333, 3.0]*ref"
+ ],
+ "stage_order": [
+  "raw",
+  "anomaly flags (R03/R04/R07/R08)",
+  "R09 scale (per crop, trailing national reference)",
+  "approved identities",
+  "exact duplicates (combined with earlier exclusions)",
+  "grade subsets",
+  "weekly medians",
+  "price-only model tables"
+ ],
+ "duplicates": "exact min/max/modal equality under an approved identity, same crop/variety/grade/date; tie-break canonical name, source_id, record_ref; differing values -> identity_conflict excluded; never across grades; never averaged",
+ "grade_designs": {
+  "faq_only": [
+   "FAQ"
+  ],
+  "faq_local": [
+   "FAQ",
+   "Local"
+  ],
+  "pooled": null
+ },
+ "primary_design": "faq_only (recorded 2026-10-24); faq_local and pooled are sensitivity experiments",
+ "weekly": {
+  "key": [
+   "Commodity",
+   "canonical_id",
+   "Variety",
+   "(Grade if grade-aware)",
+   "week Mon-Sun"
+  ],
+  "target": "median modal of usable_for_target records",
+  "cell_fields": [
+   "n_records",
+   "n_days",
+   "grades",
+   "first_date",
+   "last_date"
+  ]
+ },
+ "coverage_reports": "by crop x state x month: records, usable, each exclusion reason, markets, series, weekly cells, unresolved-identity share",
+ "leakage_checks": [
+  "no input before candidate start",
+  "features dated <= origin",
+  "transforms fit on training window only",
+  "thresholds fixed on S1 (<= 2024-04-30)",
+  "no production or holdout file read for writing"
+ ]
+}

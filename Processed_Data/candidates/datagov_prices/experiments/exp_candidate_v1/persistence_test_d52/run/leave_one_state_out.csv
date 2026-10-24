@@ -1,0 +1,230 @@
+design,horizon,Commodity,left_out_state,rows,markets,mae,mae_all_states
+faq_only,1,Onion,Gujarat,867,61,233.224948,231.324456
+faq_only,1,Onion,Haryana,923,60,228.930693,231.324456
+faq_only,1,Onion,Madhya Pradesh,904,63,225.610619,231.324456
+faq_only,1,Onion,Odisha,1016,70,231.129951,231.324456
+faq_only,1,Onion,Punjab,961,65,230.335619,231.324456
+faq_only,1,Onion,Rajasthan,987,68,233.377437,231.324456
+faq_only,1,Onion,Tripura,1024,70,232.351592,231.324456
+faq_only,1,Onion,West Bengal,654,47,237.130015,231.324456
+faq_only,1,Potato,Gujarat,1012,75,28.994071,32.029024
+faq_only,1,Potato,Haryana,996,70,29.233936,32.029024
+faq_only,1,Potato,Jammu and Kashmir,1136,81,31.881162,32.029024
+faq_only,1,Potato,Madhya Pradesh,1113,79,30.669811,32.029024
+faq_only,1,Potato,Odisha,1105,80,32.142081,32.029024
+faq_only,1,Potato,Punjab,1040,75,31.205769,32.029024
+faq_only,1,Potato,Rajasthan,1105,80,31.825339,32.029024
+faq_only,1,Potato,Telangana,1121,81,32.441570,32.029024
+faq_only,1,Potato,Tripura,1088,76,30.300551,32.029024
+faq_only,1,Potato,Uttar Pradesh,1108,80,32.702617,32.029024
+faq_only,1,Potato,West Bengal,546,43,48.813187,32.029024
+faq_only,1,Wheat,Gujarat,2471,172,40.449286,40.746115
+faq_only,1,Wheat,Madhya Pradesh,1653,118,28.862181,40.746115
+faq_only,1,Wheat,Rajasthan,2557,174,40.903670,40.746115
+faq_only,1,Wheat,Uttar Pradesh,1143,71,57.418635,40.746115
+faq_only,1,Wheat,West Bengal,2540,173,41.107553,40.746115
+faq_only,2,Onion,Gujarat,857,57,390.275123,387.886261
+faq_only,2,Onion,Haryana,913,59,386.404469,387.886261
+faq_only,2,Onion,Madhya Pradesh,893,59,391.252520,387.886261
+faq_only,2,Onion,Odisha,1003,66,386.203669,387.886261
+faq_only,2,Onion,Punjab,950,62,387.808716,387.886261
+faq_only,2,Onion,Rajasthan,974,64,392.933039,387.886261
+faq_only,2,Onion,Tripura,1012,66,388.673202,387.886261
+faq_only,2,Onion,West Bengal,643,43,375.987216,387.886261
+faq_only,2,Potato,Gujarat,998,73,43.746493,45.841355
+faq_only,2,Potato,Haryana,978,69,41.701431,45.841355
+faq_only,2,Potato,Madhya Pradesh,1100,77,45.207727,45.841355
+faq_only,2,Potato,Odisha,1090,78,45.719266,45.841355
+faq_only,2,Potato,Punjab,1026,73,44.543372,45.841355
+faq_only,2,Potato,Rajasthan,1090,78,45.421101,45.841355
+faq_only,2,Potato,Telangana,1106,79,46.323689,45.841355
+faq_only,2,Potato,Tripura,1077,74,43.439183,45.841355
+faq_only,2,Potato,Uttar Pradesh,1094,78,46.774680,45.841355
+faq_only,2,Potato,West Bengal,539,41,64.008349,45.841355
+faq_only,2,Wheat,Gujarat,2447,171,49.030541,49.933282
+faq_only,2,Wheat,Madhya Pradesh,1649,118,35.905843,49.933282
+faq_only,2,Wheat,Rajasthan,2534,173,50.081190,49.933282
+faq_only,2,Wheat,Uttar Pradesh,1120,70,71.374107,49.933282
+faq_only,2,Wheat,West Bengal,2518,172,50.311253,49.933282
+faq_only,4,Onion,Gujarat,846,57,690.152730,678.848690
+faq_only,4,Onion,Haryana,901,59,677.621765,678.848690
+faq_only,4,Onion,Madhya Pradesh,883,60,693.016421,678.848690
+faq_only,4,Onion,Odisha,991,66,674.129374,678.848690
+faq_only,4,Onion,Punjab,939,61,685.359116,678.848690
+faq_only,4,Onion,Rajasthan,962,64,685.386393,678.848690
+faq_only,4,Onion,Tripura,1002,66,680.052106,678.848690
+faq_only,4,Onion,West Bengal,637,43,631.910848,678.848690
+faq_only,4,Potato,Gujarat,969,73,65.660475,66.548490
+faq_only,4,Potato,Haryana,951,69,61.606204,66.548490
+faq_only,4,Potato,Madhya Pradesh,1075,77,65.680000,66.548490
+faq_only,4,Potato,Odisha,1061,78,66.010839,66.548490
+faq_only,4,Potato,Punjab,1001,73,64.927572,66.548490
+faq_only,4,Potato,Rajasthan,1061,78,66.387842,66.548490
+faq_only,4,Potato,Telangana,1077,79,66.515785,66.548490
+faq_only,4,Potato,Tripura,1052,74,65.054658,66.548490
+faq_only,4,Potato,Uttar Pradesh,1066,78,67.903377,66.548490
+faq_only,4,Potato,West Bengal,524,41,83.762405,66.548490
+faq_only,4,Wheat,Gujarat,2408,169,66.184122,68.585983
+faq_only,4,Wheat,Madhya Pradesh,1628,115,50.949549,68.585983
+faq_only,4,Wheat,Rajasthan,2497,171,68.521171,68.585983
+faq_only,4,Wheat,Uttar Pradesh,1096,71,99.640967,68.585983
+faq_only,4,Wheat,West Bengal,2483,170,68.836232,68.585983
+faq_local,1,Onion,Gujarat,3441,228,265.481555,262.773727
+faq_local,1,Onion,Haryana,3487,225,264.691434,262.773727
+faq_local,1,Onion,Karnataka,3653,241,262.566118,262.773727
+faq_local,1,Onion,Madhya Pradesh,3524,233,262.593076,262.773727
+faq_local,1,Onion,Odisha,3620,239,262.280119,262.773727
+faq_local,1,Onion,Punjab,3529,230,264.242712,262.773727
+faq_local,1,Onion,Rajasthan,3559,235,264.517991,262.773727
+faq_local,1,Onion,Tamil Nadu,1300,92,231.387715,262.773727
+faq_local,1,Onion,Tripura,3628,239,263.190196,262.773727
+faq_local,1,Onion,West Bengal,3271,216,267.382767,262.773727
+faq_local,1,Potato,Gujarat,1245,96,31.910040,33.919228
+faq_local,1,Potato,Haryana,1200,88,31.544167,33.919228
+faq_local,1,Potato,Jammu and Kashmir,1398,104,33.800429,33.919228
+faq_local,1,Potato,Karnataka,1383,104,33.660882,33.919228
+faq_local,1,Potato,Madhya Pradesh,1375,102,32.852000,33.919228
+faq_local,1,Potato,Odisha,1351,102,34.088083,33.919228
+faq_local,1,Potato,Punjab,1265,92,33.418182,33.919228
+faq_local,1,Potato,Rajasthan,1310,99,32.406870,33.919228
+faq_local,1,Potato,Telangana,1383,104,34.275488,33.919228
+faq_local,1,Potato,Tripura,1318,97,32.248103,33.919228
+faq_local,1,Potato,Uttar Pradesh,1369,102,34.529218,33.919228
+faq_local,1,Potato,West Bengal,792,65,47.308081,33.919228
+faq_local,1,Wheat,Gujarat,2522,175,40.327226,40.556430
+faq_local,1,Wheat,Madhya Pradesh,1778,125,29.407911,40.556430
+faq_local,1,Wheat,Rajasthan,2631,178,40.827163,40.556430
+faq_local,1,Wheat,Uttar Pradesh,1268,78,55.366719,40.556430
+faq_local,1,Wheat,West Bengal,2665,180,40.897285,40.556430
+faq_local,2,Onion,Gujarat,3421,223,459.497743,454.312594
+faq_local,2,Onion,Haryana,3467,224,458.605648,454.312594
+faq_local,2,Onion,Karnataka,3629,236,454.522122,454.312594
+faq_local,2,Onion,Madhya Pradesh,3501,228,457.865467,454.312594
+faq_local,2,Onion,Odisha,3595,234,453.229702,454.312594
+faq_local,2,Onion,Punjab,3507,226,457.183000,454.312594
+faq_local,2,Onion,Rajasthan,3534,230,459.412926,454.312594
+faq_local,2,Onion,Tamil Nadu,1280,87,384.129516,454.312594
+faq_local,2,Onion,Tripura,3604,234,454.976632,454.312594
+faq_local,2,Onion,West Bengal,3249,211,459.674755,454.312594
+faq_local,2,Potato,Gujarat,1226,90,46.349918,47.278665
+faq_local,2,Potato,Haryana,1177,84,44.010195,47.278665
+faq_local,2,Potato,Karnataka,1362,98,47.099853,47.278665
+faq_local,2,Potato,Madhya Pradesh,1356,96,46.787979,47.278665
+faq_local,2,Potato,Odisha,1330,96,47.030075,47.278665
+faq_local,2,Potato,Punjab,1247,88,46.649158,47.278665
+faq_local,2,Potato,Rajasthan,1290,93,45.523256,47.278665
+faq_local,2,Potato,Telangana,1362,98,47.687225,47.278665
+faq_local,2,Potato,Tripura,1301,91,44.734819,47.278665
+faq_local,2,Potato,Uttar Pradesh,1350,97,48.064815,47.278665
+faq_local,2,Potato,West Bengal,779,59,61.356226,47.278665
+faq_local,2,Wheat,Gujarat,2496,174,48.911184,50.081901
+faq_local,2,Wheat,Madhya Pradesh,1772,125,37.105144,50.081901
+faq_local,2,Wheat,Rajasthan,2608,177,50.406179,50.081901
+faq_local,2,Wheat,Uttar Pradesh,1243,77,69.480290,50.081901
+faq_local,2,Wheat,West Bengal,2641,179,50.445027,50.081901
+faq_local,4,Onion,Gujarat,3401,223,796.912734,785.650210
+faq_local,4,Onion,Haryana,3448,223,792.709023,785.650210
+faq_local,4,Onion,Karnataka,3611,236,785.740989,785.650210
+faq_local,4,Onion,Madhya Pradesh,3483,229,793.534884,785.650210
+faq_local,4,Onion,Odisha,3575,234,784.002996,785.650210
+faq_local,4,Onion,Punjab,3487,225,791.416607,785.650210
+faq_local,4,Onion,Rajasthan,3514,230,795.187880,785.650210
+faq_local,4,Onion,Tamil Nadu,1265,87,664.771312,785.650210
+faq_local,4,Onion,Tripura,3586,234,786.603656,785.650210
+faq_local,4,Onion,West Bengal,3237,212,789.149123,785.650210
+faq_local,4,Potato,Gujarat,1196,90,71.343645,70.534547
+faq_local,4,Potato,Haryana,1146,83,66.417539,70.534547
+faq_local,4,Potato,Karnataka,1330,98,70.104887,70.534547
+faq_local,4,Potato,Madhya Pradesh,1328,96,69.885542,70.534547
+faq_local,4,Potato,Odisha,1298,96,69.521957,70.534547
+faq_local,4,Potato,Punjab,1220,89,69.817623,70.534547
+faq_local,4,Potato,Rajasthan,1260,93,68.523413,70.534547
+faq_local,4,Potato,Telangana,1330,98,70.556015,70.534547
+faq_local,4,Potato,Tripura,1273,91,67.902200,70.534547
+faq_local,4,Potato,Uttar Pradesh,1319,97,71.711145,70.534547
+faq_local,4,Potato,West Bengal,760,59,85.899342,70.534547
+faq_local,4,Wheat,Gujarat,2457,172,65.913850,69.045579
+faq_local,4,Wheat,Madhya Pradesh,1751,122,52.884255,69.045579
+faq_local,4,Wheat,Rajasthan,2572,175,69.226995,69.045579
+faq_local,4,Wheat,Uttar Pradesh,1218,78,97.686371,69.045579
+faq_local,4,Wheat,West Bengal,2606,177,69.291953,69.045579
+pooled,1,Onion,Bihar,4357,287,264.149152,264.111486
+pooled,1,Onion,Gujarat,4106,273,266.966842,264.111486
+pooled,1,Onion,Haryana,3933,257,264.649849,264.111486
+pooled,1,Onion,Karnataka,4342,287,264.002270,264.111486
+pooled,1,Onion,Madhya Pradesh,4160,274,263.070192,264.111486
+pooled,1,Onion,Odisha,4235,279,263.118738,264.111486
+pooled,1,Onion,Punjab,4004,263,265.812651,264.111486
+pooled,1,Onion,Rajasthan,4214,278,266.114584,264.111486
+pooled,1,Onion,Tamil Nadu,1990,138,245.199927,264.111486
+pooled,1,Onion,Tripura,4300,284,264.825083,264.111486
+pooled,1,Onion,West Bengal,3939,260,267.746346,264.111486
+pooled,1,Potato,Gujarat,1885,138,38.720387,39.632133
+pooled,1,Potato,Haryana,1589,114,35.668930,39.632133
+pooled,1,Potato,Jammu and Kashmir,2057,147,39.542018,39.632133
+pooled,1,Potato,Karnataka,2042,147,39.501925,39.632133
+pooled,1,Potato,Madhya Pradesh,1995,142,39.163123,39.632133
+pooled,1,Potato,Odisha,1947,140,38.567797,39.632133
+pooled,1,Potato,Punjab,1734,122,39.029083,39.632133
+pooled,1,Potato,Rajasthan,1950,141,39.160477,39.632133
+pooled,1,Potato,Telangana,2042,147,39.918183,39.632133
+pooled,1,Potato,Tripura,1936,138,38.260811,39.632133
+pooled,1,Potato,Uttar Pradesh,2028,145,40.128417,39.632133
+pooled,1,Potato,West Bengal,1433,107,49.754313,39.632133
+pooled,1,Wheat,Gujarat,2997,193,39.872784,40.553394
+pooled,1,Wheat,Madhya Pradesh,1844,130,30.407394,40.553394
+pooled,1,Wheat,Rajasthan,3122,197,40.781465,40.553394
+pooled,1,Wheat,Uttar Pradesh,1728,94,51.842882,40.553394
+pooled,1,Wheat,West Bengal,3137,198,40.721943,40.553394
+pooled,2,Onion,Gujarat,4079,269,455.852230,450.705185
+pooled,2,Onion,Haryana,3909,255,454.873432,450.705185
+pooled,2,Onion,Karnataka,4314,283,450.788768,450.705185
+pooled,2,Onion,Madhya Pradesh,4135,270,453.001451,450.705185
+pooled,2,Onion,Odisha,4209,275,449.967390,450.705185
+pooled,2,Onion,Punjab,3979,260,454.417001,450.705185
+pooled,2,Onion,Rajasthan,4186,274,455.762242,450.705185
+pooled,2,Onion,Tamil Nadu,1966,134,400.675354,450.705185
+pooled,2,Onion,Tripura,4271,280,451.680577,450.705185
+pooled,2,Onion,West Bengal,3913,256,454.338166,450.705185
+pooled,2,Potato,Gujarat,1865,132,55.992724,56.014448
+pooled,2,Potato,Haryana,1566,108,49.833289,56.014448
+pooled,2,Potato,Karnataka,2021,141,55.963102,56.014448
+pooled,2,Potato,Madhya Pradesh,1977,137,56.333298,56.014448
+pooled,2,Potato,Odisha,1928,134,54.839212,56.014448
+pooled,2,Potato,Punjab,1718,119,54.595710,56.014448
+pooled,2,Potato,Rajasthan,1929,135,55.482856,56.014448
+pooled,2,Potato,Telangana,2021,141,56.358946,56.014448
+pooled,2,Potato,Tripura,1918,132,53.947565,56.014448
+pooled,2,Potato,Uttar Pradesh,2009,140,56.664475,56.014448
+pooled,2,Potato,West Bengal,1418,101,67.921671,56.014448
+pooled,2,Wheat,Gujarat,2976,193,49.086190,50.690835
+pooled,2,Wheat,Madhya Pradesh,1838,130,38.544886,50.690835
+pooled,2,Wheat,Rajasthan,3104,197,50.979381,50.690835
+pooled,2,Wheat,Uttar Pradesh,1709,94,65.832066,50.690835
+pooled,2,Wheat,West Bengal,3117,198,50.795958,50.690835
+pooled,4,Onion,Gujarat,4043,269,781.234032,771.385000
+pooled,4,Onion,Haryana,3877,253,780.571883,771.385000
+pooled,4,Onion,Karnataka,4281,283,771.368183,771.385000
+pooled,4,Onion,Madhya Pradesh,4111,271,781.115962,771.385000
+pooled,4,Onion,Odisha,4179,276,769.042228,771.385000
+pooled,4,Onion,Punjab,3944,259,779.095129,771.385000
+pooled,4,Onion,Rajasthan,4152,274,780.887088,771.385000
+pooled,4,Onion,Tamil Nadu,1936,134,675.026958,771.385000
+pooled,4,Onion,Tripura,4236,280,772.244379,771.385000
+pooled,4,Onion,West Bengal,3887,257,773.306455,771.385000
+pooled,4,Potato,Gujarat,1829,131,80.006249,79.082424
+pooled,4,Potato,Haryana,1535,107,72.518847,79.082424
+pooled,4,Potato,Karnataka,1985,140,78.863441,79.082424
+pooled,4,Potato,Madhya Pradesh,1945,136,79.785054,79.082424
+pooled,4,Potato,Odisha,1895,134,77.637203,79.082424
+pooled,4,Potato,Punjab,1692,118,76.372299,79.082424
+pooled,4,Potato,Rajasthan,1893,134,78.787073,79.082424
+pooled,4,Potato,Telangana,1985,140,79.165708,79.082424
+pooled,4,Potato,Tripura,1885,131,76.935772,79.082424
+pooled,4,Potato,Uttar Pradesh,1974,139,79.985527,79.082424
+pooled,4,Potato,West Bengal,1392,100,91.607708,79.082424
+pooled,4,Wheat,Gujarat,2933,189,67.534543,70.688296
+pooled,4,Wheat,Madhya Pradesh,1816,126,54.880405,70.688296
+pooled,4,Wheat,Rajasthan,3064,193,70.882936,70.688296
+pooled,4,Wheat,Uttar Pradesh,1684,94,93.250000,70.688296
+pooled,4,Wheat,West Bengal,3075,194,70.482379,70.688296

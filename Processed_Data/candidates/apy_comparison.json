@@ -1,0 +1,107 @@
+{
+ "old_rows": 455359,
+ "new_rows": 455359,
+ "old_years": [
+  "2020-2021",
+  "2021-2022",
+  "2022-2023"
+ ],
+ "new_years": [
+  "2020-2021",
+  "2021-2022",
+  "2022-2023"
+ ],
+ "old_cols": true,
+ "per_crop": {
+  "Onion": {
+   "old_rows": 14822,
+   "new_rows": 14822,
+   "new_years_added": []
+  },
+  "Potato": {
+   "old_rows": 14108,
+   "new_rows": 14108,
+   "new_years_added": []
+  },
+  "Wheat": {
+   "old_rows": 12905,
+   "new_rows": 12905,
+   "new_years_added": []
+  }
+ },
+ "merge": {
+  "both": 41835,
+  "left_only": 0,
+  "right_only": 0
+ },
+ "production_revised_rows": 0,
+ "production_revised_gt5pct": 0,
+ "new_only_by_year": {},
+ "old_only_by_year": {},
+ "upag_crops_present": {
+  "Onion": 0,
+  "Potato": 0,
+  "Wheat": 6321
+ },
+ "upag_years": [
+  "2013-2014",
+  "2014-2015",
+  "2015-2016",
+  "2016-2017",
+  "2017-2018",
+  "2018-2019",
+  "2019-2020",
+  "2020-2021",
+  "2021-2022",
+  "2022-2023",
+  "2023-2024",
+  "2024-2025"
+ ],
+ "upag_wheat": {
+  "rows": 6321,
+  "districts": 628,
+  "null_pct": {
+   "area": 0.0,
+   "production": 0.17,
+   "yield": 0.17
+  },
+  "rows_by_year": {
+   "2013-2014": 499,
+   "2014-2015": 501,
+   "2015-2016": 512,
+   "2016-2017": 520,
+   "2017-2018": 522,
+   "2018-2019": 529,
+   "2019-2020": 521,
+   "2020-2021": 534,
+   "2021-2022": 555,
+   "2022-2023": 558,
+   "2023-2024": 539,
+   "2024-2025": 531
+  },
+  "seasons": {
+   "Rabi": 6209,
+   "Summer": 94,
+   "Kharif": 18
+  }
+ },
+ "upag_vs_des_wheat": {
+  "matched_rows": 5188,
+  "years": [
+   "2013-2014",
+   "2014-2015",
+   "2015-2016",
+   "2016-2017",
+   "2017-2018",
+   "2018-2019",
+   "2019-2020",
+   "2020-2021",
+   "2021-2022",
+   "2022-2023"
+  ],
+  "area_ratio_median": 1.0,
+  "prod_ratio_median": 1.0,
+  "yield_ratio_median(kg/ha vs t/ha)": 1000.0,
+  "share_prod_within_1pct_after_scaling": 0.997
+ }
+}

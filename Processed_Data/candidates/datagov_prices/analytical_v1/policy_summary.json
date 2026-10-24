@@ -1,0 +1,72 @@
+{
+ "policy_version": "candidate-price-policy-v1",
+ "stages": [
+  "S1",
+  "S2",
+  "S3"
+ ],
+ "crop_days": 2973,
+ "records": 1990311,
+ "date_range": [
+  "2024-02-03",
+  "2026-10-20"
+ ],
+ "price_anomaly_counts": {
+  "Onion": {
+   "none": 673263,
+   "key_conflict": 9766,
+   "min_gt_max": 4,
+   "modal_outside_range": 571
+  },
+  "Potato": {
+   "none": 644180,
+   "key_conflict": 3007,
+   "min_gt_max": 1,
+   "modal_outside_range": 80
+  },
+  "Wheat": {
+   "none": 600587,
+   "key_conflict": 52488,
+   "min_gt_max": 0,
+   "modal_outside_range": 6364
+  }
+ },
+ "effect_by_crop": [
+  {
+   "Commodity": "Onion",
+   "records": 683604,
+   "usable_before": 683604,
+   "usable_after": 673263,
+   "excluded_by_policy": 10341,
+   "markets_before": 2875,
+   "markets_after": 2875,
+   "weekly_cells_before": 140662,
+   "weekly_cells_after": 140349,
+   "weekly_cells_lost_pct": 0.22
+  },
+  {
+   "Commodity": "Potato",
+   "records": 647268,
+   "usable_before": 647268,
+   "usable_after": 644180,
+   "excluded_by_policy": 3088,
+   "markets_before": 2682,
+   "markets_after": 2682,
+   "weekly_cells_before": 131777,
+   "weekly_cells_after": 131714,
+   "weekly_cells_lost_pct": 0.05
+  },
+  {
+   "Commodity": "Wheat",
+   "records": 659439,
+   "usable_before": 659439,
+   "usable_after": 600587,
+   "excluded_by_policy": 58852,
+   "markets_before": 3067,
+   "markets_after": 3067,
+   "weekly_cells_before": 161969,
+   "weekly_cells_after": 160044,
+   "weekly_cells_lost_pct": 1.19
+  }
+ ]
+}

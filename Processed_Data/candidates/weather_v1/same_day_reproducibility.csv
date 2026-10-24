@@ -1,0 +1,7 @@
+window,state,district,daily_values_identical,grid_units_elevation_identical,differing_top_level_keys
+reconstruct_2001_2022,Maharashtra,Nashik,True,True,generationtime_ms
+reconstruct_2001_2022,Punjab,Ferozpur,True,True,generationtime_ms
+reconstruct_2001_2022,Gujarat,Junagarh,True,True,generationtime_ms
+ext,Maharashtra,Nashik,True,True,generationtime_ms
+ext,Punjab,Ferozpur,True,True,generationtime_ms
+ext,Gujarat,Junagarh,True,True,generationtime_ms

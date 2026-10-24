@@ -1,0 +1,99 @@
+{
+ "run": "20261024T065011Z",
+ "stage": "S3",
+ "source_url": "https://api.data.gov.in/resource/35985678-0d79-46b4-9ed6-6f13308a1d24",
+ "limit": 5000,
+ "offset": 0,
+ "sort": "none",
+ "record_identity": "canonical JSON (sorted keys) of all returned fields",
+ "partitions": [
+  {
+   "commodity": "Wheat",
+   "date": "2025-12-10",
+   "states_queried": 18,
+   "states_nonempty": 10,
+   "all_state_calls_ok": true,
+   "coarse": 653,
+   "union": 653,
+   "sum_part_totals": 653,
+   "missing_from_parts": 0,
+   "extra_in_parts": 0,
+   "overlap_between_parts": 0,
+   "equal": true
+  },
+  {
+   "commodity": "Onion",
+   "date": "2026-02-11",
+   "states_queried": 30,
+   "states_nonempty": 25,
+   "all_state_calls_ok": true,
+   "coarse": 679,
+   "union": 679,
+   "sum_part_totals": 679,
+   "missing_from_parts": 0,
+   "extra_in_parts": 0,
+   "overlap_between_parts": 0,
+   "equal": true
+  },
+  {
+   "commodity": "Wheat",
+   "date": "2026-04-15",
+   "states_queried": 18,
+   "states_nonempty": 11,
+   "all_state_calls_ok": true,
+   "coarse": 1715,
+   "union": 1715,
+   "sum_part_totals": 1715,
+   "missing_from_parts": 0,
+   "extra_in_parts": 0,
+   "overlap_between_parts": 0,
+   "equal": true
+  },
+  {
+   "commodity": "Potato",
+   "date": "2026-08-12",
+   "states_queried": 31,
+   "states_nonempty": 26,
+   "all_state_calls_ok": true,
+   "coarse": 801,
+   "union": 801,
+   "sum_part_totals": 801,
+   "missing_from_parts": 0,
+   "extra_in_parts": 0,
+   "overlap_between_parts": 0,
+   "equal": true
+  },
+  {
+   "commodity": "Onion",
+   "date": "2026-10-14",
+   "states_queried": 31,
+   "states_nonempty": 26,
+   "all_state_calls_ok": true,
+   "coarse": 782,
+   "union": 782,
+   "sum_part_totals": 782,
+   "missing_from_parts": 0,
+   "extra_in_parts": 0,
+   "overlap_between_parts": 0,
+   "equal": true
+  }
+ ],
+ "calls_this_run": 2250,
+ "crop_days_expected": 1044,
+ "status_counts": {
+  "pass": 1044
+ },
+ "records_by_crop": {
+  "Onion": 240182,
+  "Potato": 227510,
+  "Wheat": 282615
+ },
+ "zero_record_crop_days": [],
+ "source_flags": {
+  "Onion: modal outside [min, max]": 5,
+  "Potato: modal outside [min, max]": 6,
+  "Wheat: modal outside [min, max]": 3
+ },
+ "manifest_covers_period_exactly": true,
+ "accepted": true
+}

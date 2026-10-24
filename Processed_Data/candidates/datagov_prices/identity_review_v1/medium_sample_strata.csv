@@ -1,0 +1,66 @@
+stratum,N,n
+Chattisgarh|0|Wheat,42,4
+Chattisgarh|0|multi,2,2
+Chattisgarh|1-2|Wheat,4,2
+Chattisgarh|1-2|multi,2,2
+Chattisgarh|3-4|multi,1,1
+Gujarat|0|Potato,2,2
+Gujarat|0|Wheat,30,3
+Gujarat|0|multi,2,2
+Gujarat|1-2|Wheat,19,2
+Gujarat|1-2|multi,6,2
+Gujarat|3-4|Wheat,34,3
+Gujarat|3-4|multi,5,2
+Haryana|0|Wheat,38,4
+Haryana|0|multi,9,2
+Haryana|1-2|multi,13,2
+Haryana|3-4|multi,9,2
+Madhya Pradesh|0|Onion,5,2
+Madhya Pradesh|0|Wheat,23,2
+Madhya Pradesh|0|multi,7,2
+Madhya Pradesh|1-2|Onion,4,2
+Madhya Pradesh|1-2|Potato,1,1
+Madhya Pradesh|1-2|Wheat,48,5
+Madhya Pradesh|1-2|multi,13,2
+Madhya Pradesh|3-4|Onion,1,1
+Madhya Pradesh|3-4|Wheat,77,8
+Madhya Pradesh|3-4|multi,22,2
+Maharashtra|0|Onion,5,2
+Maharashtra|0|Potato,1,1
+Maharashtra|0|Wheat,67,7
+Maharashtra|0|multi,7,2
+Maharashtra|1-2|Onion,4,2
+Maharashtra|1-2|Wheat,36,4
+Maharashtra|1-2|multi,11,2
+Maharashtra|3-4|Onion,3,2
+Maharashtra|3-4|Wheat,9,2
+Maharashtra|3-4|multi,13,2
+Punjab|0|Onion,2,2
+Punjab|0|Potato,4,2
+Punjab|0|Wheat,62,6
+Punjab|0|multi,32,3
+Punjab|1-2|multi,10,2
+Punjab|3-4|multi,17,2
+Rajasthan|0|Wheat,30,3
+Rajasthan|0|multi,7,2
+Rajasthan|1-2|Wheat,24,2
+Rajasthan|1-2|multi,5,2
+Rajasthan|3-4|Wheat,25,2
+Rajasthan|3-4|multi,4,2
+Uttar Pradesh|0|Wheat,3,2
+Uttar Pradesh|0|multi,17,2
+Uttar Pradesh|1-2|Wheat,2,2
+Uttar Pradesh|1-2|multi,10,2
+Uttar Pradesh|3-4|Wheat,1,1
+Uttar Pradesh|3-4|multi,31,3
+other_states|0|Onion,9,2
+other_states|0|Potato,28,3
+other_states|0|Wheat,14,2
+other_states|0|multi,52,5
+other_states|1-2|Onion,2,2
+other_states|1-2|Potato,6,2
+other_states|1-2|Wheat,1,1
+other_states|1-2|multi,27,3
+other_states|3-4|Onion,4,2
+other_states|3-4|Potato,8,2
+other_states|3-4|multi,41,4

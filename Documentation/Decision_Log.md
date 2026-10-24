@@ -471,3 +471,99 @@ RMSE improved in both years. Any change to the selection would need a new decisi
 7. **Withdrawn, kept on record:** the 10× / 0.1× national-median conventions for R6 / R7, the 1% R4 tolerance, and the Wheat Rabi exception to R9.
 
 **Phase**: 10.
+### D-50 — [ACCEPTED 2026-10-24 by the project owner] Candidate price dataset `candidate-prices-v1`: date boundary, scale rule, identities and grade design
+**Evidence**: `Data_Source_Review.md` §5.5–§6.11; `Processed_Data/candidates/datagov_prices/decisions_v1/` (mapping decisions, medium review worksheet, R09u evidence, approval checklist).
+**Scope**: the versioned candidate experiment only. No production table, frozen output, model or dashboard changes.
+**Accepted form**:
+1. **U3 / date boundary:** `candidate-prices-v1` uses no data dated before **2024-02-03**. The guard (`CANDIDATE_START`, `assert_no_holdout_inputs`) stays. The reserved 2023 holdout (Phase 8 §P) is **not** evaluated as part of this work, and 2023 is **not** treated as ordinary history. D-40, D-42 and D-45 are unchanged.
+2. **R09u:** **not approved and disabled** (`R09U_APPROVED = False`). It is computed for evidence only (`r09u_s1_evidence.csv`), for a separate future review. Phase 5 R09 applies exactly as documented: review ≥ 10× kept; scale error ≥ 50× excluded.
+3. **Mappings:** only the 440 recorded one-to-one `approved_candidate_experiment` pairs (`candidate-market-map-v1`). The 14 rejected, 81 unresolved, 605 low-confidence and all 1,053 medium-confidence pairs stay separate identities. The build proceeds with 0 medium-review decisions recorded.
+4. **Grades:** primary experiment FAQ-only. FAQ + Local and pooled grades are separate sensitivity experiments. Source grade labels are never changed, and de-duplication never crosses grades.
+5. **Duplicates:** exact duplicates are de-duplicated only within an approved identity and the same crop, variety, grade and date, with provenance logged. Conflicting groups are flagged and excluded from targets, never averaged. The March–April 2026 double-reporting pairs stay unresolved; identity is never inferred from matching prices alone.
+6. **Price-only:** no arrivals or weather values are created for the candidate period.
+**Phase**: candidate data upgrade (not a numbered phase).
+
+### D-51 — [ACCEPTED 2026-10-24 by the project owner] Close the candidate weather experiment; arrivals access next
+**Evidence**: `Data_Source_Review.md` §8.7–§8.11 (protocol SHA-256 `ac013ab7a3f7d6baeadbbfa9d6f7a8bf861c69b467d99ee228504380fae56c97`; outputs `Processed_Data/candidates/datagov_prices/experiments/exp_candidate_weather_v1/run/`).
+**Accepted form**:
+1. **Result recorded as final:** the pre-registered price + weather experiment `exp-candidate-weather-v1` **failed its acceptance rule for Onion, Potato and Wheat**.
+   - Skill: Onion −0.17 / −0.48, Potato −0.15 / −0.35, Wheat −0.01 / +0.02, with every 95% interval including or below 0.
+   - **Persistence remains the default forecast.**
+   - The negative results, the intervals (95% and Bonferroni 99.17%), the multiple-comparison caveat (the second model on the same validation window), the coverage limits (17–29 market clusters per cell) and the byte-identical reproducibility are retained as recorded.
+   - The test window and the 2023 holdout were never accessed.
+2. **No further weather-model tuning** on the 2026 validation window: no new features, settings, thresholds or populations. A Wheat follow-up would require data after 2026-10-20 and a new pre-registration.
+3. **Weather stays out of the candidate and production forecasting pipeline.**
+   - The original Phase 3/4 panel, the Phase 6 `wx_*` features, Phase 8 artefacts and the integration code are kept unchanged, as historical analysis.
+   - The 2026-10-24 weather vintage stays a candidate artefact (§8.7 version policy).
+4. **Next data question:** lawful market-level arrivals.
+   - The DMI request draft is prepared but **not sent** (§8.10, `Documentation/Requests/`).
+   - CEDA terms are partially verified (§9.1).
+   - No new model or protocol until data, evaluation design and approval exist (§9.2).
+**Phase**: candidate data upgrade (not a numbered phase).
+
+### D-52 — [ACCEPTED 2026-10-24 by the project owner] One persistence-only evaluation on the candidate test window (prepared; awaiting the final execution gate)
+**Named approver**: the project owner.
+**Evidence**: `Final_Evaluation_and_Revamp_Plan.md` §1; frozen protocol `exp_candidate_v1_protocol.json` (`Data_Source_Review.md` §7.2.2); D-50, D-51.
+**Accepted form**:
+1. **Authorisation:** exactly **one** persistence-only evaluation of `exp-candidate-v1` on the reserved candidate test window. The owner explicitly acknowledges that the run reads the test window and is its single use.
+2. **Purpose:** estimate the out-of-sample error of the default persistence forecast (prediction = `y_origin`, the origin-week median). Nothing is trained, refitted, tuned, compared for selection or selected. Skill against persistence is trivially 0 and is not reported. The seasonal-naive and climatology baselines are not scored; scoring them would need a separate approval.
+3. **Authorised test period:** target-week Sundays **2026-07-05 → 2026-10-18** (target weeks starting Monday 2026-06-29 → 2026-10-12), as in the frozen protocol. Nothing outside it is evaluated.
+4. **2023 holdout:** the reserved 2023 holdout (Phase 8 §P) stays inaccessible. No input dated before 2024-02-03 may enter (D-50 guard `CANDIDATE_START`, unchanged). The runner opens only `dataset_v1_1` files and refuses any origin before 2024-02-03.
+5. **Frozen identities (SHA-256):**
+   - protocol `experiment_design_v1_1/exp_candidate_v1_protocol.json`: LF-normalised `a6b1240c4c4f80da15a02fea946ca5f79f07617d9ccbabb7479ebb65193ae9ee` (the on-disk CRLF file hashes to `009669593eac277574ab5e07e8afecd1d02b1192da0f39d31681cfc6637a740a`);
+   - dataset `candidate-prices-v1.1`: `dataset_v1_1/build_manifest.json` `4a04140dc4abd00e8db7beb74f91b56c0102545feab6f9e4c5659f9e226127d6`; `contract.json` `f2433fe2fad4afd0f628a236af58a3b9446085428b61d4716e8e30b606032e6e`; model tables `faq_only` `a2e3aad65a7917ed666ded2468b173365663b5320b799d92589f40870d3f7f2d`, `faq_local` `c2e0ee44b09d0f07e6d537dafd0a2385bd5dc1a9bd3ac768d56513acfa107d9f`, `pooled` `cfdd4ae602d3953618752dfe4f433e7b23504f905ab33d312c15aba9c69744e0`;
+   - code, prior experiment outputs and package versions: the D-52 freeze manifest `Processed_Data/candidates/datagov_prices/experiments/exp_candidate_v1/persistence_test_d52/freeze_manifest.json`. It also records the SHA-256 of this entry's text (LF-normalised, up to the next `### ` heading), so any later edit to this entry makes the runner refuse.
+6. **Frozen procedure (unchanged from the protocol):** designs `faq_only` (primary), `faq_local` and `pooled` (sensitivity); h = 1 (primary), 2 and 4 (secondary); population `eligible_d41` at the origin; period by target-week Sunday; MAE (primary), RMSE, MAPE with the instability flag (`MAPE_UNSTABLE_SHARE` = 0.20), median APE; market-cluster (`canonical_id`) bootstrap, 10,000 replicates, seed 20261022, here of the MAE level; state-cluster bootstrap and leave-one-state-out as robustness.
+7. **Pre-run checks (all before any test row is read):** this entry is present and matches the freeze; every frozen file, code and prior-output hash matches; package versions match; the existing preflight passes (protocol, D-50 approvals, R09u disabled, every v1.1 output hash); the protocol test split equals item 3; no lock, completion record or output exists; the run is started with the explicit confirmation `--confirm-single-test-run D-52`.
+8. **One-time guard:** `RUN_LOCK.json` is created with an exclusive create, and flushed to disk, before the first test row is read. Any existing lock refuses every later run, completed or not. **Recovery after an interruption:** the window counts as used. There is no bypass in code, and the lock must not be deleted to rerun. Recovery needs a new owner decision recorded in this log, for example to report the partial outputs, or to authorise one rerun of the identical frozen code.
+9. **Reporting:** by crop × horizon × design, and by test month (the Thursday of the target week names the month); market-cluster 95% intervals with their cluster counts; state-level and leave-one-state-out where a crop has at least 2 states; row, market, state, series and target-week coverage; every excluded row with its reason. No precision is claimed beyond the sample (16 target weeks; Wheat concentrated in 5 states).
+10. **Use of results:** reporting only. The results must not be used to tune models, select features, or change thresholds, populations or acceptance criteria. Any future learned price model or arrivals experiment needs a fresh evaluation period (data after 2026-10-20) unless separately approved.
+11. **Status at recording:** prepared, not executed. Execution waits for the final execution gate. The results will be recorded in a later entry or in `Data_Source_Review.md`, so this entry stays byte-identical.
+**Phase**: candidate data upgrade (not a numbered phase).
+### D-53 — [RECORDED 2026-10-24 at the project owner's request] D-52 persistence-only test result (reporting only; the candidate test window is consumed)
+**Evidence**: `Processed_Data/candidates/datagov_prices/experiments/exp_candidate_v1/persistence_test_d52/`: `RUN_LOCK.json`, `RUN_COMPLETED.json`, `run/run_manifest.json` (SHA-256 `d77f165ae87b7b144c2723f407f73622629788261c9f864c16625ab762999b91`) and six result CSVs; freeze manifest SHA-256 `3298a555e5fad649f10c4d68f1fb8b015960fb466d0f87209b72616e461f1fe7`; `Data_Source_Review.md` §7.6.
+**Recorded result**:
+1. **Run:** the authorised D-52 run executed **exactly once**, 2026-10-24 14:37:24 → 14:37:30 UTC, exit code 0. The lock was created before any test row was read. The completion record matches the run manifest, the run manifest matches the freeze, and all six outputs match their recorded hashes. The 27 loaded code modules are all in the freeze. It is never rerun.
+2. **Scope as frozen:** persistence only (prediction = `y_origin`); target-week Sundays 2026-07-05 → 2026-10-18; designs `faq_only` (primary), `faq_local`, `pooled`; h = 1, 2, 4. Nothing was trained, refitted, tuned, compared or selected. No origin before 2024-02-03 was read, and the 2023 holdout was not accessed.
+3. **Primary design `faq_only`** (Rs/quintal, rounded from `run/by_crop.csv`; 95% intervals: market-cluster and state-cluster bootstrap of the MAE level, 10,000 replicates, seed 20261022):
+
+| Crop | h | Rows | Markets / states | MAE [95% market CI] | RMSE | MAPE % | Median APE % | State-cluster 95% CI |
+|---|---|---|---|---|---|---|---|---|
+| Onion | 1 | 1,048 | 72 / 8 | **231.3** [216.1, 247.7] | 374.3 | 7.6 | 4.3 | [219.4, 249.3] |
+| Onion | 2 | 1,035 | 68 / 8 | **387.9** [364.3, 411.7] | 571.2 | 12.3 | 9.0 | [362.7, 402.3] |
+| Onion | 4 | 1,023 | 68 / 8 | **678.8** [637.4, 719.3] | 894.5 | 21.0 | 19.6 | [608.4, 730.6] |
+| Potato | 1 | 1,137 | 82 / 11 | **32.0** [24.8, 40.6] | 78.9 | 3.5 | 1.1 | [20.9, 55.2] |
+| Potato | 2 | 1,122 | 80 / 10 | **45.8** [37.0, 56.6] | 92.7 | 5.1 | 2.6 | [33.4, 71.0] |
+| Potato | 4 | 1,093 | 80 / 10 | **66.5** [55.6, 80.3] | 118.9 | 7.7 | 4.9 | [54.6, 92.3] |
+| Wheat | 1 | 2,591 | 177 / 5 | **40.7** [34.6, 48.4] | 87.5 | 1.5 | 0.8 | [27.3, 60.4] |
+| Wheat | 2 | 2,567 | 176 / 5 | **49.9** [43.7, 57.4] | 93.0 | 1.9 | 1.1 | [33.3, 74.0] |
+| Wheat | 4 | 2,528 | 174 / 5 | **68.6** [61.3, 76.9] | 113.3 | 2.6 | 1.9 | [45.4, 104.4] |
+
+   No crop × horizon × design cell, and no month cell, triggers the MAPE instability flag.
+4. **Sensitivity designs, h = 1 MAE [95% market CI]:**
+   - `faq_local`: Onion 262.8 [252.5, 273.1] (3,668 rows), Potato 33.9 [27.4, 41.3] (1,399), Wheat 40.6 [34.5, 47.8] (2,716);
+   - `pooled`: Onion 264.1 [254.7, 273.7] (4,358), Potato 39.6 [33.7, 46.3] (2,058), Wheat 40.6 [35.3, 46.8] (3,207).
+5. **By month** (Thursday of the target week; 5 / 4 / 4 / 3 target weeks in Jul / Aug / Sep / Oct):
+   - `faq_only` h = 1, Jul / Aug / Sep / Oct: Onion 173.7 / 331.1 / 247.6 / 174.5; Potato 35.1 / 37.6 / 23.4 / 31.2; Wheat 36.0 / 40.4 / 43.4 / 45.4. August is Onion's hardest month at h = 1.
+   - **Onion h = 4 September spike:** `faq_only` 1,178.4 [1,075.9, 1,282.8] (255 rows, 63 markets, MAPE 28.6%), against 573.8 / 565.5 / 345.2 in Jul / Aug / Oct. The same spike appears in `faq_local` (1,397.4) and `pooled` (1,361.8). It rests on 4 target weeks; its cause is not established.
+6. **State uncertainty:**
+   - State-cluster intervals are much wider than market-cluster ones (Wheat h = 1 [27.3, 60.4] from **5 states**; Potato h = 1 [20.9, 55.2]). The market-cluster intervals therefore understate uncertainty about other regions.
+   - Leave-one-state-out moves Wheat h = 1 MAE between 28.9 and 57.4; Uttar Pradesh (1,448 rows, MAE 27.6) and Madhya Pradesh (938 rows, MAE 61.7) dominate.
+   - Several state cells rest on 1–2 markets (Potato 5 states, Onion 2 states at `faq_only` h = 1) and are anecdotal.
+7. **Coverage and exclusions:** every cell covers all **16 target weeks** (2026-06-29 → 2026-10-12). The only exclusion reason is `not_eligible_d41_at_origin` (`faq_only` h = 1: Onion 4,849, Potato 5,149, Wheat 12,962 rows); no row was excluded for a missing origin or a missing or non-positive target. **Limitation:** weeks without an observed target price never appear in the model table, so they cannot appear in the exclusion report; all coverage is conditional on an observed target.
+8. **Validation comparison (descriptive only):** the `faq_only` h = 1 persistence MAE on validation (all eligible rows, `baselines_phase8_quarterly/faq_only_h1/persistence_all_eligible_rows.csv`) was Onion 94.7 / 99.7, Potato 57.7 / 41.1, Wheat 41.5 / 34.2 (2026 Q1 / Q2). The test window gives Onion 231.3, Potato 32.0, Wheat 40.7. The periods differ in season, rows and markets; this is **not evidence of a causal change** in forecast performance.
+9. **Use:** reporting only (D-52 item 10). The consumed test window must not be used to tune, compare or select models, features, thresholds, populations or acceptance criteria. Future learned price or arrivals models need a fresh evaluation period (data after 2026-10-20) unless separately approved.
+10. **Stale post-run test:** `test_real_freeze_verifies_without_reading_records` in the frozen `Code/tests/test_persistence_test_candidate.py` asserts that no lock exists, which was true only before the run. It now fails by design and is left **unchanged and not skipped**, because the file is bound by the D-52 freeze and editing it would break the freeze. The intended post-run invariant (a lock is accompanied by a completion record that matches the run manifest, and the outputs match their hashes) is tested in the new, unfrozen `Code/tests/test_persistence_test_postrun.py`.
+**Phase**: candidate data upgrade (not a numbered phase).
+
+### D-54 — [RECORDED 2026-10-25 at the project owner's request] Hadoop / HDFS is outside the implementation scope; PySpark stays an optional environment
+**Decision**: Hadoop and HDFS are **not part of the implemented project**. The project owner confirmed on 2026-10-25 that a Hadoop / HDFS deployment is not mandatory for this course project (handout p5 A3 names "Big Data Tools, Hadoop and Pyspark" as a focus; the requirement is met with PySpark and Spark SQL). This closes the "pending instructor guidance" status recorded in `BigData_and_Dashboard_Spec.md`, `Final_Report.md` §8 and `Requirements_Checklist.md`.
+**Architecture as built**:
+1. **Storage:** local files only. Raw CSV / Excel in `Dataset/` (read-only, D-01); derived CSV and parquet in `Processed_Data/`. No distributed file system.
+2. **Big Data processing:** PySpark 4.2.0 / Spark SQL in **local mode on one machine** (`Code/bigdata/mandi_spark.py`: ETL, Q1–Q3, parity against Phase 4 pandas; `mapreduce_demo.py`: a MapReduce-*style* RDD pattern, not Hadoop MapReduce). Its outputs in `Processed_Data/bigdata/` are tracked CSVs, so nothing downstream needs Spark.
+3. **Analysis and models:** pandas / numpy / scikit-learn pipelines (Phases 1–10, candidate experiments), notebooks executed with the project interpreter.
+4. **Application:** read-only FastAPI (`Code/api/`) over `Code/app/data.py`, and the React frontend (`frontend/`).
+**What this is not**: Hadoop / HDFS was **not implemented, installed, benchmarked or experimentally compared**; it was not rejected on technical evidence. The Spark runtimes are single-machine observations, not cluster evidence.
+**Dependencies**: PySpark is **not** in the default `requirements.txt`. It is needed only to rerun the Spark ETL or its tests, and lives in the separately documented venv with JDK 21 (root `README.md`, "Optional: Spark environment"); `Code/tests/test_bigdata_spark.py` skips without it. No Hadoop / HDFS code or dependency is added.
+**Not changed**: every earlier decision, freeze and evaluation boundary (D-42, D-45, PQ-1, D-52 / D-53).
+**Phase**: final scope (not a numbered phase).

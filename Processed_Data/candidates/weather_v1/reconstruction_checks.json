@@ -1,0 +1,18 @@
+{
+ "locations": 46,
+ "rows": 369610,
+ "expected_rows": 369610,
+ "duplicate_dates": 0,
+ "missing_dates": 0,
+ "null_values": {
+  "temperature_2m_mean": 0,
+  "temperature_2m_max": 0,
+  "temperature_2m_min": 0,
+  "rain_sum": 0,
+  "relative_humidity_2m_mean": 0,
+  "wind_speed_10m_mean": 0,
+  "et0_fao_evapotranspiration": 0
+ },
+ "units_identical_to_extension": true,
+ "same_grid_cell_as_original": 46
+}

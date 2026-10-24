@@ -1,0 +1,27 @@
+Commodity,quarter,state,rows,markets
+Onion,2026Q1,Gujarat,29,3
+Onion,2026Q1,Madhya Pradesh,14,2
+Onion,2026Q1,Punjab,39,3
+Onion,2026Q1,Rajasthan,26,2
+Onion,2026Q1,Uttar Pradesh,18,4
+Onion,2026Q1,West Bengal,78,6
+Onion,2026Q2,Gujarat,27,3
+Onion,2026Q2,Haryana,7,1
+Onion,2026Q2,Madhya Pradesh,50,4
+Onion,2026Q2,Punjab,49,4
+Onion,2026Q2,Rajasthan,26,2
+Onion,2026Q2,Uttar Pradesh,12,1
+Onion,2026Q2,West Bengal,76,7
+Potato,2026Q1,Punjab,39,3
+Potato,2026Q1,Uttar Pradesh,52,7
+Potato,2026Q1,West Bengal,65,9
+Potato,2026Q2,Punjab,49,4
+Potato,2026Q2,Uttar Pradesh,50,4
+Potato,2026Q2,West Bengal,111,9
+Wheat,2026Q1,Gujarat,78,4
+Wheat,2026Q1,Madhya Pradesh,139,12
+Wheat,2026Q1,Uttar Pradesh,38,7
+Wheat,2026Q2,Gujarat,85,4
+Wheat,2026Q2,Madhya Pradesh,228,15
+Wheat,2026Q2,Rajasthan,1,1
+Wheat,2026Q2,Uttar Pradesh,99,9

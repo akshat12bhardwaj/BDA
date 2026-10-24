@@ -1,0 +1,2683 @@
+{
+ "run": "20261023T233559Z",
+ "retrieved_utc": "20261023T233559Z",
+ "source_url": "https://api.data.gov.in/resource/35985678-0d79-46b4-9ed6-6f13308a1d24",
+ "limit": 5000,
+ "offset": 0,
+ "sort": "none",
+ "record_identity": "canonical JSON (sorted keys) of all returned fields",
+ "budget": 160,
+ "retry_policy": {
+  "max_attempts": 3,
+  "waits_s": [
+   5,
+   15
+  ],
+  "stop_on": "401/403/429 or rate/key message"
+ },
+ "requests": [
+  {
+   "n": 1,
+   "tag": "Onion_2024-02-03_f1",
+   "filters": {
+    "Commodity": "Onion",
+    "Arrival_Date": "03/02/2024"
+   },
+   "attempt": 1,
+   "http": "200",
+   "seconds": 2.11,
+   "bytes": 232749,
+   "outcome": "ok"
+  },
+  {
+   "n": 2,
+   "tag": "Onion_2024-02-03_f2",
+   "filters": {
+    "Commodity": "Onion",
+    "Arrival_Date": "03/02/2024"
+   },
+   "attempt": 1,
+   "http": "200",
+   "seconds": 2.51,
+   "bytes": 232749,
+   "outcome": "ok"
+  },
+  {
+   "n": 3,
+   "tag": "Onion_2024-06-23_f1",
+   "filters": {
+    "Commodity": "Onion",
+    "Arrival_Date": "23/06/2024"
+   },
+   "attempt": 1,
+   "http": "200",
+   "seconds": 2.17,
+   "bytes": 184884,
+   "outcome": "ok"
+  },
+  {
+   "n": 4,
+   "tag": "Onion_2024-06-23_f2",
+   "filters": {
+    "Commodity": "Onion",
+    "Arrival_Date": "23/06/2024"
+   },
+   "attempt": 1,
+   "http": "200",
+   "seconds": 2.28,
+   "bytes": 184884,
+   "outcome": "ok"
+  },
+  {
+   "n": 5,
+   "tag": "Onion_2024-11-12_f1",
+   "filters": {
+    "Commodity": "Onion",
+    "Arrival_Date": "12/11/2024"
+   },
+   "attempt": 1,
+   "http": "200",
+   "seconds": 2.2,
+   "bytes": 322683,
+   "outcome": "ok"
+  },
+  {
+   "n": 6,
+   "tag": "Onion_2024-11-12_f2",
+   "filters": {
+    "Commodity": "Onion",
+    "Arrival_Date": "12/11/2024"
+   },
+   "attempt": 1,
+   "http": "200",
+   "seconds": 0.92,
+   "bytes": 322683,
+   "outcome": "ok"
+  },
+  {
+   "n": 7,
+   "tag": "Onion_2025-04-02_f1",
+   "filters": {
+    "Commodity": "Onion",
+    "Arrival_Date": "02/04/2025"
+   },
+   "attempt": 1,
+   "http": "200",
+   "seconds": 0.97,
+   "bytes": 340739,
+   "outcome": "ok"
+  },
+  {
+   "n": 8,
+   "tag": "Onion_2025-04-02_f2",
+   "filters": {
+    "Commodity": "Onion",
+    "Arrival_Date": "02/04/2025"
+   },
+   "attempt": 1,
+   "http": "200",
+   "seconds": 0.99,
+   "bytes": 340739,
+   "outcome": "ok"
+  },
+  {
+   "n": 9,
+   "tag": "Onion_2025-08-22_f1",
+   "filters": {
+    "Commodity": "Onion",
+    "Arrival_Date": "22/08/2025"
+   },
+   "attempt": 1,
+   "http": "200",
+   "seconds": 1.1,
+   "bytes": 336445,
+   "outcome": "ok"
+  },
+  {
+   "n": 10,
+   "tag": "Onion_2025-08-22_f2",
+   "filters": {
+    "Commodity": "Onion",
+    "Arrival_Date": "22/08/2025"
+   },
+   "attempt": 1,
+   "http": "200",
+   "seconds": 1.45,
+   "bytes": 336445,
+   "outcome": "ok"
+  },
+  {
+   "n": 11,
+   "tag": "Onion_2026-01-10_f1",
+   "filters": {
+    "Commodity": "Onion",
+    "Arrival_Date": "10/01/2026"
+   },
+   "attempt": 1,
+   "http": "200",
+   "seconds": 0.77,
+   "bytes": 198977,
+   "outcome": "ok"
+  },
+  {
+   "n": 12,
+   "tag": "Onion_2026-01-10_f2",
+   "filters": {
+    "Commodity": "Onion",
+    "Arrival_Date": "10/01/2026"
+   },
+   "attempt": 1,
+   "http": "200",
+   "seconds": 1.53,
+   "bytes": 198977,
+   "outcome": "ok"
+  },
+  {
+   "n": 13,
+   "tag": "Onion_2026-06-01_f1",
+   "filters": {
+    "Commodity": "Onion",
+    "Arrival_Date": "01/06/2026"
+   },
+   "attempt": 1,
+   "http": "200",
+   "seconds": 2.03,
+   "bytes": 302467,
+   "outcome": "ok"
+  },
+  {
+   "n": 14,
+   "tag": "Onion_2026-06-01_f2",
+   "filters": {
+    "Commodity": "Onion",
+    "Arrival_Date": "01/06/2026"
+   },
+   "attempt": 1,
+   "http": "200",
+   "seconds": 2.43,
+   "bytes": 302467,
+   "outcome": "ok"
+  },
+  {
+   "n": 15,
+   "tag": "Onion_2026-10-20_f1",
+   "filters": {
+    "Commodity": "Onion",
+    "Arrival_Date": "20/10/2026"
+   },
+   "attempt": 1,
+   "http": "200",
+   "seconds": 1.4,
+   "bytes": 218577,
+   "outcome": "ok"
+  },
+  {
+   "n": 16,
+   "tag": "Onion_2026-10-20_f2",
+   "filters": {
+    "Commodity": "Onion",
+    "Arrival_Date": "20/10/2026"
+   },
+   "attempt": 1,
+   "http": "200",
+   "seconds": 0.87,
+   "bytes": 218577,
+   "outcome": "ok"
+  },
+  {
+   "n": 17,
+   "tag": "Onion_2024-06-17_f1",
+   "filters": {
+    "Commodity": "Onion",
+    "Arrival_Date": "17/06/2024"
+   },
+   "attempt": 1,
+   "http": "200",
+   "seconds": 0.71,
+   "bytes": 170696,
+   "outcome": "ok"
+  },
+  {
+   "n": 18,
+   "tag": "Onion_2024-06-17_f2",
+   "filters": {
+    "Commodity": "Onion",
+    "Arrival_Date": "17/06/2024"
+   },
+   "attempt": 1,
+   "http": "200",
+   "seconds": 0.68,
+   "bytes": 170696,
+   "outcome": "ok"
+  },
+  {
+   "n": 19,
+   "tag": "Onion_2025-06-18_f1",
+   "filters": {
+    "Commodity": "Onion",
+    "Arrival_Date": "18/06/2025"
+   },
+   "attempt": 1,
+   "http": "200",
+   "seconds": 0.73,
+   "bytes": 340325,
+   "outcome": "ok"
+  },
+  {
+   "n": 20,
+   "tag": "Onion_2025-06-18_f2",
+   "filters": {
+    "Commodity": "Onion",
+    "Arrival_Date": "18/06/2025"
+   },
+   "attempt": 1,
+   "http": "200",
+   "seconds": 1.1,
+   "bytes": 340325,
+   "outcome": "ok"
+  },
+  {
+   "n": 21,
+   "tag": "Potato_2024-02-04_f1",
+   "filters": {
+    "Commodity": "Potato",
+    "Arrival_Date": "04/02/2024"
+   },
+   "attempt": 1,
+   "http": "200",
+   "seconds": 0.95,
+   "bytes": 144640,
+   "outcome": "ok"
+  },
+  {
+   "n": 22,
+   "tag": "Potato_2024-02-04_f2",
+   "filters": {
+    "Commodity": "Potato",
+    "Arrival_Date": "04/02/2024"
+   },
+   "attempt": 1,
+   "http": "200",
+   "seconds": 0.7,
+   "bytes": 144640,
+   "outcome": "ok"
+  },
+  {
+   "n": 23,
+   "tag": "Potato_2024-06-22_f1",
+   "filters": {
+    "Commodity": "Potato",
+    "Arrival_Date": "22/06/2024"
+   },
+   "attempt": 1,
+   "http": "200",
+   "seconds": 0.73,
+   "bytes": 249304,
+   "outcome": "ok"
+  },
+  {
+   "n": 24,
+   "tag": "Potato_2024-06-22_f2",
+   "filters": {
+    "Commodity": "Potato",
+    "Arrival_Date": "22/06/2024"
+   },
+   "attempt": 1,
+   "http": "200",
+   "seconds": 0.83,
+   "bytes": 249304,
+   "outcome": "ok"
+  },
+  {
+   "n": 25,
+   "tag": "Potato_2024-11-11_f1",
+   "filters": {
+    "Commodity": "Potato",
+    "Arrival_Date": "11/11/2024"
+   },
+   "attempt": 1,
+   "http": "200",
+   "seconds": 1.3,
+   "bytes": 300738,
+   "outcome": "ok"
+  },
+  {
+   "n": 26,
+   "tag": "Potato_2024-11-11_f2",
+   "filters": {
+    "Commodity": "Potato",
+    "Arrival_Date": "11/11/2024"
+   },
+   "attempt": 1,
+   "http": "200",
+   "seconds": 0.83,
+   "bytes": 300738,
+   "outcome": "ok"
+  },
+  {
+   "n": 27,
+   "tag": "Potato_2025-04-01_f1",
+   "filters": {
+    "Commodity": "Potato",
+    "Arrival_Date": "01/04/2025"
+   },
+   "attempt": 1,
+   "http": "200",
+   "seconds": 0.73,
+   "bytes": 298095,
+   "outcome": "ok"
+  },
+  {
+   "n": 28,
+   "tag": "Potato_2025-04-01_f2",
+   "filters": {
+    "Commodity": "Potato",
+    "Arrival_Date": "01/04/2025"
+   },
+   "attempt": 1,
+   "http": "200",
+   "seconds": 0.76,
+   "bytes": 298095,
+   "outcome": "ok"
+  },
+  {
+   "n": 29,
+   "tag": "Potato_2025-08-21_f1",
+   "filters": {
+    "Commodity": "Potato",
+    "Arrival_Date": "21/08/2025"
+   },
+   "attempt": 1,
+   "http": "200",
+   "seconds": 0.85,
+   "bytes": 289169,
+   "outcome": "ok"
+  },
+  {
+   "n": 30,
+   "tag": "Potato_2025-08-21_f2",
+   "filters": {
+    "Commodity": "Potato",
+    "Arrival_Date": "21/08/2025"
+   },
+   "attempt": 1,
+   "http": "200",
+   "seconds": 0.83,
+   "bytes": 289169,
+   "outcome": "ok"
+  },
+  {
+   "n": 31,
+   "tag": "Potato_2026-01-09_f1",
+   "filters": {
+    "Commodity": "Potato",
+    "Arrival_Date": "09/01/2026"
+   },
+   "attempt": 1,
+   "http": "200",
+   "seconds": 0.84,
+   "bytes": 236795,
+   "outcome": "ok"
+  },
+  {
+   "n": 32,
+   "tag": "Potato_2026-01-09_f2",
+   "filters": {
+    "Commodity": "Potato",
+    "Arrival_Date": "09/01/2026"
+   },
+   "attempt": 1,
+   "http": "200",
+   "seconds": 0.87,
+   "bytes": 236795,
+   "outcome": "ok"
+  },
+  {
+   "n": 33,
+   "tag": "Potato_2026-05-31_f1",
+   "filters": {
+    "Commodity": "Potato",
+    "Arrival_Date": "31/05/2026"
+   },
+   "attempt": 1,
+   "http": "200",
+   "seconds": 0.74,
+   "bytes": 193574,
+   "outcome": "ok"
+  },
+  {
+   "n": 34,
+   "tag": "Potato_2026-05-31_f2",
+   "filters": {
+    "Commodity": "Potato",
+    "Arrival_Date": "31/05/2026"
+   },
+   "attempt": 1,
+   "http": "200",
+   "seconds": 0.75,
+   "bytes": 193574,
+   "outcome": "ok"
+  },
+  {
+   "n": 35,
+   "tag": "Potato_2026-10-19_f1",
+   "filters": {
+    "Commodity": "Potato",
+    "Arrival_Date": "19/10/2026"
+   },
+   "attempt": 1,
+   "http": "200",
+   "seconds": 1.05,
+   "bytes": 256802,
+   "outcome": "ok"
+  },
+  {
+   "n": 36,
+   "tag": "Potato_2026-10-19_f2",
+   "filters": {
+    "Commodity": "Potato",
+    "Arrival_Date": "19/10/2026"
+   },
+   "attempt": 1,
+   "http": "200",
+   "seconds": 0.89,
+   "bytes": 256802,
+   "outcome": "ok"
+  },
+  {
+   "n": 37,
+   "tag": "Potato_2025-02-17_f1",
+   "filters": {
+    "Commodity": "Potato",
+    "Arrival_Date": "17/02/2025"
+   },
+   "attempt": 1,
+   "http": "200",
+   "seconds": 0.98,
+   "bytes": 347660,
+   "outcome": "ok"
+  },
+  {
+   "n": 38,
+   "tag": "Potato_2025-02-17_f2",
+   "filters": {
+    "Commodity": "Potato",
+    "Arrival_Date": "17/02/2025"
+   },
+   "attempt": 1,
+   "http": "200",
+   "seconds": 0.93,
+   "bytes": 347660,
+   "outcome": "ok"
+  },
+  {
+   "n": 39,
+   "tag": "Potato_2026-02-16_f1",
+   "filters": {
+    "Commodity": "Potato",
+    "Arrival_Date": "16/02/2026"
+   },
+   "attempt": 1,
+   "http": "200",
+   "seconds": 0.71,
+   "bytes": 242213,
+   "outcome": "ok"
+  },
+  {
+   "n": 40,
+   "tag": "Potato_2026-02-16_f2",
+   "filters": {
+    "Commodity": "Potato",
+    "Arrival_Date": "16/02/2026"
+   },
+   "attempt": 1,
+   "http": "200",
+   "seconds": 1.16,
+   "bytes": 242213,
+   "outcome": "ok"
+  },
+  {
+   "n": 41,
+   "tag": "Wheat_2024-02-05_f1",
+   "filters": {
+    "Commodity": "Wheat",
+    "Arrival_Date": "05/02/2024"
+   },
+   "attempt": 1,
+   "http": "200",
+   "seconds": 0.81,
+   "bytes": 159182,
+   "outcome": "ok"
+  },
+  {
+   "n": 42,
+   "tag": "Wheat_2024-02-05_f2",
+   "filters": {
+    "Commodity": "Wheat",
+    "Arrival_Date": "05/02/2024"
+   },
+   "attempt": 1,
+   "http": "200",
+   "seconds": 0.71,
+   "bytes": 159182,
+   "outcome": "ok"
+  },
+  {
+   "n": 43,
+   "tag": "Wheat_2024-06-21_f1",
+   "filters": {
+    "Commodity": "Wheat",
+    "Arrival_Date": "21/06/2024"
+   },
+   "attempt": 1,
+   "http": "200",
+   "seconds": 1.12,
+   "bytes": 270447,
+   "outcome": "ok"
+  },
+  {
+   "n": 44,
+   "tag": "Wheat_2024-06-21_f2",
+   "filters": {
+    "Commodity": "Wheat",
+    "Arrival_Date": "21/06/2024"
+   },
+   "attempt": 1,
+   "http": "200",
+   "seconds": 0.81,
+   "bytes": 270447,
+   "outcome": "ok"
+  },
+  {
+   "n": 45,
+   "tag": "Wheat_2024-11-10_f1",
+   "filters": {
+    "Commodity": "Wheat",
+    "Arrival_Date": "10/11/2024"
+   },
+   "attempt": 1,
+   "http": "200",
+   "seconds": 0.6,
+   "bytes": 63739,
+   "outcome": "ok"
+  },
+  {
+   "n": 46,
+   "tag": "Wheat_2024-11-10_f2",
+   "filters": {
+    "Commodity": "Wheat",
+    "Arrival_Date": "10/11/2024"
+   },
+   "attempt": 1,
+   "http": "200",
+   "seconds": 0.61,
+   "bytes": 63739,
+   "outcome": "ok"
+  },
+  {
+   "n": 47,
+   "tag": "Wheat_2025-03-31_f1",
+   "filters": {
+    "Commodity": "Wheat",
+    "Arrival_Date": "31/03/2025"
+   },
+   "attempt": 1,
+   "http": "200",
+   "seconds": 0.98,
+   "bytes": 172508,
+   "outcome": "ok"
+  },
+  {
+   "n": 48,
+   "tag": "Wheat_2025-03-31_f2",
+   "filters": {
+    "Commodity": "Wheat",
+    "Arrival_Date": "31/03/2025"
+   },
+   "attempt": 1,
+   "http": "200",
+   "seconds": 1.07,
+   "bytes": 172508,
+   "outcome": "ok"
+  },
+  {
+   "n": 49,
+   "tag": "Wheat_2025-08-20_f1",
+   "filters": {
+    "Commodity": "Wheat",
+    "Arrival_Date": "20/08/2025"
+   },
+   "attempt": 1,
+   "http": "200",
+   "seconds": 0.8,
+   "bytes": 315339,
+   "outcome": "ok"
+  },
+  {
+   "n": 50,
+   "tag": "Wheat_2025-08-20_f2",
+   "filters": {
+    "Commodity": "Wheat",
+    "Arrival_Date": "20/08/2025"
+   },
+   "attempt": 1,
+   "http": "200",
+   "seconds": 1.14,
+   "bytes": 315339,
+   "outcome": "ok"
+  },
+  {
+   "n": 51,
+   "tag": "Wheat_2026-01-08_f1",
+   "filters": {
+    "Commodity": "Wheat",
+    "Arrival_Date": "08/01/2026"
+   },
+   "attempt": 1,
+   "http": "200",
+   "seconds": 1.21,
+   "bytes": 261263,
+   "outcome": "ok"
+  },
+  {
+   "n": 52,
+   "tag": "Wheat_2026-01-08_f2",
+   "filters": {
+    "Commodity": "Wheat",
+    "Arrival_Date": "08/01/2026"
+   },
+   "attempt": 1,
+   "http": "200",
+   "seconds": 1.04,
+   "bytes": 261263,
+   "outcome": "ok"
+  },
+  {
+   "n": 53,
+   "tag": "Wheat_2026-05-30_f1",
+   "filters": {
+    "Commodity": "Wheat",
+    "Arrival_Date": "30/05/2026"
+   },
+   "attempt": 1,
+   "http": "200",
+   "seconds": 1.11,
+   "bytes": 469503,
+   "outcome": "ok"
+  },
+  {
+   "n": 54,
+   "tag": "Wheat_2026-05-30_f2",
+   "filters": {
+    "Commodity": "Wheat",
+    "Arrival_Date": "30/05/2026"
+   },
+   "attempt": 1,
+   "http": "200",
+   "seconds": 0.95,
+   "bytes": 469503,
+   "outcome": "ok"
+  },
+  {
+   "n": 55,
+   "tag": "Wheat_2026-10-18_f1",
+   "filters": {
+    "Commodity": "Wheat",
+    "Arrival_Date": "18/10/2026"
+   },
+   "attempt": 1,
+   "http": "200",
+   "seconds": 0.75,
+   "bytes": 141522,
+   "outcome": "ok"
+  },
+  {
+   "n": 56,
+   "tag": "Wheat_2026-10-18_f2",
+   "filters": {
+    "Commodity": "Wheat",
+    "Arrival_Date": "18/10/2026"
+   },
+   "attempt": 1,
+   "http": "200",
+   "seconds": 0.67,
+   "bytes": 141522,
+   "outcome": "ok"
+  },
+  {
+   "n": 57,
+   "tag": "Wheat_2024-04-15_f1",
+   "filters": {
+    "Commodity": "Wheat",
+    "Arrival_Date": "15/04/2024"
+   },
+   "attempt": 1,
+   "http": "200",
+   "seconds": 0.94,
+   "bytes": 322055,
+   "outcome": "ok"
+  },
+  {
+   "n": 58,
+   "tag": "Wheat_2024-04-15_f2",
+   "filters": {
+    "Commodity": "Wheat",
+    "Arrival_Date": "15/04/2024"
+   },
+   "attempt": 1,
+   "http": "200",
+   "seconds": 0.91,
+   "bytes": 322055,
+   "outcome": "ok"
+  },
+  {
+   "n": 59,
+   "tag": "Wheat_2025-04-21_f1",
+   "filters": {
+    "Commodity": "Wheat",
+    "Arrival_Date": "21/04/2025"
+   },
+   "attempt": 1,
+   "http": "200",
+   "seconds": 1.48,
+   "bytes": 464671,
+   "outcome": "ok"
+  },
+  {
+   "n": 60,
+   "tag": "Wheat_2025-04-21_f2",
+   "filters": {
+    "Commodity": "Wheat",
+    "Arrival_Date": "21/04/2025"
+   },
+   "attempt": 1,
+   "http": "200",
+   "seconds": 1.26,
+   "bytes": 464671,
+   "outcome": "ok"
+  },
+  {
+   "n": 61,
+   "tag": "Onion_2025-06-18_state_Andaman_and_Nicobar",
+   "filters": {
+    "Commodity": "Onion",
+    "State": "Andaman and Nicobar",
+    "Arrival_Date": "18/06/2025"
+   },
+   "attempt": 1,
+   "http": "200",
+   "seconds": 0.32,
+   "bytes": 3317,
+   "outcome": "ok"
+  },
+  {
+   "n": 62,
+   "tag": "Onion_2025-06-18_state_Andhra_Pradesh",
+   "filters": {
+    "Commodity": "Onion",
+    "State": "Andhra Pradesh",
+    "Arrival_Date": "18/06/2025"
+   },
+   "attempt": 1,
+   "http": "200",
+   "seconds": 0.4,
+   "bytes": 3317,
+   "outcome": "ok"
+  },
+  {
+   "n": 63,
+   "tag": "Onion_2025-06-18_state_Assam",
+   "filters": {
+    "Commodity": "Onion",
+    "State": "Assam",
+    "Arrival_Date": "18/06/2025"
+   },
+   "attempt": 1,
+   "http": "200",
+   "seconds": 0.39,
+   "bytes": 3317,
+   "outcome": "ok"
+  },
+  {
+   "n": 64,
+   "tag": "Onion_2025-06-18_state_Bihar",
+   "filters": {
+    "Commodity": "Onion",
+    "State": "Bihar",
+    "Arrival_Date": "18/06/2025"
+   },
+   "attempt": 1,
+   "http": "200",
+   "seconds": 0.5,
+   "bytes": 5683,
+   "outcome": "ok"
+  },
+  {
+   "n": 65,
+   "tag": "Onion_2025-06-18_state_Chandigarh",
+   "filters": {
+    "Commodity": "Onion",
+    "State": "Chandigarh",
+    "Arrival_Date": "18/06/2025"
+   },
+   "attempt": 1,
+   "http": "200",
+   "seconds": 0.32,
+   "bytes": 3738,
+   "outcome": "ok"
+  },
+  {
+   "n": 66,
+   "tag": "Onion_2025-06-18_state_Chattisgarh",
+   "filters": {
+    "Commodity": "Onion",
+    "State": "Chattisgarh",
+    "Arrival_Date": "18/06/2025"
+   },
+   "attempt": 1,
+   "http": "200",
+   "seconds": 0.33,
+   "bytes": 4936,
+   "outcome": "ok"
+  },
+  {
+   "n": 67,
+   "tag": "Onion_2025-06-18_state_Goa",
+   "filters": {
+    "Commodity": "Onion",
+    "State": "Goa",
+    "Arrival_Date": "18/06/2025"
+   },
+   "attempt": 1,
+   "http": "200",
+   "seconds": 0.48,
+   "bytes": 3713,
+   "outcome": "ok"
+  },
+  {
+   "n": 68,
+   "tag": "Onion_2025-06-18_state_Gujarat",
+   "filters": {
+    "Commodity": "Onion",
+    "State": "Gujarat",
+    "Arrival_Date": "18/06/2025"
+   },
+   "attempt": 1,
+   "http": "200",
+   "seconds": 0.4,
+   "bytes": 12197,
+   "outcome": "ok"
+  },
+  {
+   "n": 69,
+   "tag": "Onion_2025-06-18_state_Haryana",
+   "filters": {
+    "Commodity": "Onion",
+    "State": "Haryana",
+    "Arrival_Date": "18/06/2025"
+   },
+   "attempt": 1,
+   "http": "200",
+   "seconds": 0.41,
+   "bytes": 26407,
+   "outcome": "ok"
+  },
+  {
+   "n": 70,
+   "tag": "Onion_2025-06-18_state_Himachal_Pradesh",
+   "filters": {
+    "Commodity": "Onion",
+    "State": "Himachal Pradesh",
+    "Arrival_Date": "18/06/2025"
+   },
+   "attempt": 1,
+   "http": "200",
+   "seconds": 0.5,
+   "bytes": 11860,
+   "outcome": "ok"
+  },
+  {
+   "n": 71,
+   "tag": "Onion_2025-06-18_state_Jammu_and_Kashmir",
+   "filters": {
+    "Commodity": "Onion",
+    "State": "Jammu and Kashmir",
+    "Arrival_Date": "18/06/2025"
+   },
+   "attempt": 1,
+   "http": "200",
+   "seconds": 1.06,
+   "bytes": 5368,
+   "outcome": "ok"
+  },
+  {
+   "n": 72,
+   "tag": "Onion_2025-06-18_state_Jharkhand",
+   "filters": {
+    "Commodity": "Onion",
+    "State": "Jharkhand",
+    "Arrival_Date": "18/06/2025"
+   },
+   "attempt": 1,
+   "http": "200",
+   "seconds": 1.35,
+   "bytes": 3317,
+   "outcome": "ok"
+  },
+  {
+   "n": 73,
+   "tag": "Onion_2025-06-18_state_Karnataka",
+   "filters": {
+    "Commodity": "Onion",
+    "State": "Karnataka",
+    "Arrival_Date": "18/06/2025"
+   },
+   "attempt": 1,
+   "http": "200",
+   "seconds": 1.46,
+   "bytes": 7343,
+   "outcome": "ok"
+  },
+  {
+   "n": 74,
+   "tag": "Onion_2025-06-18_state_Kerala",
+   "filters": {
+    "Commodity": "Onion",
+    "State": "Kerala",
+    "Arrival_Date": "18/06/2025"
+   },
+   "attempt": 1,
+   "http": "200",
+   "seconds": 1.56,
+   "bytes": 32029,
+   "outcome": "ok"
+  },
+  {
+   "n": 75,
+   "tag": "Onion_2025-06-18_state_Madhya_Pradesh",
+   "filters": {
+    "Commodity": "Onion",
+    "State": "Madhya Pradesh",
+    "Arrival_Date": "18/06/2025"
+   },
+   "attempt": 1,
+   "http": "200",
+   "seconds": 1.74,
+   "bytes": 27912,
+   "outcome": "ok"
+  },
+  {
+   "n": 76,
+   "tag": "Onion_2025-06-18_state_Maharashtra",
+   "filters": {
+    "Commodity": "Onion",
+    "State": "Maharashtra",
+    "Arrival_Date": "18/06/2025"
+   },
+   "attempt": 1,
+   "http": "200",
+   "seconds": 1.67,
+   "bytes": 26480,
+   "outcome": "ok"
+  },
+  {
+   "n": 77,
+   "tag": "Onion_2025-06-18_state_Manipur",
+   "filters": {
+    "Commodity": "Onion",
+    "State": "Manipur",
+    "Arrival_Date": "18/06/2025"
+   },
+   "attempt": 1,
+   "http": "200",
+   "seconds": 1.47,
+   "bytes": 3317,
+   "outcome": "ok"
+  },
+  {
+   "n": 78,
+   "tag": "Onion_2025-06-18_state_Meghalaya",
+   "filters": {
+    "Commodity": "Onion",
+    "State": "Meghalaya",
+    "Arrival_Date": "18/06/2025"
+   },
+   "attempt": 1,
+   "http": "200",
+   "seconds": 1.27,
+   "bytes": 3317,
+   "outcome": "ok"
+  },
+  {
+   "n": 79,
+   "tag": "Onion_2025-06-18_state_NCT_of_Delhi",
+   "filters": {
+    "Commodity": "Onion",
+    "State": "NCT of Delhi",
+    "Arrival_Date": "18/06/2025"
+   },
+   "attempt": 1,
+   "http": "200",
+   "seconds": 1.21,
+   "bytes": 4117,
+   "outcome": "ok"
+  },
+  {
+   "n": 80,
+   "tag": "Onion_2025-06-18_state_Nagaland",
+   "filters": {
+    "Commodity": "Onion",
+    "State": "Nagaland",
+    "Arrival_Date": "18/06/2025"
+   },
+   "attempt": 1,
+   "http": "200",
+   "seconds": 1.27,
+   "bytes": 3317,
+   "outcome": "ok"
+  },
+  {
+   "n": 81,
+   "tag": "Onion_2025-06-18_state_Odisha",
+   "filters": {
+    "Commodity": "Onion",
+    "State": "Odisha",
+    "Arrival_Date": "18/06/2025"
+   },
+   "attempt": 1,
+   "http": "200",
+   "seconds": 1.3,
+   "bytes": 10122,
+   "outcome": "ok"
+  },
+  {
+   "n": 82,
+   "tag": "Onion_2025-06-18_state_Punjab",
+   "filters": {
+    "Commodity": "Onion",
+    "State": "Punjab",
+    "Arrival_Date": "18/06/2025"
+   },
+   "attempt": 1,
+   "http": "200",
+   "seconds": 0.89,
+   "bytes": 24823,
+   "outcome": "ok"
+  },
+  {
+   "n": 83,
+   "tag": "Onion_2025-06-18_state_Rajasthan",
+   "filters": {
+    "Commodity": "Onion",
+    "State": "Rajasthan",
+    "Arrival_Date": "18/06/2025"
+   },
+   "attempt": 1,
+   "http": "200",
+   "seconds": 0.39,
+   "bytes": 12579,
+   "outcome": "ok"
+  },
+  {
+   "n": 84,
+   "tag": "Onion_2025-06-18_state_Tamil_Nadu",
+   "filters": {
+    "Commodity": "Onion",
+    "State": "Tamil Nadu",
+    "Arrival_Date": "18/06/2025"
+   },
+   "attempt": 1,
+   "http": "200",
+   "seconds": 0.68,
+   "bytes": 72593,
+   "outcome": "ok"
+  },
+  {
+   "n": 85,
+   "tag": "Onion_2025-06-18_state_Telangana",
+   "filters": {
+    "Commodity": "Onion",
+    "State": "Telangana",
+    "Arrival_Date": "18/06/2025"
+   },
+   "attempt": 1,
+   "http": "200",
+   "seconds": 0.41,
+   "bytes": 5807,
+   "outcome": "ok"
+  },
+  {
+   "n": 86,
+   "tag": "Onion_2025-06-18_state_Tripura",
+   "filters": {
+    "Commodity": "Onion",
+    "State": "Tripura",
+    "Arrival_Date": "18/06/2025"
+   },
+   "attempt": 1,
+   "http": "200",
+   "seconds": 0.51,
+   "bytes": 6128,
+   "outcome": "ok"
+  },
+  {
+   "n": 87,
+   "tag": "Onion_2025-06-18_state_Uttar_Pradesh",
+   "filters": {
+    "Commodity": "Onion",
+    "State": "Uttar Pradesh",
+    "Arrival_Date": "18/06/2025"
+   },
+   "attempt": 1,
+   "http": "200",
+   "seconds": 0.66,
+   "bytes": 75282,
+   "outcome": "ok"
+  },
+  {
+   "n": 88,
+   "tag": "Onion_2025-06-18_state_Uttrakhand",
+   "filters": {
+    "Commodity": "Onion",
+    "State": "Uttrakhand",
+    "Arrival_Date": "18/06/2025"
+   },
+   "attempt": 1,
+   "http": "200",
+   "seconds": 0.44,
+   "bytes": 7784,
+   "outcome": "ok"
+  },
+  {
+   "n": 89,
+   "tag": "Onion_2025-06-18_state_West_Bengal",
+   "filters": {
+    "Commodity": "Onion",
+    "State": "West Bengal",
+    "Arrival_Date": "18/06/2025"
+   },
+   "attempt": 1,
+   "http": "200",
+   "seconds": 0.47,
+   "bytes": 23193,
+   "outcome": "ok"
+  },
+  {
+   "n": 90,
+   "tag": "Potato_2026-02-16_state_Andaman_and_Nicobar",
+   "filters": {
+    "Commodity": "Potato",
+    "State": "Andaman and Nicobar",
+    "Arrival_Date": "16/02/2026"
+   },
+   "attempt": 1,
+   "http": "200",
+   "seconds": 0.34,
+   "bytes": 3317,
+   "outcome": "ok"
+  },
+  {
+   "n": 91,
+   "tag": "Potato_2026-02-16_state_Andhra_Pradesh",
+   "filters": {
+    "Commodity": "Potato",
+    "State": "Andhra Pradesh",
+    "Arrival_Date": "16/02/2026"
+   },
+   "attempt": 1,
+   "http": "200",
+   "seconds": 0.45,
+   "bytes": 3724,
+   "outcome": "ok"
+  },
+  {
+   "n": 92,
+   "tag": "Potato_2026-02-16_state_Assam",
+   "filters": {
+    "Commodity": "Potato",
+    "State": "Assam",
+    "Arrival_Date": "16/02/2026"
+   },
+   "attempt": 1,
+   "http": "200",
+   "seconds": 0.54,
+   "bytes": 9629,
+   "outcome": "ok"
+  },
+  {
+   "n": 93,
+   "tag": "Potato_2026-02-16_state_Bihar",
+   "filters": {
+    "Commodity": "Potato",
+    "State": "Bihar",
+    "Arrival_Date": "16/02/2026"
+   },
+   "attempt": 1,
+   "http": "200",
+   "seconds": 0.42,
+   "bytes": 4099,
+   "outcome": "ok"
+  },
+  {
+   "n": 94,
+   "tag": "Potato_2026-02-16_state_Chandigarh",
+   "filters": {
+    "Commodity": "Potato",
+    "State": "Chandigarh",
+    "Arrival_Date": "16/02/2026"
+   },
+   "attempt": 1,
+   "http": "200",
+   "seconds": 0.39,
+   "bytes": 3317,
+   "outcome": "ok"
+  },
+  {
+   "n": 95,
+   "tag": "Potato_2026-02-16_state_Chattisgarh",
+   "filters": {
+    "Commodity": "Potato",
+    "State": "Chattisgarh",
+    "Arrival_Date": "16/02/2026"
+   },
+   "attempt": 1,
+   "http": "200",
+   "seconds": 0.34,
+   "bytes": 3317,
+   "outcome": "ok"
+  },
+  {
+   "n": 96,
+   "tag": "Potato_2026-02-16_state_Goa",
+   "filters": {
+    "Commodity": "Potato",
+    "State": "Goa",
+    "Arrival_Date": "16/02/2026"
+   },
+   "attempt": 1,
+   "http": "200",
+   "seconds": 0.43,
+   "bytes": 3712,
+   "outcome": "ok"
+  },
+  {
+   "n": 97,
+   "tag": "Potato_2026-02-16_state_Gujarat",
+   "filters": {
+    "Commodity": "Potato",
+    "State": "Gujarat",
+    "Arrival_Date": "16/02/2026"
+   },
+   "attempt": 1,
+   "http": "200",
+   "seconds": 0.4,
+   "bytes": 12166,
+   "outcome": "ok"
+  },
+  {
+   "n": 98,
+   "tag": "Potato_2026-02-16_state_Haryana",
+   "filters": {
+    "Commodity": "Potato",
+    "State": "Haryana",
+    "Arrival_Date": "16/02/2026"
+   },
+   "attempt": 1,
+   "http": "200",
+   "seconds": 0.49,
+   "bytes": 28596,
+   "outcome": "ok"
+  },
+  {
+   "n": 99,
+   "tag": "Potato_2026-02-16_state_Himachal_Pradesh",
+   "filters": {
+    "Commodity": "Potato",
+    "State": "Himachal Pradesh",
+    "Arrival_Date": "16/02/2026"
+   },
+   "attempt": 1,
+   "http": "200",
+   "seconds": 0.38,
+   "bytes": 12142,
+   "outcome": "ok"
+  },
+  {
+   "n": 100,
+   "tag": "Potato_2026-02-16_state_Jammu_and_Kashmir",
+   "filters": {
+    "Commodity": "Potato",
+    "State": "Jammu and Kashmir",
+    "Arrival_Date": "16/02/2026"
+   },
+   "attempt": 1,
+   "http": "200",
+   "seconds": 0.42,
+   "bytes": 4538,
+   "outcome": "ok"
+  },
+  {
+   "n": 101,
+   "tag": "Potato_2026-02-16_state_Jharkhand",
+   "filters": {
+    "Commodity": "Potato",
+    "State": "Jharkhand",
+    "Arrival_Date": "16/02/2026"
+   },
+   "attempt": 1,
+   "http": "200",
+   "seconds": 0.33,
+   "bytes": 3317,
+   "outcome": "ok"
+  },
+  {
+   "n": 102,
+   "tag": "Potato_2026-02-16_state_Karnataka",
+   "filters": {
+    "Commodity": "Potato",
+    "State": "Karnataka",
+    "Arrival_Date": "16/02/2026"
+   },
+   "attempt": 1,
+   "http": "200",
+   "seconds": 0.39,
+   "bytes": 8557,
+   "outcome": "ok"
+  },
+  {
+   "n": 103,
+   "tag": "Potato_2026-02-16_state_Kerala",
+   "filters": {
+    "Commodity": "Potato",
+    "State": "Kerala",
+    "Arrival_Date": "16/02/2026"
+   },
+   "attempt": 1,
+   "http": "200",
+   "seconds": 0.44,
+   "bytes": 22094,
+   "outcome": "ok"
+  },
+  {
+   "n": 104,
+   "tag": "Potato_2026-02-16_state_Madhya_Pradesh",
+   "filters": {
+    "Commodity": "Potato",
+    "State": "Madhya Pradesh",
+    "Arrival_Date": "16/02/2026"
+   },
+   "attempt": 1,
+   "http": "200",
+   "seconds": 0.44,
+   "bytes": 16712,
+   "outcome": "ok"
+  },
+  {
+   "n": 105,
+   "tag": "Potato_2026-02-16_state_Maharashtra",
+   "filters": {
+    "Commodity": "Potato",
+    "State": "Maharashtra",
+    "Arrival_Date": "16/02/2026"
+   },
+   "attempt": 1,
+   "http": "200",
+   "seconds": 0.46,
+   "bytes": 12973,
+   "outcome": "ok"
+  },
+  {
+   "n": 106,
+   "tag": "Potato_2026-02-16_state_Manipur",
+   "filters": {
+    "Commodity": "Potato",
+    "State": "Manipur",
+    "Arrival_Date": "16/02/2026"
+   },
+   "attempt": 1,
+   "http": "200",
+   "seconds": 0.42,
+   "bytes": 4127,
+   "outcome": "ok"
+  },
+  {
+   "n": 107,
+   "tag": "Potato_2026-02-16_state_Meghalaya",
+   "filters": {
+    "Commodity": "Potato",
+    "State": "Meghalaya",
+    "Arrival_Date": "16/02/2026"
+   },
+   "attempt": 1,
+   "http": "200",
+   "seconds": 0.66,
+   "bytes": 4132,
+   "outcome": "ok"
+  },
+  {
+   "n": 108,
+   "tag": "Potato_2026-02-16_state_NCT_of_Delhi",
+   "filters": {
+    "Commodity": "Potato",
+    "State": "NCT of Delhi",
+    "Arrival_Date": "16/02/2026"
+   },
+   "attempt": 1,
+   "http": "200",
+   "seconds": 0.33,
+   "bytes": 4110,
+   "outcome": "ok"
+  },
+  {
+   "n": 109,
+   "tag": "Potato_2026-02-16_state_Nagaland",
+   "filters": {
+    "Commodity": "Potato",
+    "State": "Nagaland",
+    "Arrival_Date": "16/02/2026"
+   },
+   "attempt": 1,
+   "http": "200",
+   "seconds": 0.45,
+   "bytes": 3716,
+   "outcome": "ok"
+  },
+  {
+   "n": 110,
+   "tag": "Potato_2026-02-16_state_Odisha",
+   "filters": {
+    "Commodity": "Potato",
+    "State": "Odisha",
+    "Arrival_Date": "16/02/2026"
+   },
+   "attempt": 1,
+   "http": "200",
+   "seconds": 0.54,
+   "bytes": 10530,
+   "outcome": "ok"
+  },
+  {
+   "n": 111,
+   "tag": "Potato_2026-02-16_state_Punjab",
+   "filters": {
+    "Commodity": "Potato",
+    "State": "Punjab",
+    "Arrival_Date": "16/02/2026"
+   },
+   "attempt": 1,
+   "http": "200",
+   "seconds": 0.47,
+   "bytes": 25072,
+   "outcome": "ok"
+  },
+  {
+   "n": 112,
+   "tag": "Potato_2026-02-16_state_Rajasthan",
+   "filters": {
+    "Commodity": "Potato",
+    "State": "Rajasthan",
+    "Arrival_Date": "16/02/2026"
+   },
+   "attempt": 1,
+   "http": "200",
+   "seconds": 0.39,
+   "bytes": 12502,
+   "outcome": "ok"
+  },
+  {
+   "n": 113,
+   "tag": "Potato_2026-02-16_state_Tamil_Nadu",
+   "filters": {
+    "Commodity": "Potato",
+    "State": "Tamil Nadu",
+    "Arrival_Date": "16/02/2026"
+   },
+   "attempt": 1,
+   "http": "200",
+   "seconds": 0.54,
+   "bytes": 40894,
+   "outcome": "ok"
+  },
+  {
+   "n": 114,
+   "tag": "Potato_2026-02-16_state_Telangana",
+   "filters": {
+    "Commodity": "Potato",
+    "State": "Telangana",
+    "Arrival_Date": "16/02/2026"
+   },
+   "attempt": 1,
+   "http": "200",
+   "seconds": 0.36,
+   "bytes": 3719,
+   "outcome": "ok"
+  },
+  {
+   "n": 115,
+   "tag": "Potato_2026-02-16_state_Tripura",
+   "filters": {
+    "Commodity": "Potato",
+    "State": "Tripura",
+    "Arrival_Date": "16/02/2026"
+   },
+   "attempt": 1,
+   "http": "200",
+   "seconds": 0.48,
+   "bytes": 13276,
+   "outcome": "ok"
+  },
+  {
+   "n": 116,
+   "tag": "Potato_2026-02-16_state_Uttar_Pradesh",
+   "filters": {
+    "Commodity": "Potato",
+    "State": "Uttar Pradesh",
+    "Arrival_Date": "16/02/2026"
+   },
+   "attempt": 1,
+   "http": "200",
+   "seconds": 0.37,
+   "bytes": 23359,
+   "outcome": "ok"
+  },
+  {
+   "n": 117,
+   "tag": "Potato_2026-02-16_state_Uttarakhand",
+   "filters": {
+    "Commodity": "Potato",
+    "State": "Uttarakhand",
+    "Arrival_Date": "16/02/2026"
+   },
+   "attempt": 1,
+   "http": "200",
+   "seconds": 0.39,
+   "bytes": 7766,
+   "outcome": "ok"
+  },
+  {
+   "n": 118,
+   "tag": "Potato_2026-02-16_state_Uttrakhand",
+   "filters": {
+    "Commodity": "Potato",
+    "State": "Uttrakhand",
+    "Arrival_Date": "16/02/2026"
+   },
+   "attempt": 1,
+   "http": "200",
+   "seconds": 0.34,
+   "bytes": 3317,
+   "outcome": "ok"
+  },
+  {
+   "n": 119,
+   "tag": "Potato_2026-02-16_state_West_Bengal",
+   "filters": {
+    "Commodity": "Potato",
+    "State": "West Bengal",
+    "Arrival_Date": "16/02/2026"
+   },
+   "attempt": 1,
+   "http": "200",
+   "seconds": 0.5,
+   "bytes": 29800,
+   "outcome": "ok"
+  },
+  {
+   "n": 120,
+   "tag": "Wheat_2025-04-21_state_Bihar",
+   "filters": {
+    "Commodity": "Wheat",
+    "State": "Bihar",
+    "Arrival_Date": "21/04/2025"
+   },
+   "attempt": 1,
+   "http": "200",
+   "seconds": 0.43,
+   "bytes": 4127,
+   "outcome": "ok"
+  },
+  {
+   "n": 121,
+   "tag": "Wheat_2025-04-21_state_Chattisgarh",
+   "filters": {
+    "Commodity": "Wheat",
+    "State": "Chattisgarh",
+    "Arrival_Date": "21/04/2025"
+   },
+   "attempt": 1,
+   "http": "200",
+   "seconds": 0.37,
+   "bytes": 6546,
+   "outcome": "ok"
+  },
+  {
+   "n": 122,
+   "tag": "Wheat_2025-04-21_state_Gujarat",
+   "filters": {
+    "Commodity": "Wheat",
+    "State": "Gujarat",
+    "Arrival_Date": "21/04/2025"
+   },
+   "attempt": 1,
+   "http": "200",
+   "seconds": 0.56,
+   "bytes": 38802,
+   "outcome": "ok"
+  },
+  {
+   "n": 123,
+   "tag": "Wheat_2025-04-21_state_Haryana",
+   "filters": {
+    "Commodity": "Wheat",
+    "State": "Haryana",
+    "Arrival_Date": "21/04/2025"
+   },
+   "attempt": 1,
+   "http": "200",
+   "seconds": 0.44,
+   "bytes": 25190,
+   "outcome": "ok"
+  },
+  {
+   "n": 124,
+   "tag": "Wheat_2025-04-21_state_Jharkhand",
+   "filters": {
+    "Commodity": "Wheat",
+    "State": "Jharkhand",
+    "Arrival_Date": "21/04/2025"
+   },
+   "attempt": 1,
+   "http": "200",
+   "seconds": 0.42,
+   "bytes": 3317,
+   "outcome": "ok"
+  },
+  {
+   "n": 125,
+   "tag": "Wheat_2025-04-21_state_Karnataka",
+   "filters": {
+    "Commodity": "Wheat",
+    "State": "Karnataka",
+    "Arrival_Date": "21/04/2025"
+   },
+   "attempt": 1,
+   "http": "200",
+   "seconds": 0.4,
+   "bytes": 4510,
+   "outcome": "ok"
+  },
+  {
+   "n": 126,
+   "tag": "Wheat_2025-04-21_state_Kerala",
+   "filters": {
+    "Commodity": "Wheat",
+    "State": "Kerala",
+    "Arrival_Date": "21/04/2025"
+   },
+   "attempt": 1,
+   "http": "200",
+   "seconds": 0.41,
+   "bytes": 3317,
+   "outcome": "ok"
+  },
+  {
+   "n": 127,
+   "tag": "Wheat_2025-04-21_state_Madhya_Pradesh",
+   "filters": {
+    "Commodity": "Wheat",
+    "State": "Madhya Pradesh",
+    "Arrival_Date": "21/04/2025"
+   },
+   "attempt": 1,
+   "http": "200",
+   "seconds": 0.84,
+   "bytes": 228125,
+   "outcome": "ok"
+  },
+  {
+   "n": 128,
+   "tag": "Wheat_2025-04-21_state_Maharashtra",
+   "filters": {
+    "Commodity": "Wheat",
+    "State": "Maharashtra",
+    "Arrival_Date": "21/04/2025"
+   },
+   "attempt": 1,
+   "http": "200",
+   "seconds": 0.75,
+   "bytes": 40833,
+   "outcome": "ok"
+  },
+  {
+   "n": 129,
+   "tag": "Wheat_2025-04-21_state_NCT_of_Delhi",
+   "filters": {
+    "Commodity": "Wheat",
+    "State": "NCT of Delhi",
+    "Arrival_Date": "21/04/2025"
+   },
+   "attempt": 1,
+   "http": "200",
+   "seconds": 0.37,
+   "bytes": 4520,
+   "outcome": "ok"
+  },
+  {
+   "n": 130,
+   "tag": "Wheat_2025-04-21_state_Odisha",
+   "filters": {
+    "Commodity": "Wheat",
+    "State": "Odisha",
+    "Arrival_Date": "21/04/2025"
+   },
+   "attempt": 1,
+   "http": "200",
+   "seconds": 0.45,
+   "bytes": 3317,
+   "outcome": "ok"
+  },
+  {
+   "n": 131,
+   "tag": "Wheat_2025-04-21_state_Punjab",
+   "filters": {
+    "Commodity": "Wheat",
+    "State": "Punjab",
+    "Arrival_Date": "21/04/2025"
+   },
+   "attempt": 1,
+   "http": "200",
+   "seconds": 0.46,
+   "bytes": 29688,
+   "outcome": "ok"
+  },
+  {
+   "n": 132,
+   "tag": "Wheat_2025-04-21_state_Rajasthan",
+   "filters": {
+    "Commodity": "Wheat",
+    "State": "Rajasthan",
+    "Arrival_Date": "21/04/2025"
+   },
+   "attempt": 1,
+   "http": "200",
+   "seconds": 0.82,
+   "bytes": 42596,
+   "outcome": "ok"
+  },
+  {
+   "n": 133,
+   "tag": "Wheat_2025-04-21_state_Telangana",
+   "filters": {
+    "Commodity": "Wheat",
+    "State": "Telangana",
+    "Arrival_Date": "21/04/2025"
+   },
+   "attempt": 1,
+   "http": "200",
+   "seconds": 0.35,
+   "bytes": 4122,
+   "outcome": "ok"
+  },
+  {
+   "n": 134,
+   "tag": "Wheat_2025-04-21_state_Uttar_Pradesh",
+   "filters": {
+    "Commodity": "Wheat",
+    "State": "Uttar Pradesh",
+    "Arrival_Date": "21/04/2025"
+   },
+   "attempt": 1,
+   "http": "200",
+   "seconds": 0.8,
+   "bytes": 66483,
+   "outcome": "ok"
+  },
+  {
+   "n": 135,
+   "tag": "Wheat_2025-04-21_state_Uttrakhand",
+   "filters": {
+    "Commodity": "Wheat",
+    "State": "Uttrakhand",
+    "Arrival_Date": "21/04/2025"
+   },
+   "attempt": 1,
+   "http": "200",
+   "seconds": 0.52,
+   "bytes": 4525,
+   "outcome": "ok"
+  },
+  {
+   "n": 136,
+   "tag": "Wheat_2025-04-21_state_West_Bengal",
+   "filters": {
+    "Commodity": "Wheat",
+    "State": "West Bengal",
+    "Arrival_Date": "21/04/2025"
+   },
+   "attempt": 1,
+   "http": "200",
+   "seconds": 0.68,
+   "bytes": 7791,
+   "outcome": "ok"
+  }
+ ],
+ "crop_days": [
+  {
+   "commodity": "Onion",
+   "date": "2024-02-03",
+   "api_totals": [
+    575,
+    575
+   ],
+   "returned": [
+    575,
+    575
+   ],
+   "distinct": [
+    575,
+    575
+   ],
+   "duplicates": [
+    0,
+    0
+   ],
+   "repeat_sets_identical": true,
+   "source_flags": {
+    "modal outside [min, max]": 4
+   },
+   "malformed": {},
+   "pass": true,
+   "selection": "spread"
+  },
+  {
+   "commodity": "Onion",
+   "date": "2024-06-23",
+   "api_totals": [
+    455,
+    455
+   ],
+   "returned": [
+    455,
+    455
+   ],
+   "distinct": [
+    455,
+    455
+   ],
+   "duplicates": [
+    0,
+    0
+   ],
+   "repeat_sets_identical": true,
+   "source_flags": {
+    "modal outside [min, max]": 1
+   },
+   "malformed": {},
+   "pass": true,
+   "selection": "spread"
+  },
+  {
+   "commodity": "Onion",
+   "date": "2024-11-12",
+   "api_totals": [
+    786,
+    786
+   ],
+   "returned": [
+    786,
+    786
+   ],
+   "distinct": [
+    786,
+    786
+   ],
+   "duplicates": [
+    0,
+    0
+   ],
+   "repeat_sets_identical": true,
+   "source_flags": {},
+   "malformed": {},
+   "pass": true,
+   "selection": "spread"
+  },
+  {
+   "commodity": "Onion",
+   "date": "2025-04-02",
+   "api_totals": [
+    830,
+    830
+   ],
+   "returned": [
+    830,
+    830
+   ],
+   "distinct": [
+    830,
+    830
+   ],
+   "duplicates": [
+    0,
+    0
+   ],
+   "repeat_sets_identical": true,
+   "source_flags": {
+    "modal outside [min, max]": 1
+   },
+   "malformed": {},
+   "pass": true,
+   "selection": "spread"
+  },
+  {
+   "commodity": "Onion",
+   "date": "2025-08-22",
+   "api_totals": [
+    819,
+    819
+   ],
+   "returned": [
+    819,
+    819
+   ],
+   "distinct": [
+    819,
+    819
+   ],
+   "duplicates": [
+    0,
+    0
+   ],
+   "repeat_sets_identical": true,
+   "source_flags": {},
+   "malformed": {},
+   "pass": true,
+   "selection": "spread"
+  },
+  {
+   "commodity": "Onion",
+   "date": "2026-01-10",
+   "api_totals": [
+    481,
+    481
+   ],
+   "returned": [
+    481,
+    481
+   ],
+   "distinct": [
+    481,
+    481
+   ],
+   "duplicates": [
+    0,
+    0
+   ],
+   "repeat_sets_identical": true,
+   "source_flags": {},
+   "malformed": {},
+   "pass": true,
+   "selection": "spread"
+  },
+  {
+   "commodity": "Onion",
+   "date": "2026-06-01",
+   "api_totals": [
+    739,
+    739
+   ],
+   "returned": [
+    739,
+    739
+   ],
+   "distinct": [
+    739,
+    739
+   ],
+   "duplicates": [
+    0,
+    0
+   ],
+   "repeat_sets_identical": true,
+   "source_flags": {},
+   "malformed": {},
+   "pass": true,
+   "selection": "spread"
+  },
+  {
+   "commodity": "Onion",
+   "date": "2026-10-20",
+   "api_totals": [
+    530,
+    530
+   ],
+   "returned": [
+    530,
+    530
+   ],
+   "distinct": [
+    530,
+    530
+   ],
+   "duplicates": [
+    0,
+    0
+   ],
+   "repeat_sets_identical": true,
+   "source_flags": {},
+   "malformed": {},
+   "pass": true,
+   "selection": "spread"
+  },
+  {
+   "commodity": "Onion",
+   "date": "2024-06-17",
+   "api_totals": [
+    420,
+    420
+   ],
+   "returned": [
+    420,
+    420
+   ],
+   "distinct": [
+    420,
+    420
+   ],
+   "duplicates": [
+    0,
+    0
+   ],
+   "repeat_sets_identical": true,
+   "source_flags": {},
+   "malformed": {},
+   "pass": true,
+   "selection": "high_volume"
+  },
+  {
+   "commodity": "Onion",
+   "date": "2025-06-18",
+   "api_totals": [
+    829,
+    829
+   ],
+   "returned": [
+    829,
+    829
+   ],
+   "distinct": [
+    829,
+    829
+   ],
+   "duplicates": [
+    0,
+    0
+   ],
+   "repeat_sets_identical": true,
+   "source_flags": {},
+   "malformed": {},
+   "pass": true,
+   "selection": "high_volume"
+  },
+  {
+   "commodity": "Potato",
+   "date": "2024-02-04",
+   "api_totals": [
+    354,
+    354
+   ],
+   "returned": [
+    354,
+    354
+   ],
+   "distinct": [
+    354,
+    354
+   ],
+   "duplicates": [
+    0,
+    0
+   ],
+   "repeat_sets_identical": true,
+   "source_flags": {
+    "modal outside [min, max]": 1
+   },
+   "malformed": {},
+   "pass": true,
+   "selection": "spread"
+  },
+  {
+   "commodity": "Potato",
+   "date": "2024-06-22",
+   "api_totals": [
+    612,
+    612
+   ],
+   "returned": [
+    612,
+    612
+   ],
+   "distinct": [
+    612,
+    612
+   ],
+   "duplicates": [
+    0,
+    0
+   ],
+   "repeat_sets_identical": true,
+   "source_flags": {
+    "modal outside [min, max]": 1
+   },
+   "malformed": {},
+   "pass": true,
+   "selection": "spread"
+  },
+  {
+   "commodity": "Potato",
+   "date": "2024-11-11",
+   "api_totals": [
+    727,
+    727
+   ],
+   "returned": [
+    727,
+    727
+   ],
+   "distinct": [
+    727,
+    727
+   ],
+   "duplicates": [
+    0,
+    0
+   ],
+   "repeat_sets_identical": true,
+   "source_flags": {},
+   "malformed": {},
+   "pass": true,
+   "selection": "spread"
+  },
+  {
+   "commodity": "Potato",
+   "date": "2025-04-01",
+   "api_totals": [
+    721,
+    721
+   ],
+   "returned": [
+    721,
+    721
+   ],
+   "distinct": [
+    721,
+    721
+   ],
+   "duplicates": [
+    0,
+    0
+   ],
+   "repeat_sets_identical": true,
+   "source_flags": {},
+   "malformed": {},
+   "pass": true,
+   "selection": "spread"
+  },
+  {
+   "commodity": "Potato",
+   "date": "2025-08-21",
+   "api_totals": [
+    704,
+    704
+   ],
+   "returned": [
+    704,
+    704
+   ],
+   "distinct": [
+    704,
+    704
+   ],
+   "duplicates": [
+    0,
+    0
+   ],
+   "repeat_sets_identical": true,
+   "source_flags": {},
+   "malformed": {},
+   "pass": true,
+   "selection": "spread"
+  },
+  {
+   "commodity": "Potato",
+   "date": "2026-01-09",
+   "api_totals": [
+    579,
+    579
+   ],
+   "returned": [
+    579,
+    579
+   ],
+   "distinct": [
+    579,
+    579
+   ],
+   "duplicates": [
+    0,
+    0
+   ],
+   "repeat_sets_identical": true,
+   "source_flags": {},
+   "malformed": {},
+   "pass": true,
+   "selection": "spread"
+  },
+  {
+   "commodity": "Potato",
+   "date": "2026-05-31",
+   "api_totals": [
+    467,
+    467
+   ],
+   "returned": [
+    467,
+    467
+   ],
+   "distinct": [
+    467,
+    467
+   ],
+   "duplicates": [
+    0,
+    0
+   ],
+   "repeat_sets_identical": true,
+   "source_flags": {},
+   "malformed": {},
+   "pass": true,
+   "selection": "spread"
+  },
+  {
+   "commodity": "Potato",
+   "date": "2026-10-19",
+   "api_totals": [
+    625,
+    625
+   ],
+   "returned": [
+    625,
+    625
+   ],
+   "distinct": [
+    625,
+    625
+   ],
+   "duplicates": [
+    0,
+    0
+   ],
+   "repeat_sets_identical": true,
+   "source_flags": {},
+   "malformed": {},
+   "pass": true,
+   "selection": "spread"
+  },
+  {
+   "commodity": "Potato",
+   "date": "2025-02-17",
+   "api_totals": [
+    845,
+    845
+   ],
+   "returned": [
+    845,
+    845
+   ],
+   "distinct": [
+    845,
+    845
+   ],
+   "duplicates": [
+    0,
+    0
+   ],
+   "repeat_sets_identical": true,
+   "source_flags": {},
+   "malformed": {},
+   "pass": true,
+   "selection": "high_volume"
+  },
+  {
+   "commodity": "Potato",
+   "date": "2026-02-16",
+   "api_totals": [
+    592,
+    592
+   ],
+   "returned": [
+    592,
+    592
+   ],
+   "distinct": [
+    592,
+    592
+   ],
+   "duplicates": [
+    0,
+    0
+   ],
+   "repeat_sets_identical": true,
+   "source_flags": {},
+   "malformed": {},
+   "pass": true,
+   "selection": "high_volume"
+  },
+  {
+   "commodity": "Wheat",
+   "date": "2024-02-05",
+   "api_totals": [
+    390,
+    390
+   ],
+   "returned": [
+    390,
+    390
+   ],
+   "distinct": [
+    390,
+    390
+   ],
+   "duplicates": [
+    0,
+    0
+   ],
+   "repeat_sets_identical": true,
+   "source_flags": {
+    "modal outside [min, max]": 22
+   },
+   "malformed": {},
+   "pass": true,
+   "selection": "spread"
+  },
+  {
+   "commodity": "Wheat",
+   "date": "2024-06-21",
+   "api_totals": [
+    668,
+    668
+   ],
+   "returned": [
+    668,
+    668
+   ],
+   "distinct": [
+    668,
+    668
+   ],
+   "duplicates": [
+    0,
+    0
+   ],
+   "repeat_sets_identical": true,
+   "source_flags": {
+    "modal outside [min, max]": 53
+   },
+   "malformed": {},
+   "pass": true,
+   "selection": "spread"
+  },
+  {
+   "commodity": "Wheat",
+   "date": "2024-11-10",
+   "api_totals": [
+    150,
+    150
+   ],
+   "returned": [
+    150,
+    150
+   ],
+   "distinct": [
+    150,
+    150
+   ],
+   "duplicates": [
+    0,
+    0
+   ],
+   "repeat_sets_identical": true,
+   "source_flags": {},
+   "malformed": {},
+   "pass": true,
+   "selection": "spread"
+  },
+  {
+   "commodity": "Wheat",
+   "date": "2025-03-31",
+   "api_totals": [
+    419,
+    419
+   ],
+   "returned": [
+    419,
+    419
+   ],
+   "distinct": [
+    419,
+    419
+   ],
+   "duplicates": [
+    0,
+    0
+   ],
+   "repeat_sets_identical": true,
+   "source_flags": {},
+   "malformed": {},
+   "pass": true,
+   "selection": "spread"
+  },
+  {
+   "commodity": "Wheat",
+   "date": "2025-08-20",
+   "api_totals": [
+    774,
+    774
+   ],
+   "returned": [
+    774,
+    774
+   ],
+   "distinct": [
+    774,
+    774
+   ],
+   "duplicates": [
+    0,
+    0
+   ],
+   "repeat_sets_identical": true,
+   "source_flags": {},
+   "malformed": {},
+   "pass": true,
+   "selection": "spread"
+  },
+  {
+   "commodity": "Wheat",
+   "date": "2026-01-08",
+   "api_totals": [
+    645,
+    645
+   ],
+   "returned": [
+    645,
+    645
+   ],
+   "distinct": [
+    645,
+    645
+   ],
+   "duplicates": [
+    0,
+    0
+   ],
+   "repeat_sets_identical": true,
+   "source_flags": {},
+   "malformed": {},
+   "pass": true,
+   "selection": "spread"
+  },
+  {
+   "commodity": "Wheat",
+   "date": "2026-05-30",
+   "api_totals": [
+    1158,
+    1158
+   ],
+   "returned": [
+    1158,
+    1158
+   ],
+   "distinct": [
+    1158,
+    1158
+   ],
+   "duplicates": [
+    0,
+    0
+   ],
+   "repeat_sets_identical": true,
+   "source_flags": {},
+   "malformed": {},
+   "pass": true,
+   "selection": "spread"
+  },
+  {
+   "commodity": "Wheat",
+   "date": "2026-10-18",
+   "api_totals": [
+    342,
+    342
+   ],
+   "returned": [
+    342,
+    342
+   ],
+   "distinct": [
+    342,
+    342
+   ],
+   "duplicates": [
+    0,
+    0
+   ],
+   "repeat_sets_identical": true,
+   "source_flags": {},
+   "malformed": {},
+   "pass": true,
+   "selection": "spread"
+  },
+  {
+   "commodity": "Wheat",
+   "date": "2024-04-15",
+   "api_totals": [
+    797,
+    797
+   ],
+   "returned": [
+    797,
+    797
+   ],
+   "distinct": [
+    797,
+    797
+   ],
+   "duplicates": [
+    0,
+    0
+   ],
+   "repeat_sets_identical": true,
+   "source_flags": {
+    "modal outside [min, max]": 84
+   },
+   "malformed": {},
+   "pass": true,
+   "selection": "high_volume"
+  },
+  {
+   "commodity": "Wheat",
+   "date": "2025-04-21",
+   "api_totals": [
+    1145,
+    1145
+   ],
+   "returned": [
+    1145,
+    1145
+   ],
+   "distinct": [
+    1145,
+    1145
+   ],
+   "duplicates": [
+    0,
+    0
+   ],
+   "repeat_sets_identical": true,
+   "source_flags": {
+    "modal outside [min, max]": 2
+   },
+   "malformed": {},
+   "pass": true,
+   "selection": "high_volume"
+  }
+ ],
+ "partitions": [
+  {
+   "commodity": "Onion",
+   "date": "2025-06-18",
+   "states_queried": 29,
+   "states_nonempty": 22,
+   "all_state_calls_ok": true,
+   "coarse": 829,
+   "union": 829,
+   "sum_part_totals": 829,
+   "missing_from_parts": 0,
+   "extra_in_parts": 0,
+   "overlap_between_parts": 0,
+   "equal": true
+  },
+  {
+   "commodity": "Potato",
+   "date": "2026-02-16",
+   "states_queried": 30,
+   "states_nonempty": 25,
+   "all_state_calls_ok": true,
+   "coarse": 592,
+   "union": 592,
+   "sum_part_totals": 592,
+   "missing_from_parts": 0,
+   "extra_in_parts": 0,
+   "overlap_between_parts": 0,
+   "equal": true
+  },
+  {
+   "commodity": "Wheat",
+   "date": "2025-04-21",
+   "states_queried": 17,
+   "states_nonempty": 14,
+   "all_state_calls_ok": true,
+   "coarse": 1145,
+   "union": 1145,
+   "sum_part_totals": 1145,
+   "missing_from_parts": 0,
+   "extra_in_parts": 0,
+   "overlap_between_parts": 0,
+   "equal": true
+  }
+ ],
+ "verdict": "pilot checks pass",
+ "exit_code": 0,
+ "calls_used": 136,
+ "crop_days_passed": 30,
+ "crop_days_run": 30
+}

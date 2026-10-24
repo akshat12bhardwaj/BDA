@@ -1,0 +1,55 @@
+{
+ "version": "candidate-prices-v1",
+ "decision": "D-50",
+ "crop_days": 2973,
+ "stages": [
+  "S1",
+  "S2",
+  "S3"
+ ],
+ "inputs": {
+  "crop_day_manifest": "e9b96b5c7e99fcf3d7d95d71b222787cb483c494d4edd7ce15b5be9a773e0f8c",
+  "mapping_decisions": "74fa253aef05a6f5f137a577b7302a1e34a21d41da4ff381d439015f0d5f0929",
+  "contract_sha256": "da5907072dbd7fff6f781b785128e7fa55c9ca668689952fa179e64d649ecc4d"
+ },
+ "outputs": {
+  "model_table_faq_local.parquet": {
+   "rows": 971076,
+   "sha256": "fba7b71032fb6ee2db4b22f36ecee6fce24c84071e61206317b7ea58c0c96fe4"
+  },
+  "model_table_faq_only.parquet": {
+   "rows": 783233,
+   "sha256": "b95bc76a7a352e5b1e25014751a8601e59e8cf509b9cdda04b8a52925dff30cd"
+  },
+  "model_table_pooled.parquet": {
+   "rows": 1084840,
+   "sha256": "8830fbad18729d423fe50bf82c38e7ed690e6e9e9f48b8cfd44eea0e12ba00ce"
+  },
+  "records_onion.parquet": {
+   "rows": 683604,
+   "sha256": "56b3d859d249bd7235c355f2d1aa8065d64cea51213c01603363d59149f8af4f"
+  },
+  "records_potato.parquet": {
+   "rows": 647268,
+   "sha256": "1165c1e8aadc0cba7c5f46697c998a3f841688198a0906d10457b5f319a0854c"
+  },
+  "records_wheat.parquet": {
+   "rows": 659439,
+   "sha256": "c9ee57fd3ecf624e7b2947692b4ee2301c884dc6c86cef782de1d153232673b6"
+  },
+  "weekly_faq_local.parquet": {
+   "rows": 384949,
+   "sha256": "13817598967cd3bd1531e67b73c2a893fcbc27ad9e4e98aeee86f11f855442f2"
+  },
+  "weekly_faq_only.parquet": {
+   "rows": 312994,
+   "sha256": "19f09372959d832e749f57412f0680b30b35822a14335229540a97c7c0b2a623"
+  },
+  "weekly_pooled.parquet": {
+   "rows": 427793,
+   "sha256": "9d82bc516e11c9a4a5c26624ee2d1678dace09278e4f51e9294301268ff31739"
+  }
+ },
+ "r09u_approved": false,
+ "candidate_start": "2024-02-03"
+}

@@ -1,0 +1,59 @@
+crop,left_out_state,model,rows,skill_vs_persistence
+Onion,Bihar,seasonal_naive,4728,-5.140061
+Onion,Bihar,calendar_climatology,4728,-6.433424
+Onion,Gujarat,seasonal_naive,4403,-5.286483
+Onion,Gujarat,calendar_climatology,4403,-6.292042
+Onion,Haryana,seasonal_naive,4472,-5.182107
+Onion,Haryana,calendar_climatology,4472,-6.423032
+Onion,Madhya Pradesh,seasonal_naive,4594,-5.340181
+Onion,Madhya Pradesh,calendar_climatology,4594,-6.435829
+Onion,Odisha,seasonal_naive,4681,-5.086853
+Onion,Odisha,calendar_climatology,4681,-6.483443
+Onion,Punjab,seasonal_naive,4513,-5.215998
+Onion,Punjab,calendar_climatology,4513,-6.536292
+Onion,Rajasthan,seasonal_naive,4596,-5.244323
+Onion,Rajasthan,calendar_climatology,4596,-6.448376
+Onion,Tamil Nadu,seasonal_naive,2239,-5.156455
+Onion,Tamil Nadu,calendar_climatology,2239,-6.541250
+Onion,Tripura,seasonal_naive,4680,-5.201065
+Onion,Tripura,calendar_climatology,4680,-6.518144
+Onion,Uttar Pradesh,seasonal_naive,4325,-4.780112
+Onion,Uttar Pradesh,calendar_climatology,4325,-5.892441
+Onion,West Bengal,seasonal_naive,4169,-5.027432
+Onion,West Bengal,calendar_climatology,4169,-6.672770
+Potato,Bihar,seasonal_naive,2349,-8.312298
+Potato,Bihar,calendar_climatology,2349,-12.421004
+Potato,Gujarat,seasonal_naive,2143,-9.018240
+Potato,Gujarat,calendar_climatology,2143,-13.790033
+Potato,Haryana,seasonal_naive,2050,-8.445645
+Potato,Haryana,calendar_climatology,2050,-11.979320
+Potato,Jammu and Kashmir,seasonal_naive,2352,-8.262783
+Potato,Jammu and Kashmir,calendar_climatology,2352,-12.382286
+Potato,Karnataka,seasonal_naive,2357,-8.328097
+Potato,Karnataka,calendar_climatology,2357,-12.485845
+Potato,Madhya Pradesh,seasonal_naive,2335,-8.332971
+Potato,Madhya Pradesh,calendar_climatology,2335,-12.559694
+Potato,Odisha,seasonal_naive,2295,-8.333617
+Potato,Odisha,calendar_climatology,2295,-12.905235
+Potato,Punjab,seasonal_naive,2126,-8.405233
+Potato,Punjab,calendar_climatology,2126,-11.653264
+Potato,Rajasthan,seasonal_naive,2257,-8.463880
+Potato,Rajasthan,calendar_climatology,2257,-12.620767
+Potato,Telangana,seasonal_naive,2335,-8.117151
+Potato,Telangana,calendar_climatology,2335,-12.492336
+Potato,Tripura,seasonal_naive,2236,-8.960058
+Potato,Tripura,calendar_climatology,2236,-13.958528
+Potato,Uttar Pradesh,seasonal_naive,1805,-7.273289
+Potato,Uttar Pradesh,calendar_climatology,1805,-10.776264
+Potato,West Bengal,seasonal_naive,1692,-7.164256
+Potato,West Bengal,calendar_climatology,1692,-11.108659
+Wheat,Gujarat,seasonal_naive,3167,-4.494044
+Wheat,Gujarat,calendar_climatology,3167,-3.515974
+Wheat,Madhya Pradesh,seasonal_naive,2453,-5.824968
+Wheat,Madhya Pradesh,calendar_climatology,2453,-4.238035
+Wheat,Rajasthan,seasonal_naive,3367,-4.629923
+Wheat,Rajasthan,calendar_climatology,3367,-3.494340
+Wheat,Uttar Pradesh,seasonal_naive,1503,-3.849161
+Wheat,Uttar Pradesh,calendar_climatology,1503,-2.925201
+Wheat,West Bengal,seasonal_naive,3390,-4.600761
+Wheat,West Bengal,calendar_climatology,3390,-3.460018

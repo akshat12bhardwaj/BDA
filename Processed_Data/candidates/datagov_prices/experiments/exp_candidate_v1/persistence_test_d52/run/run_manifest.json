@@ -1,0 +1,62 @@
+{
+ "decision": "D-52",
+ "approver": "Project owner",
+ "freeze_manifest_sha256": "3298a555e5fad649f10c4d68f1fb8b015960fb466d0f87209b72616e461f1fe7",
+ "preflight": {
+  "protocol_sha256": "a6b1240c4c4f80da15a02fea946ca5f79f07617d9ccbabb7479ebb65193ae9ee",
+  "dataset_version": "candidate-prices-v1.1",
+  "dataset_manifest_sha256": "4a04140dc4abd00e8db7beb74f91b56c0102545feab6f9e4c5659f9e226127d6"
+ },
+ "utc_start": "2026-10-24T14:37:24+00:00",
+ "utc_end": "2026-10-24T14:37:30+00:00",
+ "designs": [
+  "faq_only",
+  "faq_local",
+  "pooled"
+ ],
+ "horizons": [
+  1,
+  2,
+  4
+ ],
+ "seed": 20261022,
+ "reps": 10000,
+ "loaded_code": [
+  "Code/candidates/__init__.py",
+  "Code/candidates/baselines_candidate.py",
+  "Code/candidates/build_candidate_prices.py",
+  "Code/candidates/candidate_decisions.py",
+  "Code/candidates/datagov_extract.py",
+  "Code/candidates/datagov_key_check.py",
+  "Code/candidates/datagov_partition_check.py",
+  "Code/candidates/datagov_pilot.py",
+  "Code/candidates/experiment_design.py",
+  "Code/candidates/identity_review.py",
+  "Code/candidates/market_mapping.py",
+  "Code/candidates/persistence_test_candidate.py",
+  "Code/candidates/price_policy.py",
+  "Code/cleaning/__init__.py",
+  "Code/cleaning/pipeline.py",
+  "Code/features/__init__.py",
+  "Code/features/pipeline.py",
+  "Code/integration/__init__.py",
+  "Code/integration/pipeline.py",
+  "Code/modelling/__init__.py",
+  "Code/modelling/dataset.py",
+  "Code/utils/__init__.py",
+  "Code/utils/data_audit.py",
+  "Code/weather/__init__.py",
+  "Code/weather/collector.py",
+  "Code/weather/config.py",
+  "Code/weather/validator.py"
+ ],
+ "note": "persistence only; skill vs persistence is 0 and not reported; reporting only, never for tuning or selection (D-52 item 10)",
+ "outputs_sha256": {
+  "coverage.csv": "c1f97de70e19d454f6b475e24986a611dab3c1118189226d8b07e30f8e72bcf4",
+  "by_crop.csv": "b2a8698a861785c53f5d74a8c369f74962d0837225dcf801d438667ee21a0914",
+  "by_crop_month.csv": "8937b2f3b8a0ce623a6ff5a2729fd3181692e51f3b8ed67d17af1e06599b6d95",
+  "by_crop_state.csv": "277d0559998884e2f8a976409738caa8a60959a02d9b6f71f1f1f05ce1d39aca",
+  "leave_one_state_out.csv": "324ad76d08c47e3178cd72357774edaa44d9f369dae09f23715c3a05296aa6a8",
+  "exclusions.csv": "bc999b55253c91d996173c694219b4476d354d8af54d4bb0047aa5c2388c8e3c"
+ }
+}

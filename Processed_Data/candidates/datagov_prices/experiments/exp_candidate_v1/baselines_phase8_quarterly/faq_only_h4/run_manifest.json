@@ -1,0 +1,57 @@
+{
+ "preflight": {
+  "protocol_sha256": "a6b1240c4c4f80da15a02fea946ca5f79f07617d9ccbabb7479ebb65193ae9ee",
+  "dataset_version": "candidate-prices-v1.1",
+  "dataset_manifest_sha256": "4a04140dc4abd00e8db7beb74f91b56c0102545feab6f9e4c5659f9e226127d6"
+ },
+ "refit_rule": "phase8_quarterly",
+ "refits_used": {
+  "2025-10-05": 1164,
+  "2026-01-04": 2984,
+  "2026-04-05": 2691
+ },
+ "coverage": {
+  "Onion": {
+   "eligible_validation_rows": 1882,
+   "seasonal_naive_available": 1805,
+   "climatology_available": 1882,
+   "identical_rows": 1805,
+   "targets_below_100_rs_per_q": 2
+  },
+  "Potato": {
+   "eligible_validation_rows": 1949,
+   "seasonal_naive_available": 1829,
+   "climatology_available": 1949,
+   "identical_rows": 1829,
+   "targets_below_100_rs_per_q": 0
+  },
+  "Wheat": {
+   "eligible_validation_rows": 3008,
+   "seasonal_naive_available": 2931,
+   "climatology_available": 3008,
+   "identical_rows": 2931,
+   "targets_below_100_rs_per_q": 0
+  }
+ },
+ "experiment": "exp-candidate-v1",
+ "design": "faq_only",
+ "horizon": 4,
+ "periods_scored": [
+  "validation"
+ ],
+ "seed": 20261022,
+ "reps": 10000,
+ "code_sha256": {
+  "Code/candidates/baselines_candidate.py": "7a68433c04e460dedc8a59d71cbdc7ee1d75ac3f0db223b55399f2738e23184f",
+  "Code/candidates/experiment_design.py": "30e1c37e4e75c5998c260a783d0cc4e9a14dd9f6207c9dfb6575010573548125",
+  "Code/modelling/dataset.py": "19a483a9f1cd09c1c461526fda7f881bffd78f1ae4bac84528d17fed76d9c41d"
+ },
+ "outputs_sha256": {
+  "by_crop.csv": "97e17bc90d88b06d6ef0b28d3f0db92af91a8478310d9073f729ff50542b0624",
+  "by_crop_quarter.csv": "571deaf234ff7783707b0e33e4e67646dad00707cd8296bb05f51a4f4fca2f91",
+  "by_crop_state.csv": "05a3eff2facc8d0e7e6021347bf3e7fe072413d93adc8f24be2186ec8501b13b",
+  "persistence_all_eligible_rows.csv": "e5b0c57eb43f10927fb442569b06cbbbdaafacc0389a9d7a519c4cb957e2ebf0",
+  "bootstrap.csv": "6114c51ba3413bb130c723f71bf704c49aedf9be07c3c9d2b7e738a6b2623e4c",
+  "leave_one_state_out.csv": "0f4b438920eb157a768b6063b61ffd82072844f6172f4ae3311f9c808c2b446e"
+ }
+}

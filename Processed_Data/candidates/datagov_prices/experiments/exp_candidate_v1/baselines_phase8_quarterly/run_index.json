@@ -1,0 +1,276 @@
+{
+ "protocol_sha256": "a6b1240c4c4f80da15a02fea946ca5f79f07617d9ccbabb7479ebb65193ae9ee",
+ "refit_rule": "phase8_quarterly",
+ "runs": {
+  "faq_only_h1": {
+   "refits_used": {
+    "2025-10-05": 348,
+    "2026-01-04": 3337,
+    "2026-04-05": 3701
+   },
+   "coverage": {
+    "Onion": {
+     "eligible_validation_rows": 1976,
+     "seasonal_naive_available": 1889,
+     "climatology_available": 1976,
+     "identical_rows": 1889,
+     "targets_below_100_rs_per_q": 2
+    },
+    "Potato": {
+     "eligible_validation_rows": 2079,
+     "seasonal_naive_available": 1948,
+     "climatology_available": 2079,
+     "identical_rows": 1948,
+     "targets_below_100_rs_per_q": 0
+    },
+    "Wheat": {
+     "eligible_validation_rows": 3331,
+     "seasonal_naive_available": 3240,
+     "climatology_available": 3331,
+     "identical_rows": 3240,
+     "targets_below_100_rs_per_q": 0
+    }
+   }
+  },
+  "faq_only_h2": {
+   "refits_used": {
+    "2025-10-05": 681,
+    "2026-01-04": 3149,
+    "2026-04-05": 3352
+   },
+   "coverage": {
+    "Onion": {
+     "eligible_validation_rows": 1941,
+     "seasonal_naive_available": 1857,
+     "climatology_available": 1941,
+     "identical_rows": 1857,
+     "targets_below_100_rs_per_q": 2
+    },
+    "Potato": {
+     "eligible_validation_rows": 2028,
+     "seasonal_naive_available": 1901,
+     "climatology_available": 2028,
+     "identical_rows": 1901,
+     "targets_below_100_rs_per_q": 0
+    },
+    "Wheat": {
+     "eligible_validation_rows": 3213,
+     "seasonal_naive_available": 3127,
+     "climatology_available": 3213,
+     "identical_rows": 3127,
+     "targets_below_100_rs_per_q": 0
+    }
+   }
+  },
+  "faq_only_h4": {
+   "refits_used": {
+    "2025-10-05": 1164,
+    "2026-01-04": 2984,
+    "2026-04-05": 2691
+   },
+   "coverage": {
+    "Onion": {
+     "eligible_validation_rows": 1882,
+     "seasonal_naive_available": 1805,
+     "climatology_available": 1882,
+     "identical_rows": 1805,
+     "targets_below_100_rs_per_q": 2
+    },
+    "Potato": {
+     "eligible_validation_rows": 1949,
+     "seasonal_naive_available": 1829,
+     "climatology_available": 1949,
+     "identical_rows": 1829,
+     "targets_below_100_rs_per_q": 0
+    },
+    "Wheat": {
+     "eligible_validation_rows": 3008,
+     "seasonal_naive_available": 2931,
+     "climatology_available": 3008,
+     "identical_rows": 2931,
+     "targets_below_100_rs_per_q": 0
+    }
+   }
+  },
+  "faq_local_h1": {
+   "refits_used": {
+    "2025-10-05": 391,
+    "2026-01-04": 4616,
+    "2026-04-05": 5972
+   },
+   "coverage": {
+    "Onion": {
+     "eligible_validation_rows": 4862,
+     "seasonal_naive_available": 4740,
+     "climatology_available": 4862,
+     "identical_rows": 4740,
+     "targets_below_100_rs_per_q": 2
+    },
+    "Potato": {
+     "eligible_validation_rows": 2531,
+     "seasonal_naive_available": 2361,
+     "climatology_available": 2531,
+     "identical_rows": 2361,
+     "targets_below_100_rs_per_q": 0
+    },
+    "Wheat": {
+     "eligible_validation_rows": 3586,
+     "seasonal_naive_available": 3470,
+     "climatology_available": 3586,
+     "identical_rows": 3470,
+     "targets_below_100_rs_per_q": 0
+    }
+   }
+  },
+  "faq_local_h2": {
+   "refits_used": {
+    "2025-10-05": 766,
+    "2026-01-04": 4409,
+    "2026-04-05": 5426
+   },
+   "coverage": {
+    "Onion": {
+     "eligible_validation_rows": 4667,
+     "seasonal_naive_available": 4553,
+     "climatology_available": 4667,
+     "identical_rows": 4553,
+     "targets_below_100_rs_per_q": 2
+    },
+    "Potato": {
+     "eligible_validation_rows": 2468,
+     "seasonal_naive_available": 2303,
+     "climatology_available": 2468,
+     "identical_rows": 2303,
+     "targets_below_100_rs_per_q": 0
+    },
+    "Wheat": {
+     "eligible_validation_rows": 3466,
+     "seasonal_naive_available": 3356,
+     "climatology_available": 3466,
+     "identical_rows": 3356,
+     "targets_below_100_rs_per_q": 0
+    }
+   }
+  },
+  "faq_local_h4": {
+   "refits_used": {
+    "2025-10-05": 1326,
+    "2026-01-04": 4221,
+    "2026-04-05": 4368
+   },
+   "coverage": {
+    "Onion": {
+     "eligible_validation_rows": 4286,
+     "seasonal_naive_available": 4184,
+     "climatology_available": 4286,
+     "identical_rows": 4184,
+     "targets_below_100_rs_per_q": 2
+    },
+    "Potato": {
+     "eligible_validation_rows": 2363,
+     "seasonal_naive_available": 2208,
+     "climatology_available": 2363,
+     "identical_rows": 2208,
+     "targets_below_100_rs_per_q": 0
+    },
+    "Wheat": {
+     "eligible_validation_rows": 3266,
+     "seasonal_naive_available": 3168,
+     "climatology_available": 3266,
+     "identical_rows": 3168,
+     "targets_below_100_rs_per_q": 0
+    }
+   }
+  },
+  "pooled_h1": {
+   "refits_used": {
+    "2025-10-05": 498,
+    "2026-01-04": 6060,
+    "2026-04-05": 7389
+   },
+   "coverage": {
+    "Onion": {
+     "eligible_validation_rows": 6031,
+     "seasonal_naive_available": 5940,
+     "climatology_available": 6031,
+     "identical_rows": 5940,
+     "targets_below_100_rs_per_q": 2
+    },
+    "Potato": {
+     "eligible_validation_rows": 3656,
+     "seasonal_naive_available": 3560,
+     "climatology_available": 3656,
+     "identical_rows": 3560,
+     "targets_below_100_rs_per_q": 0
+    },
+    "Wheat": {
+     "eligible_validation_rows": 4260,
+     "seasonal_naive_available": 4170,
+     "climatology_available": 4260,
+     "identical_rows": 4170,
+     "targets_below_100_rs_per_q": 0
+    }
+   }
+  },
+  "pooled_h2": {
+   "refits_used": {
+    "2025-10-05": 980,
+    "2026-01-04": 5842,
+    "2026-04-05": 6712
+   },
+   "coverage": {
+    "Onion": {
+     "eligible_validation_rows": 5829,
+     "seasonal_naive_available": 5743,
+     "climatology_available": 5829,
+     "identical_rows": 5743,
+     "targets_below_100_rs_per_q": 2
+    },
+    "Potato": {
+     "eligible_validation_rows": 3583,
+     "seasonal_naive_available": 3488,
+     "climatology_available": 3583,
+     "identical_rows": 3488,
+     "targets_below_100_rs_per_q": 0
+    },
+    "Wheat": {
+     "eligible_validation_rows": 4122,
+     "seasonal_naive_available": 4035,
+     "climatology_available": 4122,
+     "identical_rows": 4035,
+     "targets_below_100_rs_per_q": 0
+    }
+   }
+  },
+  "pooled_h4": {
+   "refits_used": {
+    "2025-10-05": 1753,
+    "2026-01-04": 5642,
+    "2026-04-05": 5424
+   },
+   "coverage": {
+    "Onion": {
+     "eligible_validation_rows": 5447,
+     "seasonal_naive_available": 5369,
+     "climatology_available": 5447,
+     "identical_rows": 5369,
+     "targets_below_100_rs_per_q": 2
+    },
+    "Potato": {
+     "eligible_validation_rows": 3478,
+     "seasonal_naive_available": 3386,
+     "climatology_available": 3478,
+     "identical_rows": 3386,
+     "targets_below_100_rs_per_q": 0
+    },
+    "Wheat": {
+     "eligible_validation_rows": 3894,
+     "seasonal_naive_available": 3814,
+     "climatology_available": 3894,
+     "identical_rows": 3814,
+     "targets_below_100_rs_per_q": 0
+    }
+   }
+  }
+ }
+}

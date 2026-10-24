@@ -1,0 +1,101 @@
+{
+ "baselines": {
+  "calendar_climatology": "median training target of the target-week month, crop level, refitted with each refit",
+  "persistence": "y_origin (origin-week median) for every horizon (primary baseline)",
+  "seasonal_naive": "series weekly median 52 weeks before the TARGET week (weekly table at W + h - 52), scored where it exists, coverage reported (Phase 8 definition; not lag52, which is relative to the origin)"
+ },
+ "comparison_with_phase8": "skill vs persistence only, side by side with Phase 8 validation (2019, 2020) and test (2021-2022) skills as context; absolute MAE/MAPE never compared across datasets",
+ "dataset": "candidate-prices-v1.1 (dataset_v1_1, build_manifest.json)",
+ "decision": "D-50",
+ "designs": {
+  "primary": "faq_only",
+  "sensitivity": [
+   "faq_local",
+   "pooled"
+  ]
+ },
+ "experiment": "exp-candidate-v1",
+ "horizons": {
+  "primary": 1,
+  "secondary": [
+   2,
+   4
+  ]
+ },
+ "leakage_controls": [
+  "period by target-week Sunday (Phase 8 B.7)",
+  "training targets end <= refit date",
+  "features dated <= origin",
+  "no input before 2024-02-03; 2023 holdout never read (D-50)",
+  "R09 thresholds fixed; R09u disabled",
+  "test used once after a freeze manifest + run-once guard"
+ ],
+ "learned_model": {
+  "model": "hgb_conservative (exploratory, at most one; never replaces the baselines as the primary result)",
+  "never": [
+   "reuse or modify the frozen D-42/D-45 artefacts",
+   "tune on the test window",
+   "tune anything after seeing test results"
+  ],
+  "requires_approval": {
+   "feature_set": "Phase 8 features are daily-level (prev obs, 7/30/90-day rolling stats) and do not exist in the weekly candidate table. Proposed price-only set: lag1/lag2/lag4/lag52 ratios to y_origin, weeks_since_prev_obs, n_weeks_history, month sin/cos of the target week. This is a new feature set, not D-42 settings",
+   "scope": "h = 1 only, FAQ-only only (proposed)",
+   "selection_rule": "Phase 8 required beating persistence on MAE in both validation years (+ bootstrap); proposed analogue: both validation quarters (2026 Q1 and Q2)"
+  },
+  "reusable_unchanged": {
+   "estimator_settings (Code/modelling/models.py LEARNERS)": {
+    "early_stopping": false,
+    "l2_regularization": 10.0,
+    "learning_rate": 0.05,
+    "max_iter": 200,
+    "max_leaf_nodes": 15,
+    "min_samples_leaf": 1000,
+    "random_state": 0
+   },
+   "one model per crop x horizon": "as Phase 8 run_models",
+   "refits": "quarterly, first Sunday of the quarter, preprocessing fitted per refit",
+   "scaling": "price features divided by y_origin; y_origin itself as log (Phase 8 design_matrix)",
+   "target": "log(y_target / y_origin) (Phase 8 log_ratio), prediction = y_origin * exp(pred)",
+   "training population": "D-41 at the refit date (clarification 2); targets ending <= refit date"
+  }
+ },
+ "metrics": {
+  "also": [
+   "RMSE (Rs/quintal)",
+   "MAPE % (targets > 0 after R04)",
+   "skill = 1 - MAE_model / MAE_persistence on identical rows"
+  ],
+  "primary": "MAE (Rs/quintal)",
+  "reporting": "crop x horizon x period; each validation quarter separately and combined"
+ },
+ "population": "eligible_d41 at the origin for evaluation; at the refit date for training",
+ "refits": [
+  "2026-01-04",
+  "2026-04-05",
+  "2026-07-05",
+  "2026-10-04"
+ ],
+ "split_by_target_sunday": {
+  "test": [
+   "2026-07-05",
+   "2026-10-18"
+  ],
+  "train": [
+   null,
+   "2025-12-28"
+  ],
+  "validation": [
+   "2026-01-04",
+   "2026-06-28"
+  ]
+ },
+ "status": "specified; frozen for approval; NOT executed",
+ "uncertainty": {
+  "inconclusive_rule": "difference inside the 95% interval",
+  "paired_bootstrap": "market (canonical_id) clusters, 10,000 replicates, seed 20261022 (Phase 8 \u00a7K)",
+  "robustness": [
+   "state-cluster bootstrap",
+   "leave-one-state-out"
+  ]
+ }
+}

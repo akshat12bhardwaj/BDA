@@ -1,0 +1,140 @@
+{
+ "run": "20261023T232047Z",
+ "retrieved_utc": "20261023T232047Z",
+ "source_url": "https://api.data.gov.in/resource/35985678-0d79-46b4-9ed6-6f13308a1d24",
+ "resource": "35985678-0d79-46b4-9ed6-6f13308a1d24",
+ "key_kind": "personal",
+ "filters": {
+  "Commodity": "Onion",
+  "Arrival_Date": "17/01/2024"
+ },
+ "budget": 80,
+ "calls": [
+  {
+   "n": 1,
+   "tag": "probe",
+   "limit": 1000,
+   "offset": 0,
+   "http": "200",
+   "count": 556,
+   "total": 556,
+   "status": "ok",
+   "message": "Resource lists"
+  },
+  {
+   "n": 2,
+   "tag": "page",
+   "limit": 100,
+   "offset": 0,
+   "http": "200",
+   "count": 100,
+   "total": 556,
+   "status": "ok",
+   "message": "Resource lists"
+  },
+  {
+   "n": 3,
+   "tag": "page",
+   "limit": 100,
+   "offset": 100,
+   "http": "200",
+   "count": 100,
+   "total": 556,
+   "status": "ok",
+   "message": "Resource lists"
+  },
+  {
+   "n": 4,
+   "tag": "page",
+   "limit": 100,
+   "offset": 200,
+   "http": "200",
+   "count": 100,
+   "total": 556,
+   "status": "ok",
+   "message": "Resource lists"
+  },
+  {
+   "n": 5,
+   "tag": "page",
+   "limit": 100,
+   "offset": 300,
+   "http": "200",
+   "count": 100,
+   "total": 556,
+   "status": "ok",
+   "message": "Resource lists"
+  },
+  {
+   "n": 6,
+   "tag": "page",
+   "limit": 100,
+   "offset": 400,
+   "http": "200",
+   "count": 100,
+   "total": 556,
+   "status": "ok",
+   "message": "Resource lists"
+  },
+  {
+   "n": 7,
+   "tag": "page",
+   "limit": 100,
+   "offset": 500,
+   "http": "200",
+   "count": 56,
+   "total": 556,
+   "status": "ok",
+   "message": "Resource lists"
+  },
+  {
+   "n": 8,
+   "tag": "repeat",
+   "limit": 100,
+   "offset": 0,
+   "http": "200",
+   "count": 100,
+   "total": 556,
+   "status": "ok",
+   "message": "Resource lists"
+  },
+  {
+   "n": 9,
+   "tag": "repeat",
+   "limit": 100,
+   "offset": 300,
+   "http": "200",
+   "count": 100,
+   "total": 556,
+   "status": "ok",
+   "message": "Resource lists"
+  }
+ ],
+ "effective_page_size": 556,
+ "repeat_pages_identical": [
+  true,
+  false
+ ],
+ "pagination": {
+  "retrieved": 556,
+  "distinct_records": 408,
+  "api_total": 556,
+  "duplicate_rows": 148,
+  "key_conflicts": 0,
+  "gap_records": 148,
+  "short_non_final_pages": [],
+  "malformed": {
+   "modal outside [min, max]": 4
+  },
+  "complete_and_unique": false
+ },
+ "existing_overlap": {
+  "existing_rows_that_day": 554,
+  "api_distinct_rows": 408,
+  "matched_pairs": 395,
+  "modal_equal_share": 1.0
+ },
+ "verdict": "pagination or content not reliable",
+ "exit_code": 1,
+ "calls_used": 9
+}

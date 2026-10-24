@@ -1,0 +1,54 @@
+{
+ "records": 1990311,
+ "date_range": [
+  "2024-02-03",
+  "2026-10-20"
+ ],
+ "source_identities": 5266,
+ "era_counts": {
+  "post": 2934,
+  "spans": 1426,
+  "pre": 906
+ },
+ "candidate_pairs": 2193,
+ "confidence_counts": {
+  "medium": 1053,
+  "low": 605,
+  "high": 535
+ },
+ "post_relaunch_without_candidate": 798,
+ "pre_relaunch_only_identities": 906,
+ "weekly_effect": {
+  "source_names": {
+   "series": 17530,
+   "weekly_cells": 433791
+  },
+  "proposed_mapping": {
+   "series": 13620,
+   "weekly_cells": 430328
+  },
+  "cross_name_identical_records_after_mapping": 6118,
+  "cross_name_identical_by_date": {
+   "2025-11-01": 1506,
+   "2025-11-02": 885,
+   "2025-11-03": 1757,
+   "2025-11-04": 1445,
+   "2025-11-05": 518,
+   "2025-11-06": 7
+  },
+  "cutover_weeks_cells": {
+   "source_names": 10186,
+   "proposed_mapping": 6723
+  }
+ },
+ "rules": {
+  "cutover": [
+   "2025-11-01",
+   "2025-11-06"
+  ],
+  "go_live": "2025-11-07",
+  "grace_days": 14,
+  "min_pairs": 5,
+  "min_identical_share": 0.95
+ }
+}

@@ -1,0 +1,890 @@
+{
+ "run": "20261023T232646Z",
+ "retrieved_utc": "20261023T232646Z",
+ "source_url": "https://api.data.gov.in/resource/35985678-0d79-46b4-9ed6-6f13308a1d24",
+ "limit": 5000,
+ "offset": 0,
+ "sort": "none (no documented ordering parameter)",
+ "budget": 70,
+ "calls": [
+  {
+   "n": 1,
+   "tag": "cap_onion_all",
+   "filters": {
+    "Commodity": "Onion"
+   },
+   "http": "200",
+   "total": 3403719,
+   "count": 5000,
+   "distinct": 5000,
+   "ok": false
+  },
+  {
+   "n": 2,
+   "tag": "onion_day_rep0",
+   "filters": {
+    "Commodity": "Onion",
+    "Arrival_Date": "17/01/2024"
+   },
+   "http": "200",
+   "total": 556,
+   "count": 556,
+   "distinct": 556,
+   "ok": true
+  },
+  {
+   "n": 3,
+   "tag": "onion_day_rep1",
+   "filters": {
+    "Commodity": "Onion",
+    "Arrival_Date": "17/01/2024"
+   },
+   "http": "200",
+   "total": 556,
+   "count": 556,
+   "distinct": 556,
+   "ok": true
+  },
+  {
+   "n": 4,
+   "tag": "onion_day_rep2",
+   "filters": {
+    "Commodity": "Onion",
+    "Arrival_Date": "17/01/2024"
+   },
+   "http": "200",
+   "total": 556,
+   "count": 556,
+   "distinct": 556,
+   "ok": true
+  },
+  {
+   "n": 5,
+   "tag": "state_Andaman_and_Nicobar",
+   "filters": {
+    "State": "Andaman and Nicobar",
+    "Commodity": "Onion",
+    "Arrival_Date": "17/01/2024"
+   },
+   "http": "200",
+   "total": 0,
+   "count": 0,
+   "distinct": 0,
+   "ok": true
+  },
+  {
+   "n": 6,
+   "tag": "state_Andhra_Pradesh",
+   "filters": {
+    "State": "Andhra Pradesh",
+    "Commodity": "Onion",
+    "Arrival_Date": "17/01/2024"
+   },
+   "http": "200",
+   "total": 2,
+   "count": 2,
+   "distinct": 2,
+   "ok": true
+  },
+  {
+   "n": 7,
+   "tag": "state_Arunachal_Pradesh",
+   "filters": {
+    "State": "Arunachal Pradesh",
+    "Commodity": "Onion",
+    "Arrival_Date": "17/01/2024"
+   },
+   "http": "200",
+   "total": 0,
+   "count": 0,
+   "distinct": 0,
+   "ok": true
+  },
+  {
+   "n": 8,
+   "tag": "state_Assam",
+   "filters": {
+    "State": "Assam",
+    "Commodity": "Onion",
+    "Arrival_Date": "17/01/2024"
+   },
+   "http": "200",
+   "total": 0,
+   "count": 0,
+   "distinct": 0,
+   "ok": true
+  },
+  {
+   "n": 9,
+   "tag": "state_Bihar",
+   "filters": {
+    "State": "Bihar",
+    "Commodity": "Onion",
+    "Arrival_Date": "17/01/2024"
+   },
+   "http": "200",
+   "total": 12,
+   "count": 12,
+   "distinct": 12,
+   "ok": true
+  },
+  {
+   "n": 10,
+   "tag": "state_Chandigarh",
+   "filters": {
+    "State": "Chandigarh",
+    "Commodity": "Onion",
+    "Arrival_Date": "17/01/2024"
+   },
+   "http": "200",
+   "total": 1,
+   "count": 1,
+   "distinct": 1,
+   "ok": true
+  },
+  {
+   "n": 11,
+   "tag": "state_Chattisgarh",
+   "filters": {
+    "State": "Chattisgarh",
+    "Commodity": "Onion",
+    "Arrival_Date": "17/01/2024"
+   },
+   "http": "200",
+   "total": 4,
+   "count": 4,
+   "distinct": 4,
+   "ok": true
+  },
+  {
+   "n": 12,
+   "tag": "state_Goa",
+   "filters": {
+    "State": "Goa",
+    "Commodity": "Onion",
+    "Arrival_Date": "17/01/2024"
+   },
+   "http": "200",
+   "total": 1,
+   "count": 1,
+   "distinct": 1,
+   "ok": true
+  },
+  {
+   "n": 13,
+   "tag": "state_Gujarat",
+   "filters": {
+    "State": "Gujarat",
+    "Commodity": "Onion",
+    "Arrival_Date": "17/01/2024"
+   },
+   "http": "200",
+   "total": 25,
+   "count": 25,
+   "distinct": 25,
+   "ok": true
+  },
+  {
+   "n": 14,
+   "tag": "state_Haryana",
+   "filters": {
+    "State": "Haryana",
+    "Commodity": "Onion",
+    "Arrival_Date": "17/01/2024"
+   },
+   "http": "200",
+   "total": 46,
+   "count": 46,
+   "distinct": 46,
+   "ok": true
+  },
+  {
+   "n": 15,
+   "tag": "state_Himachal_Pradesh",
+   "filters": {
+    "State": "Himachal Pradesh",
+    "Commodity": "Onion",
+    "Arrival_Date": "17/01/2024"
+   },
+   "http": "200",
+   "total": 16,
+   "count": 16,
+   "distinct": 16,
+   "ok": true
+  },
+  {
+   "n": 16,
+   "tag": "state_Jammu_and_Kashmir",
+   "filters": {
+    "State": "Jammu and Kashmir",
+    "Commodity": "Onion",
+    "Arrival_Date": "17/01/2024"
+   },
+   "http": "200",
+   "total": 2,
+   "count": 2,
+   "distinct": 2,
+   "ok": true
+  },
+  {
+   "n": 17,
+   "tag": "state_Jharkhand",
+   "filters": {
+    "State": "Jharkhand",
+    "Commodity": "Onion",
+    "Arrival_Date": "17/01/2024"
+   },
+   "http": "200",
+   "total": 0,
+   "count": 0,
+   "distinct": 0,
+   "ok": true
+  },
+  {
+   "n": 18,
+   "tag": "state_Karnataka",
+   "filters": {
+    "State": "Karnataka",
+    "Commodity": "Onion",
+    "Arrival_Date": "17/01/2024"
+   },
+   "http": "200",
+   "total": 12,
+   "count": 12,
+   "distinct": 12,
+   "ok": true
+  },
+  {
+   "n": 19,
+   "tag": "state_Kerala",
+   "filters": {
+    "State": "Kerala",
+    "Commodity": "Onion",
+    "Arrival_Date": "17/01/2024"
+   },
+   "http": "200",
+   "total": 65,
+   "count": 65,
+   "distinct": 65,
+   "ok": true
+  },
+  {
+   "n": 20,
+   "tag": "state_Lakshadweep",
+   "filters": {
+    "State": "Lakshadweep",
+    "Commodity": "Onion",
+    "Arrival_Date": "17/01/2024"
+   },
+   "http": "200",
+   "total": 0,
+   "count": 0,
+   "distinct": 0,
+   "ok": true
+  },
+  {
+   "n": 21,
+   "tag": "state_Madhya_Pradesh",
+   "filters": {
+    "State": "Madhya Pradesh",
+    "Commodity": "Onion",
+    "Arrival_Date": "17/01/2024"
+   },
+   "http": "200",
+   "total": 17,
+   "count": 17,
+   "distinct": 17,
+   "ok": true
+  },
+  {
+   "n": 22,
+   "tag": "state_Maharashtra",
+   "filters": {
+    "State": "Maharashtra",
+    "Commodity": "Onion",
+    "Arrival_Date": "17/01/2024"
+   },
+   "http": "200",
+   "total": 54,
+   "count": 54,
+   "distinct": 54,
+   "ok": true
+  },
+  {
+   "n": 23,
+   "tag": "state_Manipur",
+   "filters": {
+    "State": "Manipur",
+    "Commodity": "Onion",
+    "Arrival_Date": "17/01/2024"
+   },
+   "http": "200",
+   "total": 0,
+   "count": 0,
+   "distinct": 0,
+   "ok": true
+  },
+  {
+   "n": 24,
+   "tag": "state_Meghalaya",
+   "filters": {
+    "State": "Meghalaya",
+    "Commodity": "Onion",
+    "Arrival_Date": "17/01/2024"
+   },
+   "http": "200",
+   "total": 0,
+   "count": 0,
+   "distinct": 0,
+   "ok": true
+  },
+  {
+   "n": 25,
+   "tag": "state_Mizoram",
+   "filters": {
+    "State": "Mizoram",
+    "Commodity": "Onion",
+    "Arrival_Date": "17/01/2024"
+   },
+   "http": "200",
+   "total": 0,
+   "count": 0,
+   "distinct": 0,
+   "ok": true
+  },
+  {
+   "n": 26,
+   "tag": "state_NCT_of_Delhi",
+   "filters": {
+    "State": "NCT of Delhi",
+    "Commodity": "Onion",
+    "Arrival_Date": "17/01/2024"
+   },
+   "http": "200",
+   "total": 3,
+   "count": 3,
+   "distinct": 3,
+   "ok": true
+  },
+  {
+   "n": 27,
+   "tag": "state_Nagaland",
+   "filters": {
+    "State": "Nagaland",
+    "Commodity": "Onion",
+    "Arrival_Date": "17/01/2024"
+   },
+   "http": "200",
+   "total": 2,
+   "count": 2,
+   "distinct": 2,
+   "ok": true
+  },
+  {
+   "n": 28,
+   "tag": "state_Odisha",
+   "filters": {
+    "State": "Odisha",
+    "Commodity": "Onion",
+    "Arrival_Date": "17/01/2024"
+   },
+   "http": "200",
+   "total": 15,
+   "count": 15,
+   "distinct": 15,
+   "ok": true
+  },
+  {
+   "n": 29,
+   "tag": "state_Punjab",
+   "filters": {
+    "State": "Punjab",
+    "Commodity": "Onion",
+    "Arrival_Date": "17/01/2024"
+   },
+   "http": "200",
+   "total": 51,
+   "count": 51,
+   "distinct": 51,
+   "ok": true
+  },
+  {
+   "n": 30,
+   "tag": "state_Rajasthan",
+   "filters": {
+    "State": "Rajasthan",
+    "Commodity": "Onion",
+    "Arrival_Date": "17/01/2024"
+   },
+   "http": "200",
+   "total": 24,
+   "count": 24,
+   "distinct": 24,
+   "ok": true
+  },
+  {
+   "n": 31,
+   "tag": "state_Tamil_Nadu",
+   "filters": {
+    "State": "Tamil Nadu",
+    "Commodity": "Onion",
+    "Arrival_Date": "17/01/2024"
+   },
+   "http": "200",
+   "total": 0,
+   "count": 0,
+   "distinct": 0,
+   "ok": true
+  },
+  {
+   "n": 32,
+   "tag": "state_Telangana",
+   "filters": {
+    "State": "Telangana",
+    "Commodity": "Onion",
+    "Arrival_Date": "17/01/2024"
+   },
+   "http": "200",
+   "total": 6,
+   "count": 6,
+   "distinct": 6,
+   "ok": true
+  },
+  {
+   "n": 33,
+   "tag": "state_Tripura",
+   "filters": {
+    "State": "Tripura",
+    "Commodity": "Onion",
+    "Arrival_Date": "17/01/2024"
+   },
+   "http": "200",
+   "total": 6,
+   "count": 6,
+   "distinct": 6,
+   "ok": true
+  },
+  {
+   "n": 34,
+   "tag": "state_Uttar_Pradesh",
+   "filters": {
+    "State": "Uttar Pradesh",
+    "Commodity": "Onion",
+    "Arrival_Date": "17/01/2024"
+   },
+   "http": "200",
+   "total": 132,
+   "count": 132,
+   "distinct": 132,
+   "ok": true
+  },
+  {
+   "n": 35,
+   "tag": "state_Uttrakhand",
+   "filters": {
+    "State": "Uttrakhand",
+    "Commodity": "Onion",
+    "Arrival_Date": "17/01/2024"
+   },
+   "http": "200",
+   "total": 9,
+   "count": 9,
+   "distinct": 9,
+   "ok": true
+  },
+  {
+   "n": 36,
+   "tag": "state_West_Bengal",
+   "filters": {
+    "State": "West Bengal",
+    "Commodity": "Onion",
+    "Arrival_Date": "17/01/2024"
+   },
+   "http": "200",
+   "total": 51,
+   "count": 51,
+   "distinct": 51,
+   "ok": true
+  },
+  {
+   "n": 37,
+   "tag": "market_Madhya_Pradesh_Indore",
+   "filters": {
+    "State": "Madhya Pradesh",
+    "Market": "Indore",
+    "Commodity": "Onion",
+    "Arrival_Date": "17/01/2024"
+   },
+   "http": "200",
+   "total": 3,
+   "count": 3,
+   "distinct": 3,
+   "ok": true
+  },
+  {
+   "n": 38,
+   "tag": "market_Madhya_Pradesh_Khandwa",
+   "filters": {
+    "State": "Madhya Pradesh",
+    "Market": "Khandwa",
+    "Commodity": "Onion",
+    "Arrival_Date": "17/01/2024"
+   },
+   "http": "200",
+   "total": 1,
+   "count": 1,
+   "distinct": 1,
+   "ok": true
+  },
+  {
+   "n": 39,
+   "tag": "market_Madhya_Pradesh_Mandsaur",
+   "filters": {
+    "State": "Madhya Pradesh",
+    "Market": "Mandsaur",
+    "Commodity": "Onion",
+    "Arrival_Date": "17/01/2024"
+   },
+   "http": "200",
+   "total": 1,
+   "count": 1,
+   "distinct": 1,
+   "ok": true
+  },
+  {
+   "n": 40,
+   "tag": "market_Madhya_Pradesh_Narsinghgarh",
+   "filters": {
+    "State": "Madhya Pradesh",
+    "Market": "Narsinghgarh",
+    "Commodity": "Onion",
+    "Arrival_Date": "17/01/2024"
+   },
+   "http": "200",
+   "total": 1,
+   "count": 1,
+   "distinct": 1,
+   "ok": true
+  },
+  {
+   "n": 41,
+   "tag": "market_Madhya_Pradesh_Neemuch",
+   "filters": {
+    "State": "Madhya Pradesh",
+    "Market": "Neemuch",
+    "Commodity": "Onion",
+    "Arrival_Date": "17/01/2024"
+   },
+   "http": "200",
+   "total": 2,
+   "count": 2,
+   "distinct": 2,
+   "ok": true
+  },
+  {
+   "n": 42,
+   "tag": "market_Madhya_Pradesh_Ratlam",
+   "filters": {
+    "State": "Madhya Pradesh",
+    "Market": "Ratlam",
+    "Commodity": "Onion",
+    "Arrival_Date": "17/01/2024"
+   },
+   "http": "200",
+   "total": 1,
+   "count": 1,
+   "distinct": 1,
+   "ok": true
+  },
+  {
+   "n": 43,
+   "tag": "market_Madhya_Pradesh_Sailana",
+   "filters": {
+    "State": "Madhya Pradesh",
+    "Market": "Sailana",
+    "Commodity": "Onion",
+    "Arrival_Date": "17/01/2024"
+   },
+   "http": "200",
+   "total": 3,
+   "count": 3,
+   "distinct": 3,
+   "ok": true
+  },
+  {
+   "n": 44,
+   "tag": "market_Madhya_Pradesh_Sajapur",
+   "filters": {
+    "State": "Madhya Pradesh",
+    "Market": "Sajapur",
+    "Commodity": "Onion",
+    "Arrival_Date": "17/01/2024"
+   },
+   "http": "200",
+   "total": 2,
+   "count": 2,
+   "distinct": 2,
+   "ok": true
+  },
+  {
+   "n": 45,
+   "tag": "market_Madhya_Pradesh_Sehore",
+   "filters": {
+    "State": "Madhya Pradesh",
+    "Market": "Sehore",
+    "Commodity": "Onion",
+    "Arrival_Date": "17/01/2024"
+   },
+   "http": "200",
+   "total": 1,
+   "count": 1,
+   "distinct": 1,
+   "ok": true
+  },
+  {
+   "n": 46,
+   "tag": "market_Madhya_Pradesh_Shujalpur",
+   "filters": {
+    "State": "Madhya Pradesh",
+    "Market": "Shujalpur",
+    "Commodity": "Onion",
+    "Arrival_Date": "17/01/2024"
+   },
+   "http": "200",
+   "total": 1,
+   "count": 1,
+   "distinct": 1,
+   "ok": true
+  },
+  {
+   "n": 47,
+   "tag": "market_Madhya_Pradesh_Ujjain",
+   "filters": {
+    "State": "Madhya Pradesh",
+    "Market": "Ujjain",
+    "Commodity": "Onion",
+    "Arrival_Date": "17/01/2024"
+   },
+   "http": "200",
+   "total": 1,
+   "count": 1,
+   "distinct": 1,
+   "ok": true
+  },
+  {
+   "n": 48,
+   "tag": "Potato_17-01-2024_rep0",
+   "filters": {
+    "Commodity": "Potato",
+    "Arrival_Date": "17/01/2024"
+   },
+   "http": "200",
+   "total": 550,
+   "count": 550,
+   "distinct": 550,
+   "ok": true
+  },
+  {
+   "n": 49,
+   "tag": "Potato_17-01-2024_rep1",
+   "filters": {
+    "Commodity": "Potato",
+    "Arrival_Date": "17/01/2024"
+   },
+   "http": "200",
+   "total": 550,
+   "count": 550,
+   "distinct": 550,
+   "ok": true
+  },
+  {
+   "n": 50,
+   "tag": "Wheat_17-01-2024_rep0",
+   "filters": {
+    "Commodity": "Wheat",
+    "Arrival_Date": "17/01/2024"
+   },
+   "http": "200",
+   "total": 387,
+   "count": 387,
+   "distinct": 387,
+   "ok": true
+  },
+  {
+   "n": 51,
+   "tag": "Wheat_17-01-2024_rep1",
+   "filters": {
+    "Commodity": "Wheat",
+    "Arrival_Date": "17/01/2024"
+   },
+   "http": "200",
+   "total": 387,
+   "count": 387,
+   "distinct": 387,
+   "ok": true
+  },
+  {
+   "n": 52,
+   "tag": "Onion_18-06-2025_rep0",
+   "filters": {
+    "Commodity": "Onion",
+    "Arrival_Date": "18/06/2025"
+   },
+   "http": "200",
+   "total": 829,
+   "count": 829,
+   "distinct": 829,
+   "ok": true
+  },
+  {
+   "n": 53,
+   "tag": "Onion_18-06-2025_rep1",
+   "filters": {
+    "Commodity": "Onion",
+    "Arrival_Date": "18/06/2025"
+   },
+   "http": "200",
+   "total": 829,
+   "count": 829,
+   "distinct": 829,
+   "ok": true
+  }
+ ],
+ "experiments": {
+  "X0_cap": {
+   "requested_limit": 5000,
+   "returned": 5000,
+   "total": 3403719
+  },
+  "X1_commodity_day": {
+   "calls": [
+    {
+     "total": 556,
+     "count": 556,
+     "distinct": 556,
+     "ok": true
+    },
+    {
+     "total": 556,
+     "count": 556,
+     "distinct": 556,
+     "ok": true
+    },
+    {
+     "total": 556,
+     "count": 556,
+     "distinct": 556,
+     "ok": true
+    }
+   ],
+   "repeats_set_equal": true
+  },
+  "X2_state_partition": {
+   "states_queried": 32,
+   "states_nonempty": 23,
+   "all_single_calls_ok": true,
+   "coarse": 556,
+   "union": 556,
+   "sum_part_totals": 556,
+   "missing_from_parts": 0,
+   "extra_in_parts": 0,
+   "overlap_between_parts": 0,
+   "equal": true
+  },
+  "X3_market_partition": {
+   "state": "Madhya Pradesh",
+   "markets_queried": 11,
+   "coarse": 17,
+   "union": 17,
+   "sum_part_totals": 17,
+   "missing_from_parts": 0,
+   "extra_in_parts": 0,
+   "overlap_between_parts": 0,
+   "equal": true
+  },
+  "X4_Potato_17/01/2024": {
+   "calls": [
+    {
+     "total": 550,
+     "count": 550,
+     "distinct": 550,
+     "ok": true
+    },
+    {
+     "total": 550,
+     "count": 550,
+     "distinct": 550,
+     "ok": true
+    }
+   ],
+   "repeats_set_equal": true
+  },
+  "X4_Wheat_17/01/2024": {
+   "calls": [
+    {
+     "total": 387,
+     "count": 387,
+     "distinct": 387,
+     "ok": true
+    },
+    {
+     "total": 387,
+     "count": 387,
+     "distinct": 387,
+     "ok": true
+    }
+   ],
+   "repeats_set_equal": true
+  },
+  "X4_Onion_18/06/2025": {
+   "calls": [
+    {
+     "total": 829,
+     "count": 829,
+     "distinct": 829,
+     "ok": true
+    },
+    {
+     "total": 829,
+     "count": 829,
+     "distinct": 829,
+     "ok": true
+    }
+   ],
+   "repeats_set_equal": true
+  },
+  "agreement_Onion_2024-01-17": {
+   "api_records": 556,
+   "existing_rows": 554,
+   "matched_pairs": 538,
+   "modal_equal_share": 1.0,
+   "source_flags": {
+    "modal outside [min, max]": 5
+   },
+   "malformed": {}
+  },
+  "agreement_Potato_2024-01-17": {
+   "api_records": 550,
+   "existing_rows": 551,
+   "matched_pairs": 530,
+   "modal_equal_share": 1.0,
+   "source_flags": {
+    "modal outside [min, max]": 2
+   },
+   "malformed": {}
+  },
+  "agreement_Wheat_2024-01-17": {
+   "api_records": 387,
+   "existing_rows": 370,
+   "matched_pairs": 357,
+   "modal_equal_share": 1.0,
+   "source_flags": {
+    "modal outside [min, max]": 18
+   },
+   "malformed": {}
+  }
+ },
+ "verdict": "all checks pass",
+ "exit_code": 0,
+ "calls_used": 53
+}

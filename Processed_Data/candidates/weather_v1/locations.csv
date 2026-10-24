@@ -1,0 +1,47 @@
+state,district,crops,latitude,longitude,geocoder_name,geocoder_id,geocoder_admin1,geocoder_admin2,resolution_status,weather_file
+Maharashtra,Nashik,"Onion,Wheat",19.99727,73.79096,Nashik,1261731,Maharashtra,Nashik,phase3_verified,Processed_Data\weather\raw\Maharashtra_Nashik.csv
+Punjab,Ludhiana,"Onion,Potato",30.91204,75.85379,Ludhiana,1264728,Punjab,Ludhiana district,phase3_verified,Processed_Data\weather\raw\Punjab_Ludhiana.csv
+Punjab,Sangrur,"Onion,Potato",30.24506,75.84488,Sangrur,1257402,Punjab,Sangrur District,phase3_verified,Processed_Data\weather\raw\Punjab_Sangrur.csv
+Kerala,Alappuzha,Onion,9.49004,76.3264,Alappuzha,1278985,Kerala,Alleppey District,phase3_verified,Processed_Data\weather\raw\Kerala_Alappuzha.csv
+Kerala,Kottayam,Onion,9.58692,76.52132,Kottayam,1265911,Kerala,Kottayam,phase3_verified,Processed_Data\weather\raw\Kerala_Kottayam.csv
+Haryana,Yamuna Nagar,"Onion,Potato",30.12796,77.28371,Yamunanagar,1252797,Haryana,Yamunanagar District,phase3_verified,Processed_Data\weather\raw\Haryana_Yamuna_Nagar.csv
+Punjab,Hoshiarpur,"Onion,Potato",31.53723,75.91269,Hoshiārpur,1269937,Punjab,Hoshiarpur district,phase3_verified,Processed_Data\weather\raw\Punjab_Hoshiarpur.csv
+Punjab,Bhatinda,"Onion,Potato",30.20747,74.93893,Bathinda,1276070,Punjab,Bathinda,phase4_resolved_alias,Processed_Data\weather\raw\Punjab_Bhatinda.csv
+Uttar Pradesh,Bulandshahar,"Onion,Potato",28.40392,77.85773,Bulandshahr,1275120,Uttar Pradesh,Bulandshahr district,phase4_resolved_alias,Processed_Data\weather\raw\Uttar_Pradesh_Bulandshahar.csv
+Punjab,Patiala,"Onion,Potato",30.33625,76.3922,Patiāla,1260107,Punjab,Patiala district,phase3_verified,Processed_Data\weather\raw\Punjab_Patiala.csv
+Punjab,Mohali,"Onion,Potato",30.67995,76.72211,Mohali,6992326,Punjab,S.A.S Nagar,phase3_verified,Processed_Data\weather\raw\Punjab_Mohali.csv
+Kerala,Palakad,Onion,10.77319,76.65366,Palakkad,1260728,Kerala,Palakkad,phase4_resolved_alias,Processed_Data\weather\raw\Kerala_Palakad.csv
+Maharashtra,Pune,Onion,18.51957,73.85535,Pune,1259229,Maharashtra,Pune,phase3_verified,Processed_Data\weather\raw\Maharashtra_Pune.csv
+Kerala,Ernakulam,Onion,9.96714,76.29036,Ernākulam,1272018,Kerala,Ernakulam District,phase3_verified,Processed_Data\weather\raw\Kerala_Ernakulam.csv
+Maharashtra,Ahmednagar,"Onion,Wheat",19.09457,74.73843,Ahilyanagar,1279228,Maharashtra,Ahmednagar,phase4_resolved_alias,Processed_Data\weather\raw\Maharashtra_Ahmednagar.csv
+Haryana,Ambala,"Onion,Potato",30.36099,76.79782,Ambāla,1278860,Haryana,Ambala,phase3_verified,Processed_Data\weather\raw\Haryana_Ambala.csv
+West Bengal,Burdwan,"Onion,Potato",23.25572,87.85691,Bardhaman,1277029,West Bengal,Purba Bardhaman,phase3_verified,Processed_Data\weather\raw\West_Bengal_Burdwan.csv
+Punjab,Ferozpur,"Onion,Potato",30.92574,74.61311,Firozpur,1271883,Punjab,Firozpur,phase3_rejected_corrected,Processed_Data\weather\raw\Punjab_Ferozpur_corrected.csv
+Kerala,Malappuram,Onion,11.04199,76.08154,Malappuram,1264154,Kerala,Malappuram,phase3_verified,Processed_Data\weather\raw\Kerala_Malappuram.csv
+Uttar Pradesh,Agra,"Onion,Potato",27.18333,78.01667,Agra,1279259,Uttar Pradesh,Agra,phase3_verified,Processed_Data\weather\raw\Uttar_Pradesh_Agra.csv
+Punjab,Jalandhar,Potato,31.32556,75.57917,Jalandhar,1268782,Punjab,Jalandhar district,phase3_verified,Processed_Data\weather\raw\Punjab_Jalandhar.csv
+West Bengal,Jalpaiguri,Potato,26.51667,88.73333,Jalpāiguri,1269388,West Bengal,Jalpaiguri District,phase3_verified,Processed_Data\weather\raw\West_Bengal_Jalpaiguri.csv
+West Bengal,Coochbehar,Potato,26.32539,89.44508,Koch Bihār,1266436,West Bengal,Cooch Behar,phase4_resolved_alias,Processed_Data\weather\raw\West_Bengal_Coochbehar.csv
+West Bengal,Hooghly,Potato,22.90877,88.39674,Hugli,1269910,West Bengal,Hooghly,phase3_verified,Processed_Data\weather\raw\West_Bengal_Hooghly.csv
+Uttar Pradesh,Muzaffarnagar,Potato,29.47091,77.70332,Muzaffarnagar,1262332,Uttar Pradesh,Muzaffarnagar district,phase3_verified,Processed_Data\weather\raw\Uttar_Pradesh_Muzaffarnagar.csv
+Haryana,Kurukshetra,Potato,29.9657,76.837,Kurukshetra,8986322,Haryana,Kurukshetra,phase3_verified,Processed_Data\weather\raw\Haryana_Kurukshetra.csv
+Odisha,Kendrapara,Potato,20.50166,86.42227,Kendrāparha,1267283,Odisha,Kendrapara,phase3_verified,Processed_Data\weather\raw\Odisha_Kendrapara.csv
+Uttar Pradesh,Kanpur,Potato,26.46523,80.34975,Kanpur,1267995,Uttar Pradesh,Kanpur Nagar,phase3_verified,Processed_Data\weather\raw\Uttar_Pradesh_Kanpur.csv
+Rajasthan,Ganganagar,Wheat,29.92009,73.87496,Sri Ganganagar,1271685,Rajasthan,Ganganagar,phase4_resolved_alias,Processed_Data\weather\raw\Rajasthan_Ganganagar.csv
+Gujarat,Sabarkantha,Wheat,23.59893,72.96602,Himatnagar,1270099,Gujarat,Sabar Kantha,phase4_resolved_alias,Processed_Data\weather\raw\Gujarat_Sabarkantha.csv
+Gujarat,Rajkot,Wheat,22.29161,70.79322,Rajkot,1258847,Gujarat,Rajkot,phase3_verified,Processed_Data\weather\raw\Gujarat_Rajkot.csv
+Madhya Pradesh,Shajapur,Wheat,23.42637,76.27775,Shājāpur,1256693,Madhya Pradesh,Shājāpur District,phase3_verified,Processed_Data\weather\raw\Madhya_Pradesh_Shajapur.csv
+Madhya Pradesh,Sehore,Wheat,23.2,77.08333,Sehore,1256913,Madhya Pradesh,Sehore,phase3_verified,Processed_Data\weather\raw\Madhya_Pradesh_Sehore.csv
+Gujarat,Amreli,Wheat,21.59983,71.21169,Amreli,1278715,Gujarat,Amreli district,phase3_verified,Processed_Data\weather\raw\Gujarat_Amreli.csv
+Madhya Pradesh,Sagar,Wheat,23.83877,78.73874,Saugor,1257845,Madhya Pradesh,Sagar,phase3_verified,Processed_Data\weather\raw\Madhya_Pradesh_Sagar.csv
+Madhya Pradesh,Ujjain,Wheat,23.18239,75.77643,Ujjain,1253914,Madhya Pradesh,Ujjain district,phase3_verified,Processed_Data\weather\raw\Madhya_Pradesh_Ujjain.csv
+Madhya Pradesh,Vidisha,Wheat,23.52604,77.81092,Vidisha,1253200,Madhya Pradesh,Vidisha,phase3_verified,Processed_Data\weather\raw\Madhya_Pradesh_Vidisha.csv
+Maharashtra,Buldhana,Wheat,20.52933,76.18457,Buldāna,1275117,Maharashtra,Buldhana,phase4_resolved_alias,Processed_Data\weather\raw\Maharashtra_Buldhana.csv
+Madhya Pradesh,Dewas,Wheat,22.96585,76.05526,Dewas,1273066,Madhya Pradesh,Dewas district,phase3_verified,Processed_Data\weather\raw\Madhya_Pradesh_Dewas.csv
+Gujarat,Mehsana,Wheat,23.59864,72.38472,Mahesāna,1264389,Gujarat,Mehsāna District,phase3_verified,Processed_Data\weather\raw\Gujarat_Mehsana.csv
+Rajasthan,Hanumangarh,Wheat,29.58182,74.32938,Hanumāngarh,1270407,Rajasthan,Hanumangarh,phase3_verified,Processed_Data\weather\raw\Rajasthan_Hanumangarh.csv
+Madhya Pradesh,Dhar,Wheat,22.59373,75.29774,Dhār,1272892,Madhya Pradesh,Dhar,phase3_verified,Processed_Data\weather\raw\Madhya_Pradesh_Dhar.csv
+Madhya Pradesh,Ratlam,Wheat,23.33033,75.04032,Ratlām,1258342,Madhya Pradesh,Ratlam,phase3_verified,Processed_Data\weather\raw\Madhya_Pradesh_Ratlam.csv
+Madhya Pradesh,Rajgarh,Wheat,24.00826,76.7325,Rājgarh,1258875,Madhya Pradesh,Rajgarh,phase3_verified,Processed_Data\weather\raw\Madhya_Pradesh_Rajgarh.csv
+Gujarat,Banaskanth,Wheat,24.17128,72.43827,Pālanpur,1260777,Gujarat,Banas Kantha,phase4_resolved_alias,Processed_Data\weather\raw\Gujarat_Banaskanth.csv
+Gujarat,Junagarh,Wheat,21.51966,70.45981,Jūnāgadh,1268773,Gujarat,Jūnāgadh District,phase4_resolved_alias,Processed_Data\weather\raw\Gujarat_Junagarh.csv

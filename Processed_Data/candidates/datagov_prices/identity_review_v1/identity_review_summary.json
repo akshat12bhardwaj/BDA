@@ -1,0 +1,160 @@
+{
+ "rule": "identity-rule-v1",
+ "thresholds": {
+  "old_stop_by": "2025-11-20",
+  "min_field_equal": 0.95,
+  "level_ratio": [
+   0.5,
+   2.0
+  ]
+ },
+ "high_validation": {
+  "accepted_rule_v1": 440,
+  "unresolved": 81,
+  "rejected": 14
+ },
+ "high_hard_fail_reasons": {
+  "price_level_discontinuity": 14
+ },
+ "high_unmet_reasons": {
+  "new_name_not_in_agmarknet2_market_list": 82
+ },
+ "medium_total": 1053,
+ "medium_sample": 160,
+ "medium_seed": 20261024,
+ "dedup_accepted_identities": {
+  "groups": 3889,
+  "outcomes": {
+   "deduplicated": 3873,
+   "identity_conflict": 16
+  },
+  "records_removed_from_view": 3873,
+  "by_date": {
+   "01/11/2025": 917,
+   "02/11/2025": 654,
+   "03/11/2025": 1034,
+   "04/11/2025": 916,
+   "05/11/2025": 345,
+   "06/11/2025": 7
+  },
+  "identity_conflict_records": 48
+ },
+ "unresolved_dual_reporting_hypothetical": {
+  "pairs_1to1": 158,
+  "groups": 12305,
+  "records_that_would_be_removed": 12304,
+  "weekly_cells_now_vs_if_resolved": [
+   433791,
+   431168
+  ]
+ },
+ "faq_comparability_through_relaunch": {
+  "Onion": {
+   "markets_both_eras": 519,
+   "faq_pre_mostly(>=0.5)": 352,
+   "of_those_faq_post_mostly": 242,
+   "switched_away_from_faq": 110
+  },
+  "Potato": {
+   "markets_both_eras": 507,
+   "faq_pre_mostly(>=0.5)": 353,
+   "of_those_faq_post_mostly": 247,
+   "switched_away_from_faq": 106
+  },
+  "Wheat": {
+   "markets_both_eras": 303,
+   "faq_pre_mostly(>=0.5)": 299,
+   "of_those_faq_post_mostly": 240,
+   "switched_away_from_faq": 59
+  }
+ },
+ "grade_price_ratio_to_faq_same_market_day": {
+  "Local": {
+   "pairs": 473,
+   "median_ratio_to_faq": 1.0
+  },
+  "Non-FAQ": {
+   "pairs": 51194,
+   "median_ratio_to_faq": 0.959
+  },
+  "Medium": {
+   "pairs": 114,
+   "median_ratio_to_faq": 1.0
+  },
+  "Grade A": {
+   "pairs": 34,
+   "median_ratio_to_faq": 1.0
+  }
+ },
+ "series_designs": {
+  "pooled_all_grades": {
+   "Onion": {
+    "series": 4019,
+    "observations": 671853,
+    "weekly_cells": 140225,
+    "series_lt_8_weeks": 1169,
+    "median_missing_week_share_within_span": 0.031
+   },
+   "Potato": {
+    "series": 3986,
+    "observations": 642752,
+    "weekly_cells": 131519,
+    "series_lt_8_weeks": 1263,
+    "median_missing_week_share_within_span": 0.011
+   },
+   "Wheat": {
+    "series": 7943,
+    "observations": 599536,
+    "weekly_cells": 160070,
+    "series_lt_8_weeks": 4049,
+    "median_missing_week_share_within_span": 0.153
+   }
+  },
+  "faq_only": {
+   "Onion": {
+    "series": 2555,
+    "observations": 399585,
+    "weekly_cells": 89572,
+    "series_lt_8_weeks": 856,
+    "median_missing_week_share_within_span": 0.048
+   },
+   "Potato": {
+    "series": 2442,
+    "observations": 415659,
+    "weekly_cells": 87676,
+    "series_lt_8_weeks": 830,
+    "median_missing_week_share_within_span": 0.029
+   },
+   "Wheat": {
+    "series": 7103,
+    "observations": 482181,
+    "weekly_cells": 138514,
+    "series_lt_8_weeks": 3712,
+    "median_missing_week_share_within_span": 0.184
+   }
+  },
+  "grade_aware": {
+   "Onion": {
+    "series": 5929,
+    "observations": 671853,
+    "weekly_cells": 146905,
+    "series_lt_8_weeks": 2558,
+    "median_missing_week_share_within_span": 0.0
+   },
+   "Potato": {
+    "series": 5751,
+    "observations": 642752,
+    "weekly_cells": 137060,
+    "series_lt_8_weeks": 2606,
+    "median_missing_week_share_within_span": 0.0
+   },
+   "Wheat": {
+    "series": 10438,
+    "observations": 599536,
+    "weekly_cells": 177511,
+    "series_lt_8_weeks": 5748,
+    "median_missing_week_share_within_span": 0.158
+   }
+  }
+ }
+}

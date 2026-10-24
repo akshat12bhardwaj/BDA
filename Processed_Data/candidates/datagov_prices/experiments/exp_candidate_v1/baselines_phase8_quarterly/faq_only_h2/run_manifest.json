@@ -1,0 +1,57 @@
+{
+ "preflight": {
+  "protocol_sha256": "a6b1240c4c4f80da15a02fea946ca5f79f07617d9ccbabb7479ebb65193ae9ee",
+  "dataset_version": "candidate-prices-v1.1",
+  "dataset_manifest_sha256": "4a04140dc4abd00e8db7beb74f91b56c0102545feab6f9e4c5659f9e226127d6"
+ },
+ "refit_rule": "phase8_quarterly",
+ "refits_used": {
+  "2025-10-05": 681,
+  "2026-01-04": 3149,
+  "2026-04-05": 3352
+ },
+ "coverage": {
+  "Onion": {
+   "eligible_validation_rows": 1941,
+   "seasonal_naive_available": 1857,
+   "climatology_available": 1941,
+   "identical_rows": 1857,
+   "targets_below_100_rs_per_q": 2
+  },
+  "Potato": {
+   "eligible_validation_rows": 2028,
+   "seasonal_naive_available": 1901,
+   "climatology_available": 2028,
+   "identical_rows": 1901,
+   "targets_below_100_rs_per_q": 0
+  },
+  "Wheat": {
+   "eligible_validation_rows": 3213,
+   "seasonal_naive_available": 3127,
+   "climatology_available": 3213,
+   "identical_rows": 3127,
+   "targets_below_100_rs_per_q": 0
+  }
+ },
+ "experiment": "exp-candidate-v1",
+ "design": "faq_only",
+ "horizon": 2,
+ "periods_scored": [
+  "validation"
+ ],
+ "seed": 20261022,
+ "reps": 10000,
+ "code_sha256": {
+  "Code/candidates/baselines_candidate.py": "7a68433c04e460dedc8a59d71cbdc7ee1d75ac3f0db223b55399f2738e23184f",
+  "Code/candidates/experiment_design.py": "30e1c37e4e75c5998c260a783d0cc4e9a14dd9f6207c9dfb6575010573548125",
+  "Code/modelling/dataset.py": "19a483a9f1cd09c1c461526fda7f881bffd78f1ae4bac84528d17fed76d9c41d"
+ },
+ "outputs_sha256": {
+  "by_crop.csv": "b9b0ae291b506849d18fa65108da3bb5209109af4448c1ad946b23fa6f7dde6e",
+  "by_crop_quarter.csv": "d4310b8c5330568f27f392e1401463d33616b1c33c861134ad13779c869fd157",
+  "by_crop_state.csv": "a56ba622593691f7f866230c49fac565c37c42253276913d4ef1c14693c45e00",
+  "persistence_all_eligible_rows.csv": "0ea3f84bf5a24671fa962d446677d8aeaa8ee0848990535902edd60a39359aef",
+  "bootstrap.csv": "967184b769988dccd0ee35b9c9f726747568ce828cc90db91a847cdf0f22ce1f",
+  "leave_one_state_out.csv": "b96f15f612b5cd1959bf8c42c1aa2940cf5f03e792e7e545c7c13ef3b0c52ca5"
+ }
+}

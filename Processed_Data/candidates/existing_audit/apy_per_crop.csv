@@ -1,0 +1,4 @@
+crop,rows,years,first,last,states,districts,area_null_pct,production_null_pct,production_zero_pct,yield_null_pct,units,dup_keys
+Onion,14822,26,1997-1998,2022-2023,25,581,0.0,0.36,0.04,0.0,['Hectare'] ['Tonnes'],0
+Potato,14108,26,1997-1998,2022-2023,28,615,0.0,0.19,0.07,0.0,['Hectare'] ['Tonnes'],0
+Wheat,12905,26,1997-1998,2022-2023,31,642,0.0,0.22,0.02,0.0,['Hectare'] ['Tonnes'],0

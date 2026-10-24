@@ -1,0 +1,642 @@
+{
+ "coverage": [
+  {
+   "design": "faq_only",
+   "crop": "Onion",
+   "year": "2024",
+   "weekly_cells": 38792,
+   "series": 1315,
+   "markets": 1005,
+   "records_in_cells": 178802
+  },
+  {
+   "design": "faq_only",
+   "crop": "Onion",
+   "year": "2025",
+   "weekly_cells": 32675,
+   "series": 1767,
+   "markets": 1266,
+   "records_in_cells": 151919
+  },
+  {
+   "design": "faq_only",
+   "crop": "Onion",
+   "year": "2026",
+   "weekly_cells": 17215,
+   "series": 1100,
+   "markets": 697,
+   "records_in_cells": 67349
+  },
+  {
+   "design": "faq_only",
+   "crop": "Potato",
+   "year": "2024",
+   "weekly_cells": 36481,
+   "series": 1189,
+   "markets": 954,
+   "records_in_cells": 178755
+  },
+  {
+   "design": "faq_only",
+   "crop": "Potato",
+   "year": "2025",
+   "weekly_cells": 32549,
+   "series": 1747,
+   "markets": 1255,
+   "records_in_cells": 156244
+  },
+  {
+   "design": "faq_only",
+   "crop": "Potato",
+   "year": "2026",
+   "weekly_cells": 17700,
+   "series": 1084,
+   "markets": 692,
+   "records_in_cells": 79104
+  },
+  {
+   "design": "faq_only",
+   "crop": "Wheat",
+   "year": "2024",
+   "weekly_cells": 43810,
+   "series": 2443,
+   "markets": 1307,
+   "records_in_cells": 160688
+  },
+  {
+   "design": "faq_only",
+   "crop": "Wheat",
+   "year": "2025",
+   "weekly_cells": 44606,
+   "series": 3160,
+   "markets": 1710,
+   "records_in_cells": 160170
+  },
+  {
+   "design": "faq_only",
+   "crop": "Wheat",
+   "year": "2026",
+   "weekly_cells": 49166,
+   "series": 4583,
+   "markets": 1246,
+   "records_in_cells": 160018
+  },
+  {
+   "design": "faq_local",
+   "crop": "Onion",
+   "year": "2024",
+   "weekly_cells": 43264,
+   "series": 1566,
+   "markets": 1254,
+   "records_in_cells": 208207
+  },
+  {
+   "design": "faq_local",
+   "crop": "Onion",
+   "year": "2025",
+   "weekly_cells": 46799,
+   "series": 2374,
+   "markets": 1754,
+   "records_in_cells": 227346
+  },
+  {
+   "design": "faq_local",
+   "crop": "Onion",
+   "year": "2026",
+   "weekly_cells": 34873,
+   "series": 2158,
+   "markets": 1537,
+   "records_in_cells": 158561
+  },
+  {
+   "design": "faq_local",
+   "crop": "Potato",
+   "year": "2024",
+   "weekly_cells": 40615,
+   "series": 1429,
+   "markets": 1190,
+   "records_in_cells": 205879
+  },
+  {
+   "design": "faq_local",
+   "crop": "Potato",
+   "year": "2025",
+   "weekly_cells": 42048,
+   "series": 2201,
+   "markets": 1639,
+   "records_in_cells": 206464
+  },
+  {
+   "design": "faq_local",
+   "crop": "Potato",
+   "year": "2026",
+   "weekly_cells": 33610,
+   "series": 2104,
+   "markets": 1382,
+   "records_in_cells": 154753
+  },
+  {
+   "design": "faq_local",
+   "crop": "Wheat",
+   "year": "2024",
+   "weekly_cells": 43895,
+   "series": 2452,
+   "markets": 1309,
+   "records_in_cells": 160899
+  },
+  {
+   "design": "faq_local",
+   "crop": "Wheat",
+   "year": "2025",
+   "weekly_cells": 45529,
+   "series": 3253,
+   "markets": 1772,
+   "records_in_cells": 163527
+  },
+  {
+   "design": "faq_local",
+   "crop": "Wheat",
+   "year": "2026",
+   "weekly_cells": 54316,
+   "series": 4949,
+   "markets": 1523,
+   "records_in_cells": 179482
+  },
+  {
+   "design": "pooled",
+   "crop": "Onion",
+   "year": "2024",
+   "weekly_cells": 43264,
+   "series": 1566,
+   "markets": 1254,
+   "records_in_cells": 208207
+  },
+  {
+   "design": "pooled",
+   "crop": "Onion",
+   "year": "2025",
+   "weekly_cells": 51753,
+   "series": 2589,
+   "markets": 1845,
+   "records_in_cells": 260719
+  },
+  {
+   "design": "pooled",
+   "crop": "Onion",
+   "year": "2026",
+   "weekly_cells": 43692,
+   "series": 2549,
+   "markets": 1766,
+   "records_in_cells": 199220
+  },
+  {
+   "design": "pooled",
+   "crop": "Potato",
+   "year": "2024",
+   "weekly_cells": 40618,
+   "series": 1432,
+   "markets": 1190,
+   "records_in_cells": 205885
+  },
+  {
+   "design": "pooled",
+   "crop": "Potato",
+   "year": "2025",
+   "weekly_cells": 47028,
+   "series": 2397,
+   "markets": 1733,
+   "records_in_cells": 239784
+  },
+  {
+   "design": "pooled",
+   "crop": "Potato",
+   "year": "2026",
+   "weekly_cells": 42426,
+   "series": 2511,
+   "markets": 1610,
+   "records_in_cells": 194345
+  },
+  {
+   "design": "pooled",
+   "crop": "Wheat",
+   "year": "2024",
+   "weekly_cells": 43895,
+   "series": 2452,
+   "markets": 1309,
+   "records_in_cells": 160899
+  },
+  {
+   "design": "pooled",
+   "crop": "Wheat",
+   "year": "2025",
+   "weekly_cells": 52566,
+   "series": 3610,
+   "markets": 1890,
+   "records_in_cells": 210586
+  },
+  {
+   "design": "pooled",
+   "crop": "Wheat",
+   "year": "2026",
+   "weekly_cells": 62551,
+   "series": 5373,
+   "markets": 1752,
+   "records_in_cells": 226531
+  }
+ ],
+ "missing_weeks": {
+  "faq_only|Onion": {
+   "weeks_in_window": 141,
+   "weeks_with_no_cell": 0,
+   "series": 2552,
+   "median_observed_weeks": 23.0,
+   "median_missing_share_within_span": 0.049,
+   "p90_missing_share_within_span": 0.75,
+   "series_with_gap_ge_4_weeks": 931,
+   "series_lt_8_weeks": 854
+  },
+  "faq_only|Potato": {
+   "weeks_in_window": 141,
+   "weeks_with_no_cell": 0,
+   "series": 2440,
+   "median_observed_weeks": 23.5,
+   "median_missing_share_within_span": 0.029,
+   "p90_missing_share_within_span": 0.75,
+   "series_with_gap_ge_4_weeks": 845,
+   "series_lt_8_weeks": 830
+  },
+  "faq_only|Wheat": {
+   "weeks_in_window": 141,
+   "weeks_with_no_cell": 0,
+   "series": 7100,
+   "median_observed_weeks": 7.0,
+   "median_missing_share_within_span": 0.184,
+   "p90_missing_share_within_span": 0.833,
+   "series_with_gap_ge_4_weeks": 3110,
+   "series_lt_8_weeks": 3716
+  },
+  "faq_local|Onion": {
+   "weeks_in_window": 141,
+   "weeks_with_no_cell": 0,
+   "series": 3661,
+   "median_observed_weeks": 21.0,
+   "median_missing_share_within_span": 0.043,
+   "p90_missing_share_within_span": 0.714,
+   "series_with_gap_ge_4_weeks": 1316,
+   "series_lt_8_weeks": 1156
+  },
+  "faq_local|Potato": {
+   "weeks_in_window": 141,
+   "weeks_with_no_cell": 0,
+   "series": 3629,
+   "median_observed_weeks": 21.0,
+   "median_missing_share_within_span": 0.011,
+   "p90_missing_share_within_span": 0.727,
+   "series_with_gap_ge_4_weeks": 1142,
+   "series_lt_8_weeks": 1256
+  },
+  "faq_local|Wheat": {
+   "weeks_in_window": 141,
+   "weeks_with_no_cell": 0,
+   "series": 7429,
+   "median_observed_weeks": 7.0,
+   "median_missing_share_within_span": 0.176,
+   "p90_missing_share_within_span": 0.833,
+   "series_with_gap_ge_4_weeks": 3217,
+   "series_lt_8_weeks": 3876
+  },
+  "pooled|Onion": {
+   "weeks_in_window": 141,
+   "weeks_with_no_cell": 0,
+   "series": 4016,
+   "median_observed_weeks": 22.0,
+   "median_missing_share_within_span": 0.037,
+   "p90_missing_share_within_span": 0.715,
+   "series_with_gap_ge_4_weeks": 1413,
+   "series_lt_8_weeks": 1220
+  },
+  "pooled|Potato": {
+   "weeks_in_window": 141,
+   "weeks_with_no_cell": 0,
+   "series": 3984,
+   "median_observed_weeks": 22.0,
+   "median_missing_share_within_span": 0.011,
+   "p90_missing_share_within_span": 0.718,
+   "series_with_gap_ge_4_weeks": 1219,
+   "series_lt_8_weeks": 1307
+  },
+  "pooled|Wheat": {
+   "weeks_in_window": 141,
+   "weeks_with_no_cell": 0,
+   "series": 7940,
+   "median_observed_weeks": 7.0,
+   "median_missing_share_within_span": 0.153,
+   "p90_missing_share_within_span": 0.839,
+   "series_with_gap_ge_4_weeks": 3359,
+   "series_lt_8_weeks": 4053
+  }
+ },
+ "continuity": {
+  "faq_only|Onion": {
+   "pre_relaunch_series": 1473,
+   "post_relaunch_series": 1237,
+   "continuing": 289,
+   "continuity_pct": 19.6,
+   "ended_at_relaunch": 1184,
+   "new_after_relaunch": 948
+  },
+  "faq_only|Potato": {
+   "pre_relaunch_series": 1346,
+   "post_relaunch_series": 1225,
+   "continuing": 292,
+   "continuity_pct": 21.7,
+   "ended_at_relaunch": 1054,
+   "new_after_relaunch": 933
+  },
+  "faq_only|Wheat": {
+   "pre_relaunch_series": 2956,
+   "post_relaunch_series": 4676,
+   "continuing": 606,
+   "continuity_pct": 20.5,
+   "ended_at_relaunch": 2350,
+   "new_after_relaunch": 4070
+  },
+  "faq_local|Onion": {
+   "pre_relaunch_series": 1735,
+   "post_relaunch_series": 2324,
+   "continuing": 496,
+   "continuity_pct": 28.6,
+   "ended_at_relaunch": 1239,
+   "new_after_relaunch": 1828
+  },
+  "faq_local|Potato": {
+   "pre_relaunch_series": 1597,
+   "post_relaunch_series": 2271,
+   "continuing": 352,
+   "continuity_pct": 22.0,
+   "ended_at_relaunch": 1245,
+   "new_after_relaunch": 1919
+  },
+  "faq_local|Wheat": {
+   "pre_relaunch_series": 2965,
+   "post_relaunch_series": 5052,
+   "continuing": 625,
+   "continuity_pct": 21.1,
+   "ended_at_relaunch": 2340,
+   "new_after_relaunch": 4427
+  },
+  "pooled|Onion": {
+   "pre_relaunch_series": 1763,
+   "post_relaunch_series": 2725,
+   "continuing": 549,
+   "continuity_pct": 31.1,
+   "ended_at_relaunch": 1214,
+   "new_after_relaunch": 2176
+  },
+  "pooled|Potato": {
+   "pre_relaunch_series": 1624,
+   "post_relaunch_series": 2671,
+   "continuing": 398,
+   "continuity_pct": 24.5,
+   "ended_at_relaunch": 1226,
+   "new_after_relaunch": 2273
+  },
+  "pooled|Wheat": {
+   "pre_relaunch_series": 3092,
+   "post_relaunch_series": 5472,
+   "continuing": 667,
+   "continuity_pct": 21.6,
+   "ended_at_relaunch": 2425,
+   "new_after_relaunch": 4805
+  }
+ },
+ "model_tables": {
+  "faq_only|Onion": {
+   "1": {
+    "rows": 80219,
+    "eligible_d41": 13221,
+    "first_eligible_origin": "2025-02-03"
+   },
+   "2": {
+    "rows": 77998,
+    "eligible_d41": 12755,
+    "first_eligible_origin": "2025-02-03"
+   },
+   "4": {
+    "rows": 74589,
+    "eligible_d41": 11882,
+    "first_eligible_origin": "2025-02-03"
+   }
+  },
+  "faq_only|Potato": {
+   "1": {
+    "rows": 79307,
+    "eligible_d41": 13821,
+    "first_eligible_origin": "2025-02-03"
+   },
+   "2": {
+    "rows": 77064,
+    "eligible_d41": 13307,
+    "first_eligible_origin": "2025-02-03"
+   },
+   "4": {
+    "rows": 73521,
+    "eligible_d41": 12346,
+    "first_eligible_origin": "2025-02-03"
+   }
+  },
+  "faq_only|Wheat": {
+   "1": {
+    "rows": 111932,
+    "eligible_d41": 10953,
+    "first_eligible_origin": "2025-02-10"
+   },
+   "2": {
+    "rows": 107672,
+    "eligible_d41": 10551,
+    "first_eligible_origin": "2025-02-10"
+   },
+   "4": {
+    "rows": 100931,
+    "eligible_d41": 9863,
+    "first_eligible_origin": "2025-02-10"
+   }
+  },
+  "faq_local|Onion": {
+   "1": {
+    "rows": 113916,
+    "eligible_d41": 21562,
+    "first_eligible_origin": "2025-02-03"
+   },
+   "2": {
+    "rows": 110430,
+    "eligible_d41": 20733,
+    "first_eligible_origin": "2025-02-03"
+   },
+   "4": {
+    "rows": 104935,
+    "eligible_d41": 19161,
+    "first_eligible_origin": "2025-02-03"
+   }
+  },
+  "faq_local|Potato": {
+   "1": {
+    "rows": 106217,
+    "eligible_d41": 16210,
+    "first_eligible_origin": "2025-02-03"
+   },
+   "2": {
+    "rows": 102920,
+    "eligible_d41": 15562,
+    "first_eligible_origin": "2025-02-03"
+   },
+   "4": {
+    "rows": 97447,
+    "eligible_d41": 14350,
+    "first_eligible_origin": "2025-02-03"
+   }
+  },
+  "faq_local|Wheat": {
+   "1": {
+    "rows": 117108,
+    "eligible_d41": 11426,
+    "first_eligible_origin": "2025-02-10"
+   },
+   "2": {
+    "rows": 112607,
+    "eligible_d41": 11013,
+    "first_eligible_origin": "2025-02-10"
+   },
+   "4": {
+    "rows": 105496,
+    "eligible_d41": 10317,
+    "first_eligible_origin": "2025-02-10"
+   }
+  },
+  "pooled|Onion": {
+   "1": {
+    "rows": 126679,
+    "eligible_d41": 24565,
+    "first_eligible_origin": "2025-02-03"
+   },
+   "2": {
+    "rows": 122827,
+    "eligible_d41": 23684,
+    "first_eligible_origin": "2025-02-03"
+   },
+   "4": {
+    "rows": 116778,
+    "eligible_d41": 22013,
+    "first_eligible_origin": "2025-02-03"
+   }
+  },
+  "pooled|Potato": {
+   "1": {
+    "rows": 118974,
+    "eligible_d41": 19296,
+    "first_eligible_origin": "2025-02-03"
+   },
+   "2": {
+    "rows": 115298,
+    "eligible_d41": 18588,
+    "first_eligible_origin": "2025-02-03"
+   },
+   "4": {
+    "rows": 109280,
+    "eligible_d41": 17282,
+    "first_eligible_origin": "2025-02-03"
+   }
+  },
+  "pooled|Wheat": {
+   "1": {
+    "rows": 130746,
+    "eligible_d41": 13288,
+    "first_eligible_origin": "2025-02-03"
+   },
+   "2": {
+    "rows": 125967,
+    "eligible_d41": 12825,
+    "first_eligible_origin": "2025-02-03"
+   },
+   "4": {
+    "rows": 118291,
+    "eligible_d41": 12027,
+    "first_eligible_origin": "2025-02-03"
+   }
+  }
+ },
+ "identities": {
+  "separate_pending_review": 2106,
+  "own": 1138,
+  "separate_not_mapped": 952,
+  "approved_mapping": 880,
+  "separate_unresolved": 162,
+  "separate_rejected": 28
+ },
+ "identity_records": {
+  "approved_mapping": 782892,
+  "own": 166625,
+  "separate_not_mapped": 345293,
+  "separate_pending_review": 551376,
+  "separate_rejected": 32817,
+  "separate_unresolved": 111308
+ },
+ "identity_usable_records": {
+  "approved_mapping": 748743,
+  "own": 164490,
+  "separate_not_mapped": 341349,
+  "separate_pending_review": 520843,
+  "separate_rejected": 26102,
+  "separate_unresolved": 110086
+ },
+ "exclusions_by_reason": {
+  "price_anomaly": {
+   "Onion|key_conflict": 9766,
+   "Onion|min_gt_max": 4,
+   "Onion|modal_outside_range": 571,
+   "Potato|key_conflict": 3007,
+   "Potato|min_gt_max": 1,
+   "Potato|modal_outside_range": 80,
+   "Wheat|key_conflict": 52488,
+   "Wheat|modal_outside_range": 6364
+  },
+  "r09_scale_error": {
+   "Onion": 1777,
+   "Potato": 693,
+   "Wheat": 335
+  },
+  "dedup": {
+   "Onion|exact_duplicate_removed": 1407,
+   "Onion|exact_duplicate_retained": 1407,
+   "Onion|identity_conflict": 9,
+   "Potato|exact_duplicate_removed": 1428,
+   "Potato|exact_duplicate_retained": 1428,
+   "Wheat|exact_duplicate_removed": 1038,
+   "Wheat|exact_duplicate_retained": 1038,
+   "Wheat|identity_conflict": 39
+  },
+  "partial_week_records": {
+   "Potato": 2136,
+   "Onion": 2009,
+   "Wheat": 1379
+  }
+ },
+ "r09u": {
+  "approved": false,
+  "flagged_not_excluded": {
+   "Onion": 2039,
+   "Potato": 1579,
+   "Wheat": 4
+  }
+ },
+ "date_range": {
+  "records": [
+   "2024-02-03",
+   "2026-10-20"
+  ],
+  "weeks": [
+   "2024-02-05",
+   "2026-10-12"
+  ]
+ }
+}

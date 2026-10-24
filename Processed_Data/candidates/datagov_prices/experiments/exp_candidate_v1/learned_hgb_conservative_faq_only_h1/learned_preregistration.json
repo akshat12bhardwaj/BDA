@@ -1,0 +1,43 @@
+{
+ "design": "faq_only",
+ "estimator": "Code.modelling.models.LEARNERS['hgb_conservative'] (unchanged)",
+ "estimator_params": {
+  "early_stopping": false,
+  "l2_regularization": 10.0,
+  "learning_rate": 0.05,
+  "max_iter": 200,
+  "max_leaf_nodes": 15,
+  "min_samples_leaf": 1000,
+  "random_state": 0
+ },
+ "evaluation_rows": "validation (target Sundays 2026-01-04 .. 2026-06-28), eligible_d41 at the origin; identical rows for learned and persistence",
+ "experiment": "exp-candidate-v1 / learned",
+ "features": {
+  "log1p_n_weeks_history": "log1p(number of observed weeks up to and including the origin week)",
+  "log_y_origin": "log(y_origin): origin-week median modal (Phase 8 anchor, log scale as in design_matrix)",
+  "month_cos": "cos(2*pi*(month-1)/12), same month",
+  "month_sin": "sin(2*pi*(month-1)/12), month of the origin week Thursday (Phase 8 calendar convention)",
+  "r_lag1": "lag1 / y_origin: median of the week before the origin week; NaN if that week has no cell",
+  "r_lag2": "lag2 / y_origin: two weeks before; NaN if absent",
+  "r_lag4": "lag4 / y_origin: four weeks before; NaN if absent",
+  "r_lag52": "lag52 / y_origin: 52 weeks before the ORIGIN week; NaN if absent (all series before 2025-02)",
+  "weeks_since_prev_obs": "weeks between the origin week and the series previous observed week; NaN for the first week"
+ },
+ "hashes": {
+  "Code/candidates/baselines_candidate.py": "7a68433c04e460dedc8a59d71cbdc7ee1d75ac3f0db223b55399f2738e23184f",
+  "Code/candidates/experiment_design.py": "30e1c37e4e75c5998c260a783d0cc4e9a14dd9f6207c9dfb6575010573548125",
+  "Code/candidates/learned_candidate.py": "f469de111a49d8c22c51f901ce26c472ad26491abd81a75ec1c53aa5fb809b89",
+  "Code/modelling/dataset.py": "19a483a9f1cd09c1c461526fda7f881bffd78f1ae4bac84528d17fed76d9c41d",
+  "Code/modelling/models.py": "42e7026bc2c0c49d54abaf693bd06f815c37f107d05e5486df33bde032f36670",
+  "dataset_manifest_sha256": "4a04140dc4abd00e8db7beb74f91b56c0102545feab6f9e4c5659f9e226127d6",
+  "protocol_lf_sha256": "a6b1240c4c4f80da15a02fea946ca5f79f07617d9ccbabb7479ebb65193ae9ee"
+ },
+ "horizon": 1,
+ "one_model_per": "crop (h = 1 only)",
+ "refit_rule": "phase8_quarterly",
+ "reps": 10000,
+ "seed": 20261022,
+ "selection_rule": "per crop: eligible for further consideration only if MAE(learned) < MAE(persistence) in 2026Q1 AND in 2026Q2, AND the market-clustered 95% CI of skill vs persistence is entirely above 0 in each quarter; identical eligible rows; 10000 replicates, seed 20261022; fixed before any training, never relaxed",
+ "target": "log(y_target / y_origin); prediction = y_origin * exp(model output) (Phase 8 log_ratio)",
+ "training_rule": "at refit T: all examples with target Sunday <= T whose series reached D-41 eligibility at an origin Sunday <= T, including that series earlier weeks (Phase 8 training_examples, eligible_by_refit)"
+}

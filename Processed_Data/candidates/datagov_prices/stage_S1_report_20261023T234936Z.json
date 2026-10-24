@@ -1,0 +1,43 @@
+{
+ "run": "20261023T234936Z",
+ "stage": "S1",
+ "source_url": "https://api.data.gov.in/resource/35985678-0d79-46b4-9ed6-6f13308a1d24",
+ "limit": 5000,
+ "offset": 0,
+ "sort": "none",
+ "record_identity": "canonical JSON (sorted keys) of all returned fields",
+ "partitions": [
+  {
+   "commodity": "Wheat",
+   "date": "2024-04-15",
+   "states_queried": 17,
+   "states_nonempty": 12,
+   "all_state_calls_ok": true,
+   "coarse": 797,
+   "union": 797,
+   "sum_part_totals": 797,
+   "missing_from_parts": 0,
+   "extra_in_parts": 0,
+   "overlap_between_parts": 0,
+   "equal": true
+  }
+ ],
+ "calls_this_run": 545,
+ "crop_days_expected": 264,
+ "status_counts": {
+  "pass": 264
+ },
+ "records_by_crop": {
+  "Onion": 44821,
+  "Potato": 45657,
+  "Wheat": 43473
+ },
+ "zero_record_crop_days": [],
+ "source_flags": {
+  "Onion: modal outside [min, max]": 286,
+  "Potato: modal outside [min, max]": 120,
+  "Wheat: modal outside [min, max]": 3329
+ },
+ "manifest_covers_period_exactly": true,
+ "accepted": true
+}

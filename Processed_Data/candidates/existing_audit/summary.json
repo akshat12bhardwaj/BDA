@@ -1,0 +1,282 @@
+{
+ "mandi": [
+  {
+   "crop": "Onion",
+   "raw_rows": 2624379,
+   "cleaned_rows": 2623671,
+   "raw_columns": 10,
+   "first_date": "2000-10-19",
+   "last_date": "2024-02-02",
+   "states": 32,
+   "districts": 512,
+   "markets": 1732,
+   "varieties": 25,
+   "modal_missing_or_zero_pct": 1.069,
+   "arrivals_unusable_pct": 0.005,
+   "dup_type": {
+    "unique": 2622895,
+    "exact_duplicate": 708,
+    "conflicting": 68
+   },
+   "arrivals_extreme_flagged": {
+    "none": 2592788,
+    "insufficient_history": 30409,
+    "review": 399,
+    "entry_error_suspected": 75
+   },
+   "price_extreme_flagged": {
+    "none": 2600917,
+    "review": 22330,
+    "scale_error_suspected": 422,
+    "no_reference": 2
+   },
+   "weather_match_pct": 25.25,
+   "apy_district_match_pct": 95.91,
+   "null_state_pct": 0.0,
+   "null_district_pct": 0.0,
+   "null_market_pct": 0.0,
+   "null_variety_pct": 0.0,
+   "null_arrivals_tonnes_pct": 0.0,
+   "null_min_price_rs_per_quintal_pct": 4.862,
+   "null_max_price_rs_per_quintal_pct": 4.582,
+   "null_modal_price_rs_per_quintal_pct": 1.047,
+   "null_reported_date_pct": 0.0,
+   "status_counts_modal": {
+    "ok": 2596197,
+    "zero_set_missing": 27431,
+    "missing_in_source": 43
+   },
+   "status_counts_arrivals": {
+    "ok": 2623662,
+    "zero_retained": 9
+   }
+  },
+  {
+   "crop": "Potato",
+   "raw_rows": 2764987,
+   "cleaned_rows": 2764417,
+   "raw_columns": 10,
+   "first_date": "2000-10-19",
+   "last_date": "2024-02-02",
+   "states": 33,
+   "districts": 505,
+   "markets": 1624,
+   "varieties": 22,
+   "modal_missing_or_zero_pct": 1.199,
+   "arrivals_unusable_pct": 0.008,
+   "dup_type": {
+    "unique": 2763691,
+    "exact_duplicate": 562,
+    "conflicting": 164
+   },
+   "arrivals_extreme_flagged": {
+    "none": 2734748,
+    "insufficient_history": 29208,
+    "review": 399,
+    "entry_error_suspected": 62
+   },
+   "price_extreme_flagged": {
+    "none": 2761661,
+    "review": 2339,
+    "scale_error_suspected": 415,
+    "no_reference": 2
+   },
+   "weather_match_pct": 23.6,
+   "apy_district_match_pct": 95.47,
+   "null_state_pct": 0.0,
+   "null_district_pct": 0.0,
+   "null_market_pct": 0.0,
+   "null_variety_pct": 0.0,
+   "null_arrivals_tonnes_pct": 0.0,
+   "null_min_price_rs_per_quintal_pct": 4.897,
+   "null_max_price_rs_per_quintal_pct": 4.598,
+   "null_modal_price_rs_per_quintal_pct": 1.176,
+   "null_reported_date_pct": 0.0,
+   "status_counts_modal": {
+    "ok": 2731906,
+    "zero_set_missing": 32501,
+    "missing_in_source": 10
+   },
+   "status_counts_arrivals": {
+    "ok": 2764414,
+    "zero_retained": 3
+   }
+  },
+  {
+   "crop": "Wheat",
+   "raw_rows": 2593767,
+   "cleaned_rows": 2593279,
+   "raw_columns": 10,
+   "first_date": "2001-03-16",
+   "last_date": "2024-02-01",
+   "states": 28,
+   "districts": 457,
+   "markets": 1988,
+   "varieties": 71,
+   "modal_missing_or_zero_pct": 0.55,
+   "arrivals_unusable_pct": 0.006,
+   "dup_type": {
+    "unique": 2592688,
+    "exact_duplicate": 485,
+    "conflicting": 106
+   },
+   "arrivals_extreme_flagged": {
+    "none": 2549035,
+    "insufficient_history": 43707,
+    "review": 484,
+    "entry_error_suspected": 53
+   },
+   "price_extreme_flagged": {
+    "none": 2592655,
+    "review": 471,
+    "scale_error_suspected": 148,
+    "no_reference": 5
+   },
+   "weather_match_pct": 25.23,
+   "apy_district_match_pct": 97.9,
+   "null_state_pct": 0.0,
+   "null_district_pct": 0.0,
+   "null_market_pct": 0.0,
+   "null_variety_pct": 0.0,
+   "null_arrivals_tonnes_pct": 0.0,
+   "null_min_price_rs_per_quintal_pct": 4.938,
+   "null_max_price_rs_per_quintal_pct": 4.724,
+   "null_modal_price_rs_per_quintal_pct": 0.514,
+   "null_reported_date_pct": 0.0,
+   "status_counts_modal": {
+    "ok": 2579948,
+    "zero_set_missing": 13326,
+    "missing_in_source": 5
+   },
+   "status_counts_arrivals": {
+    "ok": 2593265,
+    "zero_retained": 14
+   }
+  }
+ ],
+ "mandi_density": [
+  {
+   "crop": "Onion",
+   "markets_span_ge_1y": 1479,
+   "median_daily_density": 0.326,
+   "p25_daily_density": 0.11,
+   "markets_density_lt_25pct": 622,
+   "markets_reporting_in_2023": 1073,
+   "markets_reporting_after_2024_01_01": 788
+  },
+  {
+   "crop": "Potato",
+   "markets_span_ge_1y": 1424,
+   "median_daily_density": 0.381,
+   "p25_daily_density": 0.137,
+   "markets_density_lt_25pct": 510,
+   "markets_reporting_in_2023": 1036,
+   "markets_reporting_after_2024_01_01": 778
+  },
+  {
+   "crop": "Wheat",
+   "markets_span_ge_1y": 1810,
+   "median_daily_density": 0.141,
+   "p25_daily_density": 0.04,
+   "markets_density_lt_25pct": 1091,
+   "markets_reporting_in_2023": 1162,
+   "markets_reporting_after_2024_01_01": 660
+  }
+ ],
+ "weather": {
+  "rows": 369610,
+  "locations": 46,
+  "first": "2001-01-01",
+  "last": "2022-12-31",
+  "null_pct": {
+   "temperature_2m_mean": 0.0,
+   "temperature_2m_max": 0.0,
+   "temperature_2m_min": 0.0,
+   "rain_sum": 0.0,
+   "relative_humidity_2m_mean": 0.0,
+   "wind_speed_10m_mean": 0.0,
+   "et0_fao_evapotranspiration": 0.0
+  },
+  "dup_keys": 0,
+  "tmax_lt_tmin": 0,
+  "rain_negative": 0,
+  "tmax_gt_50": 0
+ },
+ "apy": [
+  {
+   "crop": "Onion",
+   "rows": 14822,
+   "years": 26,
+   "first": "1997-1998",
+   "last": "2022-2023",
+   "states": 25,
+   "districts": 581,
+   "area_null_pct": 0.0,
+   "production_null_pct": 0.36,
+   "production_zero_pct": 0.04,
+   "yield_null_pct": 0.0,
+   "units": "['Hectare'] ['Tonnes']",
+   "dup_keys": 0
+  },
+  {
+   "crop": "Potato",
+   "rows": 14108,
+   "years": 26,
+   "first": "1997-1998",
+   "last": "2022-2023",
+   "states": 28,
+   "districts": 615,
+   "area_null_pct": 0.0,
+   "production_null_pct": 0.19,
+   "production_zero_pct": 0.07,
+   "yield_null_pct": 0.0,
+   "units": "['Hectare'] ['Tonnes']",
+   "dup_keys": 0
+  },
+  {
+   "crop": "Wheat",
+   "rows": 12905,
+   "years": 26,
+   "first": "1997-1998",
+   "last": "2022-2023",
+   "states": 31,
+   "districts": 642,
+   "area_null_pct": 0.0,
+   "production_null_pct": 0.22,
+   "production_zero_pct": 0.02,
+   "yield_null_pct": 0.0,
+   "units": "['Hectare'] ['Tonnes']",
+   "dup_keys": 0
+  }
+ ],
+ "agri_market": {
+  "rows": 39060,
+  "cols": 11,
+  "commodities": {
+   "State Name": 1,
+   "District Name": 5,
+   "Market Name": 26,
+   "Commodity": 5,
+   "Variety": 12,
+   "Group": 4,
+   "Arrivals (Tonnes)": 2343,
+   "Min Price (Rs./Quintal)": 2032,
+   "Max Price (Rs./Quintal)": 3258,
+   "Modal Price (Rs./Quintal)": 4310,
+   "Reported Date": 1675
+  }
+ },
+ "final_data": {
+  "rows": 4151,
+  "cols": 6,
+  "null_pct": {
+   "State": 0.0,
+   "State_code": 0.0,
+   "District": 0.0,
+   "District_code": 0.0,
+   "Market_code": 0.0,
+   "Market": 0.0
+  },
+  "dup_market_code": 0
+ }
+}
