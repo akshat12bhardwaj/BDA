@@ -11,7 +11,7 @@ from pathlib import Path
 import pytest
 
 NB_DIR = Path("Notebooks")
-READ_ONLY = ["Phase_08_Price_Forecasting.ipynb", "BDA_Project_Demonstration.ipynb"]
+READ_ONLY = ["Phase_08_Price_Forecasting.ipynb", "Overview_00_Project_Demonstration.ipynb"]
 FORBIDDEN = ["run_build(", "run_models(", "run_test_evaluation(", "run_baselines(", "run_uncertainty(", "run_selection(",
              "run_error_profile(", "run_aq1(", "run_arrivals_baselines(", "run_audit(", "fit_predict(", "freeze(",
              ".to_csv(", ".to_parquet(", "write_config(", "run_test(", "preflight("]
@@ -59,5 +59,5 @@ def test_notebook_links_resolve(name):
 
 
 def test_demo_points_to_both_phase_notebooks():
-    text = "\n".join("".join(c["source"]) for c in load("BDA_Project_Demonstration.ipynb")["cells"])
+    text = "\n".join("".join(c["source"]) for c in load("Overview_00_Project_Demonstration.ipynb")["cells"])
     assert "Phase_08_Price_Forecasting.ipynb" in text and "Phase_09_Arrivals_Model_Experiments.ipynb" in text

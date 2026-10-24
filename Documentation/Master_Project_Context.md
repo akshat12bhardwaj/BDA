@@ -32,10 +32,28 @@ Build a data-driven agricultural trading decision-support system for Indian agri
 **Course deliverables outside the phase numbering (implemented 2026-10-23).** This is **not** Phase 11: D-49 is not accepted, so the phase names and numbers are unchanged. The deliverables are:
 - a PySpark / Spark SQL ETL over the raw mandi files, with Spark/pandas parity;
 - a Spark RDD MapReduce-style demonstration;
-- a read-only Streamlit dashboard;
+- a read-only FastAPI service (`Code/api/`) and a React + TypeScript + Vite + Tailwind frontend (`frontend/`, 2026-10-24). These replace the Streamlit dashboard, which was removed on 2026-10-24; `Code/app/data.py` is kept;
+- Phase 11 routing and storage, partly implemented on 2026-10-24 (`Code/routing/`, `Processed_Data/routing/`; record in `Phase_11_Routing_Plan.md` §0):
+  - the verified node table (11a);
+  - OSM road routes between the 46 points (11b/11c);
+  - an OSM-reported warehouse table with an explicit data contract (11e storage);
+  - no costs, traffic or recommendations;
 - the final report and slides (§8m).
 
-Hadoop/HDFS is **not implemented**; that is pending instructor guidance.
+Hadoop/HDFS is **outside the implementation scope** (D-54, 2026-10-25): it is not mandatory for this course project and was not implemented or benchmarked. The Big Data component is PySpark / Spark SQL in local mode over local files; PySpark is an optional venv dependency, not in `requirements.txt`.
+
+**Data source review (2026-10-24, evidence only, nothing approved):** `Documentation/Data_Source_Review.md`.
+- It audits the current data, validates replacement candidates on samples and proposes a migration plan.
+- The current mandi data matches the official data.gov.in/AGMARKNET feed record for record. The candidates can only *extend* it (prices after 2024-02; Wheat APY 2023-25); they cannot replace it.
+- Raw samples are in `Dataset_Candidates/` (git-ignored), outputs in `Processed_Data/candidates/`, scripts in `Code/candidates/`.
+
+**Candidate extension outcome (2026-10-24, D-50 – D-53):**
+- **Dataset:** `candidate-prices-v1.1` extends prices to 2026-10-20 (price only; nothing before 2024-02-03).
+- **Experiments:** the pre-registered price-only and price + weather learned models both failed on validation. Persistence stays the default, and weather stays out of the pipeline.
+- **Final test:** the one-time persistence test (D-52) is recorded in D-53. Its test window is now consumed.
+- **Notebooks:** `Research_Extension_01` – `Research_Extension_04` (read-only). The full reading order is in the root `README.md`.
+- **Tests:** current counts are in the root `README.md`. The test sections below are dated history.
+- **2026-10-25:** `Documentation/Final/` (report, slides, setup guide, demo script, checklist, screenshots) was removed by the project owner, together with its slide generator `Code/utils/build_final_slides.py`. The setup guide is merged into the root `README.md`; everything else is in Git history at `498e677`. References to `Documentation/Final/` below are dated history.
 
 ## 2b. Final Selected Crops (Phase 2 outcome)
 
@@ -51,7 +69,7 @@ Hadoop/HDFS is **not implemented**; that is pending instructor guidance.
 
 This machine has two Pythons. A plain `jupyter lab` starts Anaconda's JupyterLab 4.2.5 with a Python 3.12 kernel (scikit-learn 1.5). The project uses `C:\Python313\python.exe` (scikit-learn 1.8).
 
-- **Interactive:** `cd <project root>`, then `C:\Python313\python.exe -m jupyterlab`. Its `python3` kernel resolves to `C:\Python313\python.exe`. Open `Notebooks/BDA_Project_Demonstration.ipynb`.
+- **Interactive:** `cd <project root>`, then `C:\Python313\python.exe -m jupyterlab`. Its `python3` kernel resolves to `C:\Python313\python.exe`. Open `Notebooks/Overview_00_Project_Demonstration.ipynb`.
 - **Execute from a clean kernel:** `C:\Python313\python.exe Code\utils\run_notebook.py Notebooks\<name>.ipynb`.
 - **Regenerate a notebook:** `C:\Python313\python.exe Code\utils\build_phase08_notebook.py`, `build_phase09_notebook.py`, `build_phase10_notebook.py` or `build_demo_notebook.py`.
 
@@ -101,9 +119,17 @@ BDA/
 │   │   ├── mandi_spark.py                            (PySpark ETL: header check, explicit schema, quality counts, Spark SQL Q1–Q3)
 │   │   ├── parity.py                                 (Spark Q1 vs the Phase 4 pandas mandi_apy_district_year.csv)
 │   │   └── mapreduce_demo.py                         (Spark RDD map/reduceByKey pattern + word count; not Hadoop)
-│   ├── app/                                          (course deliverable: read-only Streamlit dashboard)
-│   │   ├── data.py                                   (loaders that enforce the boundaries: no holdout, no reserved production values, no writes)
-│   │   └── streamlit_app.py                          (six tabs)
+│   ├── app/                                          (course deliverable: read-only data layer; the Streamlit app was removed 2026-10-24)
+│   │   └── data.py                                   (loaders that enforce the boundaries: no holdout, no reserved production values, no writes)
+│   ├── api/                                          (course deliverable, 2026-10-24: read-only FastAPI)
+│   │   ├── main.py                                   (markets, outlook, production, locations, about over app/data.py)
+│   │   └── logistics.py                              (/api/routes*, /api/warehouses* over Processed_Data/routing/)
+│   ├── routing/                                      (Phase 11, partly implemented 2026-10-24)
+│   │   ├── nodes.py                                  (11a verified node table v1)
+│   │   ├── osm.py                                    (pinned Geofabrik snapshot fetch; stdlib shapefile reader)
+│   │   ├── network.py / router.py                    (OSM road graph; Dijkstra via scipy)
+│   │   ├── pipeline.py                               (11b/11c OD matrix, geometry, node-warehouse distances, manifest)
+│   │   └── storage.py                                (warehouse table + data contract validation)
 │   ├── eda/                                          (Phase 7)
 │   │   └── analysis.py                               (EDA summary computations: run_eda())
 │   ├── features/                                     (Phase 6)
@@ -131,7 +157,7 @@ BDA/
 │   ├── Phase_08_Price_Forecasting.ipynb              (Phase 8 walkthrough, built 2026-10-23; read-only over frozen artifacts; it was planned but never built before)
 │   ├── Phase_09_Arrivals_Model_Experiments.ipynb     (Phase 9; run with Python 3.13 via Code/utils/run_phase09_notebook.py; D-44 approved)
 │   ├── Phase_10_Production_Context.ipynb             (Phase 10 walkthrough; read-only; reserved years as counts only)
-│   └── BDA_Project_Demonstration.ipynb               (teacher demonstration; read-only; links to the phase notebooks)
+│   └── Overview_00_Project_Demonstration.ipynb               (teacher demonstration; read-only; links to the phase notebooks)
 ├── Processed_Data/
 │   ├── phase1_mandi_file_record_counts.csv           (325-row cache: crop → approx record count)
 │   ├── crop_name_mapping.csv                         (320 rows: normalization result per candidate)
@@ -193,7 +219,6 @@ BDA/
     ├── Phase_10_Production_Context_Plan.md (Phase 10 plan; D-46 – D-48 accepted; implementation record §17)
     ├── BigData_and_Dashboard_Spec.md (spec for the Spark component and dashboard)
     ├── Phase_11_Routing_Plan.md      (PLAN ONLY: routing / weather / road-condition audit and roadmap; nothing implemented)
-    ├── Final/                        (report, slides, demo script, contribution matrix, setup, checklist, screenshots/)
     └── Future_Work_Roadmap.md
 ```
 
@@ -405,9 +430,9 @@ Built under D-46 – D-48, accepted 2026-10-23. The phase name stays "Supply Pre
 
 **Environment:** isolated, outside the repository and outside OneDrive.
 - Eclipse Temurin JDK 21.0.12.1+1 (portable zip, SHA-256 verified).
-- A venv (`--system-site-packages`) with PySpark 4.2.0 and Streamlit 1.57.0.
+- A venv (`--system-site-packages`) with PySpark 4.2.0, FastAPI 0.138.0 and Uvicorn 0.49.0 (Streamlit 1.57.0 was installed for the dashboard removed on 2026-10-24; it is unused and was not uninstalled).
 - The global Java (24), PATH and `C:\Python313` are unchanged.
-- `JAVA_HOME` is set per process. Setup steps: `Documentation/Final/README_Setup.md`.
+- `JAVA_HOME` is set per process. Setup steps: root `README.md`, "Optional: Spark environment".
 
 **PySpark ETL (`Code/bigdata/mandi_spark.py`)**
 - **Header and schema:** an exact header check runs before the explicit schema is applied. In a probe, Spark's `enforceSchema=false` did not reject a renamed header, so the module checks it itself.
@@ -448,14 +473,19 @@ Built under D-46 – D-48, accepted 2026-10-23. The phase name stays "Supply Pre
 - Observed: 108–116 s end to end on `local[8]`, on one machine (28 logical cores, 32 GB). This is not a cluster benchmark.
 - Two runs produced byte-identical files (8 outputs; `run_log.csv` excluded by design).
 
-**Dashboard (`Code/app/`)**
-- **Six tabs:** Overview, Price forecasting, Arrivals forecasting, Production context, Big Data (Spark), Limitations.
+**Application (2026-10-24): React frontend + read-only FastAPI.**
+- The Streamlit app and its AppTests were removed on 2026-10-24. The same six pages now live in `frontend/`, served by `Code/api/`.
+- Routes and Warehouses now use Phase 11 outputs (see `Phase_11_Routing_Plan.md` §0).
+- The historical record of the Streamlit dashboard follows.
+
+**Dashboard (`Code/app/`, Streamlit, 2026-10-23; removed 2026-10-24)**
+- **Six pages** (redesigned 2026-10-23, sidebar navigation): Overview (KPIs, price trend, top states, coverage), Markets (state and district comparisons, APY production to 2018-19), Price Outlook (forecast vs baseline for prices and arrivals; metrics in a details section), Routes (46 verified district points, historical weather, honest 'not available yet' route state), Warehouses (empty state: no verified storage data), About & Data (sources, methods, metrics, Spark processing, reserved years, limitations).
 - **Restrictions enforced in `data.py`:**
   - price predictions: validation only (origin ≤ 2020-12-27); the 2021–2022 test appears as metrics only;
   - arrivals: `val_2019`, `val_2020`, `test_2021` and `test_2022` only;
   - production values: source years ≤ 2018-19 only; reserved years as counts from the Phase 10 manifest;
   - no 2023+ data; no file writes.
-- **Screenshots:** `Documentation/Final/screenshots/app_1_overview.png` … `app_6_limitations.png`.
+- **Screenshots:** `Documentation/Final/screenshots/app_1_overview.png` … `app_6_limitations.png` (removed from the working tree on 2026-10-24 as superseded by `screenshots/react/`; still in Git history at `498e677`).
 
 **Tests (2026-10-23)**
 - Full suite in the venv: 279 passed, 1 skipped (opt-in real-data parity). Project Python: 268 passed, 3 skipped (the Spark and Streamlit tests skip without the venv).
@@ -465,7 +495,7 @@ Built under D-46 – D-48, accepted 2026-10-23. The phase name stays "Supply Pre
 
 **Run** (from the project root, `JAVA_HOME` set):
 - `<venv>\Scripts\python.exe -B -m Code.bigdata.mandi_spark`
-- `<venv>\Scripts\streamlit.exe run Code\app\streamlit_app.py --server.headless true --browser.gatherUsageStats false`
+- `<venv>\Scripts\python.exe -m uvicorn Code.api.main:app --host 127.0.0.1 --port 8000`, then `cd frontend; npm run dev` (the Streamlit command was retired on 2026-10-24)
 
 **Correction recorded (Onion, one week ahead, D-42 test).** A working-session course-alignment audit, which is not a repository document, said this model had "1.6% lower MAE". That is wrong. As D-42, `Phase_08_Modelling_Plan.md` and `test_results.csv` record:
 - combined test: **1.58% worse** than persistence on MAE;
@@ -474,7 +504,7 @@ Built under D-46 – D-48, accepted 2026-10-23. The phase name stays "Supply Pre
 
 The dashboard, report and slides state this correctly. No repository document had the wrong figure.
 
-**Deliverables** (`Documentation/Final/`)
+**Deliverables** (`Documentation/Final/`, removed 2026-10-25; in Git history at `498e677`)
 - `Final_Report.md`
 - `Final_Presentation.pptx`, generated by `Code/utils/build_final_slides.py` with numbers read from the outputs
 - `Demo_Script.md`, including the video plan
@@ -483,7 +513,7 @@ The dashboard, report and slides state this correctly. No repository document ha
 - `Requirements_Checklist.md`
 
 **Limitations**
-- **Hadoop/HDFS:** not implemented, pending instructor guidance. No WSL distro or Docker is installed.
+- **Hadoop/HDFS:** outside the implementation scope, not mandatory (D-54). Not implemented; no WSL distro or Docker is installed.
 - **Local only:** the run and the dashboard are local.
 - **Untracked inputs:** the dashboard reads local parquet predictions that are not in Git, so a fresh clone must rerun the pipelines.
 - **To be supplied by the team:** names, roles, the contribution matrix, and the report's AI-assistance disclosure (§10).

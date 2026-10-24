@@ -276,7 +276,7 @@ The `freeze` stage runs once only and refuses a second run. The build refuses to
 
 ## Big Data component and dashboard lineage (course deliverables, 2026-10-23; not a numbered phase)
 
-Produced by `Code/bigdata/` (PySpark 4.2.0, JDK 21, local mode) and read by `Code/app/` (Streamlit 1.57.0). Spark reads only; pandas writes the outputs, to the new folder `Processed_Data/bigdata/`. No Phase 4–10 artifact is modified.
+Produced by `Code/bigdata/` (PySpark 4.2.0, JDK 21, local mode) and read by `Code/app/data.py`, served by the FastAPI service `Code/api/` to the React frontend (the Streamlit dashboard was removed on 2026-10-24). Spark reads only; pandas writes the outputs, to the new folder `Processed_Data/bigdata/`. No Phase 4–10 artifact is modified.
 
 ```
 Dataset/India Commodity Wise Mandi Dataset/{Onion,Potato,Wheat}.csv  (file SHA-256 vs integration/audit/source_fingerprints.csv)
@@ -301,6 +301,6 @@ Code/app/data.py reads: Phase 8 validation predictions + test metrics · Phase 9
 | `run_manifest.csv` | tool versions, window, input checks, row counts, output hashes (no timestamps; byte-reproducible) | — |
 | `run_log.csv` | observed seconds per stage (append-only; not reproducible by design) | — |
 
-**Dashboard outputs:** none. The app is read-only. Screenshots taken from the running app are in `Documentation/Final/screenshots/`.
+**Dashboard outputs:** none. The app is read-only. The app screenshots formerly in `Documentation/Final/screenshots/` were removed on 2026-10-25.
 
-**Reproduce:** follow `Documentation/Final/README_Setup.md`. Tests: `Code/tests/test_bigdata_spark.py` (synthetic fixture, compared with Phase 4's own pandas functions; the real-data parity test runs with `BDA_SPARK_REAL=1`) and `Code/tests/test_app.py`.
+**Reproduce:** follow the root `README.md` ("Optional: Spark environment"). Tests: `Code/tests/test_bigdata_spark.py` (synthetic fixture, compared with Phase 4's own pandas functions; the real-data parity test runs with `BDA_SPARK_REAL=1`) and `Code/tests/test_app.py`.

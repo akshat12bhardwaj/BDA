@@ -11,6 +11,7 @@
 - p5, A3: focus "Big Data Tools, Hadoop and Pyspark"; Final Functional Application.
 
 **Hadoop / HDFS:** excluded until the instructor clarifies whether the course requires it.
+- **Resolved 2026-10-25 (D-54):** Hadoop / HDFS is not mandatory for this course project and is **outside the implementation scope**. It was not implemented, installed or benchmarked. The Big Data component as built is PySpark / Spark SQL in local mode over local files (§2 onward); PySpark lives only in the optional venv of §1, not in the default `requirements.txt`.
 
 ---
 
@@ -189,6 +190,8 @@ $env:JAVA_HOME="<ENV>\jdk-21.0.12.1+1"; <ENV>\venv\Scripts\python.exe -B -m Code
 | **real-data parity** (opt-in: `BDA_SPARK_REAL=1`) | 0 mismatches on the 16,673 reference rows |
 
 ## 6. Read-only Streamlit dashboard — `Code/app/`
+
+> **Superseded 2026-10-24.** The Streamlit app (`Code/app/streamlit_app.py`) and its AppTests were removed; the React frontend (`frontend/`) over the FastAPI service (`Code/api/`) replaces it. `Code/app/data.py` is kept and still enforces the boundaries below. This section is kept as the historical spec.
 
 **Data layer:** `Code/app/data.py` is pure pandas and testable without Streamlit. Every loader enforces its boundary.
 

@@ -1,7 +1,7 @@
 """
-Generator for Notebooks/BDA_Project_Demonstration.ipynb, the teacher-facing project demonstration.
+Generator for Notebooks/Overview_00_Project_Demonstration.ipynb, the teacher-facing project demonstration.
 Run `python Code/utils/build_demo_notebook.py` from the project root, then execute with
-`C:\\Python313\\python.exe Code/utils/run_notebook.py Notebooks/BDA_Project_Demonstration.ipynb`.
+`C:\\Python313\\python.exe Code/utils/run_notebook.py Notebooks/Overview_00_Project_Demonstration.ipynb`.
 
 Read-only: every number comes from saved project outputs or from real feature rows dated <= 2020-12-27.
 Nothing is retrained, re-tested or written; future phases are labelled as planned.
@@ -42,7 +42,9 @@ This notebook is a guided tour of the project for a live demonstration. It reads
 - [Phase 8 — Price Forecasting](Phase_08_Price_Forecasting.ipynb)
 - [Phase 9 — Arrivals Model Experiments](Phase_09_Arrivals_Model_Experiments.ipynb)
 - [Phase 7 — EDA](Phase_07_EDA.ipynb)
-- [Phase 6 — Feature Engineering](Phase_06_Feature_Engineering.ipynb)""")
+- [Phase 6 — Feature Engineering](Phase_06_Feature_Engineering.ipynb)
+- [Research Extension 3 — Final persistence test on 2024–2026 candidate data](Research_Extension_03_Final_Persistence_Test.ipynb)
+- [Research Extension 4 — Conclusions and the full reading order](Research_Extension_04_Conclusions_and_Project_Guide.ipynb)""")
 
 code("""# Setup: locate the project root, import the project's own modules, define the shared paths
 import os, sys
@@ -77,7 +79,7 @@ md("""## 1. Project overview
 
 **Why forecasts matter:** the profit of a trade is *future sale price − purchase price − transport and storage costs*, and volumes are limited by how much actually arrives at a market. Note that arrivals measure market *supply activity*, **not consumer demand**.
 
-**Status today:** the data pipeline and both forecasting phases are built and evaluated. The optimisation layer is **planned**.""")
+**Status today:** the data pipeline, both forecasting phases, the production context, road routes, mapped warehouses and a read-only React + FastAPI application are built. Transport costs and the optimisation layer are **planned**.""")
 
 md("""## 2. The data
 
@@ -123,9 +125,9 @@ md("""## 3. Project pipeline: built vs planned""")
 code("""# Workflow diagram: green = implemented and evaluated, grey dashed = planned (not implemented)
 steps = [("Raw mandi + APY\\n+ weather data", True), ("Integration &\\ncleaning (Ph 4-5)", True),
          ("Leakage-safe\\nfeatures (Ph 6)", True), ("EDA &\\nreadiness (Ph 7)", True),
-         ("Price forecast\\n(Ph 8, frozen D-42)", True), ("Arrivals forecast\\n(Ph 9, D-45 selected,\\ntested once)", True),
-         ("Production context\\n(Ph 10, planned)", False), ("Routes & transport\\ncost (Ph 11, planned)", False),
-         ("MILP decision\\noptimiser (Ph 12, planned)", False)]
+         ("Price forecast\\n(Ph 8, frozen D-42)", True), ("Arrivals forecast\\n(Ph 9, D-45,\\ntested once)", True),
+         ("Production\\ncontext\\n(Ph 10)", True), ("Routes &\\nwarehouses\\n(Ph 11, no costs)", True),
+         ("MILP decision\\noptimiser\\n(Ph 12, planned)", False)]
 fig, ax = plt.subplots(figsize=(14, 3.2)); ax.axis("off"); ax.set_xlim(0, len(steps) * 1.55); ax.set_ylim(0, 1)
 for i, (label, built) in enumerate(steps):
     x = i * 1.55
@@ -266,7 +268,7 @@ md("""**What the flags mean:**
 
 md("## 7. Reproducibility")
 code("""# How to rerun every part (from the project root, with the project's Python 3.13)
-nbs = ["Phase_08_Price_Forecasting.ipynb", "Phase_09_Arrivals_Model_Experiments.ipynb", "BDA_Project_Demonstration.ipynb"]
+nbs = ["Phase_08_Price_Forecasting.ipynb", "Phase_09_Arrivals_Model_Experiments.ipynb", "Overview_00_Project_Demonstration.ipynb"]
 for nb in nbs:
     print(("OK      " if (Path("Notebooks") / nb).exists() else "MISSING ") + f"Notebooks/{nb}")
 print()
@@ -297,11 +299,15 @@ md("""## 8. Limitations and future work
 - No saved model artifacts for live use.
 - **Nothing here is a real-time forecast**; all results are historical.
 
+**Built since the forecasting phases:**
+- **Phase 10:** descriptive district production context (D-46 – D-48).
+- **Phase 11 (part):** road routes between the 46 verified districts and 168 OSM-mapped warehouses. There are no sourced transport costs, and warehouse capacity is unverified.
+- A read-only React + FastAPI application.
+- A separately versioned **candidate** price extension for 2024–2026 (Research Extensions 1–4; not a production model).
+
 **Planned, not implemented:**
-- **Phase 10:** production context.
-- **Phase 11:** market coordinates, routes and transport costs. There are verified coordinates for only 46 districts and no sourced cost data yet.
-- **Phase 12:** MILP buy / store / move / sell optimisation.
-- A dashboard.""")
+- Transport costs and market-level coordinates.
+- **Phase 12:** MILP buy / store / move / sell optimisation.""")
 
 md("## 9. Takeaway")
 code("""# The headline numbers, computed from the saved results
@@ -313,13 +319,14 @@ print(f"Arrivals (Phase 9): conservative boosting selected (D-45) in {len(passed
       f"persistence {passed[['rel_2019_pct', 'rel_2020_pct']].min().min():.1f}%-{passed[['rel_2019_pct', 'rel_2020_pct']].max().max():.1f}%, "
       f"one-time test {pt['rel_log_mae_improvement_pct'].min():.1f}%-{pt['rel_log_mae_improvement_pct'].max():.1f}% (log MAE).")
 print("Uncertain: performance beyond 2022 and under nationwide shocks; the 2023+ holdout is unused.")
-print("Next steps (each needs approval): commit this work; decide on the Phase 8 holdout protocol; start the planned Phases 10-12.")""")
+print("Next steps (each needs approval): transport costs and the Phase 12 optimiser; lawful arrivals data for 2024+; "
+      "score the 2023+ holdout once under its protocol.")""")
 
 nb = nbf.v4.new_notebook()
 nb["cells"] = cells
 nb["metadata"] = {"kernelspec": {"display_name": "Python 3", "language": "python", "name": "python3"},
                   "language_info": {"name": "python", "version": "3.13"}}
-out_path = "Notebooks/BDA_Project_Demonstration.ipynb"
+out_path = "Notebooks/Overview_00_Project_Demonstration.ipynb"
 with open(out_path, "w", encoding="utf-8") as f:
     nbf.write(nb, f)
 print("Notebook written to", out_path, "with", len(cells), "cells")
