@@ -1,0 +1,31 @@
+# Python dependencies, pinned to the versions the project was built and tested with (Python 3.13.7, Windows).
+# Install into a fresh environment:   python -m pip install -r requirements.txt
+# Setup details, the optional JDK + PySpark venv and the Node frontend: README.md "Setup"
+
+# data pipeline, models, notebooks (Phases 1-10, candidate experiments)
+pandas==2.3.3
+numpy==2.3.3
+pyarrow==24.0.0
+scikit-learn==1.8.0
+scipy==1.16.2
+matplotlib==3.10.6
+openpyxl==3.1.5          # APY codebook (.xlsx) in Phase 1
+requests==2.34.2         # weather and data.gov.in collectors (not needed to read saved outputs)
+
+# routing (Phase 11a-11e)
+shapely==2.1.2
+
+# read-only API behind the React frontend
+fastapi==0.138.0
+uvicorn==0.49.0
+httpx==0.28.1            # FastAPI TestClient in the API tests
+
+# notebooks, tests
+nbformat==5.10.4
+nbconvert==7.17.1
+ipykernel==7.3.0
+pytest==9.1.1
+
+# Optional, Big Data component only (rerunning Code.bigdata.mandi_spark): install separately in the venv with JDK 21
+# (README.md "Optional: Spark environment"); test_bigdata_spark.py skips without it. Hadoop / HDFS is not used (D-54).
+# pyspark==4.2.0

@@ -16,3 +16,33 @@ venv/
 
 # Course handout: contains the faculty member's contact details; kept locally, never published
 /BDA_CSE 3712_ProjectBased.pdf
+
+# React frontend: dependencies live outside OneDrive (node_modules is a junction); build output is generated
+frontend/node_modules/
+frontend/dist/
+*.tsbuildinfo
+
+# Third-party design reference frames (Navexa WMS video): local study material, not ours to publish
+Documentation/Reference/
+
+# Candidate replacement sources: raw samples kept locally, never committed (Documentation/Data_Source_Review.md)
+Dataset_Candidates/
+
+# Local secrets (e.g. .secrets/datagov_api_key): never committed
+.secrets/
+
+# Candidate files kept locally but not published: redistribution terms unresolved
+# (Agmarknet 2.0 licence unknown; IMD terms unstated; verbatim data.gov.in records). See Data_Source_Review.md.
+/Processed_Data/candidates/datagov/Onion_17-01-2024_fullday.csv
+/Processed_Data/candidates/datagov/Onion_18-06-2025_fullday.csv
+/Processed_Data/candidates/datagov/Onion_20-10-2026_fullday.csv
+/Processed_Data/candidates/datagov/post_2024_sample.json
+/Processed_Data/candidates/datagov/record_match_sample.csv
+/Processed_Data/candidates/datagov_prices/decisions_v1/mapping_decisions.csv
+/Processed_Data/candidates/datagov_prices/decisions_v1/medium_review_worksheet.csv
+/Processed_Data/candidates/datagov_prices/decisions_v1/r09u_s1_evidence.csv
+/Processed_Data/candidates/datagov_prices/identity_review_v1/high_confidence_validation.csv
+/Processed_Data/candidates/datagov_prices/review_packs/r09u_v1/r09u_flagged_records.csv
+/Processed_Data/candidates/datagov_prices/review_packs/r09u_v1/r09u_review_sample.csv
+/Processed_Data/candidates/weather_comparison_2022.csv
+/Processed_Data/candidates/weather_v1/imd_validation.csv

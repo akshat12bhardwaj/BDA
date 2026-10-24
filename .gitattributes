@@ -1,2 +1,7 @@
 # Auto detect text files and perform LF normalization
 * text=auto
+
+# D-52 evidence and frozen code: stored byte-exact, so the freeze hashes verify on any clone (D-53)
+Processed_Data/candidates/** -text
+Code/candidates/** -text
+Code/tests/test_persistence_test_candidate.py -text
