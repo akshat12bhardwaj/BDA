@@ -1,10 +1,118 @@
 # Phase 11 Plan — Logistics, Routing and Weather-Aware Route Assessment (proposal)
 
-**Status: [PLAN ONLY, 2026-10-23; nothing implemented; no decision accepted].**
-- **Re-audited 2026-10-23** after the repository cleanup and history path fix: every finding in §1 is unchanged. There is still no routing, storage or cost code, data or test.
+**Status: [PARTLY IMPLEMENTED, 2026-10-24].** Steps 11a, 11b and 11c, and the storage part of 11e, are built on the owner's instruction of 2026-10-24. 11d (weather along routes), the cost part of 11e, and 11f's decision support are not. See §0. §1 below is the 2026-10-23 audit, kept as written.
 - **Numbering:** roadmap Phase 11 ("Logistics / Dijkstra"). The number and name are unchanged, because D-49 (renaming) is not accepted.
 - **Not changed:** nothing in this plan alters D-01 – D-48, any frozen output, or the evaluation boundaries.
 - **Crops:** the project's selected crops are **Onion, Potato and Wheat** (D-10). Tomato was considered and excluded at selection (insufficient APY coverage). The design below takes any crop as a parameter, so Tomato or another crop can be added later through the normal selection evidence.
+
+---
+
+## 0. Implementation record (2026-10-24)
+
+### RQ-2 — network source: decision and evidence
+
+| Option | Licence / cost | Coverage | Limits | Windows / setup | Verdict |
+|---|---|---|---|---|---|
+| **Self-built OSM graph**: Geofabrik India zone shapefiles, roads layer; Dijkstra in `scipy.sparse.csgraph` | ODbL 1.0, free | all India; quality varies by region | none (offline) | no new dependency (stdlib shapefile reader + numpy/scipy/shapely already installed); ~10 min build | **chosen**: free, open, offline, byte-reproducible |
+| Self-hosted engine (OSRM / openrouteservice) | open source, free | all India from the same OSM data | none | needs Docker or WSL, which is **not installed**; installing it needs approval | not used |
+| Self-hosted GraphHopper | Apache-2.0, free | all India | none | runs on the existing JDK 21, but adds a new binary dependency and a server process | possible later upgrade (better speed model); needs approval |
+| Hosted openrouteservice | free tier needs an **API key / sign-up** | all India | 2,000 directions / 500 matrix requests per day | — | not used (no sign-up or keys allowed) |
+| Public Overpass API (for road extraction) | ODbL, free | — | 2026-10-24: "server at capacity"; asks automated users to run their own instance | — | not used |
+| OSRM public demo | free, light use only | — | best-effort; heavy use blocked | — | used **only for four spot-check requests** (validation, below) |
+
+**Snapshot (pinned)**
+- **Source files:** `https://download.geofabrik.de/asia/india/<zone>-zone-261022-free.shp.zip` for the central, eastern, northern, southern and western zones, with OSM data up to 2026-10-22. The north-eastern zone holds no verified point.
+- **What is stored:**
+  - only the roads members are fetched, each by an HTTP range request;
+  - each is checked against the zip's CRC-32;
+  - hashes are recorded in `Processed_Data/routing/osm_snapshot.csv`;
+  - files live outside the repository (`%USERPROFILE%\bda-env\osm`).
+
+### What is built
+
+| Step | Code | Outputs (`Processed_Data/routing/`) | Result |
+|---|---|---|---|
+| 11a nodes | `Code/routing/nodes.py` | `nodes_v1.csv`, `market_nodes_v1.csv`, `nodes_manifest_v1.csv` | See the 11a notes below |
+| 11b network | `Code/routing/osm.py`, `network.py` | `osm_snapshot.csv`, `speed_assumptions_v1.csv`, `routing_manifest_v1.csv` | See the 11b notes below |
+| 11c routes | `Code/routing/router.py`, `pipeline.py` | `od_matrix_v1.csv` (4,140 rows), `node_snap_v1.csv`, `route_geometry_v1.parquet` (git-ignored) | See the 11c notes below |
+| 11e storage | `Code/routing/storage.py`; contract `Documentation/Warehouse_Data_Contract.md` | `warehouses_v1.csv`, `node_warehouse_v1.csv`, `osm_snapshot_storage.csv`, `osm_buildings_subset_manifest.csv` | See the 11e notes below |
+| 11f UI | `Code/api/logistics.py`; `frontend/src/pages/Routes.tsx` | — | See the 11f notes below |
+
+**11a — nodes**
+- **46 district points pass.** Each was re-validated against the stored Phase 4 geocoder evidence (exact coordinate match, admin1 = state, coordinates within India).
+- **IDs** are stable: `D:<state>|<district>`.
+- **Ambiguity:** 8 points had more than one same-district candidate. This is recorded, not changed.
+- **Markets:** all 2,657 are listed as `unresolved` (no coordinates). None is placed at a district point.
+- **Reproducibility:** `check` rebuilds the table byte for byte.
+
+**11b — network**
+- **Roads included:** motorway, trunk, primary, secondary and tertiary, plus their links.
+- **Size:** 875,877 ways, 23.1 M vertices, 44.1 M directed edges, 1.21 M km of road.
+- **One-way roads** are respected.
+- **Join points:** a point joins the network at the nearest two-way vertex of the largest strongly connected component. All 46 points are within 0.91 km.
+- **Tertiary roads matter:** without them, direct links such as Yamuna Nagar → Ambala detoured to 108 km, against a real distance of about 60 km.
+
+**11c — routes**
+- **All 2,070 ordered pairs route** under both objectives, *shortest* (km) and *fastest* (estimated hours).
+- **Road distance:** a network distance.
+- **Travel time:** an **estimate**, from assumed goods-vehicle speeds per road class, capped by the OSM `maxspeed` tag. Tags cover 5.2% of edges.
+- **Detour ratio** (road ÷ straight line): median 1.15, range 1.02–1.90. The largest values are Nashik ↔ Amreli (around the Gulf of Khambhat) and Kottayam ↔ Alappuzha (the backwaters).
+- **Sanity checks:**
+  - road distance is never less than the straight line between the joined vertices;
+  - shortest is never longer than fastest;
+  - fastest is never slower than shortest.
+- **Reproducibility:** `check` rebuilds the CSVs byte for byte.
+
+**11e — storage (part)**
+- **168 facilities** mapped in OSM: 92 FCI, 35 cold stores, 27 state warehousing corporation, 14 CWC.
+- **Name and location:** `reported_unverified`.
+- **Operator and type:** `derived`, by documented keyword rules.
+- **Capacity, charges, suitability and availability:** `unknown` for every record.
+- **Road distances** run from each node to facilities within 150 km of network distance: 278 pairs, 34 nodes, 93 facilities.
+
+**11f — UI (part)**
+- **API:** `/api/routes`, `/api/routes/nodes`, `/api/routes/route`, `/api/warehouses`, `/api/warehouses/list`, `/api/warehouses/{id}`.
+- **Routes page:** road geometry, labelled estimates, the alternative objective, storage near the destination, "transport cost: not available", provenance and assumed speeds.
+- **Warehouses page:** markers, search, operator and near-node filters, detail card with status chips, a coverage card, and an honest "no comparable charges" card.
+
+**Independent validation: four requests to the OSRM public demo, car profile, 2026-10-23T21:26Z** (`validation_osrm_spotcheck_v1.csv`)
+
+| Pair | OSRM km | Ours, shortest km | Difference |
+|---|---|---|---|
+| Nashik → Pune | 212.6 | 207.7 | −2.3% |
+| Yamuna Nagar → Ambala | 59.3 | 60.6 | +2.1% |
+| Ludhiana → Ernakulam | 2,714.8 | 2,640.8 | −2.7% |
+| Rajkot → Ujjain | 603.7 | 573.7 | −5.0% |
+
+- **Why ours is slightly shorter:** OSRM returns its fastest car route; ours is the shortest-distance route.
+- **Travel times:** ours (fastest objective) are 19–45% above OSRM's car times, as intended for a loaded goods vehicle without traffic data. They are labelled as estimates.
+
+### Still not available
+
+**Transport cost**
+- No sourced Rs per tonne-km exists (RQ-3), so there is **no cheapest objective**.
+
+**Live data**
+- No traffic, closures or road-condition feed (RQ-5).
+
+**Other Phase 11 gaps**
+- Weather along the route (11d).
+- Market geocoding.
+- Verified warehouse capacity and tariffs (see the data contract, §5).
+- No buy–store–sell recommendation is made.
+
+### Tests (2026-10-24)
+
+- **`Code/tests/test_routing.py`** (35 tests): synthetic Dijkstra, the one-way and removed-edge cases, unreachable targets, the two-way join rule, the shapefile readers, node validation (bad and missing coordinates, duplicates), warehouse-contract violations, the name rules, de-duplication, and the real OD invariants.
+- **`test_api_logistics.py`** (9 tests): real routes, labels, validation errors (404 / 422), 503 when outputs are missing, no numbers on unrouted pairs, and the warehouse contract over the API.
+- **Frontend:** 11 Vitest tests.
+- **Final verification (2026-10-24):**
+  - full suite in the venv: **330 passed, 1 skipped** (the opt-in real-data Spark parity);
+  - project Python: **321 passed, 1 skipped**;
+  - frontend: **11 passed**; production build OK;
+  - integrity audit: **PASS**. That covers the 62 protected hashes, the D-42 and D-45 freezes, AQ-1, and the Phase 8 and 9 outputs unchanged against HEAD;
+  - the Phase 10 hash snapshots are unchanged;
+  - `nodes check`, `storage check` and `pipeline check` each reproduce byte for byte.
 
 ---
 

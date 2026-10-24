@@ -1,0 +1,11 @@
+road_class,assumed_kmh,basis
+motorway,65,assumption: free-flow goods vehicle; capped by OSM maxspeed where tagged; not observed
+motorway_link,30,assumption: free-flow goods vehicle; capped by OSM maxspeed where tagged; not observed
+trunk,55,assumption: free-flow goods vehicle; capped by OSM maxspeed where tagged; not observed
+trunk_link,30,assumption: free-flow goods vehicle; capped by OSM maxspeed where tagged; not observed
+primary,45,assumption: free-flow goods vehicle; capped by OSM maxspeed where tagged; not observed
+primary_link,25,assumption: free-flow goods vehicle; capped by OSM maxspeed where tagged; not observed
+secondary,35,assumption: free-flow goods vehicle; capped by OSM maxspeed where tagged; not observed
+secondary_link,25,assumption: free-flow goods vehicle; capped by OSM maxspeed where tagged; not observed
+tertiary,30,assumption: free-flow goods vehicle; capped by OSM maxspeed where tagged; not observed
+tertiary_link,20,assumption: free-flow goods vehicle; capped by OSM maxspeed where tagged; not observed

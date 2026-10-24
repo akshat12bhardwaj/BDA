@@ -1,0 +1,279 @@
+node_id,warehouse_id,road_distance_km,travel_time_h,node_access_gap_km,warehouse_access_gap_km
+D:Gujarat|Amreli,W:osm:landuse_a:605818627,144.704,3.045,0.092,0.185
+D:Gujarat|Banaskanth,W:osm:landuse_a:496683045,3.276,0.095,0.222,0.207
+D:Gujarat|Banaskanth,W:osm:buildings_a:842647580,120.149,2.845,0.222,0.371
+D:Gujarat|Mehsana,W:osm:buildings_a:842647580,59.487,1.362,0.203,0.371
+D:Gujarat|Mehsana,W:osm:landuse_a:496683045,70.502,1.596,0.203,0.207
+D:Gujarat|Rajkot,W:osm:landuse_a:605818627,53.777,1.244,0.103,0.185
+D:Gujarat|Sabarkantha,W:osm:buildings_a:842647580,61.017,1.232,0.066,0.371
+D:Gujarat|Sabarkantha,W:osm:landuse_a:496683045,106.138,2.526,0.066,0.207
+D:Haryana|Ambala,W:osm:landuse_a:1088334264,107.787,2.074,0.312,0.175
+D:Haryana|Ambala,W:osm:landuse_a:1076633352,125.015,2.482,0.312,0.591
+D:Haryana|Ambala,W:osm:buildings_a:690139138,129.261,2.612,0.312,1.269
+D:Haryana|Ambala,W:osm:buildings_a:690139140,130.032,2.637,0.312,0.898
+D:Haryana|Kurukshetra,W:osm:landuse_a:1076633352,90.878,1.947,0.083,0.591
+D:Haryana|Kurukshetra,W:osm:buildings_a:690139138,95.124,2.076,0.083,1.269
+D:Haryana|Kurukshetra,W:osm:buildings_a:690139140,95.895,2.101,0.083,0.898
+D:Haryana|Kurukshetra,W:osm:landuse_a:427397128,114.571,2.255,0.083,0.178
+D:Haryana|Kurukshetra,W:osm:landuse_a:325066754,124.056,2.867,0.083,0.118
+D:Haryana|Yamuna Nagar,W:osm:landuse_a:325066754,95.053,2.207,0.622,0.118
+D:Haryana|Yamuna Nagar,W:osm:landuse_a:1076633352,140.887,3.065,0.622,0.591
+D:Haryana|Yamuna Nagar,W:osm:landuse_a:427397128,141.431,2.98,0.622,0.178
+D:Haryana|Yamuna Nagar,W:osm:buildings_a:690139138,145.133,3.194,0.622,1.269
+D:Haryana|Yamuna Nagar,W:osm:buildings_a:690139140,145.904,3.219,0.622,0.898
+D:Kerala|Alappuzha,W:osm:landuse_a:133953020,1.1,0.031,0.039,0.063
+D:Kerala|Alappuzha,W:osm:buildings_a:798223312,2.165,0.055,0.039,0.057
+D:Kerala|Alappuzha,W:osm:buildings_a:619613799,23.203,0.459,0.039,0.038
+D:Kerala|Alappuzha,W:osm:buildings_a:1051211116,30.036,0.665,0.039,0.164
+D:Kerala|Alappuzha,W:osm:buildings_a:797813622,33.27,0.788,0.039,0.049
+D:Kerala|Alappuzha,W:osm:buildings_a:798532126,34.165,0.811,0.039,0.038
+D:Kerala|Alappuzha,W:osm:buildings_a:802943380,36.099,0.818,0.039,0.035
+D:Kerala|Alappuzha,W:osm:buildings_a:895605085,36.933,0.901,0.039,0.192
+D:Kerala|Alappuzha,W:osm:buildings_a:798909314,42.163,0.905,0.039,0.108
+D:Kerala|Alappuzha,W:osm:landuse_a:957870792,44.974,0.857,0.039,0.058
+D:Kerala|Alappuzha,W:osm:buildings_a:647578837,45.57,0.967,0.039,0.072
+D:Kerala|Alappuzha,W:osm:buildings_a:1217941846,51.683,1.241,0.039,0.049
+D:Kerala|Alappuzha,W:osm:buildings_a:1217964268,55.648,1.336,0.039,0.022
+D:Kerala|Alappuzha,W:osm:buildings_a:1300050786,57.385,1.14,0.039,0.114
+D:Kerala|Alappuzha,W:osm:landuse_a:450044442,59.614,1.143,0.039,0.215
+D:Kerala|Alappuzha,W:osm:buildings_a:1016533279,59.82,1.165,0.039,0.024
+D:Kerala|Alappuzha,W:osm:buildings_a:449196091,62.511,1.527,0.039,0.066
+D:Kerala|Alappuzha,W:osm:buildings_a:798034927,62.554,1.521,0.039,0.02
+D:Kerala|Alappuzha,W:osm:buildings_a:1009066809,64.199,1.509,0.039,0.233
+D:Kerala|Alappuzha,W:osm:buildings_a:800786733,65.287,1.536,0.039,0.044
+D:Kerala|Alappuzha,W:osm:buildings_a:984009120,72.251,1.542,0.039,0.042
+D:Kerala|Alappuzha,W:osm:buildings_a:801010980,74.211,1.453,0.039,0.175
+D:Kerala|Alappuzha,W:osm:buildings_a:410454710,81.361,1.558,0.039,0.026
+D:Kerala|Alappuzha,W:osm:buildings_a:266848045,82.104,1.559,0.039,0.067
+D:Kerala|Alappuzha,W:osm:buildings_a:243514280,82.577,1.576,0.039,0.142
+D:Kerala|Alappuzha,W:osm:buildings_a:750355209,84.329,1.609,0.039,0.083
+D:Kerala|Alappuzha,W:osm:landuse_a:364365916,86.32,1.607,0.039,0.603
+D:Kerala|Alappuzha,W:osm:buildings_a:960823345,87.004,2.11,0.039,0.015
+D:Kerala|Alappuzha,W:osm:buildings_a:955971436,89.585,1.828,0.039,0.014
+D:Kerala|Alappuzha,W:osm:buildings_a:1450672807,91.456,2.006,0.039,0.006
+D:Kerala|Alappuzha,W:osm:landuse_a:1107648459,101.265,1.904,0.039,0.188
+D:Kerala|Alappuzha,W:osm:landuse_a:98623850,135.356,2.616,0.039,0.093
+D:Kerala|Alappuzha,W:osm:landuse_a:90772752,147.894,2.979,0.039,0.232
+D:Kerala|Alappuzha,W:osm:buildings_a:799336083,148.052,3.387,0.039,0.054
+D:Kerala|Alappuzha,W:osm:buildings_a:1007286010,148.254,2.918,0.039,0.04
+D:Kerala|Ernakulam,W:osm:buildings_a:1300050786,0.0,0.0,0.175,0.114
+D:Kerala|Ernakulam,W:osm:buildings_a:1016533279,9.484,0.251,0.175,0.024
+D:Kerala|Ernakulam,W:osm:buildings_a:801010980,20.76,0.507,0.175,0.175
+D:Kerala|Ernakulam,W:osm:buildings_a:1051211116,31.489,0.767,0.175,0.164
+D:Kerala|Ernakulam,W:osm:landuse_a:364365916,32.869,0.661,0.175,0.603
+D:Kerala|Ernakulam,W:osm:buildings_a:800786733,34.158,0.851,0.175,0.044
+D:Kerala|Ernakulam,W:osm:buildings_a:619613799,35.466,0.761,0.175,0.038
+D:Kerala|Ernakulam,W:osm:buildings_a:955971436,36.12,0.888,0.175,0.014
+D:Kerala|Ernakulam,W:osm:landuse_a:1107648459,47.815,0.958,0.175,0.188
+D:Kerala|Ernakulam,W:osm:buildings_a:798223312,55.215,1.1,0.175,0.057
+D:Kerala|Ernakulam,W:osm:landuse_a:133953020,57.037,1.147,0.175,0.063
+D:Kerala|Ernakulam,W:osm:buildings_a:1217941846,57.614,1.363,0.175,0.049
+D:Kerala|Ernakulam,W:osm:buildings_a:1217964268,61.579,1.458,0.175,0.022
+D:Kerala|Ernakulam,W:osm:buildings_a:1009066809,63.925,1.631,0.175,0.233
+D:Kerala|Ernakulam,W:osm:buildings_a:802943380,69.88,1.609,0.175,0.035
+D:Kerala|Ernakulam,W:osm:buildings_a:960823345,72.705,1.574,0.175,0.015
+D:Kerala|Ernakulam,W:osm:buildings_a:798532126,76.631,1.787,0.175,0.038
+D:Kerala|Ernakulam,W:osm:buildings_a:798034927,83.721,2.037,0.175,0.02
+D:Kerala|Ernakulam,W:osm:buildings_a:449196091,83.84,2.043,0.175,0.066
+D:Kerala|Ernakulam,W:osm:buildings_a:895605085,87.282,2.013,0.175,0.192
+D:Kerala|Ernakulam,W:osm:buildings_a:797813622,88.671,1.893,0.175,0.049
+D:Kerala|Ernakulam,W:osm:buildings_a:798909314,98.87,2.01,0.175,0.108
+D:Kerala|Ernakulam,W:osm:landuse_a:957870792,101.681,1.962,0.175,0.058
+D:Kerala|Ernakulam,W:osm:buildings_a:647578837,102.277,2.072,0.175,0.072
+D:Kerala|Ernakulam,W:osm:buildings_a:802402105,110.169,2.062,0.175,0.094
+D:Kerala|Ernakulam,W:osm:landuse_a:450044442,116.321,2.248,0.175,0.215
+D:Kerala|Ernakulam,W:osm:buildings_a:984009120,124.618,2.647,0.175,0.042
+D:Kerala|Ernakulam,W:osm:landuse_a:188303182,129.924,2.478,0.175,0.057
+D:Kerala|Ernakulam,W:osm:buildings_a:449304862,132.065,2.551,0.175,0.097
+D:Kerala|Ernakulam,W:osm:buildings_a:799336083,133.587,3.02,0.175,0.054
+D:Kerala|Ernakulam,W:osm:landuse_a:169410213,134.802,2.613,0.175,0.29
+D:Kerala|Ernakulam,W:osm:buildings_a:410454710,138.068,2.662,0.175,0.026
+D:Kerala|Ernakulam,W:osm:buildings_a:405411469,138.403,2.854,0.175,0.446
+D:Kerala|Ernakulam,W:osm:buildings_a:266848045,138.811,2.664,0.175,0.067
+D:Kerala|Ernakulam,W:osm:buildings_a:243514280,139.284,2.68,0.175,0.142
+D:Kerala|Ernakulam,W:osm:buildings_a:750355209,141.036,2.713,0.175,0.083
+D:Kerala|Ernakulam,W:osm:buildings_a:1450672807,143.822,3.111,0.175,0.006
+D:Kerala|Ernakulam,W:osm:landuse_a:958204400,145.818,2.723,0.175,0.26
+D:Kerala|Kottayam,W:osm:buildings_a:802943380,9.067,0.184,0.025,0.035
+D:Kerala|Kottayam,W:osm:buildings_a:1217941846,13.32,0.348,0.025,0.049
+D:Kerala|Kottayam,W:osm:buildings_a:798532126,15.817,0.362,0.025,0.038
+D:Kerala|Kottayam,W:osm:buildings_a:1217964268,16.577,0.442,0.025,0.022
+D:Kerala|Kottayam,W:osm:buildings_a:895605085,26.468,0.592,0.025,0.192
+D:Kerala|Kottayam,W:osm:buildings_a:1009066809,27.711,0.616,0.025,0.233
+D:Kerala|Kottayam,W:osm:buildings_a:797813622,27.857,0.586,0.025,0.049
+D:Kerala|Kottayam,W:osm:buildings_a:619613799,30.597,0.727,0.025,0.038
+D:Kerala|Kottayam,W:osm:buildings_a:798034927,32.693,0.603,0.025,0.02
+D:Kerala|Kottayam,W:osm:buildings_a:449196091,33.027,0.609,0.025,0.066
+D:Kerala|Kottayam,W:osm:buildings_a:1051211116,36.022,0.902,0.025,0.164
+D:Kerala|Kottayam,W:osm:buildings_a:798909314,39.785,0.851,0.025,0.108
+D:Kerala|Kottayam,W:osm:buildings_a:800786733,42.472,1.032,0.025,0.044
+D:Kerala|Kottayam,W:osm:buildings_a:647578837,45.621,0.996,0.025,0.072
+D:Kerala|Kottayam,W:osm:landuse_a:133953020,45.838,1.03,0.025,0.063
+D:Kerala|Kottayam,W:osm:buildings_a:798223312,46.285,1.031,0.025,0.057
+D:Kerala|Kottayam,W:osm:buildings_a:960823345,50.515,1.217,0.025,0.015
+D:Kerala|Kottayam,W:osm:landuse_a:957870792,52.074,1.162,0.025,0.058
+D:Kerala|Kottayam,W:osm:buildings_a:1016533279,59.071,1.389,0.025,0.024
+D:Kerala|Kottayam,W:osm:buildings_a:1300050786,63.331,1.454,0.025,0.114
+D:Kerala|Kottayam,W:osm:buildings_a:984009120,63.804,1.32,0.025,0.042
+D:Kerala|Kottayam,W:osm:landuse_a:450044442,66.756,1.456,0.025,0.215
+D:Kerala|Kottayam,W:osm:buildings_a:801010980,71.545,1.766,0.025,0.175
+D:Kerala|Kottayam,W:osm:buildings_a:1450672807,83.009,1.784,0.025,0.006
+D:Kerala|Kottayam,W:osm:landuse_a:364365916,88.678,1.92,0.025,0.603
+D:Kerala|Kottayam,W:osm:buildings_a:410454710,88.804,1.871,0.025,0.026
+D:Kerala|Kottayam,W:osm:buildings_a:266848045,89.547,1.84,0.025,0.067
+D:Kerala|Kottayam,W:osm:buildings_a:243514280,90.021,1.857,0.025,0.142
+D:Kerala|Kottayam,W:osm:buildings_a:750355209,91.773,1.781,0.025,0.083
+D:Kerala|Kottayam,W:osm:buildings_a:955971436,93.227,2.141,0.025,0.014
+D:Kerala|Kottayam,W:osm:landuse_a:1107648459,103.624,2.217,0.025,0.188
+D:Kerala|Kottayam,W:osm:buildings_a:799336083,111.564,2.468,0.025,0.054
+D:Kerala|Kottayam,W:osm:landuse_a:98623850,137.66,2.77,0.025,0.093
+D:Kerala|Kottayam,W:osm:buildings_a:1007286010,140.122,3.071,0.025,0.04
+D:Kerala|Malappuram,W:osm:buildings_a:405411469,17.786,0.329,0.032,0.446
+D:Kerala|Malappuram,W:osm:buildings_a:863456075,39.557,0.927,0.032,0.026
+D:Kerala|Malappuram,W:osm:buildings_a:799471510,53.989,1.084,0.032,0.061
+D:Kerala|Malappuram,W:osm:buildings_a:516378655,54.018,1.057,0.032,0.184
+D:Kerala|Malappuram,W:osm:landuse_a:362550271,54.064,1.062,0.032,0.239
+D:Kerala|Malappuram,W:osm:landuse_a:169410213,73.752,1.521,0.032,0.29
+D:Kerala|Malappuram,W:osm:buildings_a:449304862,76.069,1.699,0.032,0.097
+D:Kerala|Malappuram,W:osm:landuse_a:188303182,79.145,1.646,0.032,0.057
+D:Kerala|Malappuram,W:osm:landuse_a:804055222,80.887,1.499,0.032,0.14
+D:Kerala|Malappuram,W:osm:buildings_a:802402105,82.242,1.975,0.032,0.094
+D:Kerala|Malappuram,W:osm:landuse_a:958204400,93.653,1.929,0.032,0.26
+D:Kerala|Malappuram,W:osm:buildings_a:802807527,103.557,2.295,0.032,0.035
+D:Kerala|Malappuram,W:osm:buildings_a:546147256,108.441,2.51,0.032,0.049
+D:Kerala|Malappuram,W:osm:landuse_a:1107648459,110.052,2.589,0.032,0.188
+D:Kerala|Malappuram,W:osm:buildings_a:955971436,118.84,2.586,0.032,0.014
+D:Kerala|Malappuram,W:osm:buildings_a:258572677,120.776,2.787,0.032,0.04
+D:Kerala|Malappuram,W:osm:landuse_a:364365916,123.007,2.804,0.032,0.603
+D:Kerala|Malappuram,W:osm:buildings_a:1223496441,126.862,2.392,0.032,0.078
+D:Kerala|Malappuram,W:osm:landuse_a:66068596,134.077,2.776,0.032,0.435
+D:Kerala|Malappuram,W:osm:buildings_a:1559246294,135.048,2.74,0.032,0.055
+D:Kerala|Malappuram,W:osm:buildings_a:801010980,140.572,3.062,0.032,0.175
+D:Kerala|Malappuram,W:osm:buildings_a:1016533279,148.611,2.991,0.032,0.024
+D:Kerala|Palakad,W:osm:landuse_a:188303182,1.113,0.032,0.017,0.057
+D:Kerala|Palakad,W:osm:buildings_a:449304862,5.17,0.155,0.017,0.097
+D:Kerala|Palakad,W:osm:landuse_a:169410213,5.696,0.145,0.017,0.29
+D:Kerala|Palakad,W:osm:landuse_a:958204400,17.519,0.392,0.017,0.26
+D:Kerala|Palakad,W:osm:buildings_a:802402105,20.624,0.455,0.017,0.094
+D:Kerala|Palakad,W:osm:landuse_a:66068596,57.943,1.239,0.017,0.435
+D:Kerala|Palakad,W:osm:buildings_a:1559246294,58.914,1.203,0.017,0.055
+D:Kerala|Palakad,W:osm:buildings_a:405411469,60.464,1.297,0.017,0.446
+D:Kerala|Palakad,W:osm:landuse_a:1107648459,86.919,1.693,0.017,0.188
+D:Kerala|Palakad,W:osm:buildings_a:863456075,95.796,2.099,0.017,0.026
+D:Kerala|Palakad,W:osm:buildings_a:955971436,96.561,1.947,0.017,0.014
+D:Kerala|Palakad,W:osm:landuse_a:364365916,99.874,1.908,0.017,0.603
+D:Kerala|Palakad,W:osm:buildings_a:801010980,117.439,2.252,0.017,0.175
+D:Kerala|Palakad,W:osm:buildings_a:1016533279,128.763,2.462,0.017,0.024
+D:Kerala|Palakad,W:osm:buildings_a:799471510,130.195,2.65,0.017,0.061
+D:Kerala|Palakad,W:osm:buildings_a:516378655,130.223,2.623,0.017,0.184
+D:Kerala|Palakad,W:osm:landuse_a:362550271,130.269,2.628,0.017,0.239
+D:Kerala|Palakad,W:osm:buildings_a:1300050786,130.414,2.505,0.017,0.114
+D:Kerala|Palakad,W:osm:buildings_a:800786733,143.738,3.011,0.017,0.044
+D:Maharashtra|Ahmednagar,W:osm:landuse_a:380417658,116.358,2.189,0.266,0.15
+D:Maharashtra|Ahmednagar,W:osm:buildings_a:359539771,119.834,2.325,0.266,0.025
+D:Maharashtra|Ahmednagar,W:osm:landuse_a:96705635,143.611,2.66,0.266,0.848
+D:Maharashtra|Nashik,W:osm:landuse_a:96705635,84.002,1.663,0.063,0.848
+D:Maharashtra|Nashik,W:osm:landuse_a:1540056663,132.351,2.436,0.063,0.199
+D:Maharashtra|Pune,W:osm:landuse_a:380417658,6.198,0.147,0.113,0.15
+D:Maharashtra|Pune,W:osm:buildings_a:359539771,18.731,0.36,0.113,0.025
+D:Maharashtra|Pune,W:osm:landuse_a:93059036,109.771,1.864,0.113,0.578
+D:Maharashtra|Pune,W:osm:landuse_a:111606921,125.337,2.117,0.113,0.457
+D:Maharashtra|Pune,W:osm:landuse_a:1540056663,143.908,2.545,0.113,0.199
+D:Odisha|Kendrapara,W:osm:buildings_a:489278231,60.539,1.389,0.041,0.11
+D:Odisha|Kendrapara,W:osm:buildings_a:696072695,104.126,2.228,0.041,0.14
+D:Punjab|Bhatinda,W:osm:buildings_a:1323459889,2.563,0.065,0.29,0.028
+D:Punjab|Bhatinda,W:osm:buildings_a:952238333,47.305,0.958,0.29,3.127
+D:Punjab|Bhatinda,W:osm:buildings_a:364495642,88.364,1.866,0.29,0.154
+D:Punjab|Bhatinda,W:osm:landuse_a:118373630,88.419,1.649,0.29,0.061
+D:Punjab|Bhatinda,W:osm:buildings_a:364498746,88.621,1.875,0.29,0.157
+D:Punjab|Bhatinda,W:osm:buildings_a:1305586534,90.892,1.697,0.29,0.469
+D:Punjab|Bhatinda,W:osm:landuse_a:378928701,102.222,2.306,0.29,0.151
+D:Punjab|Bhatinda,W:osm:buildings_a:513161838,102.274,2.148,0.29,0.118
+D:Punjab|Bhatinda,W:osm:landuse_a:1088334264,141.871,3.073,0.29,0.175
+D:Punjab|Bhatinda,W:osm:buildings_a:690139140,146.448,3.021,0.29,0.898
+D:Punjab|Bhatinda,W:osm:buildings_a:690139138,147.219,3.046,0.29,1.269
+D:Punjab|Ferozpur,W:osm:landuse_a:118373630,54.673,1.213,0.051,0.061
+D:Punjab|Ferozpur,W:osm:buildings_a:1305586534,55.779,1.236,0.051,0.469
+D:Punjab|Ferozpur,W:osm:buildings_a:364495642,56.791,1.074,0.051,0.154
+D:Punjab|Ferozpur,W:osm:buildings_a:364498746,57.048,1.083,0.051,0.157
+D:Punjab|Ferozpur,W:osm:buildings_a:513161838,61.484,1.358,0.051,0.118
+D:Punjab|Ferozpur,W:osm:buildings_a:1323459889,102.011,1.971,0.051,0.028
+D:Punjab|Ferozpur,W:osm:buildings_a:952238333,118.836,2.454,0.051,3.127
+D:Punjab|Ferozpur,W:osm:landuse_a:1088334264,128.886,2.47,0.051,0.175
+D:Punjab|Hoshiarpur,W:osm:landuse_a:1266852216,63.364,1.353,0.236,0.057
+D:Punjab|Hoshiarpur,W:osm:landuse_a:1088334264,82.606,1.62,0.236,0.175
+D:Punjab|Hoshiarpur,W:osm:buildings_a:513161838,101.955,2.017,0.236,0.118
+D:Punjab|Hoshiarpur,W:osm:buildings_a:364495642,118.836,2.425,0.236,0.154
+D:Punjab|Hoshiarpur,W:osm:buildings_a:364498746,119.093,2.434,0.236,0.157
+D:Punjab|Jalandhar,W:osm:buildings_a:513161838,61.646,1.19,0.006,0.118
+D:Punjab|Jalandhar,W:osm:landuse_a:1088334264,66.156,1.254,0.006,0.175
+D:Punjab|Jalandhar,W:osm:buildings_a:364495642,78.527,1.598,0.006,0.154
+D:Punjab|Jalandhar,W:osm:buildings_a:364498746,78.784,1.607,0.006,0.157
+D:Punjab|Jalandhar,W:osm:landuse_a:1266852216,104.291,2.196,0.006,0.057
+D:Punjab|Jalandhar,W:osm:buildings_a:952238333,123.88,2.794,0.006,3.127
+D:Punjab|Ludhiana,W:osm:landuse_a:1088334264,7.438,0.211,0.037,0.175
+D:Punjab|Ludhiana,W:osm:buildings_a:513161838,61.117,1.529,0.037,0.118
+D:Punjab|Ludhiana,W:osm:buildings_a:364495642,69.874,1.401,0.037,0.154
+D:Punjab|Ludhiana,W:osm:buildings_a:364498746,70.131,1.409,0.037,0.157
+D:Punjab|Ludhiana,W:osm:buildings_a:952238333,88.716,2.234,0.037,3.127
+D:Punjab|Ludhiana,W:osm:buildings_a:1323459889,137.174,2.954,0.037,0.028
+D:Punjab|Ludhiana,W:osm:landuse_a:1266852216,140.311,2.884,0.037,0.057
+D:Punjab|Mohali,W:osm:landuse_a:1088334264,85.429,1.736,0.261,0.175
+D:Punjab|Patiala,W:osm:landuse_a:1088334264,89.696,1.902,0.01,0.175
+D:Punjab|Patiala,W:osm:landuse_a:1076633352,98.602,2.083,0.01,0.591
+D:Punjab|Patiala,W:osm:buildings_a:690139138,102.848,2.225,0.01,1.269
+D:Punjab|Patiala,W:osm:buildings_a:690139140,103.619,2.251,0.01,0.898
+D:Punjab|Patiala,W:osm:buildings_a:952238333,111.755,2.185,0.01,3.127
+D:Punjab|Patiala,W:osm:buildings_a:364495642,146.275,3.167,0.01,0.154
+D:Punjab|Patiala,W:osm:buildings_a:364498746,146.532,3.176,0.01,0.157
+D:Punjab|Patiala,W:osm:buildings_a:513161838,147.653,3.278,0.01,0.118
+D:Punjab|Sangrur,W:osm:buildings_a:952238333,56.429,1.118,0.019,3.127
+D:Punjab|Sangrur,W:osm:landuse_a:1088334264,82.764,1.919,0.019,0.175
+D:Punjab|Sangrur,W:osm:landuse_a:1076633352,83.772,1.59,0.019,0.591
+D:Punjab|Sangrur,W:osm:buildings_a:690139138,88.018,1.732,0.019,1.269
+D:Punjab|Sangrur,W:osm:buildings_a:690139140,88.789,1.757,0.019,0.898
+D:Punjab|Sangrur,W:osm:buildings_a:1323459889,97.915,1.838,0.019,0.028
+D:Punjab|Sangrur,W:osm:buildings_a:364495642,108.974,2.101,0.019,0.154
+D:Punjab|Sangrur,W:osm:buildings_a:364498746,109.231,2.109,0.019,0.157
+D:Punjab|Sangrur,W:osm:buildings_a:513161838,113.516,2.212,0.019,0.118
+D:Rajasthan|Ganganagar,W:osm:buildings_a:1305586534,97.694,2.09,0.052,0.469
+D:Rajasthan|Ganganagar,W:osm:landuse_a:118373630,98.35,2.162,0.052,0.061
+D:Rajasthan|Ganganagar,W:osm:landuse_a:378928701,105.251,2.21,0.052,0.151
+D:Rajasthan|Ganganagar,W:osm:buildings_a:1323459889,125.139,2.358,0.052,0.028
+D:Rajasthan|Hanumangarh,W:osm:landuse_a:378928701,42.072,0.95,0.604,0.151
+D:Rajasthan|Hanumangarh,W:osm:buildings_a:1323459889,99.895,1.874,0.604,0.028
+D:Rajasthan|Hanumangarh,W:osm:landuse_a:118373630,124.524,2.83,0.604,0.061
+D:Rajasthan|Hanumangarh,W:osm:buildings_a:1305586534,127.68,2.758,0.604,0.469
+D:Rajasthan|Hanumangarh,W:osm:buildings_a:952238333,148.481,2.837,0.604,3.127
+D:Uttar Pradesh|Agra,W:osm:landuse_a:303578446,26.599,0.635,0.054,0.084
+D:Uttar Pradesh|Bulandshahar,W:osm:landuse_a:103170664,40.719,0.818,0.013,0.215
+D:Uttar Pradesh|Bulandshahar,W:osm:landuse_a:283808810,61.284,1.229,0.013,0.302
+D:Uttar Pradesh|Bulandshahar,W:osm:buildings_a:1465714480,61.385,1.243,0.013,1.003
+D:Uttar Pradesh|Bulandshahar,W:osm:buildings_a:1256890240,74.483,1.747,0.013,0.613
+D:Uttar Pradesh|Bulandshahar,W:osm:buildings_a:445329855,82.082,1.715,0.013,0.732
+D:Uttar Pradesh|Bulandshahar,W:osm:landuse_a:1420299077,85.018,1.78,0.013,0.544
+D:Uttar Pradesh|Bulandshahar,W:osm:landuse_a:325066754,124.757,2.505,0.013,0.118
+D:Uttar Pradesh|Muzaffarnagar,W:osm:landuse_a:325066754,2.844,0.08,0.053,0.118
+D:Uttar Pradesh|Muzaffarnagar,W:osm:buildings_a:1465714480,62.983,1.237,0.053,1.003
+D:Uttar Pradesh|Muzaffarnagar,W:osm:landuse_a:103170664,84.159,1.662,0.053,0.215
+D:Uttar Pradesh|Muzaffarnagar,W:osm:landuse_a:283808810,109.862,2.12,0.053,0.302
+D:Uttar Pradesh|Muzaffarnagar,W:osm:landuse_a:427397128,115.522,2.292,0.053,0.178
+D:Uttar Pradesh|Muzaffarnagar,W:osm:buildings_a:445329855,125.555,2.438,0.053,0.732
+D:Uttar Pradesh|Muzaffarnagar,W:osm:landuse_a:1420299077,126.884,2.492,0.053,0.544
+D:Uttar Pradesh|Muzaffarnagar,W:osm:buildings_a:1256890240,136.181,2.638,0.053,0.613
+D:West Bengal|Burdwan,W:osm:landuse_a:1433033540,58.395,1.138,0.911,0.073
+D:West Bengal|Burdwan,W:osm:landuse_a:1442898337,65.279,1.353,0.911,0.059
+D:West Bengal|Burdwan,W:osm:buildings_a:1147811262,73.803,1.579,0.911,0.093
+D:West Bengal|Burdwan,W:osm:landuse_a:147428125,77.748,1.646,0.911,0.239
+D:West Bengal|Burdwan,W:osm:buildings_a:544172329,101.537,2.277,0.911,0.285
+D:West Bengal|Coochbehar,W:osm:buildings_a:1147813294,42.953,0.841,0.144,0.065
+D:West Bengal|Coochbehar,W:osm:landuse_a:1206875061,103.709,1.961,0.144,1.077
+D:West Bengal|Coochbehar,W:osm:landuse_a:829264883,132.989,2.547,0.144,0.159
+D:West Bengal|Hooghly,W:osm:buildings_a:1147811262,4.734,0.131,0.133,0.093
+D:West Bengal|Hooghly,W:osm:landuse_a:147428125,15.568,0.379,0.133,0.239
+D:West Bengal|Hooghly,W:osm:landuse_a:1433033540,19.983,0.571,0.133,0.073
+D:West Bengal|Hooghly,W:osm:landuse_a:1442898337,27.053,0.83,0.133,0.059
+D:West Bengal|Hooghly,W:osm:buildings_a:544172329,39.356,1.01,0.133,0.285
+D:West Bengal|Jalpaiguri,W:osm:landuse_a:1206875061,11.236,0.292,0.364,1.077
+D:West Bengal|Jalpaiguri,W:osm:landuse_a:829264883,41.086,0.878,0.364,0.159
+D:West Bengal|Jalpaiguri,W:osm:buildings_a:1147813294,62.056,1.234,0.364,0.065

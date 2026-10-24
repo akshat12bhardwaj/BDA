@@ -1,0 +1,35 @@
+kind,item,value,note
+input,osm/central/gis_osm_roads_free_1.dbf,12d6f5785136696794e3d9b0357944ed12016261a80944d45bfed64041b0a838,https://download.geofabrik.de/asia/india/central-zone-261022-free.shp.zip
+input,osm/central/gis_osm_roads_free_1.prj,ffc9162903c37f0867d1e7f36c20036a165f7aa555dda24c1ae0ee4328d2977f,https://download.geofabrik.de/asia/india/central-zone-261022-free.shp.zip
+input,osm/central/gis_osm_roads_free_1.shp,8bf331fefee0a7c9551996385550a5f04ea540ee653d94e699bc7ca02667bf59,https://download.geofabrik.de/asia/india/central-zone-261022-free.shp.zip
+input,osm/eastern/gis_osm_roads_free_1.dbf,41508e0dcf33e4ae7245ef83d90db8d196c137128c4fb80d2f0c40909b2295fc,https://download.geofabrik.de/asia/india/eastern-zone-261022-free.shp.zip
+input,osm/eastern/gis_osm_roads_free_1.prj,ffc9162903c37f0867d1e7f36c20036a165f7aa555dda24c1ae0ee4328d2977f,https://download.geofabrik.de/asia/india/eastern-zone-261022-free.shp.zip
+input,osm/eastern/gis_osm_roads_free_1.shp,5fd697294ea6ad7faacfea305728eb15f73b0b354496b28b1cf0ec5aa85c5c9b,https://download.geofabrik.de/asia/india/eastern-zone-261022-free.shp.zip
+input,osm/northern/gis_osm_roads_free_1.dbf,07ddb80c23c484daf9e69f8b412459581467fefb66b5e35ab0ce04cccdbc3dd6,https://download.geofabrik.de/asia/india/northern-zone-261022-free.shp.zip
+input,osm/northern/gis_osm_roads_free_1.prj,ffc9162903c37f0867d1e7f36c20036a165f7aa555dda24c1ae0ee4328d2977f,https://download.geofabrik.de/asia/india/northern-zone-261022-free.shp.zip
+input,osm/northern/gis_osm_roads_free_1.shp,763be33f2072415296bb3fb37f8cf56de839cdcb85f430be50b02c52892a3444,https://download.geofabrik.de/asia/india/northern-zone-261022-free.shp.zip
+input,osm/southern/gis_osm_roads_free_1.dbf,a8385296e9bff3edeed7bb45a667030117de2171cfd0490e86a8b77cec8c7d9e,https://download.geofabrik.de/asia/india/southern-zone-261022-free.shp.zip
+input,osm/southern/gis_osm_roads_free_1.prj,ffc9162903c37f0867d1e7f36c20036a165f7aa555dda24c1ae0ee4328d2977f,https://download.geofabrik.de/asia/india/southern-zone-261022-free.shp.zip
+input,osm/southern/gis_osm_roads_free_1.shp,ded1649ff748a1632e6922ede0fe6ea856aedeb7aa9fe2b220308556e12b2bec,https://download.geofabrik.de/asia/india/southern-zone-261022-free.shp.zip
+input,osm/western/gis_osm_roads_free_1.dbf,343ecc5826324856c6c133c43dc31fdeb1739c0028fbd34aaaeaf2c93a6e1df2,https://download.geofabrik.de/asia/india/western-zone-261022-free.shp.zip
+input,osm/western/gis_osm_roads_free_1.prj,ffc9162903c37f0867d1e7f36c20036a165f7aa555dda24c1ae0ee4328d2977f,https://download.geofabrik.de/asia/india/western-zone-261022-free.shp.zip
+input,osm/western/gis_osm_roads_free_1.shp,2738a4f063a6db5501cdfd8caf720520219342da5906fcc4d0efe959d27f725e,https://download.geofabrik.de/asia/india/western-zone-261022-free.shp.zip
+input,Processed_Data/routing/nodes_v1.csv,b1f818d4848a3cbf3c4a1d9cd28b1ddd466f35875da2219d3371357702c82d2f,verified nodes
+input,Processed_Data/routing/warehouses_v1.csv,ea301591523632f4b9f4990d241a9a1ac14d916ab25c3a55f7dbc88d0b464e03,warehouse table
+parameter,road_classes,"motorway,motorway_link,trunk,trunk_link,primary,primary_link,secondary,secondary_link,tertiary,tertiary_link",
+parameter,max_access_gap_km,10.0,
+parameter,simplify_deg,0.0005,
+parameter,algorithm,"Dijkstra (scipy.sparse.csgraph), directed, OSM oneway respected; endpoints join at the nearest two-way core vertex",
+parameter,licence,"OpenStreetMap contributors, ODbL 1.0; extracts by Geofabrik GmbH",
+graph,lines,875877,
+graph,vertices,23127157,
+graph,directed_edges,44084125,
+graph,core_vertices,22855216,
+graph,major_road_km,1206064.924,
+graph,edges_with_maxspeed_tag_pct,5.234,
+graph,two_way_core_vertices,20375692,
+output,Processed_Data/routing/od_matrix_v1.csv,b624d8a9179a7a9f5b24300db62d2cdad8a8d4b6f84732f00371114f70bfa440,4140 rows
+output,Processed_Data/routing/node_snap_v1.csv,1cd8d056b19f6a09180cba171362b09ed997bd7b75c31a3a7f1e57fbacb8bba2,46 rows
+output,Processed_Data/routing/speed_assumptions_v1.csv,5c8f20ef1f656ad7fa2565143a2b769f9251395df7f3d9fac29de2e45b7e9967,10 rows
+output,Processed_Data/routing/node_warehouse_v1.csv,04148f04ecfe5fe747ffa1bd446f1812e9759645299a7b52194c7269fcfb1ab6,278 rows
+output,Processed_Data/routing/route_geometry_v1.parquet,613a119311b346ced97bc0caeae6cdc4ea4787ef24dfd4cc9fe69c7f948927fd,4140 routes; git-ignored

@@ -30,7 +30,7 @@ from pathlib import Path
 import pandas as pd
 
 from Code.integration.pipeline import MANDI_COLUMNS, MANDI_VALUES, file_sha256
-from Code.production.pipeline import _posix, git_blob_matches_head, verify_inputs, write_csv
+from Code.production.pipeline import _posix, verify_inputs, write_csv
 from Code.utils.data_audit import MANDI_DIR
 
 CROPS = ["Onion", "Potato", "Wheat"]

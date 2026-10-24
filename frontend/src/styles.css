@@ -1,0 +1,34 @@
+@import "tailwindcss";
+@import "leaflet/dist/leaflet.css";
+
+@theme {
+  --font-sans: "Urbanist", ui-sans-serif, system-ui, "Segoe UI", sans-serif;
+  --color-canvas: #eef1f2;
+  --color-surface: #f6f8f8;
+  --color-line: #e3e6e8;
+  --color-ink: #1d2124;
+  --color-muted: #8a9196;
+  --color-faint: #b8bec2;
+  --color-ok: #22b14c;
+  --color-ok-soft: #e3f5e8;
+  --color-bad: #e5484d;
+  --color-bad-soft: #fde8e8;
+  --color-ref: #c9ced1;
+  --shadow-soft: 0 1px 2px rgb(20 30 40 / 0.04), 0 8px 24px rgb(20 30 40 / 0.06);
+  --shadow-pill: 0 1px 2px rgb(20 30 40 / 0.06), 0 2px 8px rgb(20 30 40 / 0.06);
+}
+
+html, body, #root { height: 100%; }
+body { margin: 0; background: #e6e9ea; color: var(--color-ink); font-family: var(--font-sans); -webkit-font-smoothing: antialiased; }
+
+.glass { background: rgb(250 251 251 / 0.72); backdrop-filter: blur(18px) saturate(1.2); -webkit-backdrop-filter: blur(18px) saturate(1.2); }
+.no-scrollbar::-webkit-scrollbar { display: none; }
+.no-scrollbar { scrollbar-width: none; }
+.thin-scroll { scrollbar-width: thin; scrollbar-color: #d6dadc transparent; }
+
+/* Leaflet: quiet the default chrome so the map reads like the reference canvas. */
+.leaflet-container { background: #eef1f2; font-family: var(--font-sans); }
+.leaflet-tile-pane { filter: brightness(1.03) contrast(0.94); }
+.leaflet-control-attribution { background: rgb(246 248 248 / 0.8) !important; font-size: 10px; color: var(--color-muted); border-radius: 8px 0 0 0; }
+.leaflet-tooltip.node-tip { background: #fff; border: 1px solid var(--color-line); border-radius: 10px; box-shadow: var(--shadow-soft); font: 500 12px var(--font-sans); color: var(--color-ink); padding: 4px 8px; }
+.leaflet-tooltip.node-tip::before { display: none; }

@@ -1,0 +1,47 @@
+node_id,network_lat,network_lon,access_gap_km,status
+D:Gujarat|Amreli,21.6001873,71.2124895,0.092,on_network
+D:Gujarat|Banaskanth,24.1716847,72.4404124,0.222,on_network
+D:Gujarat|Junagarh,21.5195576,70.4606918,0.092,on_network
+D:Gujarat|Mehsana,23.5968228,72.3848857,0.203,on_network
+D:Gujarat|Rajkot,22.2921043,70.792374,0.103,on_network
+D:Gujarat|Sabarkantha,23.5990137,72.9666585,0.066,on_network
+D:Haryana|Ambala,30.3582183,76.7973155,0.312,on_network
+D:Haryana|Kurukshetra,29.9650143,76.8366714,0.083,on_network
+D:Haryana|Yamuna Nagar,30.1274146,77.2901483,0.622,on_network
+D:Kerala|Alappuzha,9.4897404,76.3265815,0.039,on_network
+D:Kerala|Ernakulam,9.9687121,76.2903194,0.175,on_network
+D:Kerala|Kottayam,9.586805,76.5211267,0.025,on_network
+D:Kerala|Malappuram,11.0417112,76.0816263,0.032,on_network
+D:Kerala|Palakad,10.7732891,76.6537774,0.017,on_network
+D:Madhya Pradesh|Dewas,22.9657132,76.0547131,0.058,on_network
+D:Madhya Pradesh|Dhar,22.5938202,75.2956903,0.211,on_network
+D:Madhya Pradesh|Rajgarh,24.0089038,76.7328165,0.078,on_network
+D:Madhya Pradesh|Ratlam,23.3292018,75.0411558,0.152,on_network
+D:Madhya Pradesh|Sagar,23.8369722,78.7393208,0.208,on_network
+D:Madhya Pradesh|Sehore,23.19986,77.0824977,0.086,on_network
+D:Madhya Pradesh|Shajapur,23.4273265,76.2797096,0.226,on_network
+D:Madhya Pradesh|Ujjain,23.1824902,75.777061,0.065,on_network
+D:Madhya Pradesh|Vidisha,23.5247431,77.8104309,0.153,on_network
+D:Maharashtra|Ahmednagar,19.0923765,74.7394483,0.266,on_network
+D:Maharashtra|Buldhana,20.5291145,76.1847512,0.03,on_network
+D:Maharashtra|Nashik,19.9969132,73.7904956,0.063,on_network
+D:Maharashtra|Pune,18.520228,73.8545318,0.113,on_network
+D:Odisha|Kendrapara,20.5018573,86.4219401,0.041,on_network
+D:Punjab|Bhatinda,30.2081766,74.9418344,0.29,on_network
+D:Punjab|Ferozpur,30.926096,74.6134479,0.051,on_network
+D:Punjab|Hoshiarpur,31.5393351,75.9130021,0.236,on_network
+D:Punjab|Jalandhar,31.325507,75.579193,0.006,on_network
+D:Punjab|Ludhiana,30.9117416,75.8536245,0.037,on_network
+D:Punjab|Mohali,30.6783887,76.7200788,0.261,on_network
+D:Punjab|Patiala,30.3363328,76.3921686,0.01,on_network
+D:Punjab|Sangrur,30.2450461,75.8446782,0.019,on_network
+D:Rajasthan|Ganganagar,29.9196652,73.8747388,0.052,on_network
+D:Rajasthan|Hanumangarh,29.5817276,74.3231398,0.604,on_network
+D:Uttar Pradesh|Agra,27.1831365,78.0161744,0.054,on_network
+D:Uttar Pradesh|Bulandshahar,28.4039802,77.8576214,0.013,on_network
+D:Uttar Pradesh|Kanpur,26.4648155,80.3483294,0.149,on_network
+D:Uttar Pradesh|Muzaffarnagar,29.4711103,77.7038172,0.053,on_network
+D:West Bengal|Burdwan,23.252531,87.8651199,0.911,on_network
+D:West Bengal|Coochbehar,26.3266387,89.4454443,0.144,on_network
+D:West Bengal|Hooghly,22.9096256,88.3976457,0.133,on_network
+D:West Bengal|Jalpaiguri,26.5152642,88.7300234,0.364,on_network

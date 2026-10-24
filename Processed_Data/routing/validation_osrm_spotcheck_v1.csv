@@ -1,0 +1,5 @@
+origin_id,dest_id,osrm_distance_km,osrm_duration_h,service,retrieved_utc
+D:Maharashtra|Nashik,D:Maharashtra|Pune,212.6,2.88,"OSRM public demo (router.project-osrm.org), car profile, OSM data ODbL",2026-10-23T21:26:46+00:00
+D:Haryana|Yamuna Nagar,D:Haryana|Ambala,59.3,1.04,"OSRM public demo (router.project-osrm.org), car profile, OSM data ODbL",2026-10-23T21:26:48+00:00
+D:Punjab|Ludhiana,D:Kerala|Ernakulam,2714.8,33.47,"OSRM public demo (router.project-osrm.org), car profile, OSM data ODbL",2026-10-23T21:26:50+00:00
+D:Gujarat|Rajkot,D:Madhya Pradesh|Ujjain,603.7,7.88,"OSRM public demo (router.project-osrm.org), car profile, OSM data ODbL",2026-10-23T21:26:52+00:00

@@ -1,6 +1,6 @@
 """
-Read-only data layer for the dashboard (spec: Documentation/BigData_and_Dashboard_Spec.md §6). Plain pandas, so it is
-testable without Streamlit. Every loader enforces its own boundary:
+Read-only data layer behind the FastAPI service (Code/api/; spec: Documentation/BigData_and_Dashboard_Spec.md §6).
+Plain pandas, so it is testable on its own. Every loader enforces its own boundary:
   - price predictions: validation only (2019-2020, origin <= 2020-12-27); test = the published one-time metrics only;
   - arrivals predictions: validation 2019-2020 and the one-time 2021-2022 test; nothing later;
   - production context: values only for source years <= 2018-19 (D-47); reserved 2019-20 .. 2021-22 as counts only,
@@ -135,17 +135,93 @@ def production_reserved_counts() -> pd.DataFrame:
                            fill_value=0).reset_index()
 
 
-def production_summary(df: pd.DataFrame, level: str = "state") -> pd.DataFrame:
-    """Totals per crop x source year x (state | district) within ONE comparability class at a time (never merged)."""
-    keys = ["crop", "source_apy_year", "annual_comparability"] + (["apy_state"] if level == "state" else ["apy_state", "apy_district"])
-    usable = df[df["pq_class"] != "unusable"]
-    return usable.groupby(keys, as_index=False).agg(districts=("apy_district", "nunique"),
-                                                    production_tonnes=("production_tonnes", "sum"),
-                                                    area_ha=("area_ha", "sum"))
-
-
 # ---------------------------------------------------------------- Big Data component
 def bigdata() -> dict[str, pd.DataFrame]:
     names = ["run_manifest", "run_log", "quality_checks", "parity_report", "district_year_spark", "weekly_state_spark",
              "top_districts_spark", "mapreduce_counts", "word_count"]
     return {n: pd.read_csv(BD / f"{n}.csv") for n in names if (BD / f"{n}.csv").exists()}
+
+
+# ---------------------------------------------------------------- market history (Spark outputs) and locations
+SPARK_END = pd.Timestamp("2020-06-30")          # the Spark ETL window: historical observations only, never live
+LATEST_FULL_YEAR, PREVIOUS_YEAR = "2019-2020", "2018-2019"
+LOCATIONS = Path("Processed_Data/integration/weather_location_resolution.csv")
+WEATHER_END = pd.Timestamp("2022-12-31")
+
+
+def agri_year(dates: pd.Series) -> pd.Series:
+    """July-June agricultural year label of a date ('2019-2020' for 2019-07-01 .. 2020-06-30)."""
+    y = dates.dt.year - (dates.dt.month < 7).astype(int)
+    return y.astype(str) + "-" + (y + 1).astype(str)
+
+
+def weekly_state() -> pd.DataFrame:
+    """Spark Q2: weekly records, markets, arrivals and median modal price per crop x state (weeks start Monday)."""
+    df = pd.read_csv(BD / "weekly_state_spark.csv", parse_dates=["week_start"])
+    _check(df["week_start"].max() <= SPARK_END, "a weekly row starts after the Spark window")
+    return df.assign(agri_year=agri_year(df["week_start"]))
+
+
+def state_year_summary(weekly: pd.DataFrame, crop: str) -> pd.DataFrame:
+    """Per state and agricultural year: total arrivals, typical (median) weekly price and markets, weeks reported."""
+    w = weekly[weekly["crop"] == crop]
+    return (w.groupby(["state", "agri_year"], as_index=False)
+            .agg(arrivals_tonnes=("arrivals_tonnes_sum", "sum"), typical_price=("modal_price_median", "median"),
+                 typical_markets=("markets", "median"), weeks=("week_start", "nunique")))
+
+
+def overview_kpis(weekly: pd.DataFrame, crop: str, state: str) -> dict:
+    """Headline figures for one crop and state in the latest full agricultural year, with the previous year."""
+    s = state_year_summary(weekly, crop)
+    rows = s[s["state"] == state].set_index("agri_year")
+    _check(LATEST_FULL_YEAR in rows.index, f"no {crop} data for {state} in {LATEST_FULL_YEAR}")
+    cur = rows.loc[LATEST_FULL_YEAR]
+    prev = rows.loc[PREVIOUS_YEAR] if PREVIOUS_YEAR in rows.index else None
+    change = lambda c: None if prev is None or not prev[c] else round(100 * (cur[c] / prev[c] - 1), 1)
+    return {"year": LATEST_FULL_YEAR, "previous_year": PREVIOUS_YEAR,
+            "arrivals_tonnes": float(cur["arrivals_tonnes"]), "arrivals_change_pct": change("arrivals_tonnes"),
+            "typical_price_rs_per_quintal": float(cur["typical_price"]), "price_change_pct": change("typical_price"),
+            "typical_markets_per_week": float(cur["typical_markets"]), "weeks_reported": int(cur["weeks"])}
+
+
+def top_districts() -> pd.DataFrame:
+    df = pd.read_csv(BD / "top_districts_spark.csv")
+    _check(df["apy_year"].max() <= LATEST_FULL_YEAR, "a district ranking after the Spark window")
+    return df
+
+
+def verified_locations() -> pd.DataFrame:
+    """The 46 district reference points verified in Phase 4 (D-16). District points, not market or warehouse sites."""
+    df = pd.read_csv(LOCATIONS)
+    df = df[df["weather_status"] == "ok"]
+    _check(df[["latitude", "longitude"]].notna().all().all(), "a verified location without coordinates")
+    return (df[["state", "district", "crops", "latitude", "longitude", "resolution_status", "weather_file"]]
+            .sort_values(["state", "district"]).reset_index(drop=True))
+
+
+CROSSWALK = Path("Processed_Data/integration/district_crosswalk.csv")
+
+
+def location_activity(crop: str) -> pd.DataFrame:
+    """Verified points with the crop's latest full-year district activity (Spark Q1), joined only through the
+    reviewed D-18 crosswalk. Points without a crosswalk or district-year match keep empty activity fields."""
+    locs = verified_locations().reset_index(names="id")
+    cw = pd.read_csv(CROSSWALK)
+    cw = cw[cw["crop"] == crop][["state", "district", "apy_state", "apy_district"]]
+    dy = pd.read_csv(BD / "district_year_spark.csv")
+    dy = dy[(dy["crop"] == crop) & (dy["apy_year"] == LATEST_FULL_YEAR)][
+        ["apy_state", "apy_district", "mandi_records", "mandi_markets", "mandi_arrivals_tonnes_sum", "mandi_modal_price_median"]]
+    m = (locs.merge(cw, on=["state", "district"], how="left", validate="1:1")
+         .merge(dy, on=["apy_state", "apy_district"], how="left", validate="m:1"))
+    return m.drop(columns=["weather_file"]).assign(year=LATEST_FULL_YEAR)
+
+
+def location_climate(weather_file: str) -> pd.DataFrame:
+    """Monthly climatology from the historical Open-Meteo archive (2001-2022): average monthly rainfall total (mm)
+    and average daily maximum temperature (°C). Historical only; says nothing about current road conditions."""
+    w = pd.read_csv(Path(str(weather_file).replace("\\", "/")), usecols=["date", "rain_sum", "temperature_2m_max"],
+                    parse_dates=["date"])
+    _check(w["date"].max() <= WEATHER_END, "weather after the collected historical window")
+    m = (w.assign(year=w["date"].dt.year, month=w["date"].dt.month).groupby(["year", "month"], as_index=False)
+         .agg(rain_mm=("rain_sum", "sum"), tmax_c=("temperature_2m_max", "mean")))
+    return m.groupby("month", as_index=False).agg(rain_mm=("rain_mm", "mean"), tmax_c=("tmax_c", "mean"))
